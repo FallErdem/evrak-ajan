@@ -94,7 +94,28 @@ BELGE_TURLERI = [
     "bilinmiyor",
 ]
 
-SEMA = {
+# İki şema, bilerek. Ollama şemayı üretim sırasında dilbilgisi kısıtı olarak
+# uyguluyor; ama ilk koşuda iki şey öğrendik:
+#   1. Sayısal aralıkları (minimum/maximum) ZORLAMIYOR — guven alanına 703
+#      gelebiliyor ve çıktı hâlâ "geçerli" sayılıyor.
+#   2. maxLength kısıtı üretimi felç ediyor — Qwen'de beş çağrı 17 dakika sürdü,
+#      aynı model şemasız beş cevabı 26 saniyede verdi.
+# Sonuç: enum kısıtı değerli ve ucuz, uzunluk/aralık kısıtları pahalı ve
+# güvenilmez. Onları şemadan çıkarıp Python tarafında doğruluyoruz.
+
+SEMA_SADE = {
+    "type": "object",
+    "properties": {
+        "belge_turu": {"type": "string", "enum": BELGE_TURLERI},
+        "guven": {"type": "number"},
+        "gerekce": {"type": "string"},
+    },
+    "required": ["belge_turu", "guven", "gerekce"],
+}
+
+# Eski hâli. --sema katmanli ile ölçülebilsin diye duruyor; aradaki süre farkı
+# Parça 10'un ablasyon tablosunda bir satır.
+SEMA_KATMANLI = {
     "type": "object",
     "properties": {
         "belge_turu": {"type": "string", "enum": BELGE_TURLERI},
@@ -103,6 +124,12 @@ SEMA = {
     },
     "required": ["belge_turu", "guven", "gerekce"],
 }
+
+SEMA = SEMA_SADE  # main() --sema ile değiştirebilir
+
+# Şemadan çıkardığımız kısıtların Python tarafındaki karşılıkları
+GEREKCE_AZAMI_KARAKTER = 300
+GUVEN_ALT, GUVEN_UST = 0.0, 1.0
 
 ESIKLER = {
     "B_dogru_oran": 0.80,   # 5 belgede en az 4
@@ -464,6 +491,32 @@ def _ilerleme_bitir() -> None:
     print("\r" + " " * 60 + "\r", end="", flush=True)
 
 
+def bosluk_kaybi_var_mi(metin: str, esik: int = 30) -> bool:
+    """Kelimeler birbirine yapışmış mı.
+
+    Kumru'nun ilk koşusunda 'YenimahalleilçesiBatıkentMahallesi...' gibi
+    çıktılar geldi. Türkçe'de 30 karakteri aşan tek kelime pratikte yok;
+    aşıyorsa çözümlemede boşluk kaybı var demektir.
+    """
+    if not metin:
+        return False
+    return any(len(parca) > esik for parca in metin.split())
+
+
+def guven_cozumle(ham: Any) -> tuple[float | None, bool]:
+    """Güven değerini sayıya çevir ve aralıkta olup olmadığını söyle.
+
+    (sayi, aralikta) döner. Ollama 'number' tipini zorluyor ama aralığı
+    zorlamıyor; ilk koşuda 703.487 ve 90.0 gibi değerler geldi. Aralık dışı
+    değer, modelin güven skorunun kalibre olmadığının doğrudan kanıtıdır ve
+    ortalamalara karıştırılmamalıdır.
+    """
+    if isinstance(ham, bool) or not isinstance(ham, (int, float)):
+        return None, False
+    sayi = float(ham)
+    return sayi, GUVEN_ALT <= sayi <= GUVEN_UST
+
+
 def test_a(model: str) -> dict:
     """Model yanıt veriyor mu, hangi dilde."""
     y = sohbet(
@@ -556,8 +609,12 @@ def test_b(model: str, belgeler: list[Belge]) -> dict:
 
 def _sema_istemi(metin: str) -> str:
     return (
-        "Aşağıdaki belgeyi sınıflandır. Belgenin türünden emin değilsen "
-        "belge_turu alanına 'bilinmiyor' yaz ve guven değerini düşük ver.\n\n"
+        "Aşağıdaki belgeyi sınıflandır.\n"
+        "- belge_turu: verilen seçeneklerden birini seç.\n"
+        "- guven: 0 ile 1 arasında bir ondalık sayı yaz (örnek: 0.85).\n"
+        "- gerekce: en fazla iki cümle, Türkçe.\n"
+        "Belgenin türünden emin değilsen belge_turu alanına 'bilinmiyor' yaz "
+        "ve guven değerini düşük ver.\n\n"
         "--- BELGE BAŞLANGICI ---\n"
         f"{metin}\n"
         "--- BELGE SONU ---"
@@ -565,34 +622,47 @@ def _sema_istemi(metin: str) -> str:
 
 
 def test_c(model: str, belgeler: list[Belge], tekrar: int) -> dict:
-    """Şemalı çıktı: geçerlilik, doğruluk, Türkçe bütünlüğü, tutarlılık."""
-    dusun = False
-    hedefler = [b for b in belgeler if b.b_dahil]
+    """Şemalı çıktı: geçerlilik, doğruluk, Türkçe bütünlüğü, tutarlılık.
 
+    Şemadan çıkardığımız kısıtlar (guven aralığı, gerekce uzunluğu) burada
+    Python tarafında denetleniyor. İhlaller ayrı ölçüt olarak raporlanıyor —
+    çünkü 'şema neyi garanti eder, neyi etmez' sorusunun cevabı bu sayılar.
+    """
+    hedefler = [b for b in belgeler if b.b_dahil]
     kayitlar: list[dict] = []
     belge_bazli: dict[str, list[str | None]] = {b.id: [] for b in hedefler}
 
+    toplam_cagri = len(hedefler) * tekrar
+    sayac = 0
+
     for belge in hedefler:
         for tur_no in range(tekrar):
+            sayac += 1
+            _ilerleme(sayac, toplam_cagri, "çağrı")
+
             y = sohbet(
                 model,
                 _sema_istemi(belge.metin),
                 sema=SEMA,
-                dusun=dusun,
+                dusun=False,
                 num_predict=400,
             )
+
             kayit: dict[str, Any] = {
                 "belge": belge.id,
                 "tur": tur_no + 1,
                 "beklenen": belge.belge_turu,
                 "hata": y.hata,
+                "sure_ms": round(y.duvar_saati_ms, 0),
             }
 
             if not y.basarili:
-                kayit.update(
-                    {"gecerli_json": False, "sema_uyumlu": False,
-                     "dogru": False, "turkce_saglam": False, "secilen": None}
-                )
+                kayit.update({
+                    "gecerli_json": False, "sema_uyumlu": False, "dogru": False,
+                    "turkce_saglam": False, "secilen": None,
+                    "guven_aralikta": False, "gerekce_kisa": False,
+                    "bosluk_saglam": False,
+                })
                 kayitlar.append(kayit)
                 belge_bazli[belge.id].append(None)
                 continue
@@ -601,23 +671,24 @@ def test_c(model: str, belgeler: list[Belge], tekrar: int) -> dict:
                 cikti = json.loads(y.metin)
                 kayit["gecerli_json"] = True
             except json.JSONDecodeError as e:
-                kayit.update(
-                    {"gecerli_json": False, "sema_uyumlu": False, "dogru": False,
-                     "turkce_saglam": False, "secilen": None,
-                     "cozumleme_hatasi": str(e), "ham": y.metin[:300]}
-                )
+                kayit.update({
+                    "gecerli_json": False, "sema_uyumlu": False, "dogru": False,
+                    "turkce_saglam": False, "secilen": None,
+                    "guven_aralikta": False, "gerekce_kisa": False,
+                    "bosluk_saglam": False,
+                    "cozumleme_hatasi": str(e), "ham": y.metin[:300],
+                })
                 kayitlar.append(kayit)
                 belge_bazli[belge.id].append(None)
                 continue
 
             secilen = cikti.get("belge_turu")
-            guven = cikti.get("guven")
             gerekce = cikti.get("gerekce") or ""
+            guven_sayi, guven_aralikta = guven_cozumle(cikti.get("guven"))
 
             alanlar_tam = all(k in cikti for k in SEMA["required"])
             enum_ici = secilen in BELGE_TURLERI
-            guven_gecerli = isinstance(guven, (int, float)) and 0 <= guven <= 1
-            kayit["sema_uyumlu"] = bool(alanlar_tam and enum_ici and guven_gecerli)
+            kayit["sema_uyumlu"] = bool(alanlar_tam and enum_ici)
 
             kabul = [belge.belge_turu, *belge.alternatif_kabul]
             kayit["dogru"] = secilen in kabul
@@ -628,8 +699,18 @@ def test_c(model: str, belgeler: list[Belge], tekrar: int) -> dict:
             kayit["turkce_sebep"] = sebep
             kayit["gerekce_turkce"] = turkce_gorunuyor_mu(gerekce)
 
-            kayit.update({"secilen": secilen, "guven": guven,
-                          "gerekce": gerekce[:250]})
+            # Şemadan çıkardığımız kısıtların Python karşılıkları
+            kayit["guven_aralikta"] = guven_aralikta
+            kayit["gerekce_kisa"] = len(gerekce) <= GEREKCE_AZAMI_KARAKTER
+            kayit["bosluk_saglam"] = not bosluk_kaybi_var_mi(gerekce)
+
+            kayit.update({
+                "secilen": secilen,
+                "guven_ham": cikti.get("guven"),
+                "guven": guven_sayi,
+                "gerekce_uzunluk": len(gerekce),
+                "gerekce": gerekce[:250],
+            })
             kayitlar.append(kayit)
             belge_bazli[belge.id].append(secilen)
 
@@ -645,16 +726,20 @@ def test_c(model: str, belgeler: list[Belge], tekrar: int) -> dict:
         if cevaplar and len(set(cevaplar)) == 1
     )
 
-    # Yanlış cevaplarda ortalama güven — güven eşiğiyle ayıklama yapılabilir mi
+    # Güven ortalamaları YALNIZCA aralıktaki değerlerden hesaplanır.
+    # 703.487 gibi bir değeri ortalamaya katmak sayıyı anlamsız kılıyordu.
     yanlis_guvenler = [
         k["guven"] for k in kayitlar
         if k.get("gecerli_json") and not k.get("dogru")
-        and isinstance(k.get("guven"), (int, float))
+        and k.get("guven_aralikta") and k.get("guven") is not None
     ]
     dogru_guvenler = [
         k["guven"] for k in kayitlar
-        if k.get("dogru") and isinstance(k.get("guven"), (int, float))
+        if k.get("dogru") and k.get("guven_aralikta")
+        and k.get("guven") is not None
     ]
+
+    sureler = [k["sure_ms"] for k in kayitlar if k.get("sure_ms")]
 
     c1 = oran("gecerli_json")
     c2 = oran("dogru")
@@ -671,8 +756,13 @@ def test_c(model: str, belgeler: list[Belge], tekrar: int) -> dict:
         "C4_turkce_saglam": c4,
         "C4_gecti": c4 >= ESIKLER["C4_turkce"],
         "gerekce_turkce_orani": oran("gerekce_turkce"),
+        "guven_aralikta_orani": oran("guven_aralikta"),
+        "gerekce_kisa_orani": oran("gerekce_kisa"),
+        "bosluk_saglam_orani": oran("bosluk_saglam"),
         "tutarli_belge": tutarli_belge,
         "belge_sayisi": len(hedefler),
+        "cagri_sure_medyan_ms": round(statistics.median(sureler)) if sureler else None,
+        "cagri_sure_azami_ms": round(max(sureler)) if sureler else None,
         "yanlisda_ortalama_guven": (
             round(statistics.fmean(yanlis_guvenler), 3) if yanlis_guvenler else None
         ),
@@ -684,25 +774,38 @@ def test_c(model: str, belgeler: list[Belge], tekrar: int) -> dict:
 
 
 def test_c3(model: str, belgeler: list[Belge], tekrar: int) -> dict:
-    """Belirsizlik farkındalığı: bozuk belgede 'bilinmiyor' ya da düşük güven."""
+    """Belirsizlik farkındalığı: bozuk belgede 'bilinmiyor' ya da düşük güven.
+
+    Düşük güven sayılabilmesi için değerin ÖNCE aralıkta olması gerekiyor.
+    Aksi hâlde -5 gibi bir değer '0.5'ten küçük' diye geçer sayılırdı.
+    """
     hedefler = [b for b in belgeler if b.c3_dahil]
     if not hedefler:
         return {"atlandi": True, "sebep": "c3_dahil işaretli belge yok"}
 
-    dusun = False
     kayitlar = []
+    toplam_cagri = len(hedefler) * tekrar
+    sayac = 0
+
     for belge in hedefler:
         for tur_no in range(tekrar):
+            sayac += 1
+            _ilerleme(sayac, toplam_cagri, "çağrı")
+
             y = sohbet(
                 model, _sema_istemi(belge.metin), sema=SEMA,
-                dusun=dusun, num_predict=400,
+                dusun=False, num_predict=400,
             )
-            kayit: dict[str, Any] = {"belge": belge.id, "tur": tur_no + 1,
-                                     "hata": y.hata}
+            kayit: dict[str, Any] = {
+                "belge": belge.id, "tur": tur_no + 1, "hata": y.hata,
+                "sure_ms": round(y.duvar_saati_ms, 0),
+            }
+
             if not y.basarili:
                 kayit["gecti"] = False
                 kayitlar.append(kayit)
                 continue
+
             try:
                 cikti = json.loads(y.metin)
             except json.JSONDecodeError:
@@ -711,18 +814,19 @@ def test_c3(model: str, belgeler: list[Belge], tekrar: int) -> dict:
                 continue
 
             secilen = cikti.get("belge_turu")
-            guven = cikti.get("guven")
-            dusuk_guven = isinstance(guven, (int, float)) and guven < 0.5
-            kayit.update(
-                {
-                    "secilen": secilen,
-                    "guven": guven,
-                    "bilinmiyor_dedi": secilen == "bilinmiyor",
-                    "dusuk_guven": dusuk_guven,
-                    "gecti": secilen == "bilinmiyor" or dusuk_guven,
-                    "gerekce": (cikti.get("gerekce") or "")[:250],
-                }
-            )
+            guven_sayi, guven_aralikta = guven_cozumle(cikti.get("guven"))
+            dusuk_guven = guven_aralikta and guven_sayi is not None and guven_sayi < 0.5
+
+            kayit.update({
+                "secilen": secilen,
+                "guven_ham": cikti.get("guven"),
+                "guven": guven_sayi,
+                "guven_aralikta": guven_aralikta,
+                "bilinmiyor_dedi": secilen == "bilinmiyor",
+                "dusuk_guven": dusuk_guven,
+                "gecti": secilen == "bilinmiyor" or dusuk_guven,
+                "gerekce": (cikti.get("gerekce") or "")[:250],
+            })
             kayitlar.append(kayit)
 
     _ilerleme_bitir()
@@ -925,7 +1029,8 @@ def markdown_rapor(rapor: dict) -> str:
         f"**Tarih:** {o['tarih']}  ",
         f"**Ollama:** {o['ollama_surumu']}  ",
         f"**Bağlam:** {o['num_ctx']} · **Sıcaklık:** {o['sicaklik']} · "
-        f"**keep_alive:** {o['keep_alive']}  ",
+        f"**keep_alive:** {o['keep_alive']} · "
+        f"**Şema:** {o.get('sema_kipi', 'sade')}  ",
         f"**Makine notu:** {o.get('makine', '(belirtilmedi — --makine ile geçin)')}",
         "",
         "> Ölçüm koşulları yeniden üretilebilirlik için kaydedilmiştir "
@@ -974,6 +1079,36 @@ def markdown_rapor(rapor: dict) -> str:
         f"C1 = %100 · C2 ≥ %{ESIKLER['C2_dogru'] * 100:.0f} · "
         f"C3 ≥ %{ESIKLER['C3_belirsizlik'] * 100:.0f} · C4 = %100",
         "",
+        "## Şema sağlığı",
+        "",
+        "Şemanın garanti ETTİĞİ ile etmediğini ayıran tablo. Enum kısıtı "
+        "üretim sırasında zorlanıyor; sayısal aralık ve uzunluk zorlanmıyor, "
+        "bu yüzden Python tarafında denetleniyor.",
+        "",
+        "| Model | Enum içi | Güven 0-1 aralığında | Gerekçe ≤300 | "
+        "Boşluk sağlam | Çağrı süresi medyan | Çağrı süresi en yüksek |",
+        "|---|---|---|---|---|---|---|",
+    ]
+
+    for m in rapor["modeller"]:
+        c = m.get("C")
+        if not c:
+            s.append(f"| `{m['model']}` | — | — | — | — | — | — |")
+            continue
+        med = c.get("cagri_sure_medyan_ms")
+        azm = c.get("cagri_sure_azami_ms")
+        s.append(
+            f"| `{m['model']}` "
+            f"| %{c['sema_uyumlu'] * 100:.0f} "
+            f"| %{c['guven_aralikta_orani'] * 100:.0f} "
+            f"| %{c['gerekce_kisa_orani'] * 100:.0f} "
+            f"| %{c['bosluk_saglam_orani'] * 100:.0f} "
+            f"| {f'{med / 1000:.1f} sn' if med else '—'} "
+            f"| {f'{azm / 1000:.1f} sn' if azm else '—'} |"
+        )
+
+    s += [
+        "",
         "## Hız ve ADIM 4 hesabı",
         "",
         f"Varsayım: uçtan uca {UCTAN_UCA_CAGRI} LLM çağrısı × "
@@ -1019,6 +1154,11 @@ def markdown_rapor(rapor: dict) -> str:
         "- **C3 modelin dürüstlüğünü ölçer.** Okunamayan bir parçaya yüksek "
         "güvenle tür atayan model, gerçek OCR hatalarında sessizce yanlış "
         "karar üretir.",
+        "- **Güven aralığı şema ile korunmuyor.** İlk koşuda 703.487 ve 90.0 "
+        "gibi değerler geldi. Güven skoru kullanılacaksa Python tarafında "
+        "doğrulanmalı ve aralık dışı değer 'kalibre değil' sayılmalıdır.",
+        "- **Boşluk sağlamlığı** çözümleme kalitesini ölçer. Kelimelerin "
+        "birbirine yapıştığı bir model, belge işleme hattında kullanılamaz.",
         "- **Düşünme kipi kıyaslaması** Parça 10'un ablasyon tablosunda "
         "doğrudan bir satırdır.",
         "",
@@ -1071,6 +1211,16 @@ def kendi_testi(veri_dizini: Path) -> int:
             turkce_gorunuyor_mu("Bu bir üst yazıdır.")
             and not turkce_gorunuyor_mu("This is a cover letter."))
 
+    kontrol("boşluk kaybı yakalanıyor",
+            bosluk_kaybi_var_mi("YenimahalleilçesiBatıkentMahallesi1453Sokak"))
+    kontrol("normal cümle boşluk kaybı sayılmıyor",
+            not bosluk_kaybi_var_mi("Bu bir üst yazıdır ve ekleri vardır."))
+    kontrol("güven 0.85 aralıkta", guven_cozumle(0.85) == (0.85, True))
+    kontrol("güven 703.487 aralık dışı", guven_cozumle(703.487)[1] is False)
+    kontrol("güven -5 aralık dışı", guven_cozumle(-5)[1] is False)
+    kontrol("güven metin ise sayı değil", guven_cozumle("yüksek") == (None, False))
+    kontrol("güven True sayı sayılmıyor", guven_cozumle(True) == (None, False))
+
     print("\nVeri kümesi:")
     try:
         belgeler = belgeleri_yukle(veri_dizini)
@@ -1097,8 +1247,14 @@ def kendi_testi(veri_dizini: Path) -> int:
     kontrol("şartname 6.4.2'nin üç türü şemada",
             all(t in BELGE_TURLERI for t in
                 ("ust_yazi", "cevap_yazisi", "bilgilendirme_yazisi")))
-    kontrol("şema JSON'a çevrilebiliyor",
-            isinstance(json.dumps(SEMA), str))
+    kontrol("sade şemada uzunluk/aralık kısıtı yok",
+            "maxLength" not in json.dumps(SEMA_SADE)
+            and "maximum" not in json.dumps(SEMA_SADE))
+    kontrol("katmanlı şema karşılaştırma için duruyor",
+            "maxLength" in json.dumps(SEMA_KATMANLI))
+    kontrol("iki şema da JSON'a çevrilebiliyor",
+            isinstance(json.dumps(SEMA_SADE), str)
+            and isinstance(json.dumps(SEMA_KATMANLI), str))
 
     print(f"\n{'Tümü geçti.' if hatalar == 0 else f'{hatalar} kontrol başarısız.'}")
     return 0 if hatalar == 0 else 1
@@ -1109,7 +1265,7 @@ def kendi_testi(veri_dizini: Path) -> int:
 # =============================================================================
 
 def main() -> int:
-    global NUM_CTX
+    global NUM_CTX, AYRINTI, SEMA
 
     # Windows konsolu cp1254 olabiliyor; Türkçe çıktı bozulmasın.
     for akis in (sys.stdout, sys.stderr):
@@ -1142,6 +1298,10 @@ def main() -> int:
                    help="rapora yazılacak makine notu, ör: 'RTX 2070 8GB'")
     p.add_argument("--hizli", action="store_true",
                    help="duman testi: tekrarları 1'e indirir")
+    p.add_argument("--sema", choices=["sade", "katmanli"], default="sade",
+                   help="sade: enum disinda kisit yok (varsayilan). "
+                        "katmanli: maxLength/min/max da semada — yavas, "
+                        "karsilastirma icin.")
     p.add_argument("--ayrinti", action="store_true",
                    help="Test B'de modellerin ham cevaplarını ekrana bas")
     p.add_argument("--kendi-testi", action="store_true",
@@ -1151,7 +1311,6 @@ def main() -> int:
     if args.kendi_testi:
         return kendi_testi(args.veri)
 
-    global AYRINTI
     AYRINTI = args.ayrinti
 
     if args.hizli:
@@ -1160,6 +1319,7 @@ def main() -> int:
               "kullanılmaz, yalnızca akış denetimi.\n")
 
     NUM_CTX = args.baglam
+    SEMA = SEMA_KATMANLI if args.sema == "katmanli" else SEMA_SADE
     args.testler = [t.strip().lower() for t in args.testler.split(",")]
 
     ayakta, surum = ollama_ayakta_mi()
@@ -1202,6 +1362,7 @@ def main() -> int:
             "keep_alive": KEEP_ALIVE,
             "sistem_istemi": SISTEM_ISTEMI,
             "makine": args.makine,
+            "sema_kipi": args.sema,
             "testler": args.testler,
             "tekrar": args.tekrar,
             "hizli_kip": args.hizli,

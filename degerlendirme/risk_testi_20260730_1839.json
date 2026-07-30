@@ -1,0 +1,1322 @@
+{
+  "ortam": {
+    "tarih": "2026-07-30T18:18:20+03:00",
+    "ollama_surumu": "0.32.5",
+    "num_ctx": 4096,
+    "sicaklik": 0.3,
+    "keep_alive": "30m",
+    "sistem_istemi": "Sen bir Türk kamu kurumunun evrak kayıt biriminde çalışan uzmandır. Resmî yazışma kurallarını bilirsin ve gelen belgeleri türlerine göre sınıflandırırsın. Yanıtlarını Türkçe verirsin.",
+    "makine": "RTX 2070 8GB",
+    "testler": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "tekrar": 1,
+    "hizli_kip": true,
+    "toplam_sure_sn": 1281.9
+  },
+  "esikler": {
+    "B_dogru_oran": 0.8,
+    "C1_gecerli": 1.0,
+    "C2_dogru": 0.85,
+    "C3_belirsizlik": 0.8,
+    "C4_turkce": 1.0
+  },
+  "modeller": [
+    {
+      "model": "alibayram/kumru",
+      "yetenekler": [
+        "completion"
+      ],
+      "dusunme_yetenegi": false,
+      "A": {
+        "gecti": true,
+        "turkce": true,
+        "hata": null,
+        "yanit": "Resmî yazının başlık (üst bilgi) bölümünde genellikle yazının konusu, tarihi, gönderen kurumu, alıcı(lar), konu ile ilgili açıklamalar, istenen belgeler ve varsa ekler yer alır."
+      },
+      "gpu_orani": 1.0,
+      "B": {
+        "dogru": 1,
+        "toplam": 5,
+        "oran": 0.2,
+        "esik": 0.8,
+        "gecti": false,
+        "kayitlar": [
+          {
+            "gecti": true,
+            "vurulan_grup": 2,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "ust yazi",
+                  "ust yaz",
+                  "ekte",
+                  "ekli",
+                  "ek gonder",
+                  "gonderme",
+                  "iletme",
+                  "gonderilen"
+                ],
+                "vuran": [
+                  "gonderilen"
+                ]
+              },
+              {
+                "grup": [
+                  "dagitim",
+                  "valilik",
+                  "81 il",
+                  "il valilik"
+                ],
+                "vuran": []
+              },
+              {
+                "grup": [
+                  "rehber",
+                  "sifir atik",
+                  "guncelle",
+                  "uygulama rehberi"
+                ],
+                "vuran": [
+                  "rehber",
+                  "sifir atik",
+                  "guncelle",
+                  "uygulama rehberi"
+                ]
+              }
+            ],
+            "belge": "B01",
+            "beklenen_tur": "ust_yazi",
+            "yanit": "**Belge Başlangıcı**  \nT.C. Çevre Şehircilik ve İklim Değişikliği Bakanlığı, Yerel yönetimler Genel Müdürlüğü tarafından gönderilen Sıfır Atık (Çevre Yönetimi) Sistemi Uygulama Rehberi'nin özetidir.\n\n**Belgenin Türü:**  \nResmî yazışma\n\n**Belgenin Kimden/Kime Gönderildiği:**  \nİlgi: 27.03.2026 tarihli, E-71368504-010.06.01-4471829 sayılı yazı.\n\n**Ne İstendiği:**  \nSıfır Atık (Çevre Yönetimi) Sistemi Uygulama Rehberi'nin güncellenmiş versiyonu.\n\n**Belge Sonu**",
+            "turkce": true
+          },
+          {
+            "gecti": false,
+            "vurulan_grup": 1,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "cevap",
+                  "yanit",
+                  "cevaben",
+                  "karsilik",
+                  "ilgi yazi",
+                  "talep edilen bilgi"
+                ],
+                "vuran": []
+              },
+              {
+                "grup": [
+                  "hasar",
+                  "don",
+                  "tespit",
+                  "zirai",
+                  "zarar"
+                ],
+                "vuran": [
+                  "hasar",
+                  "don",
+                  "tespit",
+                  "zirai"
+                ]
+              },
+              {
+                "grup": [
+                  "valilik",
+                  "il mudurlugu",
+                  "bakanlik",
+                  "arz"
+                ],
+                "vuran": []
+              }
+            ],
+            "belge": "B02",
+            "beklenen_tur": "cevap_yazisi",
+            "yanit": "**Belge Başlangıcı:**  \nT.C. ANKARA VALİLİĞİ İl Tarım veOrmanMüdürlüğü\n\nİlgi: 09.06.2026 tarihli, E-13471285-320.05.03-9914602 sayılı yazı.\n\nKonu: ZiraiDonHasarTespitiHakkında\nTARIM VE ORMAN BAKANLIĞINA (Bitkisel Üretim GenelMüdürlüğü)\nİlgi: 09.06.2026 tarihli, E-13471285-320.05.03-9914602 sayılı yazı.\n\nİlgi: 09.06.2026 tarihli, E-13471285-320.05.03-9914602 sayılı yazı.\n\nTARIM VE ORMAN BAKANLIĞINA (Bitkisel Üretim GenelMüdürlüğü)\nİlgi: 09.06.2026 tarihli, E-13471285-320",
+            "turkce": true
+          },
+          {
+            "gecti": false,
+            "vurulan_grup": 1,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "bilgilendirme",
+                  "bilgi",
+                  "duyuru",
+                  "genelge",
+                  "bildirim",
+                  "bilgilendirici"
+                ],
+                "vuran": []
+              },
+              {
+                "grup": [
+                  "yonetmelik",
+                  "mevzuat",
+                  "degisiklik",
+                  "parasal sinir",
+                  "tasinir"
+                ],
+                "vuran": [
+                  "yonetmelik",
+                  "degisiklik",
+                  "parasal sinir",
+                  "tasinir"
+                ]
+              },
+              {
+                "grup": [
+                  "dagitim",
+                  "kamu idare",
+                  "idarelere"
+                ],
+                "vuran": []
+              }
+            ],
+            "belge": "B03",
+            "beklenen_tur": "bilgilendirme_yazisi",
+            "yanit": "**Belge Sonu (Açıklama):**\n\nBu belge, T.C. Hazine ve Maliye Bakanlığı'na bağlı Muhasebat Genel Müdürlüğü tarafından yayımlanan bir belgedir ve taşınır malların kayıtlardan çıkarılmasına dair parasal sınırın yeniden belirlenmesini konu alır. 01 Şubat 2026 itibarıyla yürürlüğe giren bu düzenleme, taşınır işlemlerinin belirtilen esaslara göre yürütülmesini zorunlu kılar.\n\nBelgede ayrıca, ilgili yönetmelikte yapılan değişiklikler ve yeni parasal sınırlar belirtilmiştir. Tüm idarelerin bu düzenlemelere uyması gerektiği vurgulanmıştır.",
+            "turkce": true
+          },
+          {
+            "gecti": false,
+            "vurulan_grup": 1,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "dilekce",
+                  "basvuru",
+                  "talep",
+                  "sikayet",
+                  "istek",
+                  "ihbar"
+                ],
+                "vuran": []
+              },
+              {
+                "grup": [
+                  "vatandas",
+                  "kisi",
+                  "sahis",
+                  "gercek kisi",
+                  "birey"
+                ],
+                "vuran": []
+              },
+              {
+                "grup": [
+                  "park",
+                  "aydinlatma",
+                  "ariza",
+                  "belediye"
+                ],
+                "vuran": [
+                  "park",
+                  "aydinlatma",
+                  "ariza",
+                  "belediye"
+                ]
+              }
+            ],
+            "belge": "B04",
+            "beklenen_tur": "vatandas_dilekcesi",
+            "yanit": "**Belge Başlangıcı:**  \nANKARA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞINA\n\n     YenimahalleilçesiBatıkentMahallesi1453.SokaküzerindebulunanŞehitAliKayaParkı'nınaydınlatmadireklerininyaklaşıküçhaftadırarızalıolduğu,akşamsaatlerindeparkalanınıntamamenkaranlıkkaldığıgörülmektedir.\n\n     Parkçevresindeçoksayıdaapartmanbulunmaktaolup,alanakşamsaatlerindeçocukluailelertarafındanyoğunbiçimdekullanılmaktadır.Aydınlatmanınbulunmamasınedeniylegüvenliksorunuoluştuğuveyürüyüşyolundakırılmışcamparçalarınınbiriktiğitespitedilmiştir.\n\n     Konuhakkında08.07.2026 tarihindeçağrımerkezinebildirimyapılmış,ancakbugünekadarherhangibirçalışmabaşlatılmamıştır. \n\n     Sözkonusuarizanıngiderilmesiveparkalanınındenetlenmesihususundagereğiniarzederim. \n\n                                                       22.07.2026\n                                                       MerveŞAHİNKAYA\nT.C. KimlikNo: 10000000140\nAdres          : Bat",
+            "turkce": true
+          },
+          {
+            "gecti": false,
+            "vurulan_grup": 1,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "duyuru",
+                  "ilan",
+                  "bilgilendirme",
+                  "davet",
+                  "duyurulmasi"
+                ],
+                "vuran": []
+              },
+              {
+                "grup": [
+                  "egitim",
+                  "hizmet ici",
+                  "program",
+                  "kurs",
+                  "seminer"
+                ],
+                "vuran": [
+                  "egitim",
+                  "hizmet ici"
+                ]
+              },
+              {
+                "grup": [
+                  "basvuru",
+                  "kontenjan",
+                  "son tarih",
+                  "gunludur",
+                  "sure",
+                  "mesai bitimi"
+                ],
+                "vuran": []
+              }
+            ],
+            "belge": "B05",
+            "beklenen_tur": "duyuru",
+            "yanit": "Belge Sonu:\nDağıtım Yerlerine: Emniyet Mahallesi, Bandırma Caddesi, No:6/1 Yenimahalle/ANKARA\nAyrıntılı: Hizmet İçiEğitimŞubesi\nTelefon: (0312) 000 00 00",
+            "turkce": true
+          }
+        ]
+      },
+      "C": {
+        "toplam_deneme": 5,
+        "C1_gecerli_json": 1.0,
+        "C1_gecti": true,
+        "C2_dogru": 0.4,
+        "C2_gecti": false,
+        "C2_tam_isabet": 0.2,
+        "sema_uyumlu": 0.2,
+        "C4_turkce_saglam": 1.0,
+        "C4_gecti": true,
+        "gerekce_turkce_orani": 1.0,
+        "tutarli_belge": 5,
+        "belge_sayisi": 5,
+        "yanlisda_ortalama_guven": 703.487,
+        "dogruda_ortalama_guven": 125.25,
+        "kayitlar": [
+          {
+            "belge": "B01",
+            "tur": 1,
+            "beklenen": "ust_yazi",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": false,
+            "dogru": false,
+            "tam_isabet": false,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilgilendirme_yazisi",
+            "guven": 4,
+            "gerekce": "Belgenin türü belirtilmemiştir. Belge türü hakkında emin değilseniz 'bilinmiyor' yazabilir ve 'guven' değerini düşük verebilirsiniz."
+          },
+          {
+            "belge": "B02",
+            "tur": 1,
+            "beklenen": "cevap_yazisi",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": false,
+            "dogru": false,
+            "tam_isabet": false,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilgilendirme_yazisi",
+            "guven": 1806.4602,
+            "gerekce": "Belirtilmemiş"
+          },
+          {
+            "belge": "B03",
+            "tur": 1,
+            "beklenen": "bilgilendirme_yazisi",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": false,
+            "dogru": true,
+            "tam_isabet": true,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilgilendirme_yazisi",
+            "guven": 250,
+            "gerekce": "Belgenin türü belirtilmemiştir. Belgedeki bilgiler doğrultusunda sınıflandırma yapılmıştır."
+          },
+          {
+            "belge": "B04",
+            "tur": 1,
+            "beklenen": "vatandas_dilekcesi",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": false,
+            "dogru": false,
+            "tam_isabet": false,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilgilendirme_yazisi",
+            "guven": 300,
+            "gerekce": "Belge türü belirtilmemiş, belge türü bilinmiyor."
+          },
+          {
+            "belge": "B05",
+            "tur": 1,
+            "beklenen": "duyuru",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": true,
+            "dogru": true,
+            "tam_isabet": false,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilgilendirme_yazisi",
+            "guven": 0.5,
+            "gerekce": "Belgenin türü belirtilmemiştir."
+          }
+        ]
+      },
+      "C3": {
+        "atlandi": false,
+        "gecen": 0,
+        "toplam": 2,
+        "oran": 0.0,
+        "esik": 0.8,
+        "gecti": false,
+        "kayitlar": [
+          {
+            "belge": "B06",
+            "tur": 1,
+            "hata": null,
+            "secilen": "bilgilendirme_yazisi",
+            "guven": 204,
+            "bilinmiyor_dedi": false,
+            "dusuk_guven": false,
+            "gecti": false,
+            "gerekce": "Belge türü belirtilmemiştir. Belgenin türü hakkında kesin bilgi yoktur."
+          },
+          {
+            "belge": "B06",
+            "tur": 2,
+            "hata": null,
+            "secilen": "bilgilendirme_yazisi",
+            "guven": 100,
+            "bilinmiyor_dedi": false,
+            "dusuk_guven": false,
+            "gecti": false,
+            "gerekce": "Belgenin türü hakkında kesin bilgi bulunmamaktadır. Belge içeriği bilinmediğinden, belge türü alanı boş bırakılmıştır."
+          }
+        ]
+      },
+      "D": {
+        "dusunme_yetenegi": false,
+        "kipler": {
+          "dusunme_kapali": {
+            "token_sn": 176.2,
+            "ilk_metin_ms": 2289.0,
+            "toplam_ms": 2998.0,
+            "uretilen_token_medyan": 125,
+            "uctan_uca_olculen_sn": 5.7,
+            "dusunce_karakter_medyan": 0,
+            "uctan_uca_tahmin_sn": 9.1,
+            "karar": "Yerel yeter, GPU gerekmez",
+            "olcumler": [
+              {
+                "token_sn": 176.17668407292305,
+                "uretilen_token": 125,
+                "dusunce_karakter": 0,
+                "ilk_parca_ms": 2288.5078999970574,
+                "ilk_metin_ms": 2288.5078999970574,
+                "duvar_saati_ms": 2997.8573999978835,
+                "istem_token": 567
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "model": "qwen3.5:9b",
+      "yetenekler": [
+        "completion",
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "dusunme_yetenegi": true,
+      "A": {
+        "gecti": true,
+        "turkce": true,
+        "hata": null,
+        "yanit": "Resmi bir yazının başlık kısmında kurumun adı, evrakın türü (örneğin: dilekçe veya rapor), tarih ve kayıt numarası gibi temel kimlik bilgileri yer alır. Bu bölüm ayrıca belgenin hangi dairesine ait olduğunu göstermek amacıyla daire ibaresiyle belirtilen ilgili birim bilgisini de içerir."
+      },
+      "gpu_orani": 1.0,
+      "B": {
+        "dogru": 4,
+        "toplam": 5,
+        "oran": 0.8,
+        "esik": 0.8,
+        "gecti": true,
+        "kayitlar": [
+          {
+            "gecti": true,
+            "vurulan_grup": 3,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "ust yazi",
+                  "ust yaz",
+                  "ekte",
+                  "ekli",
+                  "ek gonder",
+                  "gonderme",
+                  "iletme",
+                  "gonderilen"
+                ],
+                "vuran": [
+                  "ekte"
+                ]
+              },
+              {
+                "grup": [
+                  "dagitim",
+                  "valilik",
+                  "81 il",
+                  "il valilik"
+                ],
+                "vuran": [
+                  "valilik",
+                  "il valilik"
+                ]
+              },
+              {
+                "grup": [
+                  "rehber",
+                  "sifir atik",
+                  "guncelle",
+                  "uygulama rehberi"
+                ],
+                "vuran": [
+                  "rehber",
+                  "sifir atik",
+                  "guncelle",
+                  "uygulama rehberi"
+                ]
+              }
+            ],
+            "belge": "B01",
+            "beklenen_tur": "ust_yazi",
+            "yanit": "Bu belge, Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Yerel Yönetimler Genel Müdürlüğü'nün ilgili il valiliklerine gönderdiği bir **bilgilendirme yazısıdır**. Belgede güncellenen \"Sıfır Atık Yönetim Sistemi Uygulama Rehberi\"nin ekiyle birlikte belediyelere dağıtılması ve 01.07.2026 tarihinden itibaren yeni esaslar çerçevesinde uygulanması istenmektedir.",
+            "turkce": true
+          },
+          {
+            "gecti": false,
+            "vurulan_grup": 1,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "cevap",
+                  "yanit",
+                  "cevaben",
+                  "karsilik",
+                  "ilgi yazi",
+                  "talep edilen bilgi"
+                ],
+                "vuran": []
+              },
+              {
+                "grup": [
+                  "hasar",
+                  "don",
+                  "tespit",
+                  "zirai",
+                  "zarar"
+                ],
+                "vuran": [
+                  "hasar",
+                  "don",
+                  "tespit",
+                  "zarar"
+                ]
+              },
+              {
+                "grup": [
+                  "valilik",
+                  "il mudurlugu",
+                  "bakanlik",
+                  "arz"
+                ],
+                "vuran": []
+              }
+            ],
+            "belge": "B02",
+            "beklenen_tur": "cevap_yazisi",
+            "yanit": "Bu belge, Ankara Valiliği İl Tarım ve Orman Müdürlüğünün Bitkisel Üretim Genel Müdürlüğü'ne gönderdiği bir \"Resmi Yazı\"dır. Belgede, Nisan 2026'daki don olayının hasar tespit çalışmalarının sonuçları (toplam dekarajı, zarar oranı ve ekli rapor/liste) ile birlikte bildirilmesi talep edilmektedir.",
+            "turkce": true
+          },
+          {
+            "gecti": true,
+            "vurulan_grup": 3,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "bilgilendirme",
+                  "bilgi",
+                  "duyuru",
+                  "genelge",
+                  "bildirim",
+                  "bilgilendirici"
+                ],
+                "vuran": [
+                  "bilgi"
+                ]
+              },
+              {
+                "grup": [
+                  "yonetmelik",
+                  "mevzuat",
+                  "degisiklik",
+                  "parasal sinir",
+                  "tasinir"
+                ],
+                "vuran": [
+                  "degisiklik",
+                  "parasal sinir",
+                  "tasinir"
+                ]
+              },
+              {
+                "grup": [
+                  "dagitim",
+                  "kamu idare",
+                  "idarelere"
+                ],
+                "vuran": [
+                  "dagitim",
+                  "kamu idare"
+                ]
+              }
+            ],
+            "belge": "B03",
+            "beklenen_tur": "bilgilendirme_yazisi",
+            "yanit": "Bu belge, Hazine ve Maliye Bakanlığı'nın Muhasebat Genel Müdürlüğü tarafından hazırlanmış bir **dağıtım yazısıdır**. Bu yazıyla ilgili bakanlığa bağlı tüm kamu idarelerine (gerekli olanlar), Sayıştay Başkanlığına ve Strateji ve Bütçe Başkanlığı'na bilgi verilmesi istenmiş olup, 2026 yılı Taşınır Mal Yönetmeliği değişiklikleri kapsamında yeni parasal sınırlar ve işlem fişi düzenleme esaslarının internet sitesinde yayımlandığı belirtilmiştir.",
+            "turkce": true
+          },
+          {
+            "gecti": true,
+            "vurulan_grup": 3,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "dilekce",
+                  "basvuru",
+                  "talep",
+                  "sikayet",
+                  "istek",
+                  "ihbar"
+                ],
+                "vuran": [
+                  "dilekce",
+                  "talep",
+                  "sikayet",
+                  "ihbar"
+                ]
+              },
+              {
+                "grup": [
+                  "vatandas",
+                  "kisi",
+                  "sahis",
+                  "gercek kisi",
+                  "birey"
+                ],
+                "vuran": [
+                  "vatandas"
+                ]
+              },
+              {
+                "grup": [
+                  "park",
+                  "aydinlatma",
+                  "ariza",
+                  "belediye"
+                ],
+                "vuran": [
+                  "park",
+                  "aydinlatma",
+                  "ariza",
+                  "belediye"
+                ]
+              }
+            ],
+            "belge": "B04",
+            "beklenen_tur": "vatandas_dilekcesi",
+            "yanit": "Bu belge, bir vatandaşın belediye başkanı adına resmi makama ilettiği sorunları ve taleplerini içeren \"şikayet/istihbarat mektubu\" veya genel olarak **\"arzname\"** (veya dilekçe) türündedir. Belge; Merve Şahinkaya adlı vatandaştan Ankara Büyükşehir Belediyesi'ne gönderilmiş olup, park aydınlatması arızası ve güvenlik riskleri nedeniyle ilgili sorunun derhal giderilmesini talep etmektedir.",
+            "turkce": true
+          },
+          {
+            "gecti": true,
+            "vurulan_grup": 2,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "duyuru",
+                  "ilan",
+                  "bilgilendirme",
+                  "davet",
+                  "duyurulmasi"
+                ],
+                "vuran": []
+              },
+              {
+                "grup": [
+                  "egitim",
+                  "hizmet ici",
+                  "program",
+                  "kurs",
+                  "seminer"
+                ],
+                "vuran": [
+                  "egitim",
+                  "hizmet ici"
+                ]
+              },
+              {
+                "grup": [
+                  "basvuru",
+                  "kontenjan",
+                  "son tarih",
+                  "gunludur",
+                  "sure",
+                  "mesai bitimi"
+                ],
+                "vuran": [
+                  "basvuru"
+                ]
+              }
+            ],
+            "belge": "B05",
+            "beklenen_tur": "duyuru",
+            "yanit": "Bu belge, bir üst makamdan alt birimlere veya personelin genel bilgilendirilmesi amacıyla hazırlanmış **Günlük** türündeki resmî yazışmadır. Belge, Gazİ Üniversitesi Rektörlüğü Personel Daire Başkanlığı tarafından tüm akademik ve idari birimler ile ilgili personele gönderilmiş olup; 08-09 Eylül 2026 tarihlerinde düzenlenecek hizmet içi eğitimin detayları, başvuru koşulları ve katılım belgesi verilmesi hususlarını içerir.",
+            "turkce": true
+          }
+        ]
+      },
+      "C": {
+        "toplam_deneme": 5,
+        "C1_gecerli_json": 1.0,
+        "C1_gecti": true,
+        "C2_dogru": 0.2,
+        "C2_gecti": false,
+        "C2_tam_isabet": 0.2,
+        "sema_uyumlu": 0.8,
+        "C4_turkce_saglam": 1.0,
+        "C4_gecti": true,
+        "gerekce_turkce_orani": 1.0,
+        "tutarli_belge": 5,
+        "belge_sayisi": 5,
+        "yanlisda_ortalama_guven": 1.75,
+        "dogruda_ortalama_guven": 0.95,
+        "kayitlar": [
+          {
+            "belge": "B01",
+            "tur": 1,
+            "beklenen": "ust_yazi",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": true,
+            "dogru": false,
+            "tam_isabet": false,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilinmiyor",
+            "guven": 0.5,
+            "gerekce": "Belgenin içeriği bir rehber güncellemesi ve uygulama talimatı niteliğindedir ancak resmi evrak kayıt sınıflandırma kodlarına (Örn: Kararname, Tebliğ, Genelge, Yönerge vb.) tam olarak uyan spesifik bir 'belge türü' etiketi belgede açıkça belirtilmemiş"
+          },
+          {
+            "belge": "B02",
+            "tur": 1,
+            "beklenen": "cevap_yazisi",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": true,
+            "dogru": false,
+            "tam_isabet": false,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilinmiyor",
+            "guven": 0.5,
+            "gerekce": "Belgenin içeriği bir 'rapor' veya 'tebligat' gibi görünse de resmi evrak kayıt sistemindeki standart sınıflandırmaya tam uyum sağlayan net bir kod (örneğin sadece 'Rapor', 'Mektup' vb.) içermediğinden ve konu başlığı altında detaylı teknik veriler ba"
+          },
+          {
+            "belge": "B03",
+            "tur": 1,
+            "beklenen": "bilgilendirme_yazisi",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": true,
+            "dogru": true,
+            "tam_isabet": true,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilgilendirme_yazisi",
+            "guven": 0.95,
+            "gerekce": "Belgenin başlığı 'Konu' kısmında açıkça belirtilmiş olup (Taşınır Mal Yönetmeliği Uygulaması Hk.), içeriğinde yeni yönetmelik değişikliğinin duyurulması, ilgili tabloların internet sitesinde yayımlandığının bildirilmesi ve idarelerin bilgilendirilere"
+          },
+          {
+            "belge": "B04",
+            "tur": 1,
+            "beklenen": "vatandas_dilekcesi",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": true,
+            "dogru": false,
+            "tam_isabet": false,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilinmiyor",
+            "guven": 1,
+            "gerekce": "Belgede 'ANKARA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞINA' ibaresi yer almaktadır. Bu ifade bir kurumdan diğerine gönderilen resmi yazışmayı (Mektup) işaret etmektedir; ancak metnin tamamı sadece bir vatandaşın belediyeye şikayet bildirimini içeren 'Beyanname"
+          },
+          {
+            "belge": "B05",
+            "tur": 1,
+            "beklenen": "duyuru",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": false,
+            "dogru": false,
+            "tam_isabet": false,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilinmiyor",
+            "guven": 5,
+            "gerekce": "Belgenin başlığı 'GÜNLÜDÜR' olarak işaretlenmiş olup içeriği bir hizmet içi eğitim duyurusunu kapsamaktadır. Resmi yazışma kuralları çerçevesinde bu tür belgeler genellikle 'Tebligat', 'Karar', 'Rapor' veya resmi makamlara gönderilen 'Mektup/İstemnam"
+          }
+        ]
+      },
+      "C3": {
+        "atlandi": false,
+        "gecen": 2,
+        "toplam": 2,
+        "oran": 1.0,
+        "esik": 0.8,
+        "gecti": true,
+        "kayitlar": [
+          {
+            "belge": "B06",
+            "tur": 1,
+            "hata": null,
+            "secilen": "bilinmiyor",
+            "guven": 0.2,
+            "bilinmiyor_dedi": true,
+            "dusuk_guven": true,
+            "gecti": true,
+            "gerekce": "Belgenin başlığı ve gönderen/alan kurum bilgileri okunamadığından belgenin resmi yazışma türü (Örn: İhbarname, Düzeltme Talebi, Bilgi Notu vb.) net olarak tespit edilememiştir. Metnin içeriği bir tablo düzeltmesi veya mükerrer kayıt tespiti ile ilgil"
+          },
+          {
+            "belge": "B06",
+            "tur": 2,
+            "hata": null,
+            "secilen": "bilinmiyor",
+            "guven": 0.2,
+            "bilinmiyor_dedi": true,
+            "dusuk_guven": true,
+            "gecti": true,
+            "gerekce": "Belgenin baş kısmında kurum adı ve tarih gibi kritik kimlik bilgileri eksik veya okunamıyor. Metnin içeriği (tablo düzenlemesi talebi) bir 'İç Kontrol Raporu', 'Düzeltme Talep Formu' veya 'Mali Analiz Notu' olabilir ancak tam bağlam verilmemiş. Ayrıc"
+          }
+        ]
+      },
+      "D": {
+        "dusunme_yetenegi": true,
+        "kipler": {
+          "dusunme_kapali": {
+            "token_sn": 53.1,
+            "ilk_metin_ms": 3099.0,
+            "toplam_ms": 8394.0,
+            "uretilen_token_medyan": 281,
+            "uctan_uca_olculen_sn": 42.4,
+            "dusunce_karakter_medyan": 0,
+            "uctan_uca_tahmin_sn": 30.2,
+            "karar": "Sınırda — çıktı kısaltarak kurtarılabilir",
+            "olcumler": [
+              {
+                "token_sn": 53.06363160318827,
+                "uretilen_token": 281,
+                "dusunce_karakter": 0,
+                "ilk_parca_ms": 3098.8626000034856,
+                "ilk_metin_ms": 3098.8626000034856,
+                "duvar_saati_ms": 8394.317400001455,
+                "istem_token": 633
+              }
+            ]
+          },
+          "dusunme_acik": {
+            "hata": "geçerli ölçüm yok",
+            "olcumler": [
+              {
+                "hata": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "model": "alibayram/turkish-gemma-9b-v0.1",
+      "yetenekler": [
+        "completion"
+      ],
+      "dusunme_yetenegi": false,
+      "A": {
+        "gecti": true,
+        "turkce": true,
+        "hata": null,
+        "yanit": "Resmî bir yazının başlık bölümünde, **yazıyı gönderen kurumun adı ve adresi**, **alıcı kurumun adı ve adresi** ile **yazının konusu** yer alır. Bu bilgiler, yazışmanın amacını ve taraflarını net bir şekilde belirtir."
+      },
+      "gpu_orani": 0.7805,
+      "B": {
+        "dogru": 4,
+        "toplam": 5,
+        "oran": 0.8,
+        "esik": 0.8,
+        "gecti": true,
+        "kayitlar": [
+          {
+            "gecti": true,
+            "vurulan_grup": 3,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "ust yazi",
+                  "ust yaz",
+                  "ekte",
+                  "ekli",
+                  "ek gonder",
+                  "gonderme",
+                  "iletme",
+                  "gonderilen"
+                ],
+                "vuran": [
+                  "ekte"
+                ]
+              },
+              {
+                "grup": [
+                  "dagitim",
+                  "valilik",
+                  "81 il",
+                  "il valilik"
+                ],
+                "vuran": [
+                  "81 il"
+                ]
+              },
+              {
+                "grup": [
+                  "rehber",
+                  "sifir atik",
+                  "guncelle",
+                  "uygulama rehberi"
+                ],
+                "vuran": [
+                  "rehber",
+                  "sifir atik",
+                  "guncelle",
+                  "uygulama rehberi"
+                ]
+              }
+            ],
+            "belge": "B01",
+            "beklenen_tur": "ust_yazi",
+            "yanit": "Bu belge bir **genelge** türüdür. Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'nın Yerel Yönetimler Genel Müdürlüğü tarafından, 81 il valiliğine gönderilmiştir. Belgede, Sıfır Atık Yönetim Sistemi Uygulama Rehberi'nin güncellenmiş hali ile raporlama takviminin ibraz edildiği ve bu rehberin belediyelerce uygulanması talep edilmektedir.  \n   \n**Tür:** Genelge \n**Gönderici:** Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Yerel Yönetimler Genel Müdürlüğü\n**Alıcı:** 81 İl Valiliği\n**İstenen Eylem:** Güncellenmiş Sıfır Atık Yönetim Sistemi Uygulama Rehberi'nin belediyelere iletilmesi ve 01.07.2026 tarihinden itibaren rehberin güncellenmiş esaslara göre uygulanması.",
+            "turkce": true
+          },
+          {
+            "gecti": false,
+            "vurulan_grup": 1,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "cevap",
+                  "yanit",
+                  "cevaben",
+                  "karsilik",
+                  "ilgi yazi",
+                  "talep edilen bilgi"
+                ],
+                "vuran": []
+              },
+              {
+                "grup": [
+                  "hasar",
+                  "don",
+                  "tespit",
+                  "zirai",
+                  "zarar"
+                ],
+                "vuran": [
+                  "hasar",
+                  "don",
+                  "tespit",
+                  "zirai",
+                  "zarar"
+                ]
+              },
+              {
+                "grup": [
+                  "valilik",
+                  "il mudurlugu",
+                  "bakanlik",
+                  "arz"
+                ],
+                "vuran": []
+              }
+            ],
+            "belge": "B02",
+            "beklenen_tur": "cevap_yazisi",
+            "yanit": "Bu belge bir **resmî rapor** türüdür. Ankara Valiliği İl Tarım ve Orman Müdürlüğü tarafından, Tarım ve Orman Bakanlığı Bitkisel Üretim Genel Müdürlüğüne gönderilmiştir. Belgede, Nisan 2026'da yaşanan zirai don olayının tarımsal üretime etkilerini değerlendiren hasar tespit çalışmasının sonuçları bildirilmekte ve zarar gören çiftçilerin listesi ile rapor ekte sunulmaktadır.",
+            "turkce": true
+          },
+          {
+            "gecti": true,
+            "vurulan_grup": 3,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "bilgilendirme",
+                  "bilgi",
+                  "duyuru",
+                  "genelge",
+                  "bildirim",
+                  "bilgilendirici"
+                ],
+                "vuran": [
+                  "bilgi",
+                  "duyuru",
+                  "genelge"
+                ]
+              },
+              {
+                "grup": [
+                  "yonetmelik",
+                  "mevzuat",
+                  "degisiklik",
+                  "parasal sinir",
+                  "tasinir"
+                ],
+                "vuran": [
+                  "degisiklik",
+                  "parasal sinir",
+                  "tasinir"
+                ]
+              },
+              {
+                "grup": [
+                  "dagitim",
+                  "kamu idare",
+                  "idarelere"
+                ],
+                "vuran": [
+                  "kamu idare"
+                ]
+              }
+            ],
+            "belge": "B03",
+            "beklenen_tur": "bilgilendirme_yazisi",
+            "yanit": "Bu belge bir **genelge** türünde resmî yazışmadır. Hazine ve Maliye Bakanlığı'nın Muhasebat Genel Müdürlüğü, tüm kamu idarelerine gönderilmiştir. Belgede, taşınır mal yönetmeliğinde yapılan değişiklikler duyurulmuş ve 2026 yılı için geçerli olacak parasal sınır ile ilgili bilgiler paylaşılmıştır. Ayrıca, yeni düzenlemelere göre taşınır işlemlerinin nasıl yürütüleceği açıklanmıştır.",
+            "turkce": true
+          },
+          {
+            "gecti": true,
+            "vurulan_grup": 3,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "dilekce",
+                  "basvuru",
+                  "talep",
+                  "sikayet",
+                  "istek",
+                  "ihbar"
+                ],
+                "vuran": [
+                  "dilekce",
+                  "talep",
+                  "sikayet"
+                ]
+              },
+              {
+                "grup": [
+                  "vatandas",
+                  "kisi",
+                  "sahis",
+                  "gercek kisi",
+                  "birey"
+                ],
+                "vuran": [
+                  "vatandas"
+                ]
+              },
+              {
+                "grup": [
+                  "park",
+                  "aydinlatma",
+                  "ariza",
+                  "belediye"
+                ],
+                "vuran": [
+                  "park",
+                  "aydinlatma",
+                  "ariza",
+                  "belediye"
+                ]
+              }
+            ],
+            "belge": "B04",
+            "beklenen_tur": "vatandas_dilekcesi",
+            "yanit": "Bu belge bir **şikayet dilekçesidir**. Vatandaş Merve ŞAHİNKAYA tarafından Ankara Büyükşehir Belediye Başkanlığına gönderilmiştir ve söz konusu parkın aydınlatma sisteminin arızalı olması nedeniyle güvenlik sorunu oluştuğu belirtilerek, konunun acilen çözülmesi talep edilmektedir.",
+            "turkce": true
+          },
+          {
+            "gecti": true,
+            "vurulan_grup": 3,
+            "gereken_grup": 2,
+            "yasakli_bulunan": [],
+            "grup_detay": [
+              {
+                "grup": [
+                  "duyuru",
+                  "ilan",
+                  "bilgilendirme",
+                  "davet",
+                  "duyurulmasi"
+                ],
+                "vuran": [
+                  "duyuru"
+                ]
+              },
+              {
+                "grup": [
+                  "egitim",
+                  "hizmet ici",
+                  "program",
+                  "kurs",
+                  "seminer"
+                ],
+                "vuran": [
+                  "egitim",
+                  "hizmet ici",
+                  "program"
+                ]
+              },
+              {
+                "grup": [
+                  "basvuru",
+                  "kontenjan",
+                  "son tarih",
+                  "gunludur",
+                  "sure",
+                  "mesai bitimi"
+                ],
+                "vuran": [
+                  "basvuru",
+                  "kontenjan",
+                  "sure"
+                ]
+              }
+            ],
+            "belge": "B05",
+            "beklenen_tur": "duyuru",
+            "yanit": "Bu belge, **hizmet içi eğitim programı duyurusu** türünde bir resmi yazışmadır. Gazı Üniversitesi Rektörlüğü Personel Daire Başkanlığı tarafından tüm akademik ve idari birimlere gönderilmiştir. Belgede, üniversite personeline yönelik \"Resmî Yazışma Kuralları ve Elektronik Belge Yönetimi\" konulu iki günlük bir eğitim programının duyurusu yapılmış ve katılım için başvuru süreci ile kontenjan bilgisi verilmiştir.",
+            "turkce": true
+          }
+        ]
+      },
+      "C": {
+        "toplam_deneme": 5,
+        "C1_gecerli_json": 1.0,
+        "C1_gecti": true,
+        "C2_dogru": 0.6,
+        "C2_gecti": false,
+        "C2_tam_isabet": 0.6,
+        "sema_uyumlu": 0.0,
+        "C4_turkce_saglam": 1.0,
+        "C4_gecti": true,
+        "gerekce_turkce_orani": 1.0,
+        "tutarli_belge": 5,
+        "belge_sayisi": 5,
+        "yanlisda_ortalama_guven": 90.0,
+        "dogruda_ortalama_guven": 95.0,
+        "kayitlar": [
+          {
+            "belge": "B01",
+            "tur": 1,
+            "beklenen": "ust_yazi",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": false,
+            "dogru": false,
+            "tam_isabet": false,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilgilendirme_yazisi",
+            "guven": 85,
+            "gerekce": "Belge bir kamu kurumundan diğer kamu kuruluşlarına (il valiliklerine) gönderilmiş ve güncellenmiş bir rehberi duyuruyor. İçerikte talimatlar, ekler ve raporlama takvimi yer alıyor. Bu özellikler bilgilendirme yazısı türüne işaret ediyor."
+          },
+          {
+            "belge": "B02",
+            "tur": 1,
+            "beklenen": "cevap_yazisi",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": false,
+            "dogru": false,
+            "tam_isabet": false,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilgilendirme_yazisi",
+            "guven": 95,
+            "gerekce": "Belge bir kamu kurumundan diğerine gönderilmiş olup resmi yazışma formatına uygun. Konusu ve içeriği zirai don hasar tespit sonuçlarını bildirmeye yönelik."
+          },
+          {
+            "belge": "B03",
+            "tur": 1,
+            "beklenen": "bilgilendirme_yazisi",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": false,
+            "dogru": true,
+            "tam_isabet": true,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "bilgilendirme_yazisi",
+            "guven": 95,
+            "gerekce": "Belge bir kamu kurumundan tüm kamu idarelerine gönderilmiş ve taşınır mal yönetmeliğinde yapılan değişiklikleri bildiren bir yazı. İçeriği bilgi vermeyi amaçlıyor."
+          },
+          {
+            "belge": "B04",
+            "tur": 1,
+            "beklenen": "vatandas_dilekcesi",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": false,
+            "dogru": true,
+            "tam_isabet": true,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "vatandas_dilekcesi",
+            "guven": 95,
+            "gerekce": "Belge bir vatandaşın kamu kurumuna yönelttiği resmi başvuru niteliğindedir. Dilekçe formatına uygun olarak yazılmış, kişisel bilgiler ve ekler içermektedir."
+          },
+          {
+            "belge": "B05",
+            "tur": 1,
+            "beklenen": "duyuru",
+            "hata": null,
+            "gecerli_json": true,
+            "sema_uyumlu": false,
+            "dogru": true,
+            "tam_isabet": true,
+            "turkce_saglam": true,
+            "turkce_sebep": "",
+            "gerekce_turkce": true,
+            "secilen": "duyuru",
+            "guven": 95,
+            "gerekce": "Belge, bir kamu kurumunun resmi yazışma formatına uygun şekilde düzenlenmiş olup, hizmet içi eğitim programı hakkında bilgi vermektedir. İçeriği ve formatı duyuru belgelerine uyumludur."
+          }
+        ]
+      },
+      "C3": {
+        "atlandi": false,
+        "gecen": 2,
+        "toplam": 2,
+        "oran": 1.0,
+        "esik": 0.8,
+        "gecti": true,
+        "kayitlar": [
+          {
+            "belge": "B06",
+            "tur": 1,
+            "hata": null,
+            "secilen": "bilinmiyor",
+            "guven": 0.3,
+            "bilinmiyor_dedi": true,
+            "dusuk_guven": true,
+            "gecti": true,
+            "gerekce": "Belgenin başlığı ve içeriği net bir şekilde okunamıyor. İçerik incelemesi sonucunda düzenlenen tablo gibi ifadeler rapor veya denetim tutanağı olabileceğini düşündürüyor ancak kesin bir sınıflandırma yapmak mümkün değil."
+          },
+          {
+            "belge": "B06",
+            "tur": 2,
+            "hata": null,
+            "secilen": "bilinmiyor",
+            "guven": 0.3,
+            "bilinmiyor_dedi": true,
+            "dusuk_guven": true,
+            "gecti": true,
+            "gerekce": "Belgenin başlangıç ve bitiş kısımları eksik olduğu için türü belirsizdir. Tablo yapısı bir rapor veya inceleme sonucunu işaret ediyor olabilir ancak kesin sınıflandırma yapmak mümkün değil."
+          }
+        ]
+      },
+      "D": {
+        "dusunme_yetenegi": false,
+        "kipler": {
+          "dusunme_kapali": {
+            "token_sn": 24.2,
+            "ilk_metin_ms": 3112.0,
+            "toplam_ms": 13501.0,
+            "uretilen_token_medyan": 251,
+            "uctan_uca_olculen_sn": 83.1,
+            "dusunce_karakter_medyan": 0,
+            "uctan_uca_tahmin_sn": 66.2,
+            "karar": "Demo için kiralık GPU gerekir",
+            "olcumler": [
+              {
+                "token_sn": 24.15939735105202,
+                "uretilen_token": 251,
+                "dusunce_karakter": 0,
+                "ilk_parca_ms": 3111.9192999904044,
+                "ilk_metin_ms": 3111.9192999904044,
+                "duvar_saati_ms": 13501.179600003525,
+                "istem_token": 599
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
