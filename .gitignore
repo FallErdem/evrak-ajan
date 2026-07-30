@@ -1,0 +1,13 @@
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Geçici
+*.tmp
+*.log

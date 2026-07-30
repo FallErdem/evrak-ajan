@@ -1,0 +1,202 @@
+{
+  "surum": "1.0",
+  "olusturma_tarihi": "2026-07-30",
+  "amac": "PARÇA 1 / ADIM 3 risk testi için sentetik belge kümesi ve cevap anahtarı.",
+  "koken": "Tamamı sentetik. Kurum adları gerçek kamu tüzel kişilerine aittir (gerçekçilik ve SDP uyumu için); belge içerikleri, sayı numaraları, kişi adları, adres ve iletişim bilgileri kurgudur.",
+  "sartname_dayanagi": "6.5 — kurgu evrak örnekleri ve yapay olarak oluşturulmuş resmî yazışma taslakları",
+  "biçim_notu": "Sayı alanları rules.yaml S-02'deki 2020 sonrası biçimde yazılmıştır: E-<DETSİS>-<SDP>-<kayıt no>.",
+  "belge_turleri": [
+    "ust_yazi",
+    "cevap_yazisi",
+    "bilgilendirme_yazisi",
+    "vatandas_dilekcesi",
+    "duyuru",
+    "bilinmiyor"
+  ],
+  "belgeler": [
+    {
+      "id": "B01",
+      "dosya": "B01_ust_yazi.txt",
+      "belge_turu": "ust_yazi",
+      "alternatif_kabul": [],
+      "b_dahil": true,
+      "b_gecme_grup": 2,
+      "b_kavram_gruplari": [
+        ["ust yazi", "ust yaz", "ekte", "ekli", "ek gonder", "gonderme", "iletme", "gonderilen"],
+        ["dagitim", "valilik", "81 il", "il valilik"],
+        ["rehber", "sifir atik", "guncelle", "uygulama rehberi"]
+      ],
+      "b_yasakli_kavramlar": ["dilekce", "sikayet", "ozgecmis", "fatura", "tutanak"],
+      "ustveri": {
+        "sayi": "E-71368504-010.06.01-4471829",
+        "tarih": "2026-05-12",
+        "tarih_metin": "12.05.2026",
+        "konu": "Sıfır Atık Yönetim Sistemi Uygulama Rehberi",
+        "gonderen": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı / Yerel Yönetimler Genel Müdürlüğü",
+        "muhatap": "DAĞITIM YERLERİNE",
+        "ilgi": ["27.03.2026 tarihli ve E-71368504-010.06.01-4318774 sayılı yazımız"],
+        "ekler": ["Uygulama Rehberi (24 sayfa)", "Raporlama Takvimi (2 sayfa)"],
+        "dagitim": ["81 İl Valiliğine"],
+        "ivedilik": null,
+        "gizlilik_derecesi": null,
+        "imza": "Yasemin ALTINDAĞ / Bakan a. / Genel Müdür"
+      },
+      "kisisel_veri": [],
+      "kural_referanslari": ["S-02", "M-11", "ME-07"],
+      "not": "Klasik üst yazı: ilgi var, ek var, dağıtımlı, alt kuruluşlara rica ile bitiyor."
+    },
+    {
+      "id": "B02",
+      "dosya": "B02_cevap_yazisi.txt",
+      "belge_turu": "cevap_yazisi",
+      "alternatif_kabul": [],
+      "b_dahil": true,
+      "b_gecme_grup": 2,
+      "b_kavram_gruplari": [
+        ["cevap", "yanit", "cevaben", "karsilik", "ilgi yazi", "talep edilen bilgi"],
+        ["hasar", "don", "tespit", "zirai", "zarar"],
+        ["valilik", "il mudurlugu", "bakanlik", "arz"]
+      ],
+      "b_yasakli_kavramlar": ["dilekce", "duyuru", "genelge", "ilan"],
+      "ustveri": {
+        "sayi": "E-24358971-320.05.03-2287341",
+        "tarih": "2026-06-18",
+        "tarih_metin": "18.06.2026",
+        "konu": "Zirai Don Hasar Tespiti Hakkında",
+        "gonderen": "Ankara Valiliği / İl Tarım ve Orman Müdürlüğü",
+        "muhatap": "TARIM VE ORMAN BAKANLIĞINA (Bitkisel Üretim Genel Müdürlüğü)",
+        "ilgi": ["09.06.2026 tarihli ve E-13471285-320.05.03-9914602 sayılı yazınız"],
+        "ekler": ["Hasar Tespit Raporu (11 sayfa)", "Çiftçi Listesi (3 sayfa)"],
+        "dagitim": [],
+        "ivedilik": null,
+        "gizlilik_derecesi": null,
+        "imza": "Kemal DOĞANAY / Vali a. / İl Müdürü"
+      },
+      "kisisel_veri": [],
+      "kural_referanslari": ["S-02", "ME-07"],
+      "not": "Alt kurumdan üst kuruma yazıldığı için 'Arz ederim' ile bitiyor. Cevap yazısı ile üst yazı arasındaki ayrımı test ediyor: ikisinde de ek var, farkı ilginin bir talebe cevap olması."
+    },
+    {
+      "id": "B03",
+      "dosya": "B03_bilgilendirme_yazisi.txt",
+      "belge_turu": "bilgilendirme_yazisi",
+      "alternatif_kabul": ["duyuru"],
+      "b_dahil": true,
+      "b_gecme_grup": 2,
+      "b_kavram_gruplari": [
+        ["bilgilendirme", "bilgi", "duyuru", "genelge", "bildirim", "bilgilendirici"],
+        ["yonetmelik", "mevzuat", "degisiklik", "parasal sinir", "tasinir"],
+        ["dagitim", "kamu idare", "idarelere"]
+      ],
+      "b_yasakli_kavramlar": ["dilekce", "cevap yazisi", "sikayet"],
+      "ustveri": {
+        "sayi": "E-90192606-210.05.02-1163958",
+        "tarih": "2026-02-04",
+        "tarih_metin": "04.02.2026",
+        "konu": "Taşınır Mal Yönetmeliği Uygulaması Hk.",
+        "gonderen": "Hazine ve Maliye Bakanlığı / Muhasebat Genel Müdürlüğü",
+        "muhatap": "DAĞITIM YERLERİNE",
+        "ilgi": [
+          "14.01.2026 tarihli ve 32780 sayılı Resmî Gazete'de yayımlanan Taşınır Mal Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
+          "22.12.2025 tarihli ve E-90192606-210.05.02-1098447 sayılı yazımız"
+        ],
+        "ekler": [],
+        "dagitim": [
+          "Gereği: Tüm Kamu İdarelerine",
+          "Bilgi: Sayıştay Başkanlığına",
+          "Bilgi: Strateji ve Bütçe Başkanlığına"
+        ],
+        "ivedilik": null,
+        "gizlilik_derecesi": null,
+        "imza": "Serpil KARAHAN / Bakan a. / Genel Müdür"
+      },
+      "kisisel_veri": [],
+      "kural_referanslari": ["S-02", "M-11", "ME-07"],
+      "not": "Ayırt edici cümle: 'ayrıca bir işlem yapılmasına gerek bulunmamakta'. Eki yok, Gereği/Bilgi ayrımlı dağıtımı var. Duyuru cevabı da kabul edilebilir."
+    },
+    {
+      "id": "B04",
+      "dosya": "B04_vatandas_dilekcesi.txt",
+      "belge_turu": "vatandas_dilekcesi",
+      "alternatif_kabul": [],
+      "b_dahil": true,
+      "b_gecme_grup": 2,
+      "b_kavram_gruplari": [
+        ["dilekce", "basvuru", "talep", "sikayet", "istek", "ihbar"],
+        ["vatandas", "kisi", "sahis", "gercek kisi", "birey"],
+        ["park", "aydinlatma", "ariza", "belediye"]
+      ],
+      "b_yasakli_kavramlar": ["ust yazi", "genelge", "yonetmelik", "cevap yazisi"],
+      "ustveri": {
+        "sayi": null,
+        "tarih": "2026-07-22",
+        "tarih_metin": "22.07.2026",
+        "konu": null,
+        "gonderen": "Merve ŞAHİNKAYA (gerçek kişi)",
+        "muhatap": "ANKARA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞINA",
+        "ilgi": [],
+        "ekler": ["Fotoğraf (2 adet)"],
+        "dagitim": [],
+        "ivedilik": null,
+        "gizlilik_derecesi": null,
+        "imza": "Merve ŞAHİNKAYA"
+      },
+      "kisisel_veri": [
+        {"tip": "kisi_adi", "deger": "Merve ŞAHİNKAYA"},
+        {"tip": "tckn", "deger": "10000000140", "not": "Sağlama toplamı kasıtlı olarak geçersiz — hiçbir gerçek kimlik numarasıyla çakışamaz."},
+        {"tip": "adres", "deger": "Batıkent Mahallesi 1453. Sokak No:12/7 Yenimahalle/ANKARA"},
+        {"tip": "telefon", "deger": "0555 000 00 00"},
+        {"tip": "eposta", "deger": "merve.sahinkaya@example.com", "not": "example.com RFC 2606 ile ayrılmış alan adıdır."}
+      ],
+      "kural_referanslari": ["S-01 (notu: dilekçede sayı bulunmaz)", "ME-05"],
+      "not": "Başlık bloğu yok, sayı yok, konu satırı yok. Madde 14 (KVKK) için beş ayrı kişisel veri alanı taşıyor — Parça 3'ün maskeleme katmanının ilk test girdisi."
+    },
+    {
+      "id": "B05",
+      "dosya": "B05_duyuru.txt",
+      "belge_turu": "duyuru",
+      "alternatif_kabul": ["bilgilendirme_yazisi"],
+      "b_dahil": true,
+      "b_gecme_grup": 2,
+      "b_kavram_gruplari": [
+        ["duyuru", "ilan", "bilgilendirme", "davet", "duyurulmasi"],
+        ["egitim", "hizmet ici", "program", "kurs", "seminer"],
+        ["basvuru", "kontenjan", "son tarih", "gunludur", "sure", "mesai bitimi"]
+      ],
+      "b_yasakli_kavramlar": ["dilekce", "cevap yazisi", "sikayet"],
+      "ustveri": {
+        "sayi": "E-30046987-903.07.02-587412",
+        "tarih": "2026-07-09",
+        "tarih_metin": "09.07.2026",
+        "konu": "Hizmet İçi Eğitim Programı",
+        "gonderen": "Gazi Üniversitesi Rektörlüğü / Personel Daire Başkanlığı",
+        "muhatap": "DAĞITIM YERLERİNE",
+        "ilgi": [],
+        "ekler": [],
+        "dagitim": ["Tüm Akademik ve İdari Birimlere"],
+        "ivedilik": "GÜNLÜDÜR",
+        "gizlilik_derecesi": null,
+        "miat": "2026-07-25",
+        "imza": "Hakan ERDEMLİ / Rektör a. / Daire Başkanı"
+      },
+      "kisisel_veri": [],
+      "kural_referanslari": ["S-02", "G-03", "G-05", "M-11"],
+      "not": "İvedilik alanı dolu olan tek belge. G-05 gereği son tarih hem metinde hem üstveride var. Bilgilendirme cevabı da kabul edilebilir."
+    },
+    {
+      "id": "B06",
+      "dosya": "B06_bozuk_belirsiz.txt",
+      "belge_turu": "bilinmiyor",
+      "alternatif_kabul": [],
+      "b_dahil": false,
+      "c3_dahil": true,
+      "b_gecme_grup": 0,
+      "b_kavram_gruplari": [],
+      "b_yasakli_kavramlar": [],
+      "ustveri": {},
+      "kisisel_veri": [],
+      "kural_referanslari": [],
+      "not": "Sayfa ortasından kesilmiş, diakritikleri bozulmuş (ý/þ/ð), tablo kalıntısı içeren parça. Başlık, sayı, konu ve muhatap yok. Beklenen davranış: belge_turu = bilinmiyor VEYA guven < 0.5. Model burada yüksek güvenle bir tür seçiyorsa, güven skoru kalibre değildir ve Parça 8'deki güven kapısı çalışmaz."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[sayfa üst kenarı okunamadı]
+
+...ncelemesi sonucunda düzenlenen tabloda yer alan kalemlerin bir k sm  n n
+mükerrer kaydedildi i anla  lm  t r. Bu nedenle ilgili sat rlar n
+
+   Sýra    Kod        Miktar     Tutar
+   ----    ----       ------     -----
+   7       31.02      ██         ██
+   8       31.0       12         [okunamadı]
+   11      ...        4          ██
+
+yeniden deðerlendirilmesi ve gerekli düzeltmelerin yap lmas  hususunda;
+
+...devam  bir sonraki sayfada...
+
+[sayfa alt kenarı okunamadı]
