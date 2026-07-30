@@ -68,7 +68,8 @@ NUM_CTX = 4096
 # 0 olsa tekrarlar birbirinin kopyası olur ve tutarlılık ölçülemez.
 SICAKLIK = 0.3
 
-ZAMAN_ASIMI = 900  # saniye; ilk yükleme yavaş diskte uzun sürebiliyor
+ZAMAN_ASIMI = 180  # saniye. Takılan bir çağrı koşuyu kilitlemesin; zaman aşımı
+                   # başarısızlık olarak kaydedilir ve bu da bir bulgudur.
 
 MODELLER_VARSAYILAN = [
     "alibayram/kumru",
@@ -254,6 +255,11 @@ def dusunebilir_mi(model: str) -> bool:
     return "thinking" in model_yetenekleri(model)
 
 
+def _ad_sadelestir(ad: str) -> str:
+    """'alibayram/kumru:latest' ile 'alibayram/kumru' aynı model."""
+    return (ad or "").strip().removesuffix(":latest")
+
+
 def gpu_orani(model: str) -> float | None:
     """Modelin ne kadarı VRAM'de. 1.0 = tamamı GPU'da.
 
@@ -263,8 +269,11 @@ def gpu_orani(model: str) -> float | None:
     c = _istek("/api/ps", yontem="GET")
     if "_hata" in c:
         return None
+    hedef = _ad_sadelestir(model)
     for m in c.get("models", []):
-        if model in (m.get("name"), m.get("model")):
+        adlar = {_ad_sadelestir(m.get("name", "")),
+                 _ad_sadelestir(m.get("model", ""))}
+        if hedef in adlar:
             boyut = m.get("size", 0)
             vram = m.get("size_vram", 0)
             if boyut > 0:
@@ -321,8 +330,21 @@ def sohbet(
             f"{OLLAMA}/api/chat", json=govde, timeout=ZAMAN_ASIMI, stream=True
         )
         if r.status_code >= 400:
-            y.hata = f"HTTP {r.status_code}: {r.text[:300]}"
-            return y
+            govde_metni = r.text[:300]
+            # Bazı modeller 'think' alanını reddediyor. Yetenek listesine
+            # güvenmek yerine hatayı yakalayıp alansız tekrar deniyoruz.
+            if "think" in govde and "think" in govde_metni.lower():
+                govde.pop("think")
+                r = requests.post(
+                    f"{OLLAMA}/api/chat", json=govde,
+                    timeout=ZAMAN_ASIMI, stream=True,
+                )
+                if r.status_code >= 400:
+                    y.hata = f"HTTP {r.status_code}: {r.text[:300]}"
+                    return y
+            else:
+                y.hata = f"HTTP {r.status_code}: {govde_metni}"
+                return y
 
         metin_parcalari: list[str] = []
         dusunce_parcalari: list[str] = []
@@ -429,13 +451,26 @@ def belgeleri_yukle(dizin: Path) -> list[Belge]:
 # TESTLER
 # =============================================================================
 
+AYRINTI = False
+
+
+def _ilerleme(mevcut: int, toplam: int, etiket: str = "") -> None:
+    """Aynı satırı güncelleyerek ilerleme yaz. Uzun testlerde ekran donmuş
+    görünmesin diye."""
+    print(f"\r    {etiket} {mevcut}/{toplam}   ", end="", flush=True)
+
+
+def _ilerleme_bitir() -> None:
+    print("\r" + " " * 60 + "\r", end="", flush=True)
+
+
 def test_a(model: str) -> dict:
     """Model yanıt veriyor mu, hangi dilde."""
     y = sohbet(
         model,
         "Resmî bir yazının başlık bölümünde hangi bilgiler bulunur? "
         "İki cümleyle açıkla.",
-        dusun=False if dusunebilir_mi(model) else None,
+        dusun=False,
         num_predict=200,
     )
     return {
@@ -473,11 +508,15 @@ def _b_puanla(belge: Belge, yanit: str) -> dict:
 
 def test_b(model: str, belgeler: list[Belge]) -> dict:
     """Türkçe resmî belgeyi anlıyor mu — serbest metin, kavram grubu puanlaması."""
-    dusun = False if dusunebilir_mi(model) else None
+    dusun = False
     kayitlar = []
-    for belge in [b for b in belgeler if b.b_dahil]:
+    hedefler = [b for b in belgeler if b.b_dahil]
+    for sira, belge in enumerate(hedefler, 1):
+        _ilerleme(sira, len(hedefler), "belge")
         istem = (
-            "Aşağıdaki metin ne tür bir resmî belgedir? Tek cümleyle açıkla.\n\n"
+            "Aşağıdaki metin ne tür bir resmî belgedir? "
+            "İki cümleyle açıkla: belgenin türünü adlandır, kimden kime "
+            "gönderildiğini ve ne istendiğini belirt.\n\n"
             "--- BELGE BAŞLANGICI ---\n"
             f"{belge.metin}\n"
             "--- BELGE SONU ---"
@@ -498,7 +537,11 @@ def test_b(model: str, belgeler: list[Belge]) -> dict:
             }
         )
         kayitlar.append(puan)
+        if AYRINTI:
+            print(f"\r    [{belge.id}] {'✓' if puan['gecti'] else '✗'} "
+                  f"{y.metin.strip()[:160]}")
 
+    _ilerleme_bitir()
     toplam = len(kayitlar)
     dogru = sum(1 for k in kayitlar if k.get("gecti"))
     return {
@@ -523,7 +566,7 @@ def _sema_istemi(metin: str) -> str:
 
 def test_c(model: str, belgeler: list[Belge], tekrar: int) -> dict:
     """Şemalı çıktı: geçerlilik, doğruluk, Türkçe bütünlüğü, tutarlılık."""
-    dusun = False if dusunebilir_mi(model) else None
+    dusun = False
     hedefler = [b for b in belgeler if b.b_dahil]
 
     kayitlar: list[dict] = []
@@ -590,6 +633,7 @@ def test_c(model: str, belgeler: list[Belge], tekrar: int) -> dict:
             kayitlar.append(kayit)
             belge_bazli[belge.id].append(secilen)
 
+    _ilerleme_bitir()
     n = len(kayitlar)
 
     def oran(anahtar: str) -> float:
@@ -645,7 +689,7 @@ def test_c3(model: str, belgeler: list[Belge], tekrar: int) -> dict:
     if not hedefler:
         return {"atlandi": True, "sebep": "c3_dahil işaretli belge yok"}
 
-    dusun = False if dusunebilir_mi(model) else None
+    dusun = False
     kayitlar = []
     for belge in hedefler:
         for tur_no in range(tekrar):
@@ -681,6 +725,7 @@ def test_c3(model: str, belgeler: list[Belge], tekrar: int) -> dict:
             )
             kayitlar.append(kayit)
 
+    _ilerleme_bitir()
     n = len(kayitlar)
     gecen = sum(1 for k in kayitlar if k.get("gecti"))
     oran = (gecen / n) if n else 0.0
@@ -714,7 +759,8 @@ def test_d(model: str, belge: Belge, tekrar: int) -> dict:
 
     for kip_adi, dusun in kipler:
         olcumler = []
-        for _ in range(tekrar):
+        for tur_no in range(tekrar):
+            _ilerleme(tur_no + 1, tekrar, kip_adi)
             y = sohbet(model, istem, dusun=dusun, num_predict=600)
             if not y.basarili:
                 olcumler.append({"hata": y.hata})
@@ -731,6 +777,7 @@ def test_d(model: str, belge: Belge, tekrar: int) -> dict:
                 }
             )
 
+        _ilerleme_bitir()
         gecerli = [o for o in olcumler if o.get("token_sn")]
         if gecerli:
             med_tok = statistics.median(o["token_sn"] for o in gecerli)
@@ -809,43 +856,43 @@ def modeli_kosturt(model: str, belgeler: list[Belge], args) -> dict:
         print("  GPU: %100 (tamamı VRAM'de)")
 
     if "b" in args.testler:
-        print("  Test B — Türkçe resmî belge anlama ...", end="", flush=True)
+        print("  Test B — Türkçe resmî belge anlama")
         t0 = time.perf_counter()
         sonuc["B"] = test_b(model, belgeler)
         b = sonuc["B"]
-        print(f" {b['dogru']}/{b['toplam']} ({time.perf_counter() - t0:.1f} sn)")
+        print(f"    → {b['dogru']}/{b['toplam']} "
+              f"({time.perf_counter() - t0:.1f} sn)")
 
     if "c" in args.testler:
-        print(f"  Test C — şemalı çıktı ({args.tekrar} tur × 5 belge) ...",
-              end="", flush=True)
+        print(f"  Test C — şemalı çıktı ({args.tekrar} tur × 5 belge)")
         t0 = time.perf_counter()
         sonuc["C"] = test_c(model, belgeler, args.tekrar)
         c = sonuc["C"]
-        print(f" JSON %{c['C1_gecerli_json'] * 100:.0f} · "
+        print(f"    → JSON %{c['C1_gecerli_json'] * 100:.0f} · "
               f"doğru %{c['C2_dogru'] * 100:.0f} "
               f"({time.perf_counter() - t0:.1f} sn)")
 
-        print("  Test C3 — belirsizlik farkındalığı ...", end="", flush=True)
+        print("  Test C3 — belirsizlik farkındalığı")
         t0 = time.perf_counter()
         sonuc["C3"] = test_c3(model, belgeler, args.c3_tekrar)
         c3 = sonuc["C3"]
         if c3.get("atlandi"):
-            print(" atlandı")
+            print("    → atlandı")
         else:
-            print(f" {c3['gecen']}/{c3['toplam']} "
+            print(f"    → {c3['gecen']}/{c3['toplam']} "
                   f"({time.perf_counter() - t0:.1f} sn)")
 
     if "d" in args.testler:
         hedef = next((b for b in belgeler if b.b_dahil), belgeler[0])
-        print(f"  Test D — hız ({args.d_tekrar} tekrar) ...", end="", flush=True)
+        print(f"  Test D — hız ({args.d_tekrar} tekrar)")
         t0 = time.perf_counter()
         sonuc["D"] = test_d(model, hedef, args.d_tekrar)
         kapali = sonuc["D"]["kipler"].get("dusunme_kapali", {})
         if kapali.get("token_sn"):
-            print(f" {kapali['token_sn']} tok/s "
+            print(f"    → {kapali['token_sn']} tok/s "
                   f"({time.perf_counter() - t0:.1f} sn)")
         else:
-            print(" ölçülemedi")
+            print("    → ölçülemedi")
 
     return sonuc
 
@@ -1095,12 +1142,17 @@ def main() -> int:
                    help="rapora yazılacak makine notu, ör: 'RTX 2070 8GB'")
     p.add_argument("--hizli", action="store_true",
                    help="duman testi: tekrarları 1'e indirir")
+    p.add_argument("--ayrinti", action="store_true",
+                   help="Test B'de modellerin ham cevaplarını ekrana bas")
     p.add_argument("--kendi-testi", action="store_true",
                    help="Ollama'ya bağlanmadan dosya ve yardımcı denetimi")
     args = p.parse_args()
 
     if args.kendi_testi:
         return kendi_testi(args.veri)
+
+    global AYRINTI
+    AYRINTI = args.ayrinti
 
     if args.hizli:
         args.tekrar, args.c3_tekrar, args.d_tekrar = 1, 2, 1
@@ -1158,8 +1210,15 @@ def main() -> int:
         "modeller": [],
     }
 
-    for model in hedef_modeller:
-        rapor["modeller"].append(modeli_kosturt(model, belgeler, args))
+    try:
+        for model in hedef_modeller:
+            rapor["modeller"].append(modeli_kosturt(model, belgeler, args))
+    except KeyboardInterrupt:
+        print("\n\nKoşu elle durduruldu. O ana kadarki sonuçlar yazılıyor.")
+        rapor["ortam"]["yarida_kesildi"] = True
+    except Exception as e:
+        print(f"\n\nKoşu hata ile durdu: {type(e).__name__}: {e}")
+        rapor["ortam"]["hata"] = f"{type(e).__name__}: {e}"
 
     rapor["ortam"]["toplam_sure_sn"] = round(time.perf_counter() - baslangic, 1)
 
