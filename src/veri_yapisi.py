@@ -43,7 +43,10 @@ Kaynaklar:
 
 from __future__ import annotations
 
+from datetime import datetime, timezone
 from enum import StrEnum
+
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 # Veri yapısının sürümü. Alan eklendikçe küçük numara artar.
 # Üretilen her dosyaya yazılır; eski çıktıların hangi sürümle üretildiği belli olur.
@@ -73,6 +76,10 @@ class GelenTur(StrEnum):
     TALEP_YAZISI = "talep_yazisi"
     TEKIT_YAZISI = "tekit_yazisi"          # daha önce yazılana hatırlatma, K 30
     OLUR_YAZISI = "olur_yazisi"            # makam onayı, Y m.17
+    # Aşağıdaki ikisinin Yönetmelik'te tanımlı karşılığı YOKTUR; sahada
+    # kullanıldıkları için ve risk testinde modeller bu adları ürettiği için
+    # listede tutuluyorlar. Parça 4'te etiketli veriye bakıldığında gerçekten
+    # ayırt edilebiliyorlar mı diye sınanacak.
     DUYURU = "duyuru"
     GENELGE = "genelge"
 
@@ -379,6 +386,264 @@ ALAN_YOLLARI: frozenset[str] = frozenset({
     # Yönlendirme
     "yonlendirme.hedef_birim",
 })
+
+
+# =============================================================================
+# BÖLÜM 2 — KANIT
+# =============================================================================
+#
+# Sistemin her iddiası bir kanıta bağlanır: "bu belgenin konusu şudur" derken
+# nereden çıkardığımızı, hangi yöntemle bulduğumuzu ve ne kadar emin olduğumuzu
+# da söyleriz.
+#
+# Bunun iki gerekçesi var. Birincisi şartname: 6.4.1 evrağın "ilgili mevzuata
+# göre değerlendirilmesini", 6.4.2 ise "kullanıcıya süreç hakkında açık ve
+# anlaşılır bilgilendirme" sunulmasını istiyor. İkincisi pratik: kaynağı
+# gösterilemeyen bir çıkarım, kamu evrak sürecinde kullanılamaz.
+#
+# TASARIMI BELİRLEYEN İKİ ÖLÇÜM
+#
+# Parça 1 risk testi iki şey gösterdi ve ikisi de buraya yansıdı:
+#
+#   1. Modeller aralık dışı güven üretiyor. Şema 0-1 aralığını zorlamıyor;
+#      703.487 ve 90.0 gibi değerler geldi. Bu yüzden güven ham hâliyle kabul
+#      edilmiyor, doğrulanıyor (bkz. Kanit._guveni_dogrula).
+#
+#   2. Modellerin güveni kalibre değil. Yanlış cevaplarda ortalama güven
+#      qwen3.5:9b'de 0.79, turkish-gemma-9b'de 0.938 çıktı. Yani modelin
+#      "eminim" demesi doğru olduğu anlamına gelmiyor. Bu yüzden güvenin
+#      HANGİ YÖNTEMLE elde edildiği ayrıca tutuluyor: düzenli ifadeyle bulunan
+#      bir sayının güveni ile modelin beyan ettiği güven aynı şey değildir.
+
+
+# Modelin kendi beyan ettiği güven. Ölçüldü, kalibre değil — tek başına
+# karar eşiği olarak kullanılmamalı.
+BEYAN_YONTEMLERI: frozenset[KanitYontemi] = frozenset({
+    KanitYontemi.LLM,
+})
+
+# Güveni yapısal olarak belli olan yöntemler. Düzenli ifade eşleştiyse eşleşmiştir;
+# burada güven modelin kanaati değil, işlemin kesinliğidir.
+KESIN_YONTEMLER: frozenset[KanitYontemi] = frozenset({
+    KanitYontemi.REGEX,
+    KanitYontemi.SOZLUK,
+    KanitYontemi.KURAL,
+    KanitYontemi.HESAPLAMA,
+    KanitYontemi.INSAN,
+})
+
+
+def beyan_mi(yontem: KanitYontemi | str) -> bool:
+    """Bu yöntemin güveni modelin kendi beyanı mı."""
+    return str(yontem) in {str(y) for y in BEYAN_YONTEMLERI}
+
+
+# Karar eşikleri. BAŞLANGIÇ DEĞERLERİDİR — Parça 8'de değerlendirme setiyle
+# kalibre edilecek. Risk testinde qwen3.5:9b yanlış cevaplarında ortalama 0.79
+# güven verdi; bu, 0.60 gibi bir eşiğin hiçbir şey elemeyeceği anlamına gelir.
+ESIK_OTOMATIK_ONAY = 0.85    # bunun üstü insana sorulmadan geçebilir
+ESIK_INSAN_ONAYI = 0.60      # bunun altı mutlaka insana gider
+
+
+class Konum(BaseModel):
+    """Bilginin belgede nerede geçtiği.
+
+    Arayüzde belgeyi vurgulamak için gerekli: kullanıcı bir alana tıkladığında
+    o bilginin belgenin neresinden geldiğini görebilmeli.
+    """
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    sayfa: int = Field(default=1, ge=1)
+    satir: int | None = Field(default=None, ge=1)
+    baslangic: int | None = Field(
+        default=None, ge=0, description="sayfa metni içindeki karakter ofseti"
+    )
+    bitis: int | None = Field(default=None, ge=0)
+
+    @model_validator(mode="after")
+    def _aralik_tutarli(self) -> Konum:
+        if (self.baslangic is not None and self.bitis is not None
+                and self.bitis < self.baslangic):
+            raise ValueError(
+                f"Konum aralığı ters: baslangic={self.baslangic} > bitis={self.bitis}"
+            )
+        return self
+
+
+class Kanit(BaseModel):
+    """Bir alanın değerinin arkasındaki dayanak.
+
+    Değerin kendisini tutmaz — değer alanın kendi yerinde durur. Bu kutu
+    yalnızca "nereden geldi, ne kadar güveniyoruz" sorusunu cevaplar.
+
+    Kanıtlar değiştirilemez (frozen). Bir alan yeniden hesaplanırsa yeni bir
+    kanıt üretilir; eskisinin üzerine yazılmaz. Böylece "bu değeri kim, ne
+    zaman, neye dayanarak koydu" sorusu her zaman cevaplanabilir.
+    """
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    yontem: KanitYontemi
+    ureten: str = Field(description="ajan kimliği, ör. 'a2_ayristirma'")
+
+    guven: float = Field(default=0.0, ge=0.0, le=1.0)
+    guven_gecerliydi: bool = Field(
+        default=True,
+        description="Ham güven değeri 0-1 aralığında mıydı. False ise model "
+                    "sözleşme dışı bir değer üretti ve güven 0.0'a çekildi.",
+    )
+    guven_ham: str | None = Field(
+        default=None,
+        description="Aralık dışıysa modelin verdiği özgün değer, denetim için.",
+    )
+
+    alinti: str | None = Field(
+        default=None, max_length=300,
+        description="Belgeden birebir alıntı. Uzun tutulmaz; kanıt, belgenin "
+                    "kopyası değil işaretidir.",
+    )
+    konum: Konum | None = None
+
+    model: str | None = Field(
+        default=None, description="LLM kullanıldıysa model adı, ör. 'qwen3.5:9b'"
+    )
+    kural_id: str | None = Field(
+        default=None, description="rules.yaml kuralından geldiyse kural kimliği"
+    )
+    aciklama: str | None = Field(default=None, max_length=300)
+
+    zaman: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+
+    @model_validator(mode="before")
+    @classmethod
+    def _guveni_dogrula(cls, veri):
+        """Aralık dışı güveni 0.0'a çeker ve bunu işaretler.
+
+        NEDEN 0.0, NEDEN EN YAKIN SINIRA YUVARLAMA DEĞİL:
+        Model 90.0 yazdığında bunu 1.0'a çekmek, sözleşmeye uymayan bir cevabı
+        "azami güven" hâline getirir ve otomatik onaydan geçirir. Oysa aralık
+        dışı bir değerin tek dürüst yorumu şudur: bu modelin güven çıktısına
+        güvenilemez. Güvenilemeyen güvenin karşılığı 0'dır — alan insan
+        onayına düşer. Yüzdelik sanıp 100'e bölmek de yapılmıyor; 703.487
+        yüzdelik değildir, niyet tahmin edilmez.
+
+        Ham değer guven_ham alanında saklanıyor: modelin kalibrasyonunu
+        ölçmek isteyen biri bu bilgiyi kaybetmiş olmuyor.
+        """
+        if not isinstance(veri, dict):
+            return veri
+        if "guven" not in veri:
+            return veri
+
+        ham = veri["guven"]
+        if ham is None:
+            veri["guven"] = 0.0
+            veri["guven_gecerliydi"] = False
+            return veri
+
+        # bool, int'in alt sınıfı; True'nun 1.0 sayılmasını istemiyoruz
+        if isinstance(ham, bool) or not isinstance(ham, (int, float)):
+            veri["guven"] = 0.0
+            veri["guven_gecerliydi"] = False
+            veri["guven_ham"] = str(ham)[:100]
+            return veri
+
+        if not (0.0 <= float(ham) <= 1.0):
+            veri["guven"] = 0.0
+            veri["guven_gecerliydi"] = False
+            veri["guven_ham"] = str(ham)[:100]
+            return veri
+
+        veri["guven"] = float(ham)
+        return veri
+
+    @property
+    def beyan_edilen_guven_mi(self) -> bool:
+        """Güven, modelin kendi kanaati mi (kalibre olmayabilir)."""
+        return beyan_mi(self.yontem)
+
+    @property
+    def otomatik_gecebilir_mi(self) -> bool:
+        """Bu kanıt tek başına insan onayı olmadan geçmeye yeter mi."""
+        if not self.guven_gecerliydi:
+            return False
+        return self.guven >= ESIK_OTOMATIK_ONAY
+
+    def __str__(self) -> str:
+        p = f"{self.yontem}·{self.ureten}·{self.guven:.2f}"
+        return p + ("" if self.guven_gecerliydi else " (güven geçersizdi)")
+
+
+# -----------------------------------------------------------------------------
+# Güven karşılaştırma ve birleştirme
+# -----------------------------------------------------------------------------
+
+
+def daha_guvenilir(yeni: Kanit, mevcut: Kanit) -> bool:
+    """Yeni kanıt, mevcut kanıtın yerini almalı mı.
+
+    Sıralama önce YÖNTEME, sonra güvene bakar. Sebebi şu: düzenli ifadeyle
+    çıkarılmış bir sayının üzerine, modelin 0.95 güvenle beyan ettiği başka
+    bir sayının yazılmasını istemiyoruz. Model kendinden emin olabilir ama
+    düzenli ifade metinde gerçekten eşleşmiştir.
+
+    İnsan girdisi her şeyi geçer — kullanıcı düzeltmesi nihaidir.
+    """
+    if mevcut.yontem == KanitYontemi.INSAN:
+        return yeni.yontem == KanitYontemi.INSAN
+    if yeni.yontem == KanitYontemi.INSAN:
+        return True
+
+    yeni_kesin = not beyan_mi(yeni.yontem)
+    mevcut_kesin = not beyan_mi(mevcut.yontem)
+    if yeni_kesin != mevcut_kesin:
+        return yeni_kesin
+
+    return yeni.guven > mevcut.guven
+
+
+def en_zayif_halka(kanitlar: list[Kanit] | dict[str, Kanit]) -> float:
+    """Bir kanıt kümesinin toplam güveni.
+
+    En düşük güveni döndürür. Ortalama veya çarpım değil, bilerek:
+
+    - ORTALAMA yanıltıcı. Dokuz alanı 0.95, bir alanı 0.10 güvenle bulmuş bir
+      belgenin ortalaması 0.86 çıkar ve otomatik onaydan geçer. Oysa o tek
+      alan yanlışsa üretilen yazı da yanlıştır.
+    - ÇARPIM aşırı karamsar. Bağımsızlık varsayar; 20 alanın her biri 0.95
+      olsa bile çarpım 0.36'ya iner ve hiçbir belge geçemez.
+
+    Zincir en zayıf halkası kadar sağlamdır. Hangi halkanın zayıf olduğunu
+    görmek isteyen zayif_alanlar() kullanır.
+    """
+    degerler = list(kanitlar.values()) if isinstance(kanitlar, dict) else list(kanitlar)
+    if not degerler:
+        return 0.0
+    return min(k.guven for k in degerler)
+
+
+def zayif_alanlar(
+    kanitlar: dict[str, Kanit], esik: float = ESIK_INSAN_ONAYI
+) -> list[tuple[str, float]]:
+    """Eşiğin altında kalan alanlar, en düşükten başlayarak.
+
+    Parça 8'in "insana neyi sorayım" listesi ve arayüzün "şu alanları kontrol
+    edin" uyarısı buradan beslenecek.
+    """
+    dusuk = [
+        (yol, k.guven) for yol, k in kanitlar.items()
+        if not k.guven_gecerliydi or k.guven < esik
+    ]
+    return sorted(dusuk, key=lambda x: x[1])
+
+
+def bilinen_ajan_mi(ureten: str) -> bool:
+    """Ajan kimliği planlanan listede geçiyor mu.
+
+    Hata üretmez, yalnızca bilgi verir; ajan listesi kasıtlı olarak açık uçlu.
+    """
+    return ureten in AJANLAR
 
 
 if __name__ == "__main__":
