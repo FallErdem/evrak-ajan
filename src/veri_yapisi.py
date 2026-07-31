@@ -47,6 +47,7 @@ import re
 from datetime import date, datetime, timezone
 from enum import StrEnum
 from typing import NamedTuple
+from uuid import uuid4
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
@@ -194,10 +195,29 @@ _GIZLILIK_SIRASI: dict[str | None, int] = {
 
 
 def gizlilik_seviyesi(derece: GizlilikDerecesi | str | None) -> int:
-    """Gizlilik derecesini karşılaştırılabilir bir sayıya çevirir."""
+    """Gizlilik derecesini karşılaştırılabilir bir sayıya çevirir.
+
+    Tanınmayan bir derece HATA VERİR, sessizce 0 dönmez. Sebebi güvenlik:
+    0 "derecesiz" anlamına geliyor. Tanınmayan bir metin — ör. OCR'ın
+    "Çok Gizli"yi "Cok Gizli" diye okuması — sessizce 0 sayılsaydı, EK-05'in
+    "ekin gizliliği üst yazıyı aşamaz" denetimi Çok Gizli bir eki fark
+    etmeden geçirirdi. Gürültülü girdinin çıkardığı bir denetimin sessizce
+    başarılı görünmesi, açıkça çökmesinden kötüdür.
+
+    Derecesiz belge için None veya boş dize verilir.
+    """
     if derece is None:
         return 0
-    return _GIZLILIK_SIRASI.get(str(derece), 0)
+    metin = str(derece).strip()
+    if not metin:
+        return 0
+    if metin not in _GIZLILIK_SIRASI:
+        raise ValueError(
+            f"Tanınmayan gizlilik derecesi: {derece!r}. "
+            f"İzinli değerler: {[str(g) for g in GizlilikDerecesi]} veya None. "
+            f"Belgede yazan ham metin ustveri.gizlilik_ham alanında tutulur."
+        )
+    return _GIZLILIK_SIRASI[metin]
 
 
 # =============================================================================
@@ -394,20 +414,25 @@ ALAN_YOLLARI: frozenset[str] = frozenset({
     "ustveri.ekler",
     "ustveri.dagitim",
     "ustveri.ivedilik",
+    "ustveri.ivedilik_ham",
     "ustveri.gizlilik_derecesi",
+    "ustveri.gizlilik_ham",
     "ustveri.miat",
     "ustveri.imza",
     "ustveri.imza.ad",
     "ustveri.imza.unvan",
     # Alt bilgi
-    "altbilgi.iletisim",
+    "altbilgi.adres",
+    "altbilgi.telefon",
+    "altbilgi.eposta",
     "altbilgi.dogrulama_metni",
+    "altbilgi.dogrulama_kodu",
     # Metin
     "metin",
     # Sınıflandırma
     "siniflandirma.belge_turu",
     "siniflandirma.sdp.kod",
-    "siniflandirma.saklama_suresi",
+    "siniflandirma.sdp.saklama_suresi",
     # İçerik
     "icerik.talep",
     "icerik.ozet",
@@ -448,21 +473,41 @@ ALAN_YOLLARI: frozenset[str] = frozenset({
 #      bir sayının güveni ile modelin beyan ettiği güven aynı şey değildir.
 
 
-# Modelin kendi beyan ettiği güven. Ölçüldü, kalibre değil — tek başına
-# karar eşiği olarak kullanılmamalı.
+# Yöntemlerin güvenilirlik sırası.
+#
+# Başlangıçta bunu ikili bir ayrım olarak yazmıştım (kesin / beyan) ve iki
+# yöntem hiçbir kümeye girmiyordu: OCR ve VARSAYILAN. Kümesiz kalan yöntem
+# "kesin" sayılıyor, öntanımlı bir değer modelin gerçek çıkarımının üzerine
+# yazabiliyordu. Sıralı öncelik hem bu boşluğu kapatıyor hem de aradaki
+# dereceleri ifade edebiliyor.
+#
+# Sıralamanın mantığı: kullanıcı düzeltmesi nihaidir; metinde eşleşen bir
+# desen modelin kanaatinden güvenilirdir; OCR ölçülmüş ama gürültülüdür;
+# modelin beyanı kalibre değildir; öntanımlı değer hiçbir şeye dayanmaz.
+YONTEM_ONCELIGI: dict[KanitYontemi, int] = {
+    KanitYontemi.INSAN: 100,       # kullanıcı düzeltmesi — her şeyi geçer
+    KanitYontemi.REGEX: 80,        # metinde gerçekten eşleşti
+    KanitYontemi.SOZLUK: 80,
+    KanitYontemi.KURAL: 80,
+    KanitYontemi.HESAPLAMA: 75,    # başka alanlardan türetildi
+    KanitYontemi.OCR: 60,          # ölçülmüş güven, ama gürültülü
+    KanitYontemi.LLM: 40,          # beyan edilen güven, kalibre değil
+    KanitYontemi.VARSAYILAN: 0,    # dayanağı yok
+}
+
+# Güveni modelin kendi beyanı olan yöntemler. Risk testinde ölçüldü:
+# yanlış cevaplarda ortalama güven qwen3.5:9b'de 0.79, gemma'da 0.938.
 BEYAN_YONTEMLERI: frozenset[KanitYontemi] = frozenset({
     KanitYontemi.LLM,
 })
 
-# Güveni yapısal olarak belli olan yöntemler. Düzenli ifade eşleştiyse eşleşmiştir;
-# burada güven modelin kanaati değil, işlemin kesinliğidir.
-KESIN_YONTEMLER: frozenset[KanitYontemi] = frozenset({
-    KanitYontemi.REGEX,
-    KanitYontemi.SOZLUK,
-    KanitYontemi.KURAL,
-    KanitYontemi.HESAPLAMA,
-    KanitYontemi.INSAN,
-})
+
+def yontem_onceligi(yontem: KanitYontemi | str) -> int:
+    """Yöntemin güvenilirlik sırası. Tanımsız yöntem en düşük sayılır."""
+    try:
+        return YONTEM_ONCELIGI[KanitYontemi(str(yontem))]
+    except (ValueError, KeyError):
+        return 0
 
 
 def beyan_mi(yontem: KanitYontemi | str) -> bool:
@@ -562,6 +607,11 @@ class Kanit(BaseModel):
 
         Ham değer guven_ham alanında saklanıyor: modelin kalibrasyonunu
         ölçmek isteyen biri bu bilgiyi kaybetmiş olmuyor.
+
+        METİN GİRDİ DE REDDEDİLİR. Pydantic normalde "0.5" dizesini 0.5'e
+        çevirir; burada bilerek çevirmiyoruz. Şema sayı tipi dayattığı için
+        dize gelmesi zaten sözleşme ihlalidir ve tolere edilmesi, sonraki
+        ihlalleri görünmez kılar.
         """
         if not isinstance(veri, dict):
             return veri
@@ -615,22 +665,22 @@ class Kanit(BaseModel):
 def daha_guvenilir(yeni: Kanit, mevcut: Kanit) -> bool:
     """Yeni kanıt, mevcut kanıtın yerini almalı mı.
 
-    Sıralama önce YÖNTEME, sonra güvene bakar. Sebebi şu: düzenli ifadeyle
-    çıkarılmış bir sayının üzerine, modelin 0.95 güvenle beyan ettiği başka
-    bir sayının yazılmasını istemiyoruz. Model kendinden emin olabilir ama
-    düzenli ifade metinde gerçekten eşleşmiştir.
+    Önce YÖNTEME, sonra güvene bakar. Sebebi şu: düzenli ifadeyle çıkarılmış
+    bir sayının üzerine, modelin 0.99 güvenle beyan ettiği başka bir sayının
+    yazılmasını istemiyoruz. Model kendinden emin olabilir ama düzenli ifade
+    metinde gerçekten eşleşmiştir.
 
-    İnsan girdisi her şeyi geçer — kullanıcı düzeltmesi nihaidir.
+    Eşit öncelikte olanlar güvene göre karşılaştırılır. Geçersiz güvenli bir
+    kanıt, geçerli güvenli olanın yerini alamaz — sözleşme dışı çıktı üreten
+    bir model tercih edilmez.
     """
-    if mevcut.yontem == KanitYontemi.INSAN:
-        return yeni.yontem == KanitYontemi.INSAN
-    if yeni.yontem == KanitYontemi.INSAN:
-        return True
+    yeni_o = yontem_onceligi(yeni.yontem)
+    mevcut_o = yontem_onceligi(mevcut.yontem)
+    if yeni_o != mevcut_o:
+        return yeni_o > mevcut_o
 
-    yeni_kesin = not beyan_mi(yeni.yontem)
-    mevcut_kesin = not beyan_mi(mevcut.yontem)
-    if yeni_kesin != mevcut_kesin:
-        return yeni_kesin
+    if yeni.guven_gecerliydi != mevcut.guven_gecerliydi:
+        return yeni.guven_gecerliydi
 
     return yeni.guven > mevcut.guven
 
@@ -955,11 +1005,35 @@ class Ustveri(BaseModel):
     dagitim: list[DagitimSatiri] = Field(default_factory=list)
 
     # Gizlilik ve süreli yazışma — G bölümü, 8 kural
+    #
+    # Bu ikisinde ham alan ayrıca gerekli. Belgede "ACİL" veya "Özel" yazıyor
+    # olabilir; ikisi de mevzuata aykırı ve çözümlenmiş alana yazılamaz, ama
+    # KAYDEDİLMELİ. Belge reddedilmiyor — kusuru raporlanıyor, ve raporda
+    # "belgede ne yazıyordu" sorusunun cevabı bulunmalı (G-02, G-04).
     ivedilik: Ivedilik | None = None
+    ivedilik_ham: str | None = Field(
+        default=None, max_length=50,
+        description="Belgede yazdığı hâl. Mevzuata aykırıysa ivedilik boş kalır, "
+                    "bu alan dolu olur.",
+    )
     gizlilik_derecesi: GizlilikDerecesi | None = None
+    gizlilik_ham: str | None = Field(
+        default=None, max_length=50,
+        description="Belgede yazdığı hâl; kaldırılmış 'Özel' derecesi burada durur.",
+    )
     miat: date | None = Field(
         default=None, description="G-05: GÜNLÜDÜR ise dolu olmalı"
     )
+
+    @property
+    def ivedilik_gecerli_mi(self) -> bool:
+        """Belgede ivedilik ibaresi var ama mevzuata uygun değil mi (G-04)."""
+        return not (self.ivedilik is None and self.ivedilik_ham)
+
+    @property
+    def gizlilik_gecerli_mi(self) -> bool:
+        """Belgede gizlilik derecesi var ama mevzuata uygun değil mi (G-02)."""
+        return not (self.gizlilik_derecesi is None and self.gizlilik_ham)
 
     # İmza — IM bölümü, 9 kural
     imza: Imza = Field(default_factory=Imza)
@@ -1010,10 +1084,710 @@ def sayi_bolumleri(sayi: str | None) -> SayiBolumleri | None:
     return SayiBolumleri(*m.groups())
 
 
+# =============================================================================
+# BÖLÜM 4 — DOSYA
+# =============================================================================
+#
+# Bölüm 3 gelen evrağın anatomisini tanımladı. Bu bölüm, o anatominin üzerine
+# sistemin ÜRETTİKLERİNİ ekliyor ve hepsini tek bir kök nesnede topluyor.
+#
+# Şartnamenin iki görevi burada karşılık buluyor:
+#
+#   6.4.1 — Evrak Sınıflandırma ve İçerik Analizi
+#           Siniflandirma · Icerik (özet, varlıklar, eksik alanlar) · Mevzuat
+#
+#   6.4.2 — Resmî Yazı Taslaklama ve Birim Yönlendirme
+#           CiktiYazi (taslak + linter raporu) · Yonlendirme · Karar
+#
+# İz kaydı ise 6.4.2'nin "kullanıcıya süreç hakkında açık ve anlaşılır
+# bilgilendirme sunması" isteğinin kaynağı.
+
+
+# -----------------------------------------------------------------------------
+# 4.1 Sınıflandırma — Ş 6.4.1
+# -----------------------------------------------------------------------------
+
+
+class SdpKodu(BaseModel):
+    """Standart dosya planı ataması.
+
+    Sayısı olan bir kurum yazısında bu kod TAHMİN EDİLMEZ, sayının üçüncü
+    bölümünden okunur (bkz. sayi_bolumleri). Tahmin yalnızca üç durumda
+    gerekir: vatandaş dilekçesinde, ürettiğimiz taslakta, ve gelen koddaki
+    tutarlılığı denetlerken (S-07).
+    """
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    kod: str | None = Field(default=None, max_length=20, description="ör. '010.06.01'")
+    ana_grup: str | None = Field(default=None, max_length=10, description="ör. '010'")
+    ad: str | None = Field(default=None, max_length=200)
+    saklama_suresi: str | None = Field(
+        default=None,
+        description="SDP'den gelir. Şartname 6.2 arşivlemeyi anıyor ama zorunlu "
+                    "yetenek listesine almamış; bu alan bedava kazanç.",
+    )
+    kaynak_sayidan_mi: bool = Field(
+        default=False, description="Kod sayıdan okunduysa True, tahminse False"
+    )
+
+
+class Siniflandirma(BaseModel):
+    """Gelen evrağın türü ve dosyalama kodu."""
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    belge_turu: GelenTur = GelenTur.BILINMIYOR
+    sdp: SdpKodu = Field(default_factory=SdpKodu)
+    gerekce: str | None = Field(default=None, max_length=500)
+    alternatif_turler: list[GelenTur] = Field(
+        default_factory=list,
+        description="Model ikinci ve üçüncü adayları da verdiyse. İnsan onayı "
+                    "ekranında seçenek olarak gösterilir.",
+    )
+
+
+# -----------------------------------------------------------------------------
+# 4.2 İçerik analizi — Ş 6.4.1
+# -----------------------------------------------------------------------------
+
+
+class Varlik(BaseModel):
+    """Belgeden çıkarılan tek bir bilgi unsuru.
+
+    `kisisel_veri` alanı tipe göre otomatik dolar; ajanın işaretlemeyi
+    unutması mümkün değil. Maskeleme Parça 3'te yazılacak, ama işaret
+    şimdiden burada.
+    """
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    tip: VarlikTipi
+    deger: str = Field(max_length=500)
+    ham: str | None = Field(default=None, max_length=500)
+    konum: Konum | None = None
+    kisisel_veri: bool = False
+    maskeli_deger: str | None = Field(
+        default=None, description="ör. '105******40'; maskeleme Parça 3'te"
+    )
+
+    @model_validator(mode="after")
+    def _kisisel_veriyi_isaretle(self) -> Varlik:
+        # Tipten çıkan sonucu ajanın kararına bırakmıyoruz: bir ajan unutursa
+        # kişisel veri maskelenmeden geçer. Tip kişisel veriyse işaret zorunlu.
+        if kisisel_veri_mi(self.tip) and not self.kisisel_veri:
+            object.__setattr__(self, "kisisel_veri", True)
+        return self
+
+
+class EksikAlan(BaseModel):
+    """Belgede bulunması gereken ama bulunmayan bilgi — Ş 6.4.1 (3).
+
+    `kural_id` doluysa eksiklik mevzuat kaynaklıdır ve kullanıcıya dayanağı
+    gösterilebilir. Boşsa çıkarım yoluyla tespit edilmiştir.
+    """
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    alan: str = Field(max_length=100, description="ör. 'ustveri.sayi'")
+    aciklama: str = Field(max_length=300)
+    onem: Onem = Onem.UYARI
+    kural_id: str | None = Field(default=None, description="ör. 'S-01'")
+    dayanak: str | None = Field(
+        default=None, max_length=500, description="mevzuat alıntısı"
+    )
+    talep_edilebilir: bool = Field(
+        default=False,
+        description="Ş 6.4.2 (5): sistem bu eksiği karşı taraftan isteyebilir mi",
+    )
+
+
+class Icerik(BaseModel):
+    """Belgenin ne dediği — Ş 6.4.1 (2), (3) ve (5)."""
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    talep: str | None = Field(
+        default=None, max_length=500, description="Belge ne istiyor, tek cümle"
+    )
+    ozet: str | None = Field(default=None, max_length=1500)
+    varliklar: list[Varlik] = Field(default_factory=list)
+    eksik_alanlar: list[EksikAlan] = Field(default_factory=list)
+
+    @property
+    def kisisel_veriler(self) -> list[Varlik]:
+        return [v for v in self.varliklar if v.kisisel_veri]
+
+    @property
+    def kritik_eksikler(self) -> list[EksikAlan]:
+        return [e for e in self.eksik_alanlar if e.onem == Onem.HATA]
+
+
+# -----------------------------------------------------------------------------
+# 4.3 Mevzuat önerileri — Ş 6.4.1 (4)
+# -----------------------------------------------------------------------------
+
+
+class MevzuatOnerisi(BaseModel):
+    """İlgili olduğu değerlendirilen mevzuat maddesi.
+
+    `dogrulandi` ayrı bir alan çünkü benzerlik skoru tek başına yetmiyor:
+    metinsel olarak benzeyen bir madde konu olarak alakasız olabilir.
+    Getirme ile doğrulama iki ayrı adım.
+    """
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    mevzuat_adi: str = Field(max_length=300)
+    madde: str | None = Field(default=None, max_length=50)
+    alinti: str | None = Field(
+        default=None, max_length=1000, description="mevzuat metninden birebir"
+    )
+    benzerlik: float | None = Field(
+        default=None, ge=0.0, le=1.0, description="getirme skoru"
+    )
+    dogrulandi: bool = Field(
+        default=False, description="ikinci bir adım gerçekten ilgili olduğunu onayladı mı"
+    )
+    kural_id: str | None = Field(default=None, description="rules.yaml'dan geldiyse")
+
+
+# -----------------------------------------------------------------------------
+# 4.4 Linter — kural denetimi çıktısı
+# -----------------------------------------------------------------------------
+
+
+class LinterBulgusu(BaseModel):
+    """Tek bir kural ihlali.
+
+    Kullanıcıya gösterilecek üç şey: ne yanlış (kural), neden yanlış
+    (dayanak), nerede yanlış (konum/alinti).
+    """
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    kural_id: str = Field(max_length=20)
+    baslik: str = Field(max_length=200)
+    onem: Onem
+    aciklama: str | None = Field(default=None, max_length=500)
+    dayanak: str | None = Field(
+        default=None, max_length=1000, description="mevzuat alıntısı"
+    )
+    alan: str | None = Field(default=None, description="ör. 'ustveri.sayi'")
+    alinti: str | None = Field(default=None, max_length=300)
+    konum: Konum | None = None
+    duzeltme_onerisi: str | None = Field(default=None, max_length=500)
+
+
+class LinterRaporu(BaseModel):
+    """Bir belgenin kural denetimi sonucu."""
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    bulgular: list[LinterBulgusu] = Field(default_factory=list)
+    denetlenen_kural_sayisi: int = Field(default=0, ge=0)
+    atlanan_kural_sayisi: int = Field(
+        default=0, ge=0, description="kapsam dışı veya ön koşulu eksik kurallar"
+    )
+
+    @property
+    def hatalar(self) -> list[LinterBulgusu]:
+        return [b for b in self.bulgular if b.onem == Onem.HATA]
+
+    @property
+    def uyarilar(self) -> list[LinterBulgusu]:
+        return [b for b in self.bulgular if b.onem == Onem.UYARI]
+
+    @property
+    def gecti_mi(self) -> bool:
+        """rules.yaml'ın kuralı: yalnızca 'hata' düzeyi belgeyi düşürür."""
+        return not self.hatalar
+
+
+# -----------------------------------------------------------------------------
+# 4.5 Üretilen yazı ve yönlendirme — Ş 6.4.2
+# -----------------------------------------------------------------------------
+
+
+class CiktiYazi(BaseModel):
+    """Sistemin ürettiği taslak — Ş 6.4.2 (1) ve (2).
+
+    Taslağın kendi sayısı, tarihi ve imzası burada YOK: bunlar EBYS'de kayıt
+    ve imza anında atanır, taslak aşamasında bilinmez. Gerekirse sonradan
+    eklenir (yapı kuralı: alan silinmez, eklenir).
+    """
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    tur: UretilecekTur | None = None
+    tur_gerekcesi: str | None = Field(default=None, max_length=500)
+    sablon: str | None = Field(default=None, description="kullanılan şablon adı")
+    konu: str | None = Field(default=None, max_length=250)
+    metin: str | None = Field(default=None, description="taslağın gövdesi")
+    hiyerarsi_yonu: HiyerarsiYonu | None = Field(
+        default=None, description="ME-02/ME-03: arz mı rica mı bunu belirliyor"
+    )
+    linter_raporu: LinterRaporu = Field(default_factory=LinterRaporu)
+
+
+class Yonlendirme(BaseModel):
+    """Evrağın hangi birime gideceği — Ş 6.4.2 (3)."""
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    hedef_birim: str | None = Field(default=None, max_length=200)
+    dagitim_turu: DagitimTuru = DagitimTuru.GEREGI
+    gerekce: str | None = Field(default=None, max_length=500)
+    alternatifler: list[str] = Field(
+        default_factory=list,
+        description="İkinci ve üçüncü aday birimler. Yönlendirme hatası pahalı "
+                    "olduğu için kullanıcıya seçenek sunulur.",
+    )
+    kurum_disinda: bool = Field(
+        default=False, description="Evrak yanlış kuruma gelmişse True"
+    )
+
+
+# -----------------------------------------------------------------------------
+# 4.6 Karar ve iz
+# -----------------------------------------------------------------------------
+
+
+class Karar(BaseModel):
+    """Sistem bu belgeyi insana sormadan geçirebilir mi."""
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    otomatik_onay: bool = False
+    insan_onayi_gerekli: bool = True
+    sebepler: list[str] = Field(
+        default_factory=list, description="insan onayı neden gerekli"
+    )
+    toplam_guven: float = Field(default=0.0, ge=0.0, le=1.0)
+    toplam_sure_ms: float = Field(default=0.0, ge=0.0)
+
+
+class IzKaydi(BaseModel):
+    """Bir ajanın tek çalıştırması.
+
+    Ş 6.4.2 (4) kullanıcıya süreç hakkında açık ve anlaşılır bilgilendirme
+    sunulmasını istiyor; arayüzdeki "hangi ajan ne yaptı, ne kadar sürdü"
+    paneli bu listeden besleniyor. Aynı zamanda Parça 9'un gecikme ölçümünün
+    ham verisi.
+    """
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    ajan: str
+    model: str | None = None
+    basarili: bool = True
+    hata: str | None = Field(default=None, max_length=500)
+    sure_ms: float = Field(default=0.0, ge=0.0)
+    istem_token: int | None = Field(default=None, ge=0)
+    uretilen_token: int | None = Field(default=None, ge=0)
+    zaman: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+
+
+# -----------------------------------------------------------------------------
+# 4.7 Kök nesne
+# -----------------------------------------------------------------------------
+
+
+class Dosya(BaseModel):
+    """Bir evrağın tüm yolculuğu.
+
+    12 ajan bu nesneyi sırayla doldurur. Alan adları rules.yaml'ın yol
+    dizeleriyle hizalı; deger_al() ile nokta yollarından okunabilir.
+    """
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    # 1 · Kimlik
+    evrak_id: str = Field(default_factory=lambda: uuid4().hex[:12])
+    olusturma_zamani: datetime = Field(
+        default_factory=lambda: datetime.now(timezone.utc)
+    )
+    surum: str = SURUM
+
+    # 2-5 · Gelen evrak
+    gelen_kayit: GelenKayit = Field(default_factory=GelenKayit)
+    kaynak: KaynakBilgisi = Field(default_factory=KaynakBilgisi)
+    baslik: BaslikBlogu = Field(default_factory=BaslikBlogu)
+    ustveri: Ustveri = Field(default_factory=Ustveri)
+    metin: str | None = Field(default=None, description="gelen belgenin gövdesi")
+    altbilgi: AltBilgi = Field(default_factory=AltBilgi)
+
+    # 6-9 · Görev 1 çıktıları
+    siniflandirma: Siniflandirma = Field(default_factory=Siniflandirma)
+    icerik: Icerik = Field(default_factory=Icerik)
+    mevzuat: list[MevzuatOnerisi] = Field(default_factory=list)
+
+    # 10-11 · Görev 2 çıktıları
+    cikti_yazi: CiktiYazi = Field(default_factory=CiktiYazi)
+    yonlendirme: Yonlendirme = Field(default_factory=Yonlendirme)
+
+    # 12-13 · Karar ve iz
+    karar: Karar = Field(default_factory=Karar)
+    iz: list[IzKaydi] = Field(default_factory=list)
+
+    # Kanıt haritası — anahtarlar rules.yaml'ın yol dizeleriyle aynı
+    kanit: dict[str, Kanit] = Field(default_factory=dict)
+
+    # -- yol çözümleme ------------------------------------------------------
+
+    def deger_al(self, yol: str, varsayilan=None):
+        """Nokta yolundan değer okur: deger_al('ustveri.muhatap.birim').
+
+        Kural motorunun ihtiyacı olan çözümleyici. rules.yaml'ın
+        'ustveri.sayi[bolum:3]' gibi özel sözdizimi burada desteklenmiyor;
+        o, motorun kendi işi (sayi_bolumleri ile çözülür).
+        """
+        dugum = self
+        for parca in yol.split("."):
+            if isinstance(dugum, dict):
+                dugum = dugum.get(parca)
+            else:
+                dugum = getattr(dugum, parca, None)
+            if dugum is None:
+                return varsayilan
+        return dugum
+
+    def alan_dolu_mu(self, yol: str) -> bool:
+        """Bu alana gerçekten bir şey yazılmış mı.
+
+        "Boş değil mi" diye bakmak yetmiyor: Taraf() ve Imza() gibi iç
+        nesneler default_factory ile her zaman oluşuyor, GelenTur.BILINMIYOR
+        da bir öntanımlı. Bunları "dolu" saymak kanitsiz_alanlar()'ı
+        kullanılamaz hâle getiriyordu — boş bir Dosya'da bile dört alan
+        rapor ediliyordu.
+
+        Doğru ölçüt öntanımlıdan sapmadır: değer, hiç dokunulmamış bir
+        Dosya'daki karşılığından farklıysa doldurulmuş demektir.
+        """
+        deger = self.deger_al(yol)
+        if deger is None:
+            return False
+        return deger != _varsayilan_dosya().deger_al(yol)
+
+    # -- kanıt --------------------------------------------------------------
+
+    def kanit_ekle(self, yol: str, kanit: Kanit, zorla: bool = False) -> bool:
+        """Bir alana kanıt iliştirir. Eklendiyse True döner.
+
+        Mevcut kanıt daha güvenilirse yenisi REDDEDİLİR — modelin, düzenli
+        ifadeyle bulunmuş bir değerin kanıtını ezmesini engeller. zorla=True
+        bu korumayı devre dışı bırakır; kasıtlı olmadıkça kullanılmamalı.
+
+        Tanımsız bir yola kanıt eklenmesi hata verir. Sebebi kişisel deneyim
+        değil, tasarım: 'ustveri.sayı' (Türkçe ı ile) diye sessizce yanlış
+        anahtar yazılırsa, o kanıt hiçbir zaman bulunamaz ve alan kanıtsız
+        sayılır. Hatanın belirtisi çıktığı yerden çok uzakta görünür.
+        """
+        if yol not in ALAN_YOLLARI:
+            raise ValueError(
+                f"Tanımsız alan yolu: {yol!r}. "
+                f"ALAN_YOLLARI kümesine ekleyin veya yazımı düzeltin."
+            )
+        mevcut = self.kanit.get(yol)
+        if mevcut is not None and not zorla and not daha_guvenilir(kanit, mevcut):
+            return False
+        self.kanit[yol] = kanit
+        return True
+
+    def guven(self, yol: str, varsayilan: float = 0.0) -> float:
+        k = self.kanit.get(yol)
+        return k.guven if k else varsayilan
+
+    def kanitsiz_alanlar(self) -> list[str]:
+        """Dolu olduğu hâlde kanıtı bulunmayan alanlar.
+
+        Kanıt haritasının zayıf noktası eklemeyi unutmaktır. Bu fonksiyon o
+        unutmayı bir teste bağlanabilir hâle getiriyor.
+        """
+        return sorted(
+            yol for yol in ALAN_YOLLARI
+            if self.alan_dolu_mu(yol) and yol not in self.kanit
+        )
+
+    def gecersiz_kanit_anahtarlari(self) -> list[str]:
+        """ALAN_YOLLARI'nda tanımlı olmayan kanıt anahtarları.
+
+        kanit_ekle() yol adını denetliyor, ama sözlüğe doğrudan yazmak
+        (d.kanit["yol"] = ...) o denetimi atlıyor. Bu fonksiyon ve aşağıdaki
+        doğrulayıcı, atlanan durumu yakalar.
+        """
+        return sorted(y for y in self.kanit if y not in ALAN_YOLLARI)
+
+    @model_validator(mode="after")
+    def _kanit_anahtarlarini_dogrula(self) -> Dosya:
+        gecersiz = self.gecersiz_kanit_anahtarlari()
+        if gecersiz:
+            raise ValueError(
+                f"Kanıt haritasında tanımsız alan yolu: {gecersiz}. "
+                f"ALAN_YOLLARI kümesine ekleyin veya yazımı düzeltin."
+            )
+        return self
+
+    def zayif_alanlar(self, esik: float = ESIK_INSAN_ONAYI) -> list[tuple[str, float]]:
+        return zayif_alanlar(self.kanit, esik)
+
+    def toplam_guven_hesapla(self) -> float:
+        """En zayıf halka. Sonucu karar bloğuna da yazar."""
+        deger = en_zayif_halka(self.kanit)
+        self.karar.toplam_guven = deger
+        return deger
+
+    # -- özetler ------------------------------------------------------------
+
+    @property
+    def kisisel_veri_var_mi(self) -> bool:
+        return bool(self.icerik.kisisel_veriler)
+
+    @property
+    def toplam_sure_ms(self) -> float:
+        return sum(k.sure_ms for k in self.iz)
+
+    def ozet_satiri(self) -> str:
+        """Günlüğe ve arayüze tek satırlık durum."""
+        return (
+            f"{self.evrak_id} · {self.siniflandirma.belge_turu} · "
+            f"güven {self.karar.toplam_guven:.2f} · "
+            f"{len(self.cikti_yazi.linter_raporu.hatalar)} hata · "
+            f"{self.toplam_sure_ms:.0f} ms"
+        )
+
+    @classmethod
+    def json_semasi(cls) -> dict:
+        """Veri yapısından JSON şeması üretir.
+
+        risk_testi.py'de şemayı elle yazmıştım; buradan üretilen şema tek
+        kaynak olur ve yapı değiştiğinde modele giden şema kendiliğinden
+        güncellenir.
+        """
+        return cls.model_json_schema()
+
+
+_VARSAYILAN_DOSYA: Dosya | None = None
+
+
+def _varsayilan_dosya() -> Dosya:
+    """Hiç dokunulmamış bir Dosya. alan_dolu_mu karşılaştırması için.
+
+    Bir kez üretilip yeniden kullanılıyor; her çağrıda yeni nesne kurmak
+    43 alan × belge sayısı kadar gereksiz iş demek.
+    """
+    global _VARSAYILAN_DOSYA
+    if _VARSAYILAN_DOSYA is None:
+        _VARSAYILAN_DOSYA = Dosya()
+    return _VARSAYILAN_DOSYA
+
+
+# =============================================================================
+# KENDİ TESTİ
+# =============================================================================
+
+
+def _kendi_testi() -> int:
+    """Yapının iç tutarlılığını denetler. Dış bağımlılığı yoktur.
+
+    ADIM 5'in bitti kriteri: boş bir evrak nesnesi oluşturulabiliyor, JSON'a
+    çevrilebiliyor, JSON şeması üretilebiliyor. Üçü de burada sınanıyor,
+    üstüne yapının kendi içindeki sözleşmeler de denetleniyor.
+    """
+    hatalar = 0
+
+    def kontrol(ad: str, kosul: bool, ayrinti: str = "") -> None:
+        nonlocal hatalar
+        if kosul:
+            print(f"  ✓ {ad}")
+        else:
+            hatalar += 1
+            print(f"  ✗ {ad}" + (f" — {ayrinti}" if ayrinti else ""))
+
+    print("Sözlük:")
+    kontrol("her belge türü bir kategoride",
+            not (set(GelenTur) - set().union(*KATEGORILER.values())
+                 - {GelenTur.BILINMIYOR}))
+    kontrol("şartname 6.4.2'nin üç türü üretilebilir listesinde",
+            all(t in set(UretilecekTur) for t in
+                ("ust_yazi", "cevap_yazisi", "bilgilendirme_yazisi")))
+    kontrol("her kanıt yöntemine öncelik atanmış",
+            set(KanitYontemi) == set(YONTEM_ONCELIGI),
+            f"eksik: {set(KanitYontemi) - set(YONTEM_ONCELIGI)}")
+    kontrol("varsayılan en düşük öncelikte",
+            yontem_onceligi(KanitYontemi.VARSAYILAN)
+            < min(yontem_onceligi(y) for y in KanitYontemi
+                  if y != KanitYontemi.VARSAYILAN))
+    kontrol("insan en yüksek öncelikte",
+            yontem_onceligi(KanitYontemi.INSAN)
+            == max(YONTEM_ONCELIGI.values()))
+    kontrol("gizlilik sırası artan",
+            gizlilik_seviyesi(None)
+            < gizlilik_seviyesi(GizlilikDerecesi.HIZMETE_OZEL)
+            < gizlilik_seviyesi(GizlilikDerecesi.GIZLI)
+            < gizlilik_seviyesi(GizlilikDerecesi.COK_GIZLI))
+    kontrol("kaldırılan 'Özel' derecesi listede değil",
+            "Özel" not in {str(g) for g in GizlilikDerecesi})
+    kontrol("yasaklı ivedilik ibareleri izinli kümede değil",
+            not ({i.upper() for i in YASAKLI_IVEDILIK}
+                 & {str(i).upper() for i in Ivedilik}))
+
+    print("\nGüven doğrulama:")
+    for ham, beklenen_gecerli in [(0.85, True), (703.487, False), (90.0, False),
+                                  (1.75, False), (-0.2, False), (True, False),
+                                  ("yüksek", False), (None, False), (1.0, True)]:
+        k = Kanit(yontem=KanitYontemi.LLM, ureten="test", guven=ham)
+        kontrol(f"guven={ham!r} -> {k.guven:.2f}",
+                k.guven_gecerliydi is beklenen_gecerli and 0.0 <= k.guven <= 1.0)
+
+    print("\nYöntem önceliği:")
+    regex = Kanit(yontem=KanitYontemi.REGEX, ureten="a2_ayristirma", guven=0.70)
+    llm = Kanit(yontem=KanitYontemi.LLM, ureten="a3_siniflandirma", guven=0.99)
+    insan = Kanit(yontem=KanitYontemi.INSAN, ureten="kullanici", guven=0.30)
+    varsayilan = Kanit(yontem=KanitYontemi.VARSAYILAN, ureten="sistem", guven=0.99)
+    kontrol("LLM(0.99) regex(0.70)'i ezemiyor", not daha_guvenilir(llm, regex))
+    kontrol("regex(0.70) LLM(0.99)'u eziyor", daha_guvenilir(regex, llm))
+    kontrol("insan(0.30) regex(0.70)'i eziyor", daha_guvenilir(insan, regex))
+    kontrol("varsayılan(0.99) LLM(0.99)'u ezemiyor",
+            not daha_guvenilir(varsayilan, llm))
+
+    print("\nSayı ayrıştırma:")
+    kontrol("yeni biçim çözümleniyor",
+            sayi_bolumleri("E-71368504-010.06.01-4471829").sdp == "010.06.01")
+    kontrol("2020 öncesi biçim reddediliyor",
+            sayi_bolumleri("96321565-774.09.03-E.79291") is None)
+    kontrol("eğik çizgili biçim reddediliyor",
+            sayi_bolumleri("E/68103562/823.02/138739") is None)
+    kontrol("boş sayı çökmüyor", sayi_bolumleri(None) is None)
+
+    print("\nKişisel veri:")
+    v = Varlik(tip=VarlikTipi.TCKN, deger="10000000140")
+    kontrol("TCKN otomatik kişisel veri işaretleniyor", v.kisisel_veri)
+    kontrol("kurum adı kişisel veri sayılmıyor",
+            not Varlik(tip=VarlikTipi.KURUM_ADI, deger="YÖK").kisisel_veri)
+
+    print("\nMevzuata aykırı ibareler kayıt altına alınıyor:")
+    u = Ustveri(ivedilik_ham="ACİL", gizlilik_ham="Özel")
+    kontrol("ACİL ham alanda saklanıyor, çözümlenmiş boş",
+            u.ivedilik_ham == "ACİL" and u.ivedilik is None)
+    kontrol("G-04 ihlali tespit ediliyor", not u.ivedilik_gecerli_mi)
+    kontrol("G-02 ihlali tespit ediliyor", not u.gizlilik_gecerli_mi)
+    kontrol("kurallara uygun belgede ihlal yok",
+            Ustveri(ivedilik=Ivedilik.ACELE).ivedilik_gecerli_mi)
+    kontrol("ivedilik hiç yoksa ihlal yok", Ustveri().ivedilik_gecerli_mi)
+
+    print("\nAlan yolları — yapıyla sözleşme:")
+    d = Dosya()
+    cozulmeyen = []
+    for yol in sorted(ALAN_YOLLARI):
+        dugum = d
+        for parca in yol.split("."):
+            if not hasattr(dugum, parca):
+                cozulmeyen.append(yol)
+                break
+            dugum = getattr(dugum, parca)
+            if dugum is None:
+                break
+    kontrol(f"{len(ALAN_YOLLARI)} yolun tamamı yapıda karşılık buluyor",
+            not cozulmeyen, f"çözülmeyen: {cozulmeyen}")
+    kontrol("deger_al nokta yolundan okuyor",
+            Dosya(metin="deneme").deger_al("metin") == "deneme")
+    kontrol("deger_al olmayan yolda çökmüyor",
+            d.deger_al("yok.boyle.bir.sey") is None)
+
+    print("\nKanıt haritası:")
+    d2 = Dosya(ustveri=Ustveri(sayi="E-71368504-010.06.01-4471829"))
+    kontrol("tanımsız yol reddediliyor",
+            _hata_veriyor_mu(lambda: d2.kanit_ekle(
+                "ustveri.sayı", Kanit(yontem=KanitYontemi.REGEX, ureten="x"))))
+    kontrol("kanıtsız dolu alan yakalanıyor",
+            "ustveri.sayi" in d2.kanitsiz_alanlar())
+    d2.kanit_ekle("ustveri.sayi", regex)
+    kontrol("kanıt eklenince listeden düşüyor",
+            "ustveri.sayi" not in d2.kanitsiz_alanlar())
+    kontrol("zayıf kanıt mevcut kanıdı ezemiyor",
+            d2.kanit_ekle("ustveri.sayi", llm) is False)
+    kontrol("insan kanıtı ezebiliyor",
+            d2.kanit_ekle("ustveri.sayi", insan) is True)
+    kontrol("zorla=True korumayı aşıyor",
+            d2.kanit_ekle("ustveri.sayi", llm, zorla=True) is True)
+
+    print("\nToplam güven:")
+    d3 = Dosya()
+    d3.kanit["ustveri.sayi"] = Kanit(yontem=KanitYontemi.REGEX, ureten="a", guven=0.95)
+    d3.kanit["ustveri.konu"] = Kanit(yontem=KanitYontemi.LLM, ureten="b", guven=0.95)
+    d3.kanit["siniflandirma.belge_turu"] = Kanit(
+        yontem=KanitYontemi.LLM, ureten="c", guven=0.35)
+    kontrol("en zayıf halka alınıyor (ortalama değil)",
+            abs(d3.toplam_guven_hesapla() - 0.35) < 1e-9)
+    kontrol("zayıf alan raporlanıyor",
+            d3.zayif_alanlar()[0][0] == "siniflandirma.belge_turu")
+
+    print("\nLinter raporu:")
+    r = LinterRaporu(bulgular=[
+        LinterBulgusu(kural_id="S-01", baslik="Sayı zorunludur", onem=Onem.HATA),
+        LinterBulgusu(kural_id="I-05", baslik="İlgiler sırasında değil",
+                      onem=Onem.UYARI),
+    ])
+    kontrol("yalnızca hata düzeyi raporu düşürüyor",
+            not r.gecti_mi and len(r.hatalar) == 1 and len(r.uyarilar) == 1)
+    kontrol("hatasız rapor geçiyor", LinterRaporu().gecti_mi)
+
+    print("\nGerileme kontrolleri (düzeltilmiş hatalar):")
+    # 1) alan_dolu_mu öntanımlıyı dolu sayıyordu; boş Dosya'da 4 alan
+    #    "kanıtsız" diye raporlanıyor ve fonksiyon teste bağlanamıyordu.
+    kontrol("boş Dosya'da kanıtsız alan yok", Dosya().kanitsiz_alanlar() == [])
+    dd = Dosya()
+    dd.ustveri.konu = "X"
+    kontrol("doldurulan alan kanıtsız olarak yakalanıyor",
+            dd.kanitsiz_alanlar() == ["ustveri.konu"])
+    # 2) kanit sözlüğüne doğrudan yazmak yol denetimini atlıyordu.
+    dd2 = Dosya()
+    dd2.kanit["uydurma.yol"] = Kanit(yontem=KanitYontemi.REGEX, ureten="t")
+    kontrol("tanımsız kanıt anahtarı tespit ediliyor",
+            dd2.gecersiz_kanit_anahtarlari() == ["uydurma.yol"])
+    kontrol("tanımsız kanıt anahtarı JSON turunda yakalanıyor",
+            _hata_veriyor_mu(
+                lambda: Dosya.model_validate_json(dd2.model_dump_json())))
+    # 3) gizlilik_seviyesi tanınmayan dereceyi sessizce 0 sayıyordu;
+    #    EK-05 denetimi gürültülü girdide sessizce geçerdi.
+    kontrol("tanınmayan gizlilik derecesi hata veriyor",
+            _hata_veriyor_mu(lambda: gizlilik_seviyesi("Cok Gizli")))
+    kontrol("boş gizlilik derecesi hata vermiyor", gizlilik_seviyesi("") == 0)
+
+    print("\nBitti kriteri (ADIM 5):")
+    bos = Dosya()
+    kontrol("boş evrak nesnesi oluşturuluyor", isinstance(bos, Dosya))
+    j = bos.model_dump_json()
+    kontrol("JSON'a çevriliyor", len(j) > 0)
+    kontrol("JSON'dan geri okunuyor",
+            Dosya.model_validate_json(j).evrak_id == bos.evrak_id)
+    sema = Dosya.json_semasi()
+    kontrol("JSON şeması üretiliyor",
+            isinstance(sema, dict) and "properties" in sema)
+    kontrol("şemada belge türü enum'u yer alıyor",
+            "GelenTur" in str(sema))
+
+    print(f"\n{'Tümü geçti.' if hatalar == 0 else f'{hatalar} kontrol başarısız.'}")
+    return 0 if hatalar == 0 else 1
+
+
+def _hata_veriyor_mu(fn) -> bool:
+    try:
+        fn()
+        return False
+    except Exception:
+        return True
+
+
 if __name__ == "__main__":
+    import sys as _sys
+
     print(f"veri_yapisi.py sürüm {SURUM}")
     print(f"  gelen belge türü      : {len(GelenTur)}")
     print(f"  üretilecek yazı türü  : {len(UretilecekTur)}")
     print(f"  varlık tipi           : {len(VarlikTipi)} "
           f"({len(KISISEL_VERI_TIPLERI)} tanesi kişisel veri)")
     print(f"  tanımlı alan yolu     : {len(ALAN_YOLLARI)}")
+    print()
+    _sys.exit(_kendi_testi())
