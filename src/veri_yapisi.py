@@ -259,15 +259,24 @@ class Teskilat(StrEnum):
 class HiyerarsiYonu(StrEnum):
     """Muhatabın gönderene göre konumu.
 
-    Metnin "arz ederim" mi "rica ederim" mi diye bitmesi buna bağlı (ME-02).
-    Alt kurumdan üst kuruma arz, diğer hâllerde rica edilir.
+    Metnin "arz" mı "rica" mı diye bitmesi buna bağlı (ME-02, K 13.1).
+    Kural tek yönlüdür: RİCA YALNIZCA AŞAĞI DOĞRU. Üst ve aynı düzeydeki
+    makamlara arz edilir — idare içinde aynı düzeydeki birimler arasında da
+    (K 13.1: "Teftiş Kurulu Başkanlığı - Personel Genel Müdürlüğü vb.").
+
+    Hiyerarşi mevzuatla net tanımlanmamışsa Kılavuz "arz" demeyi öneriyor;
+    bu yüzden BILINMIYOR da arz üretir, ama ayrı tutulur: "eşit olduğunu
+    biliyoruz" ile "bilemedik" aynı şey değildir ve ikincisi insan onayına
+    düşmelidir.
     """
 
-    UST = "ust"          # muhatap daha üst konumda  -> "Arz ederim."
-    AYNI = "ayni"        # aynı düzey                -> "Rica ederim."
-    ALT = "alt"          # muhatap daha alt konumda  -> "Rica ederim."
-    KURUM_DISI = "kurum_disi"
-    GERCEK_KISI = "gercek_kisi"   # ME-05 -> "Saygılarımla." vb.
+    UST = "ust"          # muhatap daha üst          -> "Arz ederim."
+    AYNI = "ayni"        # aynı düzey                -> "Arz ederim."
+    ALT = "alt"          # muhatap daha alt          -> "Rica ederim."
+    KARMA = "karma"      # dağıtımlı: üst+aynı+alt   -> "Arz ve rica ederim."
+    KURUM_DISI = "kurum_disi"     # ME-06 kamu dışı  -> "Rica ederim."
+    GERCEK_KISI = "gercek_kisi"   # ME-05            -> "Saygılarımla." vb.
+    BILINMIYOR = "bilinmiyor"     # K 13.1 kestirme  -> "Arz ederim."
 
 
 # =============================================================================
