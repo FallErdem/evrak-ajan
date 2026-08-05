@@ -1,9 +1,5 @@
 .venv/
 
-# Python
-__pycache__/
-*.py[cod]
-
 # Windows
 Thumbs.db
 desktop.ini
@@ -11,3 +7,32 @@ desktop.ini
 # Geçici
 *.tmp
 *.log
+
+# --- GIZLI: API anahtarlari asla depoya girmez ---------------------------
+# Sartname madde 7 depoyu herkese acik yapmayi zorunlu kiliyor.
+# Buraya giren bir anahtar herkese acik olur, birileri kullanir,
+# faturayi siz odersiniz.
+.gizli/
+*.key
+*_anahtari.txt
+
+# --- Uretilen ciktilar ---------------------------------------------------
+# Deney ciktilari surum takibine girmez; kayit dosyasi (kosum.jsonl)
+# uretimin izini zaten tutuyor.
+deneyler/*/ciktilar/
+deneyler/*/kayit/*.jsonl
+
+# --- Python --------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Editor / isletim sistemi -------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

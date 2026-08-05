@@ -1,0 +1,35 @@
+--- SARTNAME ---
+Belge türü      : talep yazısı (kurumdan kuruma)
+Gönderen        : Ankara İl Millî Eğitim Müdürlüğü
+Muhatap         : Millî Eğitim Bakanlığı (Ortaöğretim Genel Müdürlüğü)
+Hiyerarşi yönü  : ÜST (muhatap, gönderenin üstündedir)
+İlgi            : yok
+Ek              : yok
+
+Somut bilgiler (yalnızca bunları kullan):
+  - Mevcut durum : il genelinde ortaöğretim öğrenci sayısı artmıştır
+  - Sonuç        : mevcut derslikler yetersiz kalmaktadır
+  - Amaç         : eğitim öğretim faaliyetlerinin aksamadan yürütülmesi
+  - Talep 1      : ek derslik yapımı için ödenek tahsis edilmesi
+  - Talep 2      : konunun değerlendirilmesi
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — mevcut durum ve sonuç
+  2. paragraf — 2 cümle — amaç ve talepler
+                (2. cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "arz ederim." mi (bu belge ÜST yönlüdür)
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İki paragraf var mı, her birinde iki cümle var mı, aralarında boş
+   satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.

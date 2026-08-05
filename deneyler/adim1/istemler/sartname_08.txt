@@ -1,0 +1,36 @@
+--- SARTNAME ---
+Belge türü      : bilgilendirme yazısı (kurumdan kuruma)
+Gönderen        : Ankara İl Millî Eğitim Müdürlüğü
+Muhatap         : Yenimahalle İlçe Millî Eğitim Müdürlüğü
+Hiyerarşi yönü  : ALT (muhatap, gönderenin altındadır)
+İlgi            : yok
+Ek              : yok
+
+Somut bilgiler (yalnızca bunları kullan):
+  - Uygulama     : okul servis araçlarının denetimine ilişkin yeni bir
+                   uygulama yürürlüğe girmiştir
+  - Kaynak       : uygulama Bakanlıkça yürürlüğe konulmuştur
+  - Kapsam       : ilçeye bağlı tüm okullar uygulamaya tabidir
+  - İstenen 1    : uygulamanın okul yönetimlerine duyurulması
+  - İstenen 2    : denetim sonuçlarının dönem sonunda bildirilmesi
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — uygulama, kaynağı ve kapsamı
+  2. paragraf — 2 cümle — muhataptan istenenler
+                (2. cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "rica ederim." mi (bu belge ALT yönlüdür)
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İki paragraf var mı, her birinde iki cümle var mı, aralarında boş
+   satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.

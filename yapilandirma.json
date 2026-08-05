@@ -1,0 +1,52 @@
+{
+  "_aciklama": [
+    "LLM istemcisi yapilandirmasi. Bu dosyada API ANAHTARI YAZMAZ;",
+    "anahtar ayri bir dosyada tutulur ve o dosya .gitignore ile korunur.",
+    "Sartname madde 7 depoyu herkese acik yapmayi zorunlu kiliyor —",
+    "koda gomulu bir anahtar herkese acik olur.",
+    "",
+    "SAGLAYICI DEGISTIRMEK: yalnizca base_url ve model degisir.",
+    "  Ollama : http://localhost:11434/v1          (anahtar_dosyasi: null)",
+    "  Gemini : https://generativelanguage.googleapis.com/v1beta/openai/",
+    "  Colab  : https://xxxx.ngrok-free.app/v1     (vLLM)",
+    "  RunPod : https://xxxx.runpod.net/v1",
+    "",
+    "DIKKAT: Google'in adresi '/' ile biter, silmeyin — 404 alirsiniz.",
+    "Istemci sondaki egik cizgiyi zaten normallestirir ama dokumantasyondaki",
+    "hali boyledir."
+  ],
+
+  "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+  "model": "gemini-3.6-flash",
+
+  "anahtar_dosyasi": ".gizli/api_anahtari.txt",
+
+  "zaman_asimi_sn": 120,
+  "azami_deneme": 3,
+  "ilk_bekleme_sn": 1.0,
+
+  "_ek_parametreler_aciklama": [
+    "Istek govdesine oldugu gibi eklenir. Boylece yeni bir parametre",
+    "gerektiginde kod degistirmek gerekmez.",
+    "",
+    "max_tokens        : cikti tavani. Bir hata dongusunde 65536 token",
+    "                    uretilmesini engelleyen emniyet kemeri.",
+    "                    Bizim metinlerimiz ~100 token; 2048 fazlasiyla yeter.",
+    "",
+    "reasoning_effort  : dusunme butcesi. Kimi K3'te gorunmeyen dusunme",
+    "                    tokenleri istek basina ~6000 token yakti ve",
+    "                    faturayi 20 kat sisirdi. Bu parametre o kaldiraci",
+    "                    verir: 'low' maliyeti dusurur.",
+    "                    ONCE VARSAYILANLA OLCUN. Rakam makulse dokunmayin;",
+    "                    yuksekse 'low' deneyip kaliteyi tekrar kontrol edin.",
+    "                    Kullanmak icin asagidaki satirin basindaki alt tireyi",
+    "                    kaldirin.",
+    "",
+    "Sicaklik burada YOK: Gemini 3.6 Flash'ta sicaklik ayari bulunmuyor.",
+    "Ollama'ya gecerseniz 'temperature': 0.8 ekleyebilirsiniz."
+  ],
+  "ek_parametreler": {
+    "max_tokens": 2048,
+    "_reasoning_effort": "low"
+  }
+}
