@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze KOÇ",
-    "adres": "Ergazi Mahallesi Zeytin Sokak No: 56/8 Yenimahalle/ANKARA",
+    "ad": "Yusuf YAVUZ",
+    "adres": "Çiğdemtepe Mahallesi Zeytin Sokağı No: 9/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,23 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
+    "saklama_suresi": "15"
   },
-  "konu": "Bilgi Edinme Başvurusu",
+  "konu": "Emlak Vergisi Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "29.04.2026",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bilgi Edinme",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Emlak Vergisi Muafiyet",
+    "Taşınmaz": "84096 ada, 27 parsel",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +47,12 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bilgi Edinme",
-    "sürecin tamamlanabilmesi için"
+    "Emlak Vergisi Muafiyet",
+    "84096 ada, 27 parsel",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

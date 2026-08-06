@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife ERDOĞAN",
-    "adres": "Susuz Mahallesi Lale Sokak No: 103/12 Yenimahalle/ANKARA",
+    "ad": "Meryem KESKIN",
+    "adres": "Susuz Mahallesi Menekşe Caddesi No: 61/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,15 +30,15 @@
     "ad": "Emlak Vergisi",
     "saklama_suresi": "15"
   },
-  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
+  "konu": "Emlak Vergisi Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "19.02.2026",
+  "tarih": "06.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Emlak Vergisi Borç Sorgulama",
-    "Taşınmaz": "94072 ada, 14 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Emlak Vergisi Muafiyet",
+    "Taşınmaz": "12807 ada, 27 parsel",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,8 +51,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Borç Sorgulama",
-    "94072 ada, 14 parsel",
-    "sürecin tamamlanabilmesi için"
+    "Emlak Vergisi Muafiyet",
+    "12807 ada, 27 parsel",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

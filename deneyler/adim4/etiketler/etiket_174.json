@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Personel Dairesi Başkanlığı",
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "903.02",
-    "ad": "Atama İşleri",
-    "saklama_suresi": "B"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Naklen Atama Talebi",
-  "sayi": "E-10213773-903.02-8196590",
-  "tarih": "27.03.2026",
+  "konu": "Arşivden Suret Talebi",
+  "sayi": "E-55461037-805.02.05-1870432",
+  "tarih": "12.01.2026",
   "ilgi": {
-    "tarih": "23.03.2026",
-    "sayi": "E-42218640-903.02-2862928"
+    "tarih": "22.12.2025",
+    "sayi": "E-82642947-805.02.05-3344178"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Naklen Atama",
-    "Ortak iş": "ortak yürütülen bir çalışma",
-    "Talep": "iş birliği protokolü düzenlenmesi"
+    "Konu": "Arşivden Suret",
+    "Ortak iş": "Arşivden Suret konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Arşivden Suret konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,13 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Naklen Atama",
-    "ortak yürütülen bir çalışma",
-    "iş birliği protokolü düzenlenmesi"
+    "Arşivden Suret"
   ]
 }

@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -23,29 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": {
     "geregi": [
-      "Ankara İl Millî Eğitim Müdürlüğü",
-      "Gazi Üniversitesi Rektörlüğü",
-      "Yenimahalle Belediye Başkanlığı"
+      "İlçe Kaymakamlıklarına",
+      "İlçe Belediye Başkanlıklarına"
     ],
     "bilgi": [
-      "Millî Eğitim Bakanlığı"
+      "İçişleri Bakanlığına"
     ]
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Yurtdışı Eğitim Denkliği Listesinin Gönderilmesi",
-  "sayi": "E-10213773-215.01-8225096",
-  "tarih": "17.04.2026",
+  "konu": "Ulaşım ve Servis İşleri Listesinin Gönderilmesi",
+  "sayi": "E-10213773-802-8223760",
+  "tarih": "16.04.2026",
   "ilgi": {
-    "tarih": "23.03.2026",
-    "sayi": "E-63971525-215.01-1248182"
+    "tarih": "08.04.2026",
+    "sayi": "E-21291472-802-4172109"
   },
   "ek": {
     "adet": 2,
@@ -54,9 +53,9 @@
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
-    "Sayı": "24 kayıt",
-    "Ek 1": "Yurtdışı Eğitim Denkliği listesi",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Sayı": "94 kayıt",
+    "Ek 1": "Ulaşım ve Servis İşleri listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -69,14 +68,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "öğretim yılı",
-    "24 kayıt",
-    "Yurtdışı Eğitim Denkliği listesi",
+    "içinde bulunulan öğretim yılı",
+    "94 kayıt",
+    "Ulaşım ve Servis İşleri listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

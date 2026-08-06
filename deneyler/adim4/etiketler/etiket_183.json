@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
   },
-  "konu": "Hukuki Mütalaanın Gönderilmesi",
-  "sayi": "E-17311665-045.02-6430481",
+  "konu": "Kurul Kararının Gönderilmesi",
+  "sayi": "E-17311665-050.04-4504420",
   "tarih": "25.03.2026",
   "ilgi": {
     "tarih": "17.02.2026",
-    "sayi": "E-82642947-045.02-1338304"
+    "sayi": "E-82642947-050.04-3398227"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Hukuki Mütalaanın Gönderilmesi",
+    "Talep": "Kurul Kararının Gönderilmesi",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
@@ -59,7 +59,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Hukuki Mütalaanın Gönderilmesi",
+    "Kurul Kararının Gönderilmesi",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
     "süreç Müdürlüğümüzce takip edilmektedir"

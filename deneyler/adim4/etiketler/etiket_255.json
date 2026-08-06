@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,39 +23,39 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": {
     "geregi": [
-      "Gazi Üniversitesi",
-      "Ankara İl Millî Eğitim Müdürlüğü",
-      "Ankara Valiliği"
+      "Üniversite Rektörlüklerine"
     ],
-    "bilgi": []
+    "bilgi": [
+      "Yükseköğretim Denetleme Kuruluna"
+    ]
   },
-  "beklenen_kapanis": "rica",
+  "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "saklama_suresi": "10"
   },
-  "konu": "Stajlar Hk.",
-  "sayi": "E-32625594-304.03-85897614",
-  "tarih": "20.01.2026",
+  "konu": "Öğrenci Toplulukları, Birlikleri vb. Hk.",
+  "sayi": "E-32625594-309-46152810",
+  "tarih": "15.04.2026",
   "ilgi": {
-    "tarih": "07.01.2026",
-    "sayi": "E-86488853-304.03-5554426"
+    "tarih": "03.03.2026",
+    "sayi": "E-98244303-309-7967095"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 3
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Stajlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Öğrenci Toplulukları, Birlikleri vb. kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -65,7 +65,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],

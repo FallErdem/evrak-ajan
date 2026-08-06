@@ -45,8 +45,8 @@
   },
   "somut_bilgiler": {
     "Konu": "Staj Yeri",
-    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
-    "Talep": "gerekli koordinasyonun sağlanması"
+    "Ortak iş": "Staj Yeri konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Staj Yeri kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -61,7 +61,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Yeri",
-    "gerekli koordinasyonun sağlanması"
+    "Staj Yeri"
   ]
 }

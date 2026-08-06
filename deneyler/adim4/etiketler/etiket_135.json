@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,33 +23,32 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
   "dagitim": {
     "geregi": [
-      "Yenimahalle Belediye Başkanlığı",
-      "Gazi Üniversitesi Rektörlüğü",
-      "Çankaya Belediye Başkanlığı"
+      "İlçe Kaymakamlıklarına",
+      "İlçe Belediye Başkanlıklarına"
     ],
     "bilgi": [
-      "Ankara Büyükşehir Belediye Başkanlığı"
+      "İçişleri Bakanlığına"
     ]
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "İhale Sonucunun Bildirilmesi",
-  "sayi": "E-10213773-755.02-8146058",
+  "konu": "Alacağın Tahsili Hk.",
+  "sayi": "E-10213773-855-8145969",
   "tarih": "17.02.2026",
   "ilgi": {
-    "tarih": "09.02.2026",
-    "sayi": "E-33152401-755.02-3410730"
+    "tarih": "10.02.2026",
+    "sayi": "E-43195403-855-1709249"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İhale Sonucunun Bildirilmesi",
+    "Talep": "Alacağın Tahsili",
     "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
@@ -63,11 +62,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İhale Sonucunun Bildirilmesi",
+    "Alacağın Tahsili",
     "olumlu, belge düzenlendi",
     "ilgide kayıtlı yazı"
   ]

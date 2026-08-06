@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,23 +23,23 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Personel Dairesi Başkanlığı",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "209",
-    "ad": "Akademik Personel Görevlendirmeleri",
-    "saklama_suresi": "15"
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
+    "saklama_suresi": "2"
   },
-  "konu": "39. Madde Görevlendirme Talebi",
-  "sayi": "E-10213773-209-8091226",
-  "tarih": "07.01.2026",
+  "konu": "Sınav Programları ve Sınavlar Talebi",
+  "sayi": "E-10213773-106-8229144",
+  "tarih": "20.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "39. Madde Görevlendirme",
-    "Ortak iş": "ortak yürütülen bir çalışma",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Konu": "Sınav Programları ve Sınavlar",
+    "Ortak iş": "Sınav Programları ve Sınavlar konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Sınav Programları ve Sınavlar konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -49,13 +49,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "39. Madde Görevlendirme",
-    "ortak yürütülen bir çalışma",
-    "konu hakkında görüş bildirilmesi"
+    "Sınav Programları ve Sınavlar"
   ]
 }

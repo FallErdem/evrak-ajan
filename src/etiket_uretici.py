@@ -692,12 +692,17 @@ class EtiketUretici:
         Rektörlüklerine", İçişleri yazısında "Gereği: ... Bilgi: 81 İl
         Valiliğine".
         """
-        ust = [m for m in kurum.hiyerarsi.get("ust_makamlar", [])
-               if m != gonderen_adi]
-        geregi = [kurum.kurum_adi]
-        ayni = [m for m in kurum.hiyerarsi.get("ayni_duzey", []) if m != gonderen_adi]
-        geregi += self.h.karistir(ayni)[:2]
-        bilgi = [self.h.sec(ust)] if ust else []
+        # Dağıtım muhatapları RASTGELE kurum değil, gönderenin kendi
+        # kolektif dağıtım kümesidir. Ölçülen hata: YÖK'ün sınav duyurusu
+        # dağıtımında "Ankara Valiliği" görünüyordu — YÖK valiliğe sınav
+        # duyurusu dağıtmaz.
+        geregi = _DAGITIM_KUMESI.get(gonderen_adi)
+        if geregi is None:
+            geregi = [kurum.kurum_adi]
+            ayni = [m for m in kurum.hiyerarsi.get("ayni_duzey", [])
+                    if m != gonderen_adi]
+            geregi += self.h.karistir(ayni)[:1]
+        bilgi = _DAGITIM_BILGI.get(gonderen_adi, [])
         return {"geregi": geregi, "bilgi": bilgi}
 
     def _somut_makam(self, kurum: Kurum, makam: str, alici_birim: Birim) -> str:
@@ -905,16 +910,13 @@ class EtiketUretici:
                     "İstenen 2": f"sonuçların {_donem(h, kurum.kurum_tipi)} sonunda bildirilmesi"}
 
         if aile == "isbirligi_talebi":
-            return {"Konu": _talep_ifadesi(konu, kod.ad),
-                    "Ortak iş": h.sec([
-                        "iki kurumun görev alanına giren bir husus",
-                        "ortak yürütülen bir çalışma",
-                        "vatandaşa sunulan hizmetin kesintisiz sürmesi"]),
-                    "Talep": h.sec([
-                        "konu hakkında görüş bildirilmesi",
-                        "ilgili bilgilerin paylaşılması",
-                        "iş birliği protokolü düzenlenmesi",
-                        "gerekli koordinasyonun sağlanması"])}
+            # Talep KONUDAN türetilir. Ölçülen hata: konu "Hukuki Görüş
+            # Talebi" iken gövdede "iş birliği protokolü düzenlenmesi"
+            # isteniyordu; konu ile gövde birbirini tutmuyordu.
+            iş = _talep_ifadesi(konu, kod.ad)
+            return {"Konu": iş,
+                    "Ortak iş": f"{iş} konusunda iki kurumun ortak yürüttüğü işlem",
+                    "Talep": _isbirligi_talebi(konu, iş)}
 
         if aile == "gorus_talebi":
             return {"Konu": kod.ad,
@@ -978,13 +980,22 @@ class EtiketUretici:
             if ogrenci:
                 gonderen["ogrenci_no"] = str(h.rnd.randint(2019, 2025)) + \
                     str(h.rnd.randint(100000, 999999))
-                gonderen["bolum"] = h.sec(_BOLUMLER)
-                gonderen["sinif"] = h.sec(["1", "2", "3", "4"])
+                # Bölüm ALICI BİRİME bağlı olmalı. Ölçülen hata: Teknoloji
+                # Fakültesi öğrencisinin dilekçesi Gazi Eğitim Fakültesi
+                # Dekanlığına gidiyordu.
+                gonderen["bolum"] = _bolum_sec(h, birim.birim_adi)
+                # Staj konulu dilekçeyi 1. sınıf öğrencisi vermez.
+                alt = 3 if re.search(r"staj", konu, re.I) else 1
+                gonderen["sinif"] = str(h.rnd.randint(alt, 4))
         elif s.gonderen_tipi == "ozel_tuzel":
             # Özel hukuk tüzel kişileri DETSİS'te kayıtlı değildir; yazılarında
             # E- önekli devlet sayısı bulunmaz, kendi evrak numaralarını taşırlar.
+            # Şirketin SEKTÖRÜ konuya uymalı. Ölçülen hata: inşaat şirketi
+            # özel öğretim CİMER istatistiği, turizm şirketi öğrenci kayıt
+            # verisi istiyordu.
             gonderen = {"tip": "ozel_tuzel_kisi",
-                        "kurum_adi": f"{h.sec(_SIRKET_ONEK)} {h.sec(_SIRKET_TUR)}",
+                        "kurum_adi": f"{h.sec(_SIRKET_ONEK)} "
+                                     f"{h.sec(_sirket_turu(kod.kod))}",
                         "ad": None, "adres": h.adres(), "detsis_no": None,
                         "detsis_kaynagi": "yok"}
         else:
@@ -1099,7 +1110,13 @@ class EtiketUretici:
             "gonderen": gonderen,
             "belge_turu": s.belge_turu,
             "aile": aile,
-            "yazan_tipi": "vatandas" if vatandas_yazari else "kurum",
+            # yazan_tipi ÜÇ değer alır: kurum | vatandas | ogrenci.
+            # Önce iki değerliydi ve gonderen.tip="ogrenci" ile çelişiyordu;
+            # hangisinin cevap anahtarı olduğu belirsiz kalıyordu.
+            # Linter açısından ogrenci de vatandaş kaydında yazar (birinci
+            # tekil şahıs serbest), ama gönderen sıfatı farklıdır.
+            "yazan_tipi": ("ogrenci" if ogrenci
+                           else "vatandas" if vatandas_yazari else "kurum"),
             "hiyerarsi_yonu": yon,
             "muhatap_makam": muhatap_makam,
             "muhatap_parantez": muhatap_parantez,
@@ -1488,3 +1505,102 @@ _BOLUMLER = [
 # Denetim yapan birimler: şikâyet ve ihbar bunlara gider, talep ve başvuru
 # ilgili işlemi DÜZENLEYEN birime.
 _DENETIM_BIRIMI = re.compile(r"Zabıta|Denetim|Teftiş|Kontrol", re.I)
+
+
+# =============================================================================
+# DAĞITIM KÜMELERİ — gönderene göre sabit
+# =============================================================================
+# Ölçülen hata: dağıtım muhatapları rastgele kurum listesinden seçiliyordu ve
+# YÖK'ün sınav duyurusu "Ankara Valiliği"ne dağıtılıyor görünüyordu.
+# Gerçek örnek dayanağı: İŞKUR yazısında "Dağıtım: Üniversite Rektörlüklerine",
+# İçişleri yazısında "Bilgi: 81 İl Valiliğine, Emniyet Genel Müdürlüğüne".
+_DAGITIM_KUMESI = {
+    "Yükseköğretim Kurulu Başkanlığı": ["Üniversite Rektörlüklerine"],
+    "Millî Eğitim Bakanlığı": ["Valilik Makamlarına",
+                               "İl Millî Eğitim Müdürlüklerine"],
+    "İçişleri Bakanlığı": ["81 İl Valiliğine"],
+    "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı":
+        ["81 İl Valiliğine", "Çevre ve Şehircilik İl Müdürlüklerine"],
+    "Ankara Valiliği": ["İlçe Kaymakamlıklarına", "İlçe Belediye Başkanlıklarına"],
+    "Ankara Büyükşehir Belediye Başkanlığı": ["İlçe Belediye Başkanlıklarına"],
+    "Yenimahalle Kaymakamlığı": ["İlçe Müdürlüklerine"],
+}
+
+_DAGITIM_BILGI = {
+    "Yükseköğretim Kurulu Başkanlığı": ["Yükseköğretim Denetleme Kuruluna"],
+    "Millî Eğitim Bakanlığı": ["Bakanlık Makamına"],
+    "Ankara Valiliği": ["İçişleri Bakanlığına"],
+    "Ankara Büyükşehir Belediye Başkanlığı": ["Ankara Valiliğine"],
+    "İçişleri Bakanlığı": ["Emniyet Genel Müdürlüğüne"],
+    "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı": ["Bakanlık Makamına"],
+    "Yenimahalle Kaymakamlığı": ["Ankara Valiliğine"],
+}
+
+
+def _isbirligi_talebi(konu: str, is_adi: str) -> str:
+    """İşbirliği talebini KONUDAN türetir.
+
+    Konu "Hukuki Görüş Talebi" iken gövdede protokol istemek, konu ile
+    gövdeyi koparıyordu.
+    """
+    k = tr_kucult_basit(konu)
+    if "görüş" in k or "mütalaa" in k:
+        return f"{is_adi} konusunda görüş bildirilmesi"
+    if "protokol" in k or "iş birliği" in k or "işbirliği" in k:
+        return "iş birliği protokolü düzenlenmesi"
+    if "veri" in k or "bilgi" in k or "istatistik" in k:
+        return f"{is_adi} kapsamındaki bilgilerin paylaşılması"
+    if "staj" in k or "uygulama" in k:
+        return f"{is_adi} kapsamında öğrenci kabul edilmesi"
+    if "tahsis" in k or "salon" in k or "yer tahsis" in k:
+        return "gerekli yer tahsisinin yapılması"
+    return f"{is_adi} konusunda gerekli koordinasyonun sağlanması"
+
+
+def _bolum_sec(h, birim_adi: str) -> str:
+    """Öğrencinin bölümü ALICI BİRİME bağlı seçilir.
+
+    Alıcı bir fakülte dekanlığıysa öğrenci o fakültenin öğrencisidir;
+    Teknoloji Fakültesi öğrencisinin dilekçesi Gazi Eğitim Fakültesi
+    Dekanlığına gitmez.
+    """
+    for anahtar, bolumler in _FAKULTE_BOLUM.items():
+        if anahtar in birim_adi:
+            return h.sec(bolumler)
+    return h.sec(_BOLUMLER)
+
+
+_FAKULTE_BOLUM = {
+    "Gazi Eğitim": ["Sınıf Öğretmenliği", "Matematik Öğretmenliği",
+                    "Türkçe Öğretmenliği", "Rehberlik ve Psikolojik Danışmanlık"],
+    "Teknoloji Fakültesi": ["Elektrik-Elektronik Mühendisliği",
+                            "Bilgisayar Mühendisliği", "Enerji Sistemleri Mühendisliği"],
+    "Mühendislik Fakültesi": ["Makine Mühendisliği", "Endüstri Mühendisliği",
+                              "İnşaat Mühendisliği"],
+    "Fen Bilimleri": ["Matematik (Yüksek Lisans)", "Kimya (Doktora)",
+                      "Biyoloji (Yüksek Lisans)"],
+}
+
+
+# Şirketin sektörü SDP ana grubuna bağlı: bir inşaat şirketi özel öğretim
+# istatistiği istemez.
+_SIRKET_SEKTOR = {
+    "115": ["İnşaat Ltd. Şti.", "Yapı Denetim A.Ş.", "Mimarlık Ltd. Şti."],
+    "752": ["İnşaat Ltd. Şti.", "Gayrimenkul Yatırım A.Ş."],
+    "755": ["İnşaat Ltd. Şti.", "Mühendislik Ltd. Şti."],
+    "756": ["Gayrimenkul Yatırım A.Ş.", "İnşaat Ltd. Şti."],
+    "170": ["Gıda Sanayi Ltd. Şti.", "Turizm ve Ticaret A.Ş.", "Market Zinciri A.Ş."],
+    "155": ["Çevre Teknolojileri Ltd. Şti.", "Atık Yönetimi A.Ş."],
+    "802": ["Taşımacılık Ltd. Şti.", "Turizm ve Ticaret A.Ş."],
+    "934": ["Kırtasiye ve Büro Malzemeleri Ltd. Şti.", "Bilişim Sistemleri A.Ş."],
+}
+_SIRKET_GENEL = ["Danışmanlık Ltd. Şti.", "Ticaret A.Ş.", "Hizmetleri Ltd. Şti."]
+
+
+def _sirket_turu(kod: str) -> list[str]:
+    if kod[:3] in _SIRKET_SEKTOR:
+        return _SIRKET_SEKTOR[kod[:3]]
+    if kod[:3] in ("301", "302", "303", "304", "309", "310",
+                   "205", "210", "215", "135", "198", "235", "245"):
+        return ["Eğitim Hizmetleri Ltd. Şti.", "Danışmanlık Ltd. Şti."]
+    return _SIRKET_GENEL

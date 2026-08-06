@@ -12,37 +12,37 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Emre YILDIRIM",
-    "adres": "Ragıpbey Mahallesi Papatya Caddesi No: 22/17 Yenimahalle/ANKARA",
+    "ad": "Yusuf KILIÇ",
+    "adres": "Uğur Mumcu Mahallesi Papatya Sokağı No: 17/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019941581",
-    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
-    "sinif": "4"
+    "ogrenci_no": "2019291538",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "2"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Nakil, Kayıt Dondurma ve Kayıt Silme Hakkında Şikâyet",
+  "konu": "Belge İşlemleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "20.03.2026",
+  "tarih": "20.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Nakil, Kayıt Dondurma ve Kayıt Silme Hakkında Şikâyet",
-    "Sorun": "izin talebim otuz gündür sonuçlandırılmadı",
-    "Yer": "Beşevler Yerleşkesi",
-    "Süre": "yaklaşık iki aydır",
+    "Şikâyet konusu": "Belge İşlemleri Hakkında Şikâyet",
+    "Sorun": "belge talebime yazılı cevap verilmedi",
+    "Yer": "Merkez Yerleşke",
+    "Süre": "yaklaşık üç haftadır",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -59,8 +59,10 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Beşevler Yerleşkesi",
-    "yaklaşık iki aydır",
+    "Belge İşlemleri Hakkında Şikâyet",
+    "belge talebime yazılı cevap verilmedi",
+    "Merkez Yerleşke",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]
 }

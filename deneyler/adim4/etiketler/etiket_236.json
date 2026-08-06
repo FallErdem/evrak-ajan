@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Mal Alım İşi Hk.",
-  "sayi": "E-10213773-934.01-8203352",
-  "tarih": "01.04.2026",
+  "konu": "Yabancı Uyruklu Öğrenciler Hk.",
+  "sayi": "E-10213773-235-8172662",
+  "tarih": "09.03.2026",
   "ilgi": {
-    "tarih": "13.03.2026",
-    "sayi": "E-14588481-934.01-2490787"
+    "tarih": "10.02.2026",
+    "sayi": "E-21291472-235-4125806"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Mal Alım İşi kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim) kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
@@ -58,7 +58,7 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [

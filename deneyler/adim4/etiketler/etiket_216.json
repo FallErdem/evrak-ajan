@@ -41,8 +41,8 @@
   "ek": null,
   "somut_bilgiler": {
     "Konu": "Hukuki Görüş",
-    "Ortak iş": "ortak yürütülen bir çalışma",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,8 +56,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Hukuki Görüş",
-    "ortak yürütülen bir çalışma",
-    "konu hakkında görüş bildirilmesi"
+    "Hukuki Görüş"
   ]
 }

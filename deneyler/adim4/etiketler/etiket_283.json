@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,37 +23,36 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Hukuk İşleri Müdürlüğü",
+  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
   "dagitim": {
     "geregi": [
-      "Yenimahalle Belediye Başkanlığı",
-      "Ankara İl Millî Eğitim Müdürlüğü",
-      "Gazi Üniversitesi Rektörlüğü"
+      "81 İl Valiliğine",
+      "Çevre ve Şehircilik İl Müdürlüklerine"
     ],
     "bilgi": [
-      "Ankara Büyükşehir Belediye Başkanlığı"
+      "Bakanlık Makamına"
     ]
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "125",
+    "ad": "Evlendirme İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "İdari Davalar Listesinin Gönderilmesi",
-  "sayi": "E-10213773-641.04-8266302",
-  "tarih": "18.05.2026",
+  "konu": "Evlendirme İşlemleri Listesinin Gönderilmesi",
+  "sayi": "E-24304062-125-69084858",
+  "tarih": "08.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "mali yıl",
-    "Sayı": "12 kayıt",
-    "Ek 1": "İdari Davalar listesi",
+    "Dönem": "üçüncü çeyrek",
+    "Sayı": "18 kayıt",
+    "Ek 1": "Evlendirme İşlemleri listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -66,14 +65,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "mali yıl",
-    "12 kayıt",
-    "İdari Davalar listesi",
+    "üçüncü çeyrek",
+    "18 kayıt",
+    "Evlendirme İşlemleri listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

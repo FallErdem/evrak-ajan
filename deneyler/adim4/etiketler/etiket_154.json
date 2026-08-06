@@ -12,38 +12,38 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ortaöğretim Şube Müdürlüğü",
+    "kurum_adi": "Erdemtepe Ortaokulu Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "63971525",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10085547",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
-  "muhatap_parantez": null,
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Nakil Belgelerinin Gönderilmesi",
-  "sayi": "E-63971525-210.01-1271846",
-  "tarih": "24.04.2026",
+  "konu": "Kayıt İşlemleri Hk.",
+  "sayi": "E-10085547-205-3431",
+  "tarih": "25.02.2026",
   "ilgi": {
-    "tarih": "17.03.2026",
-    "sayi": "E-21291472-210.01-4154226"
+    "tarih": "20.02.2026",
+    "sayi": "E-21291472-205-4133998"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Nakil Belgelerinin Gönderilmesi",
+    "Talep": "Kayıt İşlemleri",
     "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
     "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
@@ -58,7 +58,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Nakil Belgelerinin Gönderilmesi",
+    "Kayıt İşlemleri",
     "olumlu, belge düzenlendi",
     "ilgide kayıtlı yazı"
   ]

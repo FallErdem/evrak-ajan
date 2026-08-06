@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mustafa YILDIZ",
-    "adres": "Pamuklar Mahallesi Sümbül Caddesi No: 45/18 Yenimahalle/ANKARA",
+    "ad": "Emine KURT",
+    "adres": "İvedik Mahallesi Ihlamur Caddesi No: 109/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,22 +26,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
+    "saklama_suresi": "B"
   },
-  "konu": "Öğrenci Nakil Talebi",
+  "konu": "Yurtdışı Öğrenim Denklik Başvurusu",
   "sayi": null,
-  "tarih": "02.03.2026",
+  "tarih": "02.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 1
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Talep": "Öğrenci Nakil",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Yurtdışı Öğrenim Denklik",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -54,7 +54,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Öğrenci Nakil",
-    "sürecin tamamlanabilmesi için"
+    "Yurtdışı Öğrenim Denklik",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

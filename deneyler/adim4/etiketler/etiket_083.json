@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,7 +23,7 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
@@ -36,12 +36,12 @@
   "tarih": "19.01.2026",
   "ilgi": {
     "tarih": "12.12.2025",
-    "sayi": "E-39985474-050.04-2139435"
+    "sayi": "E-82642947-050.04-3334622"
   },
   "ek": null,
   "somut_bilgiler": {
     "Konu": "Kararlar",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,7 +52,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],

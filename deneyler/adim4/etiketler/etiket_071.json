@@ -5,42 +5,42 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ayşe ATEŞ",
-    "adres": "Uğur Mumcu Mahallesi Zeytin Sokağı No: 12/12 Yenimahalle/ANKARA",
+    "ad": "Ali DUMAN",
+    "adres": "Şentepe Mahallesi Sümbül Caddesi No: 20/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020938747",
-    "bolum": "Diş Hekimliği Fakültesi",
+    "ogrenci_no": "2024383839",
+    "bolum": "Matematik Öğretmenliği",
     "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.14",
-    "ad": "Tez İşleri",
-    "saklama_suresi": "B"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Tez Teslim Süresi Uzatım Talebi",
+  "konu": "Zorunlu Staj Başvurusu",
   "sayi": null,
-  "tarih": "16.04.2026",
+  "tarih": "27.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Tez Teslim Süresi Uzatım",
-    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Talep": "Zorunlu Staj",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
@@ -50,12 +50,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Tez Teslim Süresi Uzatım",
-    "3. sınıf öğrencisi"
+    "Zorunlu Staj",
+    "lisansüstü programa kayıtlı"
   ]
 }

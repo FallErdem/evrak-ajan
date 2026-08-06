@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze BOZKURT",
-    "adres": "Uğur Mumcu Mahallesi Zeytin Caddesi No: 50/2 Yenimahalle/ANKARA",
+    "ad": "Meryem KILIÇ",
+    "adres": "Uğur Mumcu Mahallesi Sümbül Sokağı No: 17/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,12 +32,12 @@
   },
   "konu": "Atık Konteyneri Talebi",
   "sayi": null,
-  "tarih": "13.02.2026",
+  "tarih": "15.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Atık Konteyneri",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,6 +50,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Atık Konteyneri"
+    "Atık Konteyneri",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

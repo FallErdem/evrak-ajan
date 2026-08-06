@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emre TURAN",
-    "adres": "Ragıpbey Mahallesi Kestane Sokağı No: 45/9 Yenimahalle/ANKARA",
+    "ad": "Ahmet ASLAN",
+    "adres": "Ragıpbey Mahallesi Menekşe Caddesi No: 10/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,26 +26,26 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "İtfaiye Uygunluk Raporları Kararına İtiraz",
+  "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
   "sayi": null,
-  "tarih": "09.03.2026",
+  "tarih": "13.05.2026",
   "ilgi": {
-    "tarih": "23.01.2026",
-    "sayi": "E-59553370-180.03-947581"
+    "tarih": "07.04.2026",
+    "sayi": "E-59553370-175-989825"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "İtfaiye Uygunluk Raporları Kararına İtiraz",
+    "İtiraz konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [

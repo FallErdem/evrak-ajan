@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
   },
-  "konu": "Araştırma İzni Hk.",
-  "sayi": "E-32625594-805.02.05-85939193",
-  "tarih": "29.01.2026",
+  "konu": "Kararlar Hk.",
+  "sayi": "E-32625594-050.04-46156211",
+  "tarih": "16.04.2026",
   "ilgi": {
-    "tarih": "25.12.2025",
-    "sayi": "E-82642947-805.02.05-1298838"
+    "tarih": "07.04.2026",
+    "sayi": "E-39985474-050.04-7696428"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Arşivlerden Yararlanma kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Kararlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
@@ -58,7 +58,7 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],

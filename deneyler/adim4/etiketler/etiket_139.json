@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
     "saklama_suresi": "2"
   },
-  "konu": "Stajlar Hk.",
-  "sayi": "E-17311665-304.03-6360962",
+  "konu": "Sınav Programları ve Sınavlar Hk.",
+  "sayi": "E-17311665-106-4443982",
   "tarih": "08.01.2026",
   "ilgi": {
-    "tarih": "24.12.2025",
-    "sayi": "E-43123369-304.03-3142740"
+    "tarih": "25.12.2025",
+    "sayi": "E-43123369-106-3143443"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Stajlar",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Sınav Programları ve Sınavlar",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -59,7 +59,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "olumlu, işlem tamamlandı",
+    "Sınav Programları ve Sınavlar",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı"
   ]
 }

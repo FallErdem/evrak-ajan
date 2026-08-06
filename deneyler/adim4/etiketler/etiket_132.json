@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yapi_kontrol",
-    "birim_adi": "Yapı Kontrol Müdürlüğü",
-    "detsis_no": "53265760",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mustafa AYDIN",
-    "adres": "Demetevler Mahallesi Erguvan Sokak No: 116/5 Yenimahalle/ANKARA",
+    "ad": "Zeynep YILMAZ",
+    "adres": "Emniyet Mahallesi Lale Caddesi No: 62/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,24 +22,24 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "İdari Yaptırım/Para Cezası İşleri Hakkında Şikâyet",
+  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "20.01.2026",
+  "tarih": "26.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İdari Yaptırım/Para Cezası İşleri Hakkında Şikâyet",
-    "Sorun": "idari yaptırım/para cezası işleri hakkındaki talebime yazılı cevap verilmedi",
-    "Yer": "Barıştepe Mahallesi",
-    "Süre": "geçtiğimiz aydan bu yana",
+    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+    "Sorun": "yangın merdiveni kapalı tutuluyor",
+    "Yer": "Emniyet Mahallesi",
+    "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -51,12 +51,13 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yapı Kontrol Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Barıştepe Mahallesi",
-    "geçtiğimiz aydan bu yana",
+    "yangın merdiveni kapalı tutuluyor",
+    "Emniyet Mahallesi",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

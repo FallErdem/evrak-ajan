@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hüseyin KORKMAZ",
-    "adres": "Batıkent Mahallesi Menekşe Sokak No: 42/16 Yenimahalle/ANKARA",
+    "ad": "Emre KURT",
+    "adres": "Ostim Mahallesi Nergis Caddesi No: 101/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Hakkında Şikâyet",
+  "konu": "İdari Yaptırım/Para Cezası İşleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "23.04.2026",
+  "tarih": "06.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Hakkında Şikâyet",
-    "Sorun": "ölçü ve ölçü aletleri ile ilgili işler işlemlerinde uzun süredir aksama yaşanıyor",
-    "Yer": "Batıkent Mahallesi",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Şikâyet konusu": "İdari Yaptırım/Para Cezası İşleri Hakkında Şikâyet",
+    "Sorun": "idari yaptırım/para cezası işleri konusundaki başvurum sonuçlandırılmadı",
+    "Yer": "Gayret Mahallesi",
+    "Süre": "yaklaşık üç haftadır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -51,12 +51,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Batıkent Mahallesi",
-    "geçtiğimiz aydan bu yana",
+    "Gayret Mahallesi",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]
 }

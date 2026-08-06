@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,19 +32,19 @@
     "saklama_suresi": "10"
   },
   "konu": "Mal Alım İşi Başvurusu Hk.",
-  "sayi": "E-24316060-934.01-88084667",
-  "tarih": "15.01.2026",
+  "sayi": "E-10213773-934.01-8250259",
+  "tarih": "06.05.2026",
   "ilgi": {
-    "tarih": "09.01.2026",
-    "sayi": "E-14588481-934.01-2444936"
+    "tarih": "25.03.2026",
+    "sayi": "E-14588481-934.01-6760738"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Mal Alım İşi Başvurusu",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -60,7 +60,6 @@
   "anahtar_terimler": [
     "Mal Alım İşi Başvurusu",
     "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "ilgide kayıtlı yazı"
   ]
 }

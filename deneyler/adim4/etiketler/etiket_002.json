@@ -42,8 +42,8 @@
   },
   "somut_bilgiler": {
     "Konu": "Nakdi Yardım",
-    "Ortak iş": "iki kurumun görev alanına giren bir husus",
-    "Talep": "ilgili bilgilerin paylaşılması"
+    "Ortak iş": "Nakdi Yardım konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Nakdi Yardım konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,7 +57,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Nakdi Yardım",
-    "ilgili bilgilerin paylaşılması"
+    "Nakdi Yardım"
   ]
 }

@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,24 +23,24 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Personel Dairesi Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "903.02",
+    "ad": "Atama İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Kararlar Hakkında Görüş Talebi",
-  "sayi": "E-55461037-050.04-1919685",
-  "tarih": "29.04.2026",
+  "konu": "Atama İşleri Hakkında Görüş Talebi",
+  "sayi": "E-55461037-903.02-1867246",
+  "tarih": "05.01.2026",
   "ilgi": {
-    "tarih": "10.04.2026",
-    "sayi": "E-39985474-050.04-2228052"
+    "tarih": "19.12.2025",
+    "sayi": "E-42218640-903.02-2835978"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Kararlar",
+    "Konu": "Atama İşleri",
     "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -52,11 +52,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Personel Dairesi Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
+    "Atama İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

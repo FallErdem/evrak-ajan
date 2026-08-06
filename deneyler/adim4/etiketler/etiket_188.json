@@ -26,17 +26,17 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.04",
-    "ad": "Yapı Ruhsatı",
+    "kod": "115.02.08",
+    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
     "saklama_suresi": "B"
   },
-  "konu": "Yapı Ruhsatı Başvurusu",
+  "konu": "Kısmi İskan Talebi",
   "sayi": null,
   "tarih": "15.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yapı Ruhsatı",
+    "Talep": "Kısmi İskan",
     "Taşınmaz": "89378 ada, 22 parsel",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
@@ -51,7 +51,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yapı Ruhsatı",
+    "Kısmi İskan",
     "89378 ada, 22 parsel",
     "sürecin tamamlanabilmesi için"
   ]

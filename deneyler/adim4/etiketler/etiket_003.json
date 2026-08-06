@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,24 +23,24 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Araştırma İzni Hk.",
-  "sayi": "E-24432702-805.02.05-11099659",
+  "konu": "Alacağın Tahsili Hk.",
+  "sayi": "E-24432702-855-11099659",
   "tarih": "20.03.2026",
   "ilgi": {
     "tarih": "05.03.2026",
-    "sayi": "E-26888327-805.02.05-1719382"
+    "sayi": "E-43195403-855-1719382"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Araştırma İzni",
+    "Talep": "Alacağın Tahsili",
     "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
@@ -54,11 +54,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Araştırma İzni",
+    "Alacağın Tahsili",
     "olumlu, belge düzenlendi",
     "ilgide kayıtlı yazı"
   ]

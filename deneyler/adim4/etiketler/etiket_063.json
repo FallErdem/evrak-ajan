@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.02",
-    "ad": "Satış ve Kiralama",
-    "saklama_suresi": "B"
+    "kod": "755.02",
+    "ad": "İhale",
+    "saklama_suresi": "15"
   },
-  "konu": "Taşınmaz Kiralama Talebi",
-  "sayi": "E-39985474-756.02-2175888",
-  "tarih": "30.01.2026",
+  "konu": "İhale Talebi",
+  "sayi": "E-39985474-755.02-7680373",
+  "tarih": "16.03.2026",
   "ilgi": {
-    "tarih": "26.01.2026",
-    "sayi": "E-87730597-756.02-3374264"
+    "tarih": "06.02.2026",
+    "sayi": "E-33152401-755.02-2517847"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Taşınmaz Kiralama",
-    "Ortak iş": "ortak yürütülen bir çalışma",
-    "Talep": "gerekli koordinasyonun sağlanması"
+    "Konu": "İhale",
+    "Ortak iş": "İhale konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "İhale konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,12 +52,8 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
-  "anahtar_terimler": [
-    "Taşınmaz Kiralama",
-    "ortak yürütülen bir çalışma",
-    "gerekli koordinasyonun sağlanması"
-  ]
+  "anahtar_terimler": []
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "kurum_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "89052714",
+    "detsis_no": "85330682",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "855",
-    "ad": "Borç ve Alacak İşleri",
-    "saklama_suresi": "15"
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
+    "saklama_suresi": "10"
   },
-  "konu": "Alacağın Tahsili Hk.",
-  "sayi": "E-89052714-855-2165575",
-  "tarih": "20.05.2026",
+  "konu": "Yatırım Programı Hk.",
+  "sayi": "E-85330682-602.07-1653715",
+  "tarih": "20.04.2026",
   "ilgi": {
-    "tarih": "15.04.2026",
-    "sayi": "E-43195403-855-3440970"
+    "tarih": "16.04.2026",
+    "sayi": "E-43195403-602.07-1737910"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Alacağın Tahsili",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Yatırım Programı",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,10 +58,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Alacağın Tahsili",
-    "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "Yatırım Programı",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı"
   ]
 }

@@ -5,45 +5,45 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "İbrahim DUMAN",
-    "adres": "Uğur Mumcu Mahallesi Manolya Sokak No: 8/20 Yenimahalle/ANKARA",
+    "ad": "Pınar GÜLER",
+    "adres": "Çiğdemtepe Mahallesi Çınar Sokak No: 78/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024204752",
-    "bolum": "Fen Fakültesi Matematik",
+    "ogrenci_no": "2019472054",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
     "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Süresi Uzatım Talebi",
+  "konu": "Öğrenci Topluluğu Kurulma Talebi",
   "sayi": null,
-  "tarih": "06.03.2026",
+  "tarih": "29.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Talep": "Kayıt Süresi Uzatım",
+    "Talep": "Öğrenci Topluluğu Kurulma",
     "Öğrenim bilgisi": "2018 yılı mezunu",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
@@ -54,12 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Süresi Uzatım",
+    "Öğrenci Topluluğu Kurulma",
     "2018 yılı mezunu",
     "sürecin tamamlanabilmesi için"
   ]

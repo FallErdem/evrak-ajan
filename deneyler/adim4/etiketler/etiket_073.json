@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Kuzey Yapı Denetim A.Ş.",
+    "kurum_adi": "Yıldız İnşaat Ltd. Şti.",
     "ad": null,
-    "adres": "Yakacık Mahallesi Menekşe Caddesi No: 38/20 Yenimahalle/ANKARA",
+    "adres": "Serhat Mahallesi Papatya Sokak No: 94/12 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
+    "kod": "115.01.06",
+    "ad": "Uygulama İmar Planı",
     "saklama_suresi": "B"
   },
-  "konu": "Kısmi İskan Talebi",
-  "sayi": "2026/253",
-  "tarih": "11.05.2026",
+  "konu": "Uygulama İmar Planı Değişikliği Talebi",
+  "sayi": "2026/32",
+  "tarih": "07.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Yapı Kullanma İzni (İskan Ruhsatı) konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "posta yoluyla adresime"
+    "Talep": "Uygulama İmar Planı konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "posta yoluyla adresime"
+    "yıllara göre sayısal döküm",
+    "e-Devlet üzerinden"
   ]
 }

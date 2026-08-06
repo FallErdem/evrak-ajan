@@ -5,9 +5,9 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
@@ -22,28 +22,28 @@
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_makam": "Personel Dairesi Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
+    "kod": "903.02",
+    "ad": "Atama İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Mevlana Programı Hareketliliği Hk.",
-  "sayi": "E-82642947-310-1360967",
-  "tarih": "20.03.2026",
+  "konu": "Atama Onayının Gönderilmesi",
+  "sayi": "E-82642947-903.02-3430481",
+  "tarih": "23.03.2026",
   "ilgi": {
-    "tarih": "13.03.2026",
-    "sayi": "E-17311665-310-6419734"
+    "tarih": "03.03.2026",
+    "sayi": "E-42218640-903.02-2909933"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Mevlana Programı Hareketliliği",
+    "Talep": "Atama Onayının Gönderilmesi",
     "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
@@ -54,12 +54,12 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Personel Dairesi Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Mevlana Programı Hareketliliği",
+    "Atama Onayının Gönderilmesi",
     "olumlu, belge düzenlendi",
     "ilgide kayıtlı yazı"
   ]

@@ -27,16 +27,16 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Öğrenci Toplulukları, Birlikleri vb. Listesinin Gönderilmesi",
-  "sayi": "E-32625594-309-85906253",
+  "konu": "Stajlar Listesinin Gönderilmesi",
+  "sayi": "E-32625594-304.03-45896698",
   "tarih": "22.01.2026",
   "ilgi": {
     "tarih": "19.12.2025",
-    "sayi": "E-98244303-309-7849226"
+    "sayi": "E-98244303-304.03-7903581"
   },
   "ek": {
     "adet": 2,
@@ -47,7 +47,7 @@
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "öğretim yılı",
     "Sayı": "18 kayıt",
-    "Ek 1": "Öğrenci Toplulukları, Birlikleri vb. listesi",
+    "Ek 1": "Stajlar listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -68,6 +68,7 @@
     "ilgide kayıtlı yazı",
     "öğretim yılı",
     "18 kayıt",
+    "Stajlar listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

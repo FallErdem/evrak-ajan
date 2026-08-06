@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Aslı DOĞAN",
-    "adres": "Çiğdemtepe Mahallesi Zeytin Sokağı No: 19/23 Yenimahalle/ANKARA",
+    "ad": "Gamze KARACA",
+    "adres": "Ergazi Mahallesi Nergis Sokağı No: 13/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Diploma Teslimi Talebi",
+  "konu": "Nakil Başvurusunun Değerlendirilmesi",
   "sayi": null,
-  "tarih": "16.01.2026",
+  "tarih": "26.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma Teslimi",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Nakil Başvurusunun Değerlendirilmesi",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Diploma Teslimi",
-    "başvuru dosyasına eklenmek üzere"
+    "Nakil Başvurusunun Değerlendirilmesi"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine UÇAR",
-    "adres": "Batıkent Mahallesi Lale Sokağı No: 93/13 Yenimahalle/ANKARA",
+    "ad": "Meryem YILDIZ",
+    "adres": "Emniyet Mahallesi Lale Sokağı No: 73/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Denklik Belgesi Talebi",
+  "konu": "Disiplin İşleri Talebi",
   "sayi": null,
-  "tarih": "27.02.2026",
+  "tarih": "06.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Denklik Belgesi",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Disiplin İşleri",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Denklik Belgesi",
-    "resmî işlemlerde kullanılmak üzere"
+    "Disiplin İşleri",
+    "sürecin tamamlanabilmesi için"
   ]
 }

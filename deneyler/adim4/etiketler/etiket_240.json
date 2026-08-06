@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Okul Aile Birlikleri Talebi",
-  "sayi": "E-39985474-165.01-2204029",
-  "tarih": "09.03.2026",
+  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
+  "sayi": "E-65859045-140-2553829",
+  "tarih": "24.02.2026",
   "ilgi": {
-    "tarih": "25.02.2026",
-    "sayi": "E-93213107-165.01-8045799"
+    "tarih": "14.01.2026",
+    "sayi": "E-93213107-140-8016537"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Okul Aile Birlikleri",
-    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
-    "Talep": "iş birliği protokolü düzenlenmesi"
+    "Konu": "Taşımalı Eğitim Kapsamına Alınma",
+    "Ortak iş": "Taşımalı Eğitim Kapsamına Alınma konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Taşımalı Eğitim Kapsamına Alınma konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,7 +56,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Okul Aile Birlikleri",
-    "iş birliği protokolü düzenlenmesi"
+    "Taşımalı Eğitim Kapsamına Alınma"
   ]
 }

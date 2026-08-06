@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,17 +23,17 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
-    "saklama_suresi": "15"
+    "kod": "807.01",
+    "ad": "Bina ve Tesisler",
+    "saklama_suresi": "10"
   },
-  "konu": "Bütçe Çalışmaları Hk.",
-  "sayi": "E-10213773-841.01-8214031",
-  "tarih": "09.04.2026",
+  "konu": "Çatı Onarımı Hk.",
+  "sayi": "E-24304062-807.01-69402334",
+  "tarih": "21.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -41,7 +41,7 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Bütçe Çalışmaları kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Bina ve Tesisler kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
@@ -55,7 +55,7 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

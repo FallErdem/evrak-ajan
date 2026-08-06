@@ -27,28 +27,28 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Öğretmenlik Uygulaması Protokolü",
-  "sayi": "E-65859045-355.02-2536981",
-  "tarih": "23.01.2026",
+  "konu": "Genelgenin Duyurulması",
+  "sayi": "E-65859045-010.06-2543903",
+  "tarih": "05.02.2026",
   "ilgi": {
-    "tarih": "19.01.2026",
-    "sayi": "E-55461037-355.02-1873584"
+    "tarih": "27.01.2026",
+    "sayi": "E-55461037-010.06-1877256"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 4
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Eğitim Fakülteleri İle İlişkiler kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Genelgeler kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

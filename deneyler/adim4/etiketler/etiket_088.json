@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_egitim_rehberlik_sb",
-    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-    "detsis_no": "87302975",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -22,29 +22,29 @@
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+  "muhatap_makam": "Ortaöğretim Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "160.01.02",
-    "ad": "Kaynaştırma Eğitimi",
-    "saklama_suresi": "10"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "BEP Hazırlanması Hk.",
-  "sayi": "E-93213107-160.01.02-8035227",
-  "tarih": "10.02.2026",
+  "konu": "Disiplin İşleri Hk.",
+  "sayi": "E-93213107-225.02-8010912",
+  "tarih": "06.01.2026",
   "ilgi": {
-    "tarih": "22.01.2026",
-    "sayi": "E-87302975-160.01.02-6771180"
+    "tarih": "29.12.2025",
+    "sayi": "E-63971525-225.02-1186241"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "BEP Hazırlanması",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Disiplin İşleri",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,14 +54,13 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "BEP Hazırlanması",
-    "olumlu, işlem tamamlandı",
+    "Disiplin İşleri",
+    "olumlu, belge düzenlendi",
     "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

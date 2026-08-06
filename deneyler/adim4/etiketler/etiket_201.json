@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ömer KARACA",
-    "adres": "Şentepe Mahallesi Ceviz Sokak No: 104/17 Yenimahalle/ANKARA",
+    "ad": "Fatma AKTAŞ",
+    "adres": "Demetevler Mahallesi Ceviz Caddesi No: 57/14 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,24 +22,24 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Ruhsat Hakkında Şikâyet",
+  "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "25.02.2026",
+  "tarih": "02.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ruhsat Hakkında Şikâyet",
-    "Sorun": "işyeri ruhsatta belirtilen faaliyet dışında çalışıyor",
-    "Yer": "Emniyet Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
+    "Şikâyet konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Hakkında Şikâyet",
+    "Sorun": "ölçü ve ölçü aletleri ile ilgili işler işlemlerinde uzun süredir aksama yaşanıyor",
+    "Yer": "Susuz Mahallesi",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -51,13 +51,12 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Hakkında Şikâyet",
-    "Emniyet Mahallesi",
-    "yaklaşık kırk gündür",
+    "Susuz Mahallesi",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

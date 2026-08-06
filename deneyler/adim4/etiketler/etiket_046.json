@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep ASLAN",
-    "adres": "Serhat Mahallesi Lale Sokak No: 29/7 Yenimahalle/ANKARA",
+    "ad": "Burak KARACA",
+    "adres": "Beştepe Mahallesi Erguvan Caddesi No: 62/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "İdari Yaptırım/Para Cezası İşleri Hakkında Şikâyet",
+  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "08.05.2026",
+  "tarih": "20.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İdari Yaptırım/Para Cezası İşleri Hakkında Şikâyet",
-    "Sorun": "idari yaptırım/para cezası işleri hakkındaki talebime yazılı cevap verilmedi",
-    "Yer": "İvedik Mahallesi",
+    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+    "Sorun": "yangın merdiveni kapalı tutuluyor",
+    "Yer": "Gayret Mahallesi",
     "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -51,11 +51,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İvedik Mahallesi",
+    "yangın merdiveni kapalı tutuluyor",
+    "Gayret Mahallesi",
     "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Murat ATEŞ",
-    "adres": "Yeşilevler Mahallesi Manolya Sokağı No: 118/16 Yenimahalle/ANKARA",
+    "ad": "Şerife KARACA",
+    "adres": "Serhat Mahallesi Sümbül Caddesi No: 32/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,20 +26,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Hakkında Şikâyet",
+  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "14.04.2026",
+  "tarih": "05.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Hakkında Şikâyet",
-    "Sorun": "ölçü ve ölçü aletleri ile ilgili işler konusundaki başvurum sonuçlandırılmadı",
-    "Yer": "Pamuklar Mahallesi",
-    "Süre": "yaklaşık iki aydır",
+    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+    "Sorun": "işyerinde yangın tüpü bulunmuyor",
+    "Yer": "Emniyet Mahallesi",
+    "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
@@ -55,8 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Pamuklar Mahallesi",
-    "yaklaşık iki aydır",
+    "işyerinde yangın tüpü bulunmuyor",
+    "Emniyet Mahallesi",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

@@ -12,36 +12,36 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Fatih ÇAKIR",
-    "adres": "Ragıpbey Mahallesi Manolya Sokağı No: 111/10 Yenimahalle/ANKARA",
+    "ad": "Murat ÇETIN",
+    "adres": "Çiğdemtepe Mahallesi Akasya Sokağı No: 87/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025980739",
-    "bolum": "Tıp Fakültesi",
-    "sinif": "2"
+    "ogrenci_no": "2021530614",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
     "saklama_suresi": "B"
   },
-  "konu": "Geçici Mezuniyet Belgesi Talebi",
+  "konu": "Değişim Programı Ders Tanıma Talebi",
   "sayi": null,
-  "tarih": "09.01.2026",
+  "tarih": "06.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Geçici Mezuniyet Belgesi",
-    "Öğrenim bilgisi": "2. sınıf öğrencisi",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Değişim Programı Ders Tanıma",
+    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Geçici Mezuniyet Belgesi",
-    "2. sınıf öğrencisi",
-    "ilgili kuruma sunulmak üzere"
+    "Değişim Programı Ders Tanıma",
+    "3. sınıf öğrencisi",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

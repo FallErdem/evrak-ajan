@@ -45,8 +45,8 @@
   },
   "somut_bilgiler": {
     "Konu": "Hukuki Görüş",
-    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
-    "Talep": "iş birliği protokolü düzenlenmesi"
+    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -60,7 +60,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Hukuki Görüş",
-    "iş birliği protokolü düzenlenmesi"
+    "Hukuki Görüş"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -27,13 +27,13 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Yatırım Programı Listesinin Gönderilmesi",
-  "sayi": "E-10213773-602.07-8172745",
-  "tarih": "09.03.2026",
+  "konu": "Stratejik Plan Listesinin Gönderilmesi",
+  "sayi": "E-24316060-602.04-88500770",
+  "tarih": "21.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
@@ -43,8 +43,8 @@
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "güz dönemi",
-    "Sayı": "47 kayıt",
-    "Ek 1": "Yatırım Programı listesi",
+    "Sayı": "24 kayıt",
+    "Ek 1": "Stratejik Plan listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -63,8 +63,8 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "güz dönemi",
-    "47 kayıt",
-    "Yatırım Programı listesi",
+    "24 kayıt",
+    "Stratejik Plan listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

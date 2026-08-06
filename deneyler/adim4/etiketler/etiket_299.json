@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Meryem ÇELIK",
-    "adres": "Karşıyaka Mahallesi Zeytin Sokak No: 37/18 Yenimahalle/ANKARA",
+    "ad": "Kemal TURAN",
+    "adres": "Uğur Mumcu Mahallesi Yasemin Caddesi No: 81/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,21 +26,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
-    "saklama_suresi": "10"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "Servis Hizmeti Aksaklığı Bildirimi",
+  "konu": "Diploma Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "25.02.2026",
+  "tarih": "05.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
-    "Sorun": "servis aracı kapasitesinin üzerinde yolcu alıyor",
-    "Yer": "ilçe merkezi",
+    "Şikâyet konusu": "Diploma Hakkında Şikâyet",
+    "Sorun": "diploma hakkındaki talebime yazılı cevap verilmedi",
+    "Yer": "Pamuklar Mahallesi",
     "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -55,8 +55,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Servis Hizmeti Aksaklığı",
-    "ilçe merkezi",
+    "Diploma Hakkında Şikâyet",
+    "Pamuklar Mahallesi",
     "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]

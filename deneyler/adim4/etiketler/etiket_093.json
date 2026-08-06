@@ -12,35 +12,35 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Büşra DOĞAN",
-    "adres": "Karşıyaka Mahallesi Lale Sokağı No: 33/18 Yenimahalle/ANKARA",
+    "ad": "Fatma BULUT",
+    "adres": "Ragıpbey Mahallesi Zeytin Sokak No: 119/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022301114",
-    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "ogrenci_no": "2021682720",
+    "bolum": "Diş Hekimliği Fakültesi",
     "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Transkript Talebi",
+  "konu": "Diploma Talebi",
   "sayi": null,
-  "tarih": "28.05.2026",
+  "tarih": "18.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Transkript",
-    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Talep": "Diploma",
+    "Öğrenim bilgisi": "2. sınıf öğrencisi",
     "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -55,7 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "3. sınıf öğrencisi",
+    "2. sınıf öğrencisi",
     "ilgili kuruma sunulmak üzere"
   ]
 }

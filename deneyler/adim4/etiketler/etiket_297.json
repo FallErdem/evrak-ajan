@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Karar Örneği Talebi",
-  "sayi": "E-65859045-050.04-2570071",
-  "tarih": "27.03.2026",
+  "konu": "Arşivden Suret Talebi",
+  "sayi": "E-55461037-805.02.05-1907650",
+  "tarih": "03.04.2026",
   "ilgi": {
-    "tarih": "17.02.2026",
-    "sayi": "E-82642947-050.04-1338245"
+    "tarih": "24.03.2026",
+    "sayi": "E-82642947-805.02.05-3431317"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Karar Örneği",
-    "Ortak iş": "iki kurumun görev alanına giren bir husus",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Konu": "Arşivden Suret",
+    "Ortak iş": "Arşivden Suret konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Arşivden Suret konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,7 +57,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Karar Örneği",
-    "konu hakkında görüş bildirilmesi"
+    "Arşivden Suret"
   ]
 }

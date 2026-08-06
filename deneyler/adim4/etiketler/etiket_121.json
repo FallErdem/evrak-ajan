@@ -27,19 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
     "saklama_suresi": "15"
   },
-  "konu": "Genelge Görüşü Talebi",
-  "sayi": "E-65859045-010.06-2594886",
+  "konu": "Stratejik Plan Verisi Talebi",
+  "sayi": "E-65859045-602.04-2594886",
   "tarih": "13.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Genelge Görüşü",
-    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
-    "Talep": "iş birliği protokolü düzenlenmesi"
+    "Konu": "Stratejik Plan Verisi",
+    "Ortak iş": "Stratejik Plan Verisi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Stratejik Plan Verisi kapsamındaki bilgilerin paylaşılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -54,7 +54,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Genelge Görüşü",
-    "iş birliği protokolü düzenlenmesi"
+    "Stratejik Plan Verisi"
   ]
 }

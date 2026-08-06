@@ -12,38 +12,38 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Aslı GÜNEŞ",
-    "adres": "Ergazi Mahallesi Ihlamur Caddesi No: 76/14 Yenimahalle/ANKARA",
+    "ad": "Büşra ARSLAN",
+    "adres": "Beştepe Mahallesi Papatya Caddesi No: 72/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025232975",
-    "bolum": "Fen Fakültesi Matematik",
-    "sinif": "1"
+    "ogrenci_no": "2025992268",
+    "bolum": "Diş Hekimliği Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Katkı Payı Muafiyet Başvurusu",
+  "konu": "Kayıt Süresi Uzatım Talebi",
   "sayi": null,
-  "tarih": "09.03.2026",
+  "tarih": "16.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 4
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Talep": "Katkı Payı Muafiyet",
+    "Talep": "Kayıt Süresi Uzatım",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
@@ -59,7 +59,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı Muafiyet",
+    "Kayıt Süresi Uzatım",
     "lisansüstü programa kayıtlı",
     "mağduriyetin giderilmesi bakımından"
   ]

@@ -26,16 +26,16 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
+  "konu": "İtfaiye Uygunluk Raporları Kararına İtiraz",
   "sayi": null,
   "tarih": "16.04.2026",
   "ilgi": {
     "tarih": "31.03.2026",
-    "sayi": "E-59553370-175-985969"
+    "sayi": "E-59553370-180.03-985969"
   },
   "ek": {
     "adet": 1,
@@ -43,7 +43,7 @@
     "sayfa": 3
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
+    "İtiraz konusu": "İtfaiye Uygunluk Raporları Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"

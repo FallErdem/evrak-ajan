@@ -26,16 +26,16 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "İdari Para Cezasına İtiraz",
+  "konu": "Bilgi Edinme, Talep ve Şikayetler Kararına İtiraz",
   "sayi": null,
   "tarih": "11.02.2026",
   "ilgi": {
     "tarih": "03.02.2026",
-    "sayi": "E-53265760-858-1773649"
+    "sayi": "E-53265760-622.01-1773649"
   },
   "ek": {
     "adet": 1,
@@ -43,7 +43,7 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "İdari Para Cezasına İtiraz",
+    "İtiraz konusu": "Bilgi Edinme, Talep ve Şikayetler Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -60,7 +60,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İdari Para Cezasına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

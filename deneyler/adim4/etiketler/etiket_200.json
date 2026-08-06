@@ -32,8 +32,8 @@
     "saklama_suresi": "10"
   },
   "konu": "Taşıt ve İş Makineleri İşleri Hk.",
-  "sayi": "E-10213773-801-8092233",
-  "tarih": "08.01.2026",
+  "sayi": "E-10213773-801-8202192",
+  "tarih": "31.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -42,10 +42,10 @@
   },
   "somut_bilgiler": {
     "Konu": "Taşıt ve İş Makineleri İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların mali yıl sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -60,6 +60,7 @@
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "sonuçların mali yıl sonunda bildirilmesi"
   ]
 }

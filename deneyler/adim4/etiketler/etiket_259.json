@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çankaya Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "90226917",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,23 +23,23 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "İhale Talebi",
-  "sayi": "E-90226917-755.02-2657051",
-  "tarih": "22.01.2026",
+  "konu": "Çalıştay Katılım Talebi",
+  "sayi": "E-55461037-051-1897570",
+  "tarih": "12.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "İhale",
-    "Ortak iş": "ortak yürütülen bir çalışma",
-    "Talep": "iş birliği protokolü düzenlenmesi"
+    "Konu": "Çalıştay Katılım",
+    "Ortak iş": "Çalıştay Katılım konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Çalıştay Katılım konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -49,11 +49,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "ortak yürütülen bir çalışma",
-    "iş birliği protokolü düzenlenmesi"
+    "Çalıştay Katılım"
   ]
 }

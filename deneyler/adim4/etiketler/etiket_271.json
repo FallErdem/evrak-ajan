@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çankaya Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "90226917",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.01",
-    "ad": "Tahsis, Devir ve Takas",
-    "saklama_suresi": "B"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "Okul Yeri Tahsis Talebi",
-  "sayi": "E-90226917-756.01-2661601",
-  "tarih": "03.02.2026",
+  "konu": "Etüt Proje Hazırlanması Talebi",
+  "sayi": "E-39985474-755.01-7700676",
+  "tarih": "13.04.2026",
   "ilgi": {
-    "tarih": "29.01.2026",
-    "sayi": "E-87730597-756.01-3375543"
+    "tarih": "20.03.2026",
+    "sayi": "E-33152401-755.01-2536716"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Okul Yeri Tahsis",
-    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
-    "Talep": "ilgili bilgilerin paylaşılması"
+    "Konu": "Etüt Proje Hazırlanması",
+    "Ortak iş": "Etüt Proje Hazırlanması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Etüt Proje Hazırlanması konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,11 +52,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Okul Yeri Tahsis",
-    "ilgili bilgilerin paylaşılması"
+    "Etüt Proje Hazırlanması"
   ]
 }

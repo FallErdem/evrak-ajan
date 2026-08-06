@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,26 +23,25 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
   "dagitim": {
     "geregi": [
-      "Ankara İl Millî Eğitim Müdürlüğü",
-      "Gazi Üniversitesi Rektörlüğü",
-      "Yenimahalle Belediye Başkanlığı"
+      "İlçe Kaymakamlıklarına",
+      "İlçe Belediye Başkanlıklarına"
     ],
     "bilgi": [
-      "Millî Eğitim Bakanlığı"
+      "İçişleri Bakanlığına"
     ]
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Taşımalı Eğitim Listesinin Gönderilmesi",
-  "sayi": "E-10213773-140-8131259",
-  "tarih": "06.02.2026",
+  "konu": "Mal Alım İşi Listesinin Gönderilmesi",
+  "sayi": "E-10213773-934.01-8108496",
+  "tarih": "20.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
@@ -53,7 +52,7 @@
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "içinde bulunulan öğretim yılı",
     "Sayı": "142 kayıt",
-    "Ek 1": "Taşımalı Eğitim listesi",
+    "Ek 1": "Mal Alım İşi listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -66,14 +65,14 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "içinde bulunulan öğretim yılı",
     "142 kayıt",
-    "Taşımalı Eğitim listesi",
+    "Mal Alım İşi listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

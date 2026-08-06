@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şaban ERDOĞAN",
-    "adres": "Gayret Mahallesi Manolya Sokak No: 72/9 Yenimahalle/ANKARA",
+    "ad": "Pınar ÖZDEMIR",
+    "adres": "Barıştepe Mahallesi Menekşe Sokağı No: 103/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,14 +32,14 @@
   },
   "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "12.02.2026",
+  "tarih": "12.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
-    "Sorun": "işyerinde yangın tüpü bulunmuyor",
-    "Yer": "Beştepe Mahallesi",
-    "Süre": "geçtiğimiz aydan bu yana",
+    "Sorun": "yangın merdiveni kapalı tutuluyor",
+    "Yer": "İvedik Mahallesi",
+    "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
@@ -55,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "işyerinde yangın tüpü bulunmuyor",
-    "Beştepe Mahallesi",
-    "geçtiğimiz aydan bu yana",
+    "yangın merdiveni kapalı tutuluyor",
+    "İvedik Mahallesi",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

@@ -5,16 +5,16 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Atlas Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Şafak Eğitim Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Pamuklar Mahallesi Sümbül Sokağı No: 62/16 Yenimahalle/ANKARA",
+    "adres": "Gayret Mahallesi Çınar Sokağı No: 51/14 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,24 +23,24 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "CİMER Başvurusu Hk.",
-  "sayi": "2026/269",
-  "tarih": "08.05.2026",
+  "konu": "Diploma Teslimi Talebi",
+  "sayi": "2026/793",
+  "tarih": "15.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Bilgi Edinme, Talep ve Şikayetler konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "elektronik posta ile"
+    "Talep": "Diploma konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
-    "elektronik posta ile"
+    "e-Devlet üzerinden"
   ]
 }

@@ -5,46 +5,46 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Temel Eğitim Şube Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "21291472",
+    "detsis_no": "93213107",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Ortaöğretim Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
+    "saklama_suresi": "B"
   },
-  "konu": "Genelge Uygulaması Hk.",
-  "sayi": "E-21291472-010.06-4172096",
-  "tarih": "08.04.2026",
+  "konu": "Yurtdışı Eğitim Denkliği Hk.",
+  "sayi": "E-93213107-215.01-8097995",
+  "tarih": "11.05.2026",
   "ilgi": {
-    "tarih": "18.03.2026",
-    "sayi": "E-55461037-010.06-1900271"
+    "tarih": "23.04.2026",
+    "sayi": "E-63971525-215.01-1271066"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Genelge Uygulaması",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Yurtdışı Eğitim Denkliği",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,12 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Genelge Uygulaması",
-    "olumlu, belge düzenlendi",
+    "Yurtdışı Eğitim Denkliği",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı"
   ]
 }

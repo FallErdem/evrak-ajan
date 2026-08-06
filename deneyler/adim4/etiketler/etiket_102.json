@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf KURT",
-    "adres": "Serhat Mahallesi Akasya Sokak No: 118/12 Yenimahalle/ANKARA",
+    "ad": "Hatice AKSOY",
+    "adres": "Batıkent Mahallesi Yasemin Caddesi No: 76/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,20 +32,20 @@
   },
   "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
   "sayi": null,
-  "tarih": "16.04.2026",
+  "tarih": "08.05.2026",
   "ilgi": {
-    "tarih": "20.03.2026",
-    "sayi": "E-59553370-175-979693"
+    "tarih": "07.04.2026",
+    "sayi": "E-59553370-175-989999"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "İtiraz konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [

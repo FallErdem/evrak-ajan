@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Selviçam Mesleki ve Teknik Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10198036",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "93213107",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Hukuki Mütalaanın Gönderilmesi",
-  "sayi": "E-10198036-045.02-6519",
-  "tarih": "15.04.2026",
+  "konu": "Genelge Uygulaması Hk.",
+  "sayi": "E-93213107-010.06-8020574",
+  "tarih": "20.01.2026",
   "ilgi": {
-    "tarih": "13.03.2026",
-    "sayi": "E-55461037-045.02-1897954"
+    "tarih": "24.12.2025",
+    "sayi": "E-55461037-010.06-1861610"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Hukuki Mütalaanın Gönderilmesi",
+    "Talep": "Genelge Uygulaması",
     "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,8 +58,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Hukuki Mütalaanın Gönderilmesi",
+    "Genelge Uygulaması",
     "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı"
+    "ilgide kayıtlı yazı",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

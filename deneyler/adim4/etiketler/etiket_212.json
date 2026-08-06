@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Bilgi Edinme, Talep ve Şikayetler Talebi",
-  "sayi": "E-65859045-622.01-2594299",
-  "tarih": "12.05.2026",
+  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
+  "sayi": "E-39985474-140-7708093",
+  "tarih": "23.04.2026",
   "ilgi": {
-    "tarih": "27.04.2026",
-    "sayi": "E-55461037-622.01-1918742"
+    "tarih": "09.04.2026",
+    "sayi": "E-93213107-140-8075747"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Bilgi Edinme, Talep ve Şikayetler",
-    "Ortak iş": "iki kurumun görev alanına giren bir husus",
-    "Talep": "iş birliği protokolü düzenlenmesi"
+    "Konu": "Taşımalı Eğitim Kapsamına Alınma",
+    "Ortak iş": "Taşımalı Eğitim Kapsamına Alınma konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Taşımalı Eğitim Kapsamına Alınma konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,11 +52,10 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bilgi Edinme, Talep ve Şikayetler",
-    "iş birliği protokolü düzenlenmesi"
+    "Taşımalı Eğitim Kapsamına Alınma"
   ]
 }

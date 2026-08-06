@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -22,28 +22,28 @@
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Yazı İşleri Müdürlüğü",
+  "muhatap_makam": "Temizlik İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "110.04",
-    "ad": "Encümen Kararları",
-    "saklama_suresi": "B"
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
+    "saklama_suresi": "10"
   },
-  "konu": "Encümen Kararının Gönderilmesi",
-  "sayi": "E-89052714-110.04-2095913",
-  "tarih": "16.01.2026",
+  "konu": "Atık Yönetimi Hk.",
+  "sayi": "E-89052714-155.01-3647030",
+  "tarih": "15.05.2026",
   "ilgi": {
-    "tarih": "12.12.2025",
-    "sayi": "E-15986609-110.04-2637858"
+    "tarih": "14.04.2026",
+    "sayi": "E-83011479-155.01-3169679"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Encümen Kararının Gönderilmesi",
+    "Talep": "Atık Yönetimi",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
@@ -54,11 +54,11 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Encümen Kararının Gönderilmesi",
+    "Atık Yönetimi",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı"
   ]

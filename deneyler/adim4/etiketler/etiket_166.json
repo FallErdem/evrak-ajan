@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Atlas Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Şafak Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Demetevler Mahallesi Manolya Sokak No: 106/10 Yenimahalle/ANKARA",
+    "adres": "Batıkent Mahallesi Nergis Caddesi No: 66/22 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,16 +31,16 @@
     "ad": "Borç ve Alacak İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Borç Yapılandırma Talebi",
-  "sayi": "2026/192",
-  "tarih": "10.02.2026",
+  "konu": "Borç Bilgisi Talebi",
+  "sayi": "2026/109",
+  "tarih": "19.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Borç ve Alacak İşleri konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "elektronik posta ile"
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +56,6 @@
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "yıllara göre sayısal döküm",
-    "elektronik posta ile"
+    "posta yoluyla adresime"
   ]
 }

@@ -12,17 +12,17 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Murat ÖZTÜRK",
-    "adres": "Şentepe Mahallesi Ceviz Sokak No: 5/23 Yenimahalle/ANKARA",
+    "ad": "Fatma POLAT",
+    "adres": "Emniyet Mahallesi Sümbül Sokağı No: 16/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021961898",
-    "bolum": "Tıp Fakültesi",
-    "sinif": "4"
+    "ogrenci_no": "2023229135",
+    "bolum": "Sınıf Öğretmenliği",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
@@ -33,15 +33,15 @@
     "ad": "İzin İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Sağlık Sebebiyle İzin Talebi",
+  "konu": "Kayıt Dondurma ve İzin Talebi",
   "sayi": null,
-  "tarih": "26.03.2026",
+  "tarih": "20.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Sağlık Sebebiyle İzin",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Kayıt Dondurma ve İzin",
+    "Öğrenim bilgisi": "4. sınıf öğrencisi",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sağlık Sebebiyle İzin",
-    "lisansüstü programa kayıtlı",
-    "mağduriyetin giderilmesi bakımından"
+    "Kayıt Dondurma ve İzin",
+    "4. sınıf öğrencisi",
+    "sürecin tamamlanabilmesi için"
   ]
 }

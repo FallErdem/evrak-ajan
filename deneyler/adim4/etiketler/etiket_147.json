@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sultan BOZKURT",
-    "adres": "İvedik Mahallesi Menekşe Sokak No: 42/1 Yenimahalle/ANKARA",
+    "ad": "Osman KAYA",
+    "adres": "Yakacık Mahallesi Menekşe Sokağı No: 30/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,24 +26,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
+    "saklama_suresi": "B"
   },
-  "konu": "Bursluluk Sonucuna İtiraz",
+  "konu": "Denklik Kararına İtiraz",
   "sayi": null,
-  "tarih": "13.03.2026",
+  "tarih": "27.04.2026",
   "ilgi": {
-    "tarih": "10.02.2026",
-    "sayi": "E-63971525-245.04-1217978"
+    "tarih": "27.03.2026",
+    "sayi": "E-63971525-215.01-1251131"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 6
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Bursluluk Sonucuna İtiraz",
+    "İtiraz konusu": "Denklik Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -60,7 +60,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bursluluk Sonucuna İtiraz",
+    "Denklik Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

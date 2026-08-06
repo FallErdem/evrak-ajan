@@ -12,36 +12,35 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Murat AKTAŞ",
-    "adres": "Uğur Mumcu Mahallesi Zeytin Caddesi No: 45/19 Yenimahalle/ANKARA",
+    "ad": "Osman ERDOĞAN",
+    "adres": "Batıkent Mahallesi Zeytin Caddesi No: 77/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021700603",
-    "bolum": "Hukuk Fakültesi",
+    "ogrenci_no": "2021747440",
+    "bolum": "Fen Fakültesi Matematik",
     "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Erasmus+ Başvuru Duyurusu",
+  "konu": "Diploma Denklik Başvurusu",
   "sayi": null,
-  "tarih": "14.04.2026",
+  "tarih": "06.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Erasmus+ Başvuru",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Diploma Denklik",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +54,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Erasmus+ Başvuru",
-    "lisansüstü programa kayıtlı",
-    "sürecin tamamlanabilmesi için"
+    "Diploma Denklik",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

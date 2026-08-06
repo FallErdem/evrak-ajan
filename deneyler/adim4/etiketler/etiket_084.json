@@ -5,46 +5,46 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "87302975",
+    "detsis_no": "93213107",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "Stratejik Plan Hk.",
-  "sayi": "E-87302975-602.04-6807049",
-  "tarih": "13.03.2026",
+  "konu": "Diploma Hk.",
+  "sayi": "E-93213107-198.02.01-8051252",
+  "tarih": "05.03.2026",
   "ilgi": {
-    "tarih": "27.01.2026",
-    "sayi": "E-14588481-602.04-2458043"
+    "tarih": "09.02.2026",
+    "sayi": "E-21291472-198.02.01-4124895"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Stratejik Plan",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Diploma",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,12 +54,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Stratejik Plan",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

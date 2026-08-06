@@ -12,36 +12,36 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Şaban ÇELIK",
-    "adres": "Uğur Mumcu Mahallesi Erguvan Sokağı No: 47/2 Yenimahalle/ANKARA",
+    "ad": "Gamze ÖZTÜRK",
+    "adres": "Uğur Mumcu Mahallesi Sümbül Sokağı No: 9/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020150350",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "ogrenci_no": "2023801332",
+    "bolum": "Diş Hekimliği Fakültesi",
     "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
+    "saklama_suresi": "B"
   },
-  "konu": "Kesin Kayıt Başvurusu",
+  "konu": "Erasmus+ Başvuru Duyurusu",
   "sayi": null,
-  "tarih": "06.05.2026",
+  "tarih": "21.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kesin Kayıt",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Erasmus+ Başvuru",
+    "Öğrenim bilgisi": "2016 yılı mezunu",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kesin Kayıt",
-    "lisansüstü programa kayıtlı"
+    "Erasmus+ Başvuru",
+    "2016 yılı mezunu",
+    "sürecin tamamlanabilmesi için"
   ]
 }

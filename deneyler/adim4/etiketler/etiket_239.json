@@ -5,43 +5,43 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Aslı ŞIMŞEK",
-    "adres": "Serhat Mahallesi Zeytin Sokağı No: 29/9 Yenimahalle/ANKARA",
+    "ad": "Ramazan KESKIN",
+    "adres": "Ergazi Mahallesi Erguvan Caddesi No: 85/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025587200",
-    "bolum": "Mimarlık Fakültesi",
-    "sinif": "2"
+    "ogrenci_no": "2021627411",
+    "bolum": "Matematik (Yüksek Lisans)",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
     "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Topluluğu Kurulma Talebi",
+  "konu": "Kayıt Dondurma Talebi",
   "sayi": null,
-  "tarih": "24.03.2026",
+  "tarih": "06.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenci Topluluğu Kurulma",
-    "Öğrenim bilgisi": "4. sınıf öğrencisi",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Kayıt Dondurma",
+    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,13 +50,12 @@
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Öğrenci Topluluğu Kurulma",
-    "4. sınıf öğrencisi",
-    "mağduriyetin giderilmesi bakımından"
+    "Kayıt Dondurma",
+    "3. sınıf öğrencisi"
   ]
 }

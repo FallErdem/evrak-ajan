@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Disiplin İşleri Hakkında Şikâyet",
+  "konu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
   "sayi": null,
   "tarih": "19.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Disiplin İşleri Hakkında Şikâyet",
-    "Sorun": "disiplin işleri işlemlerinde uzun süredir aksama yaşanıyor",
+    "Şikâyet konusu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
+    "Sorun": "denklik belgesi işleme alınmadı",
     "Yer": "okul servis güzergâhı",
     "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
@@ -51,11 +51,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Disiplin İşleri Hakkında Şikâyet",
+    "denklik belgesi işleme alınmadı",
     "okul servis güzergâhı",
     "bir aydan uzun süredir",
     "sorunun giderilmesi"

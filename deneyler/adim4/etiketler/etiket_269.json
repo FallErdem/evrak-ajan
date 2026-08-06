@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gelirler Müdürlüğü",
+    "kurum_adi": "Yapı Kontrol Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "30032784",
+    "detsis_no": "53265760",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,19 +32,19 @@
     "saklama_suresi": "15"
   },
   "konu": "Bütçe Teklifinin Gönderilmesi",
-  "sayi": "E-30032784-841.01-1828288",
-  "tarih": "07.04.2026",
+  "sayi": "E-53265760-841.01-1787088",
+  "tarih": "03.03.2026",
   "ilgi": {
-    "tarih": "24.02.2026",
-    "sayi": "E-43195403-841.01-3423278"
+    "tarih": "02.02.2026",
+    "sayi": "E-43195403-841.01-1705710"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Bütçe Teklifinin Gönderilmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -59,7 +59,7 @@
   ],
   "anahtar_terimler": [
     "Bütçe Teklifinin Gönderilmesi",
-    "olumlu, işlem tamamlandı",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı"
   ]
 }

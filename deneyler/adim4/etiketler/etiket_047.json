@@ -26,33 +26,33 @@
   "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
   "dagitim": {
     "geregi": [
-      "Gazi Üniversitesi",
-      "Ankara Valiliği",
-      "Ankara İl Millî Eğitim Müdürlüğü"
+      "Üniversite Rektörlüklerine"
     ],
-    "bilgi": []
+    "bilgi": [
+      "Yükseköğretim Denetleme Kuruluna"
+    ]
   },
-  "beklenen_kapanis": "rica",
+  "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
-    "saklama_suresi": "2"
+    "kod": "104.01",
+    "ad": "Program Açma",
+    "saklama_suresi": "15"
   },
-  "konu": "Sınav Programının Duyurulması",
-  "sayi": "E-32625594-106-86010719",
+  "konu": "Program Açma Başvurusu Hk.",
+  "sayi": "E-32625594-104.01-45964669",
   "tarih": "13.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Sınav Programları ve Sınavlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Program Açma kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

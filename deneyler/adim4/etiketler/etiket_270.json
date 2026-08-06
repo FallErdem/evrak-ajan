@@ -12,34 +12,35 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Esra ATEŞ",
-    "adres": "Beştepe Mahallesi Çınar Sokak No: 57/14 Yenimahalle/ANKARA",
+    "ad": "Büşra POLAT",
+    "adres": "Susuz Mahallesi Ceviz Sokağı No: 79/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025386270",
+    "ogrenci_no": "2019633188",
     "bolum": "Diş Hekimliği Fakültesi",
     "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Yardım Başvurusunun Değerlendirilmesi",
+  "konu": "Topluluk Etkinlik İzni Talebi",
   "sayi": null,
-  "tarih": "27.04.2026",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yardım Başvurusunun Değerlendirilmesi",
+    "Talep": "Topluluk Etkinlik İzni",
+    "Öğrenim bilgisi": "4. sınıf öğrencisi",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
@@ -54,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Yardım Başvurusunun Değerlendirilmesi",
+    "Topluluk Etkinlik İzni",
+    "4. sınıf öğrencisi",
     "sürecin tamamlanabilmesi için"
   ]
 }

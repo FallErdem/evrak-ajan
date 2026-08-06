@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
+    "kod": "304.03",
+    "ad": "Stajlar",
     "saklama_suresi": "2"
   },
-  "konu": "Sınav Programları ve Sınavlar Hk.",
-  "sayi": "E-32625594-106-86188676",
-  "tarih": "23.03.2026",
+  "konu": "Stajlar Hk.",
+  "sayi": "E-32625594-304.03-46017355",
+  "tarih": "02.03.2026",
   "ilgi": {
-    "tarih": "10.03.2026",
-    "sayi": "E-43123369-106-3201500"
+    "tarih": "13.02.2026",
+    "sayi": "E-43123369-304.03-3182164"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Sınav Programları ve Sınavlar",
+    "Talep": "Stajlar",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
@@ -59,7 +59,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sınav Programları ve Sınavlar",
     "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı",
     "talep edilen bilgiler ekte sunulmuştur",

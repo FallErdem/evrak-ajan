@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Personel Dairesi Başkanlığı",
+    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "42218640",
+    "detsis_no": "86488853",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,23 +27,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
-    "saklama_suresi": "10"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Sosyal Yardım İşleri Hk.",
-  "sayi": "E-42218640-815-2879056",
-  "tarih": "10.04.2026",
+  "konu": "Stajlar Hk.",
+  "sayi": "E-86488853-304.03-3751957",
+  "tarih": "08.05.2026",
   "ilgi": {
-    "tarih": "26.02.2026",
-    "sayi": "E-98244303-815-7897875"
+    "tarih": "04.05.2026",
+    "sayi": "E-98244303-304.03-8020341"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Sosyal Yardım İşleri",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Stajlar",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
     "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
@@ -59,8 +59,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sosyal Yardım İşleri",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

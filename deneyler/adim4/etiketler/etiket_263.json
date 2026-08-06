@@ -12,18 +12,18 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yıldıztepe Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10114782",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "93213107",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
@@ -32,17 +32,17 @@
     "saklama_suresi": "10"
   },
   "konu": "Yatırım Programı Teklifi",
-  "sayi": "E-10114782-602.07-4031",
-  "tarih": "26.01.2026",
+  "sayi": "E-93213107-602.07-8090287",
+  "tarih": "30.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 4
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Konu": "Yatırım Programı",
-    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
+    "Gerekçe": "iş ve işlemlerin zamanında tamamlanması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -58,6 +58,6 @@
   ],
   "anahtar_terimler": [
     "Yatırım Programı",
-    "hizmetlerin aksamadan yürütülmesi"
+    "iş ve işlemlerin zamanında tamamlanması"
   ]
 }

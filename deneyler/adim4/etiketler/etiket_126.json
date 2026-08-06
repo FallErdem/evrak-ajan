@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Kurul Kararının Gönderilmesi",
-  "sayi": "E-32625594-050.04-86089815",
-  "tarih": "02.03.2026",
+  "konu": "Genelgeler Listesinin Gönderilmesi",
+  "sayi": "E-32625594-010.06-46137808",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "öğretim yılı",
-    "Sayı": "142 kayıt",
-    "Ek 1": "Kararlar listesi",
+    "Sayı": "94 kayıt",
+    "Ek 1": "Genelgeler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -64,8 +64,8 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "öğretim yılı",
-    "142 kayıt",
-    "Kararlar listesi",
+    "94 kayıt",
+    "Genelgeler listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

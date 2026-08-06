@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Elif KOÇ",
-    "adres": "Susuz Mahallesi Kestane Sokağı No: 32/20 Yenimahalle/ANKARA",
+    "ad": "Fatma ARSLAN",
+    "adres": "Ostim Mahallesi Ihlamur Caddesi No: 36/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,28 +22,28 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Nakiller Kararına İtiraz",
+  "konu": "Okul Aile Birlikleri Kararına İtiraz",
   "sayi": null,
-  "tarih": "16.01.2026",
+  "tarih": "12.03.2026",
   "ilgi": {
-    "tarih": "29.12.2025",
-    "sayi": "E-21291472-210.01-4090921"
+    "tarih": "29.01.2026",
+    "sayi": "E-93213107-165.01-8026860"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Nakiller Kararına İtiraz",
+    "İtiraz konusu": "Okul Aile Birlikleri Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -56,11 +56,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Nakiller Kararına İtiraz",
+    "Okul Aile Birlikleri Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

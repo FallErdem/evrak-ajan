@@ -27,19 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
-  "sayi": "E-39985474-355.02-2174445",
-  "tarih": "28.01.2026",
+  "konu": "Genelge Görüşü Talebi",
+  "sayi": "E-39985474-010.06-7677562",
+  "tarih": "12.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Uygulama Öğrencisi Yerleştirme",
-    "Ortak iş": "iki kurumun görev alanına giren bir husus",
-    "Talep": "gerekli koordinasyonun sağlanması"
+    "Konu": "Genelge Görüşü",
+    "Ortak iş": "Genelge Görüşü konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Genelge Görüşü konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,7 +53,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Uygulama Öğrencisi Yerleştirme",
-    "gerekli koordinasyonun sağlanması"
+    "Genelge Görüşü"
   ]
 }

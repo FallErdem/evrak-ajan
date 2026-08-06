@@ -5,35 +5,35 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Temizlik İşleri Müdürlüğü",
+    "kurum_adi": "Yapı Kontrol Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "83011479",
+    "detsis_no": "53265760",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_makam": "Gelirler Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.01",
-    "ad": "Tahsis, Devir ve Takas",
-    "saklama_suresi": "B"
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
+    "saklama_suresi": "15"
   },
-  "konu": "Tahsis, Devir ve Takas Oluru",
-  "sayi": "E-83011479-756.01-3491743",
-  "tarih": "29.05.2026",
+  "konu": "Emlak Vergisi Oluru",
+  "sayi": "E-53265760-190.01.07-1764672",
+  "tarih": "15.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -41,8 +41,8 @@
     "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Tahsis, Devir ve Takas",
-    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
+    "Konu": "Emlak Vergisi",
+    "Gerekçe": "vatandaş memnuniyetinin artırılması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,11 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Tahsis, Devir ve Takas",
-    "hizmetlerin aksamadan yürütülmesi"
+    "Emlak Vergisi",
+    "vatandaş memnuniyetinin artırılması"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
@@ -27,23 +27,23 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Yatırım Programı Revizyon Talebi",
-  "sayi": "E-24316060-602.07-88266752",
-  "tarih": "11.03.2026",
+  "konu": "Stratejik Plan Verisi Talebi",
+  "sayi": "E-10213773-602.04-8103096",
+  "tarih": "16.01.2026",
   "ilgi": {
-    "tarih": "02.02.2026",
-    "sayi": "E-14588481-602.07-2462387"
+    "tarih": "17.12.2025",
+    "sayi": "E-14588481-602.04-6700653"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "ay sonuna kadar"
+    "Süre": "en geç bir hafta içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -59,6 +59,6 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "ay sonuna kadar"
+    "en geç bir hafta içinde"
   ]
 }

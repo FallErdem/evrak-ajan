@@ -12,38 +12,38 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Pınar ATEŞ",
-    "adres": "Demetevler Mahallesi Ihlamur Caddesi No: 2/11 Yenimahalle/ANKARA",
+    "ad": "Onur DOĞAN",
+    "adres": "Uğur Mumcu Mahallesi Çınar Sokağı No: 104/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024844974",
-    "bolum": "Fen Fakültesi Matematik",
-    "sinif": "3"
+    "ogrenci_no": "2025699171",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
     "saklama_suresi": "B"
   },
-  "konu": "Denklik İşleri Hakkında Şikâyet",
+  "konu": "Öğrenci Değişim Programları Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "06.04.2026",
+  "tarih": "26.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Denklik İşleri Hakkında Şikâyet",
-    "Sorun": "denklik işleri işlemlerinde uzun süredir aksama yaşanıyor",
+    "Şikâyet konusu": "Öğrenci Değişim Programları Hakkında Şikâyet",
+    "Sorun": "öğrenci değişim programları hakkındaki talebime yazılı cevap verilmedi",
     "Yer": "Beşevler Yerleşkesi",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -59,9 +59,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Denklik İşleri Hakkında Şikâyet",
     "Beşevler Yerleşkesi",
-    "yaklaşık üç haftadır",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Mühendislik Fakültesi Dekanlığı",
+    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "43123369",
+    "detsis_no": "86488853",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Kurul Kararının Gönderilmesi",
-  "sayi": "E-43123369-050.04-3231092",
-  "tarih": "17.04.2026",
+  "konu": "CİMER Başvurusu Hk.",
+  "sayi": "E-86488853-622.01-3710920",
+  "tarih": "26.03.2026",
   "ilgi": {
-    "tarih": "16.03.2026",
-    "sayi": "E-82642947-050.04-1358054"
+    "tarih": "23.03.2026",
+    "sayi": "E-82642947-622.01-3430552"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kurul Kararının Gönderilmesi",
+    "Talep": "CİMER Başvurusu",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -59,9 +59,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kurul Kararının Gönderilmesi",
+    "CİMER Başvurusu",
     "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "ilgide kayıtlı yazı"
   ]
 }

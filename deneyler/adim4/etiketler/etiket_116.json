@@ -26,17 +26,17 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.10",
-    "ad": "Adres ve Numaralandırma",
+    "kod": "115.02.08",
+    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
     "saklama_suresi": "B"
   },
-  "konu": "Numarataj Belgesi Talebi",
+  "konu": "Yapı Kullanma İzin Belgesi Talebi",
   "sayi": null,
   "tarih": "25.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Numarataj Belgesi",
+    "Talep": "Yapı Kullanma İzin Belgesi",
     "Taşınmaz": "12798 ada, 29 parsel",
     "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
@@ -51,7 +51,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Numarataj Belgesi",
+    "Yapı Kullanma İzin Belgesi",
     "12798 ada, 29 parsel",
     "resmî işlemlerde kullanılmak üzere"
   ]

@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -23,20 +23,20 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "135.03",
+    "ad": "Yaygın Eğitim Kursları",
+    "saklama_suresi": "10"
   },
-  "konu": "Yabancı Uyruklu Öğrenciler Listesinin Gönderilmesi",
-  "sayi": "E-10213773-235-8103174",
-  "tarih": "16.01.2026",
+  "konu": "Yaygın Eğitim Kursları Listesinin Gönderilmesi",
+  "sayi": "E-10213773-135.03-8110902",
+  "tarih": "22.01.2026",
   "ilgi": {
-    "tarih": "16.12.2025",
-    "sayi": "E-21291472-235-4080294"
+    "tarih": "25.12.2025",
+    "sayi": "E-91571118-135.03-8929345"
   },
   "ek": {
     "adet": 2,
@@ -46,8 +46,8 @@
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "bahar dönemi",
-    "Sayı": "186 kayıt",
-    "Ek 1": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim) listesi",
+    "Sayı": "35 kayıt",
+    "Ek 1": "Yaygın Eğitim Kursları listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -60,13 +60,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Özel Öğretim Kurumları Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "bahar dönemi",
-    "186 kayıt",
+    "35 kayıt",
+    "Yaygın Eğitim Kursları listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

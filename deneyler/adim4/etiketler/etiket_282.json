@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Osman KAYA",
-    "adres": "Ergazi Mahallesi Manolya Caddesi No: 41/7 Yenimahalle/ANKARA",
+    "ad": "Hüseyin UÇAR",
+    "adres": "Demetevler Mahallesi Nergis Sokağı No: 45/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,14 +30,14 @@
     "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
     "saklama_suresi": "B"
   },
-  "konu": "Yabancı Uyruklu Öğrenci Kayıt Talebi",
+  "konu": "Öğrenim Belgesi Talebi",
   "sayi": null,
-  "tarih": "06.01.2026",
+  "tarih": "16.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yabancı Uyruklu Öğrenci Kayıt",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Öğrenim Belgesi",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yabancı Uyruklu Öğrenci Kayıt",
-    "mağduriyetin giderilmesi bakımından"
+    "Öğrenim Belgesi",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep YILDIRIM",
-    "adres": "Emniyet Mahallesi Ihlamur Sokağı No: 10/1 Yenimahalle/ANKARA",
+    "ad": "Kemal KURT",
+    "adres": "Şentepe Mahallesi Yasemin Caddesi No: 14/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
     "saklama_suresi": "10"
   },
-  "konu": "Arşivden Suret Talebi",
+  "konu": "Çöp Toplama Talebi",
   "sayi": null,
-  "tarih": "07.04.2026",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Arşivden Suret",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Çöp Toplama",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşivden Suret",
-    "ilgili kuruma sunulmak üzere"
+    "Çöp Toplama",
+    "sürecin tamamlanabilmesi için"
   ]
 }

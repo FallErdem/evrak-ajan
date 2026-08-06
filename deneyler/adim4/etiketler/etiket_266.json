@@ -12,36 +12,36 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Elif GÜLER",
-    "adres": "Barıştepe Mahallesi Kestane Caddesi No: 69/21 Yenimahalle/ANKARA",
+    "ad": "Merve AKSOY",
+    "adres": "Yeşilevler Mahallesi Kestane Sokak No: 45/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025268596",
-    "bolum": "Hukuk Fakültesi",
-    "sinif": "4"
+    "ogrenci_no": "2022776883",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Talebi",
+  "konu": "Katkı Payı Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "22.04.2026",
+  "tarih": "27.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma",
-    "Öğrenim bilgisi": "3. sınıf öğrencisi",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Katkı Payı Muafiyet",
+    "Öğrenim bilgisi": "2. sınıf öğrencisi",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "3. sınıf öğrencisi",
-    "resmî işlemlerde kullanılmak üzere"
+    "Katkı Payı Muafiyet",
+    "2. sınıf öğrencisi",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

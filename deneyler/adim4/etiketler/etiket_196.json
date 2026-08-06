@@ -12,7 +12,7 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Doruk Mühendislik Ltd. Şti.",
+    "kurum_adi": "Doruk Danışmanlık Ltd. Şti.",
     "ad": null,
     "adres": "Yakacık Mahallesi Akasya Sokak No: 38/5 Yenimahalle/ANKARA",
     "detsis_no": null,
@@ -27,18 +27,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Yurtdışı Öğrenim Denklik Başvurusu",
+  "konu": "Bursluluk Başvurusu",
   "sayi": "2026/346",
   "tarih": "25.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Yurtdışı Eğitim Denkliği konusundaki güncel verilerin paylaşılması",
+    "Talep": "Bursluluk konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "yıllara göre sayısal döküm",
     "Bildirim yolu": "posta yoluyla adresime"
   },

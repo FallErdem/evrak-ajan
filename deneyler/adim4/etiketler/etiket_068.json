@@ -5,46 +5,46 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Ortaöğretim Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "93213107",
+    "detsis_no": "63971525",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_makam": "Strateji Geliştirme Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
+    "saklama_suresi": "10"
   },
-  "konu": "Kayıt İşlemleri Hk.",
-  "sayi": "E-93213107-205-8109912",
-  "tarih": "28.05.2026",
+  "konu": "Yatırım Programı Hk.",
+  "sayi": "E-63971525-602.07-1279047",
+  "tarih": "04.05.2026",
   "ilgi": {
-    "tarih": "24.04.2026",
-    "sayi": "E-21291472-205-4185012"
+    "tarih": "09.04.2026",
+    "sayi": "E-14588481-602.07-6770037"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt İşlemleri",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Yatırım Programı",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,14 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kayıt İşlemleri",
-    "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "Yatırım Programı",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı"
   ]
 }

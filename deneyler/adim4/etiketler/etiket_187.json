@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Diploma Hk.",
-  "sayi": "E-10101603-198.02.01-3772",
+  "konu": "Disiplin İşleri Hk.",
+  "sayi": "E-10101603-225.02-3772",
   "tarih": "12.02.2026",
   "ilgi": {
     "tarih": "12.01.2026",
-    "sayi": "E-21291472-198.02.01-4102246"
+    "sayi": "E-63971525-225.02-1196670"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Disiplin İşleri",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,11 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "olumlu, işlem tamamlandı",
+    "Disiplin İşleri",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
     "talep edilen bilgiler ekte sunulmuştur"
   ]

@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra GÜLER",
-    "adres": "Yeşilevler Mahallesi Papatya Sokağı No: 38/1 Yenimahalle/ANKARA",
+    "ad": "Fatih ARSLAN",
+    "adres": "Uğur Mumcu Mahallesi Akasya Sokağı No: 3/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,21 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.06",
-    "ad": "Uygulama İmar Planı",
-    "saklama_suresi": "B"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Uygulama İmar Planı Değişikliği Talebi",
+  "konu": "Borç Yapılandırma Talebi",
   "sayi": null,
-  "tarih": "21.04.2026",
+  "tarih": "05.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Uygulama İmar Planı Değişikliği",
-    "Taşınmaz": "92145 ada, 16 parsel",
+    "Talep": "Borç Yapılandırma",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
@@ -47,12 +46,11 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Uygulama İmar Planı Değişikliği",
-    "92145 ada, 16 parsel",
+    "Borç Yapılandırma",
     "sürecin tamamlanabilmesi için"
   ]
 }

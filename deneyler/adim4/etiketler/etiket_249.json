@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten ATEŞ",
-    "adres": "Ergazi Mahallesi Kestane Sokağı No: 20/5 Yenimahalle/ANKARA",
+    "ad": "Havva ŞAHIN",
+    "adres": "Ergazi Mahallesi Zeytin Sokağı No: 35/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Belge Sureti Talebi",
+  "konu": "CİMER Başvurusu Hk.",
   "sayi": null,
-  "tarih": "21.01.2026",
+  "tarih": "14.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Belge Sureti",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "CİMER Başvurusu",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Belge Sureti",
-    "resmî işlemlerde kullanılmak üzere"
+    "CİMER Başvurusu",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

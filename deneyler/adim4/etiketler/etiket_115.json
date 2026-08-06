@@ -12,7 +12,7 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Osman DOĞAN",
+    "ad": "Şerife DOĞAN",
     "adres": "Ostim Mahallesi Yasemin Sokak No: 65/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
@@ -26,17 +26,17 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
+    "kod": "773",
+    "ad": "Staj İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Sosyal Yardım Başvurusu",
+  "konu": "Staj Başvurusu",
   "sayi": null,
-  "tarih": "14.01.2026",
+  "tarih": "13.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Sosyal Yardım",
+    "Talep": "Staj",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
@@ -50,7 +50,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Sosyal Yardım",
     "sürecin tamamlanabilmesi için"
   ]
 }

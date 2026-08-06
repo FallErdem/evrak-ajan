@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
     "saklama_suresi": "15"
   },
-  "konu": "Genelgeler Listesinin Gönderilmesi",
-  "sayi": "E-10213773-010.06-8107187",
-  "tarih": "19.01.2026",
+  "konu": "Eğitim Fakülteleri İle İlişkiler Listesinin Gönderilmesi",
+  "sayi": "E-10213773-355.02-8187304",
+  "tarih": "20.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "öğretim yılı",
-    "Sayı": "47 kayıt",
-    "Ek 1": "Genelgeler listesi",
+    "Sayı": "35 kayıt",
+    "Ek 1": "Eğitim Fakülteleri İle İlişkiler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -63,8 +63,8 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "öğretim yılı",
-    "47 kayıt",
-    "Genelgeler listesi",
+    "35 kayıt",
+    "Eğitim Fakülteleri İle İlişkiler listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

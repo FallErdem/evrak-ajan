@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Ege Yapı Denetim A.Ş.",
+    "kurum_adi": "Merkez Ticaret A.Ş.",
     "ad": null,
-    "adres": "Serhat Mahallesi Erguvan Caddesi No: 107/10 Yenimahalle/ANKARA",
+    "adres": "Susuz Mahallesi Papatya Sokak No: 67/21 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,23 +23,23 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.08",
-    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
-    "saklama_suresi": "B"
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
+    "saklama_suresi": "15"
   },
-  "konu": "İfraz ve Tevhid Talebi",
-  "sayi": "2026/849",
-  "tarih": "21.04.2026",
+  "konu": "Emlak Vergisi Muafiyet Başvurusu",
+  "sayi": "2026/112",
+  "tarih": "14.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İfraz ve Tevhid",
-    "Taşınmaz": "43606 ada, 27 parsel",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Emlak Vergisi Muafiyet",
+    "Taşınmaz": "50646 ada, 17 parsel",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -48,11 +48,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İfraz ve Tevhid",
-    "43606 ada, 27 parsel"
+    "Emlak Vergisi Muafiyet",
+    "50646 ada, 17 parsel",
+    "sürecin tamamlanabilmesi için"
   ]
 }

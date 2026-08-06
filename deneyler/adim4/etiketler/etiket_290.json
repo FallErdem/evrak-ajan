@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "kurum_adi": "Mühendislik Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "47014261",
+    "detsis_no": "43123369",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
@@ -27,13 +27,13 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
-    "saklama_suresi": "10"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Onaylı Örnek Talebi",
-  "sayi": "E-47014261-622.02-5199473",
-  "tarih": "10.04.2026",
+  "konu": "Hukuki Oluru",
+  "sayi": "E-43123369-045.02-3159595",
+  "tarih": "15.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -41,8 +41,8 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Belge Talepleri",
-    "Gerekçe": "vatandaş memnuniyetinin artırılması",
+    "Konu": "Hukuki",
+    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -58,7 +58,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Belge Talepleri",
-    "vatandaş memnuniyetinin artırılması"
+    "mevzuatın öngördüğü sürelere uyulması"
   ]
 }

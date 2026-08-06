@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,16 +23,16 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Ruhsat Listesinin Gönderilmesi",
-  "sayi": "E-24312041-170.01-54590812",
+  "konu": "Arşivlerden Yararlanma Listesinin Gönderilmesi",
+  "sayi": "E-24312041-805.02.05-54590812",
   "tarih": "04.02.2026",
   "ilgi": null,
   "ek": {
@@ -44,7 +44,7 @@
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "içinde bulunulan yıl",
     "Sayı": "142 kayıt",
-    "Ek 1": "Ruhsat listesi",
+    "Ek 1": "Arşivlerden Yararlanma listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +57,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "içinde bulunulan yıl",
     "142 kayıt",
-    "Ruhsat listesi",
+    "Arşivlerden Yararlanma listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

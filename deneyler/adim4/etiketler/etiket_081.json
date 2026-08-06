@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hatice SARI",
-    "adres": "Uğur Mumcu Mahallesi Nergis Caddesi No: 2/11 Yenimahalle/ANKARA",
+    "ad": "Hüseyin DEMIR",
+    "adres": "Gayret Mahallesi Menekşe Caddesi No: 58/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,21 +26,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Bilgi Edinme, Talep ve Şikayetler Kararına İtiraz",
+  "konu": "İdari Para Cezasına İtiraz",
   "sayi": null,
-  "tarih": "12.02.2026",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Bilgi Edinme, Talep ve Şikayetler Kararına İtiraz",
+    "İtiraz konusu": "İdari Para Cezasına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -57,6 +57,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
+    "İdari Para Cezasına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

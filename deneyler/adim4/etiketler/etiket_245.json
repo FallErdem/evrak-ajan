@@ -5,10 +5,10 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "makine_ikmal",
+    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "detsis_no": "89052714",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,25 +23,25 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "051",
-    "ad": "Toplantı ve Etkinlik İşleri",
-    "saklama_suresi": "15"
+    "kod": "801",
+    "ad": "Taşıt ve İş Makineleri İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Sempozyum Duyurusu",
-  "sayi": "E-55461037-051-1903907",
-  "tarih": "26.03.2026",
+  "konu": "Taşıt ve İş Makineleri İşleri Hk.",
+  "sayi": "E-55461037-801-1910937",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Toplantı ve Etkinlik İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Taşıt ve İş Makineleri İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
@@ -55,7 +55,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yenimahalle Belediye Başkanlığı",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

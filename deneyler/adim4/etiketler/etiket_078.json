@@ -27,17 +27,17 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "209",
-    "ad": "Akademik Personel Görevlendirmeleri",
+    "kod": "204.01",
+    "ad": "Doçentlik",
     "saklama_suresi": "15"
   },
-  "konu": "Akademik Personel Görevlendirmeleri Hakkında Görüş Talebi",
-  "sayi": "E-98244303-209-7866218",
-  "tarih": "12.01.2026",
+  "konu": "Doçentlik Hakkında Görüş Talebi",
+  "sayi": "E-98244303-204.01-7981661",
+  "tarih": "20.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Akademik Personel Görevlendirmeleri",
+    "Konu": "Doçentlik",
     "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -54,7 +54,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Akademik Personel Görevlendirmeleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

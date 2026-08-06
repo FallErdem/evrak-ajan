@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet AVCI",
-    "adres": "Beştepe Mahallesi Kestane Caddesi No: 85/20 Yenimahalle/ANKARA",
+    "ad": "Onur AVCI",
+    "adres": "Susuz Mahallesi Erguvan Sokağı No: 80/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "815",
+    "ad": "Sosyal Yardım İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Belge Sureti Talebi",
+  "konu": "Sosyal Yardım Başvurusu",
   "sayi": null,
-  "tarih": "20.02.2026",
+  "tarih": "09.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Belge Sureti",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Sosyal Yardım",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Belge Sureti",
-    "ilgili kuruma sunulmak üzere"
+    "Sosyal Yardım",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

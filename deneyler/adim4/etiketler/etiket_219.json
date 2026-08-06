@@ -12,37 +12,37 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "kurum_adi": "Bereketli İlkokulu Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "14588481",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10084865",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
-  "muhatap_parantez": null,
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Nakiller Oluru",
-  "sayi": "E-14588481-210.01-2514211",
-  "tarih": "14.04.2026",
+  "konu": "Kayıt-Kabul Oluru",
+  "sayi": "E-10084865-205-5137",
+  "tarih": "30.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 3
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Nakiller",
-    "Gerekçe": "kaynakların etkin kullanılması",
+    "Konu": "Kayıt-Kabul",
+    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,6 +57,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "kaynakların etkin kullanılması"
+    "hizmetlerin aksamadan yürütülmesi"
   ]
 }

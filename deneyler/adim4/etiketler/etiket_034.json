@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Temel Eğitim Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "93213107",
+    "detsis_no": "21291472",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
@@ -27,13 +27,13 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
+    "saklama_suresi": "10"
   },
-  "konu": "Kayıt-Kabul Oluru",
-  "sayi": "E-93213107-205-8105779",
-  "tarih": "22.05.2026",
+  "konu": "Taşımalı Eğitim Oluru",
+  "sayi": "E-21291472-140-4179521",
+  "tarih": "17.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -41,7 +41,7 @@
     "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Kayıt-Kabul",
+    "Konu": "Taşımalı Eğitim",
     "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
@@ -57,6 +57,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "Taşımalı Eğitim",
     "hizmetlerin aksamadan yürütülmesi"
   ]
 }

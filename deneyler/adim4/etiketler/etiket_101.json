@@ -12,17 +12,17 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Onur ŞIMŞEK",
-    "adres": "Susuz Mahallesi Yasemin Sokak No: 57/9 Yenimahalle/ANKARA",
+    "ad": "Sultan YILDIRIM",
+    "adres": "Barıştepe Mahallesi Sümbül Sokak No: 101/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022301534",
-    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "ogrenci_no": "2024491036",
+    "bolum": "Türkçe Öğretmenliği",
     "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
@@ -33,15 +33,15 @@
     "ad": "İzin İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "İzin Başvurusunun Değerlendirilmesi",
+  "konu": "Sağlık Sebebiyle İzin Talebi",
   "sayi": null,
-  "tarih": "10.04.2026",
+  "tarih": "23.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İzin Başvurusunun Değerlendirilmesi",
-    "Öğrenim bilgisi": "2020 yılı mezunu",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Sağlık Sebebiyle İzin",
+    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İzin Başvurusunun Değerlendirilmesi",
-    "2020 yılı mezunu",
-    "mağduriyetin giderilmesi bakımından"
+    "Sağlık Sebebiyle İzin",
+    "3. sınıf öğrencisi"
   ]
 }

@@ -5,9 +5,9 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
@@ -22,25 +22,25 @@
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Toplulukları, Birlikleri vb. Hakkında Şikâyet",
+  "konu": "Belge İşlemleri Hakkında Şikâyet",
   "sayi": null,
   "tarih": "20.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Öğrenci Toplulukları, Birlikleri vb. Hakkında Şikâyet",
-    "Sorun": "öğrenci toplulukları, birlikleri vb. hakkındaki talebime yazılı cevap verilmedi",
+    "Şikâyet konusu": "Belge İşlemleri Hakkında Şikâyet",
+    "Sorun": "belge talebime yazılı cevap verilmedi",
     "Yer": "Beşevler Yerleşkesi",
     "Süre": "geçtiğimiz aydan bu yana",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
@@ -54,11 +54,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
+    "Belge İşlemleri Hakkında Şikâyet",
+    "belge talebime yazılı cevap verilmedi",
     "Beşevler Yerleşkesi",
     "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"

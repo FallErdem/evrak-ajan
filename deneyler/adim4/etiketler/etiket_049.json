@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Kemal ASLAN",
-    "adres": "İvedik Mahallesi Erguvan Caddesi No: 109/19 Yenimahalle/ANKARA",
+    "ad": "Onur ŞAHIN",
+    "adres": "Ergazi Mahallesi Akasya Sokak No: 46/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,15 +32,15 @@
   },
   "konu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "18.03.2026",
+  "tarih": "13.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
-    "Sorun": "yaygın eğitim kursları hakkındaki talebime yazılı cevap verilmedi",
-    "Yer": "ilçe merkezi",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Sorun": "yaygın eğitim kursları işlemlerinde uzun süredir aksama yaşanıyor",
+    "Yer": "okul servis güzergâhı",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,8 +56,8 @@
   ],
   "anahtar_terimler": [
     "Yaygın Eğitim Kursları Hakkında Şikâyet",
-    "ilçe merkezi",
-    "yaklaşık üç haftadır",
+    "okul servis güzergâhı",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

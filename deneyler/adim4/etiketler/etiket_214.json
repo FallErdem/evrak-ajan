@@ -12,36 +12,36 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Fatih ÖZTÜRK",
-    "adres": "Gayret Mahallesi Zeytin Sokak No: 17/22 Yenimahalle/ANKARA",
+    "ad": "Mustafa KARA",
+    "adres": "Şentepe Mahallesi Erguvan Caddesi No: 16/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023229049",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "3"
+    "ogrenci_no": "2021457843",
+    "bolum": "Mimarlık Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Askerlik Durum Belgesi Talebi",
+  "konu": "Kayıt Süresi Uzatım Talebi",
   "sayi": null,
-  "tarih": "30.04.2026",
+  "tarih": "05.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Askerlik Durum Belgesi",
+    "Talep": "Kayıt Süresi Uzatım",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Askerlik Durum Belgesi",
+    "Kayıt Süresi Uzatım",
     "lisansüstü programa kayıtlı",
-    "resmî işlemlerde kullanılmak üzere"
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

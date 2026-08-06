@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze KESKIN",
-    "adres": "Ragıpbey Mahallesi Kestane Sokağı No: 1/20 Yenimahalle/ANKARA",
+    "ad": "Kemal KESKIN",
+    "adres": "Kaletepe Mahallesi Menekşe Caddesi No: 74/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,23 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Emlak Vergisi Muafiyet Başvurusu",
+  "konu": "Belge Sureti Talebi",
   "sayi": null,
-  "tarih": "26.02.2026",
+  "tarih": "28.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Emlak Vergisi Muafiyet",
-    "Taşınmaz": "17657 ada, 33 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Belge Sureti",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,12 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Muafiyet",
-    "17657 ada, 33 parsel",
-    "sürecin tamamlanabilmesi için"
+    "Belge Sureti",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

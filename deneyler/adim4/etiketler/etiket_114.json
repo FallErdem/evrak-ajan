@@ -12,7 +12,7 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Güven İnşaat Ltd. Şti.",
+    "kurum_adi": "Güven Danışmanlık Ltd. Şti.",
     "ad": null,
     "adres": "Gayret Mahallesi Çınar Caddesi No: 71/3 Yenimahalle/ANKARA",
     "detsis_no": null,
@@ -31,8 +31,8 @@
     "ad": "Emlak Vergisi",
     "saklama_suresi": "15"
   },
-  "konu": "Emlak Vergisi Muafiyet Başvurusu",
-  "sayi": "2026/112",
+  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
+  "sayi": "2026/140",
   "tarih": "21.01.2026",
   "ilgi": null,
   "ek": null,
@@ -40,7 +40,7 @@
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Emlak Vergisi konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "e-Devlet üzerinden"
+    "elektronik posta ile"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten ATEŞ",
-    "adres": "Şentepe Mahallesi Çınar Sokağı No: 19/19 Yenimahalle/ANKARA",
+    "ad": "Ramazan AVCI",
+    "adres": "Çiğdemtepe Mahallesi Erguvan Sokağı No: 52/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,12 +32,12 @@
   },
   "konu": "Onaylı Örnek Talebi",
   "sayi": null,
-  "tarih": "28.05.2026",
+  "tarih": "22.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Onaylı Örnek",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,6 +51,6 @@
   ],
   "anahtar_terimler": [
     "Onaylı Örnek",
-    "başvuru dosyasına eklenmek üzere"
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

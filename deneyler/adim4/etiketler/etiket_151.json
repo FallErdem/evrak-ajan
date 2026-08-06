@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra KURT",
-    "adres": "Serhat Mahallesi Ceviz Sokağı No: 28/23 Yenimahalle/ANKARA",
+    "ad": "Derya ASLAN",
+    "adres": "Ragıpbey Mahallesi Nergis Caddesi No: 75/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,21 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
-    "saklama_suresi": "10"
+    "kod": "115.02.01",
+    "ad": "İmar Durumu (Belgesi)",
+    "saklama_suresi": "B"
   },
-  "konu": "Engelli Aracı Talebi",
+  "konu": "İmar Durumu Bilgi Talebi",
   "sayi": null,
-  "tarih": "26.01.2026",
+  "tarih": "16.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Engelli Aracı",
+    "Talep": "İmar Durumu Bilgi",
+    "Taşınmaz": "12950 ada, 42 parsel",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -46,11 +47,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Engelli Aracı",
+    "İmar Durumu Bilgi",
+    "12950 ada, 42 parsel",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

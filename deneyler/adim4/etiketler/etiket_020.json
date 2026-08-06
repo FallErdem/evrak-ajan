@@ -42,8 +42,8 @@
   },
   "somut_bilgiler": {
     "Konu": "Encümen Kararı Örneği",
-    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
-    "Talep": "ilgili bilgilerin paylaşılması"
+    "Ortak iş": "Encümen Kararı Örneği konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Encümen Kararı Örneği konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,7 +57,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Encümen Kararı Örneği",
-    "ilgili bilgilerin paylaşılması"
+    "Encümen Kararı Örneği"
   ]
 }

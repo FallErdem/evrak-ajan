@@ -26,30 +26,30 @@
   "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": {
     "geregi": [
-      "Gazi Üniversitesi",
-      "Yenimahalle Belediye Başkanlığı",
-      "Ankara Valiliği"
+      "Üniversite Rektörlüklerine"
     ],
-    "bilgi": []
+    "bilgi": [
+      "Yükseköğretim Denetleme Kuruluna"
+    ]
   },
-  "beklenen_kapanis": "rica",
+  "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Araştırma İzni Hk.",
-  "sayi": "E-32625594-805.02.05-86230451",
-  "tarih": "01.04.2026",
+  "konu": "Belge Talepleri Hk.",
+  "sayi": "E-32625594-622.02-45918274",
+  "tarih": "29.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 3
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Arşivlerden Yararlanma kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Belge Talepleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
     "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"

@@ -5,10 +5,10 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,23 +23,23 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.08",
-    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
-    "saklama_suresi": "B"
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "İrtifak Hakkı Tesisi Talebi",
-  "sayi": "E-55461037-115.01.08-1926959",
-  "tarih": "15.05.2026",
+  "konu": "Çalıştay Katılım Talebi",
+  "sayi": "E-55461037-051-1871759",
+  "tarih": "15.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "İrtifak Hakkı Tesisi",
-    "Ortak iş": "ortak yürütülen bir çalışma",
-    "Talep": "gerekli koordinasyonun sağlanması"
+    "Konu": "Çalıştay Katılım",
+    "Ortak iş": "Çalıştay Katılım konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Çalıştay Katılım konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -49,12 +49,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İrtifak Hakkı Tesisi",
-    "ortak yürütülen bir çalışma",
-    "gerekli koordinasyonun sağlanması"
+    "Çalıştay Katılım"
   ]
 }

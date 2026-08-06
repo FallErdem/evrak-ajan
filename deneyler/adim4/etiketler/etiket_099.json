@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet BULUT",
-    "adres": "Ostim Mahallesi Akasya Sokağı No: 3/22 Yenimahalle/ANKARA",
+    "ad": "Hüseyin SARI",
+    "adres": "Karşıyaka Mahallesi Çınar Sokağı No: 90/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "135.03",
+    "ad": "Yaygın Eğitim Kursları",
+    "saklama_suresi": "10"
   },
-  "konu": "Yurtdışı Eğitim Denkliği Hakkında Şikâyet",
+  "konu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "10.02.2026",
+  "tarih": "23.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yurtdışı Eğitim Denkliği Hakkında Şikâyet",
-    "Sorun": "yurtdışı eğitim denkliği konusundaki başvurum sonuçlandırılmadı",
+    "Şikâyet konusu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
+    "Sorun": "yaygın eğitim kursları işlemlerinde uzun süredir aksama yaşanıyor",
     "Yer": "ilçe merkezi",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Süre": "yaklaşık üç haftadır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -51,12 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Özel Öğretim Kurumları Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "Yaygın Eğitim Kursları Hakkında Şikâyet",
     "ilçe merkezi",
-    "geçtiğimiz aydan bu yana",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]
 }

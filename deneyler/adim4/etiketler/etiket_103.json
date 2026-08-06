@@ -5,44 +5,44 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "kurum_adi": "Zabıta Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "85330682",
+    "detsis_no": "50719027",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_makam": "Hukuk İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "752.01",
-    "ad": "Kamulaştırma",
-    "saklama_suresi": "B"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "Kamulaştırma Oluru",
-  "sayi": "E-85330682-752.01-2285376",
-  "tarih": "09.03.2026",
+  "konu": "İdari Davalar Oluru",
+  "sayi": "E-50719027-641.04-846197",
+  "tarih": "08.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 1
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Kamulaştırma",
-    "Gerekçe": "kaynakların etkin kullanılması",
+    "Konu": "İdari Davalar",
+    "Gerekçe": "iş ve işlemlerin zamanında tamamlanması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,10 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "kaynakların etkin kullanılması"
+    "İdari Davalar",
+    "iş ve işlemlerin zamanında tamamlanması"
   ]
 }

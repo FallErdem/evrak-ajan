@@ -5,9 +5,9 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
@@ -22,25 +22,25 @@
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Belge İşlemleri Hakkında Şikâyet",
+  "konu": "Öğrenci Toplulukları, Birlikleri vb. Hakkında Şikâyet",
   "sayi": null,
   "tarih": "27.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Belge İşlemleri Hakkında Şikâyet",
-    "Sorun": "belge talebime yazılı cevap verilmedi",
+    "Şikâyet konusu": "Öğrenci Toplulukları, Birlikleri vb. Hakkında Şikâyet",
+    "Sorun": "öğrenci toplulukları, birlikleri vb. hakkındaki talebime yazılı cevap verilmedi",
     "Yer": "Gölbaşı Yerleşkesi",
     "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
@@ -54,13 +54,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Belge İşlemleri Hakkında Şikâyet",
-    "belge talebime yazılı cevap verilmedi",
     "Gölbaşı Yerleşkesi",
     "yaklaşık iki aydır",
     "sorunun giderilmesi"

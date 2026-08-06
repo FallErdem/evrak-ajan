@@ -26,12 +26,10 @@
   "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": {
     "geregi": [
-      "Yenimahalle Belediye Başkanlığı",
-      "Gazi Üniversitesi Rektörlüğü",
-      "Ankara İl Millî Eğitim Müdürlüğü"
+      "İlçe Belediye Başkanlıklarına"
     ],
     "bilgi": [
-      "Ankara Valiliği"
+      "Ankara Valiliğine"
     ]
   },
   "beklenen_kapanis": "karma",
@@ -41,16 +39,16 @@
     "saklama_suresi": "B"
   },
   "konu": "Parsel İmar Durumu Hk.",
-  "sayi": "E-24432702-115.02.01-11152155",
+  "sayi": "E-24432702-115.02.01-11152088",
   "tarih": "06.05.2026",
   "ilgi": {
-    "tarih": "28.04.2026",
-    "sayi": "E-18426575-115.02.01-4004211"
+    "tarih": "24.03.2026",
+    "sayi": "E-18426575-115.02.01-2961110"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 4
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Konu": "İmar Durumu (Belgesi) kapsamında yeni bir uygulama yürürlüğe girmiştir",

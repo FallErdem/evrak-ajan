@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Yeni Kayıt İşlemleri Hakkında Görüş Talebi",
-  "sayi": "E-65859045-302.01-2561688",
-  "tarih": "11.03.2026",
+  "konu": "Tez İşleri Hakkında Görüş Talebi",
+  "sayi": "E-65859045-302.14-2601146",
+  "tarih": "25.05.2026",
   "ilgi": {
-    "tarih": "23.02.2026",
-    "sayi": "E-47014261-302.01-5158820"
+    "tarih": "22.05.2026",
+    "sayi": "E-47014261-302.14-2259384"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Yeni Kayıt İşlemleri",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Konu": "Tez İşleri",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +57,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Yeni Kayıt İşlemleri",
+    "Tez İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,20 +23,20 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Stratejik Plan Verisi Talebi",
-  "sayi": "E-32625594-602.04-85930166",
-  "tarih": "27.01.2026",
+  "konu": "Sınav Programları ve Sınavlar Hk. (Tekit)",
+  "sayi": "E-32625594-106-46125609",
+  "tarih": "06.04.2026",
   "ilgi": {
-    "tarih": "07.01.2026",
-    "sayi": "E-39985474-602.04-2158608"
+    "tarih": "17.03.2026",
+    "sayi": "E-47014261-106-2210013"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -53,7 +53,7 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],

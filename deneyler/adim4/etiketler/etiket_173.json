@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
-    "saklama_suresi": "10"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Okul Aile Birlikleri Talebi",
-  "sayi": "E-65859045-165.01-2536026",
-  "tarih": "21.01.2026",
+  "konu": "Hukuki Görüş Talebi",
+  "sayi": "E-65859045-045.02-2599026",
+  "tarih": "21.05.2026",
   "ilgi": {
-    "tarih": "08.01.2026",
-    "sayi": "E-93213107-165.01-8012328"
+    "tarih": "08.05.2026",
+    "sayi": "E-55461037-045.02-1923675"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Okul Aile Birlikleri",
-    "Ortak iş": "iki kurumun görev alanına giren bir husus",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Konu": "Hukuki Görüş",
+    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,11 +52,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Okul Aile Birlikleri",
-    "konu hakkında görüş bildirilmesi"
+    "Hukuki Görüş"
   ]
 }

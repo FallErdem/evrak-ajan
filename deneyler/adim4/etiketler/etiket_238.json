@@ -36,13 +36,13 @@
   "tarih": "15.01.2026",
   "ilgi": {
     "tarih": "08.12.2025",
-    "sayi": "E-39985474-602.04-2136283"
+    "sayi": "E-39985474-602.04-7609079"
   },
   "ek": null,
   "somut_bilgiler": {
     "Konu": "Stratejik Plan Verisi",
-    "Ortak iş": "ortak yürütülen bir çalışma",
-    "Talep": "iş birliği protokolü düzenlenmesi"
+    "Ortak iş": "Stratejik Plan Verisi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Stratejik Plan Verisi kapsamındaki bilgilerin paylaşılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,8 +57,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Stratejik Plan Verisi",
-    "ortak yürütülen bir çalışma",
-    "iş birliği protokolü düzenlenmesi"
+    "Stratejik Plan Verisi"
   ]
 }

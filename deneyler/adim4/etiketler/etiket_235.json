@@ -22,24 +22,24 @@
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Nakil, Kayıt Dondurma ve Kayıt Silme Hakkında Şikâyet",
+  "konu": "Belge İşlemleri Hakkında Şikâyet",
   "sayi": null,
   "tarih": "25.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Nakil, Kayıt Dondurma ve Kayıt Silme Hakkında Şikâyet",
+    "Şikâyet konusu": "Belge İşlemleri Hakkında Şikâyet",
     "Sorun": "kayıt işlemim sistemde görünmüyor",
     "Yer": "Beşevler Yerleşkesi",
     "Süre": "geçtiğimiz aydan bu yana",
@@ -59,6 +59,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
+    "Belge İşlemleri Hakkında Şikâyet",
     "kayıt işlemim sistemde görünmüyor",
     "Beşevler Yerleşkesi",
     "geçtiğimiz aydan bu yana",

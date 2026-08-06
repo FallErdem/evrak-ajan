@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "104.01",
-    "ad": "Program Açma",
-    "saklama_suresi": "15"
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Program Açma Başvurusu Hk.",
-  "sayi": "E-17311665-104.01-6469921",
+  "konu": "Staj Değerlendirme Formunun Gönderilmesi",
+  "sayi": "E-17311665-773-4538743",
   "tarih": "07.05.2026",
   "ilgi": {
     "tarih": "27.04.2026",
-    "sayi": "E-43123369-104.01-3238969"
+    "sayi": "E-43123369-773-3238969"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Program Açma Başvurusu",
+    "Talep": "Staj Değerlendirme Formunun Gönderilmesi",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
@@ -59,7 +59,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Program Açma Başvurusu",
+    "Staj Değerlendirme Formunun Gönderilmesi",
     "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı"
   ]

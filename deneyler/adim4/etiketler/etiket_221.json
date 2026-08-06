@@ -12,17 +12,17 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ayşe ÖZKAN",
-    "adres": "Yakacık Mahallesi Zeytin Caddesi No: 107/16 Yenimahalle/ANKARA",
+    "ad": "Salih ÇELIK",
+    "adres": "Serhat Mahallesi Sümbül Sokağı No: 12/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019288536",
-    "bolum": "Diş Hekimliği Fakültesi",
-    "sinif": "3"
+    "ogrenci_no": "2022483479",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
@@ -35,12 +35,12 @@
   },
   "konu": "Yardım Başvurusunun Değerlendirilmesi",
   "sayi": null,
-  "tarih": "19.02.2026",
+  "tarih": "07.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Yardım Başvurusunun Değerlendirilmesi",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,6 +55,6 @@
   ],
   "anahtar_terimler": [
     "Yardım Başvurusunun Değerlendirilmesi",
-    "sürecin tamamlanabilmesi için"
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

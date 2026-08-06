@@ -5,48 +5,48 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Pınar YILDIZ",
-    "adres": "Serhat Mahallesi Menekşe Caddesi No: 82/20 Yenimahalle/ANKARA",
+    "ad": "Serkan UÇAR",
+    "adres": "Serhat Mahallesi Nergis Sokak No: 43/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023216727",
-    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
-    "sinif": "1"
+    "ogrenci_no": "2020833201",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "3"
   },
   "belge_turu": "itiraz",
   "aile": "itiraz",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Stajlar Kararına İtiraz",
+  "konu": "Denklik Kararına İtiraz",
   "sayi": null,
-  "tarih": "09.02.2026",
+  "tarih": "02.04.2026",
   "ilgi": {
-    "tarih": "27.01.2026",
-    "sayi": "E-98244303-304.03-7876752"
+    "tarih": "16.03.2026",
+    "sayi": "E-17311665-102.03-4497366"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 6
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Stajlar Kararına İtiraz",
+    "İtiraz konusu": "Denklik Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -59,12 +59,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Stajlar Kararına İtiraz",
+    "Denklik Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

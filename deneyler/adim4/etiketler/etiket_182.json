@@ -22,26 +22,26 @@
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Değişim Programı Ders Tanıma Talebi",
+  "konu": "Geçici Mezuniyet Belgesi Talebi",
   "sayi": null,
   "tarih": "16.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Değişim Programı Ders Tanıma",
+    "Talep": "Geçici Mezuniyet Belgesi",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Değişim Programı Ders Tanıma",
-    "lisansüstü programa kayıtlı"
+    "Geçici Mezuniyet Belgesi",
+    "lisansüstü programa kayıtlı",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

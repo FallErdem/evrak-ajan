@@ -5,45 +5,45 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
+    "kurum_adi": "Yazı İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "18426575",
+    "detsis_no": "15986609",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
+  "muhatap_makam": "Fen İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
-    "saklama_suresi": "10"
+    "kod": "755.02",
+    "ad": "İhale",
+    "saklama_suresi": "15"
   },
-  "konu": "Yatırım Programı Hk.",
-  "sayi": "E-18426575-602.07-3978407",
-  "tarih": "03.02.2026",
+  "konu": "İhale Sonucunun Bildirilmesi",
+  "sayi": "E-15986609-755.02-2313444",
+  "tarih": "27.03.2026",
   "ilgi": {
-    "tarih": "25.12.2025",
-    "sayi": "E-43195403-602.07-3401686"
+    "tarih": "16.03.2026",
+    "sayi": "E-33152401-755.02-2534897"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yatırım Programı",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "İhale Sonucunun Bildirilmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
     "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
@@ -54,13 +54,12 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yatırım Programı",
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "İhale Sonucunun Bildirilmesi",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı"
   ]
 }

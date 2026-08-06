@@ -5,46 +5,46 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Sevgi ÖZTÜRK",
-    "adres": "Demetevler Mahallesi Nergis Sokak No: 112/24 Yenimahalle/ANKARA",
+    "ad": "Emre DUMAN",
+    "adres": "Batıkent Mahallesi Nergis Sokağı No: 72/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023441176",
-    "bolum": "Hukuk Fakültesi",
-    "sinif": "4"
+    "ogrenci_no": "2024226267",
+    "bolum": "Sınıf Öğretmenliği",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
-  "yazan_tipi": "vatandas",
+  "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
+    "kod": "773",
+    "ad": "Staj İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Servis Güzergahı Talebi",
+  "konu": "Staj Kabul Yazısı Talebi",
   "sayi": null,
-  "tarih": "14.01.2026",
+  "tarih": "22.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 1
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Talep": "Servis Güzergahı",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Staj Kabul Yazısı",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -53,12 +53,12 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Servis Güzergahı",
-    "sürecin tamamlanabilmesi için"
+    "Staj Kabul Yazısı",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,31 +23,31 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
     "saklama_suresi": "B"
   },
-  "konu": "Kayıt-Kabul Listesinin Gönderilmesi",
-  "sayi": "E-10213773-205-8196887",
-  "tarih": "27.03.2026",
+  "konu": "Yurtdışı Eğitim Denkliği Listesinin Gönderilmesi",
+  "sayi": "E-24316060-215.01-88424463",
+  "tarih": "28.04.2026",
   "ilgi": {
-    "tarih": "12.02.2026",
-    "sayi": "E-21291472-205-4127392"
+    "tarih": "09.04.2026",
+    "sayi": "E-63971525-215.01-1260622"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 2
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "bahar dönemi",
-    "Sayı": "24 kayıt",
-    "Ek 1": "Kayıt-Kabul listesi",
+    "Dönem": "güz dönemi",
+    "Sayı": "18 kayıt",
+    "Ek 1": "Yurtdışı Eğitim Denkliği listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -60,14 +60,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "bahar dönemi",
-    "24 kayıt",
-    "Kayıt-Kabul listesi",
+    "güz dönemi",
+    "18 kayıt",
+    "Yurtdışı Eğitim Denkliği listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Anadolu Mühendislik Ltd. Şti.",
+    "kurum_adi": "Merkez Mimarlık Ltd. Şti.",
     "ad": null,
-    "adres": "Pamuklar Mahallesi Ihlamur Sokağı No: 53/6 Yenimahalle/ANKARA",
+    "adres": "Çiğdemtepe Mahallesi Lale Sokağı No: 70/2 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,22 +23,22 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "115.02.10",
+    "ad": "Adres ve Numaralandırma",
+    "saklama_suresi": "B"
   },
-  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
-  "sayi": "2026/186",
-  "tarih": "04.02.2026",
+  "konu": "Kapı Numarası Verilmesi Talebi",
+  "sayi": "2026/228",
+  "tarih": "03.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Emlak Vergisi Borç Sorgulama",
-    "Taşınmaz": "25298 ada, 25 parsel",
+    "Talep": "Kapı Numarası Verilmesi",
+    "Taşınmaz": "34501 ada, 17 parsel",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
@@ -48,11 +48,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Borç Sorgulama",
-    "25298 ada, 25 parsel"
+    "Kapı Numarası Verilmesi",
+    "34501 ada, 17 parsel"
   ]
 }

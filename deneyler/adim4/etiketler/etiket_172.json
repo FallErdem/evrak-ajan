@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -22,25 +22,25 @@
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "Stratejik Plan Hk.",
-  "sayi": "E-93213107-602.04-8032408",
+  "konu": "Diploma Hk.",
+  "sayi": "E-93213107-198.02.01-8032408",
   "tarih": "06.02.2026",
   "ilgi": {
     "tarih": "23.01.2026",
-    "sayi": "E-14588481-602.04-2455022"
+    "sayi": "E-21291472-198.02.01-4111045"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Stratejik Plan",
+    "Talep": "Diploma",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
@@ -54,11 +54,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Stratejik Plan",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
     "talep edilen bilgiler ekte sunulmuştur",

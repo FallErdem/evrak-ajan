@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "201",
-    "ad": "Seçim ve Atama İşleri",
+    "kod": "204.01",
+    "ad": "Doçentlik",
     "saklama_suresi": "15"
   },
-  "konu": "Seçim ve Atama İşleri Talebi",
-  "sayi": "E-65859045-201-2553292",
-  "tarih": "23.02.2026",
+  "konu": "Doçentlik Talebi",
+  "sayi": "E-10213773-204.01-8156583",
+  "tarih": "25.02.2026",
   "ilgi": {
-    "tarih": "29.01.2026",
-    "sayi": "E-42218640-201-2815426"
+    "tarih": "14.01.2026",
+    "sayi": "E-42218640-204.01-2861887"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Seçim ve Atama İşleri",
-    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
-    "Talep": "ilgili bilgilerin paylaşılması"
+    "Konu": "Doçentlik",
+    "Ortak iş": "Doçentlik konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Doçentlik konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,8 +56,5 @@
     "Gazi Üniversitesi",
     "Gazi"
   ],
-  "anahtar_terimler": [
-    "Seçim ve Atama İşleri",
-    "ilgili bilgilerin paylaşılması"
-  ]
+  "anahtar_terimler": []
 }

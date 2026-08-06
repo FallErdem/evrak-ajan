@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Merve YILDIRIM",
-    "adres": "Ragıpbey Mahallesi Akasya Caddesi No: 50/19 Yenimahalle/ANKARA",
+    "ad": "Hatice ARSLAN",
+    "adres": "Kaletepe Mahallesi Ceviz Sokağı No: 117/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
     "saklama_suresi": "10"
   },
-  "konu": "Servis Hizmeti Aksaklığı Bildirimi",
+  "konu": "Okul Aile Birliği Gelir Gider Bildirimi",
   "sayi": null,
-  "tarih": "27.05.2026",
+  "tarih": "30.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
-    "Sorun": "servis aracı kapasitesinin üzerinde yolcu alıyor",
+    "Şikâyet konusu": "Okul Aile Birliği Gelir Gider",
+    "Sorun": "işyeri ilan edilen kapanış saatine uymuyor",
     "Yer": "okul servis güzergâhı",
     "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
@@ -51,11 +51,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Servis Hizmeti Aksaklığı",
+    "Okul Aile Birliği Gelir Gider",
     "okul servis güzergâhı",
     "yaklaşık kırk gündür",
     "sorunun giderilmesi"

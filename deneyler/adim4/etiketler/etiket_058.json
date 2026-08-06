@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze ATEŞ",
-    "adres": "Serhat Mahallesi Zeytin Sokağı No: 19/4 Yenimahalle/ANKARA",
+    "ad": "Aslı AKSOY",
+    "adres": "Ergazi Mahallesi Akasya Sokağı No: 50/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,15 +32,15 @@
   },
   "konu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "13.02.2026",
+  "tarih": "27.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
-    "Sorun": "yabancı uyruklu öğrencinin kayıt işlemi tamamlanmadı",
-    "Yer": "Batıkent Mahallesi",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Sorun": "denklik belgesi işleme alınmadı",
+    "Yer": "ilçe merkezi",
+    "Süre": "bir aydan uzun süredir",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -55,8 +55,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Batıkent Mahallesi",
-    "yaklaşık iki aydır",
+    "denklik belgesi işleme alınmadı",
+    "ilçe merkezi",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

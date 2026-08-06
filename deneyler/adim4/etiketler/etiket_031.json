@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "17311665",
+    "detsis_no": "86488853",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,11 +32,11 @@
     "saklama_suresi": "15"
   },
   "konu": "Genelge Uygulaması Hk.",
-  "sayi": "E-17311665-010.06-6397650",
-  "tarih": "17.02.2026",
+  "sayi": "E-86488853-010.06-3687900",
+  "tarih": "02.03.2026",
   "ilgi": {
-    "tarih": "06.01.2026",
-    "sayi": "E-82642947-010.06-1307558"
+    "tarih": "19.01.2026",
+    "sayi": "E-82642947-010.06-3370848"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -44,7 +44,7 @@
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -61,7 +61,6 @@
   "anahtar_terimler": [
     "Genelge Uygulaması",
     "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "ilgide kayıtlı yazı"
   ]
 }
