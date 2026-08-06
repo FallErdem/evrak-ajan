@@ -1,0 +1,119 @@
+kod,ana_grup,seviye,ust_kod,ad,saklama_suresi,kapsam,kurum_tipi,vatandas_konusu,ornek_konular
+010,010,1,,Mevzuat İşleri,,ortak,hepsi,hayir,Mevzuat Görüşü Talebi|Yönetmelik Taslağı Hk.|Mevzuat Değişikliği Bildirimi
+010.06,010,2,010,Genelgeler,15,ortak,hepsi,hayir,Genelgenin Duyurulması|Genelge Uygulaması Hk.|Genelge Görüşü Talebi
+040,040,1,,Faaliyet Raporları,15,ortak,hepsi,hayir,Birim Faaliyet Raporunun Gönderilmesi|Yıllık Faaliyet Raporu Hk.|Faaliyet Raporu Veri Talebi
+045,045,1,,Görüşler,,ortak,hepsi,hayir,Görüş Talebi|Kurum Görüşünün Bildirilmesi|Görüş Yazısı Hk.
+045.02,045,2,045,Hukuki,30,ortak,hepsi,hayir,Hukuki Görüş Talebi|Hukuki Mütalaanın Gönderilmesi|Uygulama Hakkında Hukuki Görüş
+050,050,1,,Kurul İşleri,,ortak,hepsi,hayir,Kurul Toplantı Gündemi|Kurul Üyeliği Bildirimi|Kurul Toplantı Daveti
+050.04,050,2,050,Kararlar,15,ortak,hepsi,hayir,Kurul Kararının Gönderilmesi|Karar Örneği Talebi|Kurul Kararının Uygulanması
+051,051,1,,Toplantı ve Etkinlik İşleri,15,ortak,hepsi,hayir,Toplantı Daveti|Çalıştay Katılım Talebi|Sempozyum Duyurusu
+602,602,1,,Plan ve Program İşleri,,ortak,hepsi,hayir,Yıllık Plan Çalışmaları|Program Verilerinin Gönderilmesi|Plan Hazırlık Toplantısı
+602.04,602,2,602,Stratejik Plan,15,ortak,hepsi,hayir,Stratejik Plan İzleme Raporu|Stratejik Plan Hazırlık Çalışmaları|Stratejik Plan Verisi Talebi
+622,622,1,,Talep ve Şikayetler,,ortak,hepsi,hayir,Başvurunun İlgili Birime Yönlendirilmesi|Vatandaş Talebinin Değerlendirilmesi|Şikayet Başvurusu Hk.
+622.01,622,2,622,"Bilgi Edinme, Talep ve Şikayetler",10,ortak,hepsi,evet,Bilgi Edinme Başvurusu|CİMER Başvurusu Hk.|Dilekçe Cevabı
+622.02,622,2,622,Belge Talepleri,10,ortak,hepsi,evet,Belge Sureti Talebi|Onaylı Örnek Talebi|Evrak Örneğinin Gönderilmesi
+641,641,1,,Dava İşleri,,ortak,hepsi,hayir,Dava Dosyasına Esas Bilgi ve Belge Talebi|Savunmaya Esas Bilgi Talebi|Dava Süreci Hakkında Bilgilendirme
+641.04,641,2,641,İdari Davalar,40,ortak,hepsi,hayir,İdare Mahkemesi Kararının Uygulanması|Savunmaya Esas Belge Talebi|İdari Dava Bilgi Talebi
+752,752,1,,Kamulaştırma ve İrtifak Hakkı İşleri,,ortak,hepsi,hayir,Kamulaştırma İşlemleri Hk.|İrtifak Hakkı Tesisi Talebi|Kamulaştırma Bedeli Ödemesi
+752.01,752,2,752,Kamulaştırma,B,ortak,hepsi,evet,Kamulaştırma Bedeli Ödeme Talebi|Kamu Yararı Kararı Hk.|Kamulaştırma İşlemine İtiraz
+754,754,1,,İmar İşleri,B,ortak,hepsi,evet,İmar Bilgisi Talebi|İmar Uygulaması Hk.|İmar Durumuna İlişkin Görüş
+755,755,1,,Yapım İşleri,,ortak,hepsi,hayir,Yapım İşi İhalesi Hk.|Süre Uzatımı Talebi|Yapım İşi Kabul İşlemleri
+755.02,755,2,755,İhale,15,ortak,hepsi,hayir,İhale İlanı Hk.|İhale Komisyonu Kararı|İhale Sonucunun Bildirilmesi
+756,756,1,,Taşınmaz İşleri,,ortak,hepsi,hayir,Taşınmaz Tahsis Talebi|Taşınmaz Envanter Bilgisi|Taşınmaz Devri Hk.
+756.02,756,2,756,Satış ve Kiralama,B,ortak,hepsi,evet,Taşınmaz Kiralama Talebi|Kira Sözleşmesinin Yenilenmesi|Taşınmaz Satış İhalesi Hk.
+773,773,1,,Staj İşleri,10,ortak,hepsi,evet,Staj Başvurusu|Staj Kabul Yazısı Talebi|Staj Değerlendirme Formunun Gönderilmesi
+805,805,1,,"Bilgi, Belge ve Arşiv Yönetimi",,ortak,hepsi,hayir,Standart Dosya Planı Uygulaması|Birim Arşivi Çalışmaları|Belge Yönetimi Eğitimi Hk.
+805.02,805,2,805,Arşiv Yönetimi,,ortak,hepsi,hayir,Arşiv Devir Teslim İşlemleri|Ayıklama ve İmha Komisyonu|Arşiv Malzemesi Bildirimi
+805.02.05,805,3,805.02,Arşivlerden Yararlanma,10,ortak,hepsi,evet,Arşiv Belgesi Araştırma Talebi|Arşivden Suret Talebi|Araştırma İzni Hk.
+602.07,602,2,602,Yatırım Programı,10,ortak,hepsi,hayir,Yatırım Programı Teklifi|Yatırım Ödeneği Talebi|Yatırım Programı Revizyon Talebi
+755.01,755,2,755,Etüd-Proje ve Fizibilite,30,ortak,hepsi,hayir,Okul Binası Avan Projesi Onayı|Etüt Proje Hazırlanması Talebi|Zemin Etüdü Raporunun Gönderilmesi
+756.01,756,2,756,"Tahsis, Devir ve Takas",B,ortak,hepsi,hayir,Okul Yeri Tahsis Talebi|Taşınmaz Devir İşlemi Hk.|Tahsis Kararının Gönderilmesi
+802,802,1,,Ulaşım ve Servis İşleri,10,ortak,hepsi,evet,Servis Güzergahı Talebi|Servis Hizmeti Aksaklığı Bildirimi|Servis Aracı Görevlendirmesi
+807,807,1,,Bakım ve Onarım İşleri,,ortak,hepsi,hayir,Bakım Onarım Talebi|Onarım Keşif Özeti|Yıllık Bakım Onarım Programı
+807.01,807,2,807,Bina ve Tesisler,10,ortak,hepsi,evet,Okul Binası Onarım Talebi|Çatı Onarımı Hk.|Tadilat Talebinin Değerlendirilmesi
+815,815,1,,Sosyal Yardım İşleri,10,ortak,hepsi,evet,Sosyal Yardım Başvurusu|Nakdi Yardım Talebi|Yardım Başvurusunun Değerlendirilmesi
+841,841,1,,Bütçe Hazırlama ve Uygulama İşleri,,ortak,hepsi,hayir,Bütçe Teklifinin Gönderilmesi|Ödenek Aktarma Talebi|Bütçe Uygulama Talimatı
+855,855,1,,Borç ve Alacak İşleri,15,ortak,hepsi,evet,Borç Yapılandırma Talebi|Alacağın Tahsili Hk.|Borç Bilgisi Talebi
+858,858,1,,İdari Yaptırım/Para Cezası İşleri,15,ortak,hepsi,evet,İdari Para Cezasına İtiraz|İdari Yaptırım Karar Tutanağı|Para Cezası Tahsilatı Hk.
+903,903,1,,Personel Özlük İşleri,,ortak,hepsi,hayir,Özlük Dosyası Bilgi Talebi|Personel Bilgi Formunun Gönderilmesi|Özlük İşlemleri Hk.
+903.02,903,2,903,Atama İşleri,B,ortak,hepsi,hayir,Atama Teklifi|Naklen Atama Talebi|Atama Onayının Gönderilmesi
+934,934,1,,Alım İşi,,ortak,hepsi,hayir,Mal ve Hizmet Alımı Talebi|Alım İhalesi Hk.|Piyasa Fiyat Araştırması
+934.01,934,2,934,Mal Alım İşi,10,ortak,hepsi,hayir,Mal Alımı İhale Onayı|Muayene ve Kabul İşlemleri|Mal Alımı Teknik Şartnamesi
+105,105,1,,Meclis İşleri,,kuruma_ozel,belediye,hayir,Meclis Gündeminin Gönderilmesi|Meclis Toplantı Daveti|Meclis Üyeliği Hk.
+105.04,105,2,105,Meclis Kararları,15,kuruma_ozel,belediye,hayir,Meclis Kararının Gönderilmesi|Meclis Kararı Örneği Talebi|Meclis Kararının Uygulanması
+110,110,1,,Encümen İşleri,,kuruma_ozel,belediye,hayir,Encümen Gündemi|Encümen Toplantısı Hk.|Encümene Havale Edilen Dosya
+110.04,110,2,110,Encümen Kararları,B,kuruma_ozel,belediye,hayir,Encümen Kararının Gönderilmesi|Encümen Kararı Örneği Talebi|Encümen Kararının Tebliği
+115,115,1,,İmar ve Şehircilik İşleri,,kuruma_ozel,belediye,hayir,İmar İşlemleri Hk.|İmar Dosyası Bilgi Talebi|İmar Mevzuatı Uygulaması
+115.01,115,2,115,Planlama ve Uygulama,,kuruma_ozel,belediye,hayir,İmar Planı Askı İlanı|Plan Değişikliği Teklifi|Parselasyon İşlemleri Hk.
+115.01.06,115,3,115.01,Uygulama İmar Planı,B,kuruma_ozel,belediye,evet,Uygulama İmar Planı Değişikliği Talebi|Plan Askı İtirazı|Uygulama İmar Planı Onayı Hk.
+115.01.08,115,3,115.01,İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.,B,kuruma_ozel,belediye,evet,İfraz ve Tevhid Talebi|Yola Terk İşlemi Hk.|İrtifak Hakkı Tesisi Talebi
+115.02,115,2,115,Yapı İşleri,,kuruma_ozel,belediye,hayir,Yapı İşlemleri Hk.|Ruhsat Dosyası Bilgi Talebi|Yapı Denetim İşlemleri
+115.02.01,115,3,115.02,İmar Durumu (Belgesi),B,kuruma_ozel,belediye,evet,İmar Durum Belgesi Talebi|Parsel İmar Durumu Hk.|İmar Durumu Bilgi Talebi
+115.02.04,115,3,115.02,Yapı Ruhsatı,B,kuruma_ozel,belediye,evet,Yapı Ruhsatı Başvurusu|Ruhsat Yenileme Talebi|Yapı Ruhsatı Tadilatı Hk.
+115.02.08,115,3,115.02,Yapı Kullanma İzni (İskan Ruhsatı),B,kuruma_ozel,belediye,evet,Yapı Kullanma İzin Belgesi Talebi|İskan Ruhsatı Başvurusu|Kısmi İskan Talebi
+115.02.10,115,3,115.02,Adres ve Numaralandırma,B,kuruma_ozel,belediye,evet,Numarataj Belgesi Talebi|Adres Tespiti Hk.|Kapı Numarası Verilmesi Talebi
+115.02.11,115,3,115.02,Kaçak ve Ruhsata Aykırı Yapılar,,kuruma_ozel,belediye,evet,Ruhsata Aykırı Yapı İhbarı|Yapı Tatil Tutanağı Hk.|Kaçak Yapı Şikayeti
+120,120,1,,Kültürel ve Sosyal İşler,,kuruma_ozel,belediye,hayir,Sosyal Hizmet Faaliyetleri|Kurs ve Etkinlik Programı|Sosyal Destek Çalışmaları Hk.
+120.02,120,2,120,Engellilere Yönelik Hizmetler,10,kuruma_ozel,belediye,evet,Engelli Aracı Talebi|Engelli Erişim Düzenlemesi Talebi|Engelli Hizmetlerinden Yararlanma Başvurusu
+125,125,1,,Evlendirme İşlemleri,10,kuruma_ozel,belediye,evet,Evlenme Başvurusu Hk.|Evlenme Ehliyet Belgesi Talebi|Nikah Tarihi Talebi
+155,155,1,,Çevre Koruma ve Kontrol İşleri,,kuruma_ozel,belediye,hayir,Çevre Denetimi Hk.|Çevre Kirliliği İncelemesi|Çevre Koruma Çalışmaları
+155.01,155,2,155,Atık Yönetimi,10,kuruma_ozel,belediye,evet,Çöp Toplama Talebi|Atık Konteyneri Talebi|Hafriyat Atığı Şikayeti
+170,170,1,,İşyeri Açma ve Çalışma Ruhsatı İşlemleri,,kuruma_ozel,belediye,hayir,İşyeri Ruhsat İşlemleri Hk.|Ruhsat Denetimi|Ruhsat Dosyası Bilgi Talebi
+170.01,170,2,170,Ruhsat,B,kuruma_ozel,belediye,evet,İşyeri Açma ve Çalışma Ruhsatı Başvurusu|Ruhsat Devir Talebi|Hafta Tatili Ruhsatı Talebi
+175,175,1,,Ölçü ve Ölçü Aletleri ile İlgili İşler,10,kuruma_ozel,belediye,evet,Ölçü Aleti Beyannamesi|Terazi Damgalama Başvurusu|Periyodik Muayene Talebi
+180,180,1,,İtfaiye İşleri,,kuruma_ozel,belediye,hayir,İtfaiye Hizmetleri Hk.|Yangın İhbar Raporu|Tatbikat Planlaması
+180.03,180,2,180,İtfaiye Uygunluk Raporları,15,kuruma_ozel,belediye,evet,İtfaiye Uygunluk Raporu Talebi|Yangın Güvenliği Raporu Başvurusu|Uygunluk Raporu Yenileme Talebi
+190,190,1,,"Gelir (Tarh, Tahakkuk ve Tahsilat) İşleri",,kuruma_ozel,belediye,hayir,Gelir Tahakkuk İşlemleri|Tahsilat Bilgisi Talebi|Vergi ve Harç Uygulaması Hk.
+190.01,190,2,190,Vergi ve Harçlar,,kuruma_ozel,belediye,hayir,Vergi Tahakkuku Hk.|Harç Bedeli Bilgisi Talebi|Beyan Süresi Duyurusu
+190.01.07,190,3,190.01,Emlak Vergisi,15,kuruma_ozel,belediye,evet,Emlak Vergisi Beyanı|Emlak Vergisi Borç Sorgulama Talebi|Emlak Vergisi Muafiyet Başvurusu
+220,220,1,,Su ve Kanalizasyon İşleri,,kuruma_ozel,belediye,hayir,Su ve Kanalizasyon Hizmetleri Hk.|Şebeke Çalışması Bildirimi|Altyapı Arıza Bildirimi
+220.01,220,2,220,İçme Suyu İle İlgili İşler,,kuruma_ozel,belediye,hayir,Su Kesintisi Duyurusu|Sayaç İşlemleri|İçme Suyu Hattı Çalışması Hk.
+220.01.01,220,3,220.01,Abonelik İşlemleri,B,kuruma_ozel,belediye,evet,Su Aboneliği Başvurusu|Abonelik İptali Talebi|Abone Devir İşlemi Talebi
+102,102,1,,Tanıma ve Denklik İşleri,,kuruma_ozel,universite,hayir,Okul Tanıma Talebi|Denklik Başvurusu Hk.|Tanıma Belgesi Talebi
+102.03,102,2,102,Denklik İşleri,B,kuruma_ozel,universite,evet,Diploma Denklik Başvurusu|Denklik Belgesi Talebi|Denklik Kararına İtiraz
+104,104,1,,Eğitim - Öğretim Programları,,kuruma_ozel,universite,hayir,Program Açma Teklifi|Program Güncelleme Hk.|Ders Yükü Bilgisi
+104.01,104,2,104,Program Açma,15,kuruma_ozel,universite,hayir,Yeni Program Açma Teklifi|Program Açma Başvurusu Hk.|Kontenjan Talebi
+106,106,1,,Sınav Programları ve Sınavlar,2,kuruma_ozel,universite,hayir,Sınav Programının Duyurulması|Mazeret Sınavı Takvimi|Bütünleme Sınav Programı
+201,201,1,,Seçim ve Atama İşleri,15,kuruma_ozel,universite,hayir,Dekan Atama Teklifi|Bölüm Başkanı Görevlendirmesi|Atama Onayı Hk.
+204,204,1,,Unvan ve Yeterlilik Sınavları,,kuruma_ozel,universite,hayir,Jüri Görevlendirmesi|Sınav Sonucunun Bildirilmesi|Unvan İşlemleri Hk.
+204.01,204,2,204,Doçentlik,15,kuruma_ozel,universite,hayir,Doçentlik Jüri Üyeliği Görevlendirmesi|Doçentlik Eser İnceleme Raporu|Doçentlik Sözlü Sınavı Hk.
+209,209,1,,Akademik Personel Görevlendirmeleri,15,kuruma_ozel,universite,hayir,39. Madde Görevlendirme Talebi|Yurtdışı Görevlendirme Onayı|Ders Görevlendirmesi Hk.
+301,301,1,,Seçme-Yerleştirme-Giriş Sınav İşlemleri,5,kuruma_ozel,universite,hayir,Ek Yerleştirme Kontenjanları|Özel Yetenek Sınavı Duyurusu|Başvuru Değerlendirme Sonuçları
+301.06,301,2,301,Yatay Geçiş,,kuruma_ozel,universite,evet,Yatay Geçiş Başvurusu|Yatay Geçiş Kontenjan Talebi|Yatay Geçiş Sonucuna İtiraz
+302,302,1,,Öğrenci Özlük İşleri,B,kuruma_ozel,universite,hayir,Öğrenci Dosyası Bilgi Talebi|Öğrenci Özlük İşlemleri Hk.|Öğrenci Bilgilerinin Güncellenmesi
+302.01,302,2,302,Yeni Kayıt İşlemleri,10,kuruma_ozel,universite,evet,Kesin Kayıt Başvurusu|Kayıt Belgelerinin Teslimi|Kayıt Süresi Uzatım Talebi
+302.03,302,2,302,Katkı Payları / Öğrenim Ücretleri,10,kuruma_ozel,universite,evet,Katkı Payı İade Talebi|Öğrenim Ücreti Ödemesi Hk.|Katkı Payı Muafiyet Başvurusu
+302.08,302,2,302,İzin İşleri,10,kuruma_ozel,universite,evet,Sağlık Sebebiyle İzin Talebi|İzin Başvurusunun Değerlendirilmesi|Kayıt Dondurma ve İzin Talebi
+302.10,302,2,302,Belge İşlemleri,10,kuruma_ozel,universite,evet,Öğrenci Belgesi Talebi|Transkript Talebi|Askerlik Durum Belgesi Talebi
+302.11,302,2,302,"Nakil, Kayıt Dondurma ve Kayıt Silme",10,kuruma_ozel,universite,evet,Kayıt Dondurma Talebi|Kendi İsteğiyle Kayıt Sildirme Talebi|Nakil İşlemi Hk.
+302.14,302,2,302,Tez İşleri,B,kuruma_ozel,universite,evet,Tez Konusu Değişikliği Talebi|Tez Savunma Jürisi Önerisi|Tez Teslim Süresi Uzatım Talebi
+302.15,302,2,302,Mezuniyet İşleri,B,kuruma_ozel,universite,evet,Geçici Mezuniyet Belgesi Talebi|Diploma Talebi|İlişik Kesme İşlemleri Hk.
+304,304,1,,"Burslar, Krediler, Stajlar",,kuruma_ozel,universite,hayir,Burs Başvurularının Değerlendirilmesi|Staj Kontenjanı Talebi|Kredi İşlemleri Hk.
+304.03,304,2,304,Stajlar,2,kuruma_ozel,universite,evet,Zorunlu Staj Başvurusu|Staj Yeri Talebi|Staj Sigorta İşlemleri
+309,309,1,,"Öğrenci Toplulukları, Birlikleri vb.",10,kuruma_ozel,universite,evet,Öğrenci Topluluğu Kurulma Talebi|Topluluk Etkinlik İzni Talebi|Topluluk Danışmanı Görevlendirmesi
+310,310,1,,Öğrenci Değişim Programları,B,kuruma_ozel,universite,evet,Erasmus+ Başvuru Duyurusu|Değişim Programı Ders Tanıma Talebi|Mevlana Programı Hareketliliği Hk.
+135,135,1,,Eğitim Kurumlarında Açılan Kurslar,,kuruma_ozel,il_mudurlugu,hayir,Kurs Açma Talebi|Kurs Programı Onayı|Kurs Kontenjanları Hk.
+135.03,135,2,135,Yaygın Eğitim Kursları,10,kuruma_ozel,il_mudurlugu,evet,Halk Eğitim Kursu Açılması Talebi|Kursa Kayıt Başvurusu|Kurs Bitirme Belgesi Talebi
+140,140,1,,Taşımalı Eğitim,10,kuruma_ozel,il_mudurlugu,evet,Taşımalı Eğitim Kapsamına Alınma Talebi|Taşıma Merkezi Okulun Belirlenmesi|Öğrenci Taşıma Güzergahı Hk.
+160,160,1,,"Özel Eğitim, Rehberlik ve Danışma Hizmetleri",,kuruma_ozel,il_mudurlugu,hayir,Özel Eğitim Hizmetleri Hk.|Rehberlik Çalışmaları Planı|RAM İşlemleri Hk.
+160.01,160,2,160,Özel Eğitim Hizmetleri,,kuruma_ozel,il_mudurlugu,evet,Özel Eğitim Değerlendirme Kurulu Raporu Talebi|Destek Eğitim Odası Talebi|Özel Eğitim Sınıfı Açılması Talebi
+160.01.02,160,3,160.01,Kaynaştırma Eğitimi,10,kuruma_ozel,il_mudurlugu,evet,Kaynaştırma Öğrencisi Yerleştirme Talebi|BEP Hazırlanması Hk.|Kaynaştırma Uygulaması Bilgi Talebi
+160.02,160,2,160,Rehberlik ve Danışma Hizmetleri,,kuruma_ozel,il_mudurlugu,evet,Rehberlik Hizmeti Talebi|RAM Randevu Talebi|Rehberlik Raporunun Gönderilmesi
+165,165,1,,Eğitime Yardımcı Dernek ve Kurumlar,,kuruma_ozel,il_mudurlugu,hayir,Dernek İşbirliği Talebi|Okul Aile Birliği İşlemleri Hk.|Bağış ve Yardım Bildirimi
+165.01,165,2,165,Okul Aile Birlikleri,10,kuruma_ozel,il_mudurlugu,evet,Okul Aile Birliği Genel Kurulu|Okul Aile Birliği Gelir Gider Bildirimi|Okul Aile Birliği Kira İşlemleri
+198,198,1,,"Eğitimle İlgili Defter, Dosya, Çizelge ve Belgeler",,kuruma_ozel,il_mudurlugu,hayir,Öğrenci Kütük Kayıtları Hk.|Defter ve Belge Teslimi|Belge Düzenleme İşlemleri
+198.02,198,2,198,Mezuniyet/Ayrılma Belgeleri,,kuruma_ozel,il_mudurlugu,hayir,Mezuniyet Belgesi Düzenlenmesi|Tasdikname İşlemleri|Öğrenim Belgesi Talebi
+198.02.01,198,3,198.02,Diploma,B,kuruma_ozel,il_mudurlugu,evet,Diploma İkinci Nüsha Talebi|Diploma Teslimi Talebi|Diploma Bilgilerinin Teyidi
+355,355,1,,YÖK'le İlişkiler,,kuruma_ozel,il_mudurlugu,hayir,Üniversitelerle İşbirliği Hk.|Yükseköğretim Kurumlarıyla Yazışma|İşbirliği Talebinin Değerlendirilmesi
+355.02,355,2,355,Eğitim Fakülteleri İle İlişkiler,15,kuruma_ozel,il_mudurlugu,hayir,Öğretmenlik Uygulaması Protokolü|Uygulama Öğrencisi Yerleştirme Talebi|Uygulama Okulunun Belirlenmesi Hk.
+205,205,1,,Kayıt-Kabul,B,kuruma_ozel,il_mudurlugu,evet,Okul Kayıt Başvurusu|Kayıt Alanı Dışından Kayıt Talebi|Kayıt İşlemleri Hk.
+210,210,1,,Nakil ve Geçişler,,kuruma_ozel,il_mudurlugu,hayir,Nakil İşlemleri Hk.|Okul Türleri Arasında Geçiş|Alan/Dal Değişikliği Talebi
+210.01,210,2,210,Nakiller,5,kuruma_ozel,il_mudurlugu,evet,Öğrenci Nakil Talebi|Nakil Başvurusunun Değerlendirilmesi|Nakil Belgelerinin Gönderilmesi
+215,215,1,,Denklik İşleri,,kuruma_ozel,il_mudurlugu,hayir,Denklik İşlemleri Hk.|Denklik Belgesinin Gönderilmesi|Denklik Başvurusunun Değerlendirilmesi
+215.01,215,2,215,Yurtdışı Eğitim Denkliği,B,kuruma_ozel,il_mudurlugu,evet,Yurtdışı Öğrenim Denklik Başvurusu|Denklik Belgesi Talebi|Denklik Kararına İtiraz
+225,225,1,,Ödül ve Disiplin İşleri,,kuruma_ozel,il_mudurlugu,hayir,Öğrenci Ödül İşlemleri|Disiplin Kurulu Kararı|Onur Belgesi Verilmesi
+225.02,225,2,225,Disiplin İşleri,15,kuruma_ozel,il_mudurlugu,evet,Öğrenci Disiplin Soruşturması|Disiplin Cezasına İtiraz|Disiplin Kurulu Kararının Tebliği
+235,235,1,,Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim),B,kuruma_ozel,il_mudurlugu,evet,Yabancı Uyruklu Öğrenci Kayıt Talebi|Öğrenim Belgesi Talebi|Yabancı Uyruklu Öğrenci Nakil İşlemi
+245,245,1,,Yatılılık/Bursluluk İşlemleri,,kuruma_ozel,il_mudurlugu,hayir,Yatılılık Kontenjanları|Bursluluk Komisyonu Kararı|Pansiyon İşlemleri Hk.
+245.04,245,2,245,Bursluluk,10,kuruma_ozel,il_mudurlugu,evet,Bursluluk Başvurusu|Burs Ödemesi Hk.|Bursluluk Sonucuna İtiraz
+250,250,1,,Okul ve İşletmelerde Meslekî Eğitim/Staj Çalışmaları,,kuruma_ozel,il_mudurlugu,evet,İşletmede Beceri Eğitimi Sözleşmesi|Staj Yeri Talebi|Öğrenci Sigorta İşlemleri
