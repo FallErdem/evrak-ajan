@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ramazan KORKMAZ",
-    "adres": "Gayret Mahallesi Yasemin Sokağı No: 73/11 Yenimahalle/ANKARA",
+    "ad": "Hasan ÖZTÜRK",
+    "adres": "Çiğdemtepe Mahallesi Zeytin Caddesi No: 113/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,18 +23,18 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "855",
-    "ad": "Borç ve Alacak İşleri",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Borç Bilgisi Talebi",
+  "konu": "Periyodik Muayene Talebi",
   "sayi": null,
-  "tarih": "27.05.2026",
+  "tarih": "16.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Borç Bilgisi",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Periyodik Muayene",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -43,11 +43,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Borç Bilgisi",
-    "ilgili kuruma sunulmak üzere"
+    "Periyodik Muayene",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

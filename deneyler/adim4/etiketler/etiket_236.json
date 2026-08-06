@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -24,16 +24,16 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
+    "saklama_suresi": "10"
   },
-  "konu": "Uygulama Hakkında Hukuki Görüş",
-  "sayi": "E-10213773-045.02-8547624",
-  "tarih": "12.03.2026",
+  "konu": "Yatırım Programı Hk.",
+  "sayi": "E-10213773-602.07-8547277",
+  "tarih": "23.03.2026",
   "ilgi": {
-    "tarih": "03.02.2026",
-    "sayi": "E-55461037-045.02-4890027"
+    "tarih": "17.03.2026",
+    "sayi": "E-55461037-602.07-8616810"
   },
   "ek": {
     "adet": 1,
@@ -41,11 +41,11 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Hukuki kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Yatırım Programı kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,7 +55,7 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [

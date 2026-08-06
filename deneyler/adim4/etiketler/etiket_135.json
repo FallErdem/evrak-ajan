@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10204305",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -24,24 +24,24 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "807.01",
-    "ad": "Bina ve Tesisler",
-    "saklama_suresi": "10"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "Çatı Onarımı Hk.",
-  "sayi": "E-10213773-807.01-8545381",
-  "tarih": "13.02.2026",
+  "konu": "Zemin Etüdü Raporunun Gönderilmesi",
+  "sayi": "E-10204305-755.01-3564743",
+  "tarih": "25.05.2026",
   "ilgi": {
-    "tarih": "13.01.2026",
-    "sayi": "E-65859045-807.01-3703592"
+    "tarih": "14.05.2026",
+    "sayi": "E-65859045-755.01-6372243"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Çatı Onarımı",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Zemin Etüdü Raporunun Gönderilmesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
     "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,10 +55,10 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Çatı Onarımı",
-    "olumlu, işlem tamamlandı",
+    "Zemin Etüdü Raporunun Gönderilmesi",
+    "olumlu, belge düzenlendi",
     "Müdürlüğümüz kayıt bürosu",
     "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

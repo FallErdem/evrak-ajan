@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra ÖZTÜRK",
-    "adres": "Barıştepe Mahallesi Erguvan Sokak No: 82/9 Yenimahalle/ANKARA",
+    "ad": "Büşra UÇAR",
+    "adres": "Ragıpbey Mahallesi Ihlamur Sokak No: 89/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,16 +23,16 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.10",
-    "ad": "Adres ve Numaralandırma",
-    "saklama_suresi": "B"
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Adres ve Numaralandırma Kararına İtiraz",
+  "konu": "Engellilere Yönelik Hizmetler Kararına İtiraz",
   "sayi": null,
-  "tarih": "10.02.2026",
+  "tarih": "23.03.2026",
   "ilgi": {
-    "tarih": "06.01.2026",
-    "sayi": "E-65859045-115.02.10-7796585"
+    "tarih": "02.03.2026",
+    "sayi": "E-65859045-120.02-5235645"
   },
   "ek": {
     "adet": 1,
@@ -40,9 +40,9 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Adres ve Numaralandırma Kararına İtiraz",
+    "İtiraz konusu": "Engellilere Yönelik Hizmetler Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,11 +53,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Adres ve Numaralandırma Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

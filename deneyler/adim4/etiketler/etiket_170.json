@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -29,18 +29,18 @@
     "saklama_suresi": "15"
   },
   "konu": "39. Madde Görevlendirme Talebi",
-  "sayi": "E-10213773-209-8546002",
-  "tarih": "29.05.2026",
+  "sayi": "E-55461037-209-5986777",
+  "tarih": "06.04.2026",
   "ilgi": {
-    "tarih": "06.05.2026",
-    "sayi": "E-39985474-209-2218119"
+    "tarih": "12.03.2026",
+    "sayi": "E-39985474-209-7803529"
   },
   "ek": null,
   "somut_bilgiler": {
     "Mevcut durum": "Akademik Personel Görevlendirmeleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "teknik destek sağlanması"
+    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Amaç": "vatandaş memnuniyetinin artırılması",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,8 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "mevzuatın öngördüğü sürelere uyulması",
-    "teknik destek sağlanması"
+    "mevcut kaynaklar yetersiz kalmaktadır",
+    "vatandaş memnuniyetinin artırılması",
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

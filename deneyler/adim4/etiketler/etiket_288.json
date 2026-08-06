@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Burak ÇAKIR",
-    "adres": "Gayret Mahallesi Kestane Sokağı No: 85/14 Yenimahalle/ANKARA",
+    "ad": "Şerife ÖZTÜRK",
+    "adres": "Uğur Mumcu Mahallesi Nergis Caddesi No: 120/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,13 +23,13 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Emlak Vergisi Kararına İtiraz",
+  "konu": "Belge Talepleri Kararına İtiraz",
   "sayi": null,
-  "tarih": "27.05.2026",
+  "tarih": "13.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -37,9 +37,9 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Emlak Vergisi Kararına İtiraz",
+    "İtiraz konusu": "Belge Talepleri Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -50,11 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Kararına İtiraz",
+    "Belge Talepleri Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

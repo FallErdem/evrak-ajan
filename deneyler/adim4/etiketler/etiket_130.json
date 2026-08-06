@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Başkent İnşaat Ltd. Şti.",
+    "kurum_adi": "Öz Eğitim Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Ostim Mahallesi Kestane Caddesi No: 107/8 Yenimahalle/ANKARA",
+    "adres": "İvedik Mahallesi Kestane Sokağı No: 102/12 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -24,20 +24,20 @@
   "hiyerarsi_yonu": "ozel_tuzel",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
+    "saklama_suresi": "B"
   },
-  "konu": "Disiplin İşleri Hakkında Bilgi Edinme Başvurusu",
-  "sayi": "2026/5174",
-  "tarih": "09.02.2026",
+  "konu": "Yurtdışı Öğrenim Denklik Başvurusu",
+  "sayi": "2026/8266",
+  "tarih": "18.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Disiplin İşleri konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Yurtdışı Eğitim Denkliği konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,6 +52,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "yıllara göre sayısal döküm",
+    "e-Devlet üzerinden"
   ]
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Onur ERDOĞAN",
-    "adres": "İvedik Mahallesi Manolya Sokak No: 10/15 Yenimahalle/ANKARA",
+    "ad": "Ayşe POLAT",
+    "adres": "Pamuklar Mahallesi Sümbül Caddesi No: 107/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,24 +23,24 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
-    "saklama_suresi": "10"
+    "kod": "115.01.06",
+    "ad": "Uygulama İmar Planı",
+    "saklama_suresi": "B"
   },
-  "konu": "Staj İşleri Kararına İtiraz",
+  "konu": "Plan Askı İtirazı",
   "sayi": null,
-  "tarih": "25.02.2026",
+  "tarih": "26.02.2026",
   "ilgi": {
-    "tarih": "16.01.2026",
-    "sayi": "E-65859045-773-5893000"
+    "tarih": "04.02.2026",
+    "sayi": "E-65859045-115.01.06-8903828"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 3
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Staj İşleri Kararına İtiraz",
+    "İtiraz konusu": "Plan Askı İtirazı",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -53,11 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Staj İşleri Kararına İtiraz",
+    "Plan Askı İtirazı",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

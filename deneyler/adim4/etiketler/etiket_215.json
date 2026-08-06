@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -24,23 +24,23 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "204.01",
-    "ad": "Doçentlik",
+    "kod": "201",
+    "ad": "Seçim ve Atama İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Doçentlik Talebi",
-  "sayi": "E-55461037-204.01-5986361",
-  "tarih": "20.04.2026",
+  "konu": "Seçim ve Atama İşleri Talebi",
+  "sayi": "E-65859045-201-1887817",
+  "tarih": "08.04.2026",
   "ilgi": {
-    "tarih": "26.03.2026",
-    "sayi": "E-39985474-204.01-5290568"
+    "tarih": "02.04.2026",
+    "sayi": "E-39985474-201-2593663"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Doçentlik kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "hizmetlerin aksamadan yürütülmesi",
-    "Talep": "teknik destek sağlanması"
+    "Mevcut durum": "Seçim ve Atama İşleri kapsamındaki iş yükü artmıştır",
+    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
+    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,9 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Doçentlik kapsamındaki iş yükü artmıştır",
-    "mevcut kaynaklar yetersiz kalmaktadır",
-    "hizmetlerin aksamadan yürütülmesi",
-    "teknik destek sağlanması"
+    "mevzuatın öngördüğü sürelere uyulması",
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

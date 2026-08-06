@@ -5,18 +5,18 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10099586",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "18426575",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -24,21 +24,22 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
-    "saklama_suresi": "15"
+    "kod": "110.04",
+    "ad": "Encümen Kararları",
+    "saklama_suresi": "B"
   },
-  "konu": "İhale Sonucunun Bildirilmesi",
-  "sayi": "E-10099586-755.02-5673971",
-  "tarih": "26.01.2026",
+  "konu": "Encümen Kararının Gönderilmesi",
+  "sayi": "E-18426575-110.04-6751049",
+  "tarih": "10.03.2026",
   "ilgi": {
-    "tarih": "09.01.2026",
-    "sayi": "E-65859045-755.02-3144711"
+    "tarih": "26.02.2026",
+    "sayi": "E-65859045-110.04-2586397"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İhale Sonucunun Bildirilmesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Encümen Kararının Gönderilmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Taşınmaz": "31592 ada, 8 parsel",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
     "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
     "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
@@ -51,12 +52,13 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İhale Sonucunun Bildirilmesi",
-    "olumlu, belge düzenlendi",
+    "Encümen Kararının Gönderilmesi",
+    "olumlu, işlem tamamlandı",
+    "31592 ada, 8 parsel",
     "Müdürlüğümüz kayıt bürosu",
     "noter onaylı vekâletname ile veya bizzat",
     "düzenlendiği tarihten itibaren bir yıl"

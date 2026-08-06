@@ -24,16 +24,16 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Karar Örneği Talebi",
-  "sayi": "E-10101653-050.04-3449899",
-  "tarih": "14.04.2026",
+  "konu": "Arşivden Suret Talebi",
+  "sayi": "E-10101653-805.02.05-3449872",
+  "tarih": "16.01.2026",
   "ilgi": {
-    "tarih": "03.04.2026",
-    "sayi": "E-39985474-050.04-3105997"
+    "tarih": "10.12.2025",
+    "sayi": "E-39985474-805.02.05-1435447"
   },
   "ek": null,
   "somut_bilgiler": {

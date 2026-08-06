@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin GÜLER",
-    "adres": "Yeşilevler Mahallesi Manolya Caddesi No: 102/20 Yenimahalle/ANKARA",
+    "ad": "Burak KURT",
+    "adres": "Yeşilevler Mahallesi Nergis Sokak No: 45/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,19 +23,19 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.14",
-    "ad": "Tez İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Tez Teslim Süresi Uzatım Talebi",
+  "konu": "Kesin Kayıt Başvurusu",
   "sayi": null,
-  "tarih": "12.03.2026",
+  "tarih": "14.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Tez Teslim Süresi Uzatım",
-    "Öğrenim bilgisi": "2024 yılı mezunu",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Kesin Kayıt",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +49,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Tez Teslim Süresi Uzatım",
-    "2024 yılı mezunu",
-    "başvuru dosyasına eklenmek üzere"
+    "Kesin Kayıt",
+    "lisansüstü programa kayıtlı",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

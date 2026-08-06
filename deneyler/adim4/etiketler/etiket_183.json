@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları",
+    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10338915",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "47014261",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -24,24 +24,24 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Kurul Kararının Gönderilmesi",
-  "sayi": "E-10338915-050.04-5394606",
-  "tarih": "03.02.2026",
+  "konu": "Araştırma İzni Hk.",
+  "sayi": "E-47014261-805.02.05-5134143",
+  "tarih": "18.05.2026",
   "ilgi": {
-    "tarih": "09.01.2026",
-    "sayi": "E-39985474-050.04-9818343"
+    "tarih": "07.05.2026",
+    "sayi": "E-39985474-805.02.05-9203467"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kurul Kararının Gönderilmesi",
+    "Talep": "Araştırma İzni",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
+    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -56,10 +56,10 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kurul Kararının Gönderilmesi",
+    "Araştırma İzni",
     "olumlu, talep karşılandı",
     "Başkanlığımız kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "kimlik belgesi ibraz edilerek şahsen",
+    "düzenlendiği tarihten itibaren altı ay"
   ]
 }

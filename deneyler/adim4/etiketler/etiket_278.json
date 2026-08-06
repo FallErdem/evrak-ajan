@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Okul ve kurum müdürlükleri",
+    "kurum_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10061998",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "91571118",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
@@ -24,20 +24,20 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
+    "saklama_suresi": "10"
   },
-  "konu": "Kayıt-Kabul Hakkında Görüş Talebi",
-  "sayi": "E-10061998-205-4657012",
-  "tarih": "28.05.2026",
+  "konu": "Taşımalı Eğitim Hakkında Görüş Talebi",
+  "sayi": "E-91571118-140-8690704",
+  "tarih": "04.02.2026",
   "ilgi": {
-    "tarih": "13.04.2026",
-    "sayi": "E-55461037-205-7666468"
+    "tarih": "12.01.2026",
+    "sayi": "E-55461037-140-6952761"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Kayıt-Kabul",
+    "Konu": "Taşımalı Eğitim",
     "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -53,6 +53,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "Taşımalı Eğitim",
     "konu hakkında görüş bildirilmesi"
   ]
 }

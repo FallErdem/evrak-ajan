@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep YILDIRIM",
-    "adres": "İvedik Mahallesi Ceviz Sokak No: 100/19 Yenimahalle/ANKARA",
+    "ad": "Sevgi KORKMAZ",
+    "adres": "Ostim Mahallesi Zeytin Sokak No: 92/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,18 +23,18 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Değişim Programı Ders Tanıma Talebi",
+  "konu": "Denklik Belgesi Talebi",
   "sayi": null,
-  "tarih": "20.05.2026",
+  "tarih": "12.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Değişim Programı Ders Tanıma",
-    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Talep": "Denklik Belgesi",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
     "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -49,8 +49,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Değişim Programı Ders Tanıma",
-    "3. sınıf öğrencisi",
+    "Denklik Belgesi",
+    "lisansüstü programa kayıtlı",
     "başvuru dosyasına eklenmek üzere"
   ]
 }

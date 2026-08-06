@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10045836",
+    "detsis_no": "10204305",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "bilgilendirme",
@@ -29,23 +29,23 @@
     "saklama_suresi": "15"
   },
   "konu": "Bütçe Çalışmaları Hk.",
-  "sayi": "E-10045836-841.01-1192817",
-  "tarih": "26.03.2026",
+  "sayi": "E-10204305-841.01-3565065",
+  "tarih": "06.05.2026",
   "ilgi": {
-    "tarih": "19.03.2026",
-    "sayi": "E-65859045-841.01-4942159"
+    "tarih": "30.04.2026",
+    "sayi": "E-65859045-841.01-8500656"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Konu": "Bütçe Çalışmaları kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların mali yıl sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -60,6 +60,7 @@
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "sonuçların mali yıl sonunda bildirilmesi"
   ]
 }

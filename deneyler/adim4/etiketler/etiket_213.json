@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep KARACA",
-    "adres": "Beştepe Mahallesi Menekşe Caddesi No: 59/9 Yenimahalle/ANKARA",
+    "ad": "Fatih ÖZDEMIR",
+    "adres": "Demetevler Mahallesi Erguvan Sokağı No: 54/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,18 +23,18 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.10",
-    "ad": "Adres ve Numaralandırma",
+    "kod": "115.01.08",
+    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
     "saklama_suresi": "B"
   },
-  "konu": "Kapı Numarası Verilmesi Talebi",
+  "konu": "İfraz ve Tevhid Talebi",
   "sayi": null,
-  "tarih": "11.03.2026",
+  "tarih": "09.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kapı Numarası Verilmesi",
-    "Taşınmaz": "44309 ada, 7 parsel",
+    "Talep": "İfraz ve Tevhid",
+    "Taşınmaz": "55701 ada, 17 parsel",
     "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -48,8 +48,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Kapı Numarası Verilmesi",
-    "44309 ada, 7 parsel",
+    "İfraz ve Tevhid",
+    "55701 ada, 17 parsel",
     "resmî işlemlerde kullanılmak üzere"
   ]
 }

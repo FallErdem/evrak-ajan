@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Burak KORKMAZ",
-    "adres": "Ergazi Mahallesi Lale Caddesi No: 32/9 Yenimahalle/ANKARA",
+    "ad": "Sultan ŞIMŞEK",
+    "adres": "Karşıyaka Mahallesi Manolya Sokak No: 76/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,19 +23,19 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "saklama_suresi": "10"
   },
-  "konu": "Zorunlu Staj Başvurusu",
+  "konu": "Topluluk Etkinlik İzni Talebi",
   "sayi": null,
-  "tarih": "10.04.2026",
+  "tarih": "06.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Zorunlu Staj",
-    "Öğrenim bilgisi": "4. sınıf öğrencisi",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Topluluk Etkinlik İzni",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +49,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Zorunlu Staj",
-    "4. sınıf öğrencisi",
-    "resmî işlemlerde kullanılmak üzere"
+    "Topluluk Etkinlik İzni",
+    "lisansüstü programa kayıtlı",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

@@ -5,18 +5,18 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Okul ve kurum müdürlükleri",
+    "kurum_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10061998",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "87302975",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -24,24 +24,24 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Yabancı Uyruklu Öğrenciler Hk.",
-  "sayi": "E-10061998-235-4656603",
-  "tarih": "30.01.2026",
+  "konu": "Okul Aile Birlikleri Hk.",
+  "sayi": "E-87302975-165.01-5240843",
+  "tarih": "09.03.2026",
   "ilgi": {
-    "tarih": "23.12.2025",
-    "sayi": "E-55461037-235-5021890"
+    "tarih": "09.02.2026",
+    "sayi": "E-55461037-165.01-2814155"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yabancı Uyruklu Öğrenciler",
+    "Talep": "Okul Aile Birlikleri",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,14 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yabancı Uyruklu Öğrenciler",
+    "Okul Aile Birlikleri",
     "olumlu, talep karşılandı",
     "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "düzenlendiği tarihten itibaren altı ay"
   ]
 }

@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
@@ -24,16 +24,16 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "104.01",
+    "ad": "Program Açma",
+    "saklama_suresi": "15"
   },
-  "konu": "Öğrenci Toplulukları, Birlikleri vb. Listesinin Gönderilmesi",
-  "sayi": "E-10101653-309-3448916",
-  "tarih": "04.05.2026",
+  "konu": "Program Açma Listesinin Gönderilmesi",
+  "sayi": "E-10101653-104.01-3449463",
+  "tarih": "19.02.2026",
   "ilgi": {
-    "tarih": "17.04.2026",
-    "sayi": "E-39985474-309-9383686"
+    "tarih": "10.02.2026",
+    "sayi": "E-39985474-104.01-6942081"
   },
   "ek": {
     "adet": 2,
@@ -43,8 +43,8 @@
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "94 kayıt",
-    "Ek 1": "Öğrenci Toplulukları, Birlikleri vb. listesi",
+    "Sayı": "186 kayıt",
+    "Ek 1": "Program Açma listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +57,15 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "içinde bulunulan öğretim yılı",
-    "94 kayıt",
+    "186 kayıt",
+    "Program Açma listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

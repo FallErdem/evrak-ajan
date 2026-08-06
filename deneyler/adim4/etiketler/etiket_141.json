@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten ŞIMŞEK",
-    "adres": "Ragıpbey Mahallesi Menekşe Sokak No: 49/7 Yenimahalle/ANKARA",
+    "ad": "Büşra AKTAŞ",
+    "adres": "Demetevler Mahallesi Erguvan Caddesi No: 78/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,17 +23,17 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Denklik Başvurusu",
+  "konu": "Geçici Mezuniyet Belgesi Talebi",
   "sayi": null,
-  "tarih": "12.05.2026",
+  "tarih": "05.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma Denklik",
+    "Talep": "Geçici Mezuniyet Belgesi",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
     "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
@@ -49,7 +49,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Diploma Denklik",
+    "Geçici Mezuniyet Belgesi",
     "lisansüstü programa kayıtlı",
     "başvuru dosyasına eklenmek üzere"
   ]

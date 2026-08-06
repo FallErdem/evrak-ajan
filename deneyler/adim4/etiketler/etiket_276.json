@@ -5,18 +5,18 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10094490",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "55461037",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
@@ -24,20 +24,20 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "İzin İşleri Hakkında Görüş Talebi",
-  "sayi": "E-10094490-302.08-1888611",
-  "tarih": "18.03.2026",
+  "konu": "Yeni Kayıt İşlemleri Hakkında Görüş Talebi",
+  "sayi": "E-55461037-302.01-5987837",
+  "tarih": "16.04.2026",
   "ilgi": {
-    "tarih": "20.02.2026",
-    "sayi": "E-39985474-302.08-1161887"
+    "tarih": "27.03.2026",
+    "sayi": "E-39985474-302.01-5545523"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "İzin İşleri",
+    "Konu": "Yeni Kayıt İşlemleri",
     "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -49,12 +49,12 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İzin İşleri",
+    "Yeni Kayıt İşlemleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

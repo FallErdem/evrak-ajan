@@ -5,18 +5,18 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "10056635",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "10213773",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
   "aile": "ust_yazi",
@@ -24,27 +24,27 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
+    "kod": "135.03",
+    "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Yatırım Programı Listesinin Gönderilmesi",
-  "sayi": "E-10056635-602.07-3592560",
-  "tarih": "30.01.2026",
+  "konu": "Yaygın Eğitim Kursları Listesinin Gönderilmesi",
+  "sayi": "E-10213773-135.03-8545889",
+  "tarih": "05.03.2026",
   "ilgi": {
-    "tarih": "19.12.2025",
-    "sayi": "E-55461037-602.07-4941395"
+    "tarih": "02.03.2026",
+    "sayi": "E-55461037-135.03-2300824"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
-    "Sayı": "47 kayıt",
-    "Ek 1": "Yatırım Programı listesi",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Sayı": "94 kayıt",
+    "Ek 1": "Yaygın Eğitim Kursları listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +57,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
+    "Özel Öğretim Kurumları Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "öğretim yılı",
-    "47 kayıt",
-    "Yatırım Programı listesi",
+    "içinde bulunulan öğretim yılı",
+    "94 kayıt",
+    "Yaygın Eğitim Kursları listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

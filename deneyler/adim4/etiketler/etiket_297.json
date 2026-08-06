@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
@@ -24,22 +24,22 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
-    "saklama_suresi": "10"
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Nakdi Yardım Talebi",
-  "sayi": "E-10213773-815-8548854",
-  "tarih": "30.03.2026",
+  "konu": "Sınav Programları ve Sınavlar Talebi",
+  "sayi": "E-10213773-106-8548556",
+  "tarih": "21.05.2026",
   "ilgi": {
-    "tarih": "03.03.2026",
-    "sayi": "E-39985474-815-5214811"
+    "tarih": "04.05.2026",
+    "sayi": "E-39985474-106-5088886"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Sosyal Yardım İşleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
+    "Mevcut durum": "Sınav Programları ve Sınavlar kapsamındaki iş yükü artmıştır",
+    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Amaç": "hizmetlerin aksamadan yürütülmesi",
     "Talep": "teknik destek sağlanması"
   },
   "paragraf_cumle_sayilari": [
@@ -50,12 +50,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "mevzuatın öngördüğü sürelere uyulması",
+    "mevcut kaynaklar yetersiz kalmaktadır",
+    "hizmetlerin aksamadan yürütülmesi",
     "teknik destek sağlanması"
   ]
 }

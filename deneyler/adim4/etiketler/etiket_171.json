@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hüseyin KURT",
-    "adres": "Ergazi Mahallesi Yasemin Sokağı No: 2/3 Yenimahalle/ANKARA",
+    "ad": "Derya AVCI",
+    "adres": "Barıştepe Mahallesi Sümbül Caddesi No: 117/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,19 +23,19 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
-    "saklama_suresi": "10"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "İzin Başvurusunun Değerlendirilmesi",
+  "konu": "Tez Teslim Süresi Uzatım Talebi",
   "sayi": null,
-  "tarih": "18.02.2026",
+  "tarih": "07.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İzin Başvurusunun Değerlendirilmesi",
+    "Talep": "Tez Teslim Süresi Uzatım",
     "Öğrenim bilgisi": "2. sınıf öğrencisi",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -44,13 +44,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İzin Başvurusunun Değerlendirilmesi",
+    "Tez Teslim Süresi Uzatım",
     "2. sınıf öğrencisi",
-    "başvuru dosyasına eklenmek üzere"
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -24,21 +24,21 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Hukuki Görüş Talebi",
-  "sayi": "E-39985474-045.02-2602099",
-  "tarih": "21.01.2026",
+  "konu": "Eğitim Fakülteleri İle İlişkiler Hakkında Görüş Talebi",
+  "sayi": "E-65859045-355.02-1887459",
+  "tarih": "27.03.2026",
   "ilgi": {
-    "tarih": "30.12.2025",
-    "sayi": "E-55461037-045.02-3255549"
+    "tarih": "11.02.2026",
+    "sayi": "E-55461037-355.02-5798314"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Hukuki",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Eğitim Fakülteleri İle İlişkiler",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,6 +53,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "Eğitim Fakülteleri İle İlişkiler",
     "konu hakkında görüş bildirilmesi"
   ]
 }

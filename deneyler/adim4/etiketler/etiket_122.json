@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Meryem ÇELIK",
-    "adres": "Demetevler Mahallesi Akasya Sokak No: 68/22 Yenimahalle/ANKARA",
+    "ad": "Şerife ÖZDEMIR",
+    "adres": "Barıştepe Mahallesi Nergis Sokağı No: 1/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -29,12 +29,12 @@
   },
   "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
   "sayi": null,
-  "tarih": "24.03.2026",
+  "tarih": "05.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Taşımalı Eğitim Kapsamına Alınma",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -48,6 +48,6 @@
   ],
   "anahtar_terimler": [
     "Taşımalı Eğitim Kapsamına Alınma",
-    "ilgili kuruma sunulmak üzere"
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

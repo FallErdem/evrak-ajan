@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları",
+    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10338915",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "47014261",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -29,18 +29,18 @@
     "saklama_suresi": "B"
   },
   "konu": "İlişik Kesme İşlemleri Hk.",
-  "sayi": "E-10338915-302.15-5393036",
+  "sayi": "E-47014261-302.15-5133958",
   "tarih": "23.04.2026",
   "ilgi": {
-    "tarih": "20.03.2026",
-    "sayi": "E-39985474-302.15-6268286"
+    "tarih": "31.03.2026",
+    "sayi": "E-39985474-302.15-9419341"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "İlişik Kesme İşlemleri",
     "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
     "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
@@ -59,7 +59,7 @@
     "İlişik Kesme İşlemleri",
     "olumlu, belge düzenlendi",
     "Başkanlığımız kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
+    "kimlik belgesi ibraz edilerek şahsen",
     "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

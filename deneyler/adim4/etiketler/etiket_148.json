@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Anadolu Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Ege Eğitim Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Beştepe Mahallesi Çınar Sokağı No: 59/6 Yenimahalle/ANKARA",
+    "adres": "Yeşilevler Mahallesi Menekşe Caddesi No: 24/4 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -24,20 +24,20 @@
   "hiyerarsi_yonu": "ozel_tuzel",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Yurtdışı Öğrenim Denklik Başvurusu",
-  "sayi": "2026/2179",
-  "tarih": "20.03.2026",
+  "konu": "Disiplin İşleri Hakkında Bilgi Edinme Başvurusu",
+  "sayi": "2026/8987",
+  "tarih": "07.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Yurtdışı Eğitim Denkliği konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "elektronik posta ile"
+    "Talep": "Disiplin İşleri konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,7 +52,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
-    "elektronik posta ile"
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

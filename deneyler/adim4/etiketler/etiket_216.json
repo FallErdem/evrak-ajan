@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -24,23 +24,23 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Mal Alım İşi Talebi",
-  "sayi": "E-39985474-934.01-2603375",
-  "tarih": "30.03.2026",
+  "konu": "Bilgi Edinme, Talep ve Şikayetler Talebi",
+  "sayi": "E-65859045-622.01-1887910",
+  "tarih": "09.03.2026",
   "ilgi": {
-    "tarih": "03.03.2026",
-    "sayi": "E-55461037-934.01-3060993"
+    "tarih": "05.02.2026",
+    "sayi": "E-55461037-622.01-7338680"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Mal Alım İşi kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
+    "Mevcut durum": "Bilgi Edinme, Talep ve Şikayetler kapsamındaki iş yükü artmıştır",
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
     "Amaç": "vatandaş memnuniyetinin artırılması",
-    "Talep": "teknik destek sağlanması"
+    "Talep": "ilave personel görevlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,11 +50,12 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
+    "Özel Öğretim Kurumları Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "ek kapasiteye ihtiyaç duyulmaktadır",
     "vatandaş memnuniyetinin artırılması",
-    "teknik destek sağlanması"
+    "ilave personel görevlendirilmesi"
   ]
 }

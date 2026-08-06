@@ -5,18 +5,18 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "kurum_adi": "Mali Hizmetler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10099586",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "43195403",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -24,21 +24,22 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
-    "saklama_suresi": "10"
+    "kod": "756.01",
+    "ad": "Tahsis, Devir ve Takas",
+    "saklama_suresi": "B"
   },
-  "konu": "Yatırım Programı Hk.",
-  "sayi": "E-10099586-602.07-5674929",
-  "tarih": "06.03.2026",
+  "konu": "Taşınmaz Devir İşlemi Hk.",
+  "sayi": "E-43195403-756.01-3761251",
+  "tarih": "27.01.2026",
   "ilgi": {
-    "tarih": "27.01.2026",
-    "sayi": "E-65859045-602.07-2572339"
+    "tarih": "19.01.2026",
+    "sayi": "E-65859045-756.01-4329915"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yatırım Programı",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Taşınmaz Devir İşlemi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Taşınmaz": "62581 ada, 36 parsel",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
     "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
     "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
@@ -51,12 +52,13 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yatırım Programı",
-    "olumlu, belge düzenlendi",
+    "Taşınmaz Devir İşlemi",
+    "olumlu, talep karşılandı",
+    "62581 ada, 36 parsel",
     "Müdürlüğümüz kayıt bürosu",
     "kimlik belgesi ibraz edilerek şahsen",
     "düzenlendiği tarihten itibaren bir yıl"

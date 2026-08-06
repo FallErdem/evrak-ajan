@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "10056635",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "10213773",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
   "aile": "tekit",
@@ -28,19 +28,19 @@
     "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Kurs Bitirme Belgesi Talebi",
-  "sayi": "E-10056635-135.03-3593734",
-  "tarih": "13.05.2026",
+  "konu": "Halk Eğitim Kursu Açılması Talebi",
+  "sayi": "E-10213773-135.03-8548124",
+  "tarih": "13.04.2026",
   "ilgi": {
-    "tarih": "22.04.2026",
-    "sayi": "E-55461037-135.03-8778027"
+    "tarih": "09.04.2026",
+    "sayi": "E-55461037-135.03-2854236"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "en geç bir hafta içinde"
+    "Süre": "beş iş günü içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +56,6 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "en geç bir hafta içinde"
+    "beş iş günü içinde"
   ]
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ali ÖZKAN",
-    "adres": "Beştepe Mahallesi Akasya Caddesi No: 112/24 Yenimahalle/ANKARA",
+    "ad": "Esra ÖZKAN",
+    "adres": "Serhat Mahallesi Kestane Caddesi No: 96/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,21 +23,21 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Disiplin İşleri Hakkında Şikâyet",
+  "konu": "Servis Hizmeti Aksaklığı Bildirimi",
   "sayi": null,
-  "tarih": "03.03.2026",
+  "tarih": "04.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Disiplin İşleri Hakkında Şikâyet",
-    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
-    "Yer": "Emniyet Mahallesi",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
+    "Sorun": "sokak aydınlatması uzun süredir çalışmıyor",
+    "Yer": "Barıştepe Mahallesi",
+    "Süre": "yaklaşık üç haftadır",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -48,13 +48,13 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Disiplin İşleri Hakkında Şikâyet",
-    "Emniyet Mahallesi",
-    "bir aydan uzun süredir",
+    "Servis Hizmeti Aksaklığı",
+    "Barıştepe Mahallesi",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]
 }

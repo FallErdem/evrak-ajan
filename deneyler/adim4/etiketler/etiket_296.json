@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "İbrahim KARA",
-    "adres": "Uğur Mumcu Mahallesi Ihlamur Sokağı No: 58/11 Yenimahalle/ANKARA",
+    "ad": "Mehmet ÇAKIR",
+    "adres": "Demetevler Mahallesi Papatya Sokağı No: 65/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,19 +23,18 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.10",
-    "ad": "Adres ve Numaralandırma",
-    "saklama_suresi": "B"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Numarataj Belgesi Talebi",
+  "konu": "Terazi Damgalama Başvurusu",
   "sayi": null,
-  "tarih": "20.01.2026",
+  "tarih": "13.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Numarataj Belgesi",
-    "Taşınmaz": "50067 ada, 12 parsel",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Terazi Damgalama",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -44,12 +43,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Numarataj Belgesi",
-    "50067 ada, 12 parsel",
-    "resmî işlemlerde kullanılmak üzere"
+    "Terazi Damgalama",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

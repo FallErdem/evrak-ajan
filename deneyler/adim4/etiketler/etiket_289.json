@@ -29,19 +29,19 @@
     "saklama_suresi": "10"
   },
   "konu": "Yatırım Programı Hk.",
-  "sayi": "E-10213773-602.07-8548736",
-  "tarih": "27.05.2026",
+  "sayi": "E-10213773-602.07-8548305",
+  "tarih": "11.05.2026",
   "ilgi": {
-    "tarih": "24.04.2026",
-    "sayi": "E-55461037-602.07-8464523"
+    "tarih": "07.04.2026",
+    "sayi": "E-55461037-602.07-8421023"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Yatırım Programı",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,6 +58,7 @@
     "Yatırım Programı",
     "olumlu, işlem tamamlandı",
     "Müdürlüğümüz kayıt bürosu",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "noter onaylı vekâletname ile veya bizzat",
+    "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

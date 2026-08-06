@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "kurum_adi": "Temizlik İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10099586",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "83011479",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
@@ -24,22 +24,22 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "125",
-    "ad": "Evlendirme İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "110.04",
+    "ad": "Encümen Kararları",
+    "saklama_suresi": "B"
   },
-  "konu": "Evlendirme İşlemleri Oluru",
-  "sayi": "E-10099586-125-5673869",
-  "tarih": "28.04.2026",
+  "konu": "Encümen Kararları Oluru",
+  "sayi": "E-83011479-110.04-6853190",
+  "tarih": "28.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Evlendirme İşlemleri",
-    "Gerekçe": "iş ve işlemlerin zamanında tamamlanması",
+    "Konu": "Encümen Kararları",
+    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,7 +54,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Evlendirme İşlemleri",
-    "iş ve işlemlerin zamanında tamamlanması"
+    "Encümen Kararları",
+    "mevzuatın öngördüğü sürelere uyulması"
   ]
 }

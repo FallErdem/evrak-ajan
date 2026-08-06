@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ahmet ÇELIK",
-    "adres": "Pamuklar Mahallesi Çınar Caddesi No: 51/17 Yenimahalle/ANKARA",
+    "ad": "Ömer AVCI",
+    "adres": "Karşıyaka Mahallesi Kestane Sokağı No: 120/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,19 +23,19 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
     "saklama_suresi": "10"
   },
-  "konu": "Askerlik Durum Belgesi Talebi",
+  "konu": "Kayıt Dondurma Talebi",
   "sayi": null,
-  "tarih": "06.01.2026",
+  "tarih": "22.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Askerlik Durum Belgesi",
-    "Öğrenim bilgisi": "2017 yılı mezunu",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Kayıt Dondurma",
+    "Öğrenim bilgisi": "2019 yılı mezunu",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +49,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Askerlik Durum Belgesi",
-    "2017 yılı mezunu",
-    "resmî işlemlerde kullanılmak üzere"
+    "Kayıt Dondurma",
+    "2019 yılı mezunu",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

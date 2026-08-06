@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Merve ÖZTÜRK",
-    "adres": "Susuz Mahallesi Çınar Sokağı No: 29/23 Yenimahalle/ANKARA",
+    "ad": "Emre ŞIMŞEK",
+    "adres": "Barıştepe Mahallesi Lale Sokağı No: 65/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,19 +23,19 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+  "konu": "Ruhsat Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "14.04.2026",
+  "tarih": "22.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+    "Şikâyet konusu": "Ruhsat Hakkında Şikâyet",
     "Sorun": "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
-    "Yer": "Yeşilevler Mahallesi",
+    "Yer": "Çiğdemtepe Mahallesi",
     "Süre": "geçtiğimiz aydan bu yana",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
@@ -48,11 +48,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yeşilevler Mahallesi",
+    "Ruhsat Hakkında Şikâyet",
+    "Çiğdemtepe Mahallesi",
     "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]

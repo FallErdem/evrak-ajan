@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -29,8 +29,8 @@
     "saklama_suresi": "15"
   },
   "konu": "Kararlar Hk.",
-  "sayi": "E-10213773-050.04-8547476",
-  "tarih": "28.01.2026",
+  "sayi": "E-65859045-050.04-1888184",
+  "tarih": "17.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -42,7 +42,7 @@
     "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Ege Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Yıldız İnşaat Ltd. Şti.",
     "ad": null,
-    "adres": "Ergazi Mahallesi Manolya Sokağı No: 28/16 Yenimahalle/ANKARA",
+    "adres": "Ragıpbey Mahallesi Çınar Caddesi No: 8/13 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -24,19 +24,19 @@
   "hiyerarsi_yonu": "ozel_tuzel",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
+    "kod": "773",
+    "ad": "Staj İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Dondurma ve İzin Talebi",
-  "sayi": "2026/5452",
-  "tarih": "03.02.2026",
+  "konu": "Staj Kabul Yazısı Talebi",
+  "sayi": "2026/3751",
+  "tarih": "29.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İzin İşleri konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Talep": "Staj İşleri konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
     "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
@@ -53,7 +53,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
     "elektronik posta ile"
   ]
 }

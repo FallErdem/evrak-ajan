@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Esra ÇETIN",
-    "adres": "Kaletepe Mahallesi Sümbül Sokağı No: 45/22 Yenimahalle/ANKARA",
+    "ad": "Şaban KAYA",
+    "adres": "Ostim Mahallesi Erguvan Caddesi No: 24/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,17 +23,17 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.14",
-    "ad": "Tez İşleri",
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
     "saklama_suresi": "B"
   },
-  "konu": "Tez Teslim Süresi Uzatım Talebi",
+  "konu": "Değişim Programı Ders Tanıma Talebi",
   "sayi": null,
-  "tarih": "19.01.2026",
+  "tarih": "05.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Tez Teslim Süresi Uzatım",
+    "Talep": "Değişim Programı Ders Tanıma",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
     "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
@@ -44,12 +44,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Tez Teslim Süresi Uzatım",
+    "Değişim Programı Ders Tanıma",
     "lisansüstü programa kayıtlı",
     "başvuru dosyasına eklenmek üzere"
   ]

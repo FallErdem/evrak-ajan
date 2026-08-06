@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -29,20 +29,20 @@
     "saklama_suresi": "40"
   },
   "konu": "İdari Davalar Hk.",
-  "sayi": "E-24432702-641.04-8582526",
-  "tarih": "27.03.2026",
+  "sayi": "E-10213773-641.04-8545207",
+  "tarih": "25.05.2026",
   "ilgi": {
-    "tarih": "18.03.2026",
-    "sayi": "E-65859045-641.04-7990894"
+    "tarih": "01.05.2026",
+    "sayi": "E-65859045-641.04-7737946"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
     "Konu": "İdari Davalar kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
     "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"

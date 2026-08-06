@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ömer ERDOĞAN",
-    "adres": "Susuz Mahallesi Yasemin Sokağı No: 57/18 Yenimahalle/ANKARA",
+    "ad": "Onur AVCI",
+    "adres": "Susuz Mahallesi Erguvan Sokağı No: 80/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,21 +23,21 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "kod": "135.03",
+    "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Bilgi Edinme, Talep ve Şikayetler Hakkında Şikâyet",
+  "konu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "27.03.2026",
+  "tarih": "09.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Bilgi Edinme, Talep ve Şikayetler Hakkında Şikâyet",
-    "Sorun": "gece saatlerinde yüksek sesle çalışma yapılıyor",
-    "Yer": "Ostim Mahallesi",
+    "Şikâyet konusu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
+    "Sorun": "kaldırım işgali nedeniyle yaya geçişi engelleniyor",
+    "Yer": "Batıkent Mahallesi",
     "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,7 +52,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Ostim Mahallesi",
+    "Yaygın Eğitim Kursları Hakkında Şikâyet",
+    "Batıkent Mahallesi",
     "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]

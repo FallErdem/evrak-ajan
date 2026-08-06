@@ -5,18 +5,18 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "kurum_adi": "Ruhsat ve Denetim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10099586",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "59553370",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -24,24 +24,24 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "125",
-    "ad": "Evlendirme İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Evlenme Başvurusu Hk.",
-  "sayi": "E-10099586-125-5675846",
-  "tarih": "04.05.2026",
+  "konu": "Para Cezası Tahsilatı Hk.",
+  "sayi": "E-59553370-858-3699374",
+  "tarih": "10.03.2026",
   "ilgi": {
-    "tarih": "26.03.2026",
-    "sayi": "E-65859045-125-4510919"
+    "tarih": "12.02.2026",
+    "sayi": "E-65859045-858-8623023"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Evlenme Başvurusu",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Para Cezası Tahsilatı",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
     "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,14 +51,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Evlenme Başvurusu",
-    "olumlu, talep karşılandı",
+    "Para Cezası Tahsilatı",
+    "olumlu, belge düzenlendi",
     "Müdürlüğümüz kayıt bürosu",
     "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren altı ay"
+    "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

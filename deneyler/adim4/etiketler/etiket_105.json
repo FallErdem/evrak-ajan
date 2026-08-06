@@ -24,21 +24,21 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Uygulama Hakkında Hukuki Görüş",
-  "sayi": "E-10213773-045.02-8545113",
-  "tarih": "14.05.2026",
+  "konu": "Genelge Görüşü Talebi",
+  "sayi": "E-10213773-010.06-8544977",
+  "tarih": "30.04.2026",
   "ilgi": {
-    "tarih": "13.04.2026",
-    "sayi": "E-39985474-045.02-4992364"
+    "tarih": "18.03.2026",
+    "sayi": "E-39985474-010.06-3979078"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Hukuki",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Genelgeler",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [

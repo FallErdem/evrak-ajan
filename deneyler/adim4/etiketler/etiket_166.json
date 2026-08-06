@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Ege Mühendislik Ltd. Şti.",
+    "kurum_adi": "Ege Turizm ve Ticaret A.Ş.",
     "ad": null,
-    "adres": "Uğur Mumcu Mahallesi Nergis Caddesi No: 79/22 Yenimahalle/ANKARA",
+    "adres": "İvedik Mahallesi Erguvan Sokağı No: 58/10 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -24,20 +24,20 @@
   "hiyerarsi_yonu": "ozel_tuzel",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "İtfaiye Uygunluk Raporu Talebi",
-  "sayi": "2026/9305",
-  "tarih": "23.03.2026",
+  "konu": "Çalıştay Katılım Talebi",
+  "sayi": "2026/4230",
+  "tarih": "05.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İtfaiye Uygunluk Raporları konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "elektronik posta ile"
+    "Talep": "Toplantı ve Etkinlik İşleri konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -47,11 +47,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "elektronik posta ile"
+    "posta yoluyla adresime"
   ]
 }

@@ -24,20 +24,20 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Nakil Talebi",
-  "sayi": "E-39985474-210.01-2602894",
-  "tarih": "20.01.2026",
+  "konu": "Servis Güzergahı Talebi",
+  "sayi": "E-39985474-802-2602136",
+  "tarih": "30.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Nakiller kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Ulaşım ve Servis İşleri kapsamındaki iş yükü artmıştır",
     "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Amaç": "hizmetlerin aksamadan yürütülmesi",
+    "Talep": "teknik destek sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -51,8 +51,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Nakiller kapsamındaki iş yükü artmıştır",
-    "kaynakların etkin kullanılması",
-    "ilave personel görevlendirilmesi"
+    "hizmetlerin aksamadan yürütülmesi",
+    "teknik destek sağlanması"
   ]
 }

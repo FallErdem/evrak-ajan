@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -24,13 +24,13 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
-    "saklama_suresi": "15"
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "İhale Listesinin Gönderilmesi",
-  "sayi": "E-24432702-755.02-8582998",
-  "tarih": "14.05.2026",
+  "konu": "Staj Değerlendirme Formunun Gönderilmesi",
+  "sayi": "E-56248377-773-6501660",
+  "tarih": "05.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
@@ -41,7 +41,7 @@
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "içinde bulunulan yıl",
     "Sayı": "94 kayıt",
-    "Ek 1": "İhale listesi",
+    "Ek 1": "Staj İşleri listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -54,14 +54,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "içinde bulunulan yıl",
     "94 kayıt",
-    "İhale listesi",
+    "Staj İşleri listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

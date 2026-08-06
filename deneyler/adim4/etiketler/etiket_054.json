@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şaban YAVUZ",
-    "adres": "Yeşilevler Mahallesi Papatya Sokağı No: 40/2 Yenimahalle/ANKARA",
+    "ad": "Selin YILMAZ",
+    "adres": "Demetevler Mahallesi Ihlamur Sokağı No: 92/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,18 +23,18 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Uygunluk Raporu Yenileme Talebi",
+  "konu": "Terazi Damgalama Başvurusu",
   "sayi": null,
-  "tarih": "20.04.2026",
+  "tarih": "19.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Uygunluk Raporu Yenileme",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Terazi Damgalama",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,7 +47,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Uygunluk Raporu Yenileme",
-    "ilgili kuruma sunulmak üzere"
+    "Terazi Damgalama",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

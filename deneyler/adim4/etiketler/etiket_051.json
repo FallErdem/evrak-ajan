@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Pınar ŞAHIN",
-    "adres": "Batıkent Mahallesi Ceviz Sokak No: 36/2 Yenimahalle/ANKARA",
+    "ad": "İbrahim KURT",
+    "adres": "Pamuklar Mahallesi Yasemin Sokak No: 115/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,18 +23,18 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Kayıt Alanı Dışından Kayıt Talebi",
+  "konu": "Nakil Başvurusunun Değerlendirilmesi",
   "sayi": null,
-  "tarih": "17.03.2026",
+  "tarih": "16.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Alanı Dışından Kayıt",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Nakil Başvurusunun Değerlendirilmesi",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,7 +47,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kayıt Alanı Dışından Kayıt",
-    "resmî işlemlerde kullanılmak üzere"
+    "Nakil Başvurusunun Değerlendirilmesi",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hasan KOÇ",
-    "adres": "Ragıpbey Mahallesi Sümbül Caddesi No: 72/3 Yenimahalle/ANKARA",
+    "ad": "Nurten AYDIN",
+    "adres": "Yeşilevler Mahallesi Sümbül Sokağı No: 79/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,20 +23,20 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
+    "kod": "115.01.06",
+    "ad": "Uygulama İmar Planı",
     "saklama_suresi": "B"
   },
-  "konu": "Yapı Kullanma İzni Hakkında Şikâyet",
+  "konu": "Uygulama İmar Planı Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "08.04.2026",
+  "tarih": "23.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yapı Kullanma İzni Hakkında Şikâyet",
-    "Sorun": "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
-    "Yer": "Pamuklar Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
+    "Şikâyet konusu": "Uygulama İmar Planı Hakkında Şikâyet",
+    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
+    "Yer": "Serhat Mahallesi",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -52,9 +52,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yapı Kullanma İzni Hakkında Şikâyet",
-    "Pamuklar Mahallesi",
-    "yaklaşık kırk gündür",
+    "Uygulama İmar Planı Hakkında Şikâyet",
+    "Serhat Mahallesi",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

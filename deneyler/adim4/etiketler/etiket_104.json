@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Aslı AKTAŞ",
-    "adres": "Batıkent Mahallesi Yasemin Caddesi No: 21/4 Yenimahalle/ANKARA",
+    "ad": "Pınar ÇAKIR",
+    "adres": "Yakacık Mahallesi Lale Sokağı No: 72/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -29,14 +29,14 @@
   },
   "konu": "Ruhsat Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "05.03.2026",
+  "tarih": "03.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "Ruhsat Hakkında Şikâyet",
-    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
-    "Yer": "Emniyet Mahallesi",
-    "Süre": "geçtiğimiz aydan bu yana",
+    "Sorun": "sokak aydınlatması uzun süredir çalışmıyor",
+    "Yer": "Çiğdemtepe Mahallesi",
+    "Süre": "yaklaşık üç haftadır",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -53,8 +53,8 @@
   ],
   "anahtar_terimler": [
     "Ruhsat Hakkında Şikâyet",
-    "Emniyet Mahallesi",
-    "geçtiğimiz aydan bu yana",
+    "Çiğdemtepe Mahallesi",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]
 }

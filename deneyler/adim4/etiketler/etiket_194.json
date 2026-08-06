@@ -5,18 +5,18 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "10045836",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "10213773",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
   "aile": "ust_yazi",
@@ -24,24 +24,24 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
-    "saklama_suresi": "10"
+    "kod": "756.02",
+    "ad": "Satış ve Kiralama",
+    "saklama_suresi": "B"
   },
-  "konu": "Atık Yönetimi Listesinin Gönderilmesi",
-  "sayi": "E-10045836-155.01-1193171",
-  "tarih": "05.02.2026",
+  "konu": "Satış ve Kiralama Listesinin Gönderilmesi",
+  "sayi": "E-10213773-756.02-8546815",
+  "tarih": "17.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 6
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "yılın ilk yarısı",
-    "Sayı": "24 kayıt",
-    "Ek 1": "Atık Yönetimi listesi",
+    "Dönem": "mali yıl",
+    "Sayı": "68 kayıt",
+    "Ek 1": "Satış ve Kiralama listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -54,14 +54,14 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "yılın ilk yarısı",
-    "24 kayıt",
-    "Atık Yönetimi listesi",
+    "mali yıl",
+    "68 kayıt",
+    "Satış ve Kiralama listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

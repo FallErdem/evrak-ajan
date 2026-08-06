@@ -5,18 +5,18 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları",
+    "kurum_adi": "Mühendislik Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10338915",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "43123369",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -24,24 +24,24 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "saklama_suresi": "10"
   },
-  "konu": "Stajlar Hk.",
-  "sayi": "E-10338915-304.03-5393715",
-  "tarih": "07.01.2026",
+  "konu": "Öğrenci Toplulukları, Birlikleri vb. Hk.",
+  "sayi": "E-43123369-309-2327911",
+  "tarih": "08.01.2026",
   "ilgi": {
-    "tarih": "31.12.2025",
-    "sayi": "E-39985474-304.03-6291534"
+    "tarih": "23.12.2025",
+    "sayi": "E-39985474-309-7220913"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Stajlar",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Öğrenci Toplulukları, Birlikleri vb.",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,13 +51,15 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "olumlu, talep karşılandı",
+    "Öğrenci Toplulukları, Birlikleri vb.",
+    "olumlu, işlem tamamlandı",
     "Başkanlığımız kayıt bürosu",
-    "düzenlendiği tarihten itibaren altı ay"
+    "noter onaylı vekâletname ile veya bizzat",
+    "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

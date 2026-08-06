@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ömer ŞAHIN",
-    "adres": "Karşıyaka Mahallesi Akasya Sokağı No: 71/11 Yenimahalle/ANKARA",
+    "ad": "Gamze KAYA",
+    "adres": "Batıkent Mahallesi Yasemin Sokağı No: 28/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,19 +23,19 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
     "saklama_suresi": "10"
   },
-  "konu": "Transkript Talebi",
+  "konu": "Kendi İsteğiyle Kayıt Sildirme Talebi",
   "sayi": null,
-  "tarih": "22.04.2026",
+  "tarih": "28.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Transkript",
-    "Öğrenim bilgisi": "1. sınıf öğrencisi",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Kendi İsteğiyle Kayıt Sildirme",
+    "Öğrenim bilgisi": "4. sınıf öğrencisi",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,7 +49,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "1. sınıf öğrencisi",
-    "başvuru dosyasına eklenmek üzere"
+    "Kendi İsteğiyle Kayıt Sildirme",
+    "4. sınıf öğrencisi",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

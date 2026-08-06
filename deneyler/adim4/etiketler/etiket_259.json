@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Çankaya Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "90226917",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -24,20 +24,20 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "807.01",
-    "ad": "Bina ve Tesisler",
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
     "saklama_suresi": "10"
   },
-  "konu": "Tadilat Talebinin Değerlendirilmesi",
-  "sayi": "E-39985474-807.01-2603915",
-  "tarih": "18.05.2026",
+  "konu": "Engelli Erişim Düzenlemesi Talebi",
+  "sayi": "E-90226917-120.02-8661238",
+  "tarih": "23.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Bina ve Tesisler kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Engellilere Yönelik Hizmetler kapsamındaki iş yükü artmıştır",
     "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Amaç": "hizmetlerin aksamadan yürütülmesi",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -47,12 +47,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ek kapasiteye ihtiyaç duyulmaktadır",
-    "mevzuatın öngördüğü sürelere uyulması",
-    "ilave personel görevlendirilmesi"
+    "hizmetlerin aksamadan yürütülmesi",
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

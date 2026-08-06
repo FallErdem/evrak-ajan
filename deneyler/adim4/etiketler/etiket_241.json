@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -24,16 +24,16 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
-    "saklama_suresi": "10"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Okul Aile Birlikleri Listesinin Gönderilmesi",
-  "sayi": "E-10056635-165.01-3593426",
-  "tarih": "08.05.2026",
+  "konu": "Eğitim Fakülteleri İle İlişkiler Listesinin Gönderilmesi",
+  "sayi": "E-10056635-355.02-3593972",
+  "tarih": "06.01.2026",
   "ilgi": {
-    "tarih": "24.04.2026",
-    "sayi": "E-55461037-165.01-3072154"
+    "tarih": "18.12.2025",
+    "sayi": "E-55461037-355.02-2763866"
   },
   "ek": {
     "adet": 2,
@@ -42,9 +42,9 @@
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "bahar dönemi",
-    "Sayı": "18 kayıt",
-    "Ek 1": "Okul Aile Birlikleri listesi",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Sayı": "186 kayıt",
+    "Ek 1": "Eğitim Fakülteleri İle İlişkiler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +57,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "bahar dönemi",
-    "18 kayıt",
-    "Okul Aile Birlikleri listesi",
+    "içinde bulunulan öğretim yılı",
+    "186 kayıt",
+    "Eğitim Fakülteleri İle İlişkiler listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

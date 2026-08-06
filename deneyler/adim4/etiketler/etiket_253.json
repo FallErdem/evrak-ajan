@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -24,23 +24,23 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
   },
-  "konu": "Kayıt Süresi Uzatım Talebi",
-  "sayi": "E-10213773-302.01-8548208",
-  "tarih": "25.05.2026",
+  "konu": "Karar Örneği Talebi",
+  "sayi": "E-10213773-050.04-8547886",
+  "tarih": "27.01.2026",
   "ilgi": {
-    "tarih": "28.04.2026",
-    "sayi": "E-39985474-302.01-6584295"
+    "tarih": "30.12.2025",
+    "sayi": "E-39985474-050.04-2383550"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Yeni Kayıt İşlemleri kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Kararlar kapsamındaki iş yükü artmıştır",
     "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
     "Amaç": "vatandaş memnuniyetinin artırılması",
-    "Talep": "teknik destek sağlanması"
+    "Talep": "ilave personel görevlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,13 +50,14 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
+    "Kararlar kapsamındaki iş yükü artmıştır",
     "mevcut kaynaklar yetersiz kalmaktadır",
     "vatandaş memnuniyetinin artırılması",
-    "teknik destek sağlanması"
+    "ilave personel görevlendirilmesi"
   ]
 }

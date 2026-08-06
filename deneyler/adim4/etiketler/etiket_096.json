@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "10094490",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "10213773",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
@@ -24,19 +24,19 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "204.01",
-    "ad": "Doçentlik",
-    "saklama_suresi": "15"
+    "kod": "903.02",
+    "ad": "Atama İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Doçentlik Talebi",
-  "sayi": "E-10094490-204.01-1887378",
-  "tarih": "23.02.2026",
+  "konu": "Naklen Atama Talebi",
+  "sayi": "E-10213773-903.02-8544599",
+  "tarih": "05.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Doçentlik kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "vatandaş memnuniyetinin artırılması",
+    "Mevcut durum": "Atama İşleri kapsamındaki iş yükü artmıştır",
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
+    "Amaç": "hizmetlerin aksamadan yürütülmesi",
     "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,8 +52,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Doçentlik kapsamındaki iş yükü artmıştır",
-    "vatandaş memnuniyetinin artırılması",
+    "ek kapasiteye ihtiyaç duyulmaktadır",
+    "hizmetlerin aksamadan yürütülmesi",
     "gerekli ödeneğin tahsis edilmesi"
   ]
 }

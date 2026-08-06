@@ -15,8 +15,8 @@
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10094490",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "65859045",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
@@ -29,7 +29,7 @@
     "saklama_suresi": "15"
   },
   "konu": "Genelge Görüşü Talebi",
-  "sayi": "E-10094490-010.06-1886377",
+  "sayi": "E-65859045-010.06-1886377",
   "tarih": "06.02.2026",
   "ilgi": {
     "tarih": "16.01.2026",

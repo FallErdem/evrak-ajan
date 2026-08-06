@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet KARA",
-    "adres": "Serhat Mahallesi Ihlamur Sokak No: 115/22 Yenimahalle/ANKARA",
+    "ad": "Elif DOĞAN",
+    "adres": "Çiğdemtepe Mahallesi Çınar Sokağı No: 67/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,21 +23,21 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Arşivlerden Yararlanma Hakkında Şikâyet",
+  "konu": "Belge Talepleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "30.04.2026",
+  "tarih": "01.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Arşivlerden Yararlanma Hakkında Şikâyet",
-    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
-    "Yer": "Yakacık Mahallesi",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Belge Talepleri Hakkında Şikâyet",
+    "Sorun": "sokak aydınlatması uzun süredir çalışmıyor",
+    "Yer": "Emniyet Mahallesi",
+    "Süre": "yaklaşık üç haftadır",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,9 +52,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşivlerden Yararlanma Hakkında Şikâyet",
-    "Yakacık Mahallesi",
-    "geçtiğimiz aydan bu yana",
+    "Belge Talepleri Hakkında Şikâyet",
+    "Emniyet Mahallesi",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]
 }

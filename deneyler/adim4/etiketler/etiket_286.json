@@ -24,23 +24,23 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "104.01",
-    "ad": "Program Açma",
-    "saklama_suresi": "15"
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Program Açma Başvurusu Hk.",
-  "sayi": "E-10101653-104.01-3449929",
-  "tarih": "13.05.2026",
+  "konu": "İzin İşleri Hk.",
+  "sayi": "E-10101653-302.08-3450005",
+  "tarih": "30.01.2026",
   "ilgi": {
-    "tarih": "02.04.2026",
-    "sayi": "E-39985474-104.01-4412367"
+    "tarih": "20.01.2026",
+    "sayi": "E-39985474-302.08-4047497"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Program Açma Başvurusu",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "İzin İşleri",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
     "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
@@ -56,9 +56,10 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Program Açma Başvurusu",
-    "olumlu, işlem tamamlandı",
+    "İzin İşleri",
+    "olumlu, talep karşılandı",
     "Başkanlığımız kayıt bürosu",
+    "noter onaylı vekâletname ile veya bizzat",
     "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

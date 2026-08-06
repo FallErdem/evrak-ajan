@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Vizyon İnşaat Ltd. Şti.",
+    "kurum_adi": "Başkent Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Uğur Mumcu Mahallesi Ihlamur Sokağı No: 8/10 Yenimahalle/ANKARA",
+    "adres": "Serhat Mahallesi Nergis Caddesi No: 9/23 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -28,16 +28,16 @@
     "ad": "Emlak Vergisi",
     "saklama_suresi": "15"
   },
-  "konu": "Emlak Vergisi Muafiyet Başvurusu",
-  "sayi": "2026/5043",
-  "tarih": "24.02.2026",
+  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
+  "sayi": "2026/3036",
+  "tarih": "30.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Emlak Vergisi konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,6 +52,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "e-Devlet üzerinden"
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

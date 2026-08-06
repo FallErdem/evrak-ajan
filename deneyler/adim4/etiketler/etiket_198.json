@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep GÜLER",
-    "adres": "Demetevler Mahallesi Yasemin Sokak No: 63/13 Yenimahalle/ANKARA",
+    "ad": "Serkan KILIÇ",
+    "adres": "Ostim Mahallesi Çınar Caddesi No: 78/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,19 +23,19 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Staj Kabul Yazısı Talebi",
+  "konu": "Transkript Talebi",
   "sayi": null,
   "tarih": "23.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Staj Kabul Yazısı",
-    "Öğrenim bilgisi": "2024 yılı mezunu",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Transkript",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -44,13 +44,12 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Kabul Yazısı",
-    "2024 yılı mezunu",
-    "resmî işlemlerde kullanılmak üzere"
+    "lisansüstü programa kayıtlı",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

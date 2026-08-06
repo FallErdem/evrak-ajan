@@ -5,18 +5,18 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10099586",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "26888327",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -24,25 +24,24 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.02",
-    "ad": "Satış ve Kiralama",
-    "saklama_suresi": "B"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "Taşınmaz Satış İhalesi Hk.",
-  "sayi": "E-10099586-756.02-5675137",
-  "tarih": "24.02.2026",
+  "konu": "İdari Davalar Hk.",
+  "sayi": "E-26888327-641.04-1204854",
+  "tarih": "18.03.2026",
   "ilgi": {
-    "tarih": "06.02.2026",
-    "sayi": "E-65859045-756.02-9595552"
+    "tarih": "26.02.2026",
+    "sayi": "E-65859045-641.04-5306066"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Taşınmaz Satış İhalesi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
-    "Taşınmaz": "31897 ada, 29 parsel",
+    "Talep": "İdari Davalar",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -52,14 +51,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Taşınmaz Satış İhalesi",
-    "olumlu, talep karşılandı",
-    "31897 ada, 29 parsel",
+    "İdari Davalar",
+    "olumlu, belge düzenlendi",
     "Müdürlüğümüz kayıt bürosu",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "noter onaylı vekâletname ile veya bizzat",
+    "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

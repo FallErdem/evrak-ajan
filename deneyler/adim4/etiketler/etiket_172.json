@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İl millî eğitim müdürlüğü şube müdürlükleri",
+    "kurum_adi": "Yakacık Mesleki ve Teknik Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10173962",
+    "detsis_no": "10192495",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
@@ -24,24 +24,24 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Stratejik Plan Hk.",
-  "sayi": "E-10173962-602.04-3105853",
-  "tarih": "17.03.2026",
+  "konu": "CİMER Başvurusu Hk.",
+  "sayi": "E-10192495-622.01-5099434",
+  "tarih": "22.05.2026",
   "ilgi": {
-    "tarih": "04.02.2026",
-    "sayi": "E-55461037-602.04-7190804"
+    "tarih": "28.04.2026",
+    "sayi": "E-55461037-622.01-4869503"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Stratejik Plan",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "CİMER Başvurusu",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,14 +51,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
+    "Özel Öğretim Kurumları Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Stratejik Plan",
-    "olumlu, belge düzenlendi",
+    "CİMER Başvurusu",
+    "olumlu, işlem tamamlandı",
     "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren altı ay"
+    "noter onaylı vekâletname ile veya bizzat",
+    "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

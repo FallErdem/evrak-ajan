@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -29,18 +29,18 @@
     "saklama_suresi": "10"
   },
   "konu": "Kayıt Süresi Uzatım Talebi",
-  "sayi": "E-10213773-302.01-8544081",
-  "tarih": "19.02.2026",
+  "sayi": "E-55461037-302.01-5985880",
+  "tarih": "26.02.2026",
   "ilgi": {
-    "tarih": "20.01.2026",
-    "sayi": "E-39985474-302.01-3189512"
+    "tarih": "16.01.2026",
+    "sayi": "E-39985474-302.01-1775662"
   },
   "ek": null,
   "somut_bilgiler": {
     "Mevcut durum": "Yeni Kayıt İşlemleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
     "Amaç": "vatandaş memnuniyetinin artırılması",
-    "Talep": "teknik destek sağlanması"
+    "Talep": "ilave personel görevlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,8 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "mevcut kaynaklar yetersiz kalmaktadır",
+    "ek kapasiteye ihtiyaç duyulmaktadır",
     "vatandaş memnuniyetinin artırılması",
-    "teknik destek sağlanması"
+    "ilave personel görevlendirilmesi"
   ]
 }

@@ -29,15 +29,15 @@
     "saklama_suresi": "15"
   },
   "konu": "Karar Örneği Talebi",
-  "sayi": "E-55461037-050.04-5985860",
-  "tarih": "17.03.2026",
+  "sayi": "E-55461037-050.04-5986453",
+  "tarih": "09.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Mevcut durum": "Kararlar kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "teknik destek sağlanması"
+    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Amaç": "hizmetlerin aksamadan yürütülmesi",
+    "Talep": "ilave personel görevlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,8 +53,8 @@
   ],
   "anahtar_terimler": [
     "Kararlar kapsamındaki iş yükü artmıştır",
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "mevzuatın öngördüğü sürelere uyulması",
-    "teknik destek sağlanması"
+    "mevcut kaynaklar yetersiz kalmaktadır",
+    "hizmetlerin aksamadan yürütülmesi",
+    "ilave personel görevlendirilmesi"
   ]
 }

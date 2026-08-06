@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife ÖZDEMIR",
-    "adres": "Barıştepe Mahallesi Nergis Sokağı No: 1/8 Yenimahalle/ANKARA",
+    "ad": "Murat ÖZKAN",
+    "adres": "Yakacık Mahallesi Ceviz Caddesi No: 55/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,18 +23,19 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "115.02.04",
+    "ad": "Yapı Ruhsatı",
+    "saklama_suresi": "B"
   },
-  "konu": "Periyodik Muayene Talebi",
+  "konu": "Ruhsat Yenileme Talebi",
   "sayi": null,
-  "tarih": "05.01.2026",
+  "tarih": "06.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Periyodik Muayene",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Ruhsat Yenileme",
+    "Taşınmaz": "27190 ada, 36 parsel",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -43,11 +44,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Periyodik Muayene",
-    "başvuru dosyasına eklenmek üzere"
+    "Ruhsat Yenileme",
+    "27190 ada, 36 parsel",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

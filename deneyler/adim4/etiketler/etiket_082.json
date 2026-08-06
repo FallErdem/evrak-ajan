@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -24,24 +24,24 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "105.04",
-    "ad": "Meclis Kararları",
-    "saklama_suresi": "15"
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
+    "saklama_suresi": "10"
   },
-  "konu": "Meclis Kararının Gönderilmesi",
-  "sayi": "E-10213773-105.04-8544663",
-  "tarih": "16.01.2026",
+  "konu": "Atık Yönetimi Hk.",
+  "sayi": "E-56248377-155.01-6501430",
+  "tarih": "17.03.2026",
   "ilgi": {
-    "tarih": "04.12.2025",
-    "sayi": "E-65859045-105.04-1280232"
+    "tarih": "11.02.2026",
+    "sayi": "E-65859045-155.01-9203755"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Meclis Kararının Gönderilmesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Atık Yönetimi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,14 +51,13 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Meclis Kararının Gönderilmesi",
-    "olumlu, belge düzenlendi",
+    "Atık Yönetimi",
+    "olumlu, talep karşılandı",
     "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "düzenlendiği tarihten itibaren altı ay"
   ]
 }

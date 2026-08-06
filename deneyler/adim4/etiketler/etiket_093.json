@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra UÇAR",
-    "adres": "Ragıpbey Mahallesi Ihlamur Sokak No: 89/4 Yenimahalle/ANKARA",
+    "ad": "Emine YAVUZ",
+    "adres": "Yeşilevler Mahallesi Ihlamur Sokağı No: 48/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,19 +23,19 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Denklik Belgesi Talebi",
+  "konu": "Askerlik Durum Belgesi Talebi",
   "sayi": null,
-  "tarih": "23.03.2026",
+  "tarih": "07.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Denklik Belgesi",
-    "Öğrenim bilgisi": "2020 yılı mezunu",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Askerlik Durum Belgesi",
+    "Öğrenim bilgisi": "1. sınıf öğrencisi",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +49,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Denklik Belgesi",
-    "2020 yılı mezunu",
-    "başvuru dosyasına eklenmek üzere"
+    "Askerlik Durum Belgesi",
+    "1. sınıf öğrencisi",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

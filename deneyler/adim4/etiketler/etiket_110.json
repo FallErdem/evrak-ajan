@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Kuzey Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Yıldız Mühendislik Ltd. Şti.",
     "ad": null,
-    "adres": "Demetevler Mahallesi Ihlamur Sokağı No: 111/13 Yenimahalle/ANKARA",
+    "adres": "Beştepe Mahallesi Papatya Sokağı No: 48/15 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -24,19 +24,19 @@
   "hiyerarsi_yonu": "ozel_tuzel",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
     "saklama_suresi": "10"
   },
-  "konu": "Mal Alım İşi Hakkında Bilgi Edinme Başvurusu",
-  "sayi": "2026/681",
-  "tarih": "25.03.2026",
+  "konu": "Yatırım Programı Revizyon Talebi",
+  "sayi": "2026/7867",
+  "tarih": "30.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Mal Alım İşi konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Talep": "Yatırım Programı konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
     "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [

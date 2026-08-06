@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Çankaya Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "90226917",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -24,21 +24,21 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "755.01",
-    "ad": "Etüd-Proje ve Fizibilite",
-    "saklama_suresi": "30"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Etüd-Proje ve Fizibilite Hakkında Görüş Talebi",
-  "sayi": "E-39985474-755.01-2604174",
-  "tarih": "25.03.2026",
+  "konu": "Borç ve Alacak İşleri Hakkında Görüş Talebi",
+  "sayi": "E-90226917-855-8661589",
+  "tarih": "24.03.2026",
   "ilgi": {
-    "tarih": "13.02.2026",
-    "sayi": "E-65859045-755.01-6565104"
+    "tarih": "12.02.2026",
+    "sayi": "E-65859045-855-9951136"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Etüd-Proje ve Fizibilite",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Borç ve Alacak İşleri",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -49,11 +49,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Etüd-Proje ve Fizibilite",
+    "Borç ve Alacak İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

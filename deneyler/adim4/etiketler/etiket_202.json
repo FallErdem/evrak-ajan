@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Atlas Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Kaletepe Mahallesi Menekşe Sokak No: 26/22 Yenimahalle/ANKARA",
+    "adres": "İvedik Mahallesi Menekşe Caddesi No: 36/9 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -29,13 +29,13 @@
     "saklama_suresi": "15"
   },
   "konu": "Çalıştay Katılım Talebi",
-  "sayi": "2026/7578",
-  "tarih": "30.01.2026",
+  "sayi": "2026/8834",
+  "tarih": "07.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Çalıştay Katılım",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,6 +49,6 @@
   ],
   "anahtar_terimler": [
     "Çalıştay Katılım",
-    "başvuru dosyasına eklenmek üzere"
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

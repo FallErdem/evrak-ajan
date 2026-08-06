@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_egitim_rehberlik_sb",
-    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-    "detsis_no": "87302975",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -24,27 +24,27 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "160.01.02",
-    "ad": "Kaynaştırma Eğitimi",
-    "saklama_suresi": "10"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Kaynaştırma Eğitimi Listesinin Gönderilmesi",
-  "sayi": "E-10213773-160.01.02-8545650",
-  "tarih": "05.02.2026",
+  "konu": "Eğitim Fakülteleri İle İlişkiler Listesinin Gönderilmesi",
+  "sayi": "E-10213773-355.02-8546368",
+  "tarih": "14.05.2026",
   "ilgi": {
-    "tarih": "15.01.2026",
-    "sayi": "E-55461037-160.01.02-9993519"
+    "tarih": "14.04.2026",
+    "sayi": "E-55461037-355.02-3978894"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 3
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
-    "Sayı": "112 kayıt",
-    "Ek 1": "Kaynaştırma Eğitimi listesi",
+    "Dönem": "bahar dönemi",
+    "Sayı": "18 kayıt",
+    "Ek 1": "Eğitim Fakülteleri İle İlişkiler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +57,14 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "öğretim yılı",
-    "112 kayıt",
-    "Kaynaştırma Eğitimi listesi",
+    "bahar dönemi",
+    "18 kayıt",
+    "Eğitim Fakülteleri İle İlişkiler listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

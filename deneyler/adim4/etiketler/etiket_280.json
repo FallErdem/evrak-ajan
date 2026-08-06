@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra ERDOĞAN",
-    "adres": "İvedik Mahallesi Akasya Sokak No: 116/6 Yenimahalle/ANKARA",
+    "ad": "Osman KARACA",
+    "adres": "Barıştepe Mahallesi Sümbül Sokağı No: 99/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,20 +23,20 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
+  "konu": "Nakiller Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "01.05.2026",
+  "tarih": "28.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
-    "Sorun": "kaldırım işgali nedeniyle yaya geçişi engelleniyor",
-    "Yer": "Gayret Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
+    "Şikâyet konusu": "Nakiller Hakkında Şikâyet",
+    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
+    "Yer": "Pamuklar Mahallesi",
+    "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -48,12 +48,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Gayret Mahallesi",
-    "yaklaşık kırk gündür",
+    "Nakiller Hakkında Şikâyet",
+    "Pamuklar Mahallesi",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

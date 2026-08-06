@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -24,20 +24,20 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
-    "saklama_suresi": "2"
+    "kod": "104.01",
+    "ad": "Program Açma",
+    "saklama_suresi": "15"
   },
-  "konu": "Sınav Programları ve Sınavlar Talebi",
-  "sayi": "E-55461037-106-5986734",
-  "tarih": "26.03.2026",
+  "konu": "Kontenjan Talebi",
+  "sayi": "E-65859045-104.01-1888900",
+  "tarih": "28.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Sınav Programları ve Sınavlar kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Program Açma kapsamındaki iş yükü artmıştır",
     "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Amaç": "kaynakların etkin kullanılması",
+    "Talep": "ilave personel görevlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,7 +53,7 @@
   ],
   "anahtar_terimler": [
     "mevcut kaynaklar yetersiz kalmaktadır",
-    "mevzuatın öngördüğü sürelere uyulması",
-    "gerekli ödeneğin tahsis edilmesi"
+    "kaynakların etkin kullanılması",
+    "ilave personel görevlendirilmesi"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze ÖZDEMIR",
-    "adres": "Yakacık Mahallesi Nergis Sokak No: 20/23 Yenimahalle/ANKARA",
+    "ad": "Burak ŞAHIN",
+    "adres": "Demetevler Mahallesi Sümbül Sokağı No: 16/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -29,14 +29,14 @@
   },
   "konu": "Kayıt-Kabul Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "12.02.2026",
+  "tarih": "12.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "Kayıt-Kabul Hakkında Şikâyet",
-    "Sorun": "kaldırım işgali nedeniyle yaya geçişi engelleniyor",
-    "Yer": "Ragıpbey Mahallesi",
-    "Süre": "bir aydan uzun süredir",
+    "Sorun": "gece saatlerinde yüksek sesle çalışma yapılıyor",
+    "Yer": "Çiğdemtepe Mahallesi",
+    "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
@@ -53,8 +53,8 @@
   ],
   "anahtar_terimler": [
     "Kayıt-Kabul Hakkında Şikâyet",
-    "Ragıpbey Mahallesi",
-    "bir aydan uzun süredir",
+    "Çiğdemtepe Mahallesi",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

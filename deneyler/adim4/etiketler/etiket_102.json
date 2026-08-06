@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Salih KAYA",
-    "adres": "Şentepe Mahallesi Akasya Sokak No: 62/7 Yenimahalle/ANKARA",
+    "ad": "Salih TURAN",
+    "adres": "Ergazi Mahallesi Yasemin Sokağı No: 79/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,26 +23,26 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.04",
-    "ad": "Yapı Ruhsatı",
+    "kod": "115.02.08",
+    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
     "saklama_suresi": "B"
   },
-  "konu": "Yapı Ruhsatı Kararına İtiraz",
+  "konu": "Yapı Kullanma İzni Kararına İtiraz",
   "sayi": null,
-  "tarih": "03.03.2026",
+  "tarih": "04.05.2026",
   "ilgi": {
-    "tarih": "27.01.2026",
-    "sayi": "E-65859045-115.02.04-6894237"
+    "tarih": "07.04.2026",
+    "sayi": "E-65859045-115.02.08-1871500"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Yapı Ruhsatı Kararına İtiraz",
+    "İtiraz konusu": "Yapı Kullanma İzni Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +57,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yapı Ruhsatı Kararına İtiraz",
+    "Yapı Kullanma İzni Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

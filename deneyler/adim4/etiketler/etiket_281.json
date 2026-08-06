@@ -5,18 +5,18 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10045836",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "24432702",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
   "aile": "ust_yazi",
@@ -24,16 +24,16 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "İdari Yaptırım/Para Cezası İşleri Listesinin Gönderilmesi",
-  "sayi": "E-10045836-858-1193313",
-  "tarih": "14.05.2026",
+  "konu": "Staj Değerlendirme Formunun Gönderilmesi",
+  "sayi": "E-24432702-773-8584102",
+  "tarih": "23.01.2026",
   "ilgi": {
-    "tarih": "23.04.2026",
-    "sayi": "E-65859045-858-6998101"
+    "tarih": "08.01.2026",
+    "sayi": "E-65859045-773-9183459"
   },
   "ek": {
     "adet": 2,
@@ -43,8 +43,8 @@
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "mali yıl",
-    "Sayı": "94 kayıt",
-    "Ek 1": "İdari Yaptırım/Para Cezası İşleri listesi",
+    "Sayı": "12 kayıt",
+    "Ek 1": "Staj İşleri listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,13 +57,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "mali yıl",
-    "94 kayıt",
+    "12 kayıt",
+    "Staj İşleri listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

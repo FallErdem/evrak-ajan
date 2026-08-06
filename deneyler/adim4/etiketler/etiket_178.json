@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra KARA",
-    "adres": "Beştepe Mahallesi Erguvan Sokağı No: 6/18 Yenimahalle/ANKARA",
+    "ad": "Havva GÜLER",
+    "adres": "Barıştepe Mahallesi Sümbül Sokak No: 85/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,18 +23,18 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Öğrenci Nakil Talebi",
+  "konu": "Disiplin İşleri Talebi",
   "sayi": null,
-  "tarih": "16.03.2026",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenci Nakil",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Disiplin İşleri",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,7 +47,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Öğrenci Nakil",
-    "başvuru dosyasına eklenmek üzere"
+    "Disiplin İşleri",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

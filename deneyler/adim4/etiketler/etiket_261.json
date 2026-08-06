@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Yıldız Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Şafak Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Gayret Mahallesi Erguvan Caddesi No: 28/3 Yenimahalle/ANKARA",
+    "adres": "Yeşilevler Mahallesi Menekşe Caddesi No: 63/18 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -24,19 +24,19 @@
   "hiyerarsi_yonu": "ozel_tuzel",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
+    "kod": "115.02.04",
+    "ad": "Yapı Ruhsatı",
     "saklama_suresi": "B"
   },
-  "konu": "İşyeri Açma ve Çalışma Ruhsatı Başvurusu",
-  "sayi": "2026/8010",
-  "tarih": "02.02.2026",
+  "konu": "Yapı Ruhsatı Başvurusu",
+  "sayi": "2026/6890",
+  "tarih": "06.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Ruhsat konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Talep": "Yapı Ruhsatı konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
     "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
@@ -47,7 +47,7 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

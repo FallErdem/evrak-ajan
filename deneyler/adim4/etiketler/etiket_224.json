@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Derya ÇETIN",
-    "adres": "Ostim Mahallesi Sümbül Sokağı No: 101/23 Yenimahalle/ANKARA",
+    "ad": "Merve ÖZKAN",
+    "adres": "Susuz Mahallesi Papatya Sokağı No: 98/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,18 +23,18 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
     "saklama_suresi": "B"
   },
-  "konu": "Yabancı Uyruklu Öğrenci Kayıt Talebi",
+  "konu": "Okul Kayıt Başvurusu",
   "sayi": null,
-  "tarih": "25.03.2026",
+  "tarih": "20.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yabancı Uyruklu Öğrenci Kayıt",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Okul Kayıt",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,7 +47,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yabancı Uyruklu Öğrenci Kayıt",
-    "başvuru dosyasına eklenmek üzere"
+    "Okul Kayıt",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

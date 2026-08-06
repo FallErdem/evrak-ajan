@@ -24,24 +24,24 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Evrak Örneğinin Gönderilmesi",
-  "sayi": "E-10101653-622.02-3448455",
-  "tarih": "18.03.2026",
+  "konu": "Bilgi Edinme, Talep ve Şikayetler Listesinin Gönderilmesi",
+  "sayi": "E-10101653-622.01-3449114",
+  "tarih": "08.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "bahar dönemi",
-    "Sayı": "142 kayıt",
-    "Ek 1": "Belge Talepleri listesi",
+    "Dönem": "öğretim yılı",
+    "Sayı": "18 kayıt",
+    "Ek 1": "Bilgi Edinme, Talep ve Şikayetler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -60,9 +60,8 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "bahar dönemi",
-    "142 kayıt",
-    "Belge Talepleri listesi",
+    "öğretim yılı",
+    "18 kayıt",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

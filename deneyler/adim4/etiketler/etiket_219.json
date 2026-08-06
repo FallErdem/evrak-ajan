@@ -5,18 +5,18 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İl millî eğitim müdürlüğü şube müdürlükleri",
+    "kurum_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10173962",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "91571118",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
@@ -24,13 +24,13 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
-    "saklama_suresi": "15"
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
+    "saklama_suresi": "10"
   },
-  "konu": "Eğitim Fakülteleri İle İlişkiler Oluru",
-  "sayi": "E-10173962-355.02-3106212",
-  "tarih": "30.03.2026",
+  "konu": "Taşımalı Eğitim Oluru",
+  "sayi": "E-91571118-140-8690627",
+  "tarih": "06.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -38,8 +38,8 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Eğitim Fakülteleri İle İlişkiler",
-    "Gerekçe": "kaynakların etkin kullanılması",
+    "Konu": "Taşımalı Eğitim",
+    "Gerekçe": "iş ve işlemlerin zamanında tamamlanması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -50,11 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Eğitim Fakülteleri İle İlişkiler",
-    "kaynakların etkin kullanılması"
+    "Taşımalı Eğitim",
+    "iş ve işlemlerin zamanında tamamlanması"
   ]
 }

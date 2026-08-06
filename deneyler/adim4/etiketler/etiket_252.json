@@ -5,18 +5,18 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "kurum_adi": "Fen İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10099586",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "33152401",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -24,24 +24,24 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
-    "saklama_suresi": "10"
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
   },
-  "konu": "Engellilere Yönelik Hizmetler Hk.",
-  "sayi": "E-10099586-120.02-5675383",
-  "tarih": "04.02.2026",
+  "konu": "Bütçe Teklifinin Gönderilmesi",
+  "sayi": "E-33152401-841.01-7807295",
+  "tarih": "20.02.2026",
   "ilgi": {
-    "tarih": "13.01.2026",
-    "sayi": "E-65859045-120.02-8101662"
+    "tarih": "12.01.2026",
+    "sayi": "E-65859045-841.01-7623496"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Engellilere Yönelik Hizmetler",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Bütçe Teklifinin Gönderilmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
     "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,14 +51,14 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Engellilere Yönelik Hizmetler",
-    "olumlu, talep karşılandı",
+    "Bütçe Teklifinin Gönderilmesi",
+    "olumlu, işlem tamamlandı",
     "Müdürlüğümüz kayıt bürosu",
     "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren altı ay"
+    "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

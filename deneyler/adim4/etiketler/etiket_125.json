@@ -24,28 +24,28 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Genelgenin Duyurulması",
-  "sayi": "E-10056635-010.06-3592043",
-  "tarih": "01.04.2026",
+  "konu": "Uygulama Hakkında Hukuki Görüş",
+  "sayi": "E-10056635-045.02-3592072",
+  "tarih": "17.02.2026",
   "ilgi": {
-    "tarih": "23.02.2026",
-    "sayi": "E-55461037-010.06-3285301"
+    "tarih": "10.02.2026",
+    "sayi": "E-55461037-045.02-4134811"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Genelgeler kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Hukuki kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

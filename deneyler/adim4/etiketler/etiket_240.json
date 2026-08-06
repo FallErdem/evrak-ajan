@@ -5,18 +5,18 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10094490",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "39985474",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
@@ -24,23 +24,23 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
-    "saklama_suresi": "10"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "Servis Güzergahı Talebi",
-  "sayi": "E-10094490-802-1888191",
-  "tarih": "12.02.2026",
+  "konu": "Diploma Teslimi Talebi",
+  "sayi": "E-39985474-198.02.01-2602536",
+  "tarih": "16.03.2026",
   "ilgi": {
-    "tarih": "04.02.2026",
-    "sayi": "E-55461037-802-4969948"
+    "tarih": "06.02.2026",
+    "sayi": "E-55461037-198.02.01-9868840"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Ulaşım ve Servis İşleri kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Diploma kapsamındaki iş yükü artmıştır",
     "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Amaç": "vatandaş memnuniyetinin artırılması",
+    "Talep": "teknik destek sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +50,13 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "Diploma kapsamındaki iş yükü artmıştır",
     "ek kapasiteye ihtiyaç duyulmaktadır",
-    "mevzuatın öngördüğü sürelere uyulması",
-    "gerekli ödeneğin tahsis edilmesi"
+    "vatandaş memnuniyetinin artırılması",
+    "teknik destek sağlanması"
   ]
 }

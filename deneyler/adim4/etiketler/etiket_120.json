@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emre GÜNEŞ",
-    "adres": "Emniyet Mahallesi Zeytin Caddesi No: 30/12 Yenimahalle/ANKARA",
+    "ad": "Gamze AKTAŞ",
+    "adres": "Şentepe Mahallesi Zeytin Sokağı No: 118/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,16 +23,16 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Kararına İtiraz",
+  "konu": "Bursluluk Sonucuna İtiraz",
   "sayi": null,
-  "tarih": "03.03.2026",
+  "tarih": "28.05.2026",
   "ilgi": {
-    "tarih": "23.01.2026",
-    "sayi": "E-55461037-198.02.01-7394376"
+    "tarih": "15.04.2026",
+    "sayi": "E-55461037-245.04-2508967"
   },
   "ek": {
     "adet": 1,
@@ -40,9 +40,9 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Diploma Kararına İtiraz",
+    "İtiraz konusu": "Bursluluk Sonucuna İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +57,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Diploma Kararına İtiraz",
+    "Bursluluk Sonucuna İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep KILIÇ",
-    "adres": "Serhat Mahallesi Sümbül Sokağı No: 45/19 Yenimahalle/ANKARA",
+    "ad": "Şaban KARACA",
+    "adres": "Ergazi Mahallesi Lale Sokak No: 21/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,23 +23,23 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.08",
-    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
+    "kod": "170.01",
+    "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb. Kararına İtiraz",
+  "konu": "Ruhsat Kararına İtiraz",
   "sayi": null,
-  "tarih": "05.03.2026",
+  "tarih": "26.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb. Kararına İtiraz",
+    "İtiraz konusu": "Ruhsat Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -50,10 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
+    "Ruhsat Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

@@ -5,18 +5,18 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları",
+    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10338915",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "86488853",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
@@ -29,8 +29,8 @@
     "saklama_suresi": "15"
   },
   "konu": "Kararlar Hakkında Görüş Talebi",
-  "sayi": "E-10338915-050.04-5393358",
-  "tarih": "27.04.2026",
+  "sayi": "E-86488853-050.04-6186856",
+  "tarih": "08.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
@@ -46,7 +46,7 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],

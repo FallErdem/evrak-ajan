@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Atlas Yapı Denetim A.Ş.",
+    "kurum_adi": "Atlas Mühendislik Ltd. Şti.",
     "ad": null,
-    "adres": "Karşıyaka Mahallesi Nergis Sokağı No: 16/7 Yenimahalle/ANKARA",
+    "adres": "Barıştepe Mahallesi Ihlamur Sokak No: 52/18 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -29,15 +29,15 @@
     "saklama_suresi": "15"
   },
   "konu": "Çalıştay Katılım Talebi",
-  "sayi": "2026/9096",
-  "tarih": "13.04.2026",
+  "sayi": "2026/4259",
+  "tarih": "14.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Toplantı ve Etkinlik İşleri konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,7 +52,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
-    "Kurumunuz kayıt bürosundan elden"
+    "e-Devlet üzerinden"
   ]
 }

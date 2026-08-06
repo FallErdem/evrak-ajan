@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Onur DEMIR",
-    "adres": "Beştepe Mahallesi Papatya Sokak No: 90/22 Yenimahalle/ANKARA",
+    "ad": "Selin DEMIR",
+    "adres": "Beştepe Mahallesi Akasya Sokak No: 112/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -27,14 +27,14 @@
     "ad": "Stajlar",
     "saklama_suresi": "2"
   },
-  "konu": "Staj Yeri Talebi",
+  "konu": "Zorunlu Staj Başvurusu",
   "sayi": null,
-  "tarih": "09.01.2026",
+  "tarih": "12.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Staj Yeri",
-    "Öğrenim bilgisi": "1. sınıf öğrencisi",
+    "Talep": "Zorunlu Staj",
+    "Öğrenim bilgisi": "2. sınıf öğrencisi",
     "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -44,13 +44,13 @@
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Yeri",
-    "1. sınıf öğrencisi",
+    "Zorunlu Staj",
+    "2. sınıf öğrencisi",
     "resmî işlemlerde kullanılmak üzere"
   ]
 }

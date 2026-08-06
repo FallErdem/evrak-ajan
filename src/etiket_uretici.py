@@ -155,6 +155,29 @@ class Veri:
     kurumlar: dict[str, Kurum]
     kota: dict
 
+    @property
+    def detsis_defteri(self) -> dict[str, str]:
+        """Bilinen bütün makam adı -> DETSİS numarası eşlemesi.
+
+        Ölçülen hata: kod yalnızca ALICININ muhatap_detsis kaydına bakıyordu.
+        Yenimahalle Belediyesi, Gazi'nin ve İl MEM'in listesinde yok (kendi
+        kurum.json'unda var). Sonuç: belediyeden gelen 15 belgeye gerçek
+        numara varken uydurma numara verilmişti.
+
+        Üç kurumun kurum_adi + detsis_no'su ve HER ÜÇÜNÜN muhatap_detsis
+        kayıtları birleştiriliyor.
+        """
+        defter: dict[str, str] = {}
+        for k in self.kurumlar.values():
+            for ad, v in k.muhatap_detsis.items():
+                if v.get("detsis_no"):
+                    defter[ad] = v["detsis_no"]
+            defter[k.kurum_adi] = k.detsis_no
+            for b in k.birimler:
+                if b.detsis_no:
+                    defter[b.birim_adi] = b.detsis_no
+        return defter
+
     @classmethod
     def yukle(cls, depo_koku: Path) -> "Veri":
         v = depo_koku / "veri"
@@ -501,6 +524,7 @@ class EtiketUretici:
         self.kayit_no_sayaci: dict[str, int] = {}
         self.tavan_asimi = 0
         self._sentetik_detsis: dict[str, str] = {}
+        self._defter = veri.detsis_defteri
         ces = veri.kota["cesitlilik"]
         self.kod_azami = ces["sdp_kod_basina_azami"]
         self.konu_azami = ces["ornek_konu_azami_tekrar"]
@@ -623,6 +647,40 @@ class EtiketUretici:
                 return t
         return self.h.is_gunu(bas, bit)
 
+    def _somut_makam(self, kurum: Kurum, makam: str, alici_birim: Birim) -> str:
+        """Çoğul makam tanımını somut bir birime çevirir.
+
+        kurum.json'daki alt_makamlar listesi TANIM içerir, ad değil:
+            "Yenimahalle Belediyesi müdürlükleri"
+            "Okul ve kurum müdürlükleri"
+            "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları"
+
+        Bir belge "müdürlükler"den gelmez, BELİRLİ BİR müdürlükten gelir.
+        Çoğul tanım gönderen adı olarak kalırsa belge gerçek dışı görünür ve
+        muhatap satırı kurulamaz.
+
+        Kurum içi birimler birimler.csv'den seçilir (alıcının kendisi hariç).
+        Okul gibi veri setimizde bulunmayan birimler için ad üretilir.
+        """
+        if makam not in _COGUL_MAKAM:
+            return makam
+        tip = _COGUL_MAKAM[makam]
+        if tip == "kurum_ici":
+            adaylar = [b for b in kurum.birimler
+                       if b.seviye == 2 and b.birim_kodu != alici_birim.birim_kodu]
+            if adaylar:
+                return self.h.sec(adaylar).birim_adi
+            return kurum.kurum_adi
+        if tip == "okul":
+            return (f"{self.h.mahalle()} "
+                    f"{self.h.sec(['İlkokulu', 'Ortaokulu', 'Anadolu Lisesi', 'Mesleki ve Teknik Anadolu Lisesi'])} "
+                    f"Müdürlüğü")
+        if tip == "ilce_mem":
+            adaylar = [b for b in kurum.birimler if "İlçe" in b.birim_adi]
+            if adaylar:
+                return self.h.sec(adaylar).birim_adi
+        return makam
+
     def _gonderen_detsis(self, alici: Kurum, makam: str) -> tuple[str, str]:
         """Gönderen makamın DETSİS numarasını bulur.
 
@@ -635,14 +693,8 @@ class EtiketUretici:
         3. durumda etikete 'sentetik' işareti konur. Gerçek numara
          sonradan bulunursa hangi belgelerin etkileneceği bilinsin.
         """
-        kayit = alici.muhatap_detsis.get(makam)
-        if kayit and kayit.get("detsis_no"):
-            return kayit["detsis_no"], "detsis"
-        for b in alici.birimler:
-            if b.birim_adi == makam and b.detsis_no:
-                return b.detsis_no, "detsis"
-        if makam == alici.kurum_adi:
-            return alici.detsis_no, "detsis"
+        if makam in self._defter:
+            return self._defter[makam], "detsis"
         if makam not in self._sentetik_detsis:
             # Ada göre sabit: aynı makam hep aynı numarayı alır
             tohum = sum(ord(c) * (i + 7) for i, c in enumerate(makam))
@@ -820,6 +872,7 @@ class EtiketUretici:
                 "alt_makam": kurum.hiyerarsi.get("alt_makamlar", []),
             }[s.gonderen_tipi]
             makam = h.sec(makam_listesi) if makam_listesi else kurum.kurum_adi
+            makam = self._somut_makam(kurum, makam, birim)
             g_detsis, g_kaynak = self._gonderen_detsis(kurum, makam)
             gonderen = {"tip": "kurum", "kurum_adi": makam, "ad": None,
                         "adres": None, "detsis_no": g_detsis,
@@ -1035,3 +1088,14 @@ def _donem(h, kurum_tipi: str) -> str:
                       "içinde bulunulan öğretim yılı"])
     return h.sec(["yılın ilk yarısı", "üçüncü çeyrek", "içinde bulunulan yıl",
                   "mali yıl"])
+
+
+# kurum.json'daki alt_makamlar listesi çoğul TANIM içeriyor, tekil AD değil.
+# Bunlar gönderen adı olarak kullanılamaz; somut bir birime çevrilmeleri gerekir.
+_COGUL_MAKAM = {
+    "Yenimahalle Belediyesi müdürlükleri": "kurum_ici",
+    "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları": "kurum_ici",
+    "İl millî eğitim müdürlüğü şube müdürlükleri": "kurum_ici",
+    "İlçe millî eğitim müdürlükleri": "ilce_mem",
+    "Okul ve kurum müdürlükleri": "okul",
+}

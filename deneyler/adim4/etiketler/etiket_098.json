@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife AVCI",
-    "adres": "Susuz Mahallesi Kestane Sokak No: 4/21 Yenimahalle/ANKARA",
+    "ad": "Fatih GÜNEŞ",
+    "adres": "Uğur Mumcu Mahallesi Akasya Caddesi No: 3/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,21 +23,21 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Okul Aile Birliği Gelir Gider Bildirimi",
+  "konu": "Taşımalı Eğitim Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "25.05.2026",
+  "tarih": "23.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Okul Aile Birliği Gelir Gider",
-    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
-    "Yer": "Gayret Mahallesi",
+    "Şikâyet konusu": "Taşımalı Eğitim Hakkında Şikâyet",
+    "Sorun": "gece saatlerinde yüksek sesle çalışma yapılıyor",
+    "Yer": "Ragıpbey Mahallesi",
     "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,8 +52,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Okul Aile Birliği Gelir Gider",
-    "Gayret Mahallesi",
+    "Taşımalı Eğitim Hakkında Şikâyet",
+    "Ragıpbey Mahallesi",
     "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]

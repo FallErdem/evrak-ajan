@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ömer SARI",
-    "adres": "Serhat Mahallesi Nergis Caddesi No: 67/3 Yenimahalle/ANKARA",
+    "ad": "Osman AYDIN",
+    "adres": "Karşıyaka Mahallesi Erguvan Sokak No: 97/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,26 +23,26 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Diploma Kararına İtiraz",
+  "konu": "Nakiller Kararına İtiraz",
   "sayi": null,
-  "tarih": "07.04.2026",
+  "tarih": "06.02.2026",
   "ilgi": {
-    "tarih": "10.03.2026",
-    "sayi": "E-55461037-198.02.01-3222946"
+    "tarih": "26.12.2025",
+    "sayi": "E-55461037-210.01-8085114"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 4
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Diploma Kararına İtiraz",
+    "İtiraz konusu": "Nakiller Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +57,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Diploma Kararına İtiraz",
+    "Nakiller Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

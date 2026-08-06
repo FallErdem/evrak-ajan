@@ -24,23 +24,23 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "110.04",
-    "ad": "Encümen Kararları",
-    "saklama_suresi": "B"
+    "kod": "125",
+    "ad": "Evlendirme İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Encümen Kararı Örneği Talebi",
-  "sayi": "E-90226917-110.04-3624092",
-  "tarih": "13.03.2026",
+  "konu": "Nikah Tarihi Talebi",
+  "sayi": "E-90226917-125-8660988",
+  "tarih": "13.05.2026",
   "ilgi": {
-    "tarih": "16.02.2026",
-    "sayi": "E-65859045-110.04-1508521"
+    "tarih": "01.05.2026",
+    "sayi": "E-65859045-125-4977243"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Encümen Kararları kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Evlendirme İşlemleri kapsamındaki iş yükü artmıştır",
     "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "teknik destek sağlanması"
+    "Amaç": "hizmetlerin aksamadan yürütülmesi",
+    "Talep": "ilave personel görevlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,7 +55,7 @@
   ],
   "anahtar_terimler": [
     "mevcut kaynaklar yetersiz kalmaktadır",
-    "mevzuatın öngördüğü sürelere uyulması",
-    "teknik destek sağlanması"
+    "hizmetlerin aksamadan yürütülmesi",
+    "ilave personel görevlendirilmesi"
   ]
 }

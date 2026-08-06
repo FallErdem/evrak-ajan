@@ -29,18 +29,18 @@
     "saklama_suresi": "2"
   },
   "konu": "Sınav Programları ve Sınavlar Talebi",
-  "sayi": "E-10213773-106-8545241",
-  "tarih": "21.05.2026",
+  "sayi": "E-10213773-106-8545577",
+  "tarih": "05.03.2026",
   "ilgi": {
-    "tarih": "11.05.2026",
-    "sayi": "E-39985474-106-4748884"
+    "tarih": "11.02.2026",
+    "sayi": "E-39985474-106-6196105"
   },
   "ek": null,
   "somut_bilgiler": {
     "Mevcut durum": "Sınav Programları ve Sınavlar kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
+    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
+    "Talep": "teknik destek sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "iş ve işlemlerin zamanında tamamlanması",
-    "ilave personel görevlendirilmesi"
+    "ek kapasiteye ihtiyaç duyulmaktadır",
+    "mevzuatın öngördüğü sürelere uyulması",
+    "teknik destek sağlanması"
   ]
 }

@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Başkent Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Öz Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Yakacık Mahallesi Sümbül Sokağı No: 55/3 Yenimahalle/ANKARA",
+    "adres": "İvedik Mahallesi Kestane Caddesi No: 85/5 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -24,18 +24,19 @@
   "hiyerarsi_yonu": "ozel_tuzel",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "051",
-    "ad": "Toplantı ve Etkinlik İşleri",
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Çalıştay Katılım Talebi",
-  "sayi": "2026/5554",
-  "tarih": "10.02.2026",
+  "konu": "Borç Yapılandırma Talebi",
+  "sayi": "2026/4396",
+  "tarih": "12.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Çalıştay Katılım",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Borç Yapılandırma",
+    "Taşınmaz": "57405 ada, 19 parsel",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -44,11 +45,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yenimahalle Belediye Başkanlığı",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Çalıştay Katılım",
-    "resmî işlemlerde kullanılmak üzere"
+    "Borç Yapılandırma",
+    "57405 ada, 19 parsel",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

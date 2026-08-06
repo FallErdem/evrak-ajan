@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "kurum_adi": "Ruhsat ve Denetim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10099586",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "59553370",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -29,19 +29,19 @@
     "saklama_suresi": "15"
   },
   "konu": "Genelge Uygulaması Hk.",
-  "sayi": "E-10099586-010.06-5673503",
-  "tarih": "24.02.2026",
+  "sayi": "E-59553370-010.06-3699161",
+  "tarih": "28.05.2026",
   "ilgi": {
-    "tarih": "09.02.2026",
-    "sayi": "E-65859045-010.06-8898108"
+    "tarih": "16.04.2026",
+    "sayi": "E-65859045-010.06-7677285"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Genelge Uygulaması",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
     "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -56,9 +56,9 @@
   ],
   "anahtar_terimler": [
     "Genelge Uygulaması",
-    "olumlu, talep karşılandı",
+    "olumlu, belge düzenlendi",
     "Müdürlüğümüz kayıt bürosu",
     "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

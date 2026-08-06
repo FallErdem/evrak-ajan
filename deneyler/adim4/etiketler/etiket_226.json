@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatma ERDOĞAN",
-    "adres": "Ergazi Mahallesi Manolya Caddesi No: 46/10 Yenimahalle/ANKARA",
+    "ad": "Ali YILMAZ",
+    "adres": "Demetevler Mahallesi Akasya Sokağı No: 44/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,19 +23,18 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.04",
-    "ad": "Yapı Ruhsatı",
-    "saklama_suresi": "B"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Yapı Ruhsatı Başvurusu",
+  "konu": "İtfaiye Uygunluk Raporu Talebi",
   "sayi": null,
-  "tarih": "17.03.2026",
+  "tarih": "10.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yapı Ruhsatı",
-    "Taşınmaz": "73989 ada, 20 parsel",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "İtfaiye Uygunluk Raporu",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -44,12 +43,11 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yapı Ruhsatı",
-    "73989 ada, 20 parsel",
-    "ilgili kuruma sunulmak üzere"
+    "İtfaiye Uygunluk Raporu",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

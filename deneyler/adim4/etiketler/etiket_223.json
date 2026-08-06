@@ -5,18 +5,18 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10056635",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "ust_yazi",
   "aile": "ust_yazi",
@@ -24,24 +24,24 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Yurtdışı Eğitim Denkliği Listesinin Gönderilmesi",
-  "sayi": "E-10213773-215.01-8547181",
-  "tarih": "26.01.2026",
+  "konu": "Hukuki Mütalaanın Gönderilmesi",
+  "sayi": "E-10056635-045.02-3593420",
+  "tarih": "30.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 3
+    "sayfa": 4
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
-    "Sayı": "18 kayıt",
-    "Ek 1": "Yurtdışı Eğitim Denkliği listesi",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Sayı": "12 kayıt",
+    "Ek 1": "Hukuki listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -54,14 +54,14 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "öğretim yılı",
-    "18 kayıt",
-    "Yurtdışı Eğitim Denkliği listesi",
+    "içinde bulunulan öğretim yılı",
+    "12 kayıt",
+    "Hukuki listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

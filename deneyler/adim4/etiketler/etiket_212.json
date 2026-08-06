@@ -24,23 +24,23 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Bursluluk Talebi",
-  "sayi": "E-39985474-245.04-2603289",
-  "tarih": "06.02.2026",
+  "konu": "Öğrenci Nakil Talebi",
+  "sayi": "E-39985474-210.01-2602182",
+  "tarih": "03.04.2026",
   "ilgi": {
-    "tarih": "25.12.2025",
-    "sayi": "E-55461037-245.04-6844247"
+    "tarih": "26.03.2026",
+    "sayi": "E-55461037-210.01-8420632"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Bursluluk kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
-    "Talep": "teknik destek sağlanması"
+    "Mevcut durum": "Nakiller kapsamındaki iş yükü artmıştır",
+    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
+    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
+    "Talep": "ilave personel görevlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -54,9 +54,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bursluluk kapsamındaki iş yükü artmıştır",
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "kaynakların etkin kullanılması",
-    "teknik destek sağlanması"
+    "Nakiller kapsamındaki iş yükü artmıştır",
+    "iş ve işlemlerin zamanında tamamlanması",
+    "ilave personel görevlendirilmesi"
   ]
 }

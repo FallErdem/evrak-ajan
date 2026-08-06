@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emre ÖZDEMIR",
-    "adres": "Batıkent Mahallesi Sümbül Caddesi No: 52/8 Yenimahalle/ANKARA",
+    "ad": "İbrahim ŞAHIN",
+    "adres": "Ragıpbey Mahallesi Manolya Caddesi No: 22/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -27,14 +27,14 @@
     "ad": "Sosyal Yardım İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Nakdi Yardım Talebi",
+  "konu": "Sosyal Yardım Başvurusu",
   "sayi": null,
-  "tarih": "30.03.2026",
+  "tarih": "02.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Nakdi Yardım",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Sosyal Yardım",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,7 +47,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Nakdi Yardım",
-    "ilgili kuruma sunulmak üzere"
+    "Sosyal Yardım",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

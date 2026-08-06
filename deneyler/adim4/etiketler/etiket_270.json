@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf KESKIN",
-    "adres": "Şentepe Mahallesi Manolya Caddesi No: 56/7 Yenimahalle/ANKARA",
+    "ad": "Yusuf ARSLAN",
+    "adres": "Demetevler Mahallesi Çınar Sokak No: 59/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -27,14 +27,14 @@
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Topluluk Etkinlik İzni Talebi",
+  "konu": "Öğrenci Topluluğu Kurulma Talebi",
   "sayi": null,
-  "tarih": "20.01.2026",
+  "tarih": "26.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Topluluk Etkinlik İzni",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Talep": "Öğrenci Topluluğu Kurulma",
+    "Öğrenim bilgisi": "4. sınıf öğrencisi",
     "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -49,8 +49,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Topluluk Etkinlik İzni",
-    "lisansüstü programa kayıtlı",
+    "Öğrenci Topluluğu Kurulma",
+    "4. sınıf öğrencisi",
     "başvuru dosyasına eklenmek üzere"
   ]
 }

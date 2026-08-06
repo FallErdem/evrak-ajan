@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları",
+    "kurum_adi": "Personel Dairesi Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10338915",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "42218640",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -29,19 +29,19 @@
     "saklama_suresi": "10"
   },
   "konu": "Sosyal Yardım İşleri Hk.",
-  "sayi": "E-10338915-815-5393476",
-  "tarih": "09.02.2026",
+  "sayi": "E-42218640-815-2830369",
+  "tarih": "13.04.2026",
   "ilgi": {
-    "tarih": "06.01.2026",
-    "sayi": "E-39985474-815-9188412"
+    "tarih": "27.03.2026",
+    "sayi": "E-39985474-815-3251726"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Sosyal Yardım İşleri",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -57,8 +57,9 @@
   ],
   "anahtar_terimler": [
     "Sosyal Yardım İşleri",
-    "olumlu, işlem tamamlandı",
+    "olumlu, belge düzenlendi",
     "Başkanlığımız kayıt bürosu",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "noter onaylı vekâletname ile veya bizzat",
+    "düzenlendiği tarihten itibaren altı ay"
   ]
 }

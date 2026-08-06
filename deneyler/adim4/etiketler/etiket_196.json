@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Kuzey Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Doruk Turizm ve Ticaret A.Ş.",
     "ad": null,
-    "adres": "Batıkent Mahallesi Nergis Sokak No: 22/19 Yenimahalle/ANKARA",
+    "adres": "Pamuklar Mahallesi Çınar Sokak No: 119/19 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -24,19 +24,19 @@
   "hiyerarsi_yonu": "ozel_tuzel",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Disiplin İşleri Hakkında Bilgi Edinme Başvurusu",
-  "sayi": "2026/8232",
-  "tarih": "18.05.2026",
+  "konu": "Bursluluk Başvurusu",
+  "sayi": "2026/5435",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Disiplin İşleri konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Talep": "Bursluluk konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
     "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
@@ -52,6 +52,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "yıllara göre sayısal döküm",
     "elektronik posta ile"
   ]
 }

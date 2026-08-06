@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Anadolu Mühendislik Ltd. Şti.",
+    "kurum_adi": "Merkez Turizm ve Ticaret A.Ş.",
     "ad": null,
-    "adres": "Çiğdemtepe Mahallesi Manolya Sokağı No: 28/1 Yenimahalle/ANKARA",
+    "adres": "Gayret Mahallesi Sümbül Sokağı No: 118/7 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -28,16 +28,16 @@
     "ad": "Yatırım Programı",
     "saklama_suresi": "10"
   },
-  "konu": "Yatırım Programı Revizyon Talebi",
-  "sayi": "2026/7726",
-  "tarih": "07.05.2026",
+  "konu": "Yatırım Ödeneği Talebi",
+  "sayi": "2026/7752",
+  "tarih": "22.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Yatırım Programı konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,6 +52,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "e-Devlet üzerinden"
+    "posta yoluyla adresime"
   ]
 }

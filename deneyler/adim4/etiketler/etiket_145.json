@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet YILDIZ",
-    "adres": "Yakacık Mahallesi Ihlamur Sokak No: 35/23 Yenimahalle/ANKARA",
+    "ad": "Emine YILDIZ",
+    "adres": "Şentepe Mahallesi Ceviz Sokak No: 94/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,21 +23,21 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Mezuniyet İşleri Hakkında Şikâyet",
+  "konu": "Denklik İşleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "21.01.2026",
+  "tarih": "09.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Mezuniyet İşleri Hakkında Şikâyet",
+    "Şikâyet konusu": "Denklik İşleri Hakkında Şikâyet",
     "Sorun": "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
-    "Yer": "Karşıyaka Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Yer": "Serhat Mahallesi",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,9 +53,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Mezuniyet İşleri Hakkında Şikâyet",
-    "Karşıyaka Mahallesi",
-    "yaklaşık kırk gündür",
+    "Denklik İşleri Hakkında Şikâyet",
+    "Serhat Mahallesi",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

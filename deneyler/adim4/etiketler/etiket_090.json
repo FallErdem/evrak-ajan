@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10204305",
+    "detsis_no": "10045836",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "tekit_yazisi",
@@ -24,23 +24,23 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
     "saklama_suresi": "15"
   },
-  "konu": "İhale İlanı Hk.",
-  "sayi": "E-10204305-755.02-3564611",
-  "tarih": "08.01.2026",
+  "konu": "Ödenek Talebi",
+  "sayi": "E-10045836-841.01-1192693",
+  "tarih": "12.01.2026",
   "ilgi": {
-    "tarih": "02.01.2026",
-    "sayi": "E-65859045-755.02-3829639"
+    "tarih": "17.12.2025",
+    "sayi": "E-65859045-841.01-2513456"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "ay sonuna kadar"
+    "Süre": "beş iş günü içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +50,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "ay sonuna kadar"
+    "beş iş günü içinde"
   ]
 }

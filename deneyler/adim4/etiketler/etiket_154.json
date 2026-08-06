@@ -5,18 +5,18 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Okul ve kurum müdürlükleri",
+    "kurum_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10061998",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "87302975",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -24,23 +24,23 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Burs Ödemesi Hk.",
-  "sayi": "E-10061998-245.04-4656757",
-  "tarih": "15.01.2026",
+  "konu": "Ulaşım ve Servis İşleri Hk.",
+  "sayi": "E-87302975-802-5241079",
+  "tarih": "20.01.2026",
   "ilgi": {
-    "tarih": "09.01.2026",
-    "sayi": "E-55461037-245.04-1624479"
+    "tarih": "05.01.2026",
+    "sayi": "E-55461037-802-9680851"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Burs Ödemesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Ulaşım ve Servis İşleri",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
     "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
@@ -51,14 +51,14 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Burs Ödemesi",
-    "olumlu, işlem tamamlandı",
+    "Ulaşım ve Servis İşleri",
+    "olumlu, talep karşılandı",
     "Müdürlüğümüz kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
+    "kimlik belgesi ibraz edilerek şahsen",
     "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

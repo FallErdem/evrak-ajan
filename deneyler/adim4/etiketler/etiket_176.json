@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şaban YAVUZ",
-    "adres": "Pamuklar Mahallesi Ihlamur Sokak No: 20/6 Yenimahalle/ANKARA",
+    "ad": "Büşra KARA",
+    "adres": "Beştepe Mahallesi Erguvan Sokağı No: 6/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,21 +23,21 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
+    "kod": "198.02.01",
+    "ad": "Diploma",
     "saklama_suresi": "B"
   },
-  "konu": "Kayıt-Kabul Hakkında Şikâyet",
+  "konu": "Diploma Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "11.03.2026",
+  "tarih": "16.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kayıt-Kabul Hakkında Şikâyet",
-    "Sorun": "sokak aydınlatması uzun süredir çalışmıyor",
-    "Yer": "Pamuklar Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Diploma Hakkında Şikâyet",
+    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
+    "Yer": "Susuz Mahallesi",
+    "Süre": "bir aydan uzun süredir",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,9 +52,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kayıt-Kabul Hakkında Şikâyet",
-    "Pamuklar Mahallesi",
-    "yaklaşık kırk gündür",
+    "Diploma Hakkında Şikâyet",
+    "Susuz Mahallesi",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

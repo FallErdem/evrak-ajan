@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Okul ve kurum müdürlükleri",
+    "kurum_adi": "Susuz İlkokulu Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10061998",
+    "detsis_no": "10068291",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "olur_yazisi",
@@ -29,13 +29,13 @@
     "saklama_suresi": "10"
   },
   "konu": "Yaygın Eğitim Kursları Oluru",
-  "sayi": "E-10061998-135.03-4656462",
+  "sayi": "E-10068291-135.03-4153942",
   "tarih": "06.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Konu": "Yaygın Eğitim Kursları",

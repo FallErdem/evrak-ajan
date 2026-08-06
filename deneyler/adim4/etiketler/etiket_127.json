@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -24,21 +24,21 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "903.02",
-    "ad": "Atama İşleri",
-    "saklama_suresi": "B"
+    "kod": "209",
+    "ad": "Akademik Personel Görevlendirmeleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Atama İşleri Hakkında Görüş Talebi",
-  "sayi": "E-55461037-903.02-5986188",
-  "tarih": "16.01.2026",
+  "konu": "Akademik Personel Görevlendirmeleri Hakkında Görüş Talebi",
+  "sayi": "E-65859045-209-1886960",
+  "tarih": "24.03.2026",
   "ilgi": {
-    "tarih": "05.01.2026",
-    "sayi": "E-39985474-903.02-3180830"
+    "tarih": "11.02.2026",
+    "sayi": "E-39985474-209-9507127"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Atama İşleri",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Konu": "Akademik Personel Görevlendirmeleri",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,7 +54,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Atama İşleri",
+    "Akademik Personel Görevlendirmeleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

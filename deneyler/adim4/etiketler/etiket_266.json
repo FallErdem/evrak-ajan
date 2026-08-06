@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine KARA",
-    "adres": "Gayret Mahallesi Çınar Caddesi No: 59/6 Yenimahalle/ANKARA",
+    "ad": "Havva ASLAN",
+    "adres": "Serhat Mahallesi Menekşe Sokağı No: 12/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -27,15 +27,15 @@
     "ad": "Katkı Payları / Öğrenim Ücretleri",
     "saklama_suresi": "10"
   },
-  "konu": "Katkı Payı Muafiyet Başvurusu",
+  "konu": "Katkı Payı İade Talebi",
   "sayi": null,
-  "tarih": "03.02.2026",
+  "tarih": "01.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Katkı Payı Muafiyet",
-    "Öğrenim bilgisi": "3. sınıf öğrencisi",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Katkı Payı İade",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +49,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı Muafiyet",
-    "3. sınıf öğrencisi",
-    "ilgili kuruma sunulmak üzere"
+    "Katkı Payı İade",
+    "lisansüstü programa kayıtlı",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

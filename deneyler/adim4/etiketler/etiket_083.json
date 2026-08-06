@@ -5,18 +5,18 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10094490",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "65859045",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
@@ -24,20 +24,20 @@
   "hiyerarsi_yonu": "ayni",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Arşivlerden Yararlanma Hakkında Görüş Talebi",
-  "sayi": "E-10094490-805.02.05-1886750",
-  "tarih": "27.01.2026",
+  "konu": "Stratejik Plan Hakkında Görüş Talebi",
+  "sayi": "E-65859045-602.04-1886726",
+  "tarih": "16.03.2026",
   "ilgi": {
-    "tarih": "06.01.2026",
-    "sayi": "E-39985474-805.02.05-1019342"
+    "tarih": "02.02.2026",
+    "sayi": "E-39985474-602.04-8886139"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Arşivlerden Yararlanma",
+    "Konu": "Stratejik Plan",
     "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -49,12 +49,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Arşivlerden Yararlanma",
+    "Stratejik Plan",
     "konu hakkında görüş bildirilmesi"
   ]
 }

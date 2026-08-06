@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten AKSOY",
-    "adres": "Beştepe Mahallesi Kestane Sokağı No: 104/4 Yenimahalle/ANKARA",
+    "ad": "Nurten KORKMAZ",
+    "adres": "Susuz Mahallesi Manolya Sokak No: 43/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,17 +23,17 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
+    "saklama_suresi": "B"
   },
-  "konu": "Kesin Kayıt Başvurusu",
+  "konu": "Erasmus+ Başvuru Duyurusu",
   "sayi": null,
-  "tarih": "19.02.2026",
+  "tarih": "15.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kesin Kayıt",
+    "Talep": "Erasmus+ Başvuru",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
     "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
@@ -49,7 +49,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kesin Kayıt",
+    "Erasmus+ Başvuru",
     "lisansüstü programa kayıtlı",
     "ilgili kuruma sunulmak üzere"
   ]

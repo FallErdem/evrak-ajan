@@ -5,18 +5,18 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "kurum_adi": "Temizlik İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10099586",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "83011479",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
@@ -24,12 +24,12 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Ruhsat Oluru",
-  "sayi": "E-10099586-170.01-5673451",
+  "konu": "Borç ve Alacak İşleri Oluru",
+  "sayi": "E-83011479-855-6853035",
   "tarih": "06.03.2026",
   "ilgi": null,
   "ek": {
@@ -38,7 +38,7 @@
     "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Ruhsat",
+    "Konu": "Borç ve Alacak İşleri",
     "Gerekçe": "vatandaş memnuniyetinin artırılması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
@@ -50,10 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
+    "Borç ve Alacak İşleri",
     "vatandaş memnuniyetinin artırılması"
   ]
 }

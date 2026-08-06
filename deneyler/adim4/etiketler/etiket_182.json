@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf GÜNEŞ",
-    "adres": "Kaletepe Mahallesi Manolya Sokak No: 113/4 Yenimahalle/ANKARA",
+    "ad": "Ahmet YILMAZ",
+    "adres": "Gayret Mahallesi Papatya Caddesi No: 115/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -29,13 +29,13 @@
   },
   "konu": "Katkı Payı Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "17.04.2026",
+  "tarih": "13.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Katkı Payı Muafiyet",
-    "Öğrenim bilgisi": "2023 yılı mezunu",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Öğrenim bilgisi": "2021 yılı mezunu",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,7 @@
   ],
   "anahtar_terimler": [
     "Katkı Payı Muafiyet",
-    "2023 yılı mezunu",
-    "resmî işlemlerde kullanılmak üzere"
+    "2021 yılı mezunu",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine GÜNEŞ",
-    "adres": "Batıkent Mahallesi Ihlamur Caddesi No: 6/15 Yenimahalle/ANKARA",
+    "ad": "Selin ÇAKIR",
+    "adres": "Karşıyaka Mahallesi Papatya Sokak No: 55/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,21 +23,21 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Nakil, Kayıt Dondurma ve Kayıt Silme Hakkında Şikâyet",
+  "konu": "Yeni Kayıt İşlemleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "28.05.2026",
+  "tarih": "27.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Nakil, Kayıt Dondurma ve Kayıt Silme Hakkında Şikâyet",
-    "Sorun": "kaldırım işgali nedeniyle yaya geçişi engelleniyor",
-    "Yer": "Beştepe Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Yeni Kayıt İşlemleri Hakkında Şikâyet",
+    "Sorun": "gece saatlerinde yüksek sesle çalışma yapılıyor",
+    "Yer": "Çiğdemtepe Mahallesi",
+    "Süre": "bir aydan uzun süredir",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,8 +53,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Beştepe Mahallesi",
-    "yaklaşık kırk gündür",
+    "Yeni Kayıt İşlemleri Hakkında Şikâyet",
+    "Çiğdemtepe Mahallesi",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

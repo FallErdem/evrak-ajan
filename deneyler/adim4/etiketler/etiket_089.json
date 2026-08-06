@@ -24,16 +24,16 @@
   "hiyerarsi_yonu": "alt",
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
-    "saklama_suresi": "2"
+    "kod": "104.01",
+    "ad": "Program Açma",
+    "saklama_suresi": "15"
   },
-  "konu": "Sınav Programının Duyurulması",
-  "sayi": "E-10101653-106-3448171",
-  "tarih": "30.01.2026",
+  "konu": "Program Açma Başvurusu Hk.",
+  "sayi": "E-10101653-104.01-3448393",
+  "tarih": "26.01.2026",
   "ilgi": {
-    "tarih": "24.12.2025",
-    "sayi": "E-39985474-106-5629655"
+    "tarih": "22.12.2025",
+    "sayi": "E-39985474-104.01-2889899"
   },
   "ek": {
     "adet": 1,
@@ -41,11 +41,11 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Sınav Programları ve Sınavlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Program Açma kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

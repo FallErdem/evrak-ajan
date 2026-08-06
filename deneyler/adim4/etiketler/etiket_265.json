@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları",
+    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10338915",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "17311665",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -24,20 +24,20 @@
   "hiyerarsi_yonu": "ust",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Stratejik Plan Hk.",
-  "sayi": "E-10338915-602.04-5394977",
-  "tarih": "14.04.2026",
+  "konu": "Kurul Kararının Gönderilmesi",
+  "sayi": "E-17311665-050.04-3769555",
+  "tarih": "04.03.2026",
   "ilgi": {
-    "tarih": "03.03.2026",
-    "sayi": "E-39985474-602.04-2365009"
+    "tarih": "13.02.2026",
+    "sayi": "E-39985474-050.04-2013515"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Stratejik Plan",
+    "Talep": "Kurul Kararının Gönderilmesi",
     "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
     "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
@@ -56,7 +56,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Stratejik Plan",
+    "Kurul Kararının Gönderilmesi",
     "olumlu, belge düzenlendi",
     "Başkanlığımız kayıt bürosu",
     "kimlik belgesi ibraz edilerek şahsen",

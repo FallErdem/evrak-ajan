@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_egitim_rehberlik_sb",
-    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-    "detsis_no": "87302975",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet KESKIN",
-    "adres": "Demetevler Mahallesi Menekşe Caddesi No: 14/12 Yenimahalle/ANKARA",
+    "ad": "Nurten ATEŞ",
+    "adres": "Ergazi Mahallesi Kestane Sokağı No: 20/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -23,18 +23,18 @@
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "160.01.02",
-    "ad": "Kaynaştırma Eğitimi",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Kaynaştırma Uygulaması Bilgi Talebi",
+  "konu": "Yabancı Uyruklu Öğrenci Kayıt Talebi",
   "sayi": null,
-  "tarih": "17.02.2026",
+  "tarih": "21.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kaynaştırma Uygulaması Bilgi",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Yabancı Uyruklu Öğrenci Kayıt",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -43,11 +43,11 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kaynaştırma Uygulaması Bilgi",
-    "ilgili kuruma sunulmak üzere"
+    "Yabancı Uyruklu Öğrenci Kayıt",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }
