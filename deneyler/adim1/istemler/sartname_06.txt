@@ -1,0 +1,55 @@
+================================================================
+DİKKAT — BU BELGE BİR KURUM YAZISI DEĞİL, VATANDAŞ BAŞVURUSUDUR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" geçersiz. Başvuruyu bir vatandaş
+    kendi ağzından yazar; birinci tekil şahıs KULLANILIR.
+
+  - "KURUMLARA ATIF" geçersiz. Yazan kişi bir kurum değildir;
+    "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler KULLANILMAZ.
+    Muhatap kuruma "Rektörlüğünüz" denebilir.
+
+  - "KAPANIŞ CÜMLESİ" bölümündeki hiyerarşi tablosu geçersiz.
+    Bu belgenin kapanışı aşağıda ayrıca belirtilmiştir.
+
+  - "BİLGİ UYDURMA" yasağı geçerlidir, aynen uygulanır.
+
+Üslup: Resmî ve kanuna atıflı. Vatandaş dili ama özenli.
+================================================================
+
+--- SARTNAME ---
+Belge türü      : bilgi edinme başvurusu
+Yazan           : gerçek kişi (başvurucu)
+Muhatap         : Gazi Üniversitesi Rektörlüğü
+İlgi            : yok
+Ek              : yok
+
+Somut bilgiler (yalnızca bunları kullan):
+  - Dayanak       : 4982 sayılı Bilgi Edinme Hakkı Kanunu
+  - Talep         : 2023-2025 yıllarında düzenlenen bilimsel
+                    etkinliklerin listesi
+  - İstenen ayrıntı : etkinliklerin adı, tarihi ve türü
+  - Bildirim yolu : cevabın elektronik posta ile gönderilmesi
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — dayanak ve talep
+  2. paragraf — 2 cümle — istenen ayrıntı ve bildirim yolu
+                (2. cümle kapanış cümlesidir)
+
+Kapanış cümlesi : "Gereğini arz ederim." veya
+                  "Gereğinin yapılmasını arz ederim."
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin başvurucu ağzından mı yazıldı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. 4982 sayılı Kanuna atıf yapıldı mı
+6. Kapanış "arz ederim." ile mi bitiyor
+7. İki paragraf var mı, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.

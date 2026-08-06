@@ -1,0 +1,36 @@
+--- SARTNAME ---
+Belge türü      : cevap yazısı
+Gönderen        : Gazi Üniversitesi - Öğrenci İşleri Daire Başkanlığı
+Muhatap         : gerçek kişi (mezun)
+Hiyerarşi yönü  : GERÇEK KİŞİ
+İlgi            : var (mezunun dilekçesi)
+Ek              : yok
+
+Somut bilgiler (yalnızca bunları kullan):
+  - Talep edilen belgeler : mezuniyet belgesi ve not durum belgesi
+  - Öğrenim bilgisi       : Hukuk Fakültesi 2019 yılı mezunu
+  - Talebin sonucu        : olumlu, belgeler düzenlendi
+  - Teslim yeri           : Başkanlığımız öğrenci işleri bürosu
+  - Teslim şartı          : kimlik ibrazı ile şahsen veya vekâletname ile
+  - Diğer yol             : belgeler e-Devlet üzerinden de alınabilir
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — talebin sonucu ve düzenlenen belgeler
+  2. paragraf — 3 cümle — teslim koşulları ve diğer yol
+                (3. cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "Bilgilerinize sunulur." mu (muhatap GERÇEK KİŞİ)
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İki paragraf var mı, her birinde üç cümle var mı, aralarında boş
+   satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.

@@ -1,0 +1,27 @@
+{
+  "belge_no": "09",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "ilgi_var": true,
+  "ek_var": true,
+  "paragraf_cumle_sayilari": [
+    2,
+    2,
+    2
+  ],
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Gazi",
+    "Ankara",
+    "İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "öğretmenlik uygulaması",
+    "bahar dönemi",
+    "142",
+    "liste",
+    "takvim",
+    "uygulama okul"
+  ],
+  "_aciklama": "Blok D - zorlayıcı. İlgi + ek + 3 paragraf. AYNI DÜZEY -> arz."
+}

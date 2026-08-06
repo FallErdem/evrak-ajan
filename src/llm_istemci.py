@@ -54,29 +54,50 @@ HATA_METNI_AZAMI = 500
 class TokenBilgisi:
     """Bir çağrının token muhasebesi.
 
-    DİKKAT — cikti, dusunme'yi İÇERİR. OpenAI biçiminde completion_tokens,
-    reasoning_tokens'ı kapsar. Ekrana yazdırırken ayırmak isteyen
-    gorunur_cikti kullanmalı; yoksa düşünme iki kez sayılır.
+    DÜŞÜNME TOKENLERİ İKİ FARKLI ŞEKİLDE RAPORLANIYOR — ölçülmüş durum:
 
-    Kimi K3 testinde istek başına ~6000 çıktı tokeni faturalandı ama ekranda
-    ~100 token göründü; aradaki fark görünmeyen düşünme tokenleriydi. Bu alan
-    o farkı görünür kılmak için var.
+    (A) OpenAI biçimi: completion_tokens düşünmeyi İÇERİR ve düşünme
+        completion_tokens_details.reasoning_tokens alanında ayrıca yazar.
+
+    (B) Google biçimi: düşünme HİÇBİR ALANDA yazmaz, yalnızca
+        total_tokens'a eklenir. Ölçtüğümüz gerçek örnek:
+            prompt 1726 + completion 70 = 1796  ama  total 3760
+            aradaki 1964 token = görünmeyen düşünme
+
+    Bu ayrım maliyet açısından kritik: düşünme çıktı fiyatından
+    faturalanır. (B) durumunda completion_tokens'a bakarak hesap yapmak
+    maliyeti 25 kat düşük gösterir.
+
+    dusunme_ciktiya_dahil bu iki durumu ayırt eder.
     """
 
     girdi: int = 0
     cikti: int = 0
     dusunme: int = 0
     toplam: int = 0
+    dusunme_ciktiya_dahil: bool = False
     ham: dict = field(default_factory=dict)
 
     @property
     def gorunur_cikti(self) -> int:
-        """Düşünme çıkarıldıktan sonra gerçekten üretilen token."""
-        return max(0, self.cikti - self.dusunme)
+        """Kullanıcının okuduğu metnin token sayısı (düşünme hariç)."""
+        if self.dusunme_ciktiya_dahil:
+            return max(0, self.cikti - self.dusunme)
+        return self.cikti
+
+    @property
+    def faturalanan_cikti(self) -> int:
+        """Çıktı fiyatından faturalanan token — düşünme DAHİL.
+
+        Maliyet hesabında kullanılacak sayı budur, cikti değil.
+        """
+        if self.dusunme_ciktiya_dahil:
+            return self.cikti
+        return self.cikti + self.dusunme
 
     def __str__(self) -> str:
         return (
-            f"girdi {self.girdi} | çıktı {self.gorunur_cikti} | "
+            f"girdi {self.girdi} | metin {self.gorunur_cikti} | "
             f"düşünme {self.dusunme} | toplam {self.toplam}"
         )
 
@@ -207,8 +228,10 @@ class LLMIstemci:
     def __init__(self, yapilandirma: Yapilandirma) -> None:
         self.y = yapilandirma
         self.toplam_girdi = 0
-        self.toplam_cikti = 0
+        self.toplam_metin = 0
         self.toplam_dusunme = 0
+        self.toplam_faturalanan_cikti = 0
+        self.toplam_genel = 0
         self.cagri_sayisi = 0
         # Kendi imzalı sertifika kullanan tünellerde (ngrok vb.) gerekebilir
         # diye ayrı tutuluyor; varsayılan doğrulama açık.
@@ -257,20 +280,30 @@ class LLMIstemci:
 
     @property
     def toplam_token(self) -> int:
-        """Bu istemci örneğinin harcadığı toplam token."""
-        return self.toplam_girdi + self.toplam_cikti
+        """Bu istemci örneğinin harcadığı toplam token.
+
+        Sağlayıcının bildirdiği total_tokens toplanıyor, girdi+çıktı DEĞİL.
+        Sebebi ölçülmüş: Google düşünme tokenlerini yalnızca total_tokens'a
+        ekliyor. girdi+çıktı toplanırsa bir çağrının 3760 tokeni 1796
+        görünür ve bütçe sınırı işe yaramaz hâle gelir.
+        """
+        return self.toplam_genel
 
     def ozet(self) -> str:
         return (
             f"{self.cagri_sayisi} çağrı | girdi {self.toplam_girdi} | "
-            f"çıktı {self.toplam_cikti} (düşünme {self.toplam_dusunme}) | "
-            f"toplam {self.toplam_token}"
+            f"metin {self.toplam_metin} | düşünme {self.toplam_dusunme} | "
+            f"toplam {self.toplam_genel}"
+            f"\n           faturalanan çıktı (düşünme dahil): "
+            f"{self.toplam_faturalanan_cikti}"
         )
 
     def _sayaci_guncelle(self, token: TokenBilgisi) -> None:
         self.toplam_girdi += token.girdi
-        self.toplam_cikti += token.cikti
+        self.toplam_metin += token.gorunur_cikti
         self.toplam_dusunme += token.dusunme
+        self.toplam_faturalanan_cikti += token.faturalanan_cikti
+        self.toplam_genel += token.toplam
         self.cagri_sayisi += 1
 
     # -- HTTP -----------------------------------------------------------------
@@ -383,34 +416,52 @@ class LLMIstemci:
 
     @staticmethod
     def _token_cikar(veri: dict) -> TokenBilgisi:
-        """usage alanını okur; eksik alanlara tahammüllüdür.
+        """usage alanını okur; iki farklı raporlama biçimini de kavrar.
 
-        HAM VERİ KORUNUYOR: OpenAI uyumluluk katmanının düşünme tokenlerini
-        hangi adla raporladığından emin değiliz. Sağlayıcılar bu alanı farklı
-        adlandırabiliyor. Ham sözlüğü saklayarak, alan adı beklediğimizden
-        farklıysa bile bilgiyi kaybetmiyoruz — kayıt dosyasına düşer,
-        bakıp düzeltiriz.
+        ÖNCE açık bir düşünme alanı aranır (OpenAI biçimi). Bulunamazsa
+        aritmetikten türetilir: total - prompt - completion sıfırdan büyükse
+        aradaki fark düşünmedir (Google biçimi).
+
+        Türetme sağlam bir yöntem: sağlayıcı düşünmeyi gizlese bile
+        total_tokens'a eklemek zorunda, çünkü faturayı ona göre kesiyor.
+
+        HAM VERİ KORUNUYOR: alan adları sağlayıcıdan sağlayıcıya değişiyor.
+        Ham sözlük kayda düştüğü için beklenmedik bir biçimle karşılaşınca
+        bilgi kaybolmuyor.
         """
         kullanim = veri.get("usage") or {}
         detay = kullanim.get("completion_tokens_details") or {}
-
-        dusunme = 0
-        for aday in ("reasoning_tokens", "thoughts_token_count", "thinking_tokens"):
-            if isinstance(detay.get(aday), int):
-                dusunme = detay[aday]
-                break
-        else:
-            for aday in ("thoughts_token_count", "reasoning_tokens"):
-                if isinstance(kullanim.get(aday), int):
-                    dusunme = kullanim[aday]
-                    break
 
         girdi = int(kullanim.get("prompt_tokens") or 0)
         cikti = int(kullanim.get("completion_tokens") or 0)
         toplam = int(kullanim.get("total_tokens") or (girdi + cikti))
 
+        # (A) Açık alan var mı?
+        dusunme = 0
+        dusunme_dahil = False
+        for kaynak in (detay, kullanim):
+            for aday in ("reasoning_tokens", "thoughts_token_count",
+                         "thinking_tokens", "reasoning_token_count"):
+                deger = kaynak.get(aday)
+                if isinstance(deger, int) and deger > 0:
+                    dusunme, dusunme_dahil = deger, True
+                    break
+            if dusunme:
+                break
+
+        # (B) Yoksa toplamdan türet
+        if not dusunme:
+            fark = toplam - girdi - cikti
+            if fark > 0:
+                dusunme, dusunme_dahil = fark, False
+
         return TokenBilgisi(
-            girdi=girdi, cikti=cikti, dusunme=dusunme, toplam=toplam, ham=kullanim
+            girdi=girdi,
+            cikti=cikti,
+            dusunme=dusunme,
+            toplam=toplam,
+            dusunme_ciktiya_dahil=dusunme_dahil,
+            ham=kullanim,
         )
 
 

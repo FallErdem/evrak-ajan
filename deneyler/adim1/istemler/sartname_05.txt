@@ -1,0 +1,56 @@
+================================================================
+DİKKAT — BU BELGE BİR KURUM YAZISI DEĞİL, VATANDAŞ ŞİKÂYETİDİR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" geçersiz. Şikâyeti bir vatandaş
+    kendi ağzından yazar; birinci tekil şahıs KULLANILIR.
+
+  - "KURUMLARA ATIF" geçersiz. Yazan kişi bir kurum değildir;
+    "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler KULLANILMAZ.
+
+  - "KAPANIŞ CÜMLESİ" bölümündeki hiyerarşi tablosu geçersiz.
+    Bu belgenin kapanışı aşağıda ayrıca belirtilmiştir.
+
+  - "BİLGİ UYDURMA" yasağı geçerlidir, aynen uygulanır.
+
+Üslup: Rahatsızlığını belli eden ama resmîlikten çıkmayan bir dil.
+Hakaret, tehdit, suçlama veya alaycı ifade YOK. Ünlem işareti YOK.
+Büyük harfle vurgu YOK.
+================================================================
+
+--- SARTNAME ---
+Belge türü      : şikâyet
+Yazan           : gerçek kişi (vatandaş)
+Muhatap         : Yenimahalle Belediye Başkanlığı
+İlgi            : yok
+Ek              : yok
+
+Somut bilgiler (yalnızca bunları kullan):
+  - Sorun          : sokaktaki çöp konteyneri düzenli boşaltılmıyor
+  - Süre           : yaklaşık üç haftadır devam ediyor
+  - Sonuç          : kötü koku oluşmuş, çevre sakinleri rahatsız
+  - Önceki başvuru : durum telefonla bildirilmiş, sonuç alınamamış
+  - Talep          : konteynerin boşaltılması ve düzenli toplama yapılması
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — sorun, süresi ve sonucu
+  2. paragraf — 2 cümle — önceki başvuru ve talep
+                (2. cümle kapanış cümlesidir)
+
+Kapanış cümlesi : "Gereğini arz ederim." veya
+                  "Gereğinin yapılmasını arz ederim."
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin vatandaş ağzından mı yazıldı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Hakaret, tehdit, ünlem veya büyük harfle vurgu var mı — OLMAMALI
+6. Kapanış "arz ederim." ile mi bitiyor
+7. İki paragraf var mı, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.

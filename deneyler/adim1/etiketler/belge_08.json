@@ -1,0 +1,25 @@
+{
+  "belge_no": "08",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "ilgi_var": false,
+  "ek_var": false,
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "yasakli_adlar": [
+    "Ankara",
+    "İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle",
+    "İlçe Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "okul servis",
+    "denetim",
+    "Bakanlık",
+    "okul yönetim",
+    "dönem sonunda"
+  ],
+  "_aciklama": "Blok C - ÜST->ALT. Kapanış 'rica ederim' olmalı. 07 ile çift."
+}

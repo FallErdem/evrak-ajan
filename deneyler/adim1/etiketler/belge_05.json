@@ -1,0 +1,22 @@
+{
+  "belge_no": "05",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "yok",
+  "ilgi_var": false,
+  "ek_var": false,
+  "paragraf_cumle_sayilari": [
+    3,
+    2
+  ],
+  "yasakli_adlar": [
+    "Yenimahalle",
+    "Belediye Başkanlığı"
+  ],
+  "anahtar_terimler": [
+    "çöp konteyner",
+    "üç hafta",
+    "koku",
+    "telefon"
+  ],
+  "_aciklama": "Blok B - şikâyet. Duygusal içerik resmî kalıpta durabiliyor mu."
+}

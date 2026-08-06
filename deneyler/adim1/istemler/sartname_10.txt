@@ -1,0 +1,38 @@
+--- SARTNAME ---
+Belge türü      : cevap yazısı (olumsuz)
+Gönderen        : Yenimahalle Belediye Başkanlığı - İmar ve Şehircilik Müdürlüğü
+Muhatap         : gerçek kişi (vatandaş)
+Hiyerarşi yönü  : GERÇEK KİŞİ
+İlgi            : var (vatandaşın dilekçesi)
+Ek              : yok
+
+Somut bilgiler (yalnızca bunları kullan):
+  - Talep         : taşınmaz üzerinde ilave kat yapılması
+  - Taşınmaz      : 42315 ada, 7 parsel
+  - Talebin sonucu: OLUMSUZ, talep karşılanamıyor
+  - Gerekçe       : yürürlükteki imar planında öngörülen yapılaşma
+                    koşullarına aykırıdır
+  - İtiraz yolu   : plan değişikliği talebi belediye meclisine sunulabilir
+  - Başvuru yeri  : Müdürlüğümüz kayıt bürosu
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — talep, inceleme ve olumsuz sonuç
+  2. paragraf — 3 cümle — gerekçe ve itiraz yolu
+                (3. cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal. Olumsuzluk nazik ama net bildirilir;
+                  özür dilenmez, suçlayıcı olunmaz, umut verilmez.
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "Bilgilerinize sunulur." mu (muhatap GERÇEK KİŞİ)
+6. Talebin karşılanamadığı AÇIKÇA yazılmış mı — belirsiz bırakılmamalı
+7. İki paragraf var mı, her birinde üç cümle var mı, aralarında boş
+   satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.

@@ -42,11 +42,11 @@
     "                    Kullanmak icin asagidaki satirin basindaki alt tireyi",
     "                    kaldirin.",
     "",
-    "Sicaklik burada YOK: Gemini 3.6 Flash'ta sicaklik ayari bulunmuyor.",
-    "Ollama'ya gecerseniz 'temperature': 0.8 ekleyebilirsiniz."
+    "Sicaklik burada YOK: Gemini 3.6 Flash'ta sicaklik ayari bulunmuyor."
+  
   ],
   "ek_parametreler": {
-    "max_tokens": 2048,
-    "_reasoning_effort": "low"
+    "max_tokens": 4096,
+    "reasoning_effort": "low"
   }
 }

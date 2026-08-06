@@ -242,9 +242,11 @@ def main() -> int:
             "model": cevap.model,
             "talimat": talimat_yolu.name,
             "girdi_token": cevap.token.girdi,
-            "cikti_token": cevap.token.cikti,
+            "metin_token": cevap.token.gorunur_cikti,
             "dusunme_token": cevap.token.dusunme,
+            "faturalanan_cikti": cevap.token.faturalanan_cikti,
             "toplam_token": cevap.token.toplam,
+            "dusunme_ciktiya_dahil": cevap.token.dusunme_ciktiya_dahil,
             "usage_ham": cevap.token.ham,
             "sure_ms": round(cevap.sure_ms, 1),
             "deneme": cevap.deneme_sayisi,
@@ -263,13 +265,28 @@ def main() -> int:
     print(f"Kayıt    : {kayit_dosyasi}")
 
     if istemci.cagri_sayisi:
-        ortalama = istemci.toplam_token / istemci.cagri_sayisi
+        n = istemci.cagri_sayisi
+        girdi_ort = istemci.toplam_girdi / n
+        cikti_ort = istemci.toplam_faturalanan_cikti / n
+
+        # Girdi ve cikti AYRI gosteriliyor: cikti tokeni girdiden birkac kat
+        # pahali. Tek bir "toplam token" sayisiyla maliyet hesaplanamaz.
         print(
-            f"\nBelge başına ortalama {ortalama:.0f} token."
-            f"\n450 belge için kaba tahmin: {ortalama * 450:,.0f} token."
-            f"\nGerçek maliyet için sağlayıcının fatura sayfasına bakın —"
-            f"\ntoken fiyatı modele ve girdi/çıktı ayrımına göre değişir."
+            f"\nBelge başına ortalama:"
+            f"\n  girdi            {girdi_ort:>8,.0f} token"
+            f"\n  faturalanan çıktı {cikti_ort:>7,.0f} token  (düşünme dahil)"
+            f"\n\n450 belge için:"
+            f"\n  girdi            {girdi_ort * 450:>8,.0f} token"
+            f"\n  faturalanan çıktı {cikti_ort * 450:>7,.0f} token"
+            f"\n\nMaliyet = (girdi × girdi_fiyatı) + (faturalanan çıktı × çıktı fiyatı)."
+            f"\nFiyatlar sağlayıcının fiyat sayfasında, 1 milyon token başına."
         )
+        if istemci.toplam_dusunme > istemci.toplam_metin * 3:
+            print(
+                f"\n[!] Düşünme tokenleri metnin {istemci.toplam_dusunme / max(1, istemci.toplam_metin):.0f}"
+                f" katı. Maliyetin büyük kısmı buradan geliyor."
+                f"\n    yapilandirma.json içine \"reasoning_effort\": \"low\" eklemeyi deneyin."
+            )
 
     return 1 if hatali else 0
 

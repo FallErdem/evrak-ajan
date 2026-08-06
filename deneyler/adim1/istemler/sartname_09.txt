@@ -1,0 +1,38 @@
+--- SARTNAME ---
+Belge türü      : üst yazı (kurumdan kuruma, ek gönderimi)
+Gönderen        : Gazi Üniversitesi Rektörlüğü
+Muhatap         : Ankara İl Millî Eğitim Müdürlüğü
+Hiyerarşi yönü  : AYNI DÜZEY
+İlgi            : var (daha önce imzalanan öğretmenlik uygulaması protokolü)
+Ek              : var (öğrenci listesi ve uygulama takvimi)
+
+Somut bilgiler (yalnızca bunları kullan):
+  - Dayanak       : ilgide kayıtlı öğretmenlik uygulaması protokolü
+  - Dönem         : bahar dönemi
+  - Öğrenci sayısı: 142 öğrenci
+  - Ek 1          : görevlendirilecek öğrencilerin listesi
+  - Ek 2          : uygulama takvimi
+  - İstenen 1     : listenin uygulama okullarına dağıtılması
+  - İstenen 2     : takvimin okul yönetimlerine duyurulması
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — ilgiye atıf, dönem ve öğrenci sayısı
+  2. paragraf — 2 cümle — eklerin gönderildiğinin bildirilmesi
+  3. paragraf — 2 cümle — muhataptan istenenler
+                (2. cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "arz ederim." mi (bu belge AYNI DÜZEYdir)
+6. İlk cümle ilgiye atıfla mı başlıyor, eke metin içinde atıf var mı
+7. ÜÇ paragraf var mı, her birinde iki cümle var mı, aralarında boş
+   satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.

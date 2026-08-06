@@ -1,0 +1,56 @@
+================================================================
+DİKKAT — BU BELGE BİR KURUM YAZISI DEĞİL, VATANDAŞ DİLEKÇESİDİR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" geçersiz. Dilekçeyi bir vatandaş
+    kendi ağzından yazar; birinci tekil şahıs KULLANILIR.
+    Doğru: "talep ediyorum", "tarafıma verilmesini", "ekte sunuyorum"
+
+  - "KURUMLARA ATIF" geçersiz. Yazan kişi bir kurum değildir;
+    "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler KULLANILMAZ.
+    Muhatap kuruma "Müdürlüğünüz" veya "Başkanlığınız" denebilir.
+
+  - "KAPANIŞ CÜMLESİ" bölümündeki hiyerarşi tablosu geçersiz.
+    Bu belgenin kapanışı aşağıda ayrıca belirtilmiştir.
+
+  - "TALEBİ TEK YERDE İFADE ET" geçerlidir, aynen uygulanır.
+  - "BİLGİ UYDURMA" yasağı geçerlidir, aynen uygulanır.
+
+Üslup: Vatandaş dili. Resmî ve saygılı, ama hukuk dili taklidi
+yapılmaz. Ağdalı bürokratik kalıplar kullanılmaz.
+================================================================
+
+--- SARTNAME ---
+Belge türü      : vatandaş dilekçesi
+Yazan           : gerçek kişi (vatandaş)
+Muhatap         : Yenimahalle Belediye Başkanlığı
+İlgi            : yok
+Ek              : var (tapu fotokopisi)
+
+Somut bilgiler (yalnızca bunları kullan):
+  - Talep       : imar durum belgesi düzenlenmesi
+  - Taşınmaz    : 42315 ada, 7 parsel
+  - Mülkiyet    : taşınmaz yazan kişiye aittir
+  - Ek          : tapu fotokopisi dilekçeye eklenmiştir
+
+Paragraf yapısı :
+  1 paragraf — 3 cümle
+               (3. cümle kapanış cümlesidir)
+
+Kapanış cümlesi : "Gereğini arz ederim." veya
+                  "Gereğinin yapılmasını arz ederim."
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin vatandaş ağzından mı yazıldı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Eke metin içinde atıf yapıldı mı — yapılmalı ("ekte sunulmuştur")
+6. Kapanış "arz ederim." ile mi bitiyor
+7. Tek paragraf mı, üç cümle mi
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.

@@ -1,0 +1,24 @@
+{
+  "belge_no": "07",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ust",
+  "ilgi_var": false,
+  "ek_var": false,
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "yasakli_adlar": [
+    "Ankara",
+    "İl Millî Eğitim Müdürlüğü",
+    "Millî Eğitim Bakanlığı",
+    "Ortaöğretim Genel Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "ortaöğretim",
+    "derslik",
+    "ödenek",
+    "değerlendir"
+  ],
+  "_aciklama": "Blok C - ALT->ÜST. Kapanış 'arz ederim' olmalı."
+}

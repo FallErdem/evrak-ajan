@@ -1,0 +1,21 @@
+{
+  "belge_no": "04",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "yok",
+  "ilgi_var": false,
+  "ek_var": true,
+  "paragraf_cumle_sayilari": [
+    3
+  ],
+  "yasakli_adlar": [
+    "Yenimahalle",
+    "Belediye Başkanlığı"
+  ],
+  "anahtar_terimler": [
+    "42315",
+    "7 parsel",
+    "tapu",
+    "imar durum"
+  ],
+  "_aciklama": "Blok B - vatandaş dilekçesi. EK ATFI testi."
+}

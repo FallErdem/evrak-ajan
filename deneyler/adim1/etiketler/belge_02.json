@@ -1,0 +1,27 @@
+{
+  "belge_no": "02",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "gercek_kisi",
+  "ilgi_var": true,
+  "ek_var": false,
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Gazi",
+    "Öğrenci İşleri Daire Başkanlığı"
+  ],
+  "anahtar_terimler": [
+    "Hukuk Fakültesi",
+    "2019",
+    "mezuniyet belgesi",
+    "not durum",
+    "öğrenci işleri",
+    "kimlik",
+    "vekâletname",
+    "e-Devlet"
+  ],
+  "_aciklama": "Blok A - kontrollü üçlü. Üniversite dili."
+}

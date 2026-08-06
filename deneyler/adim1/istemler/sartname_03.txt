@@ -1,0 +1,36 @@
+--- SARTNAME ---
+Belge türü      : cevap yazısı
+Gönderen        : Ankara İl Millî Eğitim Müdürlüğü
+Muhatap         : gerçek kişi (veli)
+Hiyerarşi yönü  : GERÇEK KİŞİ
+İlgi            : var (velinin dilekçesi)
+Ek              : yok
+
+Somut bilgiler (yalnızca bunları kullan):
+  - Talep         : çocuğunun okul nakli hakkında bilgi
+  - Öğrenci       : ortaokul 6. sınıf öğrencisi
+  - Sonuç         : nakil işlemi yapılabilir
+  - Başvuru yolu  : e-Okul sistemi üzerinden veli tarafından yapılır
+  - Yetkili birim : ikamet edilen ilçe millî eğitim müdürlüğü
+  - Gerekli belge : ikametgâh belgesi
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — talebin değerlendirilmesi ve nakil imkânı
+  2. paragraf — 3 cümle — başvuru yolu, yetkili birim ve gerekli belge
+                (3. cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "Bilgilerinize sunulur." mu (muhatap GERÇEK KİŞİ)
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İki paragraf var mı, her birinde üç cümle var mı, aralarında boş
+   satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.

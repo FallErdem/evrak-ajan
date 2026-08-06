@@ -1,0 +1,25 @@
+{
+  "belge_no": "10",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "gercek_kisi",
+  "ilgi_var": true,
+  "ek_var": false,
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "yasakli_adlar": [
+    "Yenimahalle",
+    "Belediye Başkanlığı",
+    "İmar ve Şehircilik Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "42315",
+    "7 parsel",
+    "ilave kat",
+    "imar planı",
+    "belediye meclis",
+    "kayıt bürosu"
+  ],
+  "_aciklama": "Blok D - olumsuz cevap. Ret nazik ama net mi."
+}
