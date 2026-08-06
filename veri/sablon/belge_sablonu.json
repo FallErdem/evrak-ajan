@@ -1,0 +1,464 @@
+{
+  "_aciklama": "TEKNOFEST 2026 1. Senaryo — sentetik resmî yazı ve dilekçe üretimi için belge şablonu. Tüm kalıplar incelenen 21 gerçek belgeden çıkarılmıştır (11 kurumdan kuruma yazı, 4 kurumdan vatandaşa yazı, 6 dilekçe/form). Kaynakta gözlenmeyen hiçbir kalıp eklenmemiştir.",
+  "baslik_bloku": {
+    "aciklama": "Yönetmelik m.10: 1. satır T.C., 2. satır idarenin adı, 3. satır birimin adı. Gözlemde 3 VE 4 satırlı örnekler var; 4. satır alt birimi parantez içinde veya düz gösterir.",
+    "kaliplar": {
+      "belediye": [
+        "T.C.",
+        "YENİMAHALLE BELEDİYE BAŞKANLIĞI",
+        "{birim_adi}"
+      ],
+      "universite": [
+        "T.C.",
+        "GAZİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+        "{birim_adi}"
+      ],
+      "universite_4sat": [
+        "T.C.",
+        "GAZİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+        "{birim_adi}",
+        "({alt_birim_adi})"
+      ],
+      "il_mudurlugu": [
+        "T.C.",
+        "ANKARA VALİLİĞİ",
+        "İl Millî Eğitim Müdürlüğü"
+      ],
+      "ilce_mudurlugu": [
+        "T.C.",
+        "YENİMAHALLE KAYMAKAMLIĞI",
+        "İlçe Millî Eğitim Müdürlüğü"
+      ],
+      "bakanlik": [
+        "T.C.",
+        "İÇİŞLERİ BAKANLIĞI",
+        "{birim_adi}"
+      ],
+      "belediye_4sat": [
+        "T.C.",
+        "YENİMAHALLE BELEDİYE BAŞKANLIĞI",
+        "{birim_adi}",
+        "{alt_birim_adi}"
+      ]
+    },
+    "hizalama": "ortalanmış",
+    "logo": "Sol üstte kurum arması, sağ üstte varsa kampanya/yıldönümü logosu (ör. 100. yıl).",
+    "notlar": [
+      "BELEDİYE KALIBI DOĞRULANDI. Ankara Büyükşehir Belediyesi'nin iki gerçek yazısında ikinci satır doğrudan belediyenin adıdır, mülki idare (valilik) satırı YOKTUR: 'T.C. / ANKARA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI / Kent Estetiği Dairesi Başkanlığı İnceleme İhale ve İdari İşler Şube Müdürlüğü' (07.03.2016) ve 'T.C. / ANKARA BÜYÜKŞEHİR BELEDİYESİ BAŞKANLIĞI / Yazı İşleri ve Kararlar Dairesi Başkanlığı / Kararlar Şube Müdürlüğü' (12.07.2018).",
+      "UYARI: Aynı kurum iki yazıda farklı yazım kullanmış — 'BELEDİYE BAŞKANLIĞI' ve 'BELEDİYESİ BAŞKANLIĞI'. DETSİS kayıt adı esas alınmalıdır (Yenimahalle için: Yenimahalle Belediye Başkanlığı).",
+      "Belediyede de 4 satırlı başlık görülüyor: daire başkanlığı + şube müdürlüğü ayrı satırlarda.",
+      "Üniversitede ikinci satır 'GAZİ ÜNİVERSİTESİ REKTÖRLÜĞÜ' biçimindedir; iki bağımsız örnekle doğrulandı.",
+      "İl/ilçe millî eğitim müdürlüklerinde ikinci satır bağlı olunan mülki idaredir (valilik/kaymakamlık).",
+      "İl MEM'de şube müdürlüğü başlıkta görünmez; yalnızca belge sayısında kendi DETSİS numarasıyla yer alır.",
+      "İSTİSNA: TBMM Dilekçe Komisyonu yazısında 'T.C.' satırı YOKTUR; başlık doğrudan 'TÜRKİYE BÜYÜK MİLLET MECLİSİ / DİLEKÇE KOMİSYONU' ile başlar.",
+      "'Millî' ve 'Milli' yazımı gerçekte karışık kullanılıyor."
+    ]
+  },
+  "sayi_satiri": {
+    "bicim": "Sayı : E-{detsis_no}-{sdp_kodu}-{kayit_no}",
+    "kayit_no_uzunlugu": "Kuruma göre değişir; gözlemde 7-11 hane. Aynı kurum içinde sabittir.",
+    "gozlenen_ornekler": [
+      {
+        "kurum": "Gazi Ü. Teknoloji Fak. (Öğrenci İşleri Birimi)",
+        "sayi": "E-67934452-010.99-1514375"
+      },
+      {
+        "kurum": "Gazi Ü. Teknoloji Fak. (Tanıtım ve Yayın Birimi)",
+        "sayi": "E-70989351-309.01-1490216"
+      },
+      {
+        "kurum": "TRT Genel Müdürlüğü",
+        "sayi": "E-30538162-774.99-2244860"
+      },
+      {
+        "kurum": "İŞKUR Genel Müdürlüğü",
+        "sayi": "E-90521499-773-00020353113"
+      },
+      {
+        "kurum": "MEB Talim ve Terbiye Kurulu Bşk.",
+        "sayi": "E-75292403-020-119194271"
+      },
+      {
+        "kurum": "MEB Ortaöğretim Genel Md.",
+        "sayi": "E-84037561-821.05-98195416"
+      },
+      {
+        "kurum": "Mamak Kaymakamlığı İlçe MEM",
+        "sayi": "E-59526691-821.99-103359059"
+      },
+      {
+        "kurum": "Ankara BŞB Kent Estetiği D. Bşk. (2016)",
+        "sayi": "79918603-698-1012"
+      },
+      {
+        "kurum": "Ankara BŞB Yazı İşleri ve Kararlar D. Bşk. (2018)",
+        "sayi": "69403663-301-3525"
+      },
+      {
+        "kurum": "Altındağ Kaymakamlığı (2016, ilgi satırında)",
+        "sayi": "86551772-622.01"
+      },
+      {
+        "kurum": "TBMM Dilekçe Komisyonu (2017)",
+        "sayi": "57747603-DN.8803"
+      }
+    ],
+    "kritik_bulgu": "Aynı dekanlıktan çıkan iki yazının DETSİS numarası farklıdır (67934452 ve 70989351). DETSİS numarası dekanlığın değil, parantezdeki ALT BİRİMİN numarasıdır. Üniversitede belge sayısı birim değil alt birim düzeyinde belirlenir.",
+    "bicim_ebys": "Sayı : E-{detsis_no}-{sdp_kodu}-{kayit_no}",
+    "bicim_eimza_oncesi": "Sayı : {detsis_no}-{sdp_kodu}-{kayit_no}",
+    "kritik_bulgu_2": "'E-' öneki EBYS/e-imza ile gelmiştir. 2016 ve 2018 tarihli Ankara Büyükşehir Belediyesi yazılarında sayı 'E-' öneki OLMADAN yazılmış ve kayıt numarası elle eklenmiştir (79918603-698-1012, 69403663-301-3525). 2024 sonrası üretilecek belgelerde daima 'E-' kullanılmalıdır.",
+    "notlar": [
+      "622.01 Bilgi Edinme, Talep ve Şikayetler kodu gerçek kullanımda doğrulandı (Altındağ Kaymakamlığı, 2016).",
+      "TBMM Dilekçe Komisyonu sayıda SDP kodu yerine kendi iç kodunu kullanıyor ('DN.8803'); istisna, genel kalıp değildir.",
+      "1012, 3525 gibi kısa kayıt numaraları e-imza öncesine aittir; EBYS numaraları 7-11 hanedir."
+    ],
+    "ek_satirlar": {
+      "aciklama": "Vatandaşa yazılan bazı yazılarda Sayı/Konu'nun altına kimlik satırı eklenir.",
+      "gozlenen": [
+        "T.C.K.N. : {tckn}"
+      ],
+      "kaynak": "İçişleri Bakanlığı Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü yazısı"
+    }
+  },
+  "tarih": {
+    "bicim": "GG.AA.YYYY",
+    "konum": "Sayı satırıyla aynı hizada, sağ kenarda",
+    "gozlenen": [
+      "24.03.2026",
+      "15.04.2026",
+      "13.03.2026",
+      "17.03.2026",
+      "25.12.2024",
+      "29.05.2024"
+    ]
+  },
+  "konu_satiri": {
+    "bicim": "Konu : {konu}",
+    "uzunluk": "Tek satırdan üç satıra kadar; uzun konular alt satıra sarar.",
+    "gozlenen_kaliplar": {
+      "duz_isim_tamlamasi": [
+        "Mezuniyet töreni",
+        "Ulusal Staj Programı",
+        "ÇEDES Yıl Sonu Kültür Şenlikleri",
+        "Sana Emanet Bilgi Yarışması",
+        "Bilimsel Toplantılara Katılım Yönergesi"
+      ],
+      "hk_ekli": [
+        "Staj İmkanı Hk",
+        "TRT Geleceğin İletişimcileri Yarışması 2026 Hk."
+      ],
+      "uzun_aciklayici": [
+        "Ege Üniversitesi Veri ve İstatistik Topluluğu Tarafından Yapılacak Etkinlik"
+      ]
+    },
+    "notlar": [
+      "'Hk' bazen noktalı bazen noktasız yazılıyor; ikisi de gerçek kullanımda.",
+      "Büyük/küçük harf tutarsız: 'Mezuniyet töreni' gibi cümle düzeninde olanlar da var.",
+      "Kurumlar arası duyuru yazılarında düz isim tamlaması baskın; talep ve dilekçe yazılarında '...Talebi' kalıbı yaygın."
+    ]
+  },
+  "ilgi_satiri": {
+    "bicim": "İlgi : {tarih} tarihli ve {sayi} sayılı yazı{nız}.",
+    "coklu_bicim": "İlgi : a) ... \\n       b) ...",
+    "gozlenen": [
+      "İlgi : 08.01.2026 tarihli ve E-90521499-200-00019866418 sayılı yazımız.",
+      "İlgi : 13.03.2026 tarihli ve E-99753504-309.01-1489128 sayılı yazı.",
+      "İlgi : Mamak Kaymakamlığı İlçe Müftülüğünün 28.05.2024 tarih ve 5105625 sayılı yazısı."
+    ],
+    "not": "Cevabî yazılarda bulunur; ilk yazılarda yoktur.",
+    "vatandas_dilekcesine_cevap": {
+      "bicim": "İlgi : {tarih} tarihli dilekçeniz.",
+      "not": "Vatandaş dilekçesine verilen cevap yazılarında sayı yerine yalnızca tarih ve 'dilekçeniz' yazılır.",
+      "kaynak": "İçişleri Bakanlığı Nüfus ve Vatandaşlık İşleri GM yazısı"
+    }
+  },
+  "hitap": {
+    "aciklama": "Metinden önce, ortalanmış, büyük harf.",
+    "gozlenen": [
+      "DAĞITIM YERLERİNE",
+      "BAKANLIK MAKAMINA",
+      "GAZİ ÜNİVERSİTESİ REKTÖRLÜĞÜ'NE",
+      "TÜM RESMİ ÖZEL OKUL / KURUM MÜDÜRLÜKLERİNE",
+      "İLGİLİ MAKAMA",
+      "ASKİ GENEL MÜDÜRLÜĞÜNE",
+      "BAKANLIK MAKAMINA"
+    ],
+    "not": "Birden fazla muhataba gidiyorsa 'DAĞITIM YERLERİNE', tek muhataba gidiyorsa muhatabın adı yönelme hâlinde.",
+    "vatandasa_yazi": {
+      "aciklama": "Muhatap gerçek kişi ise hitap ortalanmaz; sola veya ortaya yakın blok hâlinde yazılır.",
+      "bicim": "Sayın {Ad SOYAD}\\n{adres satırı 1}\\n{adres satırı 2}\\n{İlçe} / {İL}",
+      "gozlenen": [
+        "Sayın Aşır Can BÜYÜKER / Barış Mah. Barış Cad. No.1 ... / Yenimahalle / ANKARA",
+        "Sn: {Ad SOYAD} + adres + ANKARA",
+        "Mithat DOKUR / Ankara Batı 1 Ağır Ceza Mahkemesi Hakimliğine"
+      ],
+      "not": "'Sayın' ve 'Sn:' biçimlerinin ikisi de gerçek kullanımda."
+    }
+  },
+  "kapanis": {
+    "yon_kurali": "Rica YALNIZCA aşağı doğru; üst ve aynı düzeydeki makamlara arz edilir. Belirsizse arz.",
+    "gozlenen": {
+      "rica": [
+        "Bilgilerinize rica ederim.",
+        "Bilgilerinizi ve gereğini rica ederim."
+      ],
+      "arz": [
+        "Bilgilerinizi ve gereğini arz ederim.",
+        "gereğini bilgilerinize saygılarımızla arz ederiz.",
+        "Makamlarınızca da uygun görülmesi hâlinde olurlarınıza arz ederim."
+      ],
+      "karma": [
+        "Bilgileri ve gereğini arz/rica ederim."
+      ]
+    },
+    "not": "'arz/rica ederim' kalıbı, yazı hem üst hem ast makamlara dağıtılıyorsa kullanılıyor (MEB Ortaöğretim Genel Müdürlüğü örneği). Dağıtımlı yazılarda tercih ediliyor."
+  },
+  "imza_blogu": {
+    "bicim": "{Ad SOYAD}\\n{Unvan}",
+    "vekaleten_kaliplari": {
+      "makam_adina": [
+        "Müdür a.",
+        "Bakan a.",
+        "Rektör a.",
+        "Vali a."
+      ],
+      "vekil": [
+        "Genel Müdür V.",
+        "Ortaöğretim Genel Müdür V."
+      ],
+      "yardimci": [
+        "Dekan Yardımcısı"
+      ]
+    },
+    "gozlenen_ornekler": [
+      {
+        "ad": "Ayşe BAŞÇAVUŞOĞLU",
+        "unvan": "Okullar Genel Müdürü"
+      },
+      {
+        "ad": "Prof. Dr. Mustafa Bahadır ÖZDEMİR",
+        "unvan": "Dekan Yardımcısı"
+      },
+      {
+        "ad": "Prof. Dr. Musa ATAR",
+        "unvan": "Dekan"
+      },
+      {
+        "ad": "Mustafa IŞIK",
+        "unvan": "Genel Müdür V."
+      },
+      {
+        "ad": "Cihad DEMİRLİ",
+        "unvan": "Talim ve Terbiye Kurulu Başkanı"
+      },
+      {
+        "ad": "Hatice ÖZDEMİR",
+        "unvan": "Bakan a. / Ortaöğretim Genel Müdür V."
+      },
+      {
+        "ad": "Ahmet Fevzi ÖZDEMİR",
+        "unvan": "Müdür a. / Şube Müdürü"
+      },
+      {
+        "ad": "Ömer ÖKSÜZ",
+        "unvan": "Kent Estetiği Dairesi Başkanı"
+      },
+      {
+        "ad": "Neriman ERBAHÇECİ",
+        "unvan": "Yazı İşleri ve Kararlar Dairesi Başkanı"
+      },
+      {
+        "ad": "Zühre UÇAR",
+        "unvan": "Genel Müdür a. / Şube Müdürü"
+      },
+      {
+        "ad": "Mihrimah Belma SATIR",
+        "unvan": "İstanbul Milletvekili / Dilekçe Komisyonu Başkanı"
+      }
+    ],
+    "kritik_bulgu": "İmzalayan çoğu zaman birimin başı DEĞİLDİR. Şube müdürü 'Müdür a.', genel müdür 'Bakan a.', dekan yardımcısı dekan adına imzalar. birimler.csv'deki imza_unvani alanı en üst yetkiliyi gösterir; gerçekçilik için belgelerin bir kısmı '{ast unvan} / {üst unvan} a.' biçiminde imzalanmalıdır.",
+    "olur_blogu": {
+      "aciklama": "Makam oluru gerektiren yazılarda imza bloğunun altına eklenir.",
+      "bicim": "OLUR\\n{Ad SOYAD}\\n{Unvan}",
+      "ornek": "OLUR\\nYusuf TEKİN\\nBakan"
+    }
+  },
+  "ek_ve_dagitim": {
+    "ek_bicim": "Ek: {açıklama} ({n} sayfa)",
+    "ek_gozlenen": [
+      "Ek:Liste",
+      "Ek: Tasarımlar",
+      "Ek:İlgi Yazı ve Ekleri",
+      "Ek: Bilimsel Toplantılara Katılım Yönergesi (4 sayfa)",
+      "EKLER: EK: 1-Meclis Kararı (1 Adet)",
+      "EK: 1 Passeport D'emigration Fotokopisi"
+    ],
+    "dagitim_bicim": "DAĞITIM\\n{muhatap 1}\\n{muhatap 2}...",
+    "dagitim_gozlenen": [
+      "Üniversite Rektörlüklerine",
+      "Teknoloji Fakültesi Dekanlığına Bilgisayar Mühendisliği Bölüm Başkanlığına"
+    ],
+    "not": "Dağıtım listesi muhatapları yönelme hâlinde (-e/-a) yazılır.",
+    "bilgi_blogu": {
+      "aciklama": "Yazının bilgi amacıyla gönderildiği makamlar. Ek/Dağıtım'dan ayrı bir bloktur.",
+      "bicim": "Bilgi:\\n{makam 1}\\n{makam 2}",
+      "gozlenen": [
+        "Bilgi: Altındağ Kaymakamlığı İlçe Müftülüğü / Mithat DOKUR"
+      ],
+      "kaynak": "Ankara BŞB Kent Estetiği Dairesi Başkanlığı yazısı, 07.03.2016"
+    }
+  },
+  "dipnot_alani": {
+    "aciklama": "Sayfanın altında, küçük punto. E-imzalı belgelerde zorunlu.",
+    "bilesenler": [
+      "Bu belge güvenli elektronik imza ile imzalanmıştır.",
+      "Belge Doğrulama Kodu : {kod}",
+      "Belge Takip Adresi : https://www.turkiye.gov.tr/{kurum}-ebys",
+      "Adres / Telefon / Faks / e-Posta / İnternet Adresi / KEP Adresi",
+      "Bilgi için: {Ad SOYAD} — {Unvan} — {Telefon}",
+      "QR kod (sağ alt)",
+      "Sayfa numarası: 1/1, 1/2 biçiminde ortada"
+    ],
+    "gozlenen_dogrulama_kodlari": [
+      "BSDSHHL742",
+      "BS5SZNT943",
+      "BSL1504633",
+      "ID61D3CB-E30F-41FD-B611-75C8DD5D4B51"
+    ],
+    "not": "Doğrulama kodu biçimi kuruma göre değişiyor: Gazi ve TRT kısa alfanumerik, İŞKUR UUID benzeri. TRT'de ayrıca 'Pin Kodu' alanı var.",
+    "eimza_oncesi": {
+      "aciklama": "E-imza öncesi yazılarda doğrulama kodu ve QR yoktur; yalnızca adres bloğu ve 'Bilgi için' bulunur.",
+      "bicim": "{Adres} | Telefon: {tel} Faks: {faks} | İnternet Adresi: {web}    ||    Bilgi için: {Ad SOYAD} / {Unvan} / Telefon: {tel}",
+      "gozlenen": [
+        "Bilgi için: Esra AKKÜL — İdari İşler Şefi — Telefon No: (0312)507 23 71",
+        "Bilgi için: Esin ÖZBEK — Telefon: (0312) 420 53 61"
+      ]
+    }
+  },
+  "gelen_evrak_kasesi": {
+    "aciklama": "Alıcı kurumun evrak biriminin sol üste bastığı kaşe. Fiziksel çıktılarda görülür.",
+    "bicim": "Evrak Tarih ve Sayısı: {GG.AA.YYYY}-E.{kayit_no}",
+    "gozlenen": [
+      "30.03.2026-E.1498979",
+      "26.03.2026-E.1497733",
+      "09.06.2026-E.1554366",
+      "13.03.2026-E.1490216",
+      "11.03.2026-E.1487221"
+    ],
+    "not": "Bir belgede üst üste iki kaşe olabilir (kurumdan kuruma geçerken her biri kendi kaydını basar)."
+  },
+  "ornek_belgeler": [
+    "Özel Tevfik Fikret Okulları Genel Md. -> Gazi Ü. Rektörlüğü, 24.03.2026, Staj İmkanı Hk",
+    "Gazi Ü. Teknoloji Fak. (Öğrenci İşleri Birimi), 15.04.2026, Mezuniyet töreni",
+    "Gazi Ü. Teknoloji Fak. (Tanıtım ve Yayın Birimi), 13.03.2026, Ege Ü. etkinliği",
+    "Gazi Ü. Sosyal Transkript duyurusu, 09.06.2026",
+    "TRT Genel Md. Eğitim ve Araştırma D. Bşk., Geleceğin İletişimcileri Yarışması 2026",
+    "İŞKUR Genel Md. İş ve Meslek Danışmanlığı D. Bşk., 17.03.2026, Ulusal Staj Programı",
+    "MEB Talim ve Terbiye Kurulu Bşk., 25.12.2024, Bilimsel Toplantılara Katılım Yönergesi (OLUR)",
+    "MEB Ortaöğretim Genel Md., 05.03.2024, Sana Emanet Bilgi Yarışması",
+    "Mamak Kaymakamlığı İlçe MEM, 29.05.2024, ÇEDES Yıl Sonu Kültür Şenlikleri",
+    "Gazi Ü. zorunlu staj sigorta yazısı (İLGİLİ MAKAMA), tarihsiz form",
+    "Ankara BŞB Kent Estetiği D. Bşk. -> Ankara Batı 1 Ağır Ceza Mahkemesi, 07.03.2016, Kuşkonmaz",
+    "Ankara BŞB Yazı İşleri ve Kararlar D. Bşk. -> ASKİ Genel Md., 12.07.2018, Vidanjör ücretleri",
+    "TBMM Dilekçe Komisyonu -> vatandaş, 13.03.2017, TBMM'ye Gönderilen Dilekçeniz",
+    "İçişleri Bak. Nüfus ve Vatandaşlık İşleri GM -> vatandaş, vatandaşlık kaydı",
+    "Ankara İl MEM engelli öğretmen atama dilekçesi (2017, 2023)",
+    "Ankara Hizmetiçi Eğitim Enstitüsü izin dilekçesi",
+    "Yenimahalle Kaymakamlığı Tüketici Hakem Heyeti şikayet dilekçesi (5 varyant)",
+    "Adalet Komisyonu Bşk. sağlık beyanı formu",
+    "Asliye Hukuk Mahkemesi dava dilekçeleri (2 adet, farklı genre — referans)"
+  ],
+  "eksikler": [
+    "YENİMAHALLE BELEDİYESİ'nden gerçek yazı örneği hâlâ YOK. Ancak belediye başlık bloğu kuralı Ankara Büyükşehir Belediyesi'nin iki yazısıyla DOĞRULANDI (mülki idare satırı yok). Eksik olan yalnızca Yenimahalle'ye özgü kayıt numarası uzunluğu ve dipnot bloğu biçimidir.",
+    "ANKARA İL MİLLÎ EĞİTİM MÜDÜRLÜĞÜ'nden giden gerçek yazı örneği YOK. İlçe düzeyi (Mamak Kaymakamlığı) ve bakanlık düzeyi (MEB merkez) örnekleri var; il düzeyi kalıbı bu ikisinden çıkarılmıştır. Ancak il MEM'e GİDEN dilekçe örneği mevcuttur.",
+    "Belediyeye verilen vatandaş dilekçesi örneği YOK. Eldeki dilekçeler il MEM, kaymakamlık, adalet komisyonu ve mahkemeye yazılmıştır; belediye hitap kalıbı bunlardan türetilmiştir.",
+    "Mahkemeye verilen dava dilekçeleri (DAVACI/DAVALI/AÇIKLAMALAR/NETİCE VE TALEP yapısı) ayrı bir türdür ve bu senaryonun kapsamı dışında bırakılmıştır."
+  ],
+  "vatandas_dilekcesi": {
+    "aciklama": "Üretilecek belgelerin ~%40'ı vatandaş dilekçesi olacaktır. Bu bölüm 6 gerçek dilekçe formundan çıkarılmıştır. Dilekçenin resmî yazıdan yapısal farkı: BAŞLIK BLOĞU YOKTUR, SAYI SATIRI YOKTUR, KONU SATIRI YOKTUR. Belge doğrudan muhatap makamla başlar.",
+    "yapi_sirasi": [
+      "hitap (muhatap makam, yönelme hâlinde, ortalanmış, büyük harf)",
+      "varsa parantez içinde alt birim",
+      "varsa il/ilçe satırı",
+      "kimlik alanları (bazı formlarda hitaptan hemen sonra, bazılarında en altta)",
+      "metin (gerekçe + talep)",
+      "kapanış",
+      "tarih",
+      "imza",
+      "ad soyad",
+      "iletişim bilgileri (adres, T.C. kimlik no, telefon, e-posta)",
+      "varsa ek listesi"
+    ],
+    "hitap_kaliplari": {
+      "tek_satir": [
+        "ANKARA İL MİLLİ EĞİTİM MÜDÜRLÜĞÜNE",
+        "ANKARA HİZMETİÇİ EĞİTİM ENSTİTÜSÜ MÜDÜRLÜĞÜNE"
+      ],
+      "iki_satir_alt_birimli": [
+        "ANKARA İL MİLLÎ EĞİTİM MÜDÜRLÜĞÜNE\\n(İnsan Kaynakları Branş Atama Şubesi)",
+        "KAYMAKAMLIK MAKAMINA\\n(Tüketici Sorunları Hakem Heyeti Başkanlığına)"
+      ],
+      "uc_satir_yerli": [
+        "KAYMAKAMLIK MAKAMINA\\n(Tüketici Sorunları Hakem Heyeti Başkanlığına)\\nYENİMAHALLE/ANKARA"
+      ],
+      "belediye_beklenen": [
+        "YENİMAHALLE BELEDİYE BAŞKANLIĞINA",
+        "YENİMAHALLE BELEDİYE BAŞKANLIĞINA\\n(İmar ve Şehircilik Müdürlüğüne)"
+      ],
+      "not": "Belediye kalıbı gerçek örnekle DOĞRULANMADI; diğer kurumlarda gözlenen '{KURUM ADI}NA / ({Birim Adına})' yapısından türetilmiştir."
+    },
+    "kapanis_kaliplari": [
+      "Gereğini arz ederim.",
+      "Gereğini bilgilerinize arz ederim.",
+      "gereğini tensiplerinize arz ederim.",
+      "Bilgilerinizi rica ederim.",
+      "...talep ediyorum.",
+      "...saygılarımla arz ve talep ederim.",
+      "...bilinmesini rica ederim.",
+      "...beyan ederim."
+    ],
+    "kapanis_notu": "Vatandaş her zaman ARZ eder; dilekçede 'rica ederim' yalnızca bir talebin yerine getirilmesi istenirken kullanılır. 'talep ediyorum' ve 'arz ve talep ederim' de yaygındır.",
+    "alt_blok_alanlari": [
+      "Adı Soyadı",
+      "İmza",
+      "Tarih",
+      "Adres",
+      "T.C. Kimlik No",
+      "Telefon",
+      "e-posta",
+      "Sicil No (kamu personeli dilekçelerinde)"
+    ],
+    "alt_blok_notu": "Alanların sırası ve hangilerinin bulunduğu forma göre değişir. Serbest metin dilekçelerde genellikle 'Adı Soyadı / İmza' sağda, adres ve iletişim solda alt kısımdadır.",
+    "metin_kaliplari": {
+      "gerekce_talep": "{durum açıklaması} nedenlerden dolayı {talep} talep ediyorum.",
+      "hak_dayanakli": "{Kanun adı ve maddesi} gereğince {talep}",
+      "beyan": "{durum} bulunmadığını beyan ederim."
+    },
+    "ek_listesi": {
+      "bicim": "EKLER:\\n1 Adet {belge}",
+      "gozlenen": [
+        "EKLER: 1 Adet Sözleşme Fotokopisi"
+      ]
+    },
+    "gozlenen_ornekler": [
+      "Ankara İl MEM'e engelli öğretmen atama/ilçe tercih dilekçesi (2017 ve 2023 sürümleri)",
+      "Ankara Hizmetiçi Eğitim Enstitüsü Md.'ne yıllık izin dilekçesi",
+      "Yenimahalle Kaymakamlığı Tüketici Hakem Heyeti Bşk.'na tüketici şikayet dilekçesi (5 varyant)",
+      "Adalet Komisyonu Başkanlığına sağlık beyanı",
+      "6502 s. Kanun kapsamında cayma bildirimi / ihtarname"
+    ],
+    "kurumdan_vatandasa_cevap": {
+      "aciklama": "Dilekçeye verilen cevap normal resmî yazı biçimindedir; farkları:",
+      "farklar": [
+        "muhatap 'Sayın {Ad SOYAD}' + açık adres biçimindedir",
+        "ilgi satırı '{tarih} tarihli dilekçeniz.' biçiminde olur",
+        "bazı kurumlar Sayı/Konu altına 'T.C.K.N.' satırı ekler",
+        "kapanış vatandaşa 'Bilgilerinizi rica ederim.' biçimindedir"
+      ],
+      "gozlenen": [
+        "TBMM Dilekçe Komisyonu -> vatandaş, 13.03.2017",
+        "İçişleri Bak. Nüfus ve Vatandaşlık İşleri GM -> vatandaş"
+      ]
+    }
+  }
+}

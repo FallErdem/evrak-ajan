@@ -1,7 +1,6 @@
 kod,ana_grup,seviye,ust_kod,ad,saklama_suresi,kapsam,kurum_tipi,vatandas_konusu,ornek_konular
 010,010,1,,Mevzuat İşleri,,ortak,hepsi,hayir,Mevzuat Görüşü Talebi|Yönetmelik Taslağı Hk.|Mevzuat Değişikliği Bildirimi
 010.06,010,2,010,Genelgeler,15,ortak,hepsi,hayir,Genelgenin Duyurulması|Genelge Uygulaması Hk.|Genelge Görüşü Talebi
-040,040,1,,Faaliyet Raporları,15,ortak,hepsi,hayir,Birim Faaliyet Raporunun Gönderilmesi|Yıllık Faaliyet Raporu Hk.|Faaliyet Raporu Veri Talebi
 045,045,1,,Görüşler,,ortak,hepsi,hayir,Görüş Talebi|Kurum Görüşünün Bildirilmesi|Görüş Yazısı Hk.
 045.02,045,2,045,Hukuki,30,ortak,hepsi,hayir,Hukuki Görüş Talebi|Hukuki Mütalaanın Gönderilmesi|Uygulama Hakkında Hukuki Görüş
 050,050,1,,Kurul İşleri,,ortak,hepsi,hayir,Kurul Toplantı Gündemi|Kurul Üyeliği Bildirimi|Kurul Toplantı Daveti
@@ -16,7 +15,6 @@ kod,ana_grup,seviye,ust_kod,ad,saklama_suresi,kapsam,kurum_tipi,vatandas_konusu,
 641.04,641,2,641,İdari Davalar,40,ortak,hepsi,hayir,İdare Mahkemesi Kararının Uygulanması|Savunmaya Esas Belge Talebi|İdari Dava Bilgi Talebi
 752,752,1,,Kamulaştırma ve İrtifak Hakkı İşleri,,ortak,hepsi,hayir,Kamulaştırma İşlemleri Hk.|İrtifak Hakkı Tesisi Talebi|Kamulaştırma Bedeli Ödemesi
 752.01,752,2,752,Kamulaştırma,B,ortak,hepsi,evet,Kamulaştırma Bedeli Ödeme Talebi|Kamu Yararı Kararı Hk.|Kamulaştırma İşlemine İtiraz
-754,754,1,,İmar İşleri,B,ortak,hepsi,evet,İmar Bilgisi Talebi|İmar Uygulaması Hk.|İmar Durumuna İlişkin Görüş
 755,755,1,,Yapım İşleri,,ortak,hepsi,hayir,Yapım İşi İhalesi Hk.|Süre Uzatımı Talebi|Yapım İşi Kabul İşlemleri
 755.02,755,2,755,İhale,15,ortak,hepsi,hayir,İhale İlanı Hk.|İhale Komisyonu Kararı|İhale Sonucunun Bildirilmesi
 756,756,1,,Taşınmaz İşleri,,ortak,hepsi,hayir,Taşınmaz Tahsis Talebi|Taşınmaz Envanter Bilgisi|Taşınmaz Devri Hk.
@@ -28,11 +26,13 @@ kod,ana_grup,seviye,ust_kod,ad,saklama_suresi,kapsam,kurum_tipi,vatandas_konusu,
 602.07,602,2,602,Yatırım Programı,10,ortak,hepsi,hayir,Yatırım Programı Teklifi|Yatırım Ödeneği Talebi|Yatırım Programı Revizyon Talebi
 755.01,755,2,755,Etüd-Proje ve Fizibilite,30,ortak,hepsi,hayir,Okul Binası Avan Projesi Onayı|Etüt Proje Hazırlanması Talebi|Zemin Etüdü Raporunun Gönderilmesi
 756.01,756,2,756,"Tahsis, Devir ve Takas",B,ortak,hepsi,hayir,Okul Yeri Tahsis Talebi|Taşınmaz Devir İşlemi Hk.|Tahsis Kararının Gönderilmesi
+801,801,1,,Taşıt ve İş Makineleri İşleri,10,ortak,hepsi,hayir,Hizmet Aracı Tahsis Talebi|Araç Görevlendirmesi|Taşıt Kayıt ve Sigorta İşlemleri
 802,802,1,,Ulaşım ve Servis İşleri,10,ortak,hepsi,evet,Servis Güzergahı Talebi|Servis Hizmeti Aksaklığı Bildirimi|Servis Aracı Görevlendirmesi
 807,807,1,,Bakım ve Onarım İşleri,,ortak,hepsi,hayir,Bakım Onarım Talebi|Onarım Keşif Özeti|Yıllık Bakım Onarım Programı
 807.01,807,2,807,Bina ve Tesisler,10,ortak,hepsi,evet,Okul Binası Onarım Talebi|Çatı Onarımı Hk.|Tadilat Talebinin Değerlendirilmesi
 815,815,1,,Sosyal Yardım İşleri,10,ortak,hepsi,evet,Sosyal Yardım Başvurusu|Nakdi Yardım Talebi|Yardım Başvurusunun Değerlendirilmesi
 841,841,1,,Bütçe Hazırlama ve Uygulama İşleri,,ortak,hepsi,hayir,Bütçe Teklifinin Gönderilmesi|Ödenek Aktarma Talebi|Bütçe Uygulama Talimatı
+841.01,841,2,841,Bütçe Çalışmaları,15,ortak,hepsi,hayir,Bütçe Teklifinin Gönderilmesi|Bütçe Hazırlık Çalışmaları|Ödenek Talebi
 855,855,1,,Borç ve Alacak İşleri,15,ortak,hepsi,evet,Borç Yapılandırma Talebi|Alacağın Tahsili Hk.|Borç Bilgisi Talebi
 858,858,1,,İdari Yaptırım/Para Cezası İşleri,15,ortak,hepsi,evet,İdari Para Cezasına İtiraz|İdari Yaptırım Karar Tutanağı|Para Cezası Tahsilatı Hk.
 903,903,1,,Personel Özlük İşleri,,ortak,hepsi,hayir,Özlük Dosyası Bilgi Talebi|Personel Bilgi Formunun Gönderilmesi|Özlük İşlemleri Hk.
@@ -66,9 +66,6 @@ kod,ana_grup,seviye,ust_kod,ad,saklama_suresi,kapsam,kurum_tipi,vatandas_konusu,
 190,190,1,,"Gelir (Tarh, Tahakkuk ve Tahsilat) İşleri",,kuruma_ozel,belediye,hayir,Gelir Tahakkuk İşlemleri|Tahsilat Bilgisi Talebi|Vergi ve Harç Uygulaması Hk.
 190.01,190,2,190,Vergi ve Harçlar,,kuruma_ozel,belediye,hayir,Vergi Tahakkuku Hk.|Harç Bedeli Bilgisi Talebi|Beyan Süresi Duyurusu
 190.01.07,190,3,190.01,Emlak Vergisi,15,kuruma_ozel,belediye,evet,Emlak Vergisi Beyanı|Emlak Vergisi Borç Sorgulama Talebi|Emlak Vergisi Muafiyet Başvurusu
-220,220,1,,Su ve Kanalizasyon İşleri,,kuruma_ozel,belediye,hayir,Su ve Kanalizasyon Hizmetleri Hk.|Şebeke Çalışması Bildirimi|Altyapı Arıza Bildirimi
-220.01,220,2,220,İçme Suyu İle İlgili İşler,,kuruma_ozel,belediye,hayir,Su Kesintisi Duyurusu|Sayaç İşlemleri|İçme Suyu Hattı Çalışması Hk.
-220.01.01,220,3,220.01,Abonelik İşlemleri,B,kuruma_ozel,belediye,evet,Su Aboneliği Başvurusu|Abonelik İptali Talebi|Abone Devir İşlemi Talebi
 102,102,1,,Tanıma ve Denklik İşleri,,kuruma_ozel,universite,hayir,Okul Tanıma Talebi|Denklik Başvurusu Hk.|Tanıma Belgesi Talebi
 102.03,102,2,102,Denklik İşleri,B,kuruma_ozel,universite,evet,Diploma Denklik Başvurusu|Denklik Belgesi Talebi|Denklik Kararına İtiraz
 104,104,1,,Eğitim - Öğretim Programları,,kuruma_ozel,universite,hayir,Program Açma Teklifi|Program Güncelleme Hk.|Ders Yükü Bilgisi

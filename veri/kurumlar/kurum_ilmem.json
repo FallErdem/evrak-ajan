@@ -1,0 +1,101 @@
+{
+  "kurum_kodu": "ankara_il_mem",
+  "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+  "detsis_kayit_adi": "Ankara İl Milli Eğitim Müdürlüğü",
+  "kurum_tipi": "il_mudurlugu",
+  "teskilat": "tasra",
+  "il": "Ankara",
+  "ilce": "Yenimahalle",
+  "detsis_no": "55461037",
+  "detsis_notu": "DETSİS kaydı (06.08.2026). Bağlı olduğu kurum: Millî Eğitim Bakanlığı. Kategori: MÜLKİ İDAREYE BAĞLI TAŞRA TEŞKİLATI / İl Müdürlüğü.",
+  "kategori": "MÜLKİ İDAREYE BAĞLI TAŞRA TEŞKİLATI / İl Müdürlüğü",
+  "baslik_bloku": [
+    "T.C.",
+    "ANKARA VALİLİĞİ",
+    "İl Millî Eğitim Müdürlüğü"
+  ],
+  "baslik_bloku_notu": "DOĞRULANDI. DETSİS kategorisi 'MÜLKİ İDAREYE BAĞLI TAŞRA TEŞKİLATI'; Yönetmelik m.10/3 gereği ikinci satıra bağlı olunan mülki idare (ANKARA VALİLİĞİ) yazılır. DETSİS hiyerarşisi 'Millî Eğitim Bakanlığı > Ankara İl MEM' olsa da başlığa BAKANLIK DEĞİL VALİLİK yazılır. Şube müdürlükleri başlıkta görünmez; yalnızca belge sayısında kendi DETSİS numaralarıyla yer alır. İlçe kalıbı gerçek yazıyla teyit edildi: Mamak Kaymakamlığı İlçe Millî Eğitim Müdürlüğü, 29.05.2024, E-59526691-821.99-103359059.",
+  "baslik_bloku_ilce": [
+    "T.C.",
+    "YENİMAHALLE KAYMAKAMLIĞI",
+    "İlçe Millî Eğitim Müdürlüğü"
+  ],
+  "iletisim": {
+    "adres": "Emniyet Mah. Gazeteci Yazar Muammer Yaşar Bostancı Cad. No: 6 YENİMAHALLE/ANKARA",
+    "telefon": "0312 306 86 00",
+    "faks": "0312 306 87 90",
+    "eposta": "ankaramem@meb.gov.tr",
+    "kep_adresi": "meb@hs01.kep.tr",
+    "web": "http://ankara.meb.gov.tr"
+  },
+  "hiyerarsi": {
+    "ust_makamlar": [
+      "Millî Eğitim Bakanlığı",
+      "Ankara Valiliği"
+    ],
+    "ayni_duzey": [
+      "Yenimahalle Belediye Başkanlığı",
+      "Gazi Üniversitesi Rektörlüğü"
+    ],
+    "alt_makamlar": [
+      "İl millî eğitim müdürlüğü şube müdürlükleri",
+      "İlçe millî eğitim müdürlükleri",
+      "Okul ve kurum müdürlükleri"
+    ]
+  },
+  "yazisma_bicimi": {
+    "Millî Eğitim Bakanlığı": "arz",
+    "Ankara Valiliği": "arz",
+    "Yenimahalle Belediye Başkanlığı": "arz",
+    "Gazi Üniversitesi Rektörlüğü": "arz",
+    "İl millî eğitim müdürlüğü şube müdürlükleri": "rica",
+    "İlçe millî eğitim müdürlükleri": "rica",
+    "Okul ve kurum müdürlükleri": "rica"
+  },
+  "hiyerarsi_gerekceleri": {
+    "Millî Eğitim Bakanlığı": "DETSİS'te 'Bağlı Olduğu Kurum'. Hiyerarşik üst. ARZ.",
+    "Ankara Valiliği": "Mülki idare amiri; il müdürlüğü valilik adına iş görür ve başlığın ikinci satırında yer alır. ARZ.",
+    "Yenimahalle Belediye Başkanlığı": "Mahalli idare, ayrı tüzel kişilik, hiyerarşi yok. ARZ.",
+    "Gazi Üniversitesi Rektörlüğü": "Ayrı kamu tüzel kişiliği, hiyerarşi yok. ARZ.",
+    "İl millî eğitim müdürlüğü şube müdürlükleri": "Kurum içi ast birim. RİCA.",
+    "İlçe millî eğitim müdürlükleri": "Taşraya bağlı ast birim (DETSİS hiyerarşisi doğruluyor). RİCA.",
+    "Okul ve kurum müdürlükleri": "Ast birim. RİCA."
+  },
+  "muhatap_detsis": {
+    "Ankara Valiliği": {
+      "detsis_no": "10213773",
+      "kategori": "MÜLKİ İDARE TEŞKİLATI / Valilik"
+    },
+    "Yenimahalle Kaymakamlığı": {
+      "detsis_no": "56248377",
+      "kategori": "MÜLKİ İDAREYE BAĞLI TAŞRA TEŞKİLATI / Kaymakamlık"
+    },
+    "Ankara Büyükşehir Belediye Başkanlığı": {
+      "detsis_no": "24432702",
+      "kategori": "BELEDİYE / Belediye Başkanlığı"
+    },
+    "Çankaya Belediye Başkanlığı": {
+      "detsis_no": "90226917",
+      "kategori": "BELEDİYE / Belediye Başkanlığı"
+    },
+    "Gazi Üniversitesi Rektörlüğü": {
+      "detsis_no": "39985474",
+      "kategori": "YÜKSEKÖĞRETİM KURUMU / Rektörlük"
+    },
+    "Ankara İl Millî Eğitim Müdürlüğü": {
+      "detsis_no": "55461037",
+      "kategori": "MÜLKİ İDAREYE BAĞLI TAŞRA TEŞKİLATI / İl Müdürlüğü"
+    }
+  },
+  "notlar": [
+    "KEP adresi Millî Eğitim Bakanlığı düzeyindedir (meb@hs01.kep.tr); taşra birimlerinin ayrı KEP adresi bulunmamaktadır.",
+    "DETSİS kayıt adı 'Milli' (şapkasız) yazılıdır; resmî yazı başlığında ve MEB uygulamasında 'Millî' kullanılır. kurum_adi alanında 'Millî', detsis_kayit_adi alanında DETSİS yazımı tutulmuştur.",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü (93213107) taşraya bağlı birimdir ve kendi başlık bloğunu (Yenimahalle Kaymakamlığı) kullanır; baslik_bloku_ilce alanına bakınız.",
+    "İmza gerçekçiliği: ilçe/il müdürlüğü yazıları çoğunlukla şube müdürü tarafından 'Müdür a.' ibaresiyle imzalanır; bakanlık yazıları genel müdür tarafından 'Bakan a.' ibaresiyle.",
+    "Vatandaş/personel dilekçelerinde hitap 'ANKARA İL MİLLÎ EĞİTİM MÜDÜRLÜĞÜNE' biçimindedir; ilgili şube parantez içinde ikinci satıra yazılabilir. İki gerçek dilekçe örneğiyle doğrulandı."
+  ],
+  "dilekce_hitap_kaliplari": [
+    "ANKARA İL MİLLÎ EĞİTİM MÜDÜRLÜĞÜNE",
+    "ANKARA İL MİLLÎ EĞİTİM MÜDÜRLÜĞÜNE\n(İnsan Kaynakları Branş Atama Şubesi)"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "kurum_kodu": "gazi_rektorlugu",
+  "kurum_adi": "Gazi Üniversitesi",
+  "detsis_kayit_adi": "Gazi Üniversitesi Rektörlüğü",
+  "kurum_tipi": "universite",
+  "teskilat": "merkez",
+  "il": "Ankara",
+  "ilce": "Yenimahalle",
+  "detsis_no": "39985474",
+  "detsis_notu": "DETSİS kaydı (06.08.2026). Bağlı olduğu kurum: Yükseköğretim Kurulu Başkanlığı. Bütçe türü: Özel Bütçe (II Sayılı Cetvel). Kategori: YÜKSEKÖĞRETİM KURUMU / Rektörlük.",
+  "tuzel_kisilik": "Kamu Tüzel Kişiliği",
+  "butce_turu": "Özel Bütçe (II Sayılı Cetvel)",
+  "kategori": "YÜKSEKÖĞRETİM KURUMU / Rektörlük",
+  "baslik_bloku": [
+    "T.C.",
+    "GAZİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+    "{birim_adi}"
+  ],
+  "baslik_bloku_notu": "DOĞRULANDI — ikinci satır 'GAZİ ÜNİVERSİTESİ REKTÖRLÜĞÜ' biçimindedir. İki bağımsız gerçek yazıyla teyit edildi (Teknoloji Fakültesi Dekanlığı, 13.03.2026 ve 15.04.2026). ÖNCEKİ SÜRÜMDEKİ 'rektörlük ibaresi yok' notu HATALIYDI, geri alınmıştır. Fakülte/dekanlık yazılarında başlık 4 satırdır: 4. satırda alt birim parantez içinde yer alır (ör. '(Öğrenci İşleri Birimi)').",
+  "iletisim": {
+    "adres": "Emniyet Mahallesi Bandırma Caddesi No:6/1 YENİMAHALLE/ANKARA",
+    "telefon": "0312 202 20 00",
+    "faks": "0312 221 32 02",
+    "eposta": "info@gazi.edu.tr",
+    "kep_adresi": "gaziuniversitesi@hs01.kep.tr",
+    "web": "https://www.gazi.edu.tr"
+  },
+  "hiyerarsi": {
+    "ust_makamlar": [
+      "Yükseköğretim Kurulu Başkanlığı"
+    ],
+    "ayni_duzey": [
+      "Yenimahalle Belediye Başkanlığı",
+      "Ankara İl Millî Eğitim Müdürlüğü",
+      "Ankara Valiliği"
+    ],
+    "alt_makamlar": [
+      "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları"
+    ]
+  },
+  "yazisma_bicimi": {
+    "Yükseköğretim Kurulu Başkanlığı": "arz",
+    "Yenimahalle Belediye Başkanlığı": "arz",
+    "Ankara İl Millî Eğitim Müdürlüğü": "arz",
+    "Ankara Valiliği": "arz",
+    "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları": "rica"
+  },
+  "hiyerarsi_gerekceleri": {
+    "Yükseköğretim Kurulu Başkanlığı": "DETSİS'te 'Bağlı Olduğu Kurum' olarak kayıtlı; 2547 s. Kanun uyarınca üst kuruluş. ARZ.",
+    "Yenimahalle Belediye Başkanlığı": "Ayrı kamu tüzel kişiliği, hiyerarşi yok. Kılavuz 13.1 gereği ARZ.",
+    "Ankara İl Millî Eğitim Müdürlüğü": "Merkezi idarenin taşra birimi; hiyerarşi yok. ARZ.",
+    "Ankara Valiliği": "Mülki idare; üniversite valiliğe bağlı değildir ama ARZ edilir.",
+    "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları": "Kurum içi ast birimler. Tek RİCA yönü."
+  },
+  "muhatap_detsis": {
+    "Ankara Valiliği": {
+      "detsis_no": "10213773",
+      "kategori": "MÜLKİ İDARE TEŞKİLATI / Valilik"
+    },
+    "Yenimahalle Kaymakamlığı": {
+      "detsis_no": "56248377",
+      "kategori": "MÜLKİ İDAREYE BAĞLI TAŞRA TEŞKİLATI / Kaymakamlık"
+    },
+    "Ankara Büyükşehir Belediye Başkanlığı": {
+      "detsis_no": "24432702",
+      "kategori": "BELEDİYE / Belediye Başkanlığı"
+    },
+    "Çankaya Belediye Başkanlığı": {
+      "detsis_no": "90226917",
+      "kategori": "BELEDİYE / Belediye Başkanlığı"
+    },
+    "Gazi Üniversitesi Rektörlüğü": {
+      "detsis_no": "39985474",
+      "kategori": "YÜKSEKÖĞRETİM KURUMU / Rektörlük"
+    },
+    "Ankara İl Millî Eğitim Müdürlüğü": {
+      "detsis_no": "55461037",
+      "kategori": "MÜLKİ İDAREYE BAĞLI TAŞRA TEŞKİLATI / İl Müdürlüğü"
+    }
+  },
+  "notlar": [
+    "Alt birimlerin ayrı DETSİS numarası vardır; belge sayısı birim bazında değişir (ör. Öğrenci İşleri Daire Başkanlığı 17311665).",
+    "Rektörlük merkez kampüsü Yenimahalle ilçesindedir; belediye ile aynı ilçede yer alır.",
+    "DETSİS numarası fakülte/dekanlık düzeyinde değil, ALT BİRİM düzeyinde verilmektedir: aynı Teknoloji Fakültesi Dekanlığı'ndan çıkan iki yazının sayısı E-67934452 (Öğrenci İşleri Birimi) ve E-70989351 (Tanıtım ve Yayın Birimi) ile başlamaktadır.",
+    "Uluslararası İlişkiler Kurum Koordinatörlüğü DETSİS'te idari birim olarak kayıtlı olmadığı için birimler_gazi.csv'ye alınmamıştır; 310 Öğrenci Değişim Programları kodu Öğrenci İşleri Daire Başkanlığı'na verilmiştir."
+  ],
+  "baslik_bloku_4satir": [
+    "T.C.",
+    "GAZİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+    "{birim_adi}",
+    "({alt_birim_adi})"
+  ]
+}

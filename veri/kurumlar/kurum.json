@@ -1,0 +1,113 @@
+{
+  "kurum_kodu": "yenimahalle_belediyesi",
+  "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+  "kurum_tipi": "belediye",
+  "teskilat": "merkez",
+  "il": "Ankara",
+  "ilce": "Yenimahalle",
+  "detsis_no": "65859045",
+  "detsis_notu": "DETSİS kaydından alındı (06.08.2026). Bağımsız teyit: belediyenin kendi sitesindeki Bulut Kent Bilgi Sistemi bağlantısı bulutkbs.gov.tr/Rehber/#/app?65859045 aynı numarayı taşıyor.",
+  "tuzel_kisilik": "Kamu Tüzel Kişiliği",
+  "butce_turu": "Mahalli İdareler Bütçesi",
+  "kategori": "BELEDİYE / Belediye Başkanlığı",
+  "baslik_bloku": [
+    "T.C.",
+    "YENİMAHALLE BELEDİYE BAŞKANLIĞI",
+    "{birim_adi}"
+  ],
+  "baslik_bloku_notu": "DOĞRULANDI. Belediye taşra teşkilatı değil, seçilmiş yerel yönetimdir; ikinci satıra mülki idare adı (Ankara Valiliği) YAZILMAZ. Saha teyidi: Ankara Büyükşehir Belediyesi'nin 07.03.2016 ve 12.07.2018 tarihli iki gerçek yazısında başlık doğrudan belediyenin adıyla başlamakta, valilik satırı bulunmamaktadır. Karşılaştırma: Ankara İl Millî Eğitim Müdürlüğü taşra teşkilatı olduğu için 'T.C. / ANKARA VALİLİĞİ / İl Millî Eğitim Müdürlüğü' kullanır. DETSİS kategorileri de bunu doğrular: belediye 'BELEDİYE / Belediye Başkanlığı', il MEM 'MÜLKİ İDAREYE BAĞLI TAŞRA TEŞKİLATI'.",
+  "iletisim": {
+    "adres": "Gayret Mah. İvedik Caddesi No: 25 YENİMAHALLE/ANKARA",
+    "telefon": "0312 526 26 26",
+    "faks": "0312 327 56 58",
+    "eposta": "kentseldonusum@yenimahalle.bel.tr",
+    "kep_adresi": "yenimahallebelediyesi.yaziisleri@hs03.kep.tr",
+    "web": "https://www.yenimahalle.bel.tr"
+  },
+  "cagri_merkezi": "444 93 64",
+  "hiyerarsi": {
+    "ust_makamlar": [
+      "Ankara Valiliği",
+      "Yenimahalle Kaymakamlığı",
+      "Ankara Büyükşehir Belediye Başkanlığı",
+      "İçişleri Bakanlığı",
+      "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı"
+    ],
+    "ayni_duzey": [
+      "Çankaya Belediye Başkanlığı",
+      "Gazi Üniversitesi Rektörlüğü",
+      "Ankara İl Millî Eğitim Müdürlüğü"
+    ],
+    "alt_makamlar": [
+      "Yenimahalle Belediyesi müdürlükleri"
+    ]
+  },
+  "yazisma_bicimi": {
+    "Ankara Valiliği": "arz",
+    "Yenimahalle Kaymakamlığı": "arz",
+    "İçişleri Bakanlığı": "arz",
+    "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı": "arz",
+    "Ankara İl Millî Eğitim Müdürlüğü": "arz",
+    "Yenimahalle Belediyesi müdürlükleri": "rica",
+    "Ankara Büyükşehir Belediye Başkanlığı": "arz",
+    "Çankaya Belediye Başkanlığı": "arz",
+    "Gazi Üniversitesi Rektörlüğü": "arz"
+  },
+  "hiyerarsi_gerekceleri": {
+    "Ankara Valiliği": "Hiyerarşik üst değil; belediye üzerinde idari vesayet yetkisi mülki idare eliyle kullanılır. Kılavuz 13.1 gereği belirsiz/üst durumda ARZ.",
+    "Yenimahalle Kaymakamlığı": "İlçe mülki amiri. Hiyerarşik üst değil ama mülki idare temsilcisi; ARZ.",
+    "İçişleri Bakanlığı": "Denetim ve soruşturma konularında idari vesayet makamı (Sayıştay 2024 Denetim Raporu s.2). ARZ.",
+    "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı": "Yönetsel konularda idari vesayet makamı (Sayıştay 2024 Denetim Raporu s.2). ARZ.",
+    "Ankara İl Millî Eğitim Müdürlüğü": "Merkezi idarenin taşra birimi; belediye ile arasında hiyerarşi yoktur. ARZ.",
+    "Yenimahalle Belediyesi müdürlükleri": "Kurum içi ast birimler. Tek RİCA yönü budur.",
+    "Ankara Büyükşehir Belediye Başkanlığı": "Hiyerarşik üst değil, ancak 5216 s. Kanun m.7 uyarınca ilçe belediyesinin imar uygulamalarını denetleme ve m.27 uyarınca koordinasyon yetkisi vardır; 1/1000 planlar BB onayına tabidir. Pratikte ARZ.",
+    "Çankaya Belediye Başkanlığı": "Aynı düzeyde başka bir ilçe belediyesi; aralarında hiyerarşi yoktur. ARZ.",
+    "Gazi Üniversitesi Rektörlüğü": "Ayrı kamu tüzel kişiliği, hiyerarşik ilişki yok. Kılavuz 13.1 belirsizlik kuralı gereği ARZ."
+  },
+  "notlar": [
+    "Başkan yardımcılığı düzeyi DETSİS kurum hiyerarşisinden alınmıştır; birimler.csv'de 'Belediye Başkan Yardımcılığı 1..5' olarak seviye 1 satırlarıyla yer alır. Beş başkan yardımcılığının DETSİS numarası da doldurulmuştur.",
+    "Ad çelişkisi: DETSİS 'Ruhsat ve Denetim Müdürlüğü' der, belediyenin web sitesi 'Ruhsat Denetim Müdürlüğü'. Resmî yazışmada EBYS DETSİS adını kullandığı için DETSİS yazımı esas alınmıştır.",
+    "Belediyenin toplam 27 hizmet birimi vardır; birimler.csv'ye evrak trafiği en yoğun 14 müdürlük alınmıştır (brifingdeki 10-12 hedefi, 045.02 ve 801/802 kodlarının doğru sahiplerine verilebilmesi için Hukuk İşleri ve Makine İkmal müdürlükleriyle 14'e çıkarılmıştır).",
+    "Belediye Meclisi DETSİS'te ayrı birimdir (81732764). 105.04 Meclis Kararları kodlu yazılar Yazı İşleri yerine bu numarayla da çıkabilir.",
+    "220 Su ve Kanalizasyon İşleri zinciri (220, 220.01, 220.01.01) sdp_kodlari.csv'den çıkarıldı: Ankara'da su ve kanalizasyon hizmeti ASKİ'ye (Büyükşehir bağlı kuruluşu) aittir, ilçe belediyesi abonelik işlemi yapmaz.",
+    "180.03 İtfaiye Uygunluk Raporları ruhsat_denetim birimine atandı. Ankara'da itfaiye hizmeti Büyükşehir Belediyesi'ndedir; kod ilçe belediyesinde hizmet olarak değil, işyeri ruhsatı sürecinde ABB İtfaiye Dairesi Başkanlığı'na yazılan bir yazışma konusu olarak kullanılır.",
+    "125 Evlendirme İşlemleri yazi_isleri birimine atandı. Yenimahalle Belediyesi bünyesinde ayrı bir Evlendirme Memurluğu/Şefliği faaliyet göstermektedir; hangi müdürlüğe bağlı olduğu doğrulanamadı. DETSİS'te 'Yenimahalle Belediye Başkanlığı > ... > Evlendirme' kaydı sorgulanarak netleştirilmelidir.",
+    "045.02 Hukuki kodu Hukuk İşleri Müdürlüğü'ne (10578106), 801/802 taşıt ve servis kodları Makine İkmal Bakım ve Onarım Müdürlüğü'ne (89052714) verilmiştir; önceki sürümdeki geçici atamalar (yazi_isleri ve fen_isleri) geri alınmıştır.",
+    "DETSİS'te Yenimahalle Belediye Başkanlığı altında ayrı bir 'Evlendirme' birim kaydı bulunmamaktadır; 125 Evlendirme İşlemleri kodu Yazı İşleri Müdürlüğü'nde bırakılmıştır.",
+    "040 Faaliyet Raporları kodu, 801 Taşıt ve İş Makineleri İşleri'ne yer açmak için sdp_kodlari.csv'den çıkarılmıştır (ortak blok 30-40 satır bandını korumak için).",
+    "Belediye başlık bloğu Ankara Büyükşehir Belediyesi örnekleriyle doğrulandı; Yenimahalle'nin kendi yazı örneğine hâlâ ulaşılamadı, kayıt numarası uzunluğu ve dipnot bloğu biçimi bilinmiyor.",
+    "Belediyede de 4 satırlı başlık görülüyor (daire başkanlığı + şube müdürlüğü). Yenimahalle bir ilçe belediyesi olduğu ve müdürlük altında şube müdürlüğü bulunmadığı için 3 satırlı kalıp esastır."
+  ],
+  "muhatap_detsis": {
+    "Ankara Valiliği": {
+      "detsis_no": "10213773",
+      "kategori": "MÜLKİ İDARE TEŞKİLATI / Valilik"
+    },
+    "Yenimahalle Kaymakamlığı": {
+      "detsis_no": "56248377",
+      "kategori": "MÜLKİ İDAREYE BAĞLI TAŞRA TEŞKİLATI / Kaymakamlık"
+    },
+    "Ankara Büyükşehir Belediye Başkanlığı": {
+      "detsis_no": "24432702",
+      "kategori": "BELEDİYE / Belediye Başkanlığı"
+    },
+    "Çankaya Belediye Başkanlığı": {
+      "detsis_no": "90226917",
+      "kategori": "BELEDİYE / Belediye Başkanlığı"
+    },
+    "Gazi Üniversitesi Rektörlüğü": {
+      "detsis_no": "39985474",
+      "kategori": "YÜKSEKÖĞRETİM KURUMU / Rektörlük"
+    },
+    "Ankara İl Millî Eğitim Müdürlüğü": {
+      "detsis_no": "55461037",
+      "kategori": "MÜLKİ İDAREYE BAĞLI TAŞRA TEŞKİLATI / İl Müdürlüğü"
+    }
+  },
+  "baslik_bloku_4satir": [
+    "T.C.",
+    "YENİMAHALLE BELEDİYE BAŞKANLIĞI",
+    "{birim_adi}",
+    "{alt_birim_adi}"
+  ]
+}
