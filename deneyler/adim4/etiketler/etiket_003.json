@@ -1,0 +1,64 @@
+{
+  "belge_no": "003",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "24432702",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
+  },
+  "konu": "Hukuki Mütalaanın Gönderilmesi",
+  "sayi": "E-24432702-045.02-8582151",
+  "tarih": "23.02.2026",
+  "ilgi": {
+    "tarih": "05.02.2026",
+    "sayi": "E-65859045-045.02-8602762"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Hukuki Mütalaanın Gönderilmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
+    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Hukuk İşleri Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Hukuki Mütalaanın Gönderilmesi",
+    "olumlu, işlem tamamlandı",
+    "Müdürlüğümüz kayıt bürosu",
+    "kimlik belgesi ibraz edilerek şahsen",
+    "düzenlendiği tarihten itibaren altı ay"
+  ]
+}

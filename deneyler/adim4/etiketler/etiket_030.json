@@ -1,0 +1,65 @@
+{
+  "belge_no": "030",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10338915",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ust",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
+    "saklama_suresi": "B"
+  },
+  "konu": "İlişik Kesme İşlemleri Hk.",
+  "sayi": "E-10338915-302.15-5393036",
+  "tarih": "23.04.2026",
+  "ilgi": {
+    "tarih": "20.03.2026",
+    "sayi": "E-39985474-302.15-6268286"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "İlişik Kesme İşlemleri",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Teslim yeri": "Başkanlığımız kayıt bürosu",
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "kapanis_yanlis",
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Öğrenci İşleri Daire Başkanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "İlişik Kesme İşlemleri",
+    "olumlu, belge düzenlendi",
+    "Başkanlığımız kayıt bürosu",
+    "noter onaylı vekâletname ile veya bizzat",
+    "düzenlendiği tarihten itibaren iki yıl"
+  ]
+}

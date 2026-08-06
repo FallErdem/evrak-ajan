@@ -1,0 +1,53 @@
+{
+  "belge_no": "151",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Ramazan AKTAŞ",
+    "adres": "Çiğdemtepe Mahallesi Kestane Sokak No: 20/22 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
+    "saklama_suresi": "15"
+  },
+  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
+  "sayi": null,
+  "tarih": "22.05.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Emlak Vergisi Borç Sorgulama",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+  },
+  "paragraf_cumle_sayilari": [
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Gelirler Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Emlak Vergisi Borç Sorgulama",
+    "ilgili kuruma sunulmak üzere"
+  ]
+}

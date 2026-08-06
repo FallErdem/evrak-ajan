@@ -1,0 +1,68 @@
+{
+  "belge_no": "153",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10056635",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "ust_yazi",
+  "aile": "ust_yazi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
+  },
+  "konu": "Eğitim Fakülteleri İle İlişkiler Listesinin Gönderilmesi",
+  "sayi": "E-10056635-355.02-3592793",
+  "tarih": "03.04.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 2,
+    "aciklama": "Liste ve takvim",
+    "sayfa": 4
+  },
+  "somut_bilgiler": {
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Dönem": "öğretim yılı",
+    "Sayı": "94 kayıt",
+    "Ek 1": "Eğitim Fakülteleri İle İlişkiler listesi",
+    "Ek 2": "uygulama takvimi",
+    "İstenen": "listenin ilgili birimlere dağıtılması"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "kapanis_yanlis",
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "ilgide kayıtlı yazı",
+    "öğretim yılı",
+    "94 kayıt",
+    "Eğitim Fakülteleri İle İlişkiler listesi",
+    "uygulama takvimi",
+    "listenin ilgili birimlere dağıtılması"
+  ]
+}

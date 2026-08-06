@@ -1,0 +1,65 @@
+{
+  "belge_no": "208",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Ankara Valiliği",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10213773",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "bilgilendirme",
+  "aile": "bilgilendirme",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "815",
+    "ad": "Sosyal Yardım İşleri",
+    "saklama_suresi": "10"
+  },
+  "konu": "Sosyal Yardım İşleri Hk.",
+  "sayi": "E-10213773-815-8547119",
+  "tarih": "16.01.2026",
+  "ilgi": {
+    "tarih": "25.12.2025",
+    "sayi": "E-65859045-815-8253118"
+  },
+  "ek": {
+    "adet": 1,
+    "aciklama": "Uygulama esasları",
+    "sayfa": 6
+  },
+  "somut_bilgiler": {
+    "Konu": "Sosyal Yardım İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
+    "İstenen 1": "uygulamanın ilgililere duyurulması",
+    "İstenen 2": "sonuçların içinde bulunulan yıl sonunda bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "ek_beyani_yanlis",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "bağlı tüm birimler uygulamaya tabidir",
+    "uygulamanın ilgililere duyurulması"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "belge_no": "135",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Ankara Valiliği",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10213773",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "karma",
+  "sdp": {
+    "kod": "807.01",
+    "ad": "Bina ve Tesisler",
+    "saklama_suresi": "10"
+  },
+  "konu": "Çatı Onarımı Hk.",
+  "sayi": "E-10213773-807.01-8545381",
+  "tarih": "13.02.2026",
+  "ilgi": {
+    "tarih": "13.01.2026",
+    "sayi": "E-65859045-807.01-3703592"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Çatı Onarımı",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Fen İşleri Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Çatı Onarımı",
+    "olumlu, işlem tamamlandı",
+    "Müdürlüğümüz kayıt bürosu",
+    "noter onaylı vekâletname ile veya bizzat",
+    "düzenlendiği tarihten itibaren iki yıl"
+  ]
+}

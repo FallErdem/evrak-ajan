@@ -1,0 +1,59 @@
+{
+  "belge_no": "217",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Merve ÖZTÜRK",
+    "adres": "Susuz Mahallesi Çınar Sokağı No: 29/23 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "sikayet",
+  "aile": "sikayet",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
+  },
+  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+  "sayi": null,
+  "tarih": "14.04.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+    "Sorun": "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
+    "Yer": "Yeşilevler Mahallesi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Talep": "sorunun giderilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Ruhsat ve Denetim Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Yeşilevler Mahallesi",
+    "geçtiğimiz aydan bu yana",
+    "sorunun giderilmesi"
+  ]
+}

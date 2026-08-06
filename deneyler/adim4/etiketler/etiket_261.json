@@ -1,0 +1,57 @@
+{
+  "belge_no": "261",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "ozel_tuzel_kisi",
+    "kurum_adi": "Yıldız Turizm ve Ticaret A.Ş.",
+    "ad": null,
+    "adres": "Gayret Mahallesi Erguvan Caddesi No: 28/3 Yenimahalle/ANKARA",
+    "detsis_no": null,
+    "detsis_kaynagi": "yok"
+  },
+  "belge_turu": "bilgi_edinme",
+  "aile": "bilgi_edinme",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ozel_tuzel",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
+  },
+  "konu": "İşyeri Açma ve Çalışma Ruhsatı Başvurusu",
+  "sayi": "2026/8010",
+  "tarih": "02.02.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "Talep": "Ruhsat konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "elektronik posta ile"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "imza_eksik",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Zabıta Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "elektronik posta ile"
+  ]
+}

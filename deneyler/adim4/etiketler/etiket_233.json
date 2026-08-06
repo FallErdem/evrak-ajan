@@ -1,0 +1,57 @@
+{
+  "belge_no": "233",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "ozel_tuzel_kisi",
+    "kurum_adi": "Yıldız Yapı Denetim A.Ş.",
+    "ad": null,
+    "adres": "Ostim Mahallesi Menekşe Sokak No: 44/4 Yenimahalle/ANKARA",
+    "detsis_no": null,
+    "detsis_kaynagi": "yok"
+  },
+  "belge_turu": "bilgi_edinme",
+  "aile": "bilgi_edinme",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ozel_tuzel",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
+  },
+  "konu": "Terazi Damgalama Başvurusu",
+  "sayi": "2026/7051",
+  "tarih": "29.01.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "Talep": "Ölçü ve Ölçü Aletleri ile İlgili İşler konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Ruhsat ve Denetim Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "Kurumunuz kayıt bürosundan elden"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "belge_no": "202",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
+  },
+  "gonderen": {
+    "tip": "ozel_tuzel_kisi",
+    "kurum_adi": "Şafak Turizm ve Ticaret A.Ş.",
+    "ad": null,
+    "adres": "Kaletepe Mahallesi Menekşe Sokak No: 26/22 Yenimahalle/ANKARA",
+    "detsis_no": null,
+    "detsis_kaynagi": "yok"
+  },
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ozel_tuzel",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
+    "saklama_suresi": "15"
+  },
+  "konu": "Çalıştay Katılım Talebi",
+  "sayi": "2026/7578",
+  "tarih": "30.01.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Çalıştay Katılım",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+  },
+  "paragraf_cumle_sayilari": [
+    3
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Yenimahalle Belediye Başkanlığı",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Çalıştay Katılım",
+    "başvuru dosyasına eklenmek üzere"
+  ]
+}

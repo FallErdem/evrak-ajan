@@ -1,0 +1,234 @@
+{
+  "_aciklama": "belgeler/kota_plani.md dosyasinin makine okunur hali. Uretec bu sayilari TUTAR; rastgele secim yapmaz. Sayilar degistirilirse dogrulama betigi capraz toplamlari kontrol eder.",
+  "toplam": 300,
+  "tohum": 20260806,
+  "_tohum_notu": "Ayni tohum + ayni plan = ayni 300 belge. Sartname madde 8 yontem beyani icin gerekli.",
+  "tarih_araligi": {
+    "baslangic": "2026-01-05",
+    "bitis": "2026-05-29",
+    "_not": "Hafta sonlari uretilmez. Ayni gunde en cok 6 belge."
+  },
+  "kurumlar": {
+    "yenimahalle_belediyesi": 120,
+    "ankara_il_mem": 100,
+    "gazi_rektorlugu": 80
+  },
+  "gonderen_x_kurum": {
+    "_aciklama": "Satir: gonderen tipi. Sutun: alici kurum. Kapanis yonunu gonderen tipi belirler.",
+    "vatandas": {
+      "yenimahalle_belediyesi": 44,
+      "ankara_il_mem": 34,
+      "gazi_rektorlugu": 30
+    },
+    "ozel_tuzel": {
+      "yenimahalle_belediyesi": 14,
+      "ankara_il_mem": 8,
+      "gazi_rektorlugu": 2
+    },
+    "ust_makam": {
+      "yenimahalle_belediyesi": 32,
+      "ankara_il_mem": 26,
+      "gazi_rektorlugu": 14
+    },
+    "ayni_duzey": {
+      "yenimahalle_belediyesi": 18,
+      "ankara_il_mem": 20,
+      "gazi_rektorlugu": 22
+    },
+    "alt_makam": {
+      "yenimahalle_belediyesi": 12,
+      "ankara_il_mem": 12,
+      "gazi_rektorlugu": 12
+    }
+  },
+  "kapanis_kurali": {
+    "_aciklama": "Gonderen tipinden turetilir, ayrica kota tutulmaz. K 13.1: rica YALNIZCA asagi dogru.",
+    "vatandas": "arz",
+    "ozel_tuzel": "arz",
+    "ust_makam": "rica",
+    "ayni_duzey": "arz",
+    "alt_makam": "arz"
+  },
+  "karma_kapanis": {
+    "adet": 12,
+    "_aciklama": "ust_makam belgelerinin 12'si dagitimli olur (DAGITIM YERLERINE) ve 'arz/rica ederim' ile biter. Kurum dagilimi: belediye 5, il mem 4, universite 3."
+  },
+  "belge_turleri": {
+    "_vatandas_ve_ozel": {
+      "toplam": 132,
+      "dilekce": 66,
+      "sikayet": 33,
+      "bilgi_edinme": 22,
+      "itiraz": 11
+    },
+    "_kurum_yazisi": {
+      "toplam": 168,
+      "bilgilendirme": 42,
+      "talep_yazisi": 38,
+      "cevap_yazisi": 34,
+      "gorus_talebi": 20,
+      "ust_yazi": 18,
+      "tekit_yazisi": 10,
+      "olur_yazisi": 6
+    }
+  },
+  "tur_gonderen_uyumu": {
+    "_aciklama": "Hangi belge turu hangi gonderen tipinden gelebilir. Ozel hukuk tuzel kisileri de dilekce, sikayet ve bilgi edinme basvurusu yapabilir: bir insaat sirketi ruhsat icin dilekce verir, 4982 sayili Kanun tuzel kisileri de kapsar.",
+    "dilekce": [
+      "vatandas",
+      "ozel_tuzel"
+    ],
+    "sikayet": [
+      "vatandas",
+      "ozel_tuzel"
+    ],
+    "bilgi_edinme": [
+      "vatandas",
+      "ozel_tuzel"
+    ],
+    "itiraz": [
+      "vatandas",
+      "ozel_tuzel"
+    ],
+    "bilgilendirme": [
+      "ust_makam",
+      "ayni_duzey"
+    ],
+    "talep_yazisi": [
+      "ayni_duzey",
+      "alt_makam"
+    ],
+    "cevap_yazisi": [
+      "ust_makam",
+      "ayni_duzey",
+      "alt_makam"
+    ],
+    "gorus_talebi": [
+      "ayni_duzey",
+      "alt_makam"
+    ],
+    "ust_yazi": [
+      "ust_makam",
+      "ayni_duzey",
+      "alt_makam"
+    ],
+    "tekit_yazisi": [
+      "ust_makam"
+    ],
+    "olur_yazisi": [
+      "alt_makam"
+    ]
+  },
+  "ilgi": {
+    "toplam_var": 120,
+    "zorunlu_var": [
+      "cevap_yazisi",
+      "tekit_yazisi"
+    ],
+    "zorunlu_yok": [
+      "dilekce",
+      "sikayet",
+      "bilgi_edinme",
+      "olur_yazisi"
+    ],
+    "_not": "Kalan turlerde serbest; uretec 120'ye tamamlar."
+  },
+  "ek": {
+    "toplam_var": 90,
+    "zorunlu_var": [
+      "ust_yazi"
+    ],
+    "olasilik": {
+      "dilekce": 0.25,
+      "itiraz": 0.4,
+      "cevap_yazisi": 0.2,
+      "bilgilendirme": 0.3,
+      "talep_yazisi": 0.25,
+      "gorus_talebi": 0.15,
+      "sikayet": 0.1,
+      "bilgi_edinme": 0.05,
+      "tekit_yazisi": 0.1,
+      "olur_yazisi": 0.3
+    }
+  },
+  "pdf_bicimi": {
+    "metin_katmanli": 250,
+    "taranmis": 50,
+    "_not": "T-01 karari. Taranmis 50'nin 10'u ayrica tarama_bozuk kusuru tasir."
+  },
+  "kusurlar": {
+    "_aciklama": "Kusur enjeksiyonu ADIM 4.5'te yapilir; etiket uretecinde yalnizca hangi belgeye hangi kusurun atanacagi belirlenir.",
+    "kusursuz": 180,
+    "profiller": {
+      "sayi_eksik": {
+        "adet": 12,
+        "on_kosul": "kurum_yazisi"
+      },
+      "tarih_eksik": {
+        "adet": 12,
+        "on_kosul": null
+      },
+      "konu_eksik": {
+        "adet": 10,
+        "on_kosul": "kurum_yazisi"
+      },
+      "imza_eksik": {
+        "adet": 10,
+        "on_kosul": null
+      },
+      "muhatap_belirsiz": {
+        "adet": 10,
+        "on_kosul": null
+      },
+      "ilgi_kopuk": {
+        "adet": 12,
+        "on_kosul": "ilgi_var"
+      },
+      "ek_beyani_yanlis": {
+        "adet": 10,
+        "on_kosul": "ek_var"
+      },
+      "sdp_uyumsuz": {
+        "adet": 12,
+        "on_kosul": "kurum_yazisi"
+      },
+      "tarih_tutarsiz": {
+        "adet": 12,
+        "on_kosul": "ilgi_var"
+      },
+      "kapanis_yanlis": {
+        "adet": 10,
+        "on_kosul": "kurum_yazisi"
+      },
+      "tarama_bozuk": {
+        "adet": 10,
+        "on_kosul": "taranmis"
+      }
+    },
+    "kurum_capraz_asgari": 3,
+    "_capraz_not": "Her kusur turu, uc kurumun her birinde en az 3 belge. Bir kusur tek kurumda toplanirsa, tespit basarisizliginda sebebin kusur mu kurum mu oldugu ayirt edilemez."
+  },
+  "cesitlilik": {
+    "sdp_kod_basina_azami": 8,
+    "sdp_kod_basina_asgari": 1,
+    "birim_basina_asgari": 3,
+    "ornek_konu_azami_tekrar": 4,
+    "kisi_adi_azami_tekrar": 3,
+    "ayni_gun_azami_belge": 6,
+    "_not": "Il MEM en dar: 100 belge 22 yaprak koda dagilacak. Ayrica 622.01, 773, 802 gibi ORTAK kodlar uc kurumda birden kullaniliyor ve hepsinden doluyor. Tavan 6'da bazi tohumlarda asiliyordu; 8'e cikarildi. Cesitliligi ureten sey tavan degil, 'en az kullanilan kodu sec' kurali - olculen gercek dagilim tavandan bagimsiz olarak dar kaliyor.",
+    "_konu_notu": "Konu secimi belge TURUNE gore filtrelenir; bir kodun 3 ornek konusundan yalnizca 1-2'si turle uyumlu olabildigi icin tavan 3'ten 4'e cikarildi. Tur uyumu cesitlilikten oncelikli: turle uyumsuz konu etiketi kendi icinde celiskili yapar."
+  },
+  "baslik_varyanti": {
+    "gazi_rektorlugu": {
+      "GAZİ ÜNİVERSİTESİ REKTÖRLÜĞÜ": 0.6,
+      "GAZİ ÜNİVERSİTESİ": 0.4
+    },
+    "_not": "Iki bicim de gercek kullanimda goruldu. Sistem ikisini de tanimali."
+  },
+  "imza_bicimi": {
+    "birim_basi": 0.6,
+    "vekaleten": 0.3,
+    "yardimci": 0.1,
+    "_not": "K 13.1: belge 'a.' ile imzalandiginda kapanis, yetkiyi DEVREDEN makamin hiyerarsik durumuna gore secilir."
+  }
+}

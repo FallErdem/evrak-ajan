@@ -1,0 +1,60 @@
+{
+  "belge_no": "058",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
+    "imza_unvani": "Şube Müdürü"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Şaban ÇELIK",
+    "adres": "Demetevler Mahallesi Ceviz Sokağı No: 25/14 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "sikayet",
+  "aile": "sikayet",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
+  },
+  "konu": "Nakiller Hakkında Şikâyet",
+  "sayi": null,
+  "tarih": "06.01.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Şikâyet konusu": "Nakiller Hakkında Şikâyet",
+    "Sorun": "sokak aydınlatması uzun süredir çalışmıyor",
+    "Yer": "Kaletepe Mahallesi",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Talep": "sorunun giderilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "muhatap_belirsiz",
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "Nakiller Hakkında Şikâyet",
+    "Kaletepe Mahallesi",
+    "yaklaşık iki aydır",
+    "sorunun giderilmesi"
+  ]
+}

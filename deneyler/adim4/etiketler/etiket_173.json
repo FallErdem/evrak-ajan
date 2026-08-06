@@ -1,0 +1,61 @@
+{
+  "belge_no": "173",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10094490",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "talep_yazisi",
+  "aile": "kaynak_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
+  },
+  "konu": "Genelge Görüşü Talebi",
+  "sayi": "E-10094490-010.06-1887895",
+  "tarih": "24.04.2026",
+  "ilgi": {
+    "tarih": "01.04.2026",
+    "sayi": "E-55461037-010.06-5179340"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Mevcut durum": "Genelgeler kapsamındaki iş yükü artmıştır",
+    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Amaç": "kaynakların etkin kullanılması",
+    "Talep": "ilave personel görevlendirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "mevcut kaynaklar yetersiz kalmaktadır",
+    "kaynakların etkin kullanılması",
+    "ilave personel görevlendirilmesi"
+  ]
+}

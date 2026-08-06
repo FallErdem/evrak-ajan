@@ -1,0 +1,59 @@
+{
+  "belge_no": "157",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
+    "imza_unvani": "Şube Müdürü"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10094490",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "gorus_talebi",
+  "aile": "gorus_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
+  },
+  "konu": "Bilgi Edinme, Talep ve Şikayetler Hakkında Görüş Talebi",
+  "sayi": "E-10094490-622.01-1887754",
+  "tarih": "19.01.2026",
+  "ilgi": {
+    "tarih": "15.12.2025",
+    "sayi": "E-55461037-622.01-9501619"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Konu": "Bilgi Edinme, Talep ve Şikayetler",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Talep": "konu hakkında görüş bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "ilgi_kopuk",
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "Bilgi Edinme, Talep ve Şikayetler",
+    "konu hakkında görüş bildirilmesi"
+  ]
+}

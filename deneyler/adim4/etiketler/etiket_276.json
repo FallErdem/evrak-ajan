@@ -1,0 +1,60 @@
+{
+  "belge_no": "276",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10094490",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "gorus_talebi",
+  "aile": "gorus_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
+  },
+  "konu": "İzin İşleri Hakkında Görüş Talebi",
+  "sayi": "E-10094490-302.08-1888611",
+  "tarih": "18.03.2026",
+  "ilgi": {
+    "tarih": "20.02.2026",
+    "sayi": "E-39985474-302.08-1161887"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Konu": "İzin İşleri",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Talep": "konu hakkında görüş bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "ilgi_kopuk",
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "İzin İşleri",
+    "konu hakkında görüş bildirilmesi"
+  ]
+}

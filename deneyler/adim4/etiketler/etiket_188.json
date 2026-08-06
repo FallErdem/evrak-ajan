@@ -1,0 +1,55 @@
+{
+  "belge_no": "188",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Kemal GÜNEŞ",
+    "adres": "Ostim Mahallesi Manolya Sokağı No: 84/10 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
+  },
+  "konu": "Hafta Tatili Ruhsatı Talebi",
+  "sayi": null,
+  "tarih": "01.04.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Hafta Tatili Ruhsatı",
+    "Taşınmaz": "16148 ada, 35 parsel",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+  },
+  "paragraf_cumle_sayilari": [
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "muhatap_belirsiz",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Zabıta Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Hafta Tatili Ruhsatı",
+    "16148 ada, 35 parsel",
+    "resmî işlemlerde kullanılmak üzere"
+  ]
+}

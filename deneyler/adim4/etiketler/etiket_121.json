@@ -1,0 +1,60 @@
+{
+  "belge_no": "121",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "55461037",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "talep_yazisi",
+  "aile": "kaynak_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
+  },
+  "konu": "Karar Örneği Talebi",
+  "sayi": "E-55461037-050.04-5985860",
+  "tarih": "17.03.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Mevcut durum": "Kararlar kapsamındaki iş yükü artmıştır",
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
+    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
+    "Talep": "teknik destek sağlanması"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Gazi Üniversitesi Rektörlüğü",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "Kararlar kapsamındaki iş yükü artmıştır",
+    "ek kapasiteye ihtiyaç duyulmaktadır",
+    "mevzuatın öngördüğü sürelere uyulması",
+    "teknik destek sağlanması"
+  ]
+}

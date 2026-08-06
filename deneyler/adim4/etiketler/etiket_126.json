@@ -1,0 +1,69 @@
+{
+  "belge_no": "126",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yükseköğretim Kurulu Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10101653",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "ust_yazi",
+  "aile": "ust_yazi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
+    "saklama_suresi": "10"
+  },
+  "konu": "Evrak Örneğinin Gönderilmesi",
+  "sayi": "E-10101653-622.02-3448455",
+  "tarih": "18.03.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 2,
+    "aciklama": "Liste ve takvim",
+    "sayfa": 1
+  },
+  "somut_bilgiler": {
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Dönem": "bahar dönemi",
+    "Sayı": "142 kayıt",
+    "Ek 1": "Belge Talepleri listesi",
+    "Ek 2": "uygulama takvimi",
+    "İstenen": "listenin ilgili birimlere dağıtılması"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "sayi_eksik",
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Genel Sekreterlik",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "ilgide kayıtlı yazı",
+    "bahar dönemi",
+    "142 kayıt",
+    "Belge Talepleri listesi",
+    "uygulama takvimi",
+    "listenin ilgili birimlere dağıtılması"
+  ]
+}

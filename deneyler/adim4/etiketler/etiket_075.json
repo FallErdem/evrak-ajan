@@ -1,0 +1,56 @@
+{
+  "belge_no": "075",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Hatice POLAT",
+    "adres": "Ergazi Mahallesi Yasemin Sokağı No: 82/15 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "saklama_suresi": "10"
+  },
+  "konu": "Öğrenci Topluluğu Kurulma Talebi",
+  "sayi": null,
+  "tarih": "21.05.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Öğrenci Topluluğu Kurulma",
+    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+  },
+  "paragraf_cumle_sayilari": [
+    3
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "Öğrenci Topluluğu Kurulma",
+    "3. sınıf öğrencisi",
+    "başvuru dosyasına eklenmek üzere"
+  ]
+}

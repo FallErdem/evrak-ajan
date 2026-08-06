@@ -1,0 +1,65 @@
+{
+  "belge_no": "008",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "ozel_egitim_rehberlik_sb",
+    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "detsis_no": "87302975",
+    "imza_unvani": "Şube Müdürü"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10056635",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "bilgilendirme",
+  "aile": "bilgilendirme",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "160.01.02",
+    "ad": "Kaynaştırma Eğitimi",
+    "saklama_suresi": "10"
+  },
+  "konu": "Kaynaştırma Uygulaması Bilgi Talebi",
+  "sayi": "E-10056635-160.01.02-3591768",
+  "tarih": "04.02.2026",
+  "ilgi": {
+    "tarih": "23.01.2026",
+    "sayi": "E-55461037-160.01.02-8076434"
+  },
+  "ek": {
+    "adet": 1,
+    "aciklama": "Uygulama esasları",
+    "sayfa": 6
+  },
+  "somut_bilgiler": {
+    "Konu": "Kaynaştırma Eğitimi kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
+    "İstenen 1": "uygulamanın ilgililere duyurulması",
+    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "bağlı tüm birimler uygulamaya tabidir",
+    "uygulamanın ilgililere duyurulması"
+  ]
+}

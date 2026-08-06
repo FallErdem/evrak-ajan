@@ -1,0 +1,57 @@
+{
+  "belge_no": "196",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
+    "imza_unvani": "Şube Müdürü"
+  },
+  "gonderen": {
+    "tip": "ozel_tuzel_kisi",
+    "kurum_adi": "Kuzey Turizm ve Ticaret A.Ş.",
+    "ad": null,
+    "adres": "Batıkent Mahallesi Nergis Sokak No: 22/19 Yenimahalle/ANKARA",
+    "detsis_no": null,
+    "detsis_kaynagi": "yok"
+  },
+  "belge_turu": "bilgi_edinme",
+  "aile": "bilgi_edinme",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ozel_tuzel",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
+  },
+  "konu": "Disiplin İşleri Hakkında Bilgi Edinme Başvurusu",
+  "sayi": "2026/8232",
+  "tarih": "18.05.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "Talep": "Disiplin İşleri konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "elektronik posta ile"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "tarih_eksik",
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "elektronik posta ile"
+  ]
+}

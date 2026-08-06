@@ -1,0 +1,64 @@
+{
+  "belge_no": "177",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10204305",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
+  },
+  "konu": "Zemin Etüdü Raporunun Gönderilmesi",
+  "sayi": "E-10204305-755.01-3565622",
+  "tarih": "16.03.2026",
+  "ilgi": {
+    "tarih": "09.02.2026",
+    "sayi": "E-65859045-755.01-3328030"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Zemin Etüdü Raporunun Gönderilmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Fen İşleri Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Zemin Etüdü Raporunun Gönderilmesi",
+    "olumlu, işlem tamamlandı",
+    "Müdürlüğümüz kayıt bürosu",
+    "noter onaylı vekâletname ile veya bizzat",
+    "düzenlendiği tarihten itibaren iki yıl"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "belge_no": "041",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Pınar ÇAKIR",
+    "adres": "Susuz Mahallesi Ceviz Sokağı No: 86/20 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
+    "saklama_suresi": "10"
+  },
+  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
+  "sayi": null,
+  "tarih": "14.05.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 1,
+    "aciklama": "Tapu fotokopisi",
+    "sayfa": 4
+  },
+  "somut_bilgiler": {
+    "Talep": "Taşımalı Eğitim Kapsamına Alınma",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+  },
+  "paragraf_cumle_sayilari": [
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "Taşımalı Eğitim Kapsamına Alınma",
+    "başvuru dosyasına eklenmek üzere"
+  ]
+}

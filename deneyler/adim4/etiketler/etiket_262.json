@@ -1,0 +1,56 @@
+{
+  "belge_no": "262",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Ahmet ÇELIK",
+    "adres": "Pamuklar Mahallesi Çınar Caddesi No: 51/17 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
+    "saklama_suresi": "10"
+  },
+  "konu": "Askerlik Durum Belgesi Talebi",
+  "sayi": null,
+  "tarih": "06.01.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Askerlik Durum Belgesi",
+    "Öğrenim bilgisi": "2017 yılı mezunu",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+  },
+  "paragraf_cumle_sayilari": [
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "tarih_eksik",
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Öğrenci İşleri Daire Başkanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "Askerlik Durum Belgesi",
+    "2017 yılı mezunu",
+    "resmî işlemlerde kullanılmak üzere"
+  ]
+}

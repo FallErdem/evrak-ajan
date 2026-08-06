@@ -1,0 +1,65 @@
+{
+  "belge_no": "152",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "yapi_kontrol",
+    "birim_adi": "Yapı Kontrol Müdürlüğü",
+    "detsis_no": "53265760",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "56248377",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "bilgilendirme",
+  "aile": "bilgilendirme",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
+  },
+  "konu": "İdari Davalar Hk.",
+  "sayi": "E-56248377-641.04-6501841",
+  "tarih": "03.02.2026",
+  "ilgi": {
+    "tarih": "09.01.2026",
+    "sayi": "E-65859045-641.04-4967509"
+  },
+  "ek": {
+    "adet": 1,
+    "aciklama": "Uygulama esasları",
+    "sayfa": 1
+  },
+  "somut_bilgiler": {
+    "Konu": "İdari Davalar kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
+    "İstenen 1": "uygulamanın ilgililere duyurulması",
+    "İstenen 2": "sonuçların üçüncü çeyrek sonunda bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "tarih_tutarsiz",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Yapı Kontrol Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "bağlı tüm birimler uygulamaya tabidir",
+    "uygulamanın ilgililere duyurulması"
+  ]
+}

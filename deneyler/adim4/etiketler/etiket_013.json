@@ -1,0 +1,60 @@
+{
+  "belge_no": "013",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Hüseyin GÜLER",
+    "adres": "Serhat Mahallesi Erguvan Caddesi No: 12/7 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "saklama_suresi": "10"
+  },
+  "konu": "Katkı Payı İade Talebi",
+  "sayi": null,
+  "tarih": "17.03.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 1,
+    "aciklama": "Tapu fotokopisi",
+    "sayfa": 2
+  },
+  "somut_bilgiler": {
+    "Talep": "Katkı Payı İade",
+    "Öğrenim bilgisi": "1. sınıf öğrencisi",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+  },
+  "paragraf_cumle_sayilari": [
+    3
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Öğrenci İşleri Daire Başkanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "Katkı Payı İade",
+    "1. sınıf öğrencisi",
+    "başvuru dosyasına eklenmek üzere"
+  ]
+}

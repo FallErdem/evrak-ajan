@@ -1,0 +1,58 @@
+{
+  "belge_no": "108",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
+  },
+  "gonderen": {
+    "tip": "ozel_tuzel_kisi",
+    "kurum_adi": "Atlas Yapı Denetim A.Ş.",
+    "ad": null,
+    "adres": "Karşıyaka Mahallesi Nergis Sokağı No: 16/7 Yenimahalle/ANKARA",
+    "detsis_no": null,
+    "detsis_kaynagi": "yok"
+  },
+  "belge_turu": "bilgi_edinme",
+  "aile": "bilgi_edinme",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ozel_tuzel",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
+    "saklama_suresi": "15"
+  },
+  "konu": "Çalıştay Katılım Talebi",
+  "sayi": "2026/9096",
+  "tarih": "13.04.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "Talep": "Toplantı ve Etkinlik İşleri konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Yenimahalle Belediye Başkanlığı",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "yıllara göre sayısal döküm",
+    "Kurumunuz kayıt bürosundan elden"
+  ]
+}

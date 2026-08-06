@@ -1,0 +1,63 @@
+{
+  "belge_no": "228",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Ankara Valiliği",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10213773",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "bilgilendirme",
+  "aile": "bilgilendirme",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
+  },
+  "konu": "Kararlar Hk.",
+  "sayi": "E-10213773-050.04-8547476",
+  "tarih": "28.01.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 1,
+    "aciklama": "Uygulama esasları",
+    "sayfa": 3
+  },
+  "somut_bilgiler": {
+    "Konu": "Kararlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
+    "İstenen 1": "uygulamanın ilgililere duyurulması",
+    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Genel Sekreterlik",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "bağlı tüm birimler uygulamaya tabidir",
+    "uygulamanın ilgililere duyurulması"
+  ]
+}

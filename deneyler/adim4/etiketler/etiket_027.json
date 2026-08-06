@@ -1,0 +1,60 @@
+{
+  "belge_no": "027",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Kemal YILDIRIM",
+    "adres": "Batıkent Mahallesi Manolya Sokağı No: 9/13 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "sikayet",
+  "aile": "sikayet",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "115.02.01",
+    "ad": "İmar Durumu (Belgesi)",
+    "saklama_suresi": "B"
+  },
+  "konu": "İmar Durumu Hakkında Şikâyet",
+  "sayi": null,
+  "tarih": "29.05.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Şikâyet konusu": "İmar Durumu Hakkında Şikâyet",
+    "Sorun": "kaldırım işgali nedeniyle yaya geçişi engelleniyor",
+    "Yer": "Ostim Mahallesi",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Talep": "sorunun giderilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "tarih_eksik",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "İmar ve Şehircilik Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "İmar Durumu Hakkında Şikâyet",
+    "Ostim Mahallesi",
+    "yaklaşık iki aydır",
+    "sorunun giderilmesi"
+  ]
+}

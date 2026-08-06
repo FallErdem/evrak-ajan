@@ -1,0 +1,59 @@
+{
+  "belge_no": "184",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "yapi_kontrol",
+    "birim_adi": "Yapı Kontrol Müdürlüğü",
+    "detsis_no": "53265760",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "39985474",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "gorus_talebi",
+  "aile": "gorus_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
+  },
+  "konu": "İdari Davalar Hakkında Görüş Talebi",
+  "sayi": "E-39985474-641.04-2602356",
+  "tarih": "11.03.2026",
+  "ilgi": {
+    "tarih": "18.02.2026",
+    "sayi": "E-65859045-641.04-3373417"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Konu": "İdari Davalar",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Talep": "konu hakkında görüş bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Yapı Kontrol Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "İdari Davalar",
+    "konu hakkında görüş bildirilmesi"
+  ]
+}

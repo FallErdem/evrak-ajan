@@ -1,0 +1,66 @@
+{
+  "belge_no": "175",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10099586",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ust",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "110.04",
+    "ad": "Encümen Kararları",
+    "saklama_suresi": "B"
+  },
+  "konu": "Encümen Kararının Gönderilmesi",
+  "sayi": "E-10099586-110.04-5674328",
+  "tarih": "31.03.2026",
+  "ilgi": {
+    "tarih": "16.03.2026",
+    "sayi": "E-65859045-110.04-9826948"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Encümen Kararının Gönderilmesi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Taşınmaz": "68282 ada, 43 parsel",
+    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Yazı İşleri Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Encümen Kararının Gönderilmesi",
+    "olumlu, talep karşılandı",
+    "68282 ada, 43 parsel",
+    "Müdürlüğümüz kayıt bürosu",
+    "kimlik belgesi ibraz edilerek şahsen",
+    "düzenlendiği tarihten itibaren bir yıl"
+  ]
+}

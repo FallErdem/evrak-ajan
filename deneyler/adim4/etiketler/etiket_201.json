@@ -1,0 +1,60 @@
+{
+  "belge_no": "201",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Mehmet KARA",
+    "adres": "Serhat Mahallesi Ihlamur Sokak No: 115/22 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "sikayet",
+  "aile": "sikayet",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
+  },
+  "konu": "Arşivlerden Yararlanma Hakkında Şikâyet",
+  "sayi": null,
+  "tarih": "30.04.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Şikâyet konusu": "Arşivlerden Yararlanma Hakkında Şikâyet",
+    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
+    "Yer": "Yakacık Mahallesi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Talep": "sorunun giderilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "tarih_eksik",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Muhtarlık İşleri Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Arşivlerden Yararlanma Hakkında Şikâyet",
+    "Yakacık Mahallesi",
+    "geçtiğimiz aydan bu yana",
+    "sorunun giderilmesi"
+  ]
+}

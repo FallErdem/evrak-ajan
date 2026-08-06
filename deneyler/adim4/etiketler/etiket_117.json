@@ -1,0 +1,61 @@
+{
+  "belge_no": "117",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10094490",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "talep_yazisi",
+  "aile": "kaynak_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
+  },
+  "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
+  "sayi": "E-10094490-355.02-1887489",
+  "tarih": "07.01.2026",
+  "ilgi": {
+    "tarih": "19.12.2025",
+    "sayi": "E-55461037-355.02-1540276"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Mevcut durum": "Eğitim Fakülteleri İle İlişkiler kapsamındaki iş yükü artmıştır",
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
+    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
+    "Talep": "ilave personel görevlendirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "ek kapasiteye ihtiyaç duyulmaktadır",
+    "iş ve işlemlerin zamanında tamamlanması",
+    "ilave personel görevlendirilmesi"
+  ]
+}

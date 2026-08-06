@@ -1,0 +1,60 @@
+{
+  "belge_no": "070",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Hasan KOÇ",
+    "adres": "Ragıpbey Mahallesi Sümbül Caddesi No: 72/3 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "sikayet",
+  "aile": "sikayet",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "115.02.08",
+    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
+    "saklama_suresi": "B"
+  },
+  "konu": "Yapı Kullanma İzni Hakkında Şikâyet",
+  "sayi": null,
+  "tarih": "08.04.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Şikâyet konusu": "Yapı Kullanma İzni Hakkında Şikâyet",
+    "Sorun": "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
+    "Yer": "Pamuklar Mahallesi",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Talep": "sorunun giderilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "imza_eksik",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "İmar ve Şehircilik Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Yapı Kullanma İzni Hakkında Şikâyet",
+    "Pamuklar Mahallesi",
+    "yaklaşık kırk gündür",
+    "sorunun giderilmesi"
+  ]
+}

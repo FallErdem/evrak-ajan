@@ -1,0 +1,62 @@
+{
+  "belge_no": "279",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Ankara Valiliği",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10213773",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "talep_yazisi",
+  "aile": "kaynak_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "saklama_suresi": "10"
+  },
+  "konu": "Kayıt Dondurma Talebi",
+  "sayi": "E-10213773-302.11-8548483",
+  "tarih": "18.03.2026",
+  "ilgi": {
+    "tarih": "11.03.2026",
+    "sayi": "E-39985474-302.11-5377608"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Mevcut durum": "Nakil, Kayıt Dondurma ve Kayıt Silme kapsamındaki iş yükü artmıştır",
+    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Amaç": "hizmetlerin aksamadan yürütülmesi",
+    "Talep": "ilave personel görevlendirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": "tarama_bozuk",
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "mevcut kaynaklar yetersiz kalmaktadır",
+    "hizmetlerin aksamadan yürütülmesi",
+    "ilave personel görevlendirilmesi"
+  ]
+}

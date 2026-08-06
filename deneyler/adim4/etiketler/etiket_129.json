@@ -1,0 +1,61 @@
+{
+  "belge_no": "129",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Ankara Valiliği",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10213773",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "talep_yazisi",
+  "aile": "kaynak_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
+    "saklama_suresi": "2"
+  },
+  "konu": "Sınav Programları ve Sınavlar Talebi",
+  "sayi": "E-10213773-106-8545241",
+  "tarih": "21.05.2026",
+  "ilgi": {
+    "tarih": "11.05.2026",
+    "sayi": "E-39985474-106-4748884"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Mevcut durum": "Sınav Programları ve Sınavlar kapsamındaki iş yükü artmıştır",
+    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
+    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
+    "Talep": "ilave personel görevlendirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "iş ve işlemlerin zamanında tamamlanması",
+    "ilave personel görevlendirilmesi"
+  ]
+}

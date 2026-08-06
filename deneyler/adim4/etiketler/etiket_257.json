@@ -1,0 +1,62 @@
+{
+  "belge_no": "257",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yükseköğretim Kurulu Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10101653",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "tekit_yazisi",
+  "aile": "tekit",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
+  },
+  "konu": "Karar Örneği Talebi",
+  "sayi": "E-10101653-050.04-3449899",
+  "tarih": "14.04.2026",
+  "ilgi": {
+    "tarih": "03.04.2026",
+    "sayi": "E-39985474-050.04-3105997"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Durum": "talep edilen bilgi henüz gönderilmemiştir",
+    "Talep": "ivedilikle gönderilmesi",
+    "Süre": "ay sonuna kadar"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "tarih_tutarsiz",
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Genel Sekreterlik",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "ilgide kayıtlı yazı",
+    "ivedilikle gönderilmesi",
+    "ay sonuna kadar"
+  ]
+}

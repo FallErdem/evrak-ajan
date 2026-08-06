@@ -1,0 +1,66 @@
+{
+  "belge_no": "255",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yükseköğretim Kurulu Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10101653",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "bilgilendirme",
+  "aile": "bilgilendirme",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "karma",
+  "sdp": {
+    "kod": "903.02",
+    "ad": "Atama İşleri",
+    "saklama_suresi": "B"
+  },
+  "konu": "Atama İşleri Hk.",
+  "sayi": "E-10101653-903.02-3449569",
+  "tarih": "31.03.2026",
+  "ilgi": {
+    "tarih": "16.02.2026",
+    "sayi": "E-39985474-903.02-4587351"
+  },
+  "ek": {
+    "adet": 1,
+    "aciklama": "Uygulama esasları",
+    "sayfa": 1
+  },
+  "somut_bilgiler": {
+    "Konu": "Atama İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
+    "İstenen 1": "uygulamanın ilgililere duyurulması",
+    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Personel Dairesi Başkanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "bağlı tüm birimler uygulamaya tabidir",
+    "uygulamanın ilgililere duyurulması"
+  ]
+}

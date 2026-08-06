@@ -1,0 +1,63 @@
+{
+  "belge_no": "269",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10099586",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ust",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
+  },
+  "konu": "Bütçe Teklifinin Gönderilmesi",
+  "sayi": "E-10099586-841.01-5675707",
+  "tarih": "13.02.2026",
+  "ilgi": {
+    "tarih": "16.01.2026",
+    "sayi": "E-65859045-841.01-5802105"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Bütçe Teklifinin Gönderilmesi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "konu_eksik",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Mali Hizmetler Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Bütçe Teklifinin Gönderilmesi",
+    "olumlu, talep karşılandı",
+    "Müdürlüğümüz kayıt bürosu",
+    "düzenlendiği tarihten itibaren bir yıl"
+  ]
+}

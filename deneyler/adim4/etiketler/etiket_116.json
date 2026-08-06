@@ -1,0 +1,55 @@
+{
+  "belge_no": "116",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Hatice KOÇ",
+    "adres": "Beştepe Mahallesi Sümbül Caddesi No: 72/12 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "115.01.06",
+    "ad": "Uygulama İmar Planı",
+    "saklama_suresi": "B"
+  },
+  "konu": "Uygulama İmar Planı Değişikliği Talebi",
+  "sayi": null,
+  "tarih": "20.01.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Uygulama İmar Planı Değişikliği",
+    "Taşınmaz": "11546 ada, 33 parsel",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+  },
+  "paragraf_cumle_sayilari": [
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "İmar ve Şehircilik Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Uygulama İmar Planı Değişikliği",
+    "11546 ada, 33 parsel",
+    "ilgili kuruma sunulmak üzere"
+  ]
+}

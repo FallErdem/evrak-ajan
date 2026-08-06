@@ -1,0 +1,56 @@
+{
+  "belge_no": "171",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Hüseyin KURT",
+    "adres": "Ergazi Mahallesi Yasemin Sokağı No: 2/3 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
+  },
+  "konu": "İzin Başvurusunun Değerlendirilmesi",
+  "sayi": null,
+  "tarih": "18.02.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "İzin Başvurusunun Değerlendirilmesi",
+    "Öğrenim bilgisi": "2. sınıf öğrencisi",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+  },
+  "paragraf_cumle_sayilari": [
+    3
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "İzin Başvurusunun Değerlendirilmesi",
+    "2. sınıf öğrencisi",
+    "başvuru dosyasına eklenmek üzere"
+  ]
+}

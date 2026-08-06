@@ -1,0 +1,57 @@
+{
+  "belge_no": "048",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "39985474",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "talep_yazisi",
+  "aile": "kaynak_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "115.01.08",
+    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
+    "saklama_suresi": "B"
+  },
+  "konu": "İrtifak Hakkı Tesisi Talebi",
+  "sayi": "E-39985474-115.01.08-2600894",
+  "tarih": "12.03.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Mevcut durum": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb. kapsamındaki iş yükü artmıştır",
+    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
+    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
+    "Talep": "teknik destek sağlanması"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "İmar ve Şehircilik Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "iş ve işlemlerin zamanında tamamlanması",
+    "teknik destek sağlanması"
+  ]
+}

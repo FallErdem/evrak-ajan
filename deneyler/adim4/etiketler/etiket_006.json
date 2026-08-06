@@ -1,0 +1,68 @@
+{
+  "belge_no": "006",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10056635",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "ust_yazi",
+  "aile": "ust_yazi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
+  },
+  "konu": "Kayıt-Kabul Listesinin Gönderilmesi",
+  "sayi": "E-10056635-205-3591587",
+  "tarih": "27.05.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 2,
+    "aciklama": "Liste ve takvim",
+    "sayfa": 6
+  },
+  "somut_bilgiler": {
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Dönem": "bahar dönemi",
+    "Sayı": "142 kayıt",
+    "Ek 1": "Kayıt-Kabul listesi",
+    "Ek 2": "uygulama takvimi",
+    "İstenen": "listenin ilgili birimlere dağıtılması"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "ilgide kayıtlı yazı",
+    "bahar dönemi",
+    "142 kayıt",
+    "Kayıt-Kabul listesi",
+    "uygulama takvimi",
+    "listenin ilgili birimlere dağıtılması"
+  ]
+}

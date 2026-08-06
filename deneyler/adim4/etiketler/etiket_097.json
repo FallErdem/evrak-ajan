@@ -1,0 +1,60 @@
+{
+  "belge_no": "097",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Aslı ÖZDEMIR",
+    "adres": "Emniyet Mahallesi Sümbül Sokak No: 99/5 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "sikayet",
+  "aile": "sikayet",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
+    "saklama_suresi": "10"
+  },
+  "konu": "Belge Talepleri Hakkında Şikâyet",
+  "sayi": null,
+  "tarih": "07.01.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Şikâyet konusu": "Belge Talepleri Hakkında Şikâyet",
+    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
+    "Yer": "İvedik Mahallesi",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Talep": "sorunun giderilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    2
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Muhtarlık İşleri Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Belge Talepleri Hakkında Şikâyet",
+    "İvedik Mahallesi",
+    "yaklaşık iki aydır",
+    "sorunun giderilmesi"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "belge_no": "291",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10094490",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "gorus_talebi",
+  "aile": "gorus_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
+  },
+  "konu": "Nakiller Hakkında Görüş Talebi",
+  "sayi": "E-10094490-210.01-1888912",
+  "tarih": "06.03.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Konu": "Nakiller",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Talep": "konu hakkında görüş bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "sdp_uyumsuz",
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "konu hakkında görüş bildirilmesi"
+  ]
+}

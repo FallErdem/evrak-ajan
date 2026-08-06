@@ -1,0 +1,56 @@
+{
+  "belge_no": "164",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Esra ÇETIN",
+    "adres": "Kaletepe Mahallesi Sümbül Sokağı No: 45/22 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
+  },
+  "konu": "Tez Teslim Süresi Uzatım Talebi",
+  "sayi": null,
+  "tarih": "19.01.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Tez Teslim Süresi Uzatım",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+  },
+  "paragraf_cumle_sayilari": [
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "Tez Teslim Süresi Uzatım",
+    "lisansüstü programa kayıtlı",
+    "başvuru dosyasına eklenmek üzere"
+  ]
+}

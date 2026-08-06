@@ -1,0 +1,61 @@
+{
+  "belge_no": "090",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10204305",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "tekit_yazisi",
+  "aile": "tekit",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "755.02",
+    "ad": "İhale",
+    "saklama_suresi": "15"
+  },
+  "konu": "İhale İlanı Hk.",
+  "sayi": "E-10204305-755.02-3564611",
+  "tarih": "08.01.2026",
+  "ilgi": {
+    "tarih": "02.01.2026",
+    "sayi": "E-65859045-755.02-3829639"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Durum": "talep edilen bilgi henüz gönderilmemiştir",
+    "Talep": "ivedilikle gönderilmesi",
+    "Süre": "ay sonuna kadar"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Fen İşleri Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "ilgide kayıtlı yazı",
+    "ivedilikle gönderilmesi",
+    "ay sonuna kadar"
+  ]
+}

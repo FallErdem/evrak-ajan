@@ -1,0 +1,60 @@
+{
+  "belge_no": "083",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10094490",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "gorus_talebi",
+  "aile": "gorus_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
+  },
+  "konu": "Arşivlerden Yararlanma Hakkında Görüş Talebi",
+  "sayi": "E-10094490-805.02.05-1886750",
+  "tarih": "27.01.2026",
+  "ilgi": {
+    "tarih": "06.01.2026",
+    "sayi": "E-39985474-805.02.05-1019342"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Konu": "Arşivlerden Yararlanma",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Talep": "konu hakkında görüş bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Genel Sekreterlik",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "Arşivlerden Yararlanma",
+    "konu hakkında görüş bildirilmesi"
+  ]
+}

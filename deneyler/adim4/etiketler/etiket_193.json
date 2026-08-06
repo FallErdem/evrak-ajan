@@ -1,0 +1,68 @@
+{
+  "belge_no": "193",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "24432702",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "ust_yazi",
+  "aile": "ust_yazi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
+  },
+  "konu": "Bütçe Teklifinin Gönderilmesi",
+  "sayi": "E-24432702-841.01-8582820",
+  "tarih": "09.02.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 2,
+    "aciklama": "Liste ve takvim",
+    "sayfa": 1
+  },
+  "somut_bilgiler": {
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Dönem": "yılın ilk yarısı",
+    "Sayı": "12 kayıt",
+    "Ek 1": "Bütçe Çalışmaları listesi",
+    "Ek 2": "uygulama takvimi",
+    "İstenen": "listenin ilgili birimlere dağıtılması"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Mali Hizmetler Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "ilgide kayıtlı yazı",
+    "yılın ilk yarısı",
+    "12 kayıt",
+    "Bütçe Çalışmaları listesi",
+    "uygulama takvimi",
+    "listenin ilgili birimlere dağıtılması"
+  ]
+}

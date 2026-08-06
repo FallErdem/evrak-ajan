@@ -1,0 +1,64 @@
+{
+  "belge_no": "066",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
+    "imza_unvani": "Şube Müdürü"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "İlçe millî eğitim müdürlükleri",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10085565",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ust",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
+    "saklama_suresi": "B"
+  },
+  "konu": "Yurtdışı Eğitim Denkliği Hk.",
+  "sayi": "E-10085565-215.01-3412883",
+  "tarih": "24.04.2026",
+  "ilgi": {
+    "tarih": "17.04.2026",
+    "sayi": "E-55461037-215.01-7947835"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Yurtdışı Eğitim Denkliği",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "tarih_tutarsiz",
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "Yurtdışı Eğitim Denkliği",
+    "olumlu, işlem tamamlandı",
+    "Müdürlüğümüz kayıt bürosu",
+    "kimlik belgesi ibraz edilerek şahsen",
+    "düzenlendiği tarihten itibaren bir yıl"
+  ]
+}

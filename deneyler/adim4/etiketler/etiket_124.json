@@ -1,0 +1,60 @@
+{
+  "belge_no": "124",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Emine GÜNEŞ",
+    "adres": "Batıkent Mahallesi Ihlamur Caddesi No: 6/15 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "sikayet",
+  "aile": "sikayet",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "saklama_suresi": "10"
+  },
+  "konu": "Nakil, Kayıt Dondurma ve Kayıt Silme Hakkında Şikâyet",
+  "sayi": null,
+  "tarih": "28.05.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Şikâyet konusu": "Nakil, Kayıt Dondurma ve Kayıt Silme Hakkında Şikâyet",
+    "Sorun": "kaldırım işgali nedeniyle yaya geçişi engelleniyor",
+    "Yer": "Beştepe Mahallesi",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Talep": "sorunun giderilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    2
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "Beştepe Mahallesi",
+    "yaklaşık kırk gündür",
+    "sorunun giderilmesi"
+  ]
+}

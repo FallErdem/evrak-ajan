@@ -1,0 +1,64 @@
+{
+  "belge_no": "187",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
+    "imza_unvani": "Şube Müdürü"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "İl millî eğitim müdürlüğü şube müdürlükleri",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10173962",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ust",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
+    "saklama_suresi": "10"
+  },
+  "konu": "Mal Alım İşi Hk.",
+  "sayi": "E-10173962-934.01-3106122",
+  "tarih": "09.01.2026",
+  "ilgi": {
+    "tarih": "16.12.2025",
+    "sayi": "E-55461037-934.01-7247544"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Mal Alım İşi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "Mal Alım İşi",
+    "olumlu, talep karşılandı",
+    "Müdürlüğümüz kayıt bürosu",
+    "noter onaylı vekâletname ile veya bizzat",
+    "düzenlendiği tarihten itibaren altı ay"
+  ]
+}

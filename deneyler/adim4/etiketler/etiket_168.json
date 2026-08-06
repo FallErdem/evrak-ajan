@@ -1,0 +1,64 @@
+{
+  "belge_no": "168",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10099586",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ust",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "755.02",
+    "ad": "İhale",
+    "saklama_suresi": "15"
+  },
+  "konu": "İhale Sonucunun Bildirilmesi",
+  "sayi": "E-10099586-755.02-5673971",
+  "tarih": "26.01.2026",
+  "ilgi": {
+    "tarih": "09.01.2026",
+    "sayi": "E-65859045-755.02-3144711"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "İhale Sonucunun Bildirilmesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "sayi_eksik",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Fen İşleri Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "İhale Sonucunun Bildirilmesi",
+    "olumlu, belge düzenlendi",
+    "Müdürlüğümüz kayıt bürosu",
+    "noter onaylı vekâletname ile veya bizzat",
+    "düzenlendiği tarihten itibaren bir yıl"
+  ]
+}

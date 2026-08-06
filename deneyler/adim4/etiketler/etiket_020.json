@@ -1,0 +1,62 @@
+{
+  "belge_no": "020",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "39985474",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "talep_yazisi",
+  "aile": "kaynak_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
+  },
+  "konu": "Etüt Proje Hazırlanması Talebi",
+  "sayi": "E-39985474-755.01-2600669",
+  "tarih": "20.04.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 1,
+    "aciklama": "İhtiyaç listesi",
+    "sayfa": 3
+  },
+  "somut_bilgiler": {
+    "Mevcut durum": "Etüd-Proje ve Fizibilite kapsamındaki iş yükü artmıştır",
+    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Amaç": "hizmetlerin aksamadan yürütülmesi",
+    "Talep": "teknik destek sağlanması"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Fen İşleri Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "mevcut kaynaklar yetersiz kalmaktadır",
+    "hizmetlerin aksamadan yürütülmesi",
+    "teknik destek sağlanması"
+  ]
+}

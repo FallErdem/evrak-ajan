@@ -1,0 +1,60 @@
+{
+  "belge_no": "230",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
+    "imza_unvani": "Şube Müdürü"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Elif KURT",
+    "adres": "Demetevler Mahallesi Kestane Caddesi No: 97/10 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "sikayet",
+  "aile": "sikayet",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
+  },
+  "konu": "Diploma Hakkında Şikâyet",
+  "sayi": null,
+  "tarih": "07.05.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Şikâyet konusu": "Diploma Hakkında Şikâyet",
+    "Sorun": "kaldırım işgali nedeniyle yaya geçişi engelleniyor",
+    "Yer": "Demetevler Mahallesi",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Talep": "sorunun giderilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "Diploma Hakkında Şikâyet",
+    "Demetevler Mahallesi",
+    "yaklaşık kırk gündür",
+    "sorunun giderilmesi"
+  ]
+}

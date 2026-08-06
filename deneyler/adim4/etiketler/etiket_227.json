@@ -1,0 +1,68 @@
+{
+  "belge_no": "227",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "ankara_il_mem",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_tipi": "il_mudurlugu",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
+    "imza_unvani": "Şube Müdürü"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10056635",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "ust_yazi",
+  "aile": "ust_yazi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "karma",
+  "sdp": {
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
+  },
+  "konu": "Stratejik Plan Listesinin Gönderilmesi",
+  "sayi": "E-10056635-602.04-3592999",
+  "tarih": "05.01.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 2,
+    "aciklama": "Liste ve takvim",
+    "sayfa": 3
+  },
+  "somut_bilgiler": {
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Dönem": "öğretim yılı",
+    "Sayı": "112 kayıt",
+    "Ek 1": "Stratejik Plan listesi",
+    "Ek 2": "uygulama takvimi",
+    "İstenen": "listenin ilgili birimlere dağıtılması"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "sayi_eksik",
+  "yasakli_adlar": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü"
+  ],
+  "anahtar_terimler": [
+    "ilgide kayıtlı yazı",
+    "öğretim yılı",
+    "112 kayıt",
+    "Stratejik Plan listesi",
+    "uygulama takvimi",
+    "listenin ilgili birimlere dağıtılması"
+  ]
+}

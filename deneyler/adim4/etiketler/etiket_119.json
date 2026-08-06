@@ -1,0 +1,62 @@
+{
+  "belge_no": "119",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yükseköğretim Kurulu Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10101653",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "tekit_yazisi",
+  "aile": "tekit",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "104.01",
+    "ad": "Program Açma",
+    "saklama_suresi": "15"
+  },
+  "konu": "Kontenjan Talebi",
+  "sayi": "E-10101653-104.01-3448366",
+  "tarih": "28.04.2026",
+  "ilgi": {
+    "tarih": "22.04.2026",
+    "sayi": "E-39985474-104.01-8373236"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Durum": "talep edilen bilgi henüz gönderilmemiştir",
+    "Talep": "ivedilikle gönderilmesi",
+    "Süre": "beş iş günü içinde"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Mühendislik Fakültesi Dekanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "ilgide kayıtlı yazı",
+    "ivedilikle gönderilmesi",
+    "beş iş günü içinde"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "belge_no": "250",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yükseköğretim Kurulu Başkanlığı",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10101653",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "bilgilendirme",
+  "aile": "bilgilendirme",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "karma",
+  "sdp": {
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
+  },
+  "konu": "Staj İşleri Hk.",
+  "sayi": "E-10101653-773-3449236",
+  "tarih": "25.05.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 1,
+    "aciklama": "Uygulama esasları",
+    "sayfa": 6
+  },
+  "somut_bilgiler": {
+    "Konu": "Staj İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
+    "İstenen 1": "uygulamanın ilgililere duyurulması",
+    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "ek_beyani_yanlis",
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "bağlı tüm birimler uygulamaya tabidir",
+    "uygulamanın ilgililere duyurulması"
+  ]
+}

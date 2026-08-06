@@ -1,0 +1,60 @@
+{
+  "belge_no": "290",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10338915",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "olur_yazisi",
+  "aile": "olur",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ust",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
+  },
+  "konu": "Hukuki Oluru",
+  "sayi": "E-10338915-045.02-5395433",
+  "tarih": "08.04.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 1,
+    "aciklama": "Taslak metin",
+    "sayfa": 3
+  },
+  "somut_bilgiler": {
+    "Konu": "Hukuki",
+    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
+    "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "ek_beyani_yanlis",
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Genel Sekreterlik",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "hizmetlerin aksamadan yürütülmesi"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "belge_no": "197",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "makine_ikmal",
+    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "detsis_no": "89052714",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10099586",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ust",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "801",
+    "ad": "Taşıt ve İş Makineleri İşleri",
+    "saklama_suresi": "10"
+  },
+  "konu": "Taşıt ve İş Makineleri İşleri Hk.",
+  "sayi": "E-10099586-801-5674714",
+  "tarih": "28.05.2026",
+  "ilgi": {
+    "tarih": "12.05.2026",
+    "sayi": "E-65859045-801-3835605"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Taşıt ve İş Makineleri İşleri",
+    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": "kapanis_yanlis",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Taşıt ve İş Makineleri İşleri",
+    "olumlu, talep karşılandı",
+    "Müdürlüğümüz kayıt bürosu",
+    "düzenlendiği tarihten itibaren bir yıl"
+  ]
+}

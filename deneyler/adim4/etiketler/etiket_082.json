@@ -1,0 +1,64 @@
+{
+  "belge_no": "082",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Ankara Valiliği",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10213773",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "alt",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "105.04",
+    "ad": "Meclis Kararları",
+    "saklama_suresi": "15"
+  },
+  "konu": "Meclis Kararının Gönderilmesi",
+  "sayi": "E-10213773-105.04-8544663",
+  "tarih": "16.01.2026",
+  "ilgi": {
+    "tarih": "04.12.2025",
+    "sayi": "E-65859045-105.04-1280232"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Meclis Kararının Gönderilmesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": "kapanis_yanlis",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Yazı İşleri Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Meclis Kararının Gönderilmesi",
+    "olumlu, belge düzenlendi",
+    "Müdürlüğümüz kayıt bürosu",
+    "kimlik belgesi ibraz edilerek şahsen",
+    "düzenlendiği tarihten itibaren bir yıl"
+  ]
+}

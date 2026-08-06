@@ -1,0 +1,60 @@
+{
+  "belge_no": "268",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Aslı ÇAKIR",
+    "adres": "Şentepe Mahallesi Çınar Caddesi No: 103/6 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "itiraz",
+  "aile": "itiraz",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
+  },
+  "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
+  "sayi": null,
+  "tarih": "06.02.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 1,
+    "aciklama": "Başvuru evrakı",
+    "sayfa": 3
+  },
+  "somut_bilgiler": {
+    "İtiraz konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
+    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "Talep": "kararın yeniden değerlendirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    2
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Ruhsat ve Denetim Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "talep olumsuz sonuçlandırılmıştır",
+    "kararın yeniden değerlendirilmesi"
+  ]
+}

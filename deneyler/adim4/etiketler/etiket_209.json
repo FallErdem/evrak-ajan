@@ -1,0 +1,64 @@
+{
+  "belge_no": "209",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Yenimahalle Belediyesi müdürlükleri",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10099586",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ust",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
+    "saklama_suresi": "10"
+  },
+  "konu": "Yatırım Programı Hk.",
+  "sayi": "E-10099586-602.07-5674929",
+  "tarih": "06.03.2026",
+  "ilgi": {
+    "tarih": "27.01.2026",
+    "sayi": "E-65859045-602.07-2572339"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Yatırım Programı",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": "sdp_uyumsuz",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Mali Hizmetler Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Yatırım Programı",
+    "olumlu, belge düzenlendi",
+    "Müdürlüğümüz kayıt bürosu",
+    "kimlik belgesi ibraz edilerek şahsen",
+    "düzenlendiği tarihten itibaren bir yıl"
+  ]
+}

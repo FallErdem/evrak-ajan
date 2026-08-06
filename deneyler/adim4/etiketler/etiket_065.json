@@ -1,0 +1,56 @@
+{
+  "belge_no": "065",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "39985474",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "gorus_talebi",
+  "aile": "gorus_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "756.01",
+    "ad": "Tahsis, Devir ve Takas",
+    "saklama_suresi": "B"
+  },
+  "konu": "Tahsis, Devir ve Takas Hakkında Görüş Talebi",
+  "sayi": "E-39985474-756.01-2601735",
+  "tarih": "28.05.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Konu": "Tahsis, Devir ve Takas",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Talep": "konu hakkında görüş bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Emlak ve İstimlak Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Tahsis, Devir ve Takas",
+    "konu hakkında görüş bildirilmesi"
+  ]
+}

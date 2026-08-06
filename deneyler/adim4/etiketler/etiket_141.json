@@ -1,0 +1,56 @@
+{
+  "belge_no": "141",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
+  },
+  "gonderen": {
+    "tip": "gercek_kisi",
+    "ad": "Nurten ŞIMŞEK",
+    "adres": "Ragıpbey Mahallesi Menekşe Sokak No: 49/7 Yenimahalle/ANKARA",
+    "kurum_adi": null,
+    "detsis_no": null
+  },
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
+  "yazan_tipi": "vatandas",
+  "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
+    "saklama_suresi": "B"
+  },
+  "konu": "Diploma Denklik Başvurusu",
+  "sayi": null,
+  "tarih": "12.05.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Diploma Denklik",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+  },
+  "paragraf_cumle_sayilari": [
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Öğrenci İşleri Daire Başkanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "Diploma Denklik",
+    "lisansüstü programa kayıtlı",
+    "başvuru dosyasına eklenmek üzere"
+  ]
+}

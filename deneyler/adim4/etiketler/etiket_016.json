@@ -1,0 +1,66 @@
+{
+  "belge_no": "016",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "55461037",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "talep_yazisi",
+  "aile": "kaynak_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
+  },
+  "konu": "Tez Konusu Değişikliği Talebi",
+  "sayi": "E-55461037-302.14-5985638",
+  "tarih": "20.04.2026",
+  "ilgi": {
+    "tarih": "06.04.2026",
+    "sayi": "E-39985474-302.14-8739767"
+  },
+  "ek": {
+    "adet": 1,
+    "aciklama": "İhtiyaç listesi",
+    "sayfa": 3
+  },
+  "somut_bilgiler": {
+    "Mevcut durum": "Tez İşleri kapsamındaki iş yükü artmıştır",
+    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Amaç": "hizmetlerin aksamadan yürütülmesi",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "mevcut kaynaklar yetersiz kalmaktadır",
+    "hizmetlerin aksamadan yürütülmesi",
+    "gerekli ödeneğin tahsis edilmesi"
+  ]
+}

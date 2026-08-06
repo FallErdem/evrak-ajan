@@ -1,0 +1,56 @@
+{
+  "belge_no": "061",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "39985474",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "gorus_talebi",
+  "aile": "gorus_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
+  },
+  "konu": "Bütçe Çalışmaları Hakkında Görüş Talebi",
+  "sayi": "E-39985474-841.01-2601357",
+  "tarih": "20.04.2026",
+  "ilgi": null,
+  "ek": null,
+  "somut_bilgiler": {
+    "Konu": "Bütçe Çalışmaları",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Talep": "konu hakkında görüş bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "sayi_eksik",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Mali Hizmetler Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "Bütçe Çalışmaları",
+    "konu hakkında görüş bildirilmesi"
+  ]
+}

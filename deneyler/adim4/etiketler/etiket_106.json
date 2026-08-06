@@ -1,0 +1,64 @@
+{
+  "belge_no": "106",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10338915",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ust",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "815",
+    "ad": "Sosyal Yardım İşleri",
+    "saklama_suresi": "10"
+  },
+  "konu": "Sosyal Yardım İşleri Hk.",
+  "sayi": "E-10338915-815-5393476",
+  "tarih": "09.02.2026",
+  "ilgi": {
+    "tarih": "06.01.2026",
+    "sayi": "E-39985474-815-9188412"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Sosyal Yardım İşleri",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Teslim yeri": "Başkanlığımız kayıt bürosu",
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "Sosyal Yardım İşleri",
+    "olumlu, işlem tamamlandı",
+    "Başkanlığımız kayıt bürosu",
+    "düzenlendiği tarihten itibaren bir yıl"
+  ]
+}

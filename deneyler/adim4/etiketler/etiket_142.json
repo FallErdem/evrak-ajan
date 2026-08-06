@@ -1,0 +1,65 @@
+{
+  "belge_no": "142",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Gazi Üniversitesi fakülte, enstitü, yüksekokul ve daire başkanlıkları",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "10338915",
+    "detsis_kaynagi": "sentetik"
+  },
+  "belge_turu": "cevap_yazisi",
+  "aile": "belge_cevabi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ust",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
+    "saklama_suresi": "2"
+  },
+  "konu": "Sınav Programları ve Sınavlar Hk.",
+  "sayi": "E-10338915-106-5394183",
+  "tarih": "14.01.2026",
+  "ilgi": {
+    "tarih": "16.12.2025",
+    "sayi": "E-39985474-106-5741304"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Talep": "Sınav Programları ve Sınavlar",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Teslim yeri": "Başkanlığımız kayıt bürosu",
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+  },
+  "paragraf_cumle_sayilari": [
+    3,
+    3
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": "konu_eksik",
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Mühendislik Fakültesi Dekanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "Sınav Programları ve Sınavlar",
+    "olumlu, işlem tamamlandı",
+    "Başkanlığımız kayıt bürosu",
+    "noter onaylı vekâletname ile veya bizzat",
+    "düzenlendiği tarihten itibaren iki yıl"
+  ]
+}

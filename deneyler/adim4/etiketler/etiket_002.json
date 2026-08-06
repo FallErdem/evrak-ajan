@@ -1,0 +1,62 @@
+{
+  "belge_no": "002",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_tipi": "belediye",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
+    "imza_unvani": "Müdür"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "55461037",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "talep_yazisi",
+  "aile": "kaynak_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
+  },
+  "konu": "Bilgi Edinme, Talep ve Şikayetler Talebi",
+  "sayi": "E-55461037-622.01-5985517",
+  "tarih": "26.03.2026",
+  "ilgi": null,
+  "ek": {
+    "adet": 1,
+    "aciklama": "İhtiyaç listesi",
+    "sayfa": 1
+  },
+  "somut_bilgiler": {
+    "Mevcut durum": "Bilgi Edinme, Talep ve Şikayetler kapsamındaki iş yükü artmıştır",
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
+    "Amaç": "hizmetlerin aksamadan yürütülmesi",
+    "Talep": "teknik destek sağlanması"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "ek_beyani_yanlis",
+  "yasakli_adlar": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Temizlik İşleri Müdürlüğü",
+    "Yenimahalle"
+  ],
+  "anahtar_terimler": [
+    "ek kapasiteye ihtiyaç duyulmaktadır",
+    "hizmetlerin aksamadan yürütülmesi",
+    "teknik destek sağlanması"
+  ]
+}

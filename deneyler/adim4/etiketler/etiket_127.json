@@ -1,0 +1,60 @@
+{
+  "belge_no": "127",
+  "tohum": 20260806,
+  "alici": {
+    "kurum_kodu": "gazi_rektorlugu",
+    "kurum_adi": "Gazi Üniversitesi",
+    "kurum_tipi": "universite",
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
+  },
+  "gonderen": {
+    "tip": "kurum",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "ad": null,
+    "adres": null,
+    "detsis_no": "55461037",
+    "detsis_kaynagi": "detsis"
+  },
+  "belge_turu": "gorus_talebi",
+  "aile": "gorus_talebi",
+  "yazan_tipi": "kurum",
+  "hiyerarsi_yonu": "ayni",
+  "beklenen_kapanis": "arz",
+  "sdp": {
+    "kod": "903.02",
+    "ad": "Atama İşleri",
+    "saklama_suresi": "B"
+  },
+  "konu": "Atama İşleri Hakkında Görüş Talebi",
+  "sayi": "E-55461037-903.02-5986188",
+  "tarih": "16.01.2026",
+  "ilgi": {
+    "tarih": "05.01.2026",
+    "sayi": "E-39985474-903.02-3180830"
+  },
+  "ek": null,
+  "somut_bilgiler": {
+    "Konu": "Atama İşleri",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Talep": "konu hakkında görüş bildirilmesi"
+  },
+  "paragraf_cumle_sayilari": [
+    2,
+    2
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
+  "yasakli_adlar": [
+    "Gazi Üniversitesi",
+    "Personel Dairesi Başkanlığı",
+    "Gazi Üniversitesi",
+    "Gazi"
+  ],
+  "anahtar_terimler": [
+    "Atama İşleri",
+    "konu hakkında görüş bildirilmesi"
+  ]
+}
