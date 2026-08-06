@@ -5,35 +5,35 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Emlak ve İstimlak Müdürlüğü",
+    "kurum_adi": "Temizlik İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "87730597",
+    "detsis_no": "83011479",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_makam": "Emlak ve İstimlak Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
+    "kod": "756.01",
+    "ad": "Tahsis, Devir ve Takas",
     "saklama_suresi": "B"
   },
-  "konu": "Ruhsat Oluru",
-  "sayi": "E-87730597-170.01-2456682",
-  "tarih": "18.03.2026",
+  "konu": "Tahsis, Devir ve Takas Oluru",
+  "sayi": "E-83011479-756.01-3491743",
+  "tarih": "29.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -41,8 +41,8 @@
     "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Ruhsat",
-    "Gerekçe": "vatandaş memnuniyetinin artırılması",
+    "Konu": "Tahsis, Devir ve Takas",
+    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,10 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "vatandaş memnuniyetinin artırılması"
+    "Tahsis, Devir ve Takas",
+    "hizmetlerin aksamadan yürütülmesi"
   ]
 }

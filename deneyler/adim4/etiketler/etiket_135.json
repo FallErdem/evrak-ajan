@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24312041",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -24,32 +24,36 @@
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
   "muhatap_parantez": "Fen İşleri Müdürlüğü",
-  "dagitim": [
-    "Yenimahalle Belediye Başkanlığı",
-    "Yenimahalle Kaymakamlığı",
-    "Makine İkmal Bakım ve Onarım Müdürlüğü",
-    "Zabıta Müdürlüğü"
-  ],
+  "dagitim": {
+    "geregi": [
+      "Yenimahalle Belediye Başkanlığı",
+      "Gazi Üniversitesi Rektörlüğü",
+      "Çankaya Belediye Başkanlığı"
+    ],
+    "bilgi": [
+      "Ankara Büyükşehir Belediye Başkanlığı"
+    ]
+  },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "755.01",
-    "ad": "Etüd-Proje ve Fizibilite",
-    "saklama_suresi": "30"
+    "kod": "755.02",
+    "ad": "İhale",
+    "saklama_suresi": "15"
   },
-  "konu": "Zemin Etüdü Raporunun Gönderilmesi",
-  "sayi": "E-24312041-755.01-3626289",
-  "tarih": "03.04.2026",
+  "konu": "İhale Sonucunun Bildirilmesi",
+  "sayi": "E-10213773-755.02-8146058",
+  "tarih": "17.02.2026",
   "ilgi": {
-    "tarih": "19.03.2026",
-    "sayi": "E-33152401-755.01-2214410"
+    "tarih": "09.02.2026",
+    "sayi": "E-33152401-755.02-3410730"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Zemin Etüdü Raporunun Gönderilmesi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Talep": "İhale Sonucunun Bildirilmesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -63,9 +67,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Zemin Etüdü Raporunun Gönderilmesi",
-    "olumlu, talep karşılandı",
-    "Müdürlüğümüz kayıt bürosu",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "İhale Sonucunun Bildirilmesi",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı"
   ]
 }

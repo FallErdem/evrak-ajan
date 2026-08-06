@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "17311665",
+    "detsis_no": "98244303",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,19 +32,19 @@
     "saklama_suresi": "15"
   },
   "konu": "Doçentlik Sözlü Sınavı Hk.",
-  "sayi": "E-17311665-204.01-7380252",
-  "tarih": "13.03.2026",
+  "sayi": "E-98244303-204.01-7863389",
+  "tarih": "08.01.2026",
   "ilgi": {
-    "tarih": "18.02.2026",
-    "sayi": "E-42218640-204.01-2178791"
+    "tarih": "31.12.2025",
+    "sayi": "E-42218640-204.01-2789443"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Doçentlik Sözlü Sınavı",
     "Talebin sonucu": "olumlu, talep karşılandı",
-    "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -61,8 +61,6 @@
   "anahtar_terimler": [
     "Doçentlik Sözlü Sınavı",
     "olumlu, talep karşılandı",
-    "Başkanlığımız kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "ilgide kayıtlı yazı"
   ]
 }

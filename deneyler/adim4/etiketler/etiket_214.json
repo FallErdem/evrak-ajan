@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Merve KARA",
-    "adres": "Serhat Mahallesi Sümbül Sokağı No: 22/15 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Fatih ÖZTÜRK",
+    "adres": "Gayret Mahallesi Zeytin Sokak No: 17/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2023229049",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -30,15 +33,15 @@
     "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Transkript Talebi",
+  "konu": "Askerlik Durum Belgesi Talebi",
   "sayi": null,
-  "tarih": "17.04.2026",
+  "tarih": "30.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Transkript",
-    "Öğrenim bilgisi": "2019 yılı mezunu",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Askerlik Durum Belgesi",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -52,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "2019 yılı mezunu",
-    "ilgili kuruma sunulmak üzere"
+    "Askerlik Durum Belgesi",
+    "lisansüstü programa kayıtlı",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

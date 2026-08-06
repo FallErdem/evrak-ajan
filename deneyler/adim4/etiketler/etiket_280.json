@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife UÇAR",
-    "adres": "Susuz Mahallesi Zeytin Caddesi No: 17/8 Yenimahalle/ANKARA",
+    "ad": "Şerife AKTAŞ",
+    "adres": "Şentepe Mahallesi Manolya Sokağı No: 76/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "kod": "198.02.01",
+    "ad": "Diploma",
     "saklama_suresi": "B"
   },
-  "konu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
+  "konu": "Diploma Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "29.01.2026",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
-    "Sorun": "servis şoförü belge kontrolü yapılmıyor",
-    "Yer": "Serhat Mahallesi",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Diploma Hakkında Şikâyet",
+    "Sorun": "diploma hakkındaki talebime yazılı cevap verilmedi",
+    "Yer": "Ergazi Mahallesi",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -51,13 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "servis şoförü belge kontrolü yapılmıyor",
-    "Serhat Mahallesi",
-    "yaklaşık iki aydır",
+    "Diploma Hakkında Şikâyet",
+    "Ergazi Mahallesi",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ömer ATEŞ",
-    "adres": "Pamuklar Mahallesi Lale Sokak No: 4/9 Yenimahalle/ANKARA",
+    "ad": "Mehmet KILIÇ",
+    "adres": "Karşıyaka Mahallesi Menekşe Sokağı No: 4/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
-    "saklama_suresi": "10"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Çöp Toplama Talebi",
+  "konu": "Borç Bilgisi Talebi",
   "sayi": null,
-  "tarih": "27.01.2026",
+  "tarih": "08.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Çöp Toplama",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Borç Bilgisi",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +46,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Çöp Toplama",
-    "sürecin tamamlanabilmesi için"
+    "Borç Bilgisi"
   ]
 }

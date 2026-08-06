@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Burak BOZKURT",
-    "adres": "Emniyet Mahallesi Erguvan Caddesi No: 100/10 Yenimahalle/ANKARA",
+    "ad": "Kemal SARI",
+    "adres": "Beştepe Mahallesi Kestane Sokak No: 72/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,14 +30,14 @@
     "ad": "Engellilere Yönelik Hizmetler",
     "saklama_suresi": "10"
   },
-  "konu": "Engelli Hizmetlerinden Yararlanma Başvurusu",
+  "konu": "Engelli Erişim Düzenlemesi Talebi",
   "sayi": null,
-  "tarih": "22.04.2026",
+  "tarih": "18.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Engelli Hizmetlerinden Yararlanma",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Engelli Erişim Düzenlemesi",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,6 +50,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Engelli Hizmetlerinden Yararlanma"
+    "Engelli Erişim Düzenlemesi",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

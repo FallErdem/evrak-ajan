@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hüseyin POLAT",
-    "adres": "Beştepe Mahallesi Nergis Caddesi No: 113/3 Yenimahalle/ANKARA",
+    "ad": "Elif KESKIN",
+    "adres": "Uğur Mumcu Mahallesi Kestane Sokağı No: 84/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,17 +26,17 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Kayıt Alanı Dışından Kayıt Talebi",
+  "konu": "Okul Aile Birlikleri Talebi",
   "sayi": null,
-  "tarih": "16.03.2026",
+  "tarih": "20.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Alanı Dışından Kayıt",
+    "Talep": "Okul Aile Birlikleri",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
@@ -50,7 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kayıt Alanı Dışından Kayıt",
+    "Okul Aile Birlikleri",
     "sürecin tamamlanabilmesi için"
   ]
 }

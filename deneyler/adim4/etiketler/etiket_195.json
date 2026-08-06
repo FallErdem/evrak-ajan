@@ -24,33 +24,35 @@
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
-  "dagitim": [
-    "Gazi Üniversitesi",
-    "Yükseköğretim Kurulu Başkanlığı",
-    "Genel Sekreterlik",
-    "Öğrenci İşleri Daire Başkanlığı"
-  ],
-  "beklenen_kapanis": "karma",
+  "dagitim": {
+    "geregi": [
+      "Gazi Üniversitesi",
+      "Ankara İl Millî Eğitim Müdürlüğü",
+      "Yenimahalle Belediye Başkanlığı"
+    ],
+    "bilgi": []
+  },
+  "beklenen_kapanis": "rica",
   "sdp": {
     "kod": "104.01",
     "ad": "Program Açma",
     "saklama_suresi": "15"
   },
   "konu": "Program Açma Başvurusu Hk.",
-  "sayi": "E-32625594-104.01-1777604",
-  "tarih": "21.04.2026",
+  "sayi": "E-32625594-104.01-86009278",
+  "tarih": "13.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
     "Konu": "Program Açma kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

@@ -27,25 +27,25 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
+    "saklama_suresi": "10"
   },
-  "konu": "Stratejik Plan Hk.",
-  "sayi": "E-10213773-602.04-1198409",
-  "tarih": "28.05.2026",
+  "konu": "Mal Alım İşi Hk.",
+  "sayi": "E-10213773-934.01-8278607",
+  "tarih": "27.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Stratejik Plan kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Mal Alım İşi kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

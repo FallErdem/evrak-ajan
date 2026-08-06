@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Bilgi Edinme, Talep ve Şikayetler Hakkında Görüş Talebi",
-  "sayi": "E-39985474-622.01-6554537",
-  "tarih": "28.04.2026",
+  "konu": "Genelge Görüşü Talebi",
+  "sayi": "E-39985474-010.06-2238489",
+  "tarih": "24.04.2026",
   "ilgi": {
-    "tarih": "20.03.2026",
-    "sayi": "E-55461037-622.01-3787704"
+    "tarih": "09.04.2026",
+    "sayi": "E-55461037-010.06-1910420"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Bilgi Edinme, Talep ve Şikayetler",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Konu": "Genelgeler",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,7 +56,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bilgi Edinme, Talep ve Şikayetler",
     "konu hakkında görüş bildirilmesi"
   ]
 }

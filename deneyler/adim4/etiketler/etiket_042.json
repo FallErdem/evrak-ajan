@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Esra UÇAR",
-    "adres": "Batıkent Mahallesi Sümbül Sokağı No: 55/10 Yenimahalle/ANKARA",
+    "ad": "Mustafa YILDIZ",
+    "adres": "Pamuklar Mahallesi Sümbül Caddesi No: 45/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,26 +22,26 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Öğrenim Belgesi Talebi",
+  "konu": "Öğrenci Nakil Talebi",
   "sayi": null,
-  "tarih": "27.05.2026",
+  "tarih": "02.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 3
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Talep": "Öğrenim Belgesi",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Öğrenci Nakil",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,11 +50,11 @@
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Öğrenim Belgesi",
-    "başvuru dosyasına eklenmek üzere"
+    "Öğrenci Nakil",
+    "sürecin tamamlanabilmesi için"
   ]
 }

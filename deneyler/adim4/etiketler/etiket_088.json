@@ -5,46 +5,46 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "ozel_egitim_rehberlik_sb",
+    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "detsis_no": "87302975",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Akpınar Mesleki ve Teknik Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10192248",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "93213107",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
+    "kod": "160.01.02",
+    "ad": "Kaynaştırma Eğitimi",
     "saklama_suresi": "10"
   },
-  "konu": "Yatırım Programı Hk.",
-  "sayi": "E-10192248-602.07-7026105",
-  "tarih": "16.04.2026",
+  "konu": "BEP Hazırlanması Hk.",
+  "sayi": "E-93213107-160.01.02-8035227",
+  "tarih": "10.02.2026",
   "ilgi": {
-    "tarih": "02.03.2026",
-    "sayi": "E-14588481-602.07-4271626"
+    "tarih": "22.01.2026",
+    "sayi": "E-87302975-160.01.02-6771180"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yatırım Programı",
+    "Talep": "BEP Hazırlanması",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,13 +54,14 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
+    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yatırım Programı",
+    "BEP Hazırlanması",
     "olumlu, işlem tamamlandı",
-    "Müdürlüğümüz kayıt bürosu",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

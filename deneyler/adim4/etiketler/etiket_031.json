@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Personel Dairesi Başkanlığı",
+    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "42218640",
+    "detsis_no": "17311665",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,19 +32,19 @@
     "saklama_suresi": "15"
   },
   "konu": "Genelge Uygulaması Hk.",
-  "sayi": "E-42218640-010.06-2208787",
-  "tarih": "20.04.2026",
+  "sayi": "E-17311665-010.06-6397650",
+  "tarih": "17.02.2026",
   "ilgi": {
-    "tarih": "13.03.2026",
-    "sayi": "E-82642947-010.06-6811417"
+    "tarih": "06.01.2026",
+    "sayi": "E-82642947-010.06-1307558"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Genelge Uygulaması",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -60,9 +60,8 @@
   ],
   "anahtar_terimler": [
     "Genelge Uygulaması",
-    "olumlu, belge düzenlendi",
-    "Başkanlığımız kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

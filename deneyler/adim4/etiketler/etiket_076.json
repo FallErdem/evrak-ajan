@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sultan ÖZKAN",
-    "adres": "Pamuklar Mahallesi Çınar Sokak No: 53/21 Yenimahalle/ANKARA",
+    "ad": "Mehmet AVCI",
+    "adres": "Beştepe Mahallesi Kestane Caddesi No: 85/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Arşiv Belgesi Araştırma Talebi",
+  "konu": "Belge Sureti Talebi",
   "sayi": null,
-  "tarih": "29.04.2026",
+  "tarih": "20.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Arşiv Belgesi Araştırma",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Belge Sureti",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşiv Belgesi Araştırma",
-    "başvuru dosyasına eklenmek üzere"
+    "Belge Sureti",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

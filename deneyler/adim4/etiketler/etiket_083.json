@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Stratejik Plan Hakkında Görüş Talebi",
-  "sayi": "E-55461037-602.04-3832986",
-  "tarih": "22.05.2026",
+  "konu": "Kararlar Hakkında Görüş Talebi",
+  "sayi": "E-55461037-050.04-1873654",
+  "tarih": "19.01.2026",
   "ilgi": {
-    "tarih": "08.04.2026",
-    "sayi": "E-39985474-602.04-6542444"
+    "tarih": "12.12.2025",
+    "sayi": "E-39985474-050.04-2139435"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Stratejik Plan",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Kararlar",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +57,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Stratejik Plan",
     "konu hakkında görüş bildirilmesi"
   ]
 }

@@ -5,40 +5,43 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Ayşe YILDIRIM",
-    "adres": "Ostim Mahallesi Ceviz Sokak No: 115/21 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Fatih ÇAKIR",
+    "adres": "Ragıpbey Mahallesi Manolya Sokağı No: 111/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2025980739",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.14",
-    "ad": "Tez İşleri",
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Tez Konusu Değişikliği Talebi",
+  "konu": "Geçici Mezuniyet Belgesi Talebi",
   "sayi": null,
-  "tarih": "11.05.2026",
+  "tarih": "09.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Tez Konusu Değişikliği",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Geçici Mezuniyet Belgesi",
+    "Öğrenim bilgisi": "2. sınıf öğrencisi",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,12 +50,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Tez Konusu Değişikliği",
-    "lisansüstü programa kayıtlı"
+    "Geçici Mezuniyet Belgesi",
+    "2. sınıf öğrencisi",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

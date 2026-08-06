@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra UÇAR",
-    "adres": "Ostim Mahallesi Akasya Caddesi No: 83/5 Yenimahalle/ANKARA",
+    "ad": "Esra TEKIN",
+    "adres": "Ragıpbey Mahallesi Ihlamur Sokağı No: 54/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,20 +26,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "135.03",
+    "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Belge Talepleri Hakkında Şikâyet",
+  "konu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "29.05.2026",
+  "tarih": "16.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Belge Talepleri Hakkında Şikâyet",
-    "Sorun": "servis şoförü belge kontrolü yapılmıyor",
-    "Yer": "İvedik Mahallesi",
-    "Süre": "bir aydan uzun süredir",
+    "Şikâyet konusu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
+    "Sorun": "yaygın eğitim kursları hakkındaki talebime yazılı cevap verilmedi",
+    "Yer": "Uğur Mumcu Mahallesi",
+    "Süre": "yaklaşık üç haftadır",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -55,10 +55,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Belge Talepleri Hakkında Şikâyet",
-    "servis şoförü belge kontrolü yapılmıyor",
-    "İvedik Mahallesi",
-    "bir aydan uzun süredir",
+    "Yaygın Eğitim Kursları Hakkında Şikâyet",
+    "Uğur Mumcu Mahallesi",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]
 }

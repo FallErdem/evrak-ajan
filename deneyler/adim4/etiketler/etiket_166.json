@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak Mühendislik Ltd. Şti.",
+    "kurum_adi": "Atlas Turizm ve Ticaret A.Ş.",
     "ad": null,
-    "adres": "Yakacık Mahallesi Zeytin Caddesi No: 99/5 Yenimahalle/ANKARA",
+    "adres": "Demetevler Mahallesi Manolya Sokak No: 106/10 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Emlak Vergisi Muafiyet Başvurusu",
-  "sayi": "2026/710",
-  "tarih": "28.05.2026",
+  "konu": "Borç Yapılandırma Talebi",
+  "sayi": "2026/192",
+  "tarih": "10.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Emlak Vergisi konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Talep": "Borç ve Alacak İşleri konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "e-Devlet üzerinden"
+    "yıllara göre sayısal döküm",
+    "elektronik posta ile"
   ]
 }

@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Serkan KESKIN",
-    "adres": "Emniyet Mahallesi Sümbül Sokağı No: 59/18 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Murat DEMIR",
+    "adres": "Emniyet Mahallesi Çınar Caddesi No: 84/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2020913802",
+    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -26,21 +29,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Değişim Programları Hakkında Şikâyet",
+  "konu": "Nakil, Kayıt Dondurma ve Kayıt Silme Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "19.05.2026",
+  "tarih": "25.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Öğrenci Değişim Programları Hakkında Şikâyet",
-    "Sorun": "kütüphane çalışma saatleri yetersiz kalıyor",
-    "Yer": "Demetevler Mahallesi",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Nakil, Kayıt Dondurma ve Kayıt Silme Hakkında Şikâyet",
+    "Sorun": "kayıt işlemim sistemde görünmüyor",
+    "Yer": "Beşevler Yerleşkesi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,8 +59,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Demetevler Mahallesi",
-    "bir aydan uzun süredir",
+    "kayıt işlemim sistemde görünmüyor",
+    "Beşevler Yerleşkesi",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

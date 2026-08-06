@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Onur ÖZTÜRK",
-    "adres": "Karşıyaka Mahallesi Nergis Caddesi No: 56/5 Yenimahalle/ANKARA",
+    "ad": "Gamze KOÇ",
+    "adres": "Ergazi Mahallesi Zeytin Sokak No: 56/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Emlak Vergisi Muafiyet Başvurusu",
+  "konu": "Bilgi Edinme Başvurusu",
   "sayi": null,
-  "tarih": "03.03.2026",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Emlak Vergisi Muafiyet",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Bilgi Edinme",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,10 +46,11 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Muafiyet"
+    "Bilgi Edinme",
+    "sürecin tamamlanabilmesi için"
   ]
 }

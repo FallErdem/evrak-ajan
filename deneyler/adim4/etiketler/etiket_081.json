@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf ÇETIN",
-    "adres": "Ostim Mahallesi Erguvan Sokağı No: 30/11 Yenimahalle/ANKARA",
+    "ad": "Hatice SARI",
+    "adres": "Uğur Mumcu Mahallesi Nergis Caddesi No: 2/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,13 +26,13 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "İdari Para Cezasına İtiraz",
+  "konu": "Bilgi Edinme, Talep ve Şikayetler Kararına İtiraz",
   "sayi": null,
-  "tarih": "13.03.2026",
+  "tarih": "12.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -40,9 +40,9 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "İdari Para Cezasına İtiraz",
+    "İtiraz konusu": "Bilgi Edinme, Talep ve Şikayetler Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +57,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İdari Para Cezasına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

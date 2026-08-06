@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yapı Kontrol Müdürlüğü",
+    "kurum_adi": "Mali Hizmetler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "53265760",
+    "detsis_no": "43195403",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "Hukuki Mütalaanın Gönderilmesi",
-  "sayi": "E-53265760-045.02-2909831",
-  "tarih": "24.04.2026",
+  "konu": "İdari Davalar Hk.",
+  "sayi": "E-43195403-641.04-3436652",
+  "tarih": "03.04.2026",
   "ilgi": {
     "tarih": "26.03.2026",
-    "sayi": "E-10578106-045.02-7889905"
+    "sayi": "E-10578106-641.04-3420357"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Hukuki Mütalaanın Gönderilmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Talep": "İdari Davalar",
+    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,10 +58,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Hukuki Mütalaanın Gönderilmesi",
-    "olumlu, işlem tamamlandı",
-    "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "İdari Davalar",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı"
   ]
 }

@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Meryem YILMAZ",
-    "adres": "İvedik Mahallesi Manolya Caddesi No: 17/19 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Gamze ŞIMŞEK",
+    "adres": "İvedik Mahallesi Yasemin Sokağı No: 74/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2025316850",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -26,18 +29,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Askerlik Durum Belgesi Talebi",
+  "konu": "Diploma Talebi",
   "sayi": null,
-  "tarih": "27.02.2026",
+  "tarih": "06.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Askerlik Durum Belgesi",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Talep": "Diploma",
+    "Öğrenim bilgisi": "2. sınıf öğrencisi",
     "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -52,8 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Askerlik Durum Belgesi",
-    "lisansüstü programa kayıtlı",
+    "2. sınıf öğrencisi",
     "resmî işlemlerde kullanılmak üzere"
   ]
 }

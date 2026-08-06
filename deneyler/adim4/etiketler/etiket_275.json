@@ -5,47 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "kurum_adi": "Yapı Kontrol Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "59553370",
+    "detsis_no": "53265760",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_makam": "Yazı İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.02",
-    "ad": "Satış ve Kiralama",
-    "saklama_suresi": "B"
+    "kod": "125",
+    "ad": "Evlendirme İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Taşınmaz Satış İhalesi Hk.",
-  "sayi": "E-59553370-756.02-5508431",
-  "tarih": "03.02.2026",
+  "konu": "Evlenme Başvurusu Hk.",
+  "sayi": "E-53265760-125-1814746",
+  "tarih": "30.04.2026",
   "ilgi": {
-    "tarih": "26.12.2025",
-    "sayi": "E-87730597-756.02-2390349"
+    "tarih": "15.04.2026",
+    "sayi": "E-15986609-125-2678048"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Taşınmaz Satış İhalesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Taşınmaz": "21087 ada, 43 parsel",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Talep": "Evlenme Başvurusu",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,15 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Taşınmaz Satış İhalesi",
-    "olumlu, belge düzenlendi",
-    "21087 ada, 43 parsel",
-    "Müdürlüğümüz kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "Evlenme Başvurusu",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı"
   ]
 }

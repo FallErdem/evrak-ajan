@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
-    "saklama_suresi": "10"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Okul Aile Birlikleri Hakkında Görüş Talebi",
-  "sayi": "E-65859045-165.01-3315427",
-  "tarih": "02.02.2026",
+  "konu": "Kayıt-Kabul Hakkında Görüş Talebi",
+  "sayi": "E-39985474-205-2245834",
+  "tarih": "04.05.2026",
   "ilgi": {
-    "tarih": "22.01.2026",
-    "sayi": "E-93213107-165.01-2955011"
+    "tarih": "17.04.2026",
+    "sayi": "E-93213107-205-8081291"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Okul Aile Birlikleri",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Kayıt-Kabul",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,7 +56,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Okul Aile Birlikleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

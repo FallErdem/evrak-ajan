@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Başkent Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Şafak İnşaat Ltd. Şti.",
     "ad": null,
-    "adres": "Çiğdemtepe Mahallesi Ihlamur Caddesi No: 66/2 Yenimahalle/ANKARA",
+    "adres": "Beştepe Mahallesi Akasya Sokak No: 91/23 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Bursluluk Başvurusu",
-  "sayi": "2026/642",
-  "tarih": "25.05.2026",
+  "konu": "Disiplin İşleri Hakkında Bilgi Edinme Başvurusu",
+  "sayi": "2026/408",
+  "tarih": "05.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Bursluluk konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Disiplin İşleri konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "yıllara göre sayısal döküm",
+    "posta yoluyla adresime"
   ]
 }

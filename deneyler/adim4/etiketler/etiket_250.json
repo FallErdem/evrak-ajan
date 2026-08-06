@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,34 +23,36 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Personel Dairesi Başkanlığı",
-  "dagitim": [
-    "Gazi Üniversitesi",
-    "Yükseköğretim Kurulu Başkanlığı",
-    "Gazi Eğitim Fakültesi Dekanlığı",
-    "Mühendislik Fakültesi Dekanlığı"
-  ],
-  "beklenen_kapanis": "karma",
-  "sdp": {
-    "kod": "903.02",
-    "ad": "Atama İşleri",
-    "saklama_suresi": "B"
+  "muhatap_parantez": "Genel Sekreterlik",
+  "dagitim": {
+    "geregi": [
+      "Gazi Üniversitesi",
+      "Yenimahalle Belediye Başkanlığı",
+      "Ankara Valiliği"
+    ],
+    "bilgi": []
   },
-  "konu": "Atama İşleri Hk.",
-  "sayi": "E-32625594-903.02-1771797",
-  "tarih": "08.04.2026",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
+  },
+  "konu": "Araştırma İzni Hk.",
+  "sayi": "E-32625594-805.02.05-86230451",
+  "tarih": "01.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 6
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Atama İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Arşivlerden Yararlanma kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -60,7 +62,7 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],

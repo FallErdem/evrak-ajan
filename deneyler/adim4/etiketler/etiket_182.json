@@ -5,40 +5,43 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Ömer KURT",
-    "adres": "Demetevler Mahallesi Papatya Sokak No: 51/5 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Fatih AVCI",
+    "adres": "Kaletepe Mahallesi Yasemin Sokağı No: 21/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2024816527",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
-    "saklama_suresi": "10"
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
+    "saklama_suresi": "B"
   },
-  "konu": "Sosyal Yardım Başvurusu",
+  "konu": "Değişim Programı Ders Tanıma Talebi",
   "sayi": null,
-  "tarih": "23.03.2026",
+  "tarih": "16.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Sosyal Yardım",
+    "Talep": "Değişim Programı Ders Tanıma",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,13 +50,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sosyal Yardım",
-    "lisansüstü programa kayıtlı",
-    "sürecin tamamlanabilmesi için"
+    "Değişim Programı Ders Tanıma",
+    "lisansüstü programa kayıtlı"
   ]
 }

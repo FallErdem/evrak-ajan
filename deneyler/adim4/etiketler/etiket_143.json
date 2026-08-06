@@ -5,46 +5,46 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
     "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "47014261",
+    "detsis_no": "17311665",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_makam": "Mühendislik Fakültesi Dekanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
-    "saklama_suresi": "10"
+    "kod": "104.01",
+    "ad": "Program Açma",
+    "saklama_suresi": "15"
   },
-  "konu": "İzin İşleri Hk.",
-  "sayi": "E-47014261-302.08-5107197",
-  "tarih": "18.02.2026",
+  "konu": "Program Açma Başvurusu Hk.",
+  "sayi": "E-17311665-104.01-6469921",
+  "tarih": "07.05.2026",
   "ilgi": {
-    "tarih": "19.01.2026",
-    "sayi": "E-86488853-302.08-1516136"
+    "tarih": "27.04.2026",
+    "sayi": "E-43123369-104.01-3238969"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İzin İşleri",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Talep": "Program Açma Başvurusu",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,15 +54,13 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İzin İşleri",
-    "olumlu, belge düzenlendi",
-    "Başkanlığımız kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "Program Açma Başvurusu",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı"
   ]
 }

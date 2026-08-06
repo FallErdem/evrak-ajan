@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze YILDIRIM",
-    "adres": "Kaletepe Mahallesi Lale Sokak No: 35/15 Yenimahalle/ANKARA",
+    "ad": "Şaban TEKIN",
+    "adres": "Uğur Mumcu Mahallesi Kestane Sokağı No: 21/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,21 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.04",
-    "ad": "Yapı Ruhsatı",
-    "saklama_suresi": "B"
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
+    "saklama_suresi": "10"
   },
-  "konu": "Yapı Ruhsatı Başvurusu",
+  "konu": "Çöp Toplama Talebi",
   "sayi": null,
-  "tarih": "28.01.2026",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yapı Ruhsatı",
-    "Taşınmaz": "93829 ada, 38 parsel",
+    "Talep": "Çöp Toplama",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
@@ -47,11 +46,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yapı Ruhsatı",
-    "93829 ada, 38 parsel"
+    "Çöp Toplama"
   ]
 }

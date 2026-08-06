@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,36 +23,40 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": null,
-  "dagitim": [
-    "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara Valiliği",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü"
-  ],
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "dagitim": {
+    "geregi": [
+      "Ankara İl Millî Eğitim Müdürlüğü",
+      "Gazi Üniversitesi Rektörlüğü",
+      "Yenimahalle Belediye Başkanlığı"
+    ],
+    "bilgi": [
+      "Millî Eğitim Bakanlığı"
+    ]
+  },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
+    "saklama_suresi": "B"
   },
-  "konu": "Bilgi Edinme, Talep ve Şikayetler Listesinin Gönderilmesi",
-  "sayi": "E-24316060-622.01-2072974",
-  "tarih": "13.04.2026",
+  "konu": "Yurtdışı Eğitim Denkliği Listesinin Gönderilmesi",
+  "sayi": "E-10213773-215.01-8225096",
+  "tarih": "17.04.2026",
   "ilgi": {
-    "tarih": "26.03.2026",
-    "sayi": "E-55461037-622.01-3791842"
+    "tarih": "23.03.2026",
+    "sayi": "E-63971525-215.01-1248182"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 4
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "bahar dönemi",
+    "Dönem": "öğretim yılı",
     "Sayı": "24 kayıt",
-    "Ek 1": "Bilgi Edinme, Talep ve Şikayetler listesi",
+    "Ek 1": "Yurtdışı Eğitim Denkliği listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -65,13 +69,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "bahar dönemi",
+    "öğretim yılı",
     "24 kayıt",
+    "Yurtdışı Eğitim Denkliği listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Atlas Mühendislik Ltd. Şti.",
+    "kurum_adi": "Kuzey Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Susuz Mahallesi Erguvan Sokağı No: 80/23 Yenimahalle/ANKARA",
+    "adres": "Yakacık Mahallesi Menekşe Caddesi No: 38/20 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,24 +23,24 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "115.02.08",
+    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
+    "saklama_suresi": "B"
   },
-  "konu": "Uygunluk Raporu Yenileme Talebi",
-  "sayi": "2026/135",
-  "tarih": "24.02.2026",
+  "konu": "Kısmi İskan Talebi",
+  "sayi": "2026/253",
+  "tarih": "11.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İtfaiye Uygunluk Raporları konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Yapı Kullanma İzni (İskan Ruhsatı) konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,11 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "posta yoluyla adresime"
   ]
 }

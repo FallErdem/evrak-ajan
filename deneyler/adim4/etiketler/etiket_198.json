@@ -5,40 +5,42 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Ömer SARI",
-    "adres": "Susuz Mahallesi Sümbül Caddesi No: 61/4 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Elif KESKIN",
+    "adres": "Ergazi Mahallesi Sümbül Sokağı No: 119/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2022680553",
+    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "kod": "773",
+    "ad": "Staj İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Dondurma Talebi",
+  "konu": "Staj Kabul Yazısı Talebi",
   "sayi": null,
-  "tarih": "20.01.2026",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Dondurma",
-    "Öğrenim bilgisi": "2023 yılı mezunu",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Staj Kabul Yazısı",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,12 +49,12 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Dondurma",
-    "2023 yılı mezunu"
+    "Staj Kabul Yazısı",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

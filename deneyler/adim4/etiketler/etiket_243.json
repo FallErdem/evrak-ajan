@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -19,31 +19,30 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
-    "saklama_suresi": "10"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Okul Aile Birlikleri Talebi",
-  "sayi": "E-39985474-165.01-6495010",
-  "tarih": "19.01.2026",
+  "konu": "Genelge Görüşü Talebi",
+  "sayi": "E-39985474-010.06-2201804",
+  "tarih": "06.03.2026",
   "ilgi": {
-    "tarih": "09.01.2026",
-    "sayi": "E-93213107-165.01-2939427"
+    "tarih": "17.02.2026",
+    "sayi": "E-55461037-010.06-1886970"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Okul Aile Birlikleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Konu": "Genelge Görüşü",
+    "Ortak iş": "iki kurumun görev alanına giren bir husus",
+    "Talep": "ilgili bilgilerin paylaşılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,12 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "mevzuatın öngördüğü sürelere uyulması",
-    "ilave personel görevlendirilmesi"
+    "Genelge Görüşü",
+    "ilgili bilgilerin paylaşılması"
   ]
 }

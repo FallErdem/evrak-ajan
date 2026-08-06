@@ -19,7 +19,7 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
@@ -27,23 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "204.01",
-    "ad": "Doçentlik",
+    "kod": "201",
+    "ad": "Seçim ve Atama İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Doçentlik Talebi",
-  "sayi": "E-65859045-204.01-3371932",
-  "tarih": "01.05.2026",
+  "konu": "Seçim ve Atama İşleri Talebi",
+  "sayi": "E-65859045-201-2553292",
+  "tarih": "23.02.2026",
   "ilgi": {
-    "tarih": "06.04.2026",
-    "sayi": "E-42218640-204.01-2201921"
+    "tarih": "29.01.2026",
+    "sayi": "E-42218640-201-2815426"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Doçentlik kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Konu": "Seçim ve Atama İşleri",
+    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
+    "Talep": "ilgili bilgilerin paylaşılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -58,9 +57,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Doçentlik kapsamındaki iş yükü artmıştır",
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "kaynakların etkin kullanılması",
-    "ilave personel görevlendirilmesi"
+    "Seçim ve Atama İşleri",
+    "ilgili bilgilerin paylaşılması"
   ]
 }

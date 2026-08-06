@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Mal Alım İşi Listesinin Gönderilmesi",
-  "sayi": "E-10213773-934.01-1075688",
-  "tarih": "03.02.2026",
+  "konu": "Stratejik Plan Listesinin Gönderilmesi",
+  "sayi": "E-10213773-602.04-8157747",
+  "tarih": "26.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "94 kayıt",
-    "Ek 1": "Mal Alım İşi listesi",
+    "Dönem": "bahar dönemi",
+    "Sayı": "112 kayıt",
+    "Ek 1": "Stratejik Plan listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -62,9 +62,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
-    "94 kayıt",
-    "Mal Alım İşi listesi",
+    "bahar dönemi",
+    "112 kayıt",
+    "Stratejik Plan listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

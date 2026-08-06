@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Genelgeler Listesinin Gönderilmesi",
-  "sayi": "E-32625594-010.06-1765208",
-  "tarih": "24.03.2026",
+  "konu": "Kurul Kararının Gönderilmesi",
+  "sayi": "E-32625594-050.04-86089815",
+  "tarih": "02.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "bahar dönemi",
-    "Sayı": "18 kayıt",
-    "Ek 1": "Genelgeler listesi",
+    "Dönem": "öğretim yılı",
+    "Sayı": "142 kayıt",
+    "Ek 1": "Kararlar listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,15 +57,15 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "bahar dönemi",
-    "18 kayıt",
-    "Genelgeler listesi",
+    "öğretim yılı",
+    "142 kayıt",
+    "Kararlar listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

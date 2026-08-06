@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet BULUT",
-    "adres": "Ostim Mahallesi Akasya Sokağı No: 3/22 Yenimahalle/ANKARA",
+    "ad": "Mehmet ARSLAN",
+    "adres": "Serhat Mahallesi Menekşe Sokak No: 110/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,23 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
-    "saklama_suresi": "B"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Yapı Kullanma İzin Belgesi Talebi",
+  "konu": "Borç Yapılandırma Talebi",
   "sayi": null,
-  "tarih": "10.02.2026",
+  "tarih": "02.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yapı Kullanma İzin Belgesi",
-    "Taşınmaz": "27818 ada, 35 parsel",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Borç Yapılandırma",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,12 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yapı Kullanma İzin Belgesi",
-    "27818 ada, 35 parsel",
-    "ilgili kuruma sunulmak üzere"
+    "Borç Yapılandırma",
+    "sürecin tamamlanabilmesi için"
   ]
 }

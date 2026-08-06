@@ -5,46 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yapi_kontrol",
-    "birim_adi": "Yapı Kontrol Müdürlüğü",
-    "detsis_no": "53265760",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Temizlik İşleri Müdürlüğü",
+    "kurum_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "83011479",
+    "detsis_no": "89052714",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Yapı Kontrol Müdürlüğü",
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Para Cezası Tahsilatı Hk.",
-  "sayi": "E-83011479-858-5677166",
-  "tarih": "13.02.2026",
+  "konu": "Toplantı ve Etkinlik İşleri Hk.",
+  "sayi": "E-89052714-051-2137461",
+  "tarih": "31.03.2026",
   "ilgi": {
-    "tarih": "10.02.2026",
-    "sayi": "E-53265760-858-2822744"
+    "tarih": "20.02.2026",
+    "sayi": "E-65859045-051-2551791"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Para Cezası Tahsilatı",
+    "Talep": "Toplantı ve Etkinlik İşleri",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,14 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yapı Kontrol Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Para Cezası Tahsilatı",
+    "Toplantı ve Etkinlik İşleri",
     "olumlu, işlem tamamlandı",
-    "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "ilgide kayıtlı yazı"
   ]
 }

@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Yatırım Programı Hk.",
-  "sayi": "E-24316060-602.07-2068797",
-  "tarih": "07.04.2026",
+  "konu": "Mal Alım İşi Başvurusu Hk.",
+  "sayi": "E-24316060-934.01-88084667",
+  "tarih": "15.01.2026",
   "ilgi": {
-    "tarih": "27.02.2026",
-    "sayi": "E-14588481-602.07-4269852"
+    "tarih": "09.01.2026",
+    "sayi": "E-14588481-934.01-2444936"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yatırım Programı",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Talep": "Mal Alım İşi Başvurusu",
+    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,10 +58,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yatırım Programı",
-    "olumlu, işlem tamamlandı",
-    "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "Mal Alım İşi Başvurusu",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

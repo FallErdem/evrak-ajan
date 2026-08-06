@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "24432702",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
@@ -32,18 +32,18 @@
     "saklama_suresi": "15"
   },
   "konu": "Ödenek Talebi",
-  "sayi": "E-24304062-841.01-4828211",
-  "tarih": "31.03.2026",
+  "sayi": "E-24432702-841.01-11134369",
+  "tarih": "20.04.2026",
   "ilgi": {
-    "tarih": "20.02.2026",
-    "sayi": "E-43195403-841.01-2168869"
+    "tarih": "18.03.2026",
+    "sayi": "E-43195403-841.01-3430972"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "en geç bir hafta içinde"
+    "Süre": "beş iş günü içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -59,6 +59,6 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "en geç bir hafta içinde"
+    "beş iş günü içinde"
   ]
 }

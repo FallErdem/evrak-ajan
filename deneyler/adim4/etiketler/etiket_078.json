@@ -5,40 +5,40 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Personel Dairesi Başkanlığı",
+    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "42218640",
+    "detsis_no": "98244303",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Genel Sekreterlik",
+  "muhatap_makam": "Personel Dairesi Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
+    "kod": "209",
+    "ad": "Akademik Personel Görevlendirmeleri",
     "saklama_suresi": "15"
   },
-  "konu": "Kararlar Hakkında Görüş Talebi",
-  "sayi": "E-42218640-050.04-2203772",
-  "tarih": "10.04.2026",
+  "konu": "Akademik Personel Görevlendirmeleri Hakkında Görüş Talebi",
+  "sayi": "E-98244303-209-7866218",
+  "tarih": "12.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Kararlar",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Konu": "Akademik Personel Görevlendirmeleri",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -49,11 +49,12 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Personel Dairesi Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
+    "Akademik Personel Görevlendirmeleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,29 +23,29 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
-    "saklama_suresi": "10"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Okul Aile Birlikleri Hk.",
-  "sayi": "E-65859045-165.01-3317304",
-  "tarih": "05.02.2026",
+  "konu": "Öğretmenlik Uygulaması Protokolü",
+  "sayi": "E-65859045-355.02-2536981",
+  "tarih": "23.01.2026",
   "ilgi": {
-    "tarih": "28.01.2026",
-    "sayi": "E-93213107-165.01-2962336"
+    "tarih": "19.01.2026",
+    "sayi": "E-55461037-355.02-1873584"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Okul Aile Birlikleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Eğitim Fakülteleri İle İlişkiler kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
     "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
@@ -58,7 +58,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [

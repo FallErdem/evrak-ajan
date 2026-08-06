@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Murat YAVUZ",
-    "adres": "Pamuklar Mahallesi Sümbül Sokağı No: 55/7 Yenimahalle/ANKARA",
+    "ad": "Gamze BOZKURT",
+    "adres": "Uğur Mumcu Mahallesi Zeytin Caddesi No: 50/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "807.01",
-    "ad": "Bina ve Tesisler",
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
     "saklama_suresi": "10"
   },
-  "konu": "Okul Binası Onarım Talebi",
+  "konu": "Atık Konteyneri Talebi",
   "sayi": null,
-  "tarih": "14.04.2026",
+  "tarih": "13.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Okul Binası Onarım",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Atık Konteyneri",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +46,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Okul Binası Onarım",
-    "sürecin tamamlanabilmesi için"
+    "Atık Konteyneri"
   ]
 }

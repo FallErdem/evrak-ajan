@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çankaya Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "90226917",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
     "saklama_suresi": "10"
   },
-  "konu": "Mal Alım İşi Hakkında Görüş Talebi",
-  "sayi": "E-90226917-934.01-7039637",
-  "tarih": "19.03.2026",
+  "konu": "Atık Yönetimi Hakkında Görüş Talebi",
+  "sayi": "E-55461037-155.01-1910419",
+  "tarih": "09.04.2026",
   "ilgi": {
-    "tarih": "17.02.2026",
-    "sayi": "E-83011479-934.01-5679193"
+    "tarih": "27.03.2026",
+    "sayi": "E-83011479-155.01-3463254"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Mal Alım İşi",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Atık Yönetimi",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,7 +56,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Mal Alım İşi",
+    "Atık Yönetimi",
     "konu hakkında görüş bildirilmesi"
   ]
 }

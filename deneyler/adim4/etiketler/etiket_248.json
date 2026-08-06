@@ -5,45 +5,44 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "makine_ikmal",
+    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "detsis_no": "89052714",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çankaya Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "90226917",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "051",
-    "ad": "Toplantı ve Etkinlik İşleri",
-    "saklama_suresi": "15"
+    "kod": "801",
+    "ad": "Taşıt ve İş Makineleri İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Çalıştay Katılım Talebi",
-  "sayi": "E-90226917-051-7048415",
-  "tarih": "01.04.2026",
+  "konu": "Hizmet Aracı Tahsis Talebi",
+  "sayi": "E-39985474-801-2201165",
+  "tarih": "05.03.2026",
   "ilgi": {
-    "tarih": "10.03.2026",
-    "sayi": "E-65859045-051-3338582"
+    "tarih": "27.01.2026",
+    "sayi": "E-89052714-801-2102120"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Toplantı ve Etkinlik İşleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Konu": "Hizmet Aracı Tahsis",
+    "Ortak iş": "ortak yürütülen bir çalışma",
+    "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,11 +52,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yenimahalle Belediye Başkanlığı",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "iş ve işlemlerin zamanında tamamlanması",
-    "gerekli ödeneğin tahsis edilmesi"
+    "Hizmet Aracı Tahsis",
+    "ortak yürütülen bir çalışma",
+    "konu hakkında görüş bildirilmesi"
   ]
 }

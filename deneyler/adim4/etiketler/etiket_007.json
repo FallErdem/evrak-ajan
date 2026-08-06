@@ -11,11 +11,14 @@
     "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
+    "tip": "ogrenci",
     "ad": "Elif ÖZTÜRK",
     "adres": "Beştepe Mahallesi Manolya Sokak No: 89/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2022204725",
+    "bolum": "Diş Hekimliği Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -37,11 +40,10 @@
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Talep": "Bilgi Edinme",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +59,6 @@
   ],
   "anahtar_terimler": [
     "Bilgi Edinme",
-    "lisansüstü programa kayıtlı",
     "sürecin tamamlanabilmesi için"
   ]
 }

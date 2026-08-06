@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Aslı ŞAHIN",
-    "adres": "Ragıpbey Mahallesi Ceviz Caddesi No: 66/8 Yenimahalle/ANKARA",
+    "ad": "Hasan ARSLAN",
+    "adres": "Uğur Mumcu Mahallesi Çınar Caddesi No: 23/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Arşivlerden Yararlanma Hakkında Şikâyet",
+  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "17.04.2026",
+  "tarih": "03.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Arşivlerden Yararlanma Hakkında Şikâyet",
-    "Sorun": "sokak aydınlatması uzun süredir çalışmıyor",
-    "Yer": "Pamuklar Mahallesi",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+    "Sorun": "yangın merdiveni kapalı tutuluyor",
+    "Yer": "Serhat Mahallesi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -51,13 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşivlerden Yararlanma Hakkında Şikâyet",
-    "Pamuklar Mahallesi",
-    "bir aydan uzun süredir",
+    "yangın merdiveni kapalı tutuluyor",
+    "Serhat Mahallesi",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

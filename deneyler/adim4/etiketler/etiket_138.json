@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "24432702",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,29 +23,29 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "110.04",
-    "ad": "Encümen Kararları",
-    "saklama_suresi": "B"
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
   },
-  "konu": "Encümen Kararları Hk.",
-  "sayi": "E-24304062-110.04-4871572",
-  "tarih": "07.05.2026",
+  "konu": "Bütçe Çalışmaları Hk.",
+  "sayi": "E-24432702-841.01-11079489",
+  "tarih": "02.03.2026",
   "ilgi": {
-    "tarih": "14.04.2026",
-    "sayi": "E-15986609-110.04-2462476"
+    "tarih": "03.02.2026",
+    "sayi": "E-43195403-841.01-3415786"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Encümen Kararları kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Bütçe Çalışmaları kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
     "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
@@ -58,7 +58,7 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

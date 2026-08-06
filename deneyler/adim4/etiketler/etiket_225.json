@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Burak KORKMAZ",
-    "adres": "Ergazi Mahallesi Lale Caddesi No: 32/9 Yenimahalle/ANKARA",
+    "ad": "Burak KARACA",
+    "adres": "Ostim Mahallesi Zeytin Sokak No: 117/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
+    "kod": "245.04",
+    "ad": "Bursluluk",
     "saklama_suresi": "10"
   },
-  "konu": "Servis Güzergahı Talebi",
+  "konu": "Bursluluk Başvurusu",
   "sayi": null,
-  "tarih": "10.04.2026",
+  "tarih": "22.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Servis Güzergahı",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Bursluluk",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +46,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Servis Güzergahı",
-    "sürecin tamamlanabilmesi için"
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

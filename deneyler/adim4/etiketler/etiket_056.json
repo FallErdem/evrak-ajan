@@ -27,18 +27,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "855",
-    "ad": "Borç ve Alacak İşleri",
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
     "saklama_suresi": "15"
   },
-  "konu": "Borç ve Alacak İşleri Hakkında Görüş Talebi",
-  "sayi": "E-39985474-855-6552112",
-  "tarih": "24.04.2026",
+  "konu": "Bütçe Çalışmaları Hakkında Görüş Talebi",
+  "sayi": "E-39985474-841.01-2183245",
+  "tarih": "09.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Borç ve Alacak İşleri",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Bütçe Çalışmaları",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,7 +53,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Borç ve Alacak İşleri",
+    "Bütçe Çalışmaları",
     "konu hakkında görüş bildirilmesi"
   ]
 }

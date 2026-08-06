@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "98244303",
+    "detsis_no": "17311665",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "104.01",
-    "ad": "Program Açma",
-    "saklama_suresi": "15"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Program Açma Başvurusu Hk.",
-  "sayi": "E-98244303-104.01-7073110",
-  "tarih": "09.04.2026",
+  "konu": "Stajlar Hk.",
+  "sayi": "E-17311665-304.03-6360962",
+  "tarih": "08.01.2026",
   "ilgi": {
-    "tarih": "25.03.2026",
-    "sayi": "E-43123369-104.01-2771685"
+    "tarih": "24.12.2025",
+    "sayi": "E-43123369-304.03-3142740"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Program Açma Başvurusu",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Talep": "Stajlar",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -59,10 +59,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Program Açma Başvurusu",
-    "olumlu, belge düzenlendi",
-    "Başkanlığımız kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı"
   ]
 }

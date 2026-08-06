@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,20 +23,20 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Mevlana Programı Hareketliliği Hk.",
-  "sayi": "E-32625594-310-1764635",
-  "tarih": "23.03.2026",
+  "konu": "Araştırma İzni Hk.",
+  "sayi": "E-32625594-805.02.05-85939193",
+  "tarih": "29.01.2026",
   "ilgi": {
-    "tarih": "05.03.2026",
-    "sayi": "E-17311665-310-7376555"
+    "tarih": "25.12.2025",
+    "sayi": "E-82642947-805.02.05-1298838"
   },
   "ek": {
     "adet": 1,
@@ -44,11 +44,11 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Öğrenci Değişim Programları kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Arşivlerden Yararlanma kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -58,7 +58,7 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],

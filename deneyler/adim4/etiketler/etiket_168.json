@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
+    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "26888327",
+    "detsis_no": "18426575",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
-    "saklama_suresi": "15"
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
+    "saklama_suresi": "10"
   },
-  "konu": "Bütçe Teklifinin Gönderilmesi",
-  "sayi": "E-26888327-841.01-2168223",
-  "tarih": "25.03.2026",
+  "konu": "Yatırım Programı Hk.",
+  "sayi": "E-18426575-602.07-3978407",
+  "tarih": "03.02.2026",
   "ilgi": {
-    "tarih": "26.02.2026",
-    "sayi": "E-43195403-841.01-2172895"
+    "tarih": "25.12.2025",
+    "sayi": "E-43195403-602.07-3401686"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bütçe Teklifinin Gönderilmesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Talep": "Yatırım Programı",
+    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,10 +58,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bütçe Teklifinin Gönderilmesi",
-    "olumlu, belge düzenlendi",
-    "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "Yatırım Programı",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

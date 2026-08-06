@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -19,32 +19,31 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
-    "saklama_suresi": "15"
+    "kod": "110.04",
+    "ad": "Encümen Kararları",
+    "saklama_suresi": "B"
   },
-  "konu": "Ödenek Talebi",
-  "sayi": "E-55461037-841.01-3832321",
+  "konu": "Encümen Kararı Örneği Talebi",
+  "sayi": "E-55461037-110.04-1929787",
   "tarih": "21.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "İhtiyaç listesi",
-    "sayfa": 3
+    "aciklama": "İlgili belge",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Mevcut durum": "Bütçe Çalışmaları kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Konu": "Encümen Kararı Örneği",
+    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
+    "Talep": "ilgili bilgilerin paylaşılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -54,12 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "mevcut kaynaklar yetersiz kalmaktadır",
-    "kaynakların etkin kullanılması",
-    "gerekli ödeneğin tahsis edilmesi"
+    "Encümen Kararı Örneği",
+    "ilgili bilgilerin paylaşılması"
   ]
 }

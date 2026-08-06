@@ -5,43 +5,43 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yapı Kontrol Müdürlüğü",
+    "kurum_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "53265760",
+    "detsis_no": "85330682",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Yazı İşleri Müdürlüğü",
+  "muhatap_makam": "Emlak ve İstimlak Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "110.04",
-    "ad": "Encümen Kararları",
+    "kod": "752.01",
+    "ad": "Kamulaştırma",
     "saklama_suresi": "B"
   },
-  "konu": "Encümen Kararları Oluru",
-  "sayi": "E-53265760-110.04-2805823",
-  "tarih": "27.01.2026",
+  "konu": "Kamulaştırma Oluru",
+  "sayi": "E-85330682-752.01-2285376",
+  "tarih": "09.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 6
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Encümen Kararları",
+    "Konu": "Kamulaştırma",
     "Gerekçe": "kaynakların etkin kullanılması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
@@ -53,11 +53,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Encümen Kararları",
     "kaynakların etkin kullanılması"
   ]
 }

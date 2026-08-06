@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,29 +23,29 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "752.01",
-    "ad": "Kamulaştırma",
-    "saklama_suresi": "B"
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
   },
-  "konu": "Kamu Yararı Kararı Hk.",
-  "sayi": "E-24304062-752.01-4859691",
-  "tarih": "27.04.2026",
+  "konu": "Bütçe Çalışmaları Hk.",
+  "sayi": "E-10213773-841.01-8214031",
+  "tarih": "09.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 3
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Kamulaştırma kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Bütçe Çalışmaları kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların üçüncü çeyrek sonunda bildirilmesi"
+    "İstenen 2": "sonuçların mali yıl sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,11 +55,12 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "sonuçların mali yıl sonunda bildirilmesi"
   ]
 }

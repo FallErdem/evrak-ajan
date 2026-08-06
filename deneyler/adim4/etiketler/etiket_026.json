@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "yapi_kontrol",
+    "birim_adi": "Yapı Kontrol Müdürlüğü",
+    "detsis_no": "53265760",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Serkan KESKIN",
-    "adres": "İvedik Mahallesi Lale Sokak No: 84/10 Yenimahalle/ANKARA",
+    "ad": "Murat ARSLAN",
+    "adres": "Serhat Mahallesi Yasemin Sokağı No: 111/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,28 +22,28 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.01",
-    "ad": "İmar Durumu (Belgesi)",
-    "saklama_suresi": "B"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "İmar Durumu Kararına İtiraz",
+  "konu": "İdari Para Cezasına İtiraz",
   "sayi": null,
-  "tarih": "31.03.2026",
+  "tarih": "11.02.2026",
   "ilgi": {
-    "tarih": "18.03.2026",
-    "sayi": "E-18426575-115.02.01-5454497"
+    "tarih": "03.02.2026",
+    "sayi": "E-53265760-858-1773649"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 6
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "İmar Durumu Kararına İtiraz",
+    "İtiraz konusu": "İdari Para Cezasına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -56,11 +56,11 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Yapı Kontrol Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İmar Durumu Kararına İtiraz",
+    "İdari Para Cezasına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

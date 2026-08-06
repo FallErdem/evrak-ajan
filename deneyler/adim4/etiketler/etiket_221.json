@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Mehmet YILDIRIM",
-    "adres": "Yakacık Mahallesi Ihlamur Sokak No: 31/10 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Ayşe ÖZKAN",
+    "adres": "Yakacık Mahallesi Zeytin Caddesi No: 107/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2019288536",
+    "bolum": "Diş Hekimliği Fakültesi",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -26,19 +29,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "kod": "815",
+    "ad": "Sosyal Yardım İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Topluluğu Kurulma Talebi",
+  "konu": "Yardım Başvurusunun Değerlendirilmesi",
   "sayi": null,
-  "tarih": "08.04.2026",
+  "tarih": "19.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenci Topluluğu Kurulma",
-    "Öğrenim bilgisi": "4. sınıf öğrencisi",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Yardım Başvurusunun Değerlendirilmesi",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -52,8 +54,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Öğrenci Topluluğu Kurulma",
-    "4. sınıf öğrencisi",
-    "mağduriyetin giderilmesi bakımından"
+    "Yardım Başvurusunun Değerlendirilmesi",
+    "sürecin tamamlanabilmesi için"
   ]
 }

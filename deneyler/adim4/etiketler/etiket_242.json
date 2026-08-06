@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Kaymakamlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "56248377",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -32,11 +32,11 @@
     "saklama_suresi": "40"
   },
   "konu": "İdari Davalar Hk.",
-  "sayi": "E-56248377-641.04-4914716",
-  "tarih": "21.05.2026",
+  "sayi": "E-24304062-641.04-59867866",
+  "tarih": "05.02.2026",
   "ilgi": {
-    "tarih": "04.05.2026",
-    "sayi": "E-10578106-641.04-7914653"
+    "tarih": "13.01.2026",
+    "sayi": "E-10578106-641.04-3388827"
   },
   "ek": {
     "adet": 1,
@@ -45,10 +45,10 @@
   },
   "somut_bilgiler": {
     "Konu": "İdari Davalar kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan yıl sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

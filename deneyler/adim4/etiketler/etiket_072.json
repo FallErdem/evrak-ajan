@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_egitim_rehberlik_sb",
-    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-    "detsis_no": "87302975",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Serkan KESKIN",
-    "adres": "Şentepe Mahallesi Zeytin Sokağı No: 79/5 Yenimahalle/ANKARA",
+    "ad": "Şerife KAYA",
+    "adres": "Barıştepe Mahallesi Ceviz Caddesi No: 39/14 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,24 +22,24 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "160.01.02",
-    "ad": "Kaynaştırma Eğitimi",
+    "kod": "245.04",
+    "ad": "Bursluluk",
     "saklama_suresi": "10"
   },
-  "konu": "Kaynaştırma Eğitimi Hakkında Şikâyet",
+  "konu": "Bursluluk Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "11.02.2026",
+  "tarih": "07.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kaynaştırma Eğitimi Hakkında Şikâyet",
-    "Sorun": "servis şoförü belge kontrolü yapılmıyor",
-    "Yer": "Serhat Mahallesi",
-    "Süre": "bir aydan uzun süredir",
+    "Şikâyet konusu": "Bursluluk Hakkında Şikâyet",
+    "Sorun": "bursluluk işlemlerinde uzun süredir aksama yaşanıyor",
+    "Yer": "ilçe merkezi",
+    "Süre": "yaklaşık üç haftadır",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -51,14 +51,13 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kaynaştırma Eğitimi Hakkında Şikâyet",
-    "servis şoförü belge kontrolü yapılmıyor",
-    "Serhat Mahallesi",
-    "bir aydan uzun süredir",
+    "Bursluluk Hakkında Şikâyet",
+    "ilçe merkezi",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]
 }

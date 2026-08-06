@@ -19,7 +19,7 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
@@ -27,23 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
-    "saklama_suresi": "10"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Kendi İsteğiyle Kayıt Sildirme Talebi",
-  "sayi": "E-10213773-302.11-1113418",
-  "tarih": "10.03.2026",
+  "konu": "Tez Teslim Süresi Uzatım Talebi",
+  "sayi": "E-10213773-302.14-8279599",
+  "tarih": "28.05.2026",
   "ilgi": {
-    "tarih": "26.02.2026",
-    "sayi": "E-47014261-302.11-5112689"
+    "tarih": "15.05.2026",
+    "sayi": "E-47014261-302.14-5230514"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Nakil, Kayıt Dondurma ve Kayıt Silme kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Konu": "Tez Teslim Süresi Uzatım",
+    "Ortak iş": "iki kurumun görev alanına giren bir husus",
+    "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -58,7 +57,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "mevzuatın öngördüğü sürelere uyulması",
-    "ilave personel görevlendirilmesi"
+    "Tez Teslim Süresi Uzatım",
+    "konu hakkında görüş bildirilmesi"
   ]
 }

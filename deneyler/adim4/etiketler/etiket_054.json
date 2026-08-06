@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin YILMAZ",
-    "adres": "Demetevler Mahallesi Ihlamur Sokağı No: 92/6 Yenimahalle/ANKARA",
+    "ad": "Şerife ERDOĞAN",
+    "adres": "Susuz Mahallesi Lale Sokak No: 103/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,23 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
+    "saklama_suresi": "15"
   },
-  "konu": "Terazi Damgalama Başvurusu",
+  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
   "sayi": null,
-  "tarih": "19.05.2026",
+  "tarih": "19.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Terazi Damgalama",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Emlak Vergisi Borç Sorgulama",
+    "Taşınmaz": "94072 ada, 14 parsel",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,10 +47,12 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Terazi Damgalama"
+    "Emlak Vergisi Borç Sorgulama",
+    "94072 ada, 14 parsel",
+    "sürecin tamamlanabilmesi için"
   ]
 }

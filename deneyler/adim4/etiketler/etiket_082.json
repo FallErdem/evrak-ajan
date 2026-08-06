@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "makine_ikmal",
-    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
-    "detsis_no": "89052714",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "801",
-    "ad": "Taşıt ve İş Makineleri İşleri",
-    "saklama_suresi": "10"
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Taşıt ve İş Makineleri İşleri Hk.",
-  "sayi": "E-24304062-801-4798123",
-  "tarih": "05.03.2026",
+  "konu": "Toplantı ve Etkinlik İşleri Hk.",
+  "sayi": "E-10213773-051-8126957",
+  "tarih": "03.02.2026",
   "ilgi": {
-    "tarih": "22.01.2026",
-    "sayi": "E-89052714-801-1071814"
+    "tarih": "15.01.2026",
+    "sayi": "E-65859045-051-2532898"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Taşıt ve İş Makineleri İşleri",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+    "Talep": "Toplantı ve Etkinlik İşleri",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,14 +54,12 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Taşıt ve İş Makineleri İşleri",
-    "olumlu, belge düzenlendi",
-    "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren altı ay"
+    "Toplantı ve Etkinlik İşleri",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı"
   ]
 }

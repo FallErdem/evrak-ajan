@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Atlas İnşaat Ltd. Şti.",
+    "kurum_adi": "Doruk Mühendislik Ltd. Şti.",
     "ad": null,
-    "adres": "Batıkent Mahallesi Erguvan Sokağı No: 95/5 Yenimahalle/ANKARA",
+    "adres": "Yakacık Mahallesi Akasya Sokak No: 38/5 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,16 +31,16 @@
     "ad": "Yurtdışı Eğitim Denkliği",
     "saklama_suresi": "B"
   },
-  "konu": "Denklik Belgesi Talebi",
-  "sayi": "2026/444",
+  "konu": "Yurtdışı Öğrenim Denklik Başvurusu",
+  "sayi": "2026/346",
   "tarih": "25.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Yurtdışı Eğitim Denkliği konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "e-Devlet üzerinden"
+    "yıllara göre sayısal döküm",
+    "posta yoluyla adresime"
   ]
 }

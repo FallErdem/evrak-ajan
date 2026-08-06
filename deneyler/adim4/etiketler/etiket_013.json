@@ -5,44 +5,47 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Merve ŞAHIN",
-    "adres": "Batıkent Mahallesi Ceviz Caddesi No: 13/12 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "İbrahim DUMAN",
+    "adres": "Uğur Mumcu Mahallesi Manolya Sokak No: 8/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2024204752",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Staj Kabul Yazısı Talebi",
+  "konu": "Kayıt Süresi Uzatım Talebi",
   "sayi": null,
-  "tarih": "27.02.2026",
+  "tarih": "06.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Talep": "Staj Kabul Yazısı",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Kayıt Süresi Uzatım",
+    "Öğrenim bilgisi": "2018 yılı mezunu",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,13 +54,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Kabul Yazısı",
-    "lisansüstü programa kayıtlı",
-    "resmî işlemlerde kullanılmak üzere"
+    "Kayıt Süresi Uzatım",
+    "2018 yılı mezunu",
+    "sürecin tamamlanabilmesi için"
   ]
 }

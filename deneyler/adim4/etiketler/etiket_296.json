@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife ÖZTÜRK",
-    "adres": "Uğur Mumcu Mahallesi Nergis Caddesi No: 120/15 Yenimahalle/ANKARA",
+    "ad": "İbrahim BULUT",
+    "adres": "Ergazi Mahallesi Lale Sokak No: 111/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
-    "saklama_suresi": "10"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Engelli Hizmetlerinden Yararlanma Başvurusu",
+  "konu": "Borç Bilgisi Talebi",
   "sayi": null,
-  "tarih": "13.03.2026",
+  "tarih": "04.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Engelli Hizmetlerinden Yararlanma",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Borç Bilgisi",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +46,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Engelli Hizmetlerinden Yararlanma",
-    "sürecin tamamlanabilmesi için"
+    "Borç Bilgisi"
   ]
 }

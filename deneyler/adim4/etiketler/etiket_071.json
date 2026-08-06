@@ -5,40 +5,43 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Sevgi POLAT",
-    "adres": "Batıkent Mahallesi Erguvan Sokağı No: 14/21 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Ayşe ATEŞ",
+    "adres": "Uğur Mumcu Mahallesi Zeytin Sokağı No: 12/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2020938747",
+    "bolum": "Diş Hekimliği Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
-    "saklama_suresi": "10"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Staj Başvurusu",
+  "konu": "Tez Teslim Süresi Uzatım Talebi",
   "sayi": null,
-  "tarih": "27.01.2026",
+  "tarih": "16.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Staj",
-    "Öğrenim bilgisi": "4. sınıf öğrencisi",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Tez Teslim Süresi Uzatım",
+    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,12 +50,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "4. sınıf öğrencisi",
-    "sürecin tamamlanabilmesi için"
+    "Tez Teslim Süresi Uzatım",
+    "3. sınıf öğrencisi"
   ]
 }

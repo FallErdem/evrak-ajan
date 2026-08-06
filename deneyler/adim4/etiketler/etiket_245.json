@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "makine_ikmal",
-    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
-    "detsis_no": "89052714",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,17 +23,17 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "801",
-    "ad": "Taşıt ve İş Makineleri İşleri",
-    "saklama_suresi": "10"
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Taşıt ve İş Makineleri İşleri Hk.",
-  "sayi": "E-39985474-801-6572451",
-  "tarih": "28.05.2026",
+  "konu": "Sempozyum Duyurusu",
+  "sayi": "E-55461037-051-1903907",
+  "tarih": "26.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -41,11 +41,11 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Taşıt ve İş Makineleri İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Toplantı ve Etkinlik İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan yıl sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,7 +55,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

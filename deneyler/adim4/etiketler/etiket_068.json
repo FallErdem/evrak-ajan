@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -22,29 +22,29 @@
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Disiplin İşleri Hk.",
-  "sayi": "E-93213107-225.02-3035173",
-  "tarih": "30.03.2026",
+  "konu": "Kayıt İşlemleri Hk.",
+  "sayi": "E-93213107-205-8109912",
+  "tarih": "28.05.2026",
   "ilgi": {
-    "tarih": "25.03.2026",
-    "sayi": "E-63971525-225.02-6045662"
+    "tarih": "24.04.2026",
+    "sayi": "E-21291472-205-4185012"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Disiplin İşleri",
-    "Talebin sonucu": "olumlu, talep karşılandı",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Talep": "Kayıt İşlemleri",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,13 +54,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Disiplin İşleri",
-    "olumlu, talep karşılandı",
-    "Müdürlüğümüz kayıt bürosu",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "Kayıt İşlemleri",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

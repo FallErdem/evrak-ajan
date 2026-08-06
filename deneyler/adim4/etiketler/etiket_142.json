@@ -5,46 +5,46 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "kurum_adi": "Personel Dairesi Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "47014261",
+    "detsis_no": "42218640",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Mühendislik Fakültesi Dekanlığı",
+  "muhatap_makam": "Genel Sekreterlik",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Stajlar Hk.",
-  "sayi": "E-47014261-304.03-5136372",
-  "tarih": "02.04.2026",
+  "konu": "Hukuki Mütalaanın Gönderilmesi",
+  "sayi": "E-42218640-045.02-2853815",
+  "tarih": "13.03.2026",
   "ilgi": {
-    "tarih": "11.03.2026",
-    "sayi": "E-43123369-304.03-2762998"
+    "tarih": "18.02.2026",
+    "sayi": "E-82642947-045.02-1339067"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Stajlar",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Talep": "Hukuki Mütalaanın Gönderilmesi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,14 +54,13 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "olumlu, belge düzenlendi",
-    "Başkanlığımız kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "Hukuki Mütalaanın Gönderilmesi",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı"
   ]
 }

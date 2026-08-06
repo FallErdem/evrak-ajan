@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
     "saklama_suresi": "B"
   },
-  "konu": "Denklik İşleri Hk.",
-  "sayi": "E-82642947-102.03-6832695",
-  "tarih": "28.04.2026",
+  "konu": "Mevlana Programı Hareketliliği Hk.",
+  "sayi": "E-82642947-310-1360967",
+  "tarih": "20.03.2026",
   "ilgi": {
-    "tarih": "18.03.2026",
-    "sayi": "E-17311665-102.03-7382690"
+    "tarih": "13.03.2026",
+    "sayi": "E-17311665-310-6419734"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Denklik İşleri",
+    "Talep": "Mevlana Programı Hareketliliği",
     "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -59,10 +59,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Denklik İşleri",
+    "Mevlana Programı Hareketliliği",
     "olumlu, belge düzenlendi",
-    "Başkanlığımız kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "ilgide kayıtlı yazı"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24312041",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "muhatap_parantez": "Hukuk İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "807.01",
-    "ad": "Bina ve Tesisler",
-    "saklama_suresi": "10"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Bina ve Tesisler Listesinin Gönderilmesi",
-  "sayi": "E-24312041-807.01-3665236",
-  "tarih": "26.05.2026",
+  "konu": "İdari Yaptırım/Para Cezası İşleri Listesinin Gönderilmesi",
+  "sayi": "E-24304062-858-60161027",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 3
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "içinde bulunulan yıl",
     "Sayı": "18 kayıt",
-    "Ek 1": "Bina ve Tesisler listesi",
+    "Ek 1": "İdari Yaptırım/Para Cezası İşleri listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +57,13 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "içinde bulunulan yıl",
     "18 kayıt",
-    "Bina ve Tesisler listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

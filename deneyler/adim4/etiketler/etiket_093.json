@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Gamze ÖZTÜRK",
-    "adres": "Ostim Mahallesi Kestane Caddesi No: 73/21 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Büşra DOĞAN",
+    "adres": "Karşıyaka Mahallesi Lale Sokağı No: 33/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2022301114",
+    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -26,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Dondurma Talebi",
+  "konu": "Transkript Talebi",
   "sayi": null,
-  "tarih": "03.02.2026",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Dondurma",
-    "Öğrenim bilgisi": "2. sınıf öğrencisi",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Transkript",
+    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -52,8 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Dondurma",
-    "2. sınıf öğrencisi",
-    "mağduriyetin giderilmesi bakımından"
+    "3. sınıf öğrencisi",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

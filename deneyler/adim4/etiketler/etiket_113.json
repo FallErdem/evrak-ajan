@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Onur GÜNEŞ",
-    "adres": "Uğur Mumcu Mahallesi Akasya Sokak No: 75/15 Yenimahalle/ANKARA",
+    "ad": "Ali GÜNEŞ",
+    "adres": "Çiğdemtepe Mahallesi Menekşe Sokak No: 81/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
+  "konu": "Arşiv Belgesi Araştırma Talebi",
   "sayi": null,
-  "tarih": "30.04.2026",
+  "tarih": "27.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Emlak Vergisi Borç Sorgulama",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Arşiv Belgesi Araştırma",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Borç Sorgulama",
-    "mağduriyetin giderilmesi bakımından"
+    "Arşiv Belgesi Araştırma",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

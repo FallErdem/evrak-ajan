@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -27,28 +27,28 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Uygulama Hakkında Hukuki Görüş",
-  "sayi": "E-24316060-045.02-2065949",
-  "tarih": "03.04.2026",
+  "konu": "Uygulama Okulunun Belirlenmesi Hk.",
+  "sayi": "E-10213773-355.02-8212832",
+  "tarih": "08.04.2026",
   "ilgi": {
-    "tarih": "20.03.2026",
-    "sayi": "E-55461037-045.02-3787578"
+    "tarih": "17.03.2026",
+    "sayi": "E-55461037-355.02-1899852"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Hukuki kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Eğitim Fakülteleri İle İlişkiler kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

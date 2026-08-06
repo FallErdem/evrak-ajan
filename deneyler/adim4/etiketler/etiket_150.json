@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Ege Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Ege Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Yeşilevler Mahallesi Menekşe Caddesi No: 24/4 Yenimahalle/ANKARA",
+    "adres": "Serhat Mahallesi Erguvan Caddesi No: 107/10 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,22 +23,22 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
+    "kod": "115.01.08",
+    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
     "saklama_suresi": "B"
   },
-  "konu": "Ruhsat Devir Talebi",
-  "sayi": "2026/452",
-  "tarih": "07.05.2026",
+  "konu": "İfraz ve Tevhid Talebi",
+  "sayi": "2026/849",
+  "tarih": "21.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Ruhsat Devir",
-    "Taşınmaz": "81103 ada, 35 parsel",
+    "Talep": "İfraz ve Tevhid",
+    "Taşınmaz": "43606 ada, 27 parsel",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
@@ -48,11 +48,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Devir",
-    "81103 ada, 35 parsel"
+    "İfraz ve Tevhid",
+    "43606 ada, 27 parsel"
   ]
 }

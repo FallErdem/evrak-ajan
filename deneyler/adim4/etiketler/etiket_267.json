@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine ÖZTÜRK",
-    "adres": "Uğur Mumcu Mahallesi Nergis Sokağı No: 92/2 Yenimahalle/ANKARA",
+    "ad": "Yusuf KESKIN",
+    "adres": "Pamuklar Mahallesi Ceviz Caddesi No: 13/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,16 +30,16 @@
     "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+  "konu": "İtfaiye Uygunluk Raporları Konusunda Aksaklık Bildirimi",
   "sayi": null,
-  "tarih": "29.04.2026",
+  "tarih": "16.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
-    "Sorun": "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
+    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Konusunda Aksaklık",
+    "Sorun": "yangın merdiveni kapalı tutuluyor",
     "Yer": "Emniyet Mahallesi",
-    "Süre": "geçtiğimiz aydan bu yana",
+    "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -55,8 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
+    "yangın merdiveni kapalı tutuluyor",
     "Emniyet Mahallesi",
-    "geçtiğimiz aydan bu yana",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

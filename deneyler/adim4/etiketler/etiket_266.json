@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Derya ÖZDEMIR",
-    "adres": "Gayret Mahallesi Lale Sokağı No: 118/4 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Elif GÜLER",
+    "adres": "Barıştepe Mahallesi Kestane Caddesi No: 69/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2025268596",
+    "bolum": "Hukuk Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -30,15 +33,15 @@
     "ad": "Mezuniyet İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Geçici Mezuniyet Belgesi Talebi",
+  "konu": "Diploma Talebi",
   "sayi": null,
-  "tarih": "09.02.2026",
+  "tarih": "22.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Geçici Mezuniyet Belgesi",
-    "Öğrenim bilgisi": "2. sınıf öğrencisi",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Diploma",
+    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -52,8 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Geçici Mezuniyet Belgesi",
-    "2. sınıf öğrencisi",
-    "ilgili kuruma sunulmak üzere"
+    "3. sınıf öğrencisi",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

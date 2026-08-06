@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "yapi_kontrol",
+    "birim_adi": "Yapı Kontrol Müdürlüğü",
+    "detsis_no": "53265760",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,25 +23,29 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Hukuk İşleri Müdürlüğü",
-  "dagitim": [
-    "Yenimahalle Belediye Başkanlığı",
-    "Ankara Valiliği",
-    "Yazı İşleri Müdürlüğü",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü"
-  ],
+  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
+  "dagitim": {
+    "geregi": [
+      "Yenimahalle Belediye Başkanlığı",
+      "Gazi Üniversitesi Rektörlüğü",
+      "Ankara İl Millî Eğitim Müdürlüğü"
+    ],
+    "bilgi": [
+      "Yenimahalle Kaymakamlığı"
+    ]
+  },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "İdari Davalar Listesinin Gönderilmesi",
-  "sayi": "E-24304062-641.04-4821272",
-  "tarih": "25.03.2026",
+  "konu": "İdari Yaptırım/Para Cezası İşleri Listesinin Gönderilmesi",
+  "sayi": "E-10213773-858-8103257",
+  "tarih": "16.01.2026",
   "ilgi": {
-    "tarih": "09.03.2026",
-    "sayi": "E-10578106-641.04-7879145"
+    "tarih": "22.12.2025",
+    "sayi": "E-53265760-858-1753202"
   },
   "ek": {
     "adet": 2,
@@ -50,9 +54,9 @@
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan yıl",
-    "Sayı": "68 kayıt",
-    "Ek 1": "İdari Davalar listesi",
+    "Dönem": "yılın ilk yarısı",
+    "Sayı": "112 kayıt",
+    "Ek 1": "İdari Yaptırım/Para Cezası İşleri listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -65,14 +69,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Yapı Kontrol Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan yıl",
-    "68 kayıt",
-    "İdari Davalar listesi",
+    "yılın ilk yarısı",
+    "112 kayıt",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

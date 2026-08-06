@@ -102,6 +102,26 @@
     "Ankara İl Millî Eğitim Müdürlüğü": {
       "detsis_no": "55461037",
       "kategori": "MÜLKİ İDAREYE BAĞLI TAŞRA TEŞKİLATI / İl Müdürlüğü"
+    },
+    "Yükseköğretim Kurulu Başkanlığı": {
+      "detsis_no": "32625594",
+      "kategori": "MERKEZI IDARE / Bakanlik-Kurul",
+      "kaynak": "DETSIS sorgusu, 06.08.2026"
+    },
+    "Millî Eğitim Bakanlığı": {
+      "detsis_no": "24316060",
+      "kategori": "MERKEZI IDARE / Bakanlik-Kurul",
+      "kaynak": "DETSIS sorgusu, 06.08.2026"
+    },
+    "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı": {
+      "detsis_no": "24304062",
+      "kategori": "MERKEZI IDARE / Bakanlik-Kurul",
+      "kaynak": "DETSIS sorgusu, 06.08.2026"
+    },
+    "İçişleri Bakanlığı": {
+      "detsis_no": "24312041",
+      "kategori": "MERKEZI IDARE / Bakanlik-Kurul",
+      "kaynak": "DETSIS sorgusu, 06.08.2026"
     }
   },
   "baslik_bloku_4satir": [

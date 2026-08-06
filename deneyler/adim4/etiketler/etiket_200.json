@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "makine_ikmal",
+    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "detsis_no": "89052714",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24312041",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,29 +23,29 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "125",
-    "ad": "Evlendirme İşlemleri",
+    "kod": "801",
+    "ad": "Taşıt ve İş Makineleri İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Evlenme Başvurusu Hk.",
-  "sayi": "E-24312041-125-3656984",
-  "tarih": "15.05.2026",
+  "konu": "Taşıt ve İş Makineleri İşleri Hk.",
+  "sayi": "E-10213773-801-8092233",
+  "tarih": "08.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Evlendirme İşlemleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Taşıt ve İş Makineleri İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan yıl sonunda bildirilmesi"
+    "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,7 +55,7 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

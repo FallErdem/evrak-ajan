@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hatice KESKIN",
-    "adres": "Şentepe Mahallesi Manolya Sokağı No: 16/24 Yenimahalle/ANKARA",
+    "ad": "Meryem ÇELIK",
+    "adres": "Karşıyaka Mahallesi Zeytin Sokak No: 37/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Nakiller Hakkında Şikâyet",
+  "konu": "Servis Hizmeti Aksaklığı Bildirimi",
   "sayi": null,
-  "tarih": "14.04.2026",
+  "tarih": "25.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Nakiller Hakkında Şikâyet",
-    "Sorun": "sınıf mevcudu ilan edilen sayının üzerinde",
-    "Yer": "Ragıpbey Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
+    "Sorun": "servis aracı kapasitesinin üzerinde yolcu alıyor",
+    "Yer": "ilçe merkezi",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -51,13 +51,13 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Nakiller Hakkında Şikâyet",
-    "Ragıpbey Mahallesi",
-    "yaklaşık kırk gündür",
+    "Servis Hizmeti Aksaklığı",
+    "ilçe merkezi",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,25 +23,25 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
-    "saklama_suresi": "10"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Belge Talepleri Hakkında Görüş Talebi",
-  "sayi": "E-39985474-622.02-6547374",
+  "konu": "Borç ve Alacak İşleri Hakkında Görüş Talebi",
+  "sayi": "E-39985474-855-2232505",
   "tarih": "16.04.2026",
   "ilgi": {
-    "tarih": "07.04.2026",
-    "sayi": "E-15986609-622.02-2456447"
+    "tarih": "01.04.2026",
+    "sayi": "E-43195403-855-3435938"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Belge Talepleri",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Borç ve Alacak İşleri",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,11 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Belge Talepleri",
+    "Borç ve Alacak İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife SARI",
-    "adres": "Ergazi Mahallesi Akasya Sokak No: 63/17 Yenimahalle/ANKARA",
+    "ad": "Mehmet BULUT",
+    "adres": "Ostim Mahallesi Akasya Sokağı No: 3/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,15 +32,15 @@
   },
   "konu": "Yurtdışı Eğitim Denkliği Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "11.02.2026",
+  "tarih": "10.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "Yurtdışı Eğitim Denkliği Hakkında Şikâyet",
-    "Sorun": "servis şoförü belge kontrolü yapılmıyor",
-    "Yer": "Şentepe Mahallesi",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Sorun": "yurtdışı eğitim denkliği konusundaki başvurum sonuçlandırılmadı",
+    "Yer": "ilçe merkezi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -55,9 +55,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "servis şoförü belge kontrolü yapılmıyor",
-    "Şentepe Mahallesi",
-    "yaklaşık iki aydır",
+    "ilçe merkezi",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

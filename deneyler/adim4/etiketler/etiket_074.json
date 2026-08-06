@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Cumhuriyet Bağı Ortaokulu Müdürlüğü",
+    "kurum_adi": "Temel Eğitim Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10119830",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "21291472",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -32,19 +32,19 @@
     "saklama_suresi": "15"
   },
   "konu": "Genelge Uygulaması Hk.",
-  "sayi": "E-10119830-010.06-7923015",
-  "tarih": "06.05.2026",
+  "sayi": "E-21291472-010.06-4172096",
+  "tarih": "08.04.2026",
   "ilgi": {
-    "tarih": "30.03.2026",
-    "sayi": "E-55461037-010.06-3794871"
+    "tarih": "18.03.2026",
+    "sayi": "E-55461037-010.06-1900271"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Genelge Uygulaması",
-    "Talebin sonucu": "olumlu, talep karşılandı",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -59,9 +59,7 @@
   ],
   "anahtar_terimler": [
     "Genelge Uygulaması",
-    "olumlu, talep karşılandı",
-    "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı"
   ]
 }

@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Şaban ŞAHIN",
-    "adres": "Pamuklar Mahallesi Papatya Caddesi No: 39/7 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Hatice KOÇ",
+    "adres": "Beştepe Mahallesi Sümbül Caddesi No: 72/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2019626695",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "4"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -32,13 +35,13 @@
   },
   "konu": "Öğrenci Toplulukları, Birlikleri vb. Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "28.01.2026",
+  "tarih": "20.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "Öğrenci Toplulukları, Birlikleri vb. Hakkında Şikâyet",
-    "Sorun": "yemekhane hizmetinde uzun kuyruk oluşuyor",
-    "Yer": "Demetevler Mahallesi",
+    "Sorun": "öğrenci toplulukları, birlikleri vb. hakkındaki talebime yazılı cevap verilmedi",
+    "Yer": "Beşevler Yerleşkesi",
     "Süre": "geçtiğimiz aydan bu yana",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
@@ -56,7 +59,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Demetevler Mahallesi",
+    "Beşevler Yerleşkesi",
     "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]

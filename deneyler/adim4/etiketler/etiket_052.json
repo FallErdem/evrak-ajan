@@ -19,7 +19,7 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
@@ -27,23 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "105.04",
-    "ad": "Meclis Kararları",
-    "saklama_suresi": "15"
+    "kod": "125",
+    "ad": "Evlendirme İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Meclis Kararı Örneği Talebi",
-  "sayi": "E-55461037-105.04-3785486",
-  "tarih": "17.03.2026",
+  "konu": "Evlenme Ehliyet Belgesi Talebi",
+  "sayi": "E-55461037-125-1932426",
+  "tarih": "27.05.2026",
   "ilgi": {
-    "tarih": "11.02.2026",
-    "sayi": "E-15986609-105.04-2407905"
+    "tarih": "24.04.2026",
+    "sayi": "E-15986609-125-2681048"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Meclis Kararları kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
-    "Talep": "teknik destek sağlanması"
+    "Konu": "Evlenme Ehliyet Belgesi",
+    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
+    "Talep": "iş birliği protokolü düzenlenmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,7 +56,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "iş ve işlemlerin zamanında tamamlanması",
-    "teknik destek sağlanması"
+    "Evlenme Ehliyet Belgesi",
+    "iş birliği protokolü düzenlenmesi"
   ]
 }

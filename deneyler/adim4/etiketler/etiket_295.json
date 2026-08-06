@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emre KESKIN",
-    "adres": "Beştepe Mahallesi Yasemin Sokağı No: 89/3 Yenimahalle/ANKARA",
+    "ad": "Murat ATEŞ",
+    "adres": "Yeşilevler Mahallesi Manolya Sokağı No: 118/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,20 +26,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+  "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "27.02.2026",
+  "tarih": "14.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
-    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
-    "Yer": "Susuz Mahallesi",
-    "Süre": "yaklaşık üç haftadır",
+    "Şikâyet konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Hakkında Şikâyet",
+    "Sorun": "ölçü ve ölçü aletleri ile ilgili işler konusundaki başvurum sonuçlandırılmadı",
+    "Yer": "Pamuklar Mahallesi",
+    "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
@@ -55,8 +55,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Susuz Mahallesi",
-    "yaklaşık üç haftadır",
+    "Pamuklar Mahallesi",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_egitim_rehberlik_sb",
-    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-    "detsis_no": "87302975",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -23,16 +23,16 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "160.01.02",
-    "ad": "Kaynaştırma Eğitimi",
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
     "saklama_suresi": "10"
   },
-  "konu": "Kaynaştırma Eğitimi Listesinin Gönderilmesi",
-  "sayi": "E-10213773-160.01.02-1115475",
+  "konu": "Yatırım Programı Listesinin Gönderilmesi",
+  "sayi": "E-10213773-602.07-8176693",
   "tarih": "12.03.2026",
   "ilgi": null,
   "ek": {
@@ -44,7 +44,7 @@
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "bahar dönemi",
     "Sayı": "186 kayıt",
-    "Ek 1": "Kaynaştırma Eğitimi listesi",
+    "Ek 1": "Yatırım Programı listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +57,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "bahar dönemi",
     "186 kayıt",
-    "Kaynaştırma Eğitimi listesi",
+    "Yatırım Programı listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

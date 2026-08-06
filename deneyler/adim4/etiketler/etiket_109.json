@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Kemal ATEŞ",
-    "adres": "Ergazi Mahallesi Yasemin Sokak No: 61/15 Yenimahalle/ANKARA",
+    "ad": "Emre POLAT",
+    "adres": "Ragıpbey Mahallesi Yasemin Caddesi No: 76/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,15 +32,15 @@
   },
   "konu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "09.02.2026",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
-    "Sorun": "servis şoförü belge kontrolü yapılmıyor",
-    "Yer": "Çiğdemtepe Mahallesi",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Sorun": "yaygın eğitim kursları konusundaki başvurum sonuçlandırılmadı",
+    "Yer": "Kaletepe Mahallesi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,9 +56,8 @@
   ],
   "anahtar_terimler": [
     "Yaygın Eğitim Kursları Hakkında Şikâyet",
-    "servis şoförü belge kontrolü yapılmıyor",
-    "Çiğdemtepe Mahallesi",
-    "yaklaşık üç haftadır",
+    "Kaletepe Mahallesi",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

@@ -5,10 +5,10 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,31 +23,31 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Emlak Vergisi Listesinin Gönderilmesi",
-  "sayi": "E-10213773-190.01.07-1098056",
+  "konu": "Toplantı ve Etkinlik İşleri Listesinin Gönderilmesi",
+  "sayi": "E-10213773-051-8155114",
   "tarih": "24.02.2026",
   "ilgi": {
     "tarih": "10.02.2026",
-    "sayi": "E-30032784-190.01.07-2641527"
+    "sayi": "E-65859045-051-2546465"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 3
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "mali yıl",
-    "Sayı": "18 kayıt",
-    "Ek 1": "Emlak Vergisi listesi",
+    "Dönem": "yılın ilk yarısı",
+    "Sayı": "94 kayıt",
+    "Ek 1": "Toplantı ve Etkinlik İşleri listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -60,14 +60,14 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "mali yıl",
-    "18 kayıt",
-    "Emlak Vergisi listesi",
+    "yılın ilk yarısı",
+    "94 kayıt",
+    "Toplantı ve Etkinlik İşleri listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

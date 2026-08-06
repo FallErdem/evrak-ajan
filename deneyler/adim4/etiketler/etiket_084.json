@@ -5,46 +5,46 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çamlıdere İlkokulu Müdürlüğü",
+    "kurum_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10087784",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "87302975",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Yaygın Eğitim Kursları Hk.",
-  "sayi": "E-10087784-135.03-1304418",
-  "tarih": "09.01.2026",
+  "konu": "Stratejik Plan Hk.",
+  "sayi": "E-87302975-602.04-6807049",
+  "tarih": "13.03.2026",
   "ilgi": {
-    "tarih": "05.01.2026",
-    "sayi": "E-91571118-135.03-1324525"
+    "tarih": "27.01.2026",
+    "sayi": "E-14588481-602.04-2458043"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yaygın Eğitim Kursları",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Talep": "Stratejik Plan",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,13 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yaygın Eğitim Kursları",
-    "olumlu, belge düzenlendi",
-    "Müdürlüğümüz kayıt bürosu",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "Stratejik Plan",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı"
   ]
 }

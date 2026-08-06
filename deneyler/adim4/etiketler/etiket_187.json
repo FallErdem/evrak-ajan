@@ -5,25 +5,25 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Umutkent Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "93213107",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10101603",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Ortaöğretim Şube Müdürlüğü",
-  "muhatap_parantez": null,
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
@@ -32,19 +32,19 @@
     "saklama_suresi": "B"
   },
   "konu": "Diploma Hk.",
-  "sayi": "E-93213107-198.02.01-3051810",
-  "tarih": "13.04.2026",
+  "sayi": "E-10101603-198.02.01-3772",
+  "tarih": "12.02.2026",
   "ilgi": {
-    "tarih": "01.04.2026",
-    "sayi": "E-63971525-198.02.01-6051232"
+    "tarih": "12.01.2026",
+    "sayi": "E-21291472-198.02.01-4102246"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Diploma",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,12 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "olumlu, işlem tamamlandı",
-    "Müdürlüğümüz kayıt bürosu",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

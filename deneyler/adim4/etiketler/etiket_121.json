@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
@@ -19,28 +19,27 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Karar Örneği Talebi",
-  "sayi": "E-65859045-050.04-3321886",
-  "tarih": "12.02.2026",
+  "konu": "Genelge Görüşü Talebi",
+  "sayi": "E-65859045-010.06-2594886",
+  "tarih": "13.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Kararlar kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
-    "Talep": "teknik destek sağlanması"
+    "Konu": "Genelge Görüşü",
+    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
+    "Talep": "iş birliği protokolü düzenlenmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,14 +49,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kararlar kapsamındaki iş yükü artmıştır",
-    "mevcut kaynaklar yetersiz kalmaktadır",
-    "kaynakların etkin kullanılması",
-    "teknik destek sağlanması"
+    "Genelge Görüşü",
+    "iş birliği protokolü düzenlenmesi"
   ]
 }

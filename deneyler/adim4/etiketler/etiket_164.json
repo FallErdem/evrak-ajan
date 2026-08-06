@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Salih ASLAN",
-    "adres": "Serhat Mahallesi Erguvan Caddesi No: 31/6 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Osman ŞAHIN",
+    "adres": "Beştepe Mahallesi Nergis Sokak No: 26/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2024137942",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -26,19 +29,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Kesin Kayıt Başvurusu",
+  "konu": "Diploma Denklik Başvurusu",
   "sayi": null,
-  "tarih": "18.02.2026",
+  "tarih": "21.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kesin Kayıt",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Diploma Denklik",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -52,8 +54,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kesin Kayıt",
-    "lisansüstü programa kayıtlı",
-    "mağduriyetin giderilmesi bakımından"
+    "Diploma Denklik",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

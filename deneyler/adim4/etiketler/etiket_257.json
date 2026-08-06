@@ -27,16 +27,16 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
     "saklama_suresi": "15"
   },
-  "konu": "Karar Örneği Talebi",
-  "sayi": "E-32625594-050.04-1762485",
-  "tarih": "18.03.2026",
+  "konu": "Stratejik Plan Verisi Talebi",
+  "sayi": "E-32625594-602.04-86352370",
+  "tarih": "27.04.2026",
   "ilgi": {
-    "tarih": "25.02.2026",
-    "sayi": "E-39985474-050.04-6517250"
+    "tarih": "16.03.2026",
+    "sayi": "E-39985474-602.04-2209258"
   },
   "ek": null,
   "somut_bilgiler": {

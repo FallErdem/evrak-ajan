@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,20 +23,20 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Personel Dairesi Başkanlığı",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "903.02",
-    "ad": "Atama İşleri",
-    "saklama_suresi": "B"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Naklen Atama Talebi",
-  "sayi": "E-32625594-903.02-1770899",
-  "tarih": "06.04.2026",
+  "konu": "Stratejik Plan Verisi Talebi",
+  "sayi": "E-32625594-602.04-85930166",
+  "tarih": "27.01.2026",
   "ilgi": {
-    "tarih": "17.03.2026",
-    "sayi": "E-42218640-903.02-2191979"
+    "tarih": "07.01.2026",
+    "sayi": "E-39985474-602.04-2158608"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -53,7 +53,7 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],

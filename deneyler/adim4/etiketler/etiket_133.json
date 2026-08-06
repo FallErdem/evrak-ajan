@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,31 +23,31 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Mal Alım İşi Listesinin Gönderilmesi",
-  "sayi": "E-24316060-934.01-2074319",
-  "tarih": "15.04.2026",
+  "konu": "Yabancı Uyruklu Öğrenciler Listesinin Gönderilmesi",
+  "sayi": "E-10213773-235-8103174",
+  "tarih": "16.01.2026",
   "ilgi": {
-    "tarih": "06.03.2026",
-    "sayi": "E-14588481-934.01-4274070"
+    "tarih": "16.12.2025",
+    "sayi": "E-21291472-235-4080294"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "güz dönemi",
-    "Sayı": "12 kayıt",
-    "Ek 1": "Mal Alım İşi listesi",
+    "Dönem": "bahar dönemi",
+    "Sayı": "186 kayıt",
+    "Ek 1": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim) listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -60,14 +60,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "güz dönemi",
-    "12 kayıt",
-    "Mal Alım İşi listesi",
+    "bahar dönemi",
+    "186 kayıt",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

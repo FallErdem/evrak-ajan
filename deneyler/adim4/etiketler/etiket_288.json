@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Aslı KORKMAZ",
-    "adres": "Yeşilevler Mahallesi Akasya Sokağı No: 13/12 Yenimahalle/ANKARA",
+    "ad": "Fatih KARA",
+    "adres": "Demetevler Mahallesi Ceviz Sokak No: 51/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,17 +22,17 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Arşivlerden Yararlanma Kararına İtiraz",
+  "konu": "İdari Para Cezasına İtiraz",
   "sayi": null,
-  "tarih": "04.02.2026",
+  "tarih": "18.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -40,9 +40,9 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Arşivlerden Yararlanma Kararına İtiraz",
+    "İtiraz konusu": "İdari Para Cezasına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,11 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşivlerden Yararlanma Kararına İtiraz",
+    "İdari Para Cezasına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

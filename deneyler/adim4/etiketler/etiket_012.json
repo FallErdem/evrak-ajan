@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -27,16 +27,16 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Hk.",
-  "sayi": "E-10213773-198.02.01-1145617",
-  "tarih": "09.04.2026",
+  "konu": "Yabancı Uyruklu Öğrenciler Hk.",
+  "sayi": "E-24316060-235-88408056",
+  "tarih": "23.04.2026",
   "ilgi": {
-    "tarih": "04.03.2026",
-    "sayi": "E-21291472-198.02.01-4045283"
+    "tarih": "12.03.2026",
+    "sayi": "E-21291472-235-4150152"
   },
   "ek": {
     "adet": 1,
@@ -44,8 +44,8 @@
     "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Diploma kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim) kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
     "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"

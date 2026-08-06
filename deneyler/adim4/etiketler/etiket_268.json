@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Salih KARACA",
-    "adres": "Barıştepe Mahallesi Papatya Sokak No: 46/1 Yenimahalle/ANKARA",
+    "ad": "Aslı TURAN",
+    "adres": "Beştepe Mahallesi Manolya Caddesi No: 3/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.10",
-    "ad": "Adres ve Numaralandırma",
+    "kod": "170.01",
+    "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "Adres ve Numaralandırma Kararına İtiraz",
+  "konu": "Ruhsat Kararına İtiraz",
   "sayi": null,
-  "tarih": "23.03.2026",
+  "tarih": "06.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Adres ve Numaralandırma Kararına İtiraz",
+    "İtiraz konusu": "Ruhsat Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -53,11 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Adres ve Numaralandırma Kararına İtiraz",
+    "Ruhsat Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

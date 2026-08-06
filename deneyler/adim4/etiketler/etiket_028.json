@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24432702",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,37 +23,41 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
-  "dagitim": [
-    "Yenimahalle Belediye Başkanlığı",
-    "İçişleri Bakanlığı",
-    "Zabıta Müdürlüğü",
-    "İmar ve Şehircilik Müdürlüğü"
-  ],
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "dagitim": {
+    "geregi": [
+      "Yenimahalle Belediye Başkanlığı",
+      "Gazi Üniversitesi Rektörlüğü",
+      "Ankara İl Millî Eğitim Müdürlüğü"
+    ],
+    "bilgi": [
+      "Ankara Valiliği"
+    ]
+  },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "115.02.01",
+    "ad": "İmar Durumu (Belgesi)",
+    "saklama_suresi": "B"
   },
-  "konu": "Araştırma İzni Hk.",
-  "sayi": "E-10213773-805.02.05-1174771",
+  "konu": "Parsel İmar Durumu Hk.",
+  "sayi": "E-24432702-115.02.01-11152155",
   "tarih": "06.05.2026",
   "ilgi": {
-    "tarih": "30.03.2026",
-    "sayi": "E-26888327-805.02.05-2170912"
+    "tarih": "28.04.2026",
+    "sayi": "E-18426575-115.02.01-4004211"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Arşivlerden Yararlanma kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "İmar Durumu (Belgesi) kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların üçüncü çeyrek sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan yıl sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -63,7 +67,7 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

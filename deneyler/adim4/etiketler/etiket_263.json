@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Aydınlar Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Yıldıztepe Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10103216",
+    "detsis_no": "10114782",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "olur_yazisi",
@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
     "saklama_suresi": "10"
   },
-  "konu": "Mal Alımı İhale Onayı",
-  "sayi": "E-10103216-934.01-4286083",
-  "tarih": "07.05.2026",
+  "konu": "Yatırım Programı Teklifi",
+  "sayi": "E-10114782-602.07-4031",
+  "tarih": "26.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Mal Alım İşi",
-    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
+    "Konu": "Yatırım Programı",
+    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +57,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Mal Alım İşi",
-    "mevzuatın öngördüğü sürelere uyulması"
+    "Yatırım Programı",
+    "hizmetlerin aksamadan yürütülmesi"
   ]
 }

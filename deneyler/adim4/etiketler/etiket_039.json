@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -23,32 +23,32 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "Burs Ödemesi Hk.",
-  "sayi": "E-24316060-245.04-2060544",
-  "tarih": "26.03.2026",
+  "konu": "Diploma Hk.",
+  "sayi": "E-24316060-198.02.01-88411063",
+  "tarih": "24.04.2026",
   "ilgi": {
-    "tarih": "19.02.2026",
-    "sayi": "E-63971525-245.04-6019173"
+    "tarih": "01.04.2026",
+    "sayi": "E-21291472-198.02.01-4166420"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Bursluluk kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Diploma kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -58,7 +58,7 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [

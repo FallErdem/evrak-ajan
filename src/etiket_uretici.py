@@ -473,7 +473,7 @@ _AILE = {
     "sikayet": "sikayet",
     "bilgi_edinme": "bilgi_edinme",
     "cevap_yazisi": "belge_cevabi",
-    "talep_yazisi": "kaynak_talebi",
+    "talep_yazisi": "kaynak_talebi",   # yön "ust" değilse isbirligi_talebi olur
     "bilgilendirme": "bilgilendirme",
     "gorus_talebi": "gorus_talebi",
     "ust_yazi": "ust_yazi",
@@ -491,6 +491,7 @@ _PARAGRAF = {
     "kaynak_talebi": [2, 2],
     "bilgilendirme": [2, 2],
     "gorus_talebi":  [2, 2],
+    "isbirligi_talebi": [2, 2],
     "ust_yazi":      [2, 2, 2],
     "tekit":         [2, 2],
     "olur":          [2, 2],
@@ -521,7 +522,12 @@ class EtiketUretici:
         self.birim_sayaci: Counter = Counter()
         self.konu_sayaci: Counter = Counter()
         self.gun_sayaci: Counter = Counter()
-        self.kayit_no_sayaci: dict[str, int] = {}
+        self._kayit_taban: dict[str, int] = {}
+        self._kayit_hiz: dict[str, int] = {}
+        self._sirket_taban: dict[str, int] = {}
+        self._sirket_hiz: dict[str, float] = {}
+        self._ilk_tarih = datetime.fromisoformat(
+            veri.kota['tarih_araligi']['baslangic']).date()
         self.tavan_asimi = 0
         self._sentetik_detsis: dict[str, str] = {}
         self._defter = veri.detsis_defteri
@@ -567,12 +573,22 @@ class EtiketUretici:
             return any(self.kod_sayaci[k.kod] < self.kod_azami
                        for k in self._kullanilabilir_kodlar(b, vat))
 
-        # 1. kademe: vatandaş yoğun birimler, doymamış kodla
+        # 1. kademe: gönderen tipiyle uyumlu VE doymamış kodu olan birimler.
+        #
+        # birimler.csv'deki tipik_muhataplar sütunu bu birimin kimlerle
+        # yazıştığını söylüyor; kullanılmazsa gerçek dışı çiftler doğuyor.
+        # Ölçülen örnekler: yapı denetim firmasının Temel Eğitim Şubesine
+        # diploma teyidi yazması, inşaat şirketinin Okul Aile Birlikleri
+        # verisi istemesi.
+        uyumlu = _MUHATAP_ESLEME.get(s.gonderen_tipi, set())
+        aday_havuz = [b for b in hepsi if uyumlu & set(b.tipik_muhataplar)] or hepsi
+
         if s.gonderen_tipi == "vatandas":
-            yogun = [b for b in hepsi if b.vatandas_yogunlugu in ("yuksek", "orta")]
+            yogun = [b for b in aday_havuz
+                     if b.vatandas_yogunlugu in ("yuksek", "orta")]
             adaylar = [b for b in yogun if bosluk_var_mi(b, True)]
         else:
-            adaylar = [b for b in hepsi if bosluk_var_mi(b, vatandas)]
+            adaylar = [b for b in aday_havuz if bosluk_var_mi(b, vatandas)]
 
         # 2. kademe: kurumun bütün birimleri, doymamış kodla
         if not adaylar:
@@ -584,6 +600,18 @@ class EtiketUretici:
         if not adaylar:
             self.tavan_asimi += 1
             adaylar = hepsi
+
+        # Aynı SDP kodu birden fazla birimde olabilir. Ölçülen örnek: 170.01
+        # (Ruhsat) hem Zabıta hem Ruhsat ve Denetim Müdürlüğü'nde. Ruhsat
+        # DEVRİ talebi Zabıta'ya gitmez — zabıta denetler, ruhsat düzenlemez.
+        # Talep/başvuru DÜZENLEYEN birime, şikâyet/ihbar DENETLEYEN birime.
+        if s.belge_turu in ("sikayet", "itiraz"):
+            denetim = [b for b in adaylar if _DENETIM_BIRIMI.search(b.birim_adi)]
+            adaylar = denetim or adaylar
+        elif s.belge_turu in ("dilekce", "talep_yazisi", "cevap_yazisi"):
+            duzenleyen = [b for b in adaylar
+                          if not _DENETIM_BIRIMI.search(b.birim_adi)]
+            adaylar = duzenleyen or adaylar
 
         def oran(b: Birim) -> float:
             kapasite = len(self._kullanilabilir_kodlar(b, vatandas)) * self.kod_azami
@@ -647,6 +675,31 @@ class EtiketUretici:
                 return t
         return self.h.is_gunu(bas, bit)
 
+    def _dagitim_listesi(self, kurum: Kurum, gonderen_adi: str) -> dict:
+        """Dağıtımlı yazının muhatap listesi — gereği / bilgi ayrımlı.
+
+        ÜÇ ÖLÇÜLEN HATA DÜZELTİLDİ:
+
+        1. Gönderen kendi dağıtımında yer alıyordu. Bir yazı kendi
+           dağıtımına kendini yazmaz.
+        2. Dağıtım kurum sınırını atlıyordu: YÖK, Gazi'nin fakültelerine
+           DOĞRUDAN dağıtım yapmaz — Rektörlüğe yazar, Rektörlük içeride
+           dağıtır. Dış kurumun dağıtımı tüzel kişilik düzeyindedir.
+        3. Karma kapanış gerekçesizdi. "arz/rica ederim" ancak yazı hem
+           ÜST hem AST makamlara gidiyorsa kullanılır.
+
+        Gerçek örnek dayanağı: İŞKUR yazısında "Dağıtım: Üniversite
+        Rektörlüklerine", İçişleri yazısında "Gereği: ... Bilgi: 81 İl
+        Valiliğine".
+        """
+        ust = [m for m in kurum.hiyerarsi.get("ust_makamlar", [])
+               if m != gonderen_adi]
+        geregi = [kurum.kurum_adi]
+        ayni = [m for m in kurum.hiyerarsi.get("ayni_duzey", []) if m != gonderen_adi]
+        geregi += self.h.karistir(ayni)[:2]
+        bilgi = [self.h.sec(ust)] if ust else []
+        return {"geregi": geregi, "bilgi": bilgi}
+
     def _somut_makam(self, kurum: Kurum, makam: str, alici_birim: Birim) -> str:
         """Çoğul makam tanımını somut bir birime çevirir.
 
@@ -672,7 +725,9 @@ class EtiketUretici:
                 return self.h.sec(adaylar).birim_adi
             return kurum.kurum_adi
         if tip == "okul":
-            return (f"{self.h.mahalle()} "
+            # KURGUSAL ad. Gerçek mahalle adı kullanılırsa (Şentepe, Ergazi)
+            # o mahallede gerçekten var olan bir okulla çakışma riski doğar.
+            return (f"{self.h.sec(_KURGUSAL_OKUL_ADI)} "
                     f"{self.h.sec(['İlkokulu', 'Ortaokulu', 'Anadolu Lisesi', 'Mesleki ve Teknik Anadolu Lisesi'])} "
                     f"Müdürlüğü")
         if tip == "ilce_mem":
@@ -701,17 +756,40 @@ class EtiketUretici:
             self._sentetik_detsis[makam] = str(10_000_000 + tohum % 89_999_999)
         return self._sentetik_detsis[makam], "sentetik"
 
-    def _kayit_no(self, detsis: str) -> str:
-        """Kayıt numarası kurum içinde artan, uzunluğu kuruma göre sabit.
+    def _kayit_no(self, detsis: str, tarih: date, olcek: str = "orta") -> str:
+        """Kayıt numarası TARİHTEN ve KURUM ÖLÇEĞİNDEN türetilir.
 
-        Gerçek belgelerde 7-11 hane gözlendi (belge_sablonu.json). Aynı
-        kurumdan çıkan iki belgenin kayıt numarası birbirine yakın olmalı;
-        rastgele üretilirse EBYS sayacı gibi görünmez.
+        İki ayrı hata düzeltildi:
+          1. Sıra bozuluyordu (68 kez) — artık tarihe bağlı, monoton.
+          2. Ölçek yok sayılıyordu. YÖK 444/gün, il müdürlüğü 726/gün
+             çıkıyordu; YÖK bütün üniversitelerle yazışır, daha yavaş
+             olamaz. Bir lise ise 7 milyonuncu evrakını çıkarıyordu —
+             bin yıllık faaliyet demek.
+
+        Gerçek ölçüm dayanağı: Gazi Ü. Teknoloji Fakültesi 33 günde
+        24.159 evrak (~730/gün) ve bu tek bir fakülte.
         """
-        if detsis not in self.kayit_no_sayaci:
-            self.kayit_no_sayaci[detsis] = self.h.rnd.randint(1_000_000, 9_000_000)
-        self.kayit_no_sayaci[detsis] += self.h.rnd.randint(3, 400)
-        return str(self.kayit_no_sayaci[detsis])
+        alt, ust, taban_alt, taban_ust = _OLCEK[olcek]
+        if detsis not in self._kayit_taban:
+            self._kayit_taban[detsis] = self.h.rnd.randint(taban_alt, taban_ust)
+            self._kayit_hiz[detsis] = self.h.rnd.randint(alt, ust)
+        gun = (tarih - self._ilk_tarih).days
+        sapma = self.h.rnd.randint(0, max(1, self._kayit_hiz[detsis] // 3))
+        return str(self._kayit_taban[detsis] + gun * self._kayit_hiz[detsis] + sapma)
+
+    def _ozel_evrak_no(self, sirket: str, tarih: date) -> str:
+        """Özel şirketin kendi evrak numarası — yıl/sıra.
+
+        Ölçülen hata: numaralar tarihten bağımsız rastgeleydi; ocak
+        tarihli yazı 2026/8153, mayıs tarihli 2026/210 çıkıyordu. Bir
+        Ltd. Şti. yılın 23. gününde 8153. evrakını çıkarmaz.
+        """
+        if sirket not in self._sirket_taban:
+            self._sirket_taban[sirket] = self.h.rnd.randint(5, 60)
+            self._sirket_hiz[sirket] = self.h.rnd.uniform(1.5, 8.0)
+        gun = (tarih - self._ilk_tarih).days
+        no = self._sirket_taban[sirket] + int(gun * self._sirket_hiz[sirket])
+        return f"{tarih.year}/{no}"
 
     # -- somut bilgiler ------------------------------------------------------
 
@@ -732,14 +810,23 @@ class EtiketUretici:
             if _tasinmaz_konusu_mu(kod.kod, konu):
                 ada, parsel = h.ada_parsel()
                 b["Taşınmaz"] = f"{ada} ada, {parsel} parsel"
-            elif kurum.kurum_tipi == "universite":
+            elif kod.kod[:3] in _OGRENCI_ANA_GRUP:
                 b["Öğrenim bilgisi"] = h.sec([
                     f"{h.rnd.randint(2016, 2025)} yılı mezunu",
                     f"{h.rnd.choice(['1','2','3','4'])}. sınıf öğrencisi",
                     "lisansüstü programa kayıtlı"])
-            b["Kullanım amacı"] = h.sec(["resmî işlemlerde kullanılmak üzere",
-                                         "ilgili kuruma sunulmak üzere",
-                                         "başvuru dosyasına eklenmek üzere"])
+            # "Kullanım amacı" YALNIZCA bir belge/suret talebinde anlamlı.
+            # Ölçülen hata: kamulaştırma bedeli ödeme, borç yapılandırma ve
+            # taşımalı eğitim taleplerine de ekleniyordu; oralarda saçmalıyor.
+            if _BELGE_TALEBI_MI.search(konu):
+                b["Kullanım amacı"] = h.sec(["resmî işlemlerde kullanılmak üzere",
+                                             "ilgili kuruma sunulmak üzere",
+                                             "başvuru dosyasına eklenmek üzere"])
+            else:
+                b["Gerekçe"] = h.sec([
+                    "mağduriyetin giderilmesi bakımından",
+                    "sürecin tamamlanabilmesi için",
+                    "mevzuatta öngörülen şartların sağlanması nedeniyle"])
             return b
 
         if aile == "belge_cevabi":
@@ -747,12 +834,26 @@ class EtiketUretici:
                  "Talebin sonucu": h.sec(["olumlu, işlem tamamlandı",
                                           "olumlu, talep karşılandı",
                                           "olumlu, belge düzenlendi"])}
-            if _tasinmaz_konusu_mu(kod.kod, konu):
+            if _tasinmaz_konusu_mu(kod.kod):
                 ada, parsel = h.ada_parsel()
                 b["Taşınmaz"] = f"{ada} ada, {parsel} parsel"
-            b["Teslim yeri"] = f"{kurum_soz} kayıt bürosu"
-            b["Teslim şartı"] = h.teslim_sarti()
-            b["Geçerlilik"] = h.gecerlilik()
+            # Teslim yeri / teslim şartı / geçerlilik alanları VATANDAŞA
+            # verilen belge için yazılmıştır. Bir okul, il müdürlüğüne
+            # "kimlik ibrazıyla gelin" demez.
+            if s.gonderen_tipi in ("vatandas", "ozel_tuzel"):
+                b["Teslim yeri"] = f"{kurum_soz} kayıt bürosu"
+                b["Teslim şartı"] = h.teslim_sarti()
+                b["Geçerlilik"] = h.gecerlilik()
+            else:
+                b["Dayanak"] = "ilgide kayıtlı yazı"
+                b["Gönderilen"] = h.sec([
+                    "talep edilen bilgiler ekte sunulmuştur",
+                    "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+                    "istenen kayıtlar tarafımızca derlenmiştir"])
+                b["Ek bilgi"] = h.sec([
+                    "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir",
+                    "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir",
+                    "süreç Müdürlüğümüzce takip edilmektedir"])
             return b
 
         if aile == "itiraz":
@@ -765,14 +866,12 @@ class EtiketUretici:
                     "Talep": "kararın yeniden değerlendirilmesi"}
 
         if aile == "sikayet":
+            # Şikâyet konusu ALICI KURUMUN görev alanından olmalı. Ölçülen
+            # hata: "kaldırım işgali" şikâyeti üniversiteye yazılmıştı;
+            # kaldırım belediyenin işidir, üniversiteye yazılmaz.
             return {"Şikâyet konusu": _talep_ifadesi(konu, kod.ad),
-                    "Sorun": h.sec([
-                        "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
-                        "kaldırım işgali nedeniyle yaya geçişi engelleniyor",
-                        "gece saatlerinde yüksek sesle çalışma yapılıyor",
-                        "sokak aydınlatması uzun süredir çalışmıyor",
-                        "park alanındaki oyun grupları bakımsız durumda"]),
-                    "Yer": f"{h.mahalle()} Mahallesi",
+                    "Sorun": h.sec(_sikayet_sorunu(kod.kod, kod.ad, kurum.kurum_tipi)),
+                    "Yer": _sikayet_yeri(h, kurum.kurum_tipi),
                     "Süre": h.sikayet_suresi(),
                     "Önceki başvuru": h.onceki_basvuru(),
                     "Talep": "sorunun giderilmesi"}
@@ -804,6 +903,18 @@ class EtiketUretici:
                     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
                     "İstenen 1": "uygulamanın ilgililere duyurulması",
                     "İstenen 2": f"sonuçların {_donem(h, kurum.kurum_tipi)} sonunda bildirilmesi"}
+
+        if aile == "isbirligi_talebi":
+            return {"Konu": _talep_ifadesi(konu, kod.ad),
+                    "Ortak iş": h.sec([
+                        "iki kurumun görev alanına giren bir husus",
+                        "ortak yürütülen bir çalışma",
+                        "vatandaşa sunulan hizmetin kesintisiz sürmesi"]),
+                    "Talep": h.sec([
+                        "konu hakkında görüş bildirilmesi",
+                        "ilgili bilgilerin paylaşılması",
+                        "iş birliği protokolü düzenlenmesi",
+                        "gerekli koordinasyonun sağlanması"])}
 
         if aile == "gorus_talebi":
             return {"Konu": kod.ad,
@@ -853,11 +964,22 @@ class EtiketUretici:
 
         vatandas_yazari = s.gonderen_tipi == "vatandas"
         kisi = h.kisi() if vatandas_yazari else None
+        # Üniversiteye yemekhane/derslik şikâyetini sıradan bir vatandaş değil,
+        # KAYITLI ÖĞRENCİ yapar. Dilekçesinde öğrenci numarası, bölüm ve sınıf
+        # bulunur; vatandaşın bu konuda dilekçe verme sıfatı yoktur.
+        ogrenci = (vatandas_yazari and kurum.kurum_tipi == "universite"
+                   and s.belge_turu in ("sikayet", "dilekce", "itiraz"))
 
         # --- gönderen ------------------------------------------------------
         if vatandas_yazari:
-            gonderen = {"tip": "gercek_kisi", "ad": kisi.tam_ad,
-                        "adres": h.adres(), "kurum_adi": None, "detsis_no": None}
+            gonderen = {"tip": "ogrenci" if ogrenci else "gercek_kisi",
+                        "ad": kisi.tam_ad, "adres": h.adres(),
+                        "kurum_adi": None, "detsis_no": None}
+            if ogrenci:
+                gonderen["ogrenci_no"] = str(h.rnd.randint(2019, 2025)) + \
+                    str(h.rnd.randint(100000, 999999))
+                gonderen["bolum"] = h.sec(_BOLUMLER)
+                gonderen["sinif"] = h.sec(["1", "2", "3", "4"])
         elif s.gonderen_tipi == "ozel_tuzel":
             # Özel hukuk tüzel kişileri DETSİS'te kayıtlı değildir; yazılarında
             # E- önekli devlet sayısı bulunmaz, kendi evrak numaralarını taşırlar.
@@ -878,9 +1000,49 @@ class EtiketUretici:
                         "adres": None, "detsis_no": g_detsis,
                         "detsis_kaynagi": g_kaynak}
 
+        # --- hiyerarşi yönü düzeltmesi -------------------------------------
+        # Kota "alt_makam" dediğinde gönderen somut bir birime çevriliyor.
+        # O birim alıcıyla AYNI kurumun AYNI seviyesindeyse aralarında
+        # hiyerarşi yoktur — "üst" etiketi cevap anahtarını yanlış yapar.
+        # Ölçüm: 32 belgede müdürlükten müdürlüğe yazışma "ust" yazılmıştı.
+        yon = _YON[s.gonderen_tipi]
+        if gonderen["tip"] == "kurum":
+            ic = next((b for b in kurum.birimler
+                       if b.birim_adi == gonderen["kurum_adi"]), None)
+            if ic is not None and ic.seviye == birim.seviye:
+                yon = "ayni"
+
+        # Ödenek ve personel talebi yalnızca HİYERARŞİK ÜSTTEN istenir.
+        # Eşit düzeydeki ayrı tüzel kişiye "ödenek tahsis edin" yazmak hem
+        # hukuken hem anlamca geçersiz. Aynı düzey için işbirliği ailesi.
+        if aile == "kaynak_talebi" and yon != "ust":
+            aile = "isbirligi_talebi"
+
+        # --- muhatap makamı -------------------------------------------------
+        # Gerçek yazışmada muhatap TÜZEL KİŞİLİKTİR; dış kurum bir belediyenin
+        # iç müdürlüğüne yazmaz, belediye başkanlığına yazar ve evrak içeride
+        # havale edilir. birim_kodu havale hedefi olarak kalıyor — sistemin
+        # "bu evrak hangi birime düşmeli" görevini test etmek için değerli.
+        dis_gonderen = gonderen["tip"] != "kurum" or (
+            not any(b.birim_adi == gonderen["kurum_adi"] for b in kurum.birimler))
+        if dis_gonderen:
+            muhatap_makam = kurum.kurum_adi
+            muhatap_parantez = birim.birim_adi if birim.seviye == 2 else None
+        else:
+            muhatap_makam = birim.birim_adi
+            muhatap_parantez = None
+
         # --- kapanış -------------------------------------------------------
+        # K 13.1: "arz/rica ederim" YALNIZCA dağıtımlı yazılarda kullanılır
+        # (aynı yazı hem üst hem ast makamlara gidiyorsa). Tek muhataplı bir
+        # yazıda kullanılamaz. Dağıtım listesi kurulmazsa karma kapanış
+        # geçersizdir; bu yüzden liste burada üretiliyor.
+        dagitim = None
         if s.karma_kapanis:
-            kapanis = "karma"
+            dagitim = self._dagitim_listesi(kurum, gonderen["kurum_adi"] or "")
+            # KARMA ancak dağıtımda hem üst hem ast makam varsa geçerli.
+            # Bütün muhataplar astsa kapanış yalnızca "rica" olur.
+            kapanis = "karma" if dagitim["bilgi"] else "rica"
         elif vatandas_yazari or s.gonderen_tipi == "ozel_tuzel":
             kapanis = "arz"
         else:
@@ -891,19 +1053,23 @@ class EtiketUretici:
         if vatandas_yazari:
             sayi = None
         elif s.gonderen_tipi == "ozel_tuzel":
-            sayi = f"{h.rnd.randint(2026, 2026)}/{h.rnd.randint(100, 9999)}"
+            sayi = self._ozel_evrak_no(gonderen["kurum_adi"], tarih)
         else:
             # Gelen belgenin sayısı GÖNDERENİN numarasını taşır. Alıcının
             # numarasına düşmek belgeyi kendi kendine gönderilmiş gösterir.
             kaynak_detsis = gonderen["detsis_no"]
-            sayi = f"E-{kaynak_detsis}-{kod.kod}-{self._kayit_no(kaynak_detsis)}"
+            olcek = _olcek_bul(gonderen["kurum_adi"] or "", kurum.kurum_tipi)
+            sayi = f"E-{kaynak_detsis}-{kod.kod}-{self._kayit_no(kaynak_detsis, tarih, olcek)}"
 
         # --- ilgi ----------------------------------------------------------
         ilgi = None
         if s.ilgi_var:
             it = h.onceki_is_gunu(tarih)
+            # İlgi yazısını ALICI BİRİM göndermişti; ilgi sayısı o birimin
+            # DETSİS numarasını taşır, kurumun kök numarasını değil.
+            ilgi_detsis = birim.detsis_no or kurum.detsis_no
             ilgi = {"tarih": it.strftime("%d.%m.%Y"),
-                    "sayi": f"E-{kurum.detsis_no}-{kod.kod}-{h.rnd.randint(1000000,9999999)}"}
+                    "sayi": f"E-{ilgi_detsis}-{kod.kod}-{self._kayit_no(ilgi_detsis, it, _olcek_bul(birim.birim_adi, kurum.kurum_tipi))}"}
 
         # --- ek ------------------------------------------------------------
         ek = None
@@ -934,7 +1100,10 @@ class EtiketUretici:
             "belge_turu": s.belge_turu,
             "aile": aile,
             "yazan_tipi": "vatandas" if vatandas_yazari else "kurum",
-            "hiyerarsi_yonu": _YON[s.gonderen_tipi],
+            "hiyerarsi_yonu": yon,
+            "muhatap_makam": muhatap_makam,
+            "muhatap_parantez": muhatap_parantez,
+            "dagitim": dagitim,
             "beklenen_kapanis": kapanis,
             "sdp": {"kod": kod.kod, "ad": kod.ad, "saklama_suresi": kod.saklama_suresi},
             "konu": konu,
@@ -1049,13 +1218,26 @@ def _konu_turet(kod_adi: str, belge_turu: str, i: int) -> str:
 # Taşınmaz (ada/parsel) yalnızca gerçekten taşınmaza bağlı konularda anlamlı.
 # 115 = İmar İşleri, 752/756 = Emlak ve Yapım. Atık yönetimi veya öğrenci
 # belgesi talebinde ada/parsel yazmak belgeyi anlamsız yapar.
-_TASINMAZ_ANA_GRUP = ("115", "752", "756", "110")
-_TASINMAZ_KELIME = re.compile(r"imar|parsel|ruhsat|yapı|iskân|iskan|kamulaştır|tapu",
-                              re.I)
+# Taşınmaz (ada/parsel) alanı YALNIZCA bu kodlarda görünür.
+#
+# KELİME EŞLEŞTİRME TERK EDİLDİ. Üç tur denendi ve üçünde de yanlış eşleşme
+# çıktı: "Yapılandırma"daki *yapı*, "Stratejik Plan"daki *plan*, "Ruhsat
+# Devri"ndeki *ruhsat*. Metinden desen aramak yerine kodun kendisine beyaz
+# liste uygulanıyor; kod zaten etikette hazır ve kesin.
+#
+# 170.01 (işyeri açma ve çalışma ruhsatı) listede YOK: işyeri ruhsatında
+# kimlik bilgisi ada/parsel değil, ruhsat numarası ve işyeri adresidir.
+_TASINMAZ_KODLARI = frozenset({
+    "115.01.06", "115.01.08", "115.02.01", "115.02.04", "115.02.08",
+    "115.02.10", "115.02.11", "752.01", "756.01", "756.02", "190.01.07",
+})
+
+# Öğrenim bilgisi (sınıf, mezuniyet yılı) yalnızca öğrenci kodlarında.
+_OGRENCI_ANA_GRUP = frozenset({"301", "302", "303", "304", "309", "310"})
 
 
-def _tasinmaz_konusu_mu(kod: str, konu: str) -> bool:
-    return kod[:3] in _TASINMAZ_ANA_GRUP or bool(_TASINMAZ_KELIME.search(konu))
+def _tasinmaz_konusu_mu(kod: str, konu: str = "") -> bool:
+    return kod in _TASINMAZ_KODLARI
 
 
 # Konu başlığını, metin içinde kullanılabilir bir talep ifadesine çevirir.
@@ -1099,3 +1281,210 @@ _COGUL_MAKAM = {
     "İlçe millî eğitim müdürlükleri": "ilce_mem",
     "Okul ve kurum müdürlükleri": "okul",
 }
+
+
+# Şikâyet konusu alıcı kurumun görev alanından seçilir. Belediyeye yazılan
+# şikâyet ile üniversiteye yazılan şikâyet aynı olamaz.
+_SIKAYET_SORUNLARI = {
+    "belediye": [
+        "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
+        "kaldırım işgali nedeniyle yaya geçişi engelleniyor",
+        "gece saatlerinde ruhsatsız çalışma yapılıyor",
+        "sokak aydınlatması uzun süredir çalışmıyor",
+        "park alanındaki oyun grupları bakımsız durumda",
+        "kaçak yapı faaliyeti sürdürülüyor",
+        "işyeri çevreye rahatsızlık veren atık bırakıyor",
+    ],
+    "universite": [
+        "yemekhane hizmetinde uzun kuyruk oluşuyor",
+        "derslik ısıtma sistemi çalışmıyor",
+        "kütüphane çalışma saatleri yetersiz kalıyor",
+        "öğrenci servisi güzergâhı ilan edilen saatlere uymuyor",
+        "yurt odalarında bakım talebi sonuçlandırılmıyor",
+    ],
+    "il_mudurlugu": [
+        "okul servis aracı ilan edilen güzergâhı izlemiyor",
+        "taşımalı eğitim aracı öğrencileri geç alıyor",
+        "okul kantininde fiyat listesi asılı değil",
+        "sınıf mevcudu ilan edilen sayının üzerinde",
+        "servis şoförü belge kontrolü yapılmıyor",
+    ],
+}
+
+# "Kullanım amacı" alanı yalnızca belge/suret talebinde anlamlı.
+_BELGE_TALEBI_MI = re.compile(
+    r"belge|suret|örne[kğ]|transkript|diploma|çıktı|rapor|onaylı|yazı", re.I)
+
+
+# Gönderen tipi -> birimin tipik_muhataplar sütununda aranacak değerler.
+# Bir birim bu tiplerden hiçbiriyle yazışmıyorsa o gönderene muhatap olmaz.
+_MUHATAP_ESLEME = {
+    "vatandas":   {"vatandas"},
+    "ozel_tuzel": {"ozel_tuzel_kisi"},
+    "ust_makam":  {"valilik", "kaymakamlik", "bakanlik", "buyuksehir_belediyesi",
+                   "kurum_ici"},
+    "ayni_duzey": {"universite", "il_mudurlugu", "diger_belediye",
+                   "buyuksehir_belediyesi"},
+    "alt_makam":  {"kurum_ici", "il_mudurlugu"},
+}
+
+
+# Kurgusal okul adları. Gerçek mahalle adı kullanılırsa o mahallede gerçekten
+# bulunan bir okulla çakışma riski var; okul adları tamamen uydurma tutuluyor.
+# Türkiye'de mahalle/ilçe adı OLMAYAN uydurma adlar. Önceki listede
+# "Akpınar" (Balıkesir'de aynı adlı MTAL var) ve "Karataş" (Adana'da ilçe)
+# vardı; çakışma riski taşıyordu.
+_KURGUSAL_OKUL_ADI = [
+    "Yıldıztepe", "Akarsu", "Gülpınar", "Söğütbaşı", "Işıkyurdu",
+    "Umutkent", "Bereketli", "Selviçam", "Gökkuşağı", "Aydınyaka",
+    "Erdemtepe", "Nurbahçe", "Yeşilyurt Vadi", "Özgüryurt", "Barışkent",
+]
+
+
+# Kurum ölçeğine göre günlük evrak hızı ve yıl başı taban numarası.
+# (hiz_alt, hiz_ust, taban_alt, taban_ust)
+_OLCEK = {
+    "bakanlik":   (3000, 5000, 40_000_000, 90_000_000),
+    "valilik":    (1000, 1500,  8_000_000, 20_000_000),
+    "buyuksehir": ( 800, 1200,  5_000_000, 15_000_000),
+    "universite": ( 700, 1000,  1_000_000,  9_000_000),
+    "il_mud":     ( 600,  900,  1_000_000,  9_000_000),
+    "ilce_bld":   ( 300,  600,    500_000,  4_000_000),
+    "ilce_mud":   ( 150,  300,    100_000,  900_000),
+    "okul":       (  15,   40,      1_000,     6_000),
+    "orta":       ( 400, 1200,  1_000_000,  8_000_000),
+}
+
+
+def _olcek_bul(makam: str, kurum_tipi: str | None = None) -> str:
+    """Makam adından evrak ölçeğini kestirir."""
+    m = normalize_ad(makam)
+    if "bakanlig" in m or "yuksekogretim kurulu" in m or "cumhurbaskanlig" in m:
+        return "bakanlik"
+    if "valilig" in m:
+        return "valilik"
+    if "buyuksehir" in m:
+        return "buyuksehir"
+    if "okulu" in m or "lisesi" in m or "anaokul" in m:
+        return "okul"
+    if "ilce" in m or "kaymakamlig" in m:
+        return "ilce_mud"
+    if "universite" in m or "rektorluk" in m or "fakulte" in m or "enstitu" in m:
+        return "universite"
+    if "il milli egitim" in m or "il mudurlug" in m:
+        return "il_mud"
+    if "belediye" in m:
+        return "ilce_bld"
+    return {"belediye": "ilce_bld", "universite": "universite",
+            "il_mudurlugu": "il_mud"}.get(kurum_tipi or "", "orta")
+
+
+def normalize_ad(s: str) -> str:
+    """Ölçek eşleştirmesi için sadeleştirme — Türkçe harfler düzleştirilir."""
+    esle = str.maketrans("çğıöşüâîûÇĞİÖŞÜ", "cgiosuaiuCGIOSU")
+    return tr_kucult_basit(s.translate(esle))
+
+
+def tr_kucult_basit(s: str) -> str:
+    return s.replace("İ", "i").replace("I", "ı").lower()
+
+
+# =============================================================================
+# ŞİKÂYET HAVUZLARI — SDP KODUNA BAĞLI
+# =============================================================================
+# Ölçülen sorun: havuz belge ailesine bağlıydı, koda değil. Sonuç: "İzin İşleri
+# Hakkında Şikâyet" başlıklı yazının gövdesinde derslik ısıtmasından söz
+# ediliyordu. Konu ile gövde kopunca bir uzman anında fark eder.
+_SIKAYET_KOD = {
+    "155": ["konteyner düzenli boşaltılmıyor",
+            "hafriyat atığı kaldırım kenarına bırakılıyor",
+            "atık toplama saatleri ilan edilenden farklı"],
+    "165": ["kaldırım işgali nedeniyle yaya geçişi engelleniyor",
+            "izinsiz seyyar satış yapılıyor",
+            "işyeri ilan edilen kapanış saatine uymuyor"],
+    "115": ["ruhsata aykırı ilave kat yapılıyor",
+            "inşaat çalışması gece saatlerinde sürdürülüyor",
+            "kaçak yapı faaliyeti bildirilmesine rağmen sürüyor"],
+    "170": ["işyeri ruhsatta belirtilen faaliyet dışında çalışıyor",
+            "ruhsatsız işletme faaliyetini sürdürüyor"],
+    "180": ["yangın merdiveni kapalı tutuluyor",
+            "işyerinde yangın tüpü bulunmuyor"],
+    "802": ["servis aracı ilan edilen güzergâhın dışına çıkıyor",
+            "servis saatleri ders programıyla uyuşmuyor",
+            "servis aracı kapasitesinin üzerinde yolcu alıyor"],
+    "140": ["taşıma aracı öğrencileri geç alıyor",
+            "taşıma merkezi okul öğrencinin ikametine uzak kalıyor"],
+    "302": ["izin talebim otuz gündür sonuçlandırılmadı",
+            "kayıt işlemim sistemde görünmüyor",
+            "belge talebime yazılı cevap verilmedi"],
+    "235": ["yabancı uyruklu öğrencinin kayıt işlemi tamamlanmadı",
+            "denklik belgesi işleme alınmadı"],
+    "205": ["sınıf mevcudu ilan edilen sayının üzerinde",
+            "kayıt alanı dışından öğrenci kabul ediliyor"],
+    "807": ["derslik ısıtma sistemi çalışmıyor",
+            "bina onarım talebi sonuçlandırılmadı"],
+    "304": ["burs ödemesi ilan edilen tarihte yapılmadı",
+            "yemekhane hizmetinde uzun kuyruk oluşuyor"],
+}
+
+_SIKAYET_VARSAYILAN = {
+    "belediye": ["sokak aydınlatması uzun süredir çalışmıyor",
+                 "park alanındaki oyun grupları bakımsız durumda",
+                 "işyeri çevreye rahatsızlık veren atık bırakıyor"],
+    "universite": ["kütüphane çalışma saatleri yetersiz kalıyor",
+                   "yurt odalarında bakım talebi sonuçlandırılmıyor",
+                   "yemekhane hizmetinde uzun kuyruk oluşuyor"],
+    "il_mudurlugu": ["okul kantininde fiyat listesi asılı değil",
+                     "servis şoförü belge kontrolü yapılmıyor"],
+}
+
+
+def _sikayet_sorunu(kod: str, kod_adi: str, kurum_tipi: str) -> list[str]:
+    """Şikâyet konusu SDP koduna bağlı seçilir.
+
+    Önce tam kod (115.02.01), sonra ana grup (115). İkisi de havuzda yoksa
+    KOD ADINDAN türetilir — genel havuza düşmek konu ile gövdeyi koparıyordu.
+    Ölçülen örnek: "210.01 Nakiller" kodlu şikâyetin gövdesinde servis şoförü
+    belge kontrolünden söz ediliyordu.
+    """
+    for anahtar in (kod, kod[:3]):
+        if anahtar in _SIKAYET_KOD:
+            return _SIKAYET_KOD[anahtar]
+    # tr_kucult ZORUNLU: Python'un lower() metodu "İ" harfini "i̇" (i + ayrı
+    # nokta) yapar ve metinde "staj i̇şleri" gibi bozuk çıktı üretir.
+    ad = tr_kucult_basit(_PARANTEZ.sub("", kod_adi).strip())
+    return [
+        f"{ad} konusundaki başvurum sonuçlandırılmadı",
+        f"{ad} işlemlerinde uzun süredir aksama yaşanıyor",
+        f"{ad} hakkındaki talebime yazılı cevap verilmedi",
+    ]
+
+
+def _sikayet_yeri(h, kurum_tipi: str) -> str:
+    """Şikâyetin geçtiği yer kuruma göre değişir.
+
+    Yemekhane kuyruğu veya derslik ısıtması bir MAHALLEDE değil, kampüste
+    olur. Mahalle adı yalnızca belediye ve il müdürlüğü şikâyetlerinde
+    anlamlı.
+    """
+    if kurum_tipi == "universite":
+        return h.sec(["Merkez Yerleşke", "Beşevler Yerleşkesi",
+                      "Gölbaşı Yerleşkesi", "B Blok 3. kat",
+                      "Merkez Yerleşke yemekhanesi"])
+    if kurum_tipi == "il_mudurlugu":
+        return h.sec([f"{h.mahalle()} Mahallesi", "ilçe merkezi",
+                      "okul servis güzergâhı"])
+    return f"{h.mahalle()} Mahallesi"
+
+
+_BOLUMLER = [
+    "Hukuk Fakültesi", "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "Gazi Eğitim Fakültesi Sınıf Öğretmenliği", "İktisadi ve İdari Bilimler Fakültesi",
+    "Teknoloji Fakültesi Elektrik-Elektronik", "Fen Fakültesi Matematik",
+    "Tıp Fakültesi", "Diş Hekimliği Fakültesi", "Mimarlık Fakültesi",
+]
+
+
+# Denetim yapan birimler: şikâyet ve ihbar bunlara gider, talep ve başvuru
+# ilgili işlemi DÜZENLEYEN birime.
+_DENETIM_BIRIMI = re.compile(r"Zabıta|Denetim|Teftiş|Kontrol", re.I)

@@ -5,40 +5,43 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Gamze KOÇ",
-    "adres": "Çiğdemtepe Mahallesi Kestane Sokağı No: 67/23 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Murat ÖZTÜRK",
+    "adres": "Şentepe Mahallesi Ceviz Sokak No: 5/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2021961898",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Değişim Programı Ders Tanıma Talebi",
+  "konu": "Sağlık Sebebiyle İzin Talebi",
   "sayi": null,
-  "tarih": "19.03.2026",
+  "tarih": "26.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Değişim Programı Ders Tanıma",
+    "Talep": "Sağlık Sebebiyle İzin",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,13 +50,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Değişim Programı Ders Tanıma",
+    "Sağlık Sebebiyle İzin",
     "lisansüstü programa kayıtlı",
-    "sürecin tamamlanabilmesi için"
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

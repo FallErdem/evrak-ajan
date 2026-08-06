@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Esra ÖZTÜRK",
-    "adres": "Kaletepe Mahallesi Nergis Caddesi No: 106/15 Yenimahalle/ANKARA",
+    "ad": "Hatice TURAN",
+    "adres": "İvedik Mahallesi Ceviz Sokak No: 85/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,30 +22,30 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Emlak Vergisi Kararına İtiraz",
+  "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
   "sayi": null,
-  "tarih": "05.02.2026",
+  "tarih": "16.04.2026",
   "ilgi": {
-    "tarih": "23.12.2025",
-    "sayi": "E-30032784-190.01.07-2604189"
+    "tarih": "31.03.2026",
+    "sayi": "E-59553370-175-985969"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 1
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Emlak Vergisi Kararına İtiraz",
+    "İtiraz konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,11 +56,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

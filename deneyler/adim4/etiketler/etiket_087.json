@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "makine_ikmal",
+    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "detsis_no": "89052714",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Çankaya Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "90226917",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -23,22 +23,22 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "755.01",
-    "ad": "Etüd-Proje ve Fizibilite",
-    "saklama_suresi": "30"
+    "kod": "801",
+    "ad": "Taşıt ve İş Makineleri İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Etüd-Proje ve Fizibilite Hakkında Görüş Talebi",
-  "sayi": "E-39985474-755.01-6549721",
-  "tarih": "20.04.2026",
+  "konu": "Taşıt ve İş Makineleri İşleri Hakkında Görüş Talebi",
+  "sayi": "E-90226917-801-2680048",
+  "tarih": "23.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Etüd-Proje ve Fizibilite",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Taşıt ve İş Makineleri İşleri",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -49,11 +49,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Etüd-Proje ve Fizibilite",
+    "Taşıt ve İş Makineleri İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

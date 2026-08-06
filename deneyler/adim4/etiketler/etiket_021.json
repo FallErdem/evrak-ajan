@@ -5,42 +5,45 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Fatih ASLAN",
-    "adres": "Susuz Mahallesi Manolya Sokak No: 70/10 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Ahmet ŞAHIN",
+    "adres": "Barıştepe Mahallesi Menekşe Sokağı No: 47/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2023942782",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "1"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
+    "kod": "773",
+    "ad": "Staj İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Servis Hizmeti Aksaklığı Bildirimi",
+  "konu": "Staj İşleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "12.01.2026",
+  "tarih": "28.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
-    "Sorun": "yemekhane hizmetinde uzun kuyruk oluşuyor",
-    "Yer": "İvedik Mahallesi",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Staj İşleri Hakkında Şikâyet",
+    "Sorun": "staj işleri işlemlerinde uzun süredir aksama yaşanıyor",
+    "Yer": "Beşevler Yerleşkesi",
+    "Süre": "bir aydan uzun süredir",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -51,14 +54,14 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Servis Hizmeti Aksaklığı",
-    "İvedik Mahallesi",
-    "yaklaşık iki aydır",
+    "Staj İşleri Hakkında Şikâyet",
+    "Beşevler Yerleşkesi",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

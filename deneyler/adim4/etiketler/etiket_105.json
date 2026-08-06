@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -23,24 +23,24 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Personel Dairesi Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
-    "saklama_suresi": "10"
+    "kod": "903.02",
+    "ad": "Atama İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Belge Talepleri Hakkında Görüş Talebi",
-  "sayi": "E-65859045-622.02-3362358",
-  "tarih": "16.04.2026",
+  "konu": "Atama İşleri Hakkında Görüş Talebi",
+  "sayi": "E-55461037-903.02-1912753",
+  "tarih": "14.04.2026",
   "ilgi": {
-    "tarih": "30.03.2026",
-    "sayi": "E-82642947-622.02-6819305"
+    "tarih": "06.04.2026",
+    "sayi": "E-42218640-903.02-2875430"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Belge Talepleri",
+    "Konu": "Atama İşleri",
     "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -52,12 +52,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Personel Dairesi Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Belge Talepleri",
+    "Atama İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

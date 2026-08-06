@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -19,28 +19,27 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
-    "saklama_suresi": "10"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
-  "sayi": "E-39985474-140-6532853",
-  "tarih": "23.03.2026",
+  "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
+  "sayi": "E-39985474-355.02-2259315",
+  "tarih": "22.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Taşımalı Eğitim kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Konu": "Uygulama Öğrencisi Yerleştirme",
+    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
+    "Talep": "ilgili bilgilerin paylaşılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +49,11 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "kaynakların etkin kullanılması",
-    "ilave personel görevlendirilmesi"
+    "Uygulama Öğrencisi Yerleştirme",
+    "ilgili bilgilerin paylaşılması"
   ]
 }

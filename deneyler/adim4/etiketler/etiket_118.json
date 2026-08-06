@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Hüseyin AKSOY",
-    "adres": "Emniyet Mahallesi Ceviz Caddesi No: 93/2 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Şaban ÇELIK",
+    "adres": "Uğur Mumcu Mahallesi Erguvan Sokağı No: 47/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2020150350",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -26,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Talebi",
+  "konu": "Kesin Kayıt Başvurusu",
   "sayi": null,
-  "tarih": "03.02.2026",
+  "tarih": "06.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma",
-    "Öğrenim bilgisi": "2025 yılı mezunu",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Kesin Kayıt",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -52,7 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "2025 yılı mezunu",
-    "ilgili kuruma sunulmak üzere"
+    "Kesin Kayıt",
+    "lisansüstü programa kayıtlı"
   ]
 }

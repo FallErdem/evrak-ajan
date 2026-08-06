@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Anadolu Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Başkent Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Şentepe Mahallesi Akasya Sokak No: 110/3 Yenimahalle/ANKARA",
+    "adres": "Şentepe Mahallesi Çınar Caddesi No: 27/7 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,24 +23,24 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
     "saklama_suresi": "10"
   },
-  "konu": "Atık Konteyneri Talebi",
-  "sayi": "2026/297",
-  "tarih": "16.03.2026",
+  "konu": "Engelli Hizmetlerinden Yararlanma Başvurusu",
+  "sayi": "2026/459",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Atık Yönetimi konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Engellilere Yönelik Hizmetler konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,11 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "posta yoluyla adresime"
   ]
 }

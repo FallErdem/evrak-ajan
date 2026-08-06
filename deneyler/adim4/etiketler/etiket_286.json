@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "104.01",
-    "ad": "Program Açma",
-    "saklama_suresi": "15"
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Program Açma Başvurusu Hk.",
-  "sayi": "E-32625594-104.01-1787727",
-  "tarih": "14.05.2026",
+  "konu": "Sınav Programları ve Sınavlar Hk.",
+  "sayi": "E-32625594-106-86188676",
+  "tarih": "23.03.2026",
   "ilgi": {
-    "tarih": "23.04.2026",
-    "sayi": "E-43123369-104.01-2789653"
+    "tarih": "10.03.2026",
+    "sayi": "E-43123369-106-3201500"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Program Açma Başvurusu",
-    "Talebin sonucu": "olumlu, talep karşılandı",
-    "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+    "Talep": "Sınav Programları ve Sınavlar",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -59,9 +59,10 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Program Açma Başvurusu",
-    "olumlu, talep karşılandı",
-    "Başkanlığımız kayıt bürosu",
-    "düzenlendiği tarihten itibaren altı ay"
+    "Sınav Programları ve Sınavlar",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

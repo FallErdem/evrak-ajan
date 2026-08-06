@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.14",
-    "ad": "Tez İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Tez İşleri Hakkında Görüş Talebi",
-  "sayi": "E-55461037-302.14-3761716",
-  "tarih": "12.02.2026",
+  "konu": "Yeni Kayıt İşlemleri Hakkında Görüş Talebi",
+  "sayi": "E-65859045-302.01-2561688",
+  "tarih": "11.03.2026",
   "ilgi": {
-    "tarih": "02.01.2026",
-    "sayi": "E-47014261-302.14-5075327"
+    "tarih": "23.02.2026",
+    "sayi": "E-47014261-302.01-5158820"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Tez İşleri",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Yeni Kayıt İşlemleri",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +57,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Tez İşleri",
+    "Yeni Kayıt İşlemleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

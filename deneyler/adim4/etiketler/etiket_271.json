@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -19,31 +19,30 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
-    "saklama_suresi": "15"
+    "kod": "756.01",
+    "ad": "Tahsis, Devir ve Takas",
+    "saklama_suresi": "B"
   },
-  "konu": "İhale Talebi",
-  "sayi": "E-90226917-755.02-7072051",
-  "tarih": "06.05.2026",
+  "konu": "Okul Yeri Tahsis Talebi",
+  "sayi": "E-90226917-756.01-2661601",
+  "tarih": "03.02.2026",
   "ilgi": {
-    "tarih": "29.04.2026",
-    "sayi": "E-33152401-755.02-2238920"
+    "tarih": "29.01.2026",
+    "sayi": "E-87730597-756.01-3375543"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "İhale kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Konu": "Okul Yeri Tahsis",
+    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
+    "Talep": "ilgili bilgilerin paylaşılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,13 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İhale kapsamındaki iş yükü artmıştır",
-    "mevcut kaynaklar yetersiz kalmaktadır",
-    "kaynakların etkin kullanılması",
-    "gerekli ödeneğin tahsis edilmesi"
+    "Okul Yeri Tahsis",
+    "ilgili bilgilerin paylaşılması"
   ]
 }

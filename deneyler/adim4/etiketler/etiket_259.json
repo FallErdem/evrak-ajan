@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -19,28 +19,27 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "110.04",
-    "ad": "Encümen Kararları",
-    "saklama_suresi": "B"
+    "kod": "755.02",
+    "ad": "İhale",
+    "saklama_suresi": "15"
   },
-  "konu": "Encümen Kararı Örneği Talebi",
-  "sayi": "E-90226917-110.04-7068625",
-  "tarih": "01.05.2026",
+  "konu": "İhale Talebi",
+  "sayi": "E-90226917-755.02-2657051",
+  "tarih": "22.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Encümen Kararları kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
-    "Talep": "teknik destek sağlanması"
+    "Konu": "İhale",
+    "Ortak iş": "ortak yürütülen bir çalışma",
+    "Talep": "iş birliği protokolü düzenlenmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +49,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "kaynakların etkin kullanılması",
-    "teknik destek sağlanması"
+    "ortak yürütülen bir çalışma",
+    "iş birliği protokolü düzenlenmesi"
   ]
 }

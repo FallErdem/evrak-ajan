@@ -5,44 +5,46 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Emre DUMAN",
-    "adres": "Batıkent Mahallesi Nergis Sokağı No: 72/23 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Sevgi ÖZTÜRK",
+    "adres": "Demetevler Mahallesi Nergis Sokak No: 112/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2023441176",
+    "bolum": "Hukuk Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Katkı Payı Muafiyet Başvurusu",
+  "konu": "Servis Güzergahı Talebi",
   "sayi": null,
-  "tarih": "22.04.2026",
+  "tarih": "14.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 4
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Talep": "Katkı Payı Muafiyet",
-    "Öğrenim bilgisi": "2017 yılı mezunu",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Servis Güzergahı",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,12 +53,12 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı Muafiyet",
-    "2017 yılı mezunu"
+    "Servis Güzergahı",
+    "sürecin tamamlanabilmesi için"
   ]
 }

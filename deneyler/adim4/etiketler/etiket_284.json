@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Murat UÇAR",
-    "adres": "Pamuklar Mahallesi Zeytin Sokağı No: 26/3 Yenimahalle/ANKARA",
+    "ad": "Emre TURAN",
+    "adres": "Ragıpbey Mahallesi Kestane Sokağı No: 45/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,30 +22,30 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
-    "saklama_suresi": "10"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Staj İşleri Kararına İtiraz",
+  "konu": "İtfaiye Uygunluk Raporları Kararına İtiraz",
   "sayi": null,
-  "tarih": "26.01.2026",
+  "tarih": "09.03.2026",
   "ilgi": {
-    "tarih": "26.12.2025",
-    "sayi": "E-85330682-773-6970600"
+    "tarih": "23.01.2026",
+    "sayi": "E-59553370-180.03-947581"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 4
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Staj İşleri Kararına İtiraz",
+    "İtiraz konusu": "İtfaiye Uygunluk Raporları Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,11 +56,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Staj İşleri Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Selin AYDIN",
-    "adres": "Çiğdemtepe Mahallesi Ceviz Caddesi No: 12/23 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Aslı GÜNEŞ",
+    "adres": "Ergazi Mahallesi Ihlamur Caddesi No: 76/14 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2025232975",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -26,23 +29,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Geçici Mezuniyet Belgesi Talebi",
+  "konu": "Katkı Payı Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "18.05.2026",
+  "tarih": "09.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Talep": "Geçici Mezuniyet Belgesi",
+    "Talep": "Katkı Payı Muafiyet",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -56,8 +59,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Geçici Mezuniyet Belgesi",
+    "Katkı Payı Muafiyet",
     "lisansüstü programa kayıtlı",
-    "başvuru dosyasına eklenmek üzere"
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

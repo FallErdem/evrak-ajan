@@ -5,45 +5,44 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
-    "saklama_suresi": "15"
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
-  "sayi": "E-39985474-355.02-6505876",
-  "tarih": "06.02.2026",
+  "konu": "Okul Aile Birlikleri Talebi",
+  "sayi": "E-65859045-165.01-2536026",
+  "tarih": "21.01.2026",
   "ilgi": {
-    "tarih": "14.01.2026",
-    "sayi": "E-55461037-355.02-3740671"
+    "tarih": "08.01.2026",
+    "sayi": "E-93213107-165.01-8012328"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Eğitim Fakülteleri İle İlişkiler kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Konu": "Okul Aile Birlikleri",
+    "Ortak iş": "iki kurumun görev alanına giren bir husus",
+    "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,12 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "mevcut kaynaklar yetersiz kalmaktadır",
-    "kaynakların etkin kullanılması",
-    "gerekli ödeneğin tahsis edilmesi"
+    "Okul Aile Birlikleri",
+    "konu hakkında görüş bildirilmesi"
   ]
 }

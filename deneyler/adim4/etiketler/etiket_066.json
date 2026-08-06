@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "kurum_adi": "Selviçam Mesleki ve Teknik Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "91571118",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10198036",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
-    "saklama_suresi": "15"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Uygulama Okulunun Belirlenmesi Hk.",
-  "sayi": "E-91571118-355.02-1353436",
-  "tarih": "06.03.2026",
+  "konu": "Hukuki Mütalaanın Gönderilmesi",
+  "sayi": "E-10198036-045.02-6519",
+  "tarih": "15.04.2026",
   "ilgi": {
-    "tarih": "30.01.2026",
-    "sayi": "E-55461037-355.02-3752262"
+    "tarih": "13.03.2026",
+    "sayi": "E-55461037-045.02-1897954"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Uygulama Okulunun Belirlenmesi",
+    "Talep": "Hukuki Mütalaanın Gönderilmesi",
     "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,10 +58,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Uygulama Okulunun Belirlenmesi",
+    "Hukuki Mütalaanın Gönderilmesi",
     "olumlu, belge düzenlendi",
-    "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "ilgide kayıtlı yazı"
   ]
 }

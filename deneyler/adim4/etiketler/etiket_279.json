@@ -12,14 +12,14 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
@@ -27,23 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "201",
-    "ad": "Seçim ve Atama İşleri",
+    "kod": "204.01",
+    "ad": "Doçentlik",
     "saklama_suresi": "15"
   },
-  "konu": "Seçim ve Atama İşleri Talebi",
-  "sayi": "E-55461037-201-3735014",
-  "tarih": "06.01.2026",
+  "konu": "Doçentlik Talebi",
+  "sayi": "E-10213773-204.01-8251501",
+  "tarih": "07.05.2026",
   "ilgi": {
-    "tarih": "26.11.2025",
-    "sayi": "E-42218640-201-2137566"
+    "tarih": "27.04.2026",
+    "sayi": "E-42218640-204.01-2894249"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Seçim ve Atama İşleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Konu": "Doçentlik",
+    "Ortak iş": "ortak yürütülen bir çalışma",
+    "Talep": "ilgili bilgilerin paylaşılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -58,8 +57,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "iş ve işlemlerin zamanında tamamlanması",
-    "ilave personel görevlendirilmesi"
+    "ortak yürütülen bir çalışma",
+    "ilgili bilgilerin paylaşılması"
   ]
 }

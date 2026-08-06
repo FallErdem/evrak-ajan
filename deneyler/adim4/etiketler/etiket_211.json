@@ -5,46 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Temizlik İşleri Müdürlüğü",
+    "kurum_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "83011479",
+    "detsis_no": "89052714",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Fen İşleri Müdürlüğü",
+  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "755.01",
-    "ad": "Etüd-Proje ve Fizibilite",
-    "saklama_suresi": "30"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Zemin Etüdü Raporunun Gönderilmesi",
-  "sayi": "E-83011479-755.01-5688953",
-  "tarih": "09.03.2026",
+  "konu": "Alacağın Tahsili Hk.",
+  "sayi": "E-89052714-855-2165575",
+  "tarih": "20.05.2026",
   "ilgi": {
-    "tarih": "16.02.2026",
-    "sayi": "E-33152401-755.01-2195692"
+    "tarih": "15.04.2026",
+    "sayi": "E-43195403-855-3440970"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Zemin Etüdü Raporunun Gönderilmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Talep": "Alacağın Tahsili",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,13 +54,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Zemin Etüdü Raporunun Gönderilmesi",
-    "olumlu, işlem tamamlandı",
-    "Müdürlüğümüz kayıt bürosu",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "Alacağın Tahsili",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

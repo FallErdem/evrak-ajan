@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şaban ÇELIK",
-    "adres": "Demetevler Mahallesi Ceviz Sokağı No: 25/14 Yenimahalle/ANKARA",
+    "ad": "Gamze ATEŞ",
+    "adres": "Serhat Mahallesi Zeytin Sokağı No: 19/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,19 +26,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Nakiller Hakkında Şikâyet",
+  "konu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "06.01.2026",
+  "tarih": "13.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Nakiller Hakkında Şikâyet",
-    "Sorun": "sınıf mevcudu ilan edilen sayının üzerinde",
-    "Yer": "Kaletepe Mahallesi",
+    "Şikâyet konusu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
+    "Sorun": "yabancı uyruklu öğrencinin kayıt işlemi tamamlanmadı",
+    "Yer": "Batıkent Mahallesi",
     "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
@@ -55,8 +55,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Nakiller Hakkında Şikâyet",
-    "Kaletepe Mahallesi",
+    "Batıkent Mahallesi",
     "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]

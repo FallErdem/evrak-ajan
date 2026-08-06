@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "125",
-    "ad": "Evlendirme İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "105.04",
+    "ad": "Meclis Kararları",
+    "saklama_suresi": "15"
   },
-  "konu": "Evlendirme İşlemleri Listesinin Gönderilmesi",
-  "sayi": "E-24432702-125-1718697",
-  "tarih": "27.05.2026",
+  "konu": "Meclis Kararının Gönderilmesi",
+  "sayi": "E-24304062-105.04-59906928",
+  "tarih": "16.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 3
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "üçüncü çeyrek",
-    "Sayı": "94 kayıt",
-    "Ek 1": "Evlendirme İşlemleri listesi",
+    "Dönem": "yılın ilk yarısı",
+    "Sayı": "142 kayıt",
+    "Ek 1": "Meclis Kararları listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -62,9 +62,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "üçüncü çeyrek",
-    "94 kayıt",
-    "Evlendirme İşlemleri listesi",
+    "yılın ilk yarısı",
+    "142 kayıt",
+    "Meclis Kararları listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

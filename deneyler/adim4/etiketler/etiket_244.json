@@ -12,14 +12,14 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
@@ -32,15 +32,14 @@
     "saklama_suresi": "2"
   },
   "konu": "Sınav Programları ve Sınavlar Talebi",
-  "sayi": "E-10213773-106-1052999",
-  "tarih": "13.01.2026",
+  "sayi": "E-55461037-106-1920032",
+  "tarih": "30.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Sınav Programları ve Sınavlar kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "hizmetlerin aksamadan yürütülmesi",
-    "Talep": "teknik destek sağlanması"
+    "Konu": "Sınav Programları ve Sınavlar",
+    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
+    "Talep": "gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,7 +54,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "hizmetlerin aksamadan yürütülmesi",
-    "teknik destek sağlanması"
+    "Sınav Programları ve Sınavlar",
+    "gerekli koordinasyonun sağlanması"
   ]
 }

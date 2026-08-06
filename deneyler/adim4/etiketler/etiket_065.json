@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,21 +23,21 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "125",
-    "ad": "Evlendirme İşlemleri",
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Evlendirme İşlemleri Hakkında Görüş Talebi",
-  "sayi": "E-39985474-125-6550224",
-  "tarih": "21.04.2026",
+  "konu": "Mal Alım İşi Hakkında Görüş Talebi",
+  "sayi": "E-39985474-934.01-2169050",
+  "tarih": "21.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Evlendirme İşlemleri",
+    "Konu": "Mal Alım İşi",
     "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -49,11 +49,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Evlendirme İşlemleri",
+    "Mal Alım İşi",
     "konu hakkında görüş bildirilmesi"
   ]
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra AVCI",
-    "adres": "Yakacık Mahallesi Akasya Sokağı No: 78/11 Yenimahalle/ANKARA",
+    "ad": "Murat KURT",
+    "adres": "Serhat Mahallesi Ceviz Caddesi No: 9/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Belge Talepleri Hakkında Şikâyet",
+  "konu": "Servis Hizmeti Aksaklığı Bildirimi",
   "sayi": null,
-  "tarih": "22.05.2026",
+  "tarih": "22.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Belge Talepleri Hakkında Şikâyet",
-    "Sorun": "taşımalı eğitim aracı öğrencileri geç alıyor",
-    "Yer": "Karşıyaka Mahallesi",
+    "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
+    "Sorun": "servis saatleri ders programıyla uyuşmuyor",
+    "Yer": "ilçe merkezi",
     "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -51,12 +51,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Belge Talepleri Hakkında Şikâyet",
-    "Karşıyaka Mahallesi",
+    "Servis Hizmeti Aksaklığı",
+    "ilçe merkezi",
     "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]

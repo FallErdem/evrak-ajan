@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten BULUT",
-    "adres": "Kaletepe Mahallesi Yasemin Sokağı No: 35/23 Yenimahalle/ANKARA",
+    "ad": "Büşra ÇAKIR",
+    "adres": "Ostim Mahallesi Kestane Sokağı No: 39/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,15 +32,15 @@
   },
   "konu": "Servis Hizmeti Aksaklığı Bildirimi",
   "sayi": null,
-  "tarih": "16.01.2026",
+  "tarih": "06.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
-    "Sorun": "servis şoförü belge kontrolü yapılmıyor",
-    "Yer": "Barıştepe Mahallesi",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Sorun": "servis saatleri ders programıyla uyuşmuyor",
+    "Yer": "Pamuklar Mahallesi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,9 +56,8 @@
   ],
   "anahtar_terimler": [
     "Servis Hizmeti Aksaklığı",
-    "servis şoförü belge kontrolü yapılmıyor",
-    "Barıştepe Mahallesi",
-    "yaklaşık iki aydır",
+    "Pamuklar Mahallesi",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

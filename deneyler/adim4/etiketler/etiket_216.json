@@ -5,45 +5,44 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
-    "saklama_suresi": "10"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
-  "sayi": "E-39985474-140-6486684",
-  "tarih": "05.01.2026",
+  "konu": "Hukuki Görüş Talebi",
+  "sayi": "E-65859045-045.02-2532379",
+  "tarih": "14.01.2026",
   "ilgi": {
-    "tarih": "24.11.2025",
-    "sayi": "E-93213107-140-2884824"
+    "tarih": "22.12.2025",
+    "sayi": "E-55461037-045.02-1860690"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Taşımalı Eğitim kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "vatandaş memnuniyetinin artırılması",
-    "Talep": "teknik destek sağlanması"
+    "Konu": "Hukuki Görüş",
+    "Ortak iş": "ortak yürütülen bir çalışma",
+    "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,12 +52,12 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "vatandaş memnuniyetinin artırılması",
-    "teknik destek sağlanması"
+    "Hukuki Görüş",
+    "ortak yürütülen bir çalışma",
+    "konu hakkında görüş bildirilmesi"
   ]
 }

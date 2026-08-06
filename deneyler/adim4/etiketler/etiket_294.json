@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak Yapı Denetim A.Ş.",
+    "kurum_adi": "Atlas Mühendislik Ltd. Şti.",
     "ad": null,
-    "adres": "Pamuklar Mahallesi Manolya Sokak No: 74/12 Yenimahalle/ANKARA",
+    "adres": "Demetevler Mahallesi Akasya Sokağı No: 99/22 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,24 +23,24 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
-    "saklama_suresi": "B"
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
+    "saklama_suresi": "10"
   },
-  "konu": "İskan Ruhsatı Başvurusu",
-  "sayi": "2026/148",
-  "tarih": "09.02.2026",
+  "konu": "Engelli Aracı Talebi",
+  "sayi": "2026/793",
+  "tarih": "22.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Yapı Kullanma İzni (İskan Ruhsatı) konusundaki güncel verilerin paylaşılması",
+    "Talep": "Engellilere Yönelik Hizmetler konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,11 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "elektronik posta ile"
   ]
 }

@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,31 +23,31 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "saklama_suresi": "10"
   },
-  "konu": "Hukuki Mütalaanın Gönderilmesi",
-  "sayi": "E-32625594-045.02-1786882",
-  "tarih": "12.05.2026",
+  "konu": "Öğrenci Toplulukları, Birlikleri vb. Listesinin Gönderilmesi",
+  "sayi": "E-32625594-309-85906253",
+  "tarih": "22.01.2026",
   "ilgi": {
-    "tarih": "14.04.2026",
-    "sayi": "E-82642947-045.02-6826231"
+    "tarih": "19.12.2025",
+    "sayi": "E-98244303-309-7849226"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "öğretim yılı",
-    "Sayı": "68 kayıt",
-    "Ek 1": "Hukuki listesi",
+    "Sayı": "18 kayıt",
+    "Ek 1": "Öğrenci Toplulukları, Birlikleri vb. listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -60,15 +60,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "öğretim yılı",
-    "68 kayıt",
-    "Hukuki listesi",
+    "18 kayıt",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

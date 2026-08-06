@@ -5,49 +5,48 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
+    "kod": "304.03",
+    "ad": "Stajlar",
     "saklama_suresi": "2"
   },
-  "konu": "Sınav Programları ve Sınavlar Talebi",
-  "sayi": "E-55461037-106-3825123",
-  "tarih": "11.05.2026",
+  "konu": "Staj Yeri Talebi",
+  "sayi": "E-10213773-304.03-8120522",
+  "tarih": "29.01.2026",
   "ilgi": {
-    "tarih": "31.03.2026",
-    "sayi": "E-47014261-106-5134937"
+    "tarih": "25.12.2025",
+    "sayi": "E-43123369-304.03-3143512"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "İhtiyaç listesi",
-    "sayfa": 3
+    "aciklama": "İlgili belge",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Mevcut durum": "Sınav Programları ve Sınavlar kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "hizmetlerin aksamadan yürütülmesi",
-    "Talep": "teknik destek sağlanması"
+    "Konu": "Staj Yeri",
+    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
+    "Talep": "gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,13 +56,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "mevcut kaynaklar yetersiz kalmaktadır",
-    "hizmetlerin aksamadan yürütülmesi",
-    "teknik destek sağlanması"
+    "Staj Yeri",
+    "gerekli koordinasyonun sağlanması"
   ]
 }

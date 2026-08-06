@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "kurum_adi": "Mühendislik Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "98244303",
+    "detsis_no": "43123369",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
   },
-  "konu": "Hukuki Mütalaanın Gönderilmesi",
-  "sayi": "E-98244303-045.02-7116600",
-  "tarih": "18.05.2026",
+  "konu": "Kurul Kararının Gönderilmesi",
+  "sayi": "E-43123369-050.04-3231092",
+  "tarih": "17.04.2026",
   "ilgi": {
-    "tarih": "14.04.2026",
-    "sayi": "E-82642947-045.02-6826222"
+    "tarih": "16.03.2026",
+    "sayi": "E-82642947-050.04-1358054"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Hukuki Mütalaanın Gönderilmesi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
-    "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+    "Talep": "Kurul Kararının Gönderilmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -59,10 +59,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Hukuki Mütalaanın Gönderilmesi",
-    "olumlu, talep karşılandı",
-    "Başkanlığımız kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren altı ay"
+    "Kurul Kararının Gönderilmesi",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

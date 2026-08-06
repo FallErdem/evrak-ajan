@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sevgi BOZKURT",
-    "adres": "Yakacık Mahallesi Kestane Caddesi No: 113/5 Yenimahalle/ANKARA",
+    "ad": "Yusuf KURT",
+    "adres": "Serhat Mahallesi Akasya Sokak No: 118/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,30 +22,30 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
     "saklama_suresi": "10"
   },
-  "konu": "Bilgi Edinme, Talep ve Şikayetler Kararına İtiraz",
+  "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
   "sayi": null,
-  "tarih": "04.03.2026",
+  "tarih": "16.04.2026",
   "ilgi": {
-    "tarih": "28.01.2026",
-    "sayi": "E-50719027-622.01-4161078"
+    "tarih": "20.03.2026",
+    "sayi": "E-59553370-175-979693"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Bilgi Edinme, Talep ve Şikayetler Kararına İtiraz",
+    "İtiraz konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,7 +56,7 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

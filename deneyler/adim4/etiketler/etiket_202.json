@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Doruk Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Anadolu Mühendislik Ltd. Şti.",
     "ad": null,
-    "adres": "Ragıpbey Mahallesi Sümbül Sokak No: 78/4 Yenimahalle/ANKARA",
+    "adres": "Pamuklar Mahallesi Ihlamur Sokağı No: 53/6 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,22 +23,23 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
     "saklama_suresi": "15"
   },
-  "konu": "Yangın Güvenliği Raporu Başvurusu",
-  "sayi": "2026/488",
-  "tarih": "30.03.2026",
+  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
+  "sayi": "2026/186",
+  "tarih": "04.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yangın Güvenliği Raporu",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Emlak Vergisi Borç Sorgulama",
+    "Taşınmaz": "25298 ada, 25 parsel",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,11 +48,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yangın Güvenliği Raporu",
-    "resmî işlemlerde kullanılmak üzere"
+    "Emlak Vergisi Borç Sorgulama",
+    "25298 ada, 25 parsel"
   ]
 }

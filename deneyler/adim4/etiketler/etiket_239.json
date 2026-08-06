@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Elif KESKIN",
-    "adres": "Ergazi Mahallesi Papatya Caddesi No: 16/2 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Aslı ŞIMŞEK",
+    "adres": "Serhat Mahallesi Zeytin Sokağı No: 29/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2025587200",
+    "bolum": "Mimarlık Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -26,18 +29,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Nakdi Yardım Talebi",
+  "konu": "Öğrenci Topluluğu Kurulma Talebi",
   "sayi": null,
-  "tarih": "30.04.2026",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Nakdi Yardım",
-    "Öğrenim bilgisi": "2024 yılı mezunu",
+    "Talep": "Öğrenci Topluluğu Kurulma",
+    "Öğrenim bilgisi": "4. sınıf öğrencisi",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -52,8 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Nakdi Yardım",
-    "2024 yılı mezunu",
+    "Öğrenci Topluluğu Kurulma",
+    "4. sınıf öğrencisi",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

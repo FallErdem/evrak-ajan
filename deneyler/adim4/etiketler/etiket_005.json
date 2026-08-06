@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sultan KILIÇ",
-    "adres": "Susuz Mahallesi Ceviz Sokak No: 14/9 Yenimahalle/ANKARA",
+    "ad": "Osman KOÇ",
+    "adres": "Gayret Mahallesi Ihlamur Caddesi No: 10/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,26 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "752.01",
-    "ad": "Kamulaştırma",
-    "saklama_suresi": "B"
+    "kod": "807.01",
+    "ad": "Bina ve Tesisler",
+    "saklama_suresi": "10"
   },
-  "konu": "Kamulaştırma Bedeli Ödeme Talebi",
+  "konu": "Okul Binası Onarım Talebi",
   "sayi": null,
-  "tarih": "04.03.2026",
+  "tarih": "17.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 3
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Talep": "Kamulaştırma Bedeli Ödeme",
-    "Taşınmaz": "99712 ada, 17 parsel",
+    "Talep": "Okul Binası Onarım",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
@@ -51,11 +50,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Kamulaştırma Bedeli Ödeme",
-    "99712 ada, 17 parsel"
+    "Okul Binası Onarım"
   ]
 }

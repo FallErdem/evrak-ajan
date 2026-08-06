@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -19,28 +19,27 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
   },
-  "konu": "Kayıt Süresi Uzatım Talebi",
-  "sayi": "E-10213773-302.01-1129518",
-  "tarih": "25.03.2026",
+  "konu": "Karar Örneği Talebi",
+  "sayi": "E-10213773-050.04-8136483",
+  "tarih": "10.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Yeni Kayıt İşlemleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "teknik destek sağlanması"
+    "Konu": "Karar Örneği",
+    "Ortak iş": "ortak yürütülen bir çalışma",
+    "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +49,13 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "mevzuatın öngördüğü sürelere uyulması",
-    "teknik destek sağlanması"
+    "Karar Örneği",
+    "ortak yürütülen bir çalışma",
+    "konu hakkında görüş bildirilmesi"
   ]
 }

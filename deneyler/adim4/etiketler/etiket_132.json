@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "yapi_kontrol",
+    "birim_adi": "Yapı Kontrol Müdürlüğü",
+    "detsis_no": "53265760",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mustafa ÇETIN",
-    "adres": "Demetevler Mahallesi Lale Sokak No: 37/13 Yenimahalle/ANKARA",
+    "ad": "Mustafa AYDIN",
+    "adres": "Demetevler Mahallesi Erguvan Sokak No: 116/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,23 +22,23 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "855",
-    "ad": "Borç ve Alacak İşleri",
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Borç ve Alacak İşleri Hakkında Şikâyet",
+  "konu": "İdari Yaptırım/Para Cezası İşleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "24.03.2026",
+  "tarih": "20.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Borç ve Alacak İşleri Hakkında Şikâyet",
-    "Sorun": "sokak aydınlatması uzun süredir çalışmıyor",
-    "Yer": "İvedik Mahallesi",
+    "Şikâyet konusu": "İdari Yaptırım/Para Cezası İşleri Hakkında Şikâyet",
+    "Sorun": "idari yaptırım/para cezası işleri hakkındaki talebime yazılı cevap verilmedi",
+    "Yer": "Barıştepe Mahallesi",
     "Süre": "geçtiğimiz aydan bu yana",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
@@ -51,12 +51,11 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Yapı Kontrol Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Borç ve Alacak İşleri Hakkında Şikâyet",
-    "İvedik Mahallesi",
+    "Barıştepe Mahallesi",
     "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]

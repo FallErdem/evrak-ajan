@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak İnşaat Ltd. Şti.",
+    "kurum_adi": "Başkent Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Barıştepe Mahallesi Kestane Sokağı No: 40/11 Yenimahalle/ANKARA",
+    "adres": "Ostim Mahallesi Manolya Sokak No: 114/8 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,16 +31,16 @@
     "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "İşyeri Açma ve Çalışma Ruhsatı Başvurusu",
-  "sayi": "2026/522",
-  "tarih": "26.03.2026",
+  "konu": "Ruhsat Devir Talebi",
+  "sayi": "2026/239",
+  "tarih": "19.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Ruhsat konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "yıllara göre sayısal döküm",
+    "posta yoluyla adresime"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Elif AYDIN",
-    "adres": "Pamuklar Mahallesi Sümbül Sokak No: 66/6 Yenimahalle/ANKARA",
+    "ad": "Gamze KESKIN",
+    "adres": "Ragıpbey Mahallesi Kestane Sokağı No: 1/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,17 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "855",
-    "ad": "Borç ve Alacak İşleri",
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
     "saklama_suresi": "15"
   },
-  "konu": "Borç Bilgisi Talebi",
+  "konu": "Emlak Vergisi Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "13.03.2026",
+  "tarih": "26.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Borç Bilgisi",
+    "Talep": "Emlak Vergisi Muafiyet",
+    "Taşınmaz": "17657 ada, 33 parsel",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
@@ -50,7 +51,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Borç Bilgisi",
+    "Emlak Vergisi Muafiyet",
+    "17657 ada, 33 parsel",
     "sürecin tamamlanabilmesi için"
   ]
 }

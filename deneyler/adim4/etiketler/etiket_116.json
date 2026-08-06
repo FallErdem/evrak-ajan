@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatma KARACA",
-    "adres": "Yeşilevler Mahallesi Ceviz Caddesi No: 43/18 Yenimahalle/ANKARA",
+    "ad": "Havva AKTAŞ",
+    "adres": "Ostim Mahallesi Ceviz Caddesi No: 98/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,19 +26,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.04",
-    "ad": "Yapı Ruhsatı",
+    "kod": "115.02.10",
+    "ad": "Adres ve Numaralandırma",
     "saklama_suresi": "B"
   },
-  "konu": "Ruhsat Yenileme Talebi",
+  "konu": "Numarataj Belgesi Talebi",
   "sayi": null,
-  "tarih": "27.05.2026",
+  "tarih": "25.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Ruhsat Yenileme",
-    "Taşınmaz": "98803 ada, 11 parsel",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Numarataj Belgesi",
+    "Taşınmaz": "12798 ada, 29 parsel",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,7 +51,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Yenileme",
-    "98803 ada, 11 parsel"
+    "Numarataj Belgesi",
+    "12798 ada, 29 parsel",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

@@ -19,7 +19,7 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
@@ -27,20 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.06",
-    "ad": "Uygulama İmar Planı",
+    "kod": "115.01.08",
+    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
     "saklama_suresi": "B"
   },
-  "konu": "Uygulama İmar Planı Değişikliği Talebi",
-  "sayi": "E-55461037-115.01.06-3740789",
-  "tarih": "14.01.2026",
+  "konu": "İrtifak Hakkı Tesisi Talebi",
+  "sayi": "E-55461037-115.01.08-1926959",
+  "tarih": "15.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Uygulama İmar Planı kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Konu": "İrtifak Hakkı Tesisi",
+    "Ortak iş": "ortak yürütülen bir çalışma",
+    "Talep": "gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -54,7 +53,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "kaynakların etkin kullanılması",
-    "gerekli ödeneğin tahsis edilmesi"
+    "İrtifak Hakkı Tesisi",
+    "ortak yürütülen bir çalışma",
+    "gerekli koordinasyonun sağlanması"
   ]
 }

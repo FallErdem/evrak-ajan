@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "24432702",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "051",
-    "ad": "Toplantı ve Etkinlik İşleri",
-    "saklama_suresi": "15"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Toplantı ve Etkinlik İşleri Hk.",
-  "sayi": "E-24304062-051-4835248",
-  "tarih": "06.04.2026",
+  "konu": "Araştırma İzni Hk.",
+  "sayi": "E-24432702-805.02.05-11099659",
+  "tarih": "20.03.2026",
   "ilgi": {
-    "tarih": "16.03.2026",
-    "sayi": "E-65859045-051-3342472"
+    "tarih": "05.03.2026",
+    "sayi": "E-26888327-805.02.05-1719382"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Toplantı ve Etkinlik İşleri",
-    "Talebin sonucu": "olumlu, talep karşılandı",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+    "Talep": "Araştırma İzni",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,13 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yenimahalle Belediye Başkanlığı",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Toplantı ve Etkinlik İşleri",
-    "olumlu, talep karşılandı",
-    "Müdürlüğümüz kayıt bürosu",
-    "düzenlendiği tarihten itibaren altı ay"
+    "Araştırma İzni",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı"
   ]
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Aslı DOĞAN",
-    "adres": "Emniyet Mahallesi Ihlamur Sokağı No: 100/19 Yenimahalle/ANKARA",
+    "ad": "Gamze DOĞAN",
+    "adres": "Kaletepe Mahallesi Ihlamur Sokağı No: 48/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,21 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.01",
-    "ad": "İmar Durumu (Belgesi)",
-    "saklama_suresi": "B"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "İmar Durum Belgesi Talebi",
+  "konu": "Arşiv Belgesi Araştırma Talebi",
   "sayi": null,
-  "tarih": "06.03.2026",
+  "tarih": "11.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İmar Durum Belgesi",
-    "Taşınmaz": "47421 ada, 4 parsel",
+    "Talep": "Arşiv Belgesi Araştırma",
     "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -47,12 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İmar Durum Belgesi",
-    "47421 ada, 4 parsel",
+    "Arşiv Belgesi Araştırma",
     "başvuru dosyasına eklenmek üzere"
   ]
 }

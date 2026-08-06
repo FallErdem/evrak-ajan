@@ -27,25 +27,25 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Araştırma İzni Hk.",
-  "sayi": "E-32625594-805.02.05-1744299",
-  "tarih": "05.02.2026",
+  "konu": "Uygulama Hakkında Hukuki Görüş",
+  "sayi": "E-32625594-045.02-86220233",
+  "tarih": "30.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Arşivlerden Yararlanma kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Hukuki kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

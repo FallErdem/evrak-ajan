@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Murat YAVUZ",
-    "adres": "Beştepe Mahallesi Lale Sokağı No: 77/8 Yenimahalle/ANKARA",
+    "ad": "Merve UÇAR",
+    "adres": "Ragıpbey Mahallesi Kestane Sokak No: 99/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
+    "kod": "198.02.01",
+    "ad": "Diploma",
     "saklama_suresi": "B"
   },
-  "konu": "Okul Kayıt Başvurusu",
+  "konu": "Diploma İkinci Nüsha Talebi",
   "sayi": null,
-  "tarih": "08.04.2026",
+  "tarih": "30.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Okul Kayıt",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Diploma İkinci Nüsha",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Okul Kayıt",
-    "sürecin tamamlanabilmesi için"
+    "Diploma İkinci Nüsha",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

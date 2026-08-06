@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Başkent Mühendislik Ltd. Şti.",
+    "kurum_adi": "Başkent Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Çiğdemtepe Mahallesi Akasya Caddesi No: 120/18 Yenimahalle/ANKARA",
+    "adres": "Şentepe Mahallesi Çınar Sokak No: 36/12 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -32,15 +32,15 @@
     "saklama_suresi": "B"
   },
   "konu": "Yurtdışı Öğrenim Denklik Başvurusu",
-  "sayi": "2026/659",
-  "tarih": "07.04.2026",
+  "sayi": "2026/195",
+  "tarih": "09.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Yurtdışı Eğitim Denkliği konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "yıllara göre sayısal döküm",
+    "e-Devlet üzerinden"
   ]
 }

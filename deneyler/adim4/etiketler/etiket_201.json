@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin AKSOY",
-    "adres": "Demetevler Mahallesi Kestane Caddesi No: 14/8 Yenimahalle/ANKARA",
+    "ad": "Ömer KARACA",
+    "adres": "Şentepe Mahallesi Ceviz Sokak No: 104/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "Arşivlerden Yararlanma Hakkında Şikâyet",
+  "konu": "Ruhsat Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "27.01.2026",
+  "tarih": "25.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Arşivlerden Yararlanma Hakkında Şikâyet",
-    "Sorun": "gece saatlerinde ruhsatsız çalışma yapılıyor",
-    "Yer": "Susuz Mahallesi",
+    "Şikâyet konusu": "Ruhsat Hakkında Şikâyet",
+    "Sorun": "işyeri ruhsatta belirtilen faaliyet dışında çalışıyor",
+    "Yer": "Emniyet Mahallesi",
     "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -51,12 +51,12 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşivlerden Yararlanma Hakkında Şikâyet",
-    "Susuz Mahallesi",
+    "Ruhsat Hakkında Şikâyet",
+    "Emniyet Mahallesi",
     "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]

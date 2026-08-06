@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Osman ÇELIK",
-    "adres": "Beştepe Mahallesi Papatya Sokağı No: 71/24 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Murat AKTAŞ",
+    "adres": "Uğur Mumcu Mahallesi Zeytin Caddesi No: 45/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2021700603",
+    "bolum": "Hukuk Fakültesi",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -26,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
-    "saklama_suresi": "10"
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
+    "saklama_suresi": "B"
   },
-  "konu": "Katkı Payı Muafiyet Başvurusu",
+  "konu": "Erasmus+ Başvuru Duyurusu",
   "sayi": null,
-  "tarih": "04.02.2026",
+  "tarih": "14.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Katkı Payı Muafiyet",
-    "Öğrenim bilgisi": "2025 yılı mezunu",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Erasmus+ Başvuru",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -52,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı Muafiyet",
-    "2025 yılı mezunu"
+    "Erasmus+ Başvuru",
+    "lisansüstü programa kayıtlı",
+    "sürecin tamamlanabilmesi için"
   ]
 }

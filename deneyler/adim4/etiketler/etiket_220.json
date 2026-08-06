@@ -12,14 +12,14 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çankaya Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "90226917",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
@@ -27,23 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.01",
-    "ad": "Tahsis, Devir ve Takas",
+    "kod": "756.02",
+    "ad": "Satış ve Kiralama",
     "saklama_suresi": "B"
   },
-  "konu": "Okul Yeri Tahsis Talebi",
-  "sayi": "E-90226917-756.01-6990683",
-  "tarih": "05.01.2026",
+  "konu": "Taşınmaz Kiralama Talebi",
+  "sayi": "E-39985474-756.02-2237666",
+  "tarih": "23.04.2026",
   "ilgi": {
-    "tarih": "04.12.2025",
-    "sayi": "E-87730597-756.01-2372497"
+    "tarih": "03.04.2026",
+    "sayi": "E-87730597-756.02-3403902"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Tahsis, Devir ve Takas kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "hizmetlerin aksamadan yürütülmesi",
-    "Talep": "teknik destek sağlanması"
+    "Konu": "Taşınmaz Kiralama",
+    "Ortak iş": "vatandaşa sunulan hizmetin kesintisiz sürmesi",
+    "Talep": "iş birliği protokolü düzenlenmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,8 +56,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "mevcut kaynaklar yetersiz kalmaktadır",
-    "hizmetlerin aksamadan yürütülmesi",
-    "teknik destek sağlanması"
+    "Taşınmaz Kiralama",
+    "iş birliği protokolü düzenlenmesi"
   ]
 }

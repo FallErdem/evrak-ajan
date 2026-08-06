@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten ATEŞ",
-    "adres": "İvedik Mahallesi Lale Caddesi No: 110/23 Yenimahalle/ANKARA",
+    "ad": "Zeynep YILDIRIM",
+    "adres": "Emniyet Mahallesi Ihlamur Sokağı No: 10/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Periyodik Muayene Talebi",
+  "konu": "Arşivden Suret Talebi",
   "sayi": null,
-  "tarih": "30.04.2026",
+  "tarih": "07.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Periyodik Muayene",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Arşivden Suret",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,10 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Periyodik Muayene"
+    "Arşivden Suret",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

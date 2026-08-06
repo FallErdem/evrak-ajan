@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -21,27 +21,27 @@
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
-    "saklama_suresi": "15"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Eğitim Fakülteleri İle İlişkiler Oluru",
-  "sayi": "E-93213107-355.02-2948036",
-  "tarih": "16.01.2026",
+  "konu": "Kayıt-Kabul Oluru",
+  "sayi": "E-93213107-205-8105779",
+  "tarih": "22.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 2
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Eğitim Fakülteleri İle İlişkiler",
+    "Konu": "Kayıt-Kabul",
     "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
@@ -53,11 +53,10 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Eğitim Fakülteleri İle İlişkiler",
     "hizmetlerin aksamadan yürütülmesi"
   ]
 }

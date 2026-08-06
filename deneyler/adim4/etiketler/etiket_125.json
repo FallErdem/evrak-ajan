@@ -27,28 +27,28 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Yatırım Programı Hk.",
-  "sayi": "E-24316060-602.07-2064560",
-  "tarih": "01.04.2026",
+  "konu": "Mal Alım İşi Hk.",
+  "sayi": "E-24316060-934.01-88058156",
+  "tarih": "07.01.2026",
   "ilgi": {
-    "tarih": "16.02.2026",
-    "sayi": "E-14588481-602.07-4263492"
+    "tarih": "19.12.2025",
+    "sayi": "E-14588481-934.01-2429549"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Yatırım Programı kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Mal Alım İşi kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

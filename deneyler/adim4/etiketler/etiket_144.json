@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Serkan ŞIMŞEK",
-    "adres": "Yakacık Mahallesi Zeytin Sokak No: 15/2 Yenimahalle/ANKARA",
+    "ad": "Esra ARSLAN",
+    "adres": "Demetevler Mahallesi Erguvan Caddesi No: 57/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
     "saklama_suresi": "10"
   },
-  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
+  "konu": "Okul Aile Birlikleri Talebi",
   "sayi": null,
-  "tarih": "11.03.2026",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Taşımalı Eğitim Kapsamına Alınma",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Okul Aile Birlikleri",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim Kapsamına Alınma",
-    "mağduriyetin giderilmesi bakımından"
+    "Okul Aile Birlikleri"
   ]
 }

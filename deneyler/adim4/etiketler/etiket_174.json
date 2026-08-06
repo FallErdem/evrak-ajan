@@ -19,7 +19,7 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
@@ -27,23 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "209",
-    "ad": "Akademik Personel Görevlendirmeleri",
-    "saklama_suresi": "15"
+    "kod": "903.02",
+    "ad": "Atama İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "39. Madde Görevlendirme Talebi",
-  "sayi": "E-10213773-209-1048517",
-  "tarih": "09.01.2026",
+  "konu": "Naklen Atama Talebi",
+  "sayi": "E-10213773-903.02-8196590",
+  "tarih": "27.03.2026",
   "ilgi": {
-    "tarih": "16.12.2025",
-    "sayi": "E-42218640-209-2147339"
+    "tarih": "23.03.2026",
+    "sayi": "E-42218640-903.02-2862928"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Akademik Personel Görevlendirmeleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Konu": "Naklen Atama",
+    "Ortak iş": "ortak yürütülen bir çalışma",
+    "Talep": "iş birliği protokolü düzenlenmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -58,8 +57,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "mevcut kaynaklar yetersiz kalmaktadır",
-    "mevzuatın öngördüğü sürelere uyulması",
-    "ilave personel görevlendirilmesi"
+    "Naklen Atama",
+    "ortak yürütülen bir çalışma",
+    "iş birliği protokolü düzenlenmesi"
   ]
 }

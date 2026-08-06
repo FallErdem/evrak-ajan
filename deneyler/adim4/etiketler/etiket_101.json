@@ -5,40 +5,43 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Fatih GÜNEŞ",
-    "adres": "Uğur Mumcu Mahallesi Akasya Caddesi No: 3/13 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Onur ŞIMŞEK",
+    "adres": "Susuz Mahallesi Yasemin Sokak No: 57/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2022301534",
+    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
+    "kod": "302.08",
+    "ad": "İzin İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Belgesi Talebi",
+  "konu": "İzin Başvurusunun Değerlendirilmesi",
   "sayi": null,
-  "tarih": "23.02.2026",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenci Belgesi",
-    "Öğrenim bilgisi": "2. sınıf öğrencisi",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "İzin Başvurusunun Değerlendirilmesi",
+    "Öğrenim bilgisi": "2020 yılı mezunu",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,13 +50,13 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Öğrenci Belgesi",
-    "2. sınıf öğrencisi",
-    "ilgili kuruma sunulmak üzere"
+    "İzin Başvurusunun Değerlendirilmesi",
+    "2020 yılı mezunu",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatih ASLAN",
-    "adres": "Ergazi Mahallesi Akasya Caddesi No: 39/21 Yenimahalle/ANKARA",
+    "ad": "Esra DEMIR",
+    "adres": "Beştepe Mahallesi Manolya Sokak No: 1/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,15 +32,15 @@
   },
   "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "10.03.2026",
+  "tarih": "13.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Hakkında Şikâyet",
-    "Sorun": "sokak aydınlatması uzun süredir çalışmıyor",
-    "Yer": "Beştepe Mahallesi",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Sorun": "ölçü ve ölçü aletleri ile ilgili işler hakkındaki talebime yazılı cevap verilmedi",
+    "Yer": "Yakacık Mahallesi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -55,8 +55,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Beştepe Mahallesi",
-    "yaklaşık iki aydır",
+    "Yakacık Mahallesi",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

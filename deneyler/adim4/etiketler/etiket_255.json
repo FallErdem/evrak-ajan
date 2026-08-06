@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,33 +23,35 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
-  "dagitim": [
-    "Gazi Üniversitesi",
-    "Yükseköğretim Kurulu Başkanlığı",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "Fen Bilimleri Enstitüsü Müdürlüğü"
-  ],
-  "beklenen_kapanis": "karma",
-  "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "dagitim": {
+    "geregi": [
+      "Gazi Üniversitesi",
+      "Ankara İl Millî Eğitim Müdürlüğü",
+      "Ankara Valiliği"
+    ],
+    "bilgi": []
   },
-  "konu": "Uygulama Hakkında Hukuki Görüş",
-  "sayi": "E-32625594-045.02-1794351",
-  "tarih": "29.05.2026",
+  "beklenen_kapanis": "rica",
+  "sdp": {
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
+  },
+  "konu": "Stajlar Hk.",
+  "sayi": "E-32625594-304.03-85897614",
+  "tarih": "20.01.2026",
   "ilgi": {
-    "tarih": "11.05.2026",
-    "sayi": "E-82642947-045.02-6838747"
+    "tarih": "07.01.2026",
+    "sayi": "E-86488853-304.03-5554426"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Hukuki kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Stajlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
@@ -63,7 +65,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],

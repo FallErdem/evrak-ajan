@@ -5,41 +5,44 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Onur ÖZTÜRK",
-    "adres": "Batıkent Mahallesi Ceviz Sokak No: 105/23 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Emre YILDIRIM",
+    "adres": "Ragıpbey Mahallesi Papatya Caddesi No: 22/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2019941581",
+    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "sinif": "4"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
     "saklama_suresi": "10"
   },
-  "konu": "İzin İşleri Hakkında Şikâyet",
+  "konu": "Nakil, Kayıt Dondurma ve Kayıt Silme Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "06.01.2026",
+  "tarih": "20.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İzin İşleri Hakkında Şikâyet",
-    "Sorun": "derslik ısıtma sistemi çalışmıyor",
-    "Yer": "Ragıpbey Mahallesi",
-    "Süre": "bir aydan uzun süredir",
+    "Şikâyet konusu": "Nakil, Kayıt Dondurma ve Kayıt Silme Hakkında Şikâyet",
+    "Sorun": "izin talebim otuz gündür sonuçlandırılmadı",
+    "Yer": "Beşevler Yerleşkesi",
+    "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -51,15 +54,13 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İzin İşleri Hakkında Şikâyet",
-    "derslik ısıtma sistemi çalışmıyor",
-    "Ragıpbey Mahallesi",
-    "bir aydan uzun süredir",
+    "Beşevler Yerleşkesi",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

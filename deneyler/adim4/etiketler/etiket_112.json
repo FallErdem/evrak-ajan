@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
@@ -23,27 +23,27 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "110.04",
+    "ad": "Encümen Kararları",
+    "saklama_suresi": "B"
   },
-  "konu": "Stratejik Plan Verisi Talebi",
-  "sayi": "E-24304062-602.04-4861167",
-  "tarih": "28.04.2026",
+  "konu": "Encümen Kararı Örneği Talebi",
+  "sayi": "E-24312041-110.04-54765629",
+  "tarih": "18.03.2026",
   "ilgi": {
-    "tarih": "19.03.2026",
-    "sayi": "E-43195403-602.04-2186742"
+    "tarih": "19.02.2026",
+    "sayi": "E-15986609-110.04-2660248"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "en geç bir hafta içinde"
+    "Süre": "ay sonuna kadar"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,12 +53,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "en geç bir hafta içinde"
+    "ay sonuna kadar"
   ]
 }

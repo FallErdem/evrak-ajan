@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -23,7 +23,7 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
@@ -32,16 +32,16 @@
     "saklama_suresi": "15"
   },
   "konu": "Kararlar Hakkında Görüş Talebi",
-  "sayi": "E-10213773-050.04-1115491",
-  "tarih": "12.03.2026",
+  "sayi": "E-55461037-050.04-1919685",
+  "tarih": "29.04.2026",
   "ilgi": {
-    "tarih": "16.02.2026",
-    "sayi": "E-82642947-050.04-6799660"
+    "tarih": "10.04.2026",
+    "sayi": "E-39985474-050.04-2228052"
   },
   "ek": null,
   "somut_bilgiler": {
     "Konu": "Kararlar",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,7 +52,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],

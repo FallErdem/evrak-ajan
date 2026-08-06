@@ -11,11 +11,14 @@
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
-    "tip": "gercek_kisi",
-    "ad": "Mehmet YAVUZ",
-    "adres": "Beştepe Mahallesi Erguvan Sokak No: 96/16 Yenimahalle/ANKARA",
+    "tip": "ogrenci",
+    "ad": "Pınar YILDIZ",
+    "adres": "Serhat Mahallesi Menekşe Caddesi No: 82/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
-    "detsis_no": null
+    "detsis_no": null,
+    "ogrenci_no": "2023216727",
+    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "sinif": "1"
   },
   "belge_turu": "itiraz",
   "aile": "itiraz",
@@ -26,26 +29,26 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Öğrenci Toplulukları, Birlikleri vb. Kararına İtiraz",
+  "konu": "Stajlar Kararına İtiraz",
   "sayi": null,
-  "tarih": "14.01.2026",
+  "tarih": "09.02.2026",
   "ilgi": {
-    "tarih": "09.12.2025",
-    "sayi": "E-98244303-309-6939006"
+    "tarih": "27.01.2026",
+    "sayi": "E-98244303-304.03-7876752"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 4
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Öğrenci Toplulukları, Birlikleri vb. Kararına İtiraz",
+    "İtiraz konusu": "Stajlar Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -61,6 +64,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
+    "Stajlar Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
@@ -19,31 +19,30 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
     "saklama_suresi": "15"
   },
-  "konu": "Karar Örneği Talebi",
-  "sayi": "E-10213773-050.04-1134902",
-  "tarih": "30.03.2026",
+  "konu": "Stratejik Plan Verisi Talebi",
+  "sayi": "E-10213773-602.04-8101627",
+  "tarih": "15.01.2026",
   "ilgi": {
-    "tarih": "25.03.2026",
-    "sayi": "E-82642947-050.04-6816913"
+    "tarih": "08.12.2025",
+    "sayi": "E-39985474-602.04-2136283"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Kararlar kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "vatandaş memnuniyetinin artırılması",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Konu": "Stratejik Plan Verisi",
+    "Ortak iş": "ortak yürütülen bir çalışma",
+    "Talep": "iş birliği protokolü düzenlenmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,14 +52,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kararlar kapsamındaki iş yükü artmıştır",
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "vatandaş memnuniyetinin artırılması",
-    "gerekli ödeneğin tahsis edilmesi"
+    "Stratejik Plan Verisi",
+    "ortak yürütülen bir çalışma",
+    "iş birliği protokolü düzenlenmesi"
   ]
 }

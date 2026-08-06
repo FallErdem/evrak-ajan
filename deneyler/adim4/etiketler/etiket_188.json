@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet BULUT",
-    "adres": "Emniyet Mahallesi Nergis Sokağı No: 26/10 Yenimahalle/ANKARA",
+    "ad": "Sevgi KARACA",
+    "adres": "Batıkent Mahallesi Papatya Sokak No: 112/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,23 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
+    "kod": "115.02.04",
+    "ad": "Yapı Ruhsatı",
     "saklama_suresi": "B"
   },
-  "konu": "Hafta Tatili Ruhsatı Talebi",
+  "konu": "Yapı Ruhsatı Başvurusu",
   "sayi": null,
-  "tarih": "26.05.2026",
+  "tarih": "15.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Hafta Tatili Ruhsatı",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Yapı Ruhsatı",
+    "Taşınmaz": "89378 ada, 22 parsel",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +47,12 @@
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Hafta Tatili Ruhsatı",
-    "mağduriyetin giderilmesi bakımından"
+    "Yapı Ruhsatı",
+    "89378 ada, 22 parsel",
+    "sürecin tamamlanabilmesi için"
   ]
 }

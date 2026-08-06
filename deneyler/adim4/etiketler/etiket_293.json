@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Atlas Mühendislik Ltd. Şti.",
+    "kurum_adi": "Merkez Turizm ve Ticaret A.Ş.",
     "ad": null,
-    "adres": "Batıkent Mahallesi Ceviz Sokağı No: 9/16 Yenimahalle/ANKARA",
+    "adres": "Beştepe Mahallesi Akasya Caddesi No: 18/10 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,23 +23,23 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
+    "kod": "115.02.04",
+    "ad": "Yapı Ruhsatı",
     "saklama_suresi": "B"
   },
-  "konu": "Hafta Tatili Ruhsatı Talebi",
-  "sayi": "2026/248",
-  "tarih": "05.05.2026",
+  "konu": "Ruhsat Yenileme Talebi",
+  "sayi": "2026/18",
+  "tarih": "06.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Ruhsat konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Talep": "Yapı Ruhsatı konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
     "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
@@ -50,7 +50,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

@@ -19,7 +19,7 @@
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
-  "aile": "kaynak_talebi",
+  "aile": "isbirligi_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
@@ -27,23 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.01",
-    "ad": "Tahsis, Devir ve Takas",
+    "kod": "756.02",
+    "ad": "Satış ve Kiralama",
     "saklama_suresi": "B"
   },
-  "konu": "Okul Yeri Tahsis Talebi",
-  "sayi": "E-39985474-756.01-6495642",
-  "tarih": "20.01.2026",
+  "konu": "Taşınmaz Kiralama Talebi",
+  "sayi": "E-39985474-756.02-2175888",
+  "tarih": "30.01.2026",
   "ilgi": {
-    "tarih": "08.12.2025",
-    "sayi": "E-87730597-756.01-2375816"
+    "tarih": "26.01.2026",
+    "sayi": "E-87730597-756.02-3374264"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Tahsis, Devir ve Takas kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "hizmetlerin aksamadan yürütülmesi",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Konu": "Taşınmaz Kiralama",
+    "Ortak iş": "ortak yürütülen bir çalışma",
+    "Talep": "gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,7 +56,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "hizmetlerin aksamadan yürütülmesi",
-    "ilave personel görevlendirilmesi"
+    "Taşınmaz Kiralama",
+    "ortak yürütülen bir çalışma",
+    "gerekli koordinasyonun sağlanması"
   ]
 }

@@ -5,46 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Temizlik İşleri Müdürlüğü",
+    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "83011479",
+    "detsis_no": "18426575",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_makam": "Fen İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
-    "saklama_suresi": "10"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "Engellilere Yönelik Hizmetler Hk.",
-  "sayi": "E-83011479-120.02-5665543",
-  "tarih": "20.01.2026",
+  "konu": "Zemin Etüdü Raporunun Gönderilmesi",
+  "sayi": "E-18426575-755.01-3999588",
+  "tarih": "13.04.2026",
   "ilgi": {
-    "tarih": "06.01.2026",
-    "sayi": "E-85330682-120.02-6975148"
+    "tarih": "31.03.2026",
+    "sayi": "E-33152401-755.01-3426661"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Engellilere Yönelik Hizmetler",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Talep": "Zemin Etüdü Raporunun Gönderilmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,14 +54,13 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Engellilere Yönelik Hizmetler",
-    "olumlu, belge düzenlendi",
-    "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "Zemin Etüdü Raporunun Gönderilmesi",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

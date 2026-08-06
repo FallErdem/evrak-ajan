@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mustafa BULUT",
-    "adres": "Çiğdemtepe Mahallesi Ceviz Sokak No: 64/19 Yenimahalle/ANKARA",
+    "ad": "Mehmet ARSLAN",
+    "adres": "Batıkent Mahallesi Zeytin Sokağı No: 89/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,24 +22,24 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
-    "saklama_suresi": "10"
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
+    "saklama_suresi": "B"
   },
-  "konu": "Servis Hizmeti Aksaklığı Bildirimi",
+  "konu": "Yurtdışı Eğitim Denkliği Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "22.01.2026",
+  "tarih": "13.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
-    "Sorun": "okul kantininde fiyat listesi asılı değil",
-    "Yer": "Pamuklar Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
+    "Şikâyet konusu": "Yurtdışı Eğitim Denkliği Hakkında Şikâyet",
+    "Sorun": "yurtdışı eğitim denkliği hakkındaki talebime yazılı cevap verilmedi",
+    "Yer": "okul servis güzergâhı",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
@@ -51,13 +51,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Servis Hizmeti Aksaklığı",
-    "Pamuklar Mahallesi",
-    "yaklaşık kırk gündür",
+    "okul servis güzergâhı",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

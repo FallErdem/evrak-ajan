@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
-    "saklama_suresi": "10"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "Atık Yönetimi Listesinin Gönderilmesi",
-  "sayi": "E-24312041-155.01-3649876",
-  "tarih": "05.05.2026",
+  "konu": "Ruhsat Listesinin Gönderilmesi",
+  "sayi": "E-24312041-170.01-54590812",
+  "tarih": "04.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "mali yıl",
-    "Sayı": "18 kayıt",
-    "Ek 1": "Atık Yönetimi listesi",
+    "Dönem": "içinde bulunulan yıl",
+    "Sayı": "142 kayıt",
+    "Ek 1": "Ruhsat listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +57,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "mali yıl",
-    "18 kayıt",
-    "Atık Yönetimi listesi",
+    "içinde bulunulan yıl",
+    "142 kayıt",
+    "Ruhsat listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

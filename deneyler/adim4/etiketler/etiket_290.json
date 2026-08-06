@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Mühendislik Fakültesi Dekanlığı",
+    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "43123369",
+    "detsis_no": "47014261",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Kararlar Oluru",
-  "sayi": "E-43123369-050.04-2790095",
-  "tarih": "24.04.2026",
+  "konu": "Onaylı Örnek Talebi",
+  "sayi": "E-47014261-622.02-5199473",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Kararlar",
-    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
+    "Konu": "Belge Talepleri",
+    "Gerekçe": "vatandaş memnuniyetinin artırılması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -58,6 +58,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "hizmetlerin aksamadan yürütülmesi"
+    "Belge Talepleri",
+    "vatandaş memnuniyetinin artırılması"
   ]
 }
