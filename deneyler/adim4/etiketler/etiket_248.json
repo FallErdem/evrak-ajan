@@ -5,10 +5,10 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,25 +22,28 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "125",
-    "ad": "Evlendirme İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Nikah Tarihi Talebi",
-  "sayi": "E-90226917-125-8660988",
-  "tarih": "13.05.2026",
+  "konu": "Çalıştay Katılım Talebi",
+  "sayi": "E-90226917-051-7048415",
+  "tarih": "01.04.2026",
   "ilgi": {
-    "tarih": "01.05.2026",
-    "sayi": "E-65859045-125-4977243"
+    "tarih": "10.03.2026",
+    "sayi": "E-65859045-051-3338582"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Evlendirme İşlemleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "hizmetlerin aksamadan yürütülmesi",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Mevcut durum": "Toplantı ve Etkinlik İşleri kapsamındaki iş yükü artmıştır",
+    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
+    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "mevcut kaynaklar yetersiz kalmaktadır",
-    "hizmetlerin aksamadan yürütülmesi",
-    "ilave personel görevlendirilmesi"
+    "iş ve işlemlerin zamanında tamamlanması",
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

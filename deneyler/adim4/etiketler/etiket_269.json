@@ -5,43 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Temizlik İşleri Müdürlüğü",
+    "kurum_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "83011479",
+    "detsis_no": "89052714",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "105.04",
-    "ad": "Meclis Kararları",
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
     "saklama_suresi": "15"
   },
-  "konu": "Meclis Kararının Gönderilmesi",
-  "sayi": "E-83011479-105.04-6853450",
-  "tarih": "08.01.2026",
+  "konu": "Bütçe Teklifinin Gönderilmesi",
+  "sayi": "E-89052714-841.01-1066056",
+  "tarih": "14.01.2026",
   "ilgi": {
-    "tarih": "02.12.2025",
-    "sayi": "E-65859045-105.04-4180520"
+    "tarih": "12.12.2025",
+    "sayi": "E-43195403-841.01-2122310"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Meclis Kararının Gönderilmesi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Bütçe Teklifinin Gönderilmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,14 +54,13 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Meclis Kararının Gönderilmesi",
-    "olumlu, talep karşılandı",
+    "Bütçe Teklifinin Gönderilmesi",
+    "olumlu, işlem tamamlandı",
     "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren altı ay"
+    "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

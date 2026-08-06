@@ -22,6 +22,9 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "105.04",
@@ -29,17 +32,17 @@
     "saklama_suresi": "15"
   },
   "konu": "Meclis Kararı Örneği Talebi",
-  "sayi": "E-55461037-105.04-5985706",
-  "tarih": "24.03.2026",
+  "sayi": "E-55461037-105.04-3785486",
+  "tarih": "17.03.2026",
   "ilgi": {
-    "tarih": "04.03.2026",
-    "sayi": "E-65859045-105.04-9189382"
+    "tarih": "11.02.2026",
+    "sayi": "E-15986609-105.04-2407905"
   },
   "ek": null,
   "somut_bilgiler": {
     "Mevcut durum": "Meclis Kararları kapsamındaki iş yükü artmıştır",
     "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
+    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
     "Talep": "teknik destek sağlanması"
   },
   "paragraf_cumle_sayilari": [
@@ -54,7 +57,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "mevzuatın öngördüğü sürelere uyulması",
+    "iş ve işlemlerin zamanında tamamlanması",
     "teknik destek sağlanması"
   ]
 }

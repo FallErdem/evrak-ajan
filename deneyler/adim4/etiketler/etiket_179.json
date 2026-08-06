@@ -12,32 +12,35 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
-    "saklama_suresi": "15"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Eğitim Fakülteleri İle İlişkiler Hakkında Görüş Talebi",
-  "sayi": "E-65859045-355.02-1887459",
-  "tarih": "27.03.2026",
+  "konu": "Bilgi Edinme, Talep ve Şikayetler Hakkında Görüş Talebi",
+  "sayi": "E-39985474-622.01-6554537",
+  "tarih": "28.04.2026",
   "ilgi": {
-    "tarih": "11.02.2026",
-    "sayi": "E-55461037-355.02-5798314"
+    "tarih": "20.03.2026",
+    "sayi": "E-55461037-622.01-3787704"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Eğitim Fakülteleri İle İlişkiler",
+    "Konu": "Bilgi Edinme, Talep ve Şikayetler",
     "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -53,7 +56,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Eğitim Fakülteleri İle İlişkiler",
+    "Bilgi Edinme, Talep ve Şikayetler",
     "konu hakkında görüş bildirilmesi"
   ]
 }

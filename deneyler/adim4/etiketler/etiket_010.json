@@ -5,42 +5,45 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
     "kurum_adi": "Yükseköğretim Kurulu Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10101653",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "32625594",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
   "aile": "tekit",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Personel Dairesi Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "903.02",
+    "ad": "Atama İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Stratejik Plan Verisi Talebi",
-  "sayi": "E-10101653-602.04-3447607",
-  "tarih": "16.01.2026",
+  "konu": "Naklen Atama Talebi",
+  "sayi": "E-32625594-903.02-1770899",
+  "tarih": "06.04.2026",
   "ilgi": {
-    "tarih": "07.01.2026",
-    "sayi": "E-39985474-602.04-6512523"
+    "tarih": "17.03.2026",
+    "sayi": "E-42218640-903.02-2191979"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "ay sonuna kadar"
+    "Süre": "en geç bir hafta içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,13 +53,13 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Personel Dairesi Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "ay sonuna kadar"
+    "en geç bir hafta içinde"
   ]
 }

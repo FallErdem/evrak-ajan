@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Atlas Mühendislik Ltd. Şti.",
+    "kurum_adi": "Öz Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Barıştepe Mahallesi Ihlamur Sokak No: 52/18 Yenimahalle/ANKARA",
+    "adres": "Kaletepe Mahallesi Ceviz Caddesi No: 41/11 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -22,20 +22,23 @@
   "aile": "bilgi_edinme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "051",
-    "ad": "Toplantı ve Etkinlik İşleri",
-    "saklama_suresi": "15"
+    "kod": "115.02.10",
+    "ad": "Adres ve Numaralandırma",
+    "saklama_suresi": "B"
   },
-  "konu": "Çalıştay Katılım Talebi",
-  "sayi": "2026/4259",
-  "tarih": "14.05.2026",
+  "konu": "Kapı Numarası Verilmesi Talebi",
+  "sayi": "2026/55",
+  "tarih": "07.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Toplantı ve Etkinlik İşleri konusundaki güncel verilerin paylaşılması",
+    "Talep": "Adres ve Numaralandırma konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
     "Bildirim yolu": "e-Devlet üzerinden"
   },
@@ -47,7 +50,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yenimahalle Belediye Başkanlığı",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

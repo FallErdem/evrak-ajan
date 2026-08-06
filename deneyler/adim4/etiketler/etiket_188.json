@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ramazan KORKMAZ",
-    "adres": "Emniyet Mahallesi Ihlamur Caddesi No: 80/2 Yenimahalle/ANKARA",
+    "ad": "Mehmet BULUT",
+    "adres": "Emniyet Mahallesi Nergis Sokağı No: 26/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,20 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "İdari Yaptırım/Para Cezası İşleri Talebi",
+  "konu": "Hafta Tatili Ruhsatı Talebi",
   "sayi": null,
-  "tarih": "27.04.2026",
+  "tarih": "26.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İdari Yaptırım/Para Cezası İşleri",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Hafta Tatili Ruhsatı",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -43,11 +46,11 @@
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İdari Yaptırım/Para Cezası İşleri",
-    "resmî işlemlerde kullanılmak üzere"
+    "Hafta Tatili Ruhsatı",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

@@ -5,43 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "makine_ikmal",
+    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "detsis_no": "89052714",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "10045836",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "10213773",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "801",
+    "ad": "Taşıt ve İş Makineleri İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "İdari Davalar Hk.",
-  "sayi": "E-10045836-641.04-1193668",
-  "tarih": "18.02.2026",
+  "konu": "Taşıt ve İş Makineleri İşleri Hk.",
+  "sayi": "E-10213773-801-1084030",
+  "tarih": "11.02.2026",
   "ilgi": {
-    "tarih": "09.01.2026",
-    "sayi": "E-65859045-641.04-4484520"
+    "tarih": "29.01.2026",
+    "sayi": "E-89052714-801-1076864"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 6
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "İdari Davalar kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Taşıt ve İş Makineleri İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
@@ -55,7 +58,7 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

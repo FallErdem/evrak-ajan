@@ -5,23 +5,26 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Genel Sekreterlik",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "050.04",
@@ -29,15 +32,15 @@
     "saklama_suresi": "15"
   },
   "konu": "Karar Örneği Talebi",
-  "sayi": "E-55461037-050.04-5986453",
-  "tarih": "09.03.2026",
+  "sayi": "E-65859045-050.04-3321886",
+  "tarih": "12.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Mevcut durum": "Kararlar kapsamındaki iş yükü artmıştır",
     "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "hizmetlerin aksamadan yürütülmesi",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Amaç": "kaynakların etkin kullanılması",
+    "Talep": "teknik destek sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -47,14 +50,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
     "Kararlar kapsamındaki iş yükü artmıştır",
     "mevcut kaynaklar yetersiz kalmaktadır",
-    "hizmetlerin aksamadan yürütülmesi",
-    "ilave personel görevlendirilmesi"
+    "kaynakların etkin kullanılması",
+    "teknik destek sağlanması"
   ]
 }

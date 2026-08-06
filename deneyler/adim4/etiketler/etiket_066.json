@@ -5,43 +5,46 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ergazi Ortaokulu Müdürlüğü",
+    "kurum_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10072977",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "91571118",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Diploma Hk.",
-  "sayi": "E-10072977-198.02.01-5334809",
-  "tarih": "22.05.2026",
+  "konu": "Uygulama Okulunun Belirlenmesi Hk.",
+  "sayi": "E-91571118-355.02-1353436",
+  "tarih": "06.03.2026",
   "ilgi": {
-    "tarih": "27.04.2026",
-    "sayi": "E-55461037-198.02.01-6545101"
+    "tarih": "30.01.2026",
+    "sayi": "E-55461037-355.02-3752262"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Uygulama Okulunun Belirlenmesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,13 +54,14 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "olumlu, işlem tamamlandı",
+    "Uygulama Okulunun Belirlenmesi",
+    "olumlu, belge düzenlendi",
     "Müdürlüğümüz kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren altı ay"
+    "kimlik belgesi ibraz edilerek şahsen",
+    "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

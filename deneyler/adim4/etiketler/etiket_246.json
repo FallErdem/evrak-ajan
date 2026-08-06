@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,20 +22,23 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "903.02",
-    "ad": "Atama İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Naklen Atama Talebi",
-  "sayi": "E-55461037-903.02-5987465",
-  "tarih": "13.03.2026",
+  "konu": "Kayıt Süresi Uzatım Talebi",
+  "sayi": "E-55461037-302.01-3752198",
+  "tarih": "30.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Atama İşleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Mevcut durum": "Yeni Kayıt İşlemleri kapsamındaki iş yükü artmıştır",
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
     "Amaç": "mevzuatın öngördüğü sürelere uyulması",
     "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
@@ -47,12 +50,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "mevcut kaynaklar yetersiz kalmaktadır",
+    "ek kapasiteye ihtiyaç duyulmaktadır",
     "mevzuatın öngördüğü sürelere uyulması",
     "gerekli ödeneğin tahsis edilmesi"
   ]

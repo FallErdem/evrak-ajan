@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "İbrahim ŞAHIN",
-    "adres": "Ragıpbey Mahallesi Manolya Caddesi No: 22/8 Yenimahalle/ANKARA",
+    "ad": "Aslı DOĞAN",
+    "adres": "Emniyet Mahallesi Ihlamur Sokağı No: 100/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,20 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
-    "saklama_suresi": "10"
+    "kod": "115.02.01",
+    "ad": "İmar Durumu (Belgesi)",
+    "saklama_suresi": "B"
   },
-  "konu": "Sosyal Yardım Başvurusu",
+  "konu": "İmar Durum Belgesi Talebi",
   "sayi": null,
-  "tarih": "02.03.2026",
+  "tarih": "06.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Sosyal Yardım",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "İmar Durum Belgesi",
+    "Taşınmaz": "47421 ada, 4 parsel",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -43,11 +47,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Sosyal Yardım",
-    "resmî işlemlerde kullanılmak üzere"
+    "İmar Durum Belgesi",
+    "47421 ada, 4 parsel",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

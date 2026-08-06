@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Doruk Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Atlas İnşaat Ltd. Şti.",
     "ad": null,
-    "adres": "Pamuklar Mahallesi Çınar Sokak No: 119/19 Yenimahalle/ANKARA",
+    "adres": "Batıkent Mahallesi Erguvan Sokağı No: 95/5 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -22,22 +22,25 @@
   "aile": "bilgi_edinme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
+    "saklama_suresi": "B"
   },
-  "konu": "Bursluluk Başvurusu",
-  "sayi": "2026/5435",
-  "tarih": "28.05.2026",
+  "konu": "Denklik Belgesi Talebi",
+  "sayi": "2026/444",
+  "tarih": "25.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Bursluluk konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "elektronik posta ile"
+    "Talep": "Yurtdışı Eğitim Denkliği konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,7 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
-    "elektronik posta ile"
+    "e-Devlet üzerinden"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sevgi ŞAHIN",
-    "adres": "Serhat Mahallesi Menekşe Sokak No: 120/20 Yenimahalle/ANKARA",
+    "ad": "Ali ERDOĞAN",
+    "adres": "Barıştepe Mahallesi Manolya Caddesi No: 113/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,6 +21,9 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "235",
@@ -29,15 +32,15 @@
   },
   "konu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "03.02.2026",
+  "tarih": "29.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
-    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
-    "Yer": "Pamuklar Mahallesi",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Sorun": "okul servis aracı ilan edilen güzergâhı izlemiyor",
+    "Yer": "Karşıyaka Mahallesi",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,8 +55,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Pamuklar Mahallesi",
-    "geçtiğimiz aydan bu yana",
+    "Karşıyaka Mahallesi",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

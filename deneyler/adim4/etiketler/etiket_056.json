@@ -12,30 +12,33 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Bütçe Çalışmaları Hakkında Görüş Talebi",
-  "sayi": "E-55461037-841.01-5986135",
-  "tarih": "13.02.2026",
+  "konu": "Borç ve Alacak İşleri Hakkında Görüş Talebi",
+  "sayi": "E-39985474-855-6552112",
+  "tarih": "24.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Bütçe Çalışmaları",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Borç ve Alacak İşleri",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -50,7 +53,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bütçe Çalışmaları",
+    "Borç ve Alacak İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

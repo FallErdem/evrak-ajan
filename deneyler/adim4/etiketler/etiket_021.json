@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Esra TURAN",
-    "adres": "Ostim Mahallesi Sümbül Sokak No: 32/22 Yenimahalle/ANKARA",
+    "ad": "Fatih ASLAN",
+    "adres": "Susuz Mahallesi Manolya Sokak No: 70/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,23 +21,26 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Staj İşleri Hakkında Şikâyet",
+  "konu": "Servis Hizmeti Aksaklığı Bildirimi",
   "sayi": null,
-  "tarih": "30.01.2026",
+  "tarih": "12.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Staj İşleri Hakkında Şikâyet",
-    "Sorun": "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
+    "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
+    "Sorun": "yemekhane hizmetinde uzun kuyruk oluşuyor",
     "Yer": "İvedik Mahallesi",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -48,14 +51,14 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj İşleri Hakkında Şikâyet",
+    "Servis Hizmeti Aksaklığı",
     "İvedik Mahallesi",
-    "geçtiğimiz aydan bu yana",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

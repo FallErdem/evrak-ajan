@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine KURT",
-    "adres": "İvedik Mahallesi Ihlamur Caddesi No: 109/15 Yenimahalle/ANKARA",
+    "ad": "Esra UÇAR",
+    "adres": "Batıkent Mahallesi Sümbül Sokağı No: 55/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,15 +21,18 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Servis Güzergahı Talebi",
+  "konu": "Öğrenim Belgesi Talebi",
   "sayi": null,
-  "tarih": "02.02.2026",
+  "tarih": "27.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -37,8 +40,8 @@
     "sayfa": 3
   },
   "somut_bilgiler": {
-    "Talep": "Servis Güzergahı",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Öğrenim Belgesi",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,7 +54,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Servis Güzergahı",
-    "resmî işlemlerde kullanılmak üzere"
+    "Öğrenim Belgesi",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

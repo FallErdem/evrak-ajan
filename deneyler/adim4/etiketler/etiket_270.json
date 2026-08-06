@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf ARSLAN",
-    "adres": "Demetevler Mahallesi Çınar Sokak No: 59/3 Yenimahalle/ANKARA",
+    "ad": "Hatice DOĞAN",
+    "adres": "Uğur Mumcu Mahallesi Nergis Sokak No: 69/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Öğrenci Topluluğu Kurulma Talebi",
+  "konu": "Zorunlu Staj Başvurusu",
   "sayi": null,
-  "tarih": "26.03.2026",
+  "tarih": "06.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenci Topluluğu Kurulma",
-    "Öğrenim bilgisi": "4. sınıf öğrencisi",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Zorunlu Staj",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +52,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Öğrenci Topluluğu Kurulma",
-    "4. sınıf öğrencisi",
-    "başvuru dosyasına eklenmek üzere"
+    "Zorunlu Staj",
+    "lisansüstü programa kayıtlı",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

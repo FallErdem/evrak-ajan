@@ -15,34 +15,37 @@
     "kurum_adi": "Yükseköğretim Kurulu Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10101653",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "32625594",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Genel Sekreterlik",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Kararlar Hk.",
-  "sayi": "E-10101653-050.04-3449238",
-  "tarih": "27.05.2026",
+  "konu": "Araştırma İzni Hk.",
+  "sayi": "E-32625594-805.02.05-1744299",
+  "tarih": "05.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Kararlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Arşivlerden Yararlanma kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

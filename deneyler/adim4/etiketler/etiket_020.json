@@ -5,32 +5,35 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "755.01",
-    "ad": "Etüd-Proje ve Fizibilite",
-    "saklama_suresi": "30"
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
   },
-  "konu": "Etüt Proje Hazırlanması Talebi",
-  "sayi": "E-39985474-755.01-2600669",
-  "tarih": "20.04.2026",
+  "konu": "Ödenek Talebi",
+  "sayi": "E-55461037-841.01-3832321",
+  "tarih": "21.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -38,10 +41,10 @@
     "sayfa": 3
   },
   "somut_bilgiler": {
-    "Mevcut durum": "Etüd-Proje ve Fizibilite kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Bütçe Çalışmaları kapsamındaki iş yükü artmıştır",
     "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "hizmetlerin aksamadan yürütülmesi",
-    "Talep": "teknik destek sağlanması"
+    "Amaç": "kaynakların etkin kullanılması",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -51,12 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "mevcut kaynaklar yetersiz kalmaktadır",
-    "hizmetlerin aksamadan yürütülmesi",
-    "teknik destek sağlanması"
+    "kaynakların etkin kullanılması",
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

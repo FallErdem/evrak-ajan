@@ -5,35 +5,38 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10045836",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "24304062",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "755.01",
-    "ad": "Etüd-Proje ve Fizibilite",
-    "saklama_suresi": "30"
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
   },
-  "konu": "Etüd-Proje ve Fizibilite Hk.",
-  "sayi": "E-10045836-755.01-1194140",
-  "tarih": "05.05.2026",
+  "konu": "Bütçe Çalışmaları Hk.",
+  "sayi": "E-24304062-841.01-4731473",
+  "tarih": "07.01.2026",
   "ilgi": {
-    "tarih": "23.04.2026",
-    "sayi": "E-65859045-755.01-3385143"
+    "tarih": "17.12.2025",
+    "sayi": "E-43195403-841.01-2125600"
   },
   "ek": {
     "adet": 1,
@@ -41,7 +44,7 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Etüd-Proje ve Fizibilite kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Bütçe Çalışmaları kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
@@ -55,7 +58,7 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

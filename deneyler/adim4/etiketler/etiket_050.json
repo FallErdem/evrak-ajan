@@ -5,16 +5,16 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Yıldız Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Kuzey Eğitim Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Uğur Mumcu Mahallesi Zeytin Sokak No: 75/19 Yenimahalle/ANKARA",
+    "adres": "İvedik Mahallesi Akasya Sokak No: 68/18 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -22,21 +22,24 @@
   "aile": "bilgi_edinme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Dondurma Talebi",
-  "sayi": "2026/6890",
-  "tarih": "13.04.2026",
+  "konu": "Topluluk Etkinlik İzni Talebi",
+  "sayi": "2026/721",
+  "tarih": "13.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Nakil, Kayıt Dondurma ve Kayıt Silme konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Talep": "Öğrenci Toplulukları, Birlikleri vb. konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
     "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
@@ -47,7 +50,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],

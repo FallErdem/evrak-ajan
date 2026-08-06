@@ -12,32 +12,35 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
-  "sayi": "E-39985474-355.02-2600868",
-  "tarih": "14.01.2026",
+  "konu": "Genelge Görüşü Talebi",
+  "sayi": "E-65859045-010.06-3376314",
+  "tarih": "08.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Eğitim Fakülteleri İle İlişkiler kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Genelgeler kapsamındaki iş yükü artmıştır",
     "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "vatandaş memnuniyetinin artırılması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,7 +55,7 @@
   ],
   "anahtar_terimler": [
     "ek kapasiteye ihtiyaç duyulmaktadır",
-    "vatandaş memnuniyetinin artırılması",
-    "ilave personel görevlendirilmesi"
+    "iş ve işlemlerin zamanında tamamlanması",
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

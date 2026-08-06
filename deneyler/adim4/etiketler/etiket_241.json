@@ -15,36 +15,44 @@
     "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10056635",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "24316060",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": [
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Ankara Valiliği",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü"
+  ],
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
-    "saklama_suresi": "15"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Eğitim Fakülteleri İle İlişkiler Listesinin Gönderilmesi",
-  "sayi": "E-10056635-355.02-3593972",
-  "tarih": "06.01.2026",
+  "konu": "Bilgi Edinme, Talep ve Şikayetler Listesinin Gönderilmesi",
+  "sayi": "E-24316060-622.01-2072974",
+  "tarih": "13.04.2026",
   "ilgi": {
-    "tarih": "18.12.2025",
-    "sayi": "E-55461037-355.02-2763866"
+    "tarih": "26.03.2026",
+    "sayi": "E-55461037-622.01-3791842"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "186 kayıt",
-    "Ek 1": "Eğitim Fakülteleri İle İlişkiler listesi",
+    "Dönem": "bahar dönemi",
+    "Sayı": "24 kayıt",
+    "Ek 1": "Bilgi Edinme, Talep ve Şikayetler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -62,9 +70,8 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
-    "186 kayıt",
-    "Eğitim Fakülteleri İle İlişkiler listesi",
+    "bahar dönemi",
+    "24 kayıt",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Kemal AKSOY",
-    "adres": "Beştepe Mahallesi Sümbül Sokak No: 1/15 Yenimahalle/ANKARA",
+    "ad": "Merve KARA",
+    "adres": "Serhat Mahallesi Sümbül Sokağı No: 22/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Erasmus+ Başvuru Duyurusu",
+  "konu": "Transkript Talebi",
   "sayi": null,
-  "tarih": "05.02.2026",
+  "tarih": "17.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Erasmus+ Başvuru",
-    "Öğrenim bilgisi": "2016 yılı mezunu",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Transkript",
+    "Öğrenim bilgisi": "2019 yılı mezunu",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +52,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Erasmus+ Başvuru",
-    "2016 yılı mezunu",
-    "başvuru dosyasına eklenmek üzere"
+    "2019 yılı mezunu",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Şafak Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Ergazi Mahallesi Menekşe Sokak No: 18/7 Yenimahalle/ANKARA",
+    "adres": "Pamuklar Mahallesi Manolya Sokak No: 74/12 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -22,22 +22,25 @@
   "aile": "bilgi_edinme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.08",
-    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
+    "kod": "115.02.08",
+    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
     "saklama_suresi": "B"
   },
-  "konu": "İrtifak Hakkı Tesisi Talebi",
-  "sayi": "2026/3130",
-  "tarih": "03.03.2026",
+  "konu": "İskan Ruhsatı Başvurusu",
+  "sayi": "2026/148",
+  "tarih": "09.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb. konusundaki güncel verilerin paylaşılması",
+    "Talep": "Yapı Kullanma İzni (İskan Ruhsatı) konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "posta yoluyla adresime"
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,6 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "posta yoluyla adresime"
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

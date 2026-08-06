@@ -15,32 +15,35 @@
     "kurum_adi": "Yükseköğretim Kurulu Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10101653",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "32625594",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
   "aile": "tekit",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "104.01",
-    "ad": "Program Açma",
-    "saklama_suresi": "15"
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Kontenjan Talebi",
-  "sayi": "E-10101653-104.01-3448783",
-  "tarih": "18.02.2026",
+  "konu": "Sağlık Sebebiyle İzin Talebi",
+  "sayi": "E-32625594-302.08-1735494",
+  "tarih": "16.01.2026",
   "ilgi": {
-    "tarih": "07.01.2026",
-    "sayi": "E-39985474-104.01-6340007"
+    "tarih": "13.01.2026",
+    "sayi": "E-43123369-302.08-2727913"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "ay sonuna kadar"
+    "Süre": "en geç bir hafta içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,6 +60,6 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "ay sonuna kadar"
+    "en geç bir hafta içinde"
   ]
 }

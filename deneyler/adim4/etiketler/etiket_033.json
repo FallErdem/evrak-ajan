@@ -5,46 +5,49 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
+    "saklama_suresi": "15"
   },
-  "konu": "Ruhsat Listesinin Gönderilmesi",
-  "sayi": "E-24432702-170.01-8582367",
-  "tarih": "23.02.2026",
+  "konu": "Emlak Vergisi Listesinin Gönderilmesi",
+  "sayi": "E-10213773-190.01.07-1098056",
+  "tarih": "24.02.2026",
   "ilgi": {
-    "tarih": "12.01.2026",
-    "sayi": "E-65859045-170.01-2830487"
+    "tarih": "10.02.2026",
+    "sayi": "E-30032784-190.01.07-2641527"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 4
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "yılın ilk yarısı",
-    "Sayı": "94 kayıt",
-    "Ek 1": "Ruhsat listesi",
+    "Dönem": "mali yıl",
+    "Sayı": "18 kayıt",
+    "Ek 1": "Emlak Vergisi listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +60,14 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "yılın ilk yarısı",
-    "94 kayıt",
-    "Ruhsat listesi",
+    "mali yıl",
+    "18 kayıt",
+    "Emlak Vergisi listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

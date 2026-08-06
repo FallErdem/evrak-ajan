@@ -5,9 +5,9 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
     "imza_unvani": "Dekan"
   },
   "gonderen": {
@@ -15,22 +15,30 @@
     "kurum_adi": "Yükseköğretim Kurulu Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10101653",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "32625594",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
+  "dagitim": [
+    "Gazi Üniversitesi",
+    "Yükseköğretim Kurulu Başkanlığı",
+    "Genel Sekreterlik",
+    "Öğrenci İşleri Daire Başkanlığı"
+  ],
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
-    "saklama_suresi": "10"
+    "kod": "104.01",
+    "ad": "Program Açma",
+    "saklama_suresi": "15"
   },
-  "konu": "İzin İşleri Hk.",
-  "sayi": "E-10101653-302.08-3449466",
-  "tarih": "12.05.2026",
+  "konu": "Program Açma Başvurusu Hk.",
+  "sayi": "E-32625594-104.01-1777604",
+  "tarih": "21.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -38,11 +46,11 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "İzin İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Program Açma kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,7 +60,7 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],

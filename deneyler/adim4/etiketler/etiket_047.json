@@ -5,44 +5,52 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
     "kurum_adi": "Yükseköğretim Kurulu Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10101653",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "32625594",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
+  "dagitim": [
+    "Gazi Üniversitesi",
+    "Yükseköğretim Kurulu Başkanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü"
+  ],
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "204.01",
-    "ad": "Doçentlik",
+    "kod": "104.01",
+    "ad": "Program Açma",
     "saklama_suresi": "15"
   },
-  "konu": "Doçentlik Sözlü Sınavı Hk.",
-  "sayi": "E-10101653-204.01-3448036",
+  "konu": "Program Açma Başvurusu Hk.",
+  "sayi": "E-32625594-104.01-1759372",
   "tarih": "11.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Doçentlik kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Program Açma kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,7 +60,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],

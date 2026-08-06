@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Ege Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Şafak Mühendislik Ltd. Şti.",
     "ad": null,
-    "adres": "İvedik Mahallesi Erguvan Sokağı No: 58/10 Yenimahalle/ANKARA",
+    "adres": "Yakacık Mahallesi Zeytin Caddesi No: 99/5 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -22,22 +22,25 @@
   "aile": "bilgi_edinme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "051",
-    "ad": "Toplantı ve Etkinlik İşleri",
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
     "saklama_suresi": "15"
   },
-  "konu": "Çalıştay Katılım Talebi",
-  "sayi": "2026/4230",
-  "tarih": "05.03.2026",
+  "konu": "Emlak Vergisi Muafiyet Başvurusu",
+  "sayi": "2026/710",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Toplantı ve Etkinlik İşleri konusundaki güncel verilerin paylaşılması",
+    "Talep": "Emlak Vergisi konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "posta yoluyla adresime"
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -47,11 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yenimahalle Belediye Başkanlığı",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "posta yoluyla adresime"
+    "e-Devlet üzerinden"
   ]
 }

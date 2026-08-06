@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ramazan KURT",
-    "adres": "Çiğdemtepe Mahallesi Manolya Sokak No: 81/8 Yenimahalle/ANKARA",
+    "ad": "Gamze YILMAZ",
+    "adres": "Çiğdemtepe Mahallesi Yasemin Sokağı No: 72/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,23 +21,26 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Bursluluk Hakkında Şikâyet",
+  "konu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "12.02.2026",
+  "tarih": "24.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Bursluluk Hakkında Şikâyet",
-    "Sorun": "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
-    "Yer": "Ergazi Mahallesi",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
+    "Sorun": "taşımalı eğitim aracı öğrencileri geç alıyor",
+    "Yer": "Gayret Mahallesi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -48,13 +51,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bursluluk Hakkında Şikâyet",
-    "Ergazi Mahallesi",
-    "bir aydan uzun süredir",
+    "Gayret Mahallesi",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

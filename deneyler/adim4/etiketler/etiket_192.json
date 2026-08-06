@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Osman AYDIN",
-    "adres": "Ergazi Mahallesi Çınar Sokak No: 94/2 Yenimahalle/ANKARA",
+    "ad": "Meryem YILMAZ",
+    "adres": "İvedik Mahallesi Manolya Caddesi No: 17/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,19 +21,22 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Topluluk Etkinlik İzni Talebi",
+  "konu": "Askerlik Durum Belgesi Talebi",
   "sayi": null,
-  "tarih": "04.03.2026",
+  "tarih": "27.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Topluluk Etkinlik İzni",
+    "Talep": "Askerlik Durum Belgesi",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
     "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
@@ -44,12 +47,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Topluluk Etkinlik İzni",
+    "Askerlik Durum Belgesi",
     "lisansüstü programa kayıtlı",
     "resmî işlemlerde kullanılmak üzere"
   ]

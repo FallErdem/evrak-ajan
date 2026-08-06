@@ -12,16 +12,19 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "165.01",
@@ -29,18 +32,18 @@
     "saklama_suresi": "10"
   },
   "konu": "Okul Aile Birlikleri Talebi",
-  "sayi": "E-65859045-165.01-1888527",
-  "tarih": "10.04.2026",
+  "sayi": "E-39985474-165.01-6495010",
+  "tarih": "19.01.2026",
   "ilgi": {
-    "tarih": "16.03.2026",
-    "sayi": "E-55461037-165.01-8550870"
+    "tarih": "09.01.2026",
+    "sayi": "E-93213107-165.01-2939427"
   },
   "ek": null,
   "somut_bilgiler": {
     "Mevcut durum": "Okul Aile Birlikleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
     "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Talep": "ilave personel görevlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -54,7 +57,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "ek kapasiteye ihtiyaç duyulmaktadır",
     "mevzuatın öngördüğü sürelere uyulması",
-    "gerekli ödeneğin tahsis edilmesi"
+    "ilave personel görevlendirilmesi"
   ]
 }

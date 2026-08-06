@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,25 +22,28 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
-    "saklama_suresi": "15"
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
-  "sayi": "E-39985474-355.02-2601627",
-  "tarih": "28.01.2026",
+  "konu": "Okul Aile Birlikleri Talebi",
+  "sayi": "E-39985474-165.01-6504658",
+  "tarih": "04.02.2026",
   "ilgi": {
-    "tarih": "05.01.2026",
-    "sayi": "E-55461037-355.02-2135887"
+    "tarih": "16.01.2026",
+    "sayi": "E-93213107-165.01-2947959"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Eğitim Fakülteleri İle İlişkiler kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Okul Aile Birlikleri kapsamındaki iş yükü artmıştır",
     "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
     "Amaç": "vatandaş memnuniyetinin artırılması",
-    "Talep": "teknik destek sağlanması"
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +53,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "mevcut kaynaklar yetersiz kalmaktadır",
     "vatandaş memnuniyetinin artırılması",
-    "teknik destek sağlanması"
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

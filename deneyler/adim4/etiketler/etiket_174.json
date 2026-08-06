@@ -5,42 +5,45 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Personel Dairesi Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
-    "saklama_suresi": "2"
+    "kod": "209",
+    "ad": "Akademik Personel Görevlendirmeleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Sınav Programları ve Sınavlar Talebi",
-  "sayi": "E-65859045-106-1887450",
-  "tarih": "03.02.2026",
+  "konu": "39. Madde Görevlendirme Talebi",
+  "sayi": "E-10213773-209-1048517",
+  "tarih": "09.01.2026",
   "ilgi": {
-    "tarih": "07.01.2026",
-    "sayi": "E-39985474-106-9577509"
+    "tarih": "16.12.2025",
+    "sayi": "E-42218640-209-2147339"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Sınav Programları ve Sınavlar kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "vatandaş memnuniyetinin artırılması",
-    "Talep": "teknik destek sağlanması"
+    "Mevcut durum": "Akademik Personel Görevlendirmeleri kapsamındaki iş yükü artmıştır",
+    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
+    "Talep": "ilave personel görevlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,13 +53,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Personel Dairesi Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "vatandaş memnuniyetinin artırılması",
-    "teknik destek sağlanması"
+    "mevcut kaynaklar yetersiz kalmaktadır",
+    "mevzuatın öngördüğü sürelere uyulması",
+    "ilave personel görevlendirilmesi"
   ]
 }

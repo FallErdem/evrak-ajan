@@ -5,43 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Kaymakamlığı",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "56248377",
+    "detsis_no": "24432702",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
+    "kod": "125",
+    "ad": "Evlendirme İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Staj Değerlendirme Formunun Gönderilmesi",
-  "sayi": "E-56248377-773-6501660",
-  "tarih": "05.03.2026",
+  "konu": "Evlendirme İşlemleri Listesinin Gönderilmesi",
+  "sayi": "E-24432702-125-1718697",
+  "tarih": "27.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 6
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan yıl",
+    "Dönem": "üçüncü çeyrek",
     "Sayı": "94 kayıt",
-    "Ek 1": "Staj İşleri listesi",
+    "Ek 1": "Evlendirme İşlemleri listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -54,14 +57,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan yıl",
+    "üçüncü çeyrek",
     "94 kayıt",
-    "Staj İşleri listesi",
+    "Evlendirme İşlemleri listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

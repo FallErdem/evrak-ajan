@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,25 +22,28 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Denklik Belgesi Talebi",
-  "sayi": "E-39985474-215.01-2601730",
-  "tarih": "21.04.2026",
+  "konu": "Hukuki Görüş Talebi",
+  "sayi": "E-39985474-045.02-6546769",
+  "tarih": "15.04.2026",
   "ilgi": {
-    "tarih": "13.04.2026",
-    "sayi": "E-55461037-215.01-5071629"
+    "tarih": "03.04.2026",
+    "sayi": "E-55461037-045.02-3797750"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Yurtdışı Eğitim Denkliği kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Mevcut durum": "Hukuki kapsamındaki iş yükü artmıştır",
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
+    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
+    "Talep": "teknik destek sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +53,13 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "mevcut kaynaklar yetersiz kalmaktadır",
-    "iş ve işlemlerin zamanında tamamlanması",
-    "gerekli ödeneğin tahsis edilmesi"
+    "Hukuki kapsamındaki iş yükü artmıştır",
+    "ek kapasiteye ihtiyaç duyulmaktadır",
+    "mevzuatın öngördüğü sürelere uyulması",
+    "teknik destek sağlanması"
   ]
 }

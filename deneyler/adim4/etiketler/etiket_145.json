@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine YILDIZ",
-    "adres": "Şentepe Mahallesi Ceviz Sokak No: 94/17 Yenimahalle/ANKARA",
+    "ad": "Emine KARA",
+    "adres": "Ostim Mahallesi Erguvan Caddesi No: 23/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,6 +21,9 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "102.03",
@@ -29,15 +32,15 @@
   },
   "konu": "Denklik İşleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "09.02.2026",
+  "tarih": "30.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "Denklik İşleri Hakkında Şikâyet",
-    "Sorun": "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
-    "Yer": "Serhat Mahallesi",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Sorun": "kütüphane çalışma saatleri yetersiz kalıyor",
+    "Yer": "Kaletepe Mahallesi",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,8 +57,8 @@
   ],
   "anahtar_terimler": [
     "Denklik İşleri Hakkında Şikâyet",
-    "Serhat Mahallesi",
-    "yaklaşık iki aydır",
+    "Kaletepe Mahallesi",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine SARI",
-    "adres": "Serhat Mahallesi Papatya Caddesi No: 32/20 Yenimahalle/ANKARA",
+    "ad": "Serkan ŞIMŞEK",
+    "adres": "Yakacık Mahallesi Zeytin Sokak No: 15/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,20 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Okul Aile Birlikleri Talebi",
+  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
   "sayi": null,
-  "tarih": "13.02.2026",
+  "tarih": "11.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Okul Aile Birlikleri",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Taşımalı Eğitim Kapsamına Alınma",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,7 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Okul Aile Birlikleri",
-    "ilgili kuruma sunulmak üzere"
+    "Taşımalı Eğitim Kapsamına Alınma",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

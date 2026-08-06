@@ -5,40 +5,43 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "yapi_kontrol",
+    "birim_adi": "Yapı Kontrol Müdürlüğü",
+    "detsis_no": "53265760",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Fen İşleri Müdürlüğü",
+    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "33152401",
+    "detsis_no": "26888327",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yapı Kontrol Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Bütçe Teklifinin Gönderilmesi",
-  "sayi": "E-33152401-841.01-7807295",
-  "tarih": "20.02.2026",
+  "konu": "Para Cezası Tahsilatı Hk.",
+  "sayi": "E-26888327-858-2136683",
+  "tarih": "23.01.2026",
   "ilgi": {
-    "tarih": "12.01.2026",
-    "sayi": "E-65859045-841.01-7623496"
+    "tarih": "01.01.2026",
+    "sayi": "E-53265760-858-2774849"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bütçe Teklifinin Gönderilmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Para Cezası Tahsilatı",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
     "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
     "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
@@ -51,12 +54,12 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Yapı Kontrol Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bütçe Teklifinin Gönderilmesi",
-    "olumlu, işlem tamamlandı",
+    "Para Cezası Tahsilatı",
+    "olumlu, talep karşılandı",
     "Müdürlüğümüz kayıt bürosu",
     "noter onaylı vekâletname ile veya bizzat",
     "düzenlendiği tarihten itibaren bir yıl"

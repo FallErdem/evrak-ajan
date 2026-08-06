@@ -12,40 +12,43 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
-    "saklama_suresi": "2"
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Sınav Programının Duyurulması",
-  "sayi": "E-65859045-106-1889163",
-  "tarih": "09.02.2026",
+  "konu": "Staj İşleri Hk.",
+  "sayi": "E-10213773-773-1097193",
+  "tarih": "23.02.2026",
   "ilgi": {
-    "tarih": "27.01.2026",
-    "sayi": "E-39985474-106-4028968"
+    "tarih": "11.02.2026",
+    "sayi": "E-43123369-773-2745828"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 4
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Sınav Programları ve Sınavlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Staj İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

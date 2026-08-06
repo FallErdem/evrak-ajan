@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hasan ATEŞ",
-    "adres": "Demetevler Mahallesi Nergis Sokak No: 53/3 Yenimahalle/ANKARA",
+    "ad": "Onur ÖZTÜRK",
+    "adres": "Batıkent Mahallesi Ceviz Sokak No: 105/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
+    "kod": "302.08",
+    "ad": "İzin İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Servis Hizmeti Aksaklığı Bildirimi",
+  "konu": "İzin İşleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "20.02.2026",
+  "tarih": "06.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
-    "Sorun": "kaldırım işgali nedeniyle yaya geçişi engelleniyor",
-    "Yer": "Gayret Mahallesi",
+    "Şikâyet konusu": "İzin İşleri Hakkında Şikâyet",
+    "Sorun": "derslik ısıtma sistemi çalışmıyor",
+    "Yer": "Ragıpbey Mahallesi",
     "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
@@ -48,13 +51,14 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Servis Hizmeti Aksaklığı",
-    "Gayret Mahallesi",
+    "İzin İşleri Hakkında Şikâyet",
+    "derslik ısıtma sistemi çalışmıyor",
+    "Ragıpbey Mahallesi",
     "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]

@@ -12,16 +12,19 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "755.02",
@@ -29,13 +32,13 @@
     "saklama_suresi": "15"
   },
   "konu": "İhale Hakkında Görüş Talebi",
-  "sayi": "E-55461037-755.02-5986295",
-  "tarih": "16.04.2026",
+  "sayi": "E-39985474-755.02-6504723",
+  "tarih": "04.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Konu": "İhale",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [

@@ -21,27 +21,30 @@
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Stajlar Hk.",
-  "sayi": "E-82642947-304.03-8211272",
-  "tarih": "18.03.2026",
+  "konu": "İzin İşleri Hk.",
+  "sayi": "E-82642947-302.08-6803895",
+  "tarih": "25.02.2026",
   "ilgi": {
-    "tarih": "20.02.2026",
-    "sayi": "E-39985474-304.03-1161887"
+    "tarih": "29.01.2026",
+    "sayi": "E-86488853-302.08-1525325"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Stajlar",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "İzin İşleri",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -56,9 +59,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "olumlu, işlem tamamlandı",
+    "İzin İşleri",
+    "olumlu, belge düzenlendi",
     "Başkanlığımız kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

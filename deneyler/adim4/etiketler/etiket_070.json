@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten AYDIN",
-    "adres": "Yeşilevler Mahallesi Sümbül Sokağı No: 79/5 Yenimahalle/ANKARA",
+    "ad": "Havva AKSOY",
+    "adres": "Ostim Mahallesi Manolya Sokağı No: 113/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,23 +21,26 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.06",
-    "ad": "Uygulama İmar Planı",
+    "kod": "115.01.08",
+    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
     "saklama_suresi": "B"
   },
-  "konu": "Uygulama İmar Planı Hakkında Şikâyet",
+  "konu": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb. Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "23.04.2026",
+  "tarih": "05.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Uygulama İmar Planı Hakkında Şikâyet",
-    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
-    "Yer": "Serhat Mahallesi",
+    "Şikâyet konusu": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb. Hakkında Şikâyet",
+    "Sorun": "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
+    "Yer": "Ostim Mahallesi",
     "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,8 +55,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Uygulama İmar Planı Hakkında Şikâyet",
-    "Serhat Mahallesi",
+    "Ostim Mahallesi",
     "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]

@@ -12,16 +12,19 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
     "kod": "602.07",
@@ -29,19 +32,19 @@
     "saklama_suresi": "10"
   },
   "konu": "Yatırım Programı Hk.",
-  "sayi": "E-10213773-602.07-8548305",
-  "tarih": "11.05.2026",
+  "sayi": "E-24316060-602.07-2068797",
+  "tarih": "07.04.2026",
   "ilgi": {
-    "tarih": "07.04.2026",
-    "sayi": "E-55461037-602.07-8421023"
+    "tarih": "27.02.2026",
+    "sayi": "E-14588481-602.07-4269852"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Yatırım Programı",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,7 +61,7 @@
     "Yatırım Programı",
     "olumlu, işlem tamamlandı",
     "Müdürlüğümüz kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "kimlik belgesi ibraz edilerek şahsen",
+    "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

@@ -5,43 +5,46 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
     "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Personel Dairesi Başkanlığı",
+    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "42218640",
+    "detsis_no": "47014261",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Stajlar Hk.",
-  "sayi": "E-42218640-304.03-2830865",
-  "tarih": "16.04.2026",
+  "konu": "İzin İşleri Hk.",
+  "sayi": "E-47014261-302.08-5107197",
+  "tarih": "18.02.2026",
   "ilgi": {
-    "tarih": "09.04.2026",
-    "sayi": "E-39985474-304.03-4940054"
+    "tarih": "19.01.2026",
+    "sayi": "E-86488853-302.08-1516136"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Stajlar",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "İzin İşleri",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,14 +54,15 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "olumlu, işlem tamamlandı",
+    "İzin İşleri",
+    "olumlu, belge düzenlendi",
     "Başkanlığımız kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "noter onaylı vekâletname ile veya bizzat",
+    "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

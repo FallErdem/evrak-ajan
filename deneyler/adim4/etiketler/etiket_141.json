@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra AKTAŞ",
-    "adres": "Demetevler Mahallesi Erguvan Caddesi No: 78/23 Yenimahalle/ANKARA",
+    "ad": "Yusuf ERDOĞAN",
+    "adres": "Kaletepe Mahallesi Erguvan Caddesi No: 28/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Geçici Mezuniyet Belgesi Talebi",
+  "konu": "Katkı Payı İade Talebi",
   "sayi": null,
-  "tarih": "05.02.2026",
+  "tarih": "09.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Geçici Mezuniyet Belgesi",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Katkı Payı İade",
+    "Öğrenim bilgisi": "4. sınıf öğrencisi",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +52,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Geçici Mezuniyet Belgesi",
-    "lisansüstü programa kayıtlı",
-    "başvuru dosyasına eklenmek üzere"
+    "Katkı Payı İade",
+    "4. sınıf öğrencisi"
   ]
 }

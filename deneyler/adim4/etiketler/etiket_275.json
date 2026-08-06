@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -21,27 +21,31 @@
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "756.02",
+    "ad": "Satış ve Kiralama",
+    "saklama_suresi": "B"
   },
-  "konu": "Para Cezası Tahsilatı Hk.",
-  "sayi": "E-59553370-858-3699374",
-  "tarih": "10.03.2026",
+  "konu": "Taşınmaz Satış İhalesi Hk.",
+  "sayi": "E-59553370-756.02-5508431",
+  "tarih": "03.02.2026",
   "ilgi": {
-    "tarih": "12.02.2026",
-    "sayi": "E-65859045-858-8623023"
+    "tarih": "26.12.2025",
+    "sayi": "E-87730597-756.02-2390349"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Para Cezası Tahsilatı",
+    "Talep": "Taşınmaz Satış İhalesi",
     "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Taşınmaz": "21087 ada, 43 parsel",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
     "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,14 +55,15 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Para Cezası Tahsilatı",
+    "Taşınmaz Satış İhalesi",
     "olumlu, belge düzenlendi",
+    "21087 ada, 43 parsel",
     "Müdürlüğümüz kayıt bürosu",
     "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

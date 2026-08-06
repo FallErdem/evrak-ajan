@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Meryem ÖZDEMIR",
-    "adres": "Kaletepe Mahallesi Erguvan Caddesi No: 15/20 Yenimahalle/ANKARA",
+    "ad": "Salih KARACA",
+    "adres": "Barıştepe Mahallesi Papatya Sokak No: 46/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,23 +21,26 @@
   "aile": "itiraz",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "855",
-    "ad": "Borç ve Alacak İşleri",
-    "saklama_suresi": "15"
+    "kod": "115.02.10",
+    "ad": "Adres ve Numaralandırma",
+    "saklama_suresi": "B"
   },
-  "konu": "Borç ve Alacak İşleri Kararına İtiraz",
+  "konu": "Adres ve Numaralandırma Kararına İtiraz",
   "sayi": null,
-  "tarih": "26.03.2026",
+  "tarih": "23.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Borç ve Alacak İşleri Kararına İtiraz",
+    "İtiraz konusu": "Adres ve Numaralandırma Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -50,11 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Borç ve Alacak İşleri Kararına İtiraz",
+    "Adres ve Numaralandırma Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

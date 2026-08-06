@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatma ATEŞ",
-    "adres": "Serhat Mahallesi Erguvan Caddesi No: 65/19 Yenimahalle/ANKARA",
+    "ad": "Mehmet YAVUZ",
+    "adres": "Beştepe Mahallesi Erguvan Sokak No: 96/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,28 +21,31 @@
   "aile": "itiraz",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Sosyal Yardım İşleri Kararına İtiraz",
+  "konu": "Öğrenci Toplulukları, Birlikleri vb. Kararına İtiraz",
   "sayi": null,
-  "tarih": "19.01.2026",
+  "tarih": "14.01.2026",
   "ilgi": {
-    "tarih": "08.01.2026",
-    "sayi": "E-39985474-815-5602803"
+    "tarih": "09.12.2025",
+    "sayi": "E-98244303-309-6939006"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 6
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Sosyal Yardım İşleri Kararına İtiraz",
+    "İtiraz konusu": "Öğrenci Toplulukları, Birlikleri vb. Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -58,7 +61,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sosyal Yardım İşleri Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

@@ -5,23 +5,26 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
     "kurum_adi": "Yükseköğretim Kurulu Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10101653",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "32625594",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
   "aile": "tekit",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
     "kod": "304.03",
@@ -29,18 +32,18 @@
     "saklama_suresi": "2"
   },
   "konu": "Staj Yeri Talebi",
-  "sayi": "E-10101653-304.03-3447795",
-  "tarih": "30.04.2026",
+  "sayi": "E-32625594-304.03-1755764",
+  "tarih": "03.03.2026",
   "ilgi": {
-    "tarih": "08.04.2026",
-    "sayi": "E-39985474-304.03-2935802"
+    "tarih": "09.02.2026",
+    "sayi": "E-98244303-304.03-7007889"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "beş iş günü içinde"
+    "Süre": "en geç bir hafta içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,13 +53,13 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "beş iş günü içinde"
+    "en geç bir hafta içinde"
   ]
 }

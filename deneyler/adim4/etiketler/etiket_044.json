@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra YILDIZ",
-    "adres": "Gayret Mahallesi Menekşe Caddesi No: 108/13 Yenimahalle/ANKARA",
+    "ad": "Murat YAVUZ",
+    "adres": "Pamuklar Mahallesi Sümbül Sokağı No: 55/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,20 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "807.01",
+    "ad": "Bina ve Tesisler",
+    "saklama_suresi": "10"
   },
-  "konu": "İdari Yaptırım/Para Cezası İşleri Talebi",
+  "konu": "Okul Binası Onarım Talebi",
   "sayi": null,
-  "tarih": "09.02.2026",
+  "tarih": "14.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İdari Yaptırım/Para Cezası İşleri",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Okul Binası Onarım",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -43,11 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İdari Yaptırım/Para Cezası İşleri",
-    "resmî işlemlerde kullanılmak üzere"
+    "Okul Binası Onarım",
+    "sürecin tamamlanabilmesi için"
   ]
 }

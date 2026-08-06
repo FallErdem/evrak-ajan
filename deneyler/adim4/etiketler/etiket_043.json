@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Serkan POLAT",
-    "adres": "Beştepe Mahallesi Menekşe Caddesi No: 115/21 Yenimahalle/ANKARA",
+    "ad": "Hatice ŞIMŞEK",
+    "adres": "Şentepe Mahallesi Yasemin Caddesi No: 109/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,20 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
+    "saklama_suresi": "B"
   },
-  "konu": "Disiplin İşleri Talebi",
+  "konu": "Denklik Belgesi Talebi",
   "sayi": null,
-  "tarih": "07.05.2026",
+  "tarih": "20.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Disiplin İşleri",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Denklik Belgesi",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,7 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Disiplin İşleri",
-    "ilgili kuruma sunulmak üzere"
+    "Denklik Belgesi",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

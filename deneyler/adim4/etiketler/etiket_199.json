@@ -5,35 +5,38 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "105.04",
-    "ad": "Meclis Kararları",
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Meclis Kararları Hk.",
-  "sayi": "E-24432702-105.04-8583306",
-  "tarih": "16.02.2026",
+  "konu": "Sempozyum Duyurusu",
+  "sayi": "E-24312041-051-3599906",
+  "tarih": "26.02.2026",
   "ilgi": {
-    "tarih": "15.01.2026",
-    "sayi": "E-65859045-105.04-7366594"
+    "tarih": "20.02.2026",
+    "sayi": "E-65859045-051-3327045"
   },
   "ek": {
     "adet": 1,
@@ -41,8 +44,8 @@
     "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Meclis Kararları kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Toplantı ve Etkinlik İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
     "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
@@ -55,7 +58,7 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

@@ -5,39 +5,42 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "yapi_kontrol",
+    "birim_adi": "Yapı Kontrol Müdürlüğü",
+    "detsis_no": "53265760",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "kurum_adi": "Temizlik İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "85330682",
+    "detsis_no": "83011479",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yapı Kontrol Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "807.01",
-    "ad": "Bina ve Tesisler",
-    "saklama_suresi": "10"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Çatı Onarımı Hk.",
-  "sayi": "E-85330682-807.01-6739105",
-  "tarih": "06.05.2026",
+  "konu": "Para Cezası Tahsilatı Hk.",
+  "sayi": "E-83011479-858-5677166",
+  "tarih": "13.02.2026",
   "ilgi": {
-    "tarih": "14.04.2026",
-    "sayi": "E-65859045-807.01-9346180"
+    "tarih": "10.02.2026",
+    "sayi": "E-53265760-858-2822744"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Çatı Onarımı",
+    "Talep": "Para Cezası Tahsilatı",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
     "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
@@ -51,11 +54,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Yapı Kontrol Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Çatı Onarımı",
+    "Para Cezası Tahsilatı",
     "olumlu, işlem tamamlandı",
     "Müdürlüğümüz kayıt bürosu",
     "kimlik belgesi ibraz edilerek şahsen",

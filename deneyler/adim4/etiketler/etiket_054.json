@@ -21,6 +21,9 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "175",
@@ -34,7 +37,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Terazi Damgalama",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,7 +50,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Terazi Damgalama",
-    "başvuru dosyasına eklenmek üzere"
+    "Terazi Damgalama"
   ]
 }

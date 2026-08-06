@@ -5,32 +5,35 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "kurum_adi": "Ortaöğretim Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "91571118",
+    "detsis_no": "63971525",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Taşımalı Eğitim Oluru",
-  "sayi": "E-91571118-140-8690627",
-  "tarih": "06.04.2026",
+  "konu": "Yabancı Uyruklu Öğrenciler Oluru",
+  "sayi": "E-63971525-235-6034861",
+  "tarih": "11.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -38,7 +41,7 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Taşımalı Eğitim",
+    "Konu": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
     "Gerekçe": "iş ve işlemlerin zamanında tamamlanması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
@@ -50,11 +53,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim",
     "iş ve işlemlerin zamanında tamamlanması"
   ]
 }

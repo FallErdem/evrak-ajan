@@ -12,36 +12,39 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "kurum_adi": "Personel Dairesi Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "86488853",
+    "detsis_no": "42218640",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Genel Sekreterlik",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Kurul Kararının Gönderilmesi",
-  "sayi": "E-86488853-050.04-6186764",
-  "tarih": "13.04.2026",
+  "konu": "Genelge Uygulaması Hk.",
+  "sayi": "E-42218640-010.06-2208787",
+  "tarih": "20.04.2026",
   "ilgi": {
-    "tarih": "30.03.2026",
-    "sayi": "E-39985474-050.04-7729507"
+    "tarih": "13.03.2026",
+    "sayi": "E-82642947-010.06-6811417"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kurul Kararının Gönderilmesi",
+    "Talep": "Genelge Uygulaması",
     "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -56,9 +59,10 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kurul Kararının Gönderilmesi",
+    "Genelge Uygulaması",
     "olumlu, belge düzenlendi",
     "Başkanlığımız kayıt bürosu",
-    "düzenlendiği tarihten itibaren altı ay"
+    "kimlik belgesi ibraz edilerek şahsen",
+    "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

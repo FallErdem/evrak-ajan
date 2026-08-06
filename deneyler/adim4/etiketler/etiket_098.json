@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatih GÜNEŞ",
-    "adres": "Uğur Mumcu Mahallesi Akasya Caddesi No: 3/13 Yenimahalle/ANKARA",
+    "ad": "Nurten BULUT",
+    "adres": "Kaletepe Mahallesi Yasemin Sokağı No: 35/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,22 +21,25 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Taşımalı Eğitim Hakkında Şikâyet",
+  "konu": "Servis Hizmeti Aksaklığı Bildirimi",
   "sayi": null,
-  "tarih": "23.02.2026",
+  "tarih": "16.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Taşımalı Eğitim Hakkında Şikâyet",
-    "Sorun": "gece saatlerinde yüksek sesle çalışma yapılıyor",
-    "Yer": "Ragıpbey Mahallesi",
-    "Süre": "bir aydan uzun süredir",
+    "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
+    "Sorun": "servis şoförü belge kontrolü yapılmıyor",
+    "Yer": "Barıştepe Mahallesi",
+    "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -48,13 +51,14 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim Hakkında Şikâyet",
-    "Ragıpbey Mahallesi",
-    "bir aydan uzun süredir",
+    "Servis Hizmeti Aksaklığı",
+    "servis şoförü belge kontrolü yapılmıyor",
+    "Barıştepe Mahallesi",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

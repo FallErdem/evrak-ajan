@@ -5,39 +5,42 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
+    "saklama_suresi": "10"
   },
-  "konu": "Hukuki Görüş Talebi",
-  "sayi": "E-65859045-045.02-1889832",
-  "tarih": "27.05.2026",
+  "konu": "Taşımalı Eğitim Talebi",
+  "sayi": "E-39985474-140-6516764",
+  "tarih": "24.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Hukuki kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
-    "Talep": "teknik destek sağlanması"
+    "Mevcut durum": "Taşımalı Eğitim kapsamındaki iş yükü artmıştır",
+    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Amaç": "vatandaş memnuniyetinin artırılması",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -47,12 +50,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Hukuki kapsamındaki iş yükü artmıştır",
-    "iş ve işlemlerin zamanında tamamlanması",
-    "teknik destek sağlanması"
+    "mevcut kaynaklar yetersiz kalmaktadır",
+    "vatandaş memnuniyetinin artırılması",
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

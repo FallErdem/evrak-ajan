@@ -5,42 +5,45 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "17311665",
+    "detsis_no": "47014261",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Mühendislik Fakültesi Dekanlığı",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Araştırma İzni Hk.",
-  "sayi": "E-17311665-805.02.05-3769543",
-  "tarih": "12.03.2026",
+  "konu": "Stajlar Hk.",
+  "sayi": "E-47014261-304.03-5136372",
+  "tarih": "02.04.2026",
   "ilgi": {
-    "tarih": "19.02.2026",
-    "sayi": "E-39985474-805.02.05-5816167"
+    "tarih": "11.03.2026",
+    "sayi": "E-43123369-304.03-2762998"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Araştırma İzni",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Stajlar",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
     "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
@@ -51,14 +54,14 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Araştırma İzni",
-    "olumlu, işlem tamamlandı",
+    "olumlu, belge düzenlendi",
     "Başkanlığımız kayıt bürosu",
+    "noter onaylı vekâletname ile veya bizzat",
     "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

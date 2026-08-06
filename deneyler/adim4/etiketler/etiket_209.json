@@ -5,41 +5,43 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Mali Hizmetler Müdürlüğü",
+    "kurum_adi": "Temizlik İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "43195403",
+    "detsis_no": "83011479",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.01",
-    "ad": "Tahsis, Devir ve Takas",
-    "saklama_suresi": "B"
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Taşınmaz Devir İşlemi Hk.",
-  "sayi": "E-43195403-756.01-3761251",
-  "tarih": "27.01.2026",
+  "konu": "Engellilere Yönelik Hizmetler Hk.",
+  "sayi": "E-83011479-120.02-5665543",
+  "tarih": "20.01.2026",
   "ilgi": {
-    "tarih": "19.01.2026",
-    "sayi": "E-65859045-756.01-4329915"
+    "tarih": "06.01.2026",
+    "sayi": "E-85330682-120.02-6975148"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Taşınmaz Devir İşlemi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
-    "Taşınmaz": "62581 ada, 36 parsel",
+    "Talep": "Engellilere Yönelik Hizmetler",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
     "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
     "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
@@ -52,13 +54,12 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Taşınmaz Devir İşlemi",
-    "olumlu, talep karşılandı",
-    "62581 ada, 36 parsel",
+    "Engellilere Yönelik Hizmetler",
+    "olumlu, belge düzenlendi",
     "Müdürlüğümüz kayıt bürosu",
     "kimlik belgesi ibraz edilerek şahsen",
     "düzenlendiği tarihten itibaren bir yıl"

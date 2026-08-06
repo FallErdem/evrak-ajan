@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Havva ASLAN",
-    "adres": "Serhat Mahallesi Menekşe Sokağı No: 12/9 Yenimahalle/ANKARA",
+    "ad": "Derya ÖZDEMIR",
+    "adres": "Gayret Mahallesi Lale Sokağı No: 118/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
-    "saklama_suresi": "10"
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Katkı Payı İade Talebi",
+  "konu": "Geçici Mezuniyet Belgesi Talebi",
   "sayi": null,
-  "tarih": "01.04.2026",
+  "tarih": "09.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Katkı Payı İade",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Geçici Mezuniyet Belgesi",
+    "Öğrenim bilgisi": "2. sınıf öğrencisi",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +52,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı İade",
-    "lisansüstü programa kayıtlı",
-    "resmî işlemlerde kullanılmak üzere"
+    "Geçici Mezuniyet Belgesi",
+    "2. sınıf öğrencisi",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

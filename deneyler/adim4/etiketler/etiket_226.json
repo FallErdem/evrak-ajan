@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ali YILMAZ",
-    "adres": "Demetevler Mahallesi Akasya Sokağı No: 44/4 Yenimahalle/ANKARA",
+    "ad": "Mustafa KURT",
+    "adres": "Çiğdemtepe Mahallesi Çınar Sokağı No: 46/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,20 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "İtfaiye Uygunluk Raporu Talebi",
+  "konu": "Terazi Damgalama Başvurusu",
   "sayi": null,
-  "tarih": "10.03.2026",
+  "tarih": "21.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İtfaiye Uygunluk Raporu",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Terazi Damgalama",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,7 +50,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İtfaiye Uygunluk Raporu",
-    "başvuru dosyasına eklenmek üzere"
+    "Terazi Damgalama",
+    "sürecin tamamlanabilmesi için"
   ]
 }

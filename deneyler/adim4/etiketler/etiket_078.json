@@ -12,16 +12,19 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "kurum_adi": "Personel Dairesi Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "86488853",
+    "detsis_no": "42218640",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Genel Sekreterlik",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "050.04",
@@ -29,8 +32,8 @@
     "saklama_suresi": "15"
   },
   "konu": "Kararlar Hakkında Görüş Talebi",
-  "sayi": "E-86488853-050.04-6186856",
-  "tarih": "08.05.2026",
+  "sayi": "E-42218640-050.04-2203772",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {

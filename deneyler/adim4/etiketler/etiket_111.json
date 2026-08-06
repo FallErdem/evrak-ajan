@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten KORKMAZ",
-    "adres": "Susuz Mahallesi Manolya Sokak No: 43/4 Yenimahalle/ANKARA",
+    "ad": "Elif ATEŞ",
+    "adres": "Çiğdemtepe Mahallesi Akasya Sokağı No: 21/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "815",
+    "ad": "Sosyal Yardım İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Erasmus+ Başvuru Duyurusu",
+  "konu": "Yardım Başvurusunun Değerlendirilmesi",
   "sayi": null,
-  "tarih": "15.05.2026",
+  "tarih": "16.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Erasmus+ Başvuru",
+    "Talep": "Yardım Başvurusunun Değerlendirilmesi",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -44,13 +47,12 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Erasmus+ Başvuru",
-    "lisansüstü programa kayıtlı",
-    "ilgili kuruma sunulmak üzere"
+    "Yardım Başvurusunun Değerlendirilmesi",
+    "lisansüstü programa kayıtlı"
   ]
 }

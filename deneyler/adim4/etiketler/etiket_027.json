@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Kemal YILDIRIM",
-    "adres": "Batıkent Mahallesi Manolya Sokağı No: 9/13 Yenimahalle/ANKARA",
+    "ad": "Osman DEMIR",
+    "adres": "Beştepe Mahallesi Zeytin Sokağı No: 28/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,23 +21,26 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.01",
-    "ad": "İmar Durumu (Belgesi)",
-    "saklama_suresi": "B"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "İmar Durumu Hakkında Şikâyet",
+  "konu": "İdari Yaptırım/Para Cezası İşleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "29.05.2026",
+  "tarih": "11.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İmar Durumu Hakkında Şikâyet",
-    "Sorun": "kaldırım işgali nedeniyle yaya geçişi engelleniyor",
-    "Yer": "Ostim Mahallesi",
+    "Şikâyet konusu": "İdari Yaptırım/Para Cezası İşleri Hakkında Şikâyet",
+    "Sorun": "kaçak yapı faaliyeti sürdürülüyor",
+    "Yer": "Emniyet Mahallesi",
     "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -48,12 +51,12 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İmar Durumu Hakkında Şikâyet",
-    "Ostim Mahallesi",
+    "kaçak yapı faaliyeti sürdürülüyor",
+    "Emniyet Mahallesi",
     "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]

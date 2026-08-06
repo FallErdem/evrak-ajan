@@ -5,23 +5,31 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
     "kurum_adi": "Yükseköğretim Kurulu Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10101653",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "32625594",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "dagitim": [
+    "Gazi Üniversitesi",
+    "Yükseköğretim Kurulu Başkanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Genel Sekreterlik"
+  ],
   "beklenen_kapanis": "karma",
   "sdp": {
     "kod": "106",
@@ -29,23 +37,23 @@
     "saklama_suresi": "2"
   },
   "konu": "Sınav Programının Duyurulması",
-  "sayi": "E-10101653-106-3448667",
-  "tarih": "29.05.2026",
+  "sayi": "E-32625594-106-1756693",
+  "tarih": "05.03.2026",
   "ilgi": {
-    "tarih": "01.05.2026",
-    "sayi": "E-39985474-106-6865337"
+    "tarih": "26.02.2026",
+    "sayi": "E-86488853-106-1551343"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 6
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Konu": "Sınav Programları ve Sınavlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,7 +63,7 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],

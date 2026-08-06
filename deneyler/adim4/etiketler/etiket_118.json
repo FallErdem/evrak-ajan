@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze KAYA",
-    "adres": "Batıkent Mahallesi Yasemin Sokağı No: 28/12 Yenimahalle/ANKARA",
+    "ad": "Hüseyin AKSOY",
+    "adres": "Emniyet Mahallesi Ceviz Caddesi No: 93/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,20 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
-    "saklama_suresi": "10"
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Kendi İsteğiyle Kayıt Sildirme Talebi",
+  "konu": "Diploma Talebi",
   "sayi": null,
-  "tarih": "28.04.2026",
+  "tarih": "03.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kendi İsteğiyle Kayıt Sildirme",
-    "Öğrenim bilgisi": "4. sınıf öğrencisi",
+    "Talep": "Diploma",
+    "Öğrenim bilgisi": "2025 yılı mezunu",
     "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -49,8 +52,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kendi İsteğiyle Kayıt Sildirme",
-    "4. sınıf öğrencisi",
+    "2025 yılı mezunu",
     "ilgili kuruma sunulmak üzere"
   ]
 }

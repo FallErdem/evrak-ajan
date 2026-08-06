@@ -5,42 +5,45 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Karar Örneği Talebi",
-  "sayi": "E-10213773-050.04-8547886",
-  "tarih": "27.01.2026",
+  "konu": "Kayıt Dondurma ve İzin Talebi",
+  "sayi": "E-65859045-302.08-3300019",
+  "tarih": "09.01.2026",
   "ilgi": {
-    "tarih": "30.12.2025",
-    "sayi": "E-39985474-050.04-2383550"
+    "tarih": "12.12.2025",
+    "sayi": "E-86488853-302.08-1481032"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Kararlar kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "İzin İşleri kapsamındaki iş yükü artmıştır",
     "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
     "Amaç": "vatandaş memnuniyetinin artırılması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,14 +53,13 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kararlar kapsamındaki iş yükü artmıştır",
     "mevcut kaynaklar yetersiz kalmaktadır",
     "vatandaş memnuniyetinin artırılması",
-    "ilave personel görevlendirilmesi"
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

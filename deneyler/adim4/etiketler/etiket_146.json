@@ -5,42 +5,50 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "makine_ikmal",
-    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
-    "detsis_no": "89052714",
+    "birim_kodu": "yapi_kontrol",
+    "birim_adi": "Yapı Kontrol Müdürlüğü",
+    "detsis_no": "53265760",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
   "aile": "tekit",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
+  "dagitim": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Yenimahalle Kaymakamlığı",
+    "Muhtarlık İşleri Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü"
+  ],
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "801",
-    "ad": "Taşıt ve İş Makineleri İşleri",
-    "saklama_suresi": "10"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "Hizmet Aracı Tahsis Talebi",
-  "sayi": "E-24432702-801-8582786",
-  "tarih": "29.05.2026",
+  "konu": "İdari Dava Bilgi Talebi",
+  "sayi": "E-24304062-641.04-4749039",
+  "tarih": "22.01.2026",
   "ilgi": {
-    "tarih": "12.05.2026",
-    "sayi": "E-65859045-801-6414887"
+    "tarih": "15.12.2025",
+    "sayi": "E-53265760-641.04-2754348"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "beş iş günü içinde"
+    "Süre": "en geç bir hafta içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +58,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "Yapı Kontrol Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "beş iş günü içinde"
+    "en geç bir hafta içinde"
   ]
 }

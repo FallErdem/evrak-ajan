@@ -5,43 +5,46 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
+    "birim_kodu": "ozel_egitim_rehberlik_sb",
+    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "detsis_no": "87302975",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yakacık Mesleki ve Teknik Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Karataş Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10192495",
+    "detsis_no": "10099665",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "kod": "160.01.02",
+    "ad": "Kaynaştırma Eğitimi",
     "saklama_suresi": "10"
   },
-  "konu": "CİMER Başvurusu Hk.",
-  "sayi": "E-10192495-622.01-5099434",
-  "tarih": "22.05.2026",
+  "konu": "BEP Hazırlanması Hk.",
+  "sayi": "E-10099665-160.01.02-7228478",
+  "tarih": "29.05.2026",
   "ilgi": {
-    "tarih": "28.04.2026",
-    "sayi": "E-55461037-622.01-4869503"
+    "tarih": "23.04.2026",
+    "sayi": "E-87302975-160.01.02-6597534"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "CİMER Başvurusu",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "BEP Hazırlanması",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,14 +54,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "CİMER Başvurusu",
-    "olumlu, işlem tamamlandı",
+    "BEP Hazırlanması",
+    "olumlu, talep karşılandı",
     "Müdürlüğümüz kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

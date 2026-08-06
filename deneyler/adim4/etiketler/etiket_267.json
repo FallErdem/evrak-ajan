@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf ŞAHIN",
-    "adres": "Ostim Mahallesi Ihlamur Sokağı No: 33/4 Yenimahalle/ANKARA",
+    "ad": "Emine ÖZTÜRK",
+    "adres": "Uğur Mumcu Mahallesi Nergis Sokağı No: 92/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,22 +21,25 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Ruhsat Hakkında Şikâyet",
+  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "13.02.2026",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ruhsat Hakkında Şikâyet",
-    "Sorun": "kaldırım işgali nedeniyle yaya geçişi engelleniyor",
-    "Yer": "İvedik Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
+    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+    "Sorun": "sokaktaki çöp konteyneri düzenli boşaltılmıyor",
+    "Yer": "Emniyet Mahallesi",
+    "Süre": "geçtiğimiz aydan bu yana",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -48,13 +51,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Hakkında Şikâyet",
-    "İvedik Mahallesi",
-    "yaklaşık kırk gündür",
+    "Emniyet Mahallesi",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

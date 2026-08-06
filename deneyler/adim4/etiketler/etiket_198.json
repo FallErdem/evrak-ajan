@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Serkan KILIÇ",
-    "adres": "Ostim Mahallesi Çınar Caddesi No: 78/23 Yenimahalle/ANKARA",
+    "ad": "Ömer SARI",
+    "adres": "Susuz Mahallesi Sümbül Caddesi No: 61/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
     "saklama_suresi": "10"
   },
-  "konu": "Transkript Talebi",
+  "konu": "Kayıt Dondurma Talebi",
   "sayi": null,
-  "tarih": "23.04.2026",
+  "tarih": "20.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Transkript",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Kayıt Dondurma",
+    "Öğrenim bilgisi": "2023 yılı mezunu",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -44,12 +47,12 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "lisansüstü programa kayıtlı",
-    "ilgili kuruma sunulmak üzere"
+    "Kayıt Dondurma",
+    "2023 yılı mezunu"
   ]
 }

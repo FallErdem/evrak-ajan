@@ -12,35 +12,38 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Kaymakamlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "56248377",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
   "aile": "tekit",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
     "saklama_suresi": "15"
   },
-  "konu": "Ödenek Talebi",
-  "sayi": "E-56248377-841.01-6501605",
-  "tarih": "16.01.2026",
+  "konu": "Stratejik Plan Verisi Talebi",
+  "sayi": "E-24304062-602.04-4861167",
+  "tarih": "28.04.2026",
   "ilgi": {
-    "tarih": "18.12.2025",
-    "sayi": "E-65859045-841.01-5659383"
+    "tarih": "19.03.2026",
+    "sayi": "E-43195403-602.04-2186742"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "beş iş günü içinde"
+    "Süre": "en geç bir hafta içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +59,6 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "beş iş günü içinde"
+    "en geç bir hafta içinde"
   ]
 }

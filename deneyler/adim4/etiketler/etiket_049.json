@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ali TURAN",
-    "adres": "Yeşilevler Mahallesi Zeytin Sokağı No: 5/18 Yenimahalle/ANKARA",
+    "ad": "Serkan YILMAZ",
+    "adres": "Susuz Mahallesi Papatya Caddesi No: 116/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,23 +21,26 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Bilgi Edinme, Talep ve Şikayetler Hakkında Şikâyet",
+  "konu": "Belge Talepleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "20.03.2026",
+  "tarih": "30.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Bilgi Edinme, Talep ve Şikayetler Hakkında Şikâyet",
-    "Sorun": "sokak aydınlatması uzun süredir çalışmıyor",
-    "Yer": "Barıştepe Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Belge Talepleri Hakkında Şikâyet",
+    "Sorun": "sınıf mevcudu ilan edilen sayının üzerinde",
+    "Yer": "Gayret Mahallesi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,8 +55,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Barıştepe Mahallesi",
-    "yaklaşık kırk gündür",
+    "Belge Talepleri Hakkında Şikâyet",
+    "Gayret Mahallesi",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

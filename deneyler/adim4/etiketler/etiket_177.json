@@ -5,43 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Hukuk İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
-    "saklama_suresi": "10"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "Atık Yönetimi Hk.",
-  "sayi": "E-24432702-155.01-8582932",
-  "tarih": "04.03.2026",
+  "konu": "İdari Davalar Hk.",
+  "sayi": "E-10213773-641.04-1157599",
+  "tarih": "20.04.2026",
   "ilgi": {
-    "tarih": "12.02.2026",
-    "sayi": "E-65859045-155.01-4846288"
+    "tarih": "10.04.2026",
+    "sayi": "E-10578106-641.04-7899496"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Atık Yönetimi",
+    "Talep": "İdari Davalar",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,13 +54,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Atık Yönetimi",
+    "İdari Davalar",
     "olumlu, talep karşılandı",
     "Müdürlüğümüz kayıt bürosu",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "kimlik belgesi ibraz edilerek şahsen",
+    "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

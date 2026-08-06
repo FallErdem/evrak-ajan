@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Elif DOĞAN",
-    "adres": "Çiğdemtepe Mahallesi Çınar Sokağı No: 67/9 Yenimahalle/ANKARA",
+    "ad": "Selin AKSOY",
+    "adres": "Demetevler Mahallesi Kestane Caddesi No: 14/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,23 +21,26 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Belge Talepleri Hakkında Şikâyet",
+  "konu": "Arşivlerden Yararlanma Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "01.05.2026",
+  "tarih": "27.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Belge Talepleri Hakkında Şikâyet",
-    "Sorun": "sokak aydınlatması uzun süredir çalışmıyor",
-    "Yer": "Emniyet Mahallesi",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Şikâyet konusu": "Arşivlerden Yararlanma Hakkında Şikâyet",
+    "Sorun": "gece saatlerinde ruhsatsız çalışma yapılıyor",
+    "Yer": "Susuz Mahallesi",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Belge Talepleri Hakkında Şikâyet",
-    "Emniyet Mahallesi",
-    "yaklaşık üç haftadır",
+    "Arşivlerden Yararlanma Hakkında Şikâyet",
+    "Susuz Mahallesi",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

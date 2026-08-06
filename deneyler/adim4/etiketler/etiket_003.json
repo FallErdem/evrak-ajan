@@ -5,42 +5,45 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Hukuki Mütalaanın Gönderilmesi",
-  "sayi": "E-24432702-045.02-8582151",
-  "tarih": "23.02.2026",
+  "konu": "Toplantı ve Etkinlik İşleri Hk.",
+  "sayi": "E-24304062-051-4835248",
+  "tarih": "06.04.2026",
   "ilgi": {
-    "tarih": "05.02.2026",
-    "sayi": "E-65859045-045.02-8602762"
+    "tarih": "16.03.2026",
+    "sayi": "E-65859045-051-3342472"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Hukuki Mütalaanın Gönderilmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Toplantı ve Etkinlik İşleri",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
     "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
   },
   "paragraf_cumle_sayilari": [
@@ -51,14 +54,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Hukuki Mütalaanın Gönderilmesi",
-    "olumlu, işlem tamamlandı",
+    "Toplantı ve Etkinlik İşleri",
+    "olumlu, talep karşılandı",
     "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
     "düzenlendiği tarihten itibaren altı ay"
   ]
 }

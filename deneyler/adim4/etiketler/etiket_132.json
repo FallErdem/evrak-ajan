@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Onur TURAN",
-    "adres": "Serhat Mahallesi Papatya Sokağı No: 101/14 Yenimahalle/ANKARA",
+    "ad": "Mustafa ÇETIN",
+    "adres": "Demetevler Mahallesi Lale Sokak No: 37/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,23 +21,26 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
-    "saklama_suresi": "10"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Hafriyat Atığı Şikayeti",
+  "konu": "Borç ve Alacak İşleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "04.05.2026",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Hafriyat Atığı",
+    "Şikâyet konusu": "Borç ve Alacak İşleri Hakkında Şikâyet",
     "Sorun": "sokak aydınlatması uzun süredir çalışmıyor",
     "Yer": "İvedik Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -48,13 +51,13 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Hafriyat Atığı",
+    "Borç ve Alacak İşleri Hakkında Şikâyet",
     "İvedik Mahallesi",
-    "yaklaşık kırk gündür",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

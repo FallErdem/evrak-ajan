@@ -5,42 +5,45 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "makine_ikmal",
+    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "detsis_no": "89052714",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Kaymakamlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "56248377",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
+    "kod": "801",
+    "ad": "Taşıt ve İş Makineleri İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Atık Yönetimi Hk.",
-  "sayi": "E-56248377-155.01-6501430",
-  "tarih": "17.03.2026",
+  "konu": "Taşıt ve İş Makineleri İşleri Hk.",
+  "sayi": "E-24304062-801-4798123",
+  "tarih": "05.03.2026",
   "ilgi": {
-    "tarih": "11.02.2026",
-    "sayi": "E-65859045-155.01-9203755"
+    "tarih": "22.01.2026",
+    "sayi": "E-89052714-801-1071814"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Atık Yönetimi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Taşıt ve İş Makineleri İşleri",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
     "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
   },
   "paragraf_cumle_sayilari": [
@@ -51,13 +54,14 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Atık Yönetimi",
-    "olumlu, talep karşılandı",
+    "Taşıt ve İş Makineleri İşleri",
+    "olumlu, belge düzenlendi",
     "Müdürlüğümüz kayıt bürosu",
+    "kimlik belgesi ibraz edilerek şahsen",
     "düzenlendiği tarihten itibaren altı ay"
   ]
 }

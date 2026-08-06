@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Murat ÖZKAN",
-    "adres": "Yakacık Mahallesi Ceviz Caddesi No: 55/18 Yenimahalle/ANKARA",
+    "ad": "Ömer ATEŞ",
+    "adres": "Pamuklar Mahallesi Lale Sokak No: 4/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.04",
-    "ad": "Yapı Ruhsatı",
-    "saklama_suresi": "B"
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
+    "saklama_suresi": "10"
   },
-  "konu": "Ruhsat Yenileme Talebi",
+  "konu": "Çöp Toplama Talebi",
   "sayi": null,
-  "tarih": "06.03.2026",
+  "tarih": "27.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Ruhsat Yenileme",
-    "Taşınmaz": "27190 ada, 36 parsel",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Çöp Toplama",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -44,12 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Yenileme",
-    "27190 ada, 36 parsel",
-    "ilgili kuruma sunulmak üzere"
+    "Çöp Toplama",
+    "sürecin tamamlanabilmesi için"
   ]
 }

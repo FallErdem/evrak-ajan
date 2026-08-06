@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife ÖZTÜRK",
-    "adres": "Uğur Mumcu Mahallesi Nergis Caddesi No: 120/15 Yenimahalle/ANKARA",
+    "ad": "Aslı KORKMAZ",
+    "adres": "Yeşilevler Mahallesi Akasya Sokağı No: 13/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,15 +21,18 @@
   "aile": "itiraz",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Belge Talepleri Kararına İtiraz",
+  "konu": "Arşivlerden Yararlanma Kararına İtiraz",
   "sayi": null,
-  "tarih": "13.03.2026",
+  "tarih": "04.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -37,7 +40,7 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Belge Talepleri Kararına İtiraz",
+    "İtiraz konusu": "Arşivlerden Yararlanma Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -54,7 +57,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Belge Talepleri Kararına İtiraz",
+    "Arşivlerden Yararlanma Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

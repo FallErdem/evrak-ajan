@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Havva SARI",
-    "adres": "Ragıpbey Mahallesi Yasemin Sokağı No: 97/23 Yenimahalle/ANKARA",
+    "ad": "Onur ÖZTÜRK",
+    "adres": "Karşıyaka Mahallesi Nergis Caddesi No: 56/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,6 +21,9 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "190.01.07",
@@ -29,12 +32,12 @@
   },
   "konu": "Emlak Vergisi Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "17.03.2026",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Emlak Vergisi Muafiyet",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,7 +50,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Muafiyet",
-    "resmî işlemlerde kullanılmak üzere"
+    "Emlak Vergisi Muafiyet"
   ]
 }

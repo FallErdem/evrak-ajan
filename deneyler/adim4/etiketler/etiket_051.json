@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "İbrahim KURT",
-    "adres": "Pamuklar Mahallesi Yasemin Sokak No: 115/23 Yenimahalle/ANKARA",
+    "ad": "Hüseyin POLAT",
+    "adres": "Beştepe Mahallesi Nergis Caddesi No: 113/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,20 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Nakil Başvurusunun Değerlendirilmesi",
+  "konu": "Kayıt Alanı Dışından Kayıt Talebi",
   "sayi": null,
   "tarih": "16.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Nakil Başvurusunun Değerlendirilmesi",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Kayıt Alanı Dışından Kayıt",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,7 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Nakil Başvurusunun Değerlendirilmesi",
-    "ilgili kuruma sunulmak üzere"
+    "Kayıt Alanı Dışından Kayıt",
+    "sürecin tamamlanabilmesi için"
   ]
 }

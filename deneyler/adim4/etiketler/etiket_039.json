@@ -12,28 +12,31 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Disiplin İşleri Hk.",
-  "sayi": "E-10213773-225.02-8544063",
-  "tarih": "06.01.2026",
+  "konu": "Burs Ödemesi Hk.",
+  "sayi": "E-24316060-245.04-2060544",
+  "tarih": "26.03.2026",
   "ilgi": {
-    "tarih": "25.11.2025",
-    "sayi": "E-55461037-225.02-6002356"
+    "tarih": "19.02.2026",
+    "sayi": "E-63971525-245.04-6019173"
   },
   "ek": {
     "adet": 1,
@@ -41,11 +44,11 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Disiplin İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Bursluluk kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

@@ -12,32 +12,35 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Personel Dairesi Başkanlığı",
+    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "42218640",
+    "detsis_no": "98244303",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Mühendislik Fakültesi Dekanlığı",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
-    "saklama_suresi": "10"
+    "kod": "104.01",
+    "ad": "Program Açma",
+    "saklama_suresi": "15"
   },
-  "konu": "İzin İşleri Hk.",
-  "sayi": "E-42218640-302.08-2830498",
-  "tarih": "08.01.2026",
+  "konu": "Program Açma Başvurusu Hk.",
+  "sayi": "E-98244303-104.01-7073110",
+  "tarih": "09.04.2026",
   "ilgi": {
-    "tarih": "25.11.2025",
-    "sayi": "E-39985474-302.08-9350674"
+    "tarih": "25.03.2026",
+    "sayi": "E-43123369-104.01-2771685"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İzin İşleri",
+    "Talep": "Program Açma Başvurusu",
     "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
     "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
@@ -56,7 +59,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İzin İşleri",
+    "Program Açma Başvurusu",
     "olumlu, belge düzenlendi",
     "Başkanlığımız kayıt bürosu",
     "noter onaylı vekâletname ile veya bizzat",

@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Salih TURAN",
-    "adres": "Ergazi Mahallesi Yasemin Sokağı No: 79/1 Yenimahalle/ANKARA",
+    "ad": "Sevgi BOZKURT",
+    "adres": "Yakacık Mahallesi Kestane Caddesi No: 113/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,28 +21,31 @@
   "aile": "itiraz",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
-    "saklama_suresi": "B"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Yapı Kullanma İzni Kararına İtiraz",
+  "konu": "Bilgi Edinme, Talep ve Şikayetler Kararına İtiraz",
   "sayi": null,
-  "tarih": "04.05.2026",
+  "tarih": "04.03.2026",
   "ilgi": {
-    "tarih": "07.04.2026",
-    "sayi": "E-65859045-115.02.08-1871500"
+    "tarih": "28.01.2026",
+    "sayi": "E-50719027-622.01-4161078"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 4
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Yapı Kullanma İzni Kararına İtiraz",
+    "İtiraz konusu": "Bilgi Edinme, Talep ve Şikayetler Kararına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,11 +56,10 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yapı Kullanma İzni Kararına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

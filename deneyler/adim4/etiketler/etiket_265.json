@@ -5,43 +5,46 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "17311665",
+    "detsis_no": "98244303",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Genel Sekreterlik",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Kurul Kararının Gönderilmesi",
-  "sayi": "E-17311665-050.04-3769555",
-  "tarih": "04.03.2026",
+  "konu": "Hukuki Mütalaanın Gönderilmesi",
+  "sayi": "E-98244303-045.02-7116600",
+  "tarih": "18.05.2026",
   "ilgi": {
-    "tarih": "13.02.2026",
-    "sayi": "E-39985474-050.04-2013515"
+    "tarih": "14.04.2026",
+    "sayi": "E-82642947-045.02-6826222"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kurul Kararının Gönderilmesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Hukuki Mütalaanın Gönderilmesi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
     "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,15 +54,15 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kurul Kararının Gönderilmesi",
-    "olumlu, belge düzenlendi",
+    "Hukuki Mütalaanın Gönderilmesi",
+    "olumlu, talep karşılandı",
     "Başkanlığımız kayıt bürosu",
     "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "düzenlendiği tarihten itibaren altı ay"
   ]
 }

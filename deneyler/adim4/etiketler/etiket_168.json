@@ -5,43 +5,45 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
+    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "18426575",
+    "detsis_no": "26888327",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "110.04",
-    "ad": "Encümen Kararları",
-    "saklama_suresi": "B"
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
   },
-  "konu": "Encümen Kararının Gönderilmesi",
-  "sayi": "E-18426575-110.04-6751049",
-  "tarih": "10.03.2026",
+  "konu": "Bütçe Teklifinin Gönderilmesi",
+  "sayi": "E-26888327-841.01-2168223",
+  "tarih": "25.03.2026",
   "ilgi": {
     "tarih": "26.02.2026",
-    "sayi": "E-65859045-110.04-2586397"
+    "sayi": "E-43195403-841.01-2172895"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Encümen Kararının Gönderilmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Taşınmaz": "31592 ada, 8 parsel",
+    "Talep": "Bütçe Teklifinin Gönderilmesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
     "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
@@ -52,15 +54,14 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Encümen Kararının Gönderilmesi",
-    "olumlu, işlem tamamlandı",
-    "31592 ada, 8 parsel",
+    "Bütçe Teklifinin Gönderilmesi",
+    "olumlu, belge düzenlendi",
     "Müdürlüğümüz kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
+    "kimlik belgesi ibraz edilerek şahsen",
     "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

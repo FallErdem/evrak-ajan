@@ -12,32 +12,35 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "104.01",
-    "ad": "Program Açma",
-    "saklama_suresi": "15"
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Kontenjan Talebi",
-  "sayi": "E-65859045-104.01-1888900",
-  "tarih": "28.04.2026",
+  "konu": "Sınav Programları ve Sınavlar Talebi",
+  "sayi": "E-10213773-106-1052999",
+  "tarih": "13.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Program Açma kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Mevcut durum": "Sınav Programları ve Sınavlar kapsamındaki iş yükü artmıştır",
+    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
+    "Amaç": "hizmetlerin aksamadan yürütülmesi",
+    "Talep": "teknik destek sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,8 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "mevcut kaynaklar yetersiz kalmaktadır",
-    "kaynakların etkin kullanılması",
-    "ilave personel görevlendirilmesi"
+    "hizmetlerin aksamadan yürütülmesi",
+    "teknik destek sağlanması"
   ]
 }

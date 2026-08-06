@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine YAVUZ",
-    "adres": "Yeşilevler Mahallesi Ihlamur Sokağı No: 48/23 Yenimahalle/ANKARA",
+    "ad": "Gamze ÖZTÜRK",
+    "adres": "Ostim Mahallesi Kestane Caddesi No: 73/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
     "saklama_suresi": "10"
   },
-  "konu": "Askerlik Durum Belgesi Talebi",
+  "konu": "Kayıt Dondurma Talebi",
   "sayi": null,
-  "tarih": "07.05.2026",
+  "tarih": "03.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Askerlik Durum Belgesi",
-    "Öğrenim bilgisi": "1. sınıf öğrencisi",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Kayıt Dondurma",
+    "Öğrenim bilgisi": "2. sınıf öğrencisi",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +52,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Askerlik Durum Belgesi",
-    "1. sınıf öğrencisi",
-    "resmî işlemlerde kullanılmak üzere"
+    "Kayıt Dondurma",
+    "2. sınıf öğrencisi",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

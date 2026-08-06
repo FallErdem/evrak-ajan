@@ -21,25 +21,28 @@
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Genel Sekreterlik",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
   },
-  "konu": "Arşivlerden Yararlanma Oluru",
-  "sayi": "E-43123369-805.02.05-2328023",
-  "tarih": "14.04.2026",
+  "konu": "Kararlar Oluru",
+  "sayi": "E-43123369-050.04-2790095",
+  "tarih": "24.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Arşivlerden Yararlanma",
-    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
+    "Konu": "Kararlar",
+    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -55,7 +58,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Arşivlerden Yararlanma",
-    "mevzuatın öngördüğü sürelere uyulması"
+    "hizmetlerin aksamadan yürütülmesi"
   ]
 }

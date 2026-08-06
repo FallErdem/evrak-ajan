@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ömer AVCI",
-    "adres": "Karşıyaka Mahallesi Kestane Sokağı No: 120/1 Yenimahalle/ANKARA",
+    "ad": "Osman ÇELIK",
+    "adres": "Beştepe Mahallesi Papatya Sokağı No: 71/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Dondurma Talebi",
+  "konu": "Katkı Payı Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "22.05.2026",
+  "tarih": "04.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Dondurma",
-    "Öğrenim bilgisi": "2019 yılı mezunu",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Katkı Payı Muafiyet",
+    "Öğrenim bilgisi": "2025 yılı mezunu",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +52,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Dondurma",
-    "2019 yılı mezunu",
-    "başvuru dosyasına eklenmek üzere"
+    "Katkı Payı Muafiyet",
+    "2025 yılı mezunu"
   ]
 }

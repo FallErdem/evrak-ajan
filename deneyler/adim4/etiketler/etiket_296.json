@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet ÇAKIR",
-    "adres": "Demetevler Mahallesi Papatya Sokağı No: 65/5 Yenimahalle/ANKARA",
+    "ad": "Şerife ÖZTÜRK",
+    "adres": "Uğur Mumcu Mahallesi Nergis Caddesi No: 120/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,20 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
     "saklama_suresi": "10"
   },
-  "konu": "Terazi Damgalama Başvurusu",
+  "konu": "Engelli Hizmetlerinden Yararlanma Başvurusu",
   "sayi": null,
   "tarih": "13.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Terazi Damgalama",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Engelli Hizmetlerinden Yararlanma",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -43,11 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Terazi Damgalama",
-    "başvuru dosyasına eklenmek üzere"
+    "Engelli Hizmetlerinden Yararlanma",
+    "sürecin tamamlanabilmesi için"
   ]
 }

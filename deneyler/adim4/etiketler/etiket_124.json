@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin ÇAKIR",
-    "adres": "Karşıyaka Mahallesi Papatya Sokak No: 55/9 Yenimahalle/ANKARA",
+    "ad": "Şaban ŞAHIN",
+    "adres": "Pamuklar Mahallesi Papatya Caddesi No: 39/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,23 +21,26 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Yeni Kayıt İşlemleri Hakkında Şikâyet",
+  "konu": "Öğrenci Toplulukları, Birlikleri vb. Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "27.02.2026",
+  "tarih": "28.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yeni Kayıt İşlemleri Hakkında Şikâyet",
-    "Sorun": "gece saatlerinde yüksek sesle çalışma yapılıyor",
-    "Yer": "Çiğdemtepe Mahallesi",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Şikâyet konusu": "Öğrenci Toplulukları, Birlikleri vb. Hakkında Şikâyet",
+    "Sorun": "yemekhane hizmetinde uzun kuyruk oluşuyor",
+    "Yer": "Demetevler Mahallesi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -48,14 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Yeni Kayıt İşlemleri Hakkında Şikâyet",
-    "Çiğdemtepe Mahallesi",
-    "bir aydan uzun süredir",
+    "Demetevler Mahallesi",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

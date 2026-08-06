@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ahmet ÖZDEMIR",
-    "adres": "Beştepe Mahallesi Manolya Sokak No: 106/5 Yenimahalle/ANKARA",
+    "ad": "Mehmet BULUT",
+    "adres": "Ostim Mahallesi Akasya Sokağı No: 3/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,20 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "115.02.08",
+    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
+    "saklama_suresi": "B"
   },
-  "konu": "Emlak Vergisi Muafiyet Başvurusu",
+  "konu": "Yapı Kullanma İzin Belgesi Talebi",
   "sayi": null,
-  "tarih": "12.02.2026",
+  "tarih": "10.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Emlak Vergisi Muafiyet",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Yapı Kullanma İzin Belgesi",
+    "Taşınmaz": "27818 ada, 35 parsel",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -43,11 +47,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Muafiyet",
-    "başvuru dosyasına eklenmek üzere"
+    "Yapı Kullanma İzin Belgesi",
+    "27818 ada, 35 parsel",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Pınar ASLAN",
-    "adres": "Beştepe Mahallesi Akasya Sokağı No: 85/19 Yenimahalle/ANKARA",
+    "ad": "Fatih GÜNEŞ",
+    "adres": "Uğur Mumcu Mahallesi Akasya Caddesi No: 3/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,20 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Dondurma ve İzin Talebi",
+  "konu": "Öğrenci Belgesi Talebi",
   "sayi": null,
-  "tarih": "12.03.2026",
+  "tarih": "23.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Dondurma ve İzin",
-    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Talep": "Öğrenci Belgesi",
+    "Öğrenim bilgisi": "2. sınıf öğrencisi",
     "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -44,13 +47,13 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Dondurma ve İzin",
-    "3. sınıf öğrencisi",
+    "Öğrenci Belgesi",
+    "2. sınıf öğrencisi",
     "ilgili kuruma sunulmak üzere"
   ]
 }

@@ -5,32 +5,40 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10204305",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "24312041",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "dagitim": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Ankara Büyükşehir Belediye Başkanlığı",
+    "Muhtarlık İşleri Müdürlüğü",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü"
+  ],
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "807.01",
-    "ad": "Bina ve Tesisler",
-    "saklama_suresi": "10"
+    "kod": "105.04",
+    "ad": "Meclis Kararları",
+    "saklama_suresi": "15"
   },
-  "konu": "Bina ve Tesisler Listesinin Gönderilmesi",
-  "sayi": "E-10204305-807.01-3565443",
-  "tarih": "18.03.2026",
+  "konu": "Meclis Kararının Gönderilmesi",
+  "sayi": "E-24312041-105.04-3635962",
+  "tarih": "16.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
@@ -39,9 +47,9 @@
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "üçüncü çeyrek",
-    "Sayı": "35 kayıt",
-    "Ek 1": "Bina ve Tesisler listesi",
+    "Dönem": "mali yıl",
+    "Sayı": "68 kayıt",
+    "Ek 1": "Meclis Kararları listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -54,14 +62,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "üçüncü çeyrek",
-    "35 kayıt",
-    "Bina ve Tesisler listesi",
+    "mali yıl",
+    "68 kayıt",
+    "Meclis Kararları listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

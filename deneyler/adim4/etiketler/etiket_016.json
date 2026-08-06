@@ -22,18 +22,21 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.14",
-    "ad": "Tez İşleri",
-    "saklama_suresi": "B"
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Tez Konusu Değişikliği Talebi",
-  "sayi": "E-55461037-302.14-5985638",
-  "tarih": "20.04.2026",
+  "konu": "Sınav Programları ve Sınavlar Talebi",
+  "sayi": "E-55461037-106-3825123",
+  "tarih": "11.05.2026",
   "ilgi": {
-    "tarih": "06.04.2026",
-    "sayi": "E-39985474-302.14-8739767"
+    "tarih": "31.03.2026",
+    "sayi": "E-47014261-106-5134937"
   },
   "ek": {
     "adet": 1,
@@ -41,10 +44,10 @@
     "sayfa": 3
   },
   "somut_bilgiler": {
-    "Mevcut durum": "Tez İşleri kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Sınav Programları ve Sınavlar kapsamındaki iş yükü artmıştır",
     "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
     "Amaç": "hizmetlerin aksamadan yürütülmesi",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Talep": "teknik destek sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -61,6 +64,6 @@
   "anahtar_terimler": [
     "mevcut kaynaklar yetersiz kalmaktadır",
     "hizmetlerin aksamadan yürütülmesi",
-    "gerekli ödeneğin tahsis edilmesi"
+    "teknik destek sağlanması"
   ]
 }

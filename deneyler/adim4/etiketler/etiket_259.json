@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -22,22 +22,25 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
-    "saklama_suresi": "10"
+    "kod": "110.04",
+    "ad": "Encümen Kararları",
+    "saklama_suresi": "B"
   },
-  "konu": "Engelli Erişim Düzenlemesi Talebi",
-  "sayi": "E-90226917-120.02-8661238",
-  "tarih": "23.01.2026",
+  "konu": "Encümen Kararı Örneği Talebi",
+  "sayi": "E-90226917-110.04-7068625",
+  "tarih": "01.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Engellilere Yönelik Hizmetler kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Encümen Kararları kapsamındaki iş yükü artmıştır",
     "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "hizmetlerin aksamadan yürütülmesi",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Amaç": "kaynakların etkin kullanılması",
+    "Talep": "teknik destek sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -47,12 +50,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ek kapasiteye ihtiyaç duyulmaktadır",
-    "hizmetlerin aksamadan yürütülmesi",
-    "gerekli ödeneğin tahsis edilmesi"
+    "kaynakların etkin kullanılması",
+    "teknik destek sağlanması"
   ]
 }

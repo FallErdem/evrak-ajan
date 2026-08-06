@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,26 +22,29 @@
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
+    "saklama_suresi": "10"
   },
-  "konu": "Hukuki Mütalaanın Gönderilmesi",
-  "sayi": "E-10213773-045.02-8544383",
-  "tarih": "07.05.2026",
+  "konu": "Mal Alım İşi Listesinin Gönderilmesi",
+  "sayi": "E-10213773-934.01-1075688",
+  "tarih": "03.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "güz dönemi",
-    "Sayı": "186 kayıt",
-    "Ek 1": "Hukuki listesi",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Sayı": "94 kayıt",
+    "Ek 1": "Mal Alım İşi listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -54,14 +57,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "güz dönemi",
-    "186 kayıt",
-    "Hukuki listesi",
+    "içinde bulunulan öğretim yılı",
+    "94 kayıt",
+    "Mal Alım İşi listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

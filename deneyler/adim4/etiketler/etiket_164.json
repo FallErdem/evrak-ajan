@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şaban KAYA",
-    "adres": "Ostim Mahallesi Erguvan Caddesi No: 24/24 Yenimahalle/ANKARA",
+    "ad": "Salih ASLAN",
+    "adres": "Serhat Mahallesi Erguvan Caddesi No: 31/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Değişim Programı Ders Tanıma Talebi",
+  "konu": "Kesin Kayıt Başvurusu",
   "sayi": null,
-  "tarih": "05.01.2026",
+  "tarih": "18.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Değişim Programı Ders Tanıma",
+    "Talep": "Kesin Kayıt",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +52,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Değişim Programı Ders Tanıma",
+    "Kesin Kayıt",
     "lisansüstü programa kayıtlı",
-    "başvuru dosyasına eklenmek üzere"
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf KOÇ",
-    "adres": "Karşıyaka Mahallesi Menekşe Sokağı No: 56/13 Yenimahalle/ANKARA",
+    "ad": "Mustafa BULUT",
+    "adres": "Çiğdemtepe Mahallesi Ceviz Sokak No: 64/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,23 +21,26 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
+  "konu": "Servis Hizmeti Aksaklığı Bildirimi",
   "sayi": null,
-  "tarih": "15.05.2026",
+  "tarih": "22.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yabancı Uyruklu Öğrenciler Hakkında Şikâyet",
-    "Sorun": "gece saatlerinde yüksek sesle çalışma yapılıyor",
-    "Yer": "Serhat Mahallesi",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
+    "Sorun": "okul kantininde fiyat listesi asılı değil",
+    "Yer": "Pamuklar Mahallesi",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,8 +55,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Serhat Mahallesi",
-    "yaklaşık üç haftadır",
+    "Servis Hizmeti Aksaklığı",
+    "Pamuklar Mahallesi",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

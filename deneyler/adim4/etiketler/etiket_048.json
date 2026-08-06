@@ -12,32 +12,35 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.08",
-    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
+    "kod": "115.01.06",
+    "ad": "Uygulama İmar Planı",
     "saklama_suresi": "B"
   },
-  "konu": "İrtifak Hakkı Tesisi Talebi",
-  "sayi": "E-39985474-115.01.08-2600894",
-  "tarih": "12.03.2026",
+  "konu": "Uygulama İmar Planı Değişikliği Talebi",
+  "sayi": "E-55461037-115.01.06-3740789",
+  "tarih": "14.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb. kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Uygulama İmar Planı kapsamındaki iş yükü artmıştır",
     "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "iş ve işlemlerin zamanında tamamlanması",
-    "Talep": "teknik destek sağlanması"
+    "Amaç": "kaynakların etkin kullanılması",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -51,7 +54,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "iş ve işlemlerin zamanında tamamlanması",
-    "teknik destek sağlanması"
+    "kaynakların etkin kullanılması",
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

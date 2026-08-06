@@ -22,25 +22,28 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Personel Dairesi Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "201",
-    "ad": "Seçim ve Atama İşleri",
+    "kod": "204.01",
+    "ad": "Doçentlik",
     "saklama_suresi": "15"
   },
-  "konu": "Seçim ve Atama İşleri Talebi",
-  "sayi": "E-65859045-201-1887817",
-  "tarih": "08.04.2026",
+  "konu": "Doçentlik Talebi",
+  "sayi": "E-65859045-204.01-3371932",
+  "tarih": "01.05.2026",
   "ilgi": {
-    "tarih": "02.04.2026",
-    "sayi": "E-39985474-201-2593663"
+    "tarih": "06.04.2026",
+    "sayi": "E-42218640-204.01-2201921"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Seçim ve Atama İşleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "gerekli ödeneğin tahsis edilmesi"
+    "Mevcut durum": "Doçentlik kapsamındaki iş yükü artmıştır",
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
+    "Amaç": "kaynakların etkin kullanılması",
+    "Talep": "ilave personel görevlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,7 +58,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "mevzuatın öngördüğü sürelere uyulması",
-    "gerekli ödeneğin tahsis edilmesi"
+    "Doçentlik kapsamındaki iş yükü artmıştır",
+    "ek kapasiteye ihtiyaç duyulmaktadır",
+    "kaynakların etkin kullanılması",
+    "ilave personel görevlendirilmesi"
   ]
 }

@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Öz Yapı Denetim A.Ş.",
+    "kurum_adi": "Ege Eğitim Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "İvedik Mahallesi Kestane Caddesi No: 85/5 Yenimahalle/ANKARA",
+    "adres": "Yeşilevler Mahallesi Menekşe Caddesi No: 24/4 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -22,21 +22,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "855",
-    "ad": "Borç ve Alacak İşleri",
-    "saklama_suresi": "15"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "Borç Yapılandırma Talebi",
-  "sayi": "2026/4396",
-  "tarih": "12.02.2026",
+  "konu": "Ruhsat Devir Talebi",
+  "sayi": "2026/452",
+  "tarih": "07.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Borç Yapılandırma",
-    "Taşınmaz": "57405 ada, 19 parsel",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Ruhsat Devir",
+    "Taşınmaz": "81103 ada, 35 parsel",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -45,12 +48,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Borç Yapılandırma",
-    "57405 ada, 19 parsel",
-    "başvuru dosyasına eklenmek üzere"
+    "Ruhsat Devir",
+    "81103 ada, 35 parsel"
   ]
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Burak TEKIN",
-    "adres": "Serhat Mahallesi Nergis Sokak No: 104/11 Yenimahalle/ANKARA",
+    "ad": "Ayşe YILDIRIM",
+    "adres": "Ostim Mahallesi Ceviz Sokak No: 115/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Zorunlu Staj Başvurusu",
+  "konu": "Tez Konusu Değişikliği Talebi",
   "sayi": null,
-  "tarih": "20.01.2026",
+  "tarih": "11.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Zorunlu Staj",
+    "Talep": "Tez Konusu Değişikliği",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -44,13 +47,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Zorunlu Staj",
-    "lisansüstü programa kayıtlı",
-    "başvuru dosyasına eklenmek üzere"
+    "Tez Konusu Değişikliği",
+    "lisansüstü programa kayıtlı"
   ]
 }

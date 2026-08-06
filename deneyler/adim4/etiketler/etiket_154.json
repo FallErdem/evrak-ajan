@@ -12,33 +12,36 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "kurum_adi": "Strateji Geliştirme Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "87302975",
+    "detsis_no": "14588481",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Ulaşım ve Servis İşleri Hk.",
-  "sayi": "E-87302975-802-5241079",
-  "tarih": "20.01.2026",
+  "konu": "Yabancı Uyruklu Öğrenciler Hk.",
+  "sayi": "E-14588481-235-4239629",
+  "tarih": "07.01.2026",
   "ilgi": {
-    "tarih": "05.01.2026",
-    "sayi": "E-55461037-802-9680851"
+    "tarih": "24.12.2025",
+    "sayi": "E-21291472-235-4011076"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Ulaşım ve Servis İşleri",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Yabancı Uyruklu Öğrenciler",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
     "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
     "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
@@ -55,8 +58,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Ulaşım ve Servis İşleri",
-    "olumlu, talep karşılandı",
+    "Yabancı Uyruklu Öğrenciler",
+    "olumlu, işlem tamamlandı",
     "Müdürlüğümüz kayıt bürosu",
     "kimlik belgesi ibraz edilerek şahsen",
     "düzenlendiği tarihten itibaren iki yıl"

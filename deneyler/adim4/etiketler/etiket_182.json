@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ahmet YILMAZ",
-    "adres": "Gayret Mahallesi Papatya Caddesi No: 115/17 Yenimahalle/ANKARA",
+    "ad": "Ömer KURT",
+    "adres": "Demetevler Mahallesi Papatya Sokak No: 51/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "kod": "815",
+    "ad": "Sosyal Yardım İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Katkı Payı Muafiyet Başvurusu",
+  "konu": "Sosyal Yardım Başvurusu",
   "sayi": null,
-  "tarih": "13.02.2026",
+  "tarih": "23.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Katkı Payı Muafiyet",
-    "Öğrenim bilgisi": "2021 yılı mezunu",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Sosyal Yardım",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -44,13 +47,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı Muafiyet",
-    "2021 yılı mezunu",
-    "ilgili kuruma sunulmak üzere"
+    "Sosyal Yardım",
+    "lisansüstü programa kayıtlı",
+    "sürecin tamamlanabilmesi için"
   ]
 }

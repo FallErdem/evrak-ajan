@@ -5,43 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
+    "kurum_adi": "Temizlik İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "26888327",
+    "detsis_no": "83011479",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Fen İşleri Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "İdari Davalar Hk.",
-  "sayi": "E-26888327-641.04-1204854",
-  "tarih": "18.03.2026",
+  "konu": "Zemin Etüdü Raporunun Gönderilmesi",
+  "sayi": "E-83011479-755.01-5688953",
+  "tarih": "09.03.2026",
   "ilgi": {
-    "tarih": "26.02.2026",
-    "sayi": "E-65859045-641.04-5306066"
+    "tarih": "16.02.2026",
+    "sayi": "E-33152401-755.01-2195692"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İdari Davalar",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Zemin Etüdü Raporunun Gönderilmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,14 +54,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İdari Davalar",
-    "olumlu, belge düzenlendi",
+    "Zemin Etüdü Raporunun Gönderilmesi",
+    "olumlu, işlem tamamlandı",
     "Müdürlüğümüz kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren iki yıl"
+    "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

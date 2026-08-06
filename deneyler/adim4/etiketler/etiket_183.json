@@ -5,43 +5,46 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "47014261",
+    "detsis_no": "98244303",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Gazi Üniversitesi Rektörlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Araştırma İzni Hk.",
-  "sayi": "E-47014261-805.02.05-5134143",
-  "tarih": "18.05.2026",
+  "konu": "Stratejik Plan Hk.",
+  "sayi": "E-98244303-602.04-7049810",
+  "tarih": "19.03.2026",
   "ilgi": {
-    "tarih": "07.05.2026",
-    "sayi": "E-39985474-805.02.05-9203467"
+    "tarih": "02.02.2026",
+    "sayi": "E-39985474-602.04-6503498"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Araştırma İzni",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Stratejik Plan",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,15 +54,14 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Araştırma İzni",
-    "olumlu, talep karşılandı",
+    "Stratejik Plan",
+    "olumlu, işlem tamamlandı",
     "Başkanlığımız kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren altı ay"
+    "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

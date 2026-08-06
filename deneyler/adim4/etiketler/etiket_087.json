@@ -22,20 +22,23 @@
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "807.01",
-    "ad": "Bina ve Tesisler",
-    "saklama_suresi": "10"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "Bina ve Tesisler Hakkında Görüş Talebi",
-  "sayi": "E-39985474-807.01-2601358",
-  "tarih": "07.04.2026",
+  "konu": "Etüd-Proje ve Fizibilite Hakkında Görüş Talebi",
+  "sayi": "E-39985474-755.01-6549721",
+  "tarih": "20.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Bina ve Tesisler",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Etüd-Proje ve Fizibilite",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -50,7 +53,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bina ve Tesisler",
+    "Etüd-Proje ve Fizibilite",
     "konu hakkında görüş bildirilmesi"
   ]
 }

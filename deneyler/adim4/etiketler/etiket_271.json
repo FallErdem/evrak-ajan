@@ -5,42 +5,45 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Çankaya Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "90226917",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.01",
-    "ad": "Tahsis, Devir ve Takas",
-    "saklama_suresi": "B"
+    "kod": "755.02",
+    "ad": "İhale",
+    "saklama_suresi": "15"
   },
-  "konu": "Okul Yeri Tahsis Talebi",
-  "sayi": "E-55461037-756.01-5987684",
-  "tarih": "04.03.2026",
+  "konu": "İhale Talebi",
+  "sayi": "E-90226917-755.02-7072051",
+  "tarih": "06.05.2026",
   "ilgi": {
-    "tarih": "22.01.2026",
-    "sayi": "E-65859045-756.01-6591791"
+    "tarih": "29.04.2026",
+    "sayi": "E-33152401-755.02-2238920"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Tahsis, Devir ve Takas kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "İhale kapsamındaki iş yükü artmıştır",
     "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Amaç": "kaynakların etkin kullanılması",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +53,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
+    "İhale kapsamındaki iş yükü artmıştır",
     "mevcut kaynaklar yetersiz kalmaktadır",
-    "mevzuatın öngördüğü sürelere uyulması",
-    "ilave personel görevlendirilmesi"
+    "kaynakların etkin kullanılması",
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

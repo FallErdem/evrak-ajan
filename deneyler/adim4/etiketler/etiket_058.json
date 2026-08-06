@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "İbrahim ÖZKAN",
-    "adres": "Demetevler Mahallesi Ihlamur Sokağı No: 105/1 Yenimahalle/ANKARA",
+    "ad": "Şaban ÇELIK",
+    "adres": "Demetevler Mahallesi Ceviz Sokağı No: 25/14 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,22 +21,25 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Kayıt-Kabul Hakkında Şikâyet",
+  "konu": "Nakiller Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "04.05.2026",
+  "tarih": "06.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kayıt-Kabul Hakkında Şikâyet",
-    "Sorun": "gece saatlerinde yüksek sesle çalışma yapılıyor",
-    "Yer": "Çiğdemtepe Mahallesi",
-    "Süre": "yaklaşık üç haftadır",
+    "Şikâyet konusu": "Nakiller Hakkında Şikâyet",
+    "Sorun": "sınıf mevcudu ilan edilen sayının üzerinde",
+    "Yer": "Kaletepe Mahallesi",
+    "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -52,9 +55,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kayıt-Kabul Hakkında Şikâyet",
-    "Çiğdemtepe Mahallesi",
-    "yaklaşık üç haftadır",
+    "Nakiller Hakkında Şikâyet",
+    "Kaletepe Mahallesi",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

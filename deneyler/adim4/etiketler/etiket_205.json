@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Burak KURT",
-    "adres": "Yeşilevler Mahallesi Nergis Sokak No: 45/12 Yenimahalle/ANKARA",
+    "ad": "Elif DOĞAN",
+    "adres": "Çiğdemtepe Mahallesi Çınar Sokağı No: 67/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Kesin Kayıt Başvurusu",
+  "konu": "Staj Yeri Talebi",
   "sayi": null,
-  "tarih": "14.05.2026",
+  "tarih": "01.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kesin Kayıt",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Staj Yeri",
+    "Öğrenim bilgisi": "2023 yılı mezunu",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -44,13 +47,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kesin Kayıt",
-    "lisansüstü programa kayıtlı",
-    "resmî işlemlerde kullanılmak üzere"
+    "Staj Yeri",
+    "2023 yılı mezunu",
+    "sürecin tamamlanabilmesi için"
   ]
 }

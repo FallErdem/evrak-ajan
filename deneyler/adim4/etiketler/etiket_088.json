@@ -5,43 +5,46 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "kurum_adi": "Akpınar Mesleki ve Teknik Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "87302975",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10192248",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Hk.",
-  "sayi": "E-87302975-198.02.01-5241008",
-  "tarih": "05.02.2026",
+  "konu": "Yatırım Programı Hk.",
+  "sayi": "E-10192248-602.07-7026105",
+  "tarih": "16.04.2026",
   "ilgi": {
-    "tarih": "26.01.2026",
-    "sayi": "E-55461037-198.02.01-6703376"
+    "tarih": "02.03.2026",
+    "sayi": "E-14588481-602.07-4271626"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Yatırım Programı",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,13 +54,13 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "olumlu, belge düzenlendi",
+    "Yatırım Programı",
+    "olumlu, işlem tamamlandı",
     "Müdürlüğümüz kayıt bürosu",
-    "kimlik belgesi ibraz edilerek şahsen",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

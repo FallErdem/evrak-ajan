@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Meryem GÜLER",
-    "adres": "Kaletepe Mahallesi Çınar Sokağı No: 109/5 Yenimahalle/ANKARA",
+    "ad": "Sultan ÖZKAN",
+    "adres": "Pamuklar Mahallesi Çınar Sokak No: 53/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,19 +21,22 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "805.02.05",
     "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Arşivden Suret Talebi",
+  "konu": "Arşiv Belgesi Araştırma Talebi",
   "sayi": null,
-  "tarih": "14.01.2026",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Arşivden Suret",
+    "Talep": "Arşiv Belgesi Araştırma",
     "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -47,7 +50,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşivden Suret",
+    "Arşiv Belgesi Araştırma",
     "başvuru dosyasına eklenmek üzere"
   ]
 }

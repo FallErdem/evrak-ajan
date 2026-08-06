@@ -5,42 +5,45 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Personel Dairesi Başkanlığı",
+    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "42218640",
+    "detsis_no": "86488853",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Personel Dairesi Başkanlığı",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
-    "saklama_suresi": "10"
+    "kod": "201",
+    "ad": "Seçim ve Atama İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Sosyal Yardım İşleri Hk.",
-  "sayi": "E-42218640-815-2830369",
-  "tarih": "13.04.2026",
+  "konu": "Atama Onayı Hk.",
+  "sayi": "E-86488853-201-1587222",
+  "tarih": "06.04.2026",
   "ilgi": {
-    "tarih": "27.03.2026",
-    "sayi": "E-39985474-815-3251726"
+    "tarih": "23.03.2026",
+    "sayi": "E-42218640-201-2195040"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Sosyal Yardım İşleri",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Atama Onayı",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
     "Geçerlilik": "düzenlendiği tarihten itibaren altı ay"
   },
   "paragraf_cumle_sayilari": [
@@ -51,15 +54,15 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Personel Dairesi Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sosyal Yardım İşleri",
-    "olumlu, belge düzenlendi",
+    "Atama Onayı",
+    "olumlu, talep karşılandı",
     "Başkanlığımız kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
+    "kimlik belgesi ibraz edilerek şahsen",
     "düzenlendiği tarihten itibaren altı ay"
   ]
 }

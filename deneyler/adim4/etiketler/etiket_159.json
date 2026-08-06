@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Öz Yapı Denetim A.Ş.",
+    "kurum_adi": "Yıldız Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Ostim Mahallesi Yasemin Caddesi No: 58/2 Yenimahalle/ANKARA",
+    "adres": "Ergazi Mahallesi Papatya Sokağı No: 52/4 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -22,22 +22,25 @@
   "aile": "bilgi_edinme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "115.02.08",
     "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
     "saklama_suresi": "B"
   },
-  "konu": "Yapı Kullanma İzin Belgesi Talebi",
-  "sayi": "2026/4085",
-  "tarih": "02.04.2026",
+  "konu": "Kısmi İskan Talebi",
+  "sayi": "2026/498",
+  "tarih": "21.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Yapı Kullanma İzni (İskan Ruhsatı) konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "elektronik posta ile"
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,6 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "elektronik posta ile"
+    "e-Devlet üzerinden"
   ]
 }

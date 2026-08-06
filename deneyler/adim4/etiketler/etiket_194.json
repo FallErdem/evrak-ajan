@@ -5,32 +5,35 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "756.02",
-    "ad": "Satış ve Kiralama",
-    "saklama_suresi": "B"
+    "kod": "807.01",
+    "ad": "Bina ve Tesisler",
+    "saklama_suresi": "10"
   },
-  "konu": "Satış ve Kiralama Listesinin Gönderilmesi",
-  "sayi": "E-10213773-756.02-8546815",
-  "tarih": "17.03.2026",
+  "konu": "Bina ve Tesisler Listesinin Gönderilmesi",
+  "sayi": "E-24312041-807.01-3665236",
+  "tarih": "26.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
@@ -39,9 +42,9 @@
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "mali yıl",
-    "Sayı": "68 kayıt",
-    "Ek 1": "Satış ve Kiralama listesi",
+    "Dönem": "içinde bulunulan yıl",
+    "Sayı": "18 kayıt",
+    "Ek 1": "Bina ve Tesisler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -54,14 +57,14 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "mali yıl",
-    "68 kayıt",
-    "Satış ve Kiralama listesi",
+    "içinde bulunulan yıl",
+    "18 kayıt",
+    "Bina ve Tesisler listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

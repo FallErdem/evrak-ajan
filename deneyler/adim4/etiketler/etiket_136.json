@@ -5,40 +5,43 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Mühendislik Fakültesi Dekanlığı",
+    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "43123369",
+    "detsis_no": "17311665",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Personel Dairesi Başkanlığı",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "204.01",
+    "ad": "Doçentlik",
+    "saklama_suresi": "15"
   },
-  "konu": "Öğrenci Toplulukları, Birlikleri vb. Hk.",
-  "sayi": "E-43123369-309-2327911",
-  "tarih": "08.01.2026",
+  "konu": "Doçentlik Sözlü Sınavı Hk.",
+  "sayi": "E-17311665-204.01-7380252",
+  "tarih": "13.03.2026",
   "ilgi": {
-    "tarih": "23.12.2025",
-    "sayi": "E-39985474-309-7220913"
+    "tarih": "18.02.2026",
+    "sayi": "E-42218640-204.01-2178791"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenci Toplulukları, Birlikleri vb.",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Doçentlik Sözlü Sınavı",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Başkanlığımız kayıt bürosu",
     "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
     "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
@@ -51,13 +54,13 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Personel Dairesi Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Öğrenci Toplulukları, Birlikleri vb.",
-    "olumlu, işlem tamamlandı",
+    "Doçentlik Sözlü Sınavı",
+    "olumlu, talep karşılandı",
     "Başkanlığımız kayıt bürosu",
     "noter onaylı vekâletname ile veya bizzat",
     "düzenlendiği tarihten itibaren bir yıl"

@@ -5,43 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "kurum_adi": "Yapı Kontrol Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "59553370",
+    "detsis_no": "53265760",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Hukuk İşleri Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Genelge Uygulaması Hk.",
-  "sayi": "E-59553370-010.06-3699161",
-  "tarih": "28.05.2026",
+  "konu": "Hukuki Mütalaanın Gönderilmesi",
+  "sayi": "E-53265760-045.02-2909831",
+  "tarih": "24.04.2026",
   "ilgi": {
-    "tarih": "16.04.2026",
-    "sayi": "E-65859045-010.06-7677285"
+    "tarih": "26.03.2026",
+    "sayi": "E-10578106-045.02-7889905"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Genelge Uygulaması",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Hukuki Mütalaanın Gönderilmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
-    "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
+    "Teslim şartı": "kimlik belgesi ibraz edilerek şahsen",
+    "Geçerlilik": "düzenlendiği tarihten itibaren iki yıl"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,14 +54,14 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yenimahalle Belediye Başkanlığı",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Genelge Uygulaması",
-    "olumlu, belge düzenlendi",
+    "Hukuki Mütalaanın Gönderilmesi",
+    "olumlu, işlem tamamlandı",
     "Müdürlüğümüz kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
-    "düzenlendiği tarihten itibaren bir yıl"
+    "kimlik belgesi ibraz edilerek şahsen",
+    "düzenlendiği tarihten itibaren iki yıl"
   ]
 }

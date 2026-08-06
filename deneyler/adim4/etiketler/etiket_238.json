@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,24 +22,27 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Genel Sekreterlik",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Stratejik Plan Verisi Talebi",
-  "sayi": "E-10213773-602.04-8547566",
-  "tarih": "16.02.2026",
+  "konu": "Karar Örneği Talebi",
+  "sayi": "E-10213773-050.04-1134902",
+  "tarih": "30.03.2026",
   "ilgi": {
-    "tarih": "16.01.2026",
-    "sayi": "E-39985474-602.04-4569697"
+    "tarih": "25.03.2026",
+    "sayi": "E-82642947-050.04-6816913"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Stratejik Plan kapsamındaki iş yükü artmıştır",
-    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
+    "Mevcut durum": "Kararlar kapsamındaki iş yükü artmıştır",
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
+    "Amaç": "vatandaş memnuniyetinin artırılması",
     "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -50,12 +53,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "kaynakların etkin kullanılması",
+    "Kararlar kapsamındaki iş yükü artmıştır",
+    "ek kapasiteye ihtiyaç duyulmaktadır",
+    "vatandaş memnuniyetinin artırılması",
     "gerekli ödeneğin tahsis edilmesi"
   ]
 }

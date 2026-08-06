@@ -12,33 +12,36 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Genel Sekreterlik",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Genelge Görüşü Talebi",
-  "sayi": "E-10213773-010.06-8544977",
-  "tarih": "30.04.2026",
+  "konu": "Belge Talepleri Hakkında Görüş Talebi",
+  "sayi": "E-65859045-622.02-3362358",
+  "tarih": "16.04.2026",
   "ilgi": {
-    "tarih": "18.03.2026",
-    "sayi": "E-39985474-010.06-3979078"
+    "tarih": "30.03.2026",
+    "sayi": "E-82642947-622.02-6819305"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Genelgeler",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Belge Talepleri",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,6 +57,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
+    "Belge Talepleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

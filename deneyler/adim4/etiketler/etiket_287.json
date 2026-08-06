@@ -12,28 +12,31 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
   "aile": "tekit",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Halk Eğitim Kursu Açılması Talebi",
-  "sayi": "E-10213773-135.03-8548124",
-  "tarih": "13.04.2026",
+  "konu": "Belge Sureti Talebi",
+  "sayi": "E-24316060-622.02-2064655",
+  "tarih": "01.04.2026",
   "ilgi": {
-    "tarih": "09.04.2026",
-    "sayi": "E-55461037-135.03-2854236"
+    "tarih": "18.02.2026",
+    "sayi": "E-91571118-622.02-1345792"
   },
   "ek": null,
   "somut_bilgiler": {

@@ -22,29 +22,32 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Genelge Görüşü Talebi",
-  "sayi": "E-65859045-010.06-1886377",
-  "tarih": "06.02.2026",
+  "konu": "Hukuki Görüş Talebi",
+  "sayi": "E-65859045-045.02-3366126",
+  "tarih": "22.04.2026",
   "ilgi": {
-    "tarih": "16.01.2026",
-    "sayi": "E-55461037-010.06-3784540"
+    "tarih": "13.03.2026",
+    "sayi": "E-55461037-045.02-3782541"
   },
   "ek": {
     "adet": 1,
     "aciklama": "İhtiyaç listesi",
-    "sayfa": 4
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Mevcut durum": "Genelgeler kapsamındaki iş yükü artmıştır",
+    "Mevcut durum": "Hukuki kapsamındaki iş yükü artmıştır",
     "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Amaç": "vatandaş memnuniyetinin artırılması",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -58,8 +61,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "Hukuki kapsamındaki iş yükü artmıştır",
     "ek kapasiteye ihtiyaç duyulmaktadır",
-    "kaynakların etkin kullanılması",
-    "ilave personel görevlendirilmesi"
+    "vatandaş memnuniyetinin artırılması",
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

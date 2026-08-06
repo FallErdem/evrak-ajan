@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Pınar ÇAKIR",
-    "adres": "Susuz Mahallesi Ceviz Sokağı No: 86/20 Yenimahalle/ANKARA",
+    "ad": "Büşra AKSOY",
+    "adres": "Susuz Mahallesi Ihlamur Caddesi No: 110/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,6 +21,9 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "140",
@@ -29,16 +32,16 @@
   },
   "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
   "sayi": null,
-  "tarih": "14.05.2026",
+  "tarih": "09.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 4
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Talep": "Taşımalı Eğitim Kapsamına Alınma",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -52,6 +55,6 @@
   ],
   "anahtar_terimler": [
     "Taşımalı Eğitim Kapsamına Alınma",
-    "başvuru dosyasına eklenmek üzere"
+    "sürecin tamamlanabilmesi için"
   ]
 }

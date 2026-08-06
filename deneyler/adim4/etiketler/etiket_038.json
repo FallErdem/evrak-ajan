@@ -5,15 +5,15 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hasan YILDIZ",
-    "adres": "Barıştepe Mahallesi Ihlamur Sokak No: 1/20 Yenimahalle/ANKARA",
+    "ad": "Selin AYDIN",
+    "adres": "Çiğdemtepe Mahallesi Ceviz Caddesi No: 12/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,15 +21,18 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Öğrenci Topluluğu Kurulma Talebi",
+  "konu": "Geçici Mezuniyet Belgesi Talebi",
   "sayi": null,
-  "tarih": "07.05.2026",
+  "tarih": "18.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -37,7 +40,7 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Talep": "Öğrenci Topluluğu Kurulma",
+    "Talep": "Geçici Mezuniyet Belgesi",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
     "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
@@ -48,12 +51,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Öğrenci Topluluğu Kurulma",
+    "Geçici Mezuniyet Belgesi",
     "lisansüstü programa kayıtlı",
     "başvuru dosyasına eklenmek üzere"
   ]

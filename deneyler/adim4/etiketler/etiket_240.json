@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,24 +22,27 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Diploma Teslimi Talebi",
-  "sayi": "E-39985474-198.02.01-2602536",
-  "tarih": "16.03.2026",
+  "konu": "Genelge Görüşü Talebi",
+  "sayi": "E-39985474-010.06-6516193",
+  "tarih": "23.02.2026",
   "ilgi": {
-    "tarih": "06.02.2026",
-    "sayi": "E-55461037-198.02.01-9868840"
+    "tarih": "26.01.2026",
+    "sayi": "E-55461037-010.06-3749519"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Diploma kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "vatandaş memnuniyetinin artırılması",
+    "Mevcut durum": "Genelgeler kapsamındaki iş yükü artmıştır",
+    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
+    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
     "Talep": "teknik destek sağlanması"
   },
   "paragraf_cumle_sayilari": [
@@ -50,13 +53,11 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Diploma kapsamındaki iş yükü artmıştır",
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "vatandaş memnuniyetinin artırılması",
+    "mevzuatın öngördüğü sürelere uyulması",
     "teknik destek sağlanması"
   ]
 }

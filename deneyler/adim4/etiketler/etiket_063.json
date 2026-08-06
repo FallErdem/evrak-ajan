@@ -5,41 +5,44 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çankaya Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "90226917",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "756.01",
+    "ad": "Tahsis, Devir ve Takas",
+    "saklama_suresi": "B"
   },
-  "konu": "Savunmaya Esas Belge Talebi",
-  "sayi": "E-90226917-641.04-8660889",
-  "tarih": "20.04.2026",
+  "konu": "Okul Yeri Tahsis Talebi",
+  "sayi": "E-39985474-756.01-6495642",
+  "tarih": "20.01.2026",
   "ilgi": {
-    "tarih": "23.03.2026",
-    "sayi": "E-65859045-641.04-8694616"
+    "tarih": "08.12.2025",
+    "sayi": "E-87730597-756.01-2375816"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "İdari Davalar kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "kaynakların etkin kullanılması",
+    "Mevcut durum": "Tahsis, Devir ve Takas kapsamındaki iş yükü artmıştır",
+    "Sonuç": "işlemler öngörülen sürede tamamlanamamaktadır",
+    "Amaç": "hizmetlerin aksamadan yürütülmesi",
     "Talep": "ilave personel görevlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -50,12 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "kaynakların etkin kullanılması",
+    "hizmetlerin aksamadan yürütülmesi",
     "ilave personel görevlendirilmesi"
   ]
 }

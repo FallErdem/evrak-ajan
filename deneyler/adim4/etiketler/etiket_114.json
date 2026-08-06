@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Kuzey İnşaat Ltd. Şti.",
+    "kurum_adi": "Kuzey Mühendislik Ltd. Şti.",
     "ad": null,
-    "adres": "İvedik Mahallesi Nergis Sokak No: 52/21 Yenimahalle/ANKARA",
+    "adres": "Uğur Mumcu Mahallesi Zeytin Sokak No: 85/2 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -22,22 +22,25 @@
   "aile": "bilgi_edinme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
-  "sayi": "2026/6113",
-  "tarih": "10.03.2026",
+  "konu": "Staj Kabul Yazısı Talebi",
+  "sayi": "2026/890",
+  "tarih": "22.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Emlak Vergisi konusundaki güncel verilerin paylaşılması",
+    "Talep": "Staj İşleri konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "posta yoluyla adresime"
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -47,12 +50,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "yıllara göre sayısal döküm",
-    "posta yoluyla adresime"
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ramazan AKTAŞ",
-    "adres": "Demetevler Mahallesi Menekşe Sokağı No: 44/6 Yenimahalle/ANKARA",
+    "ad": "Fatma ÇETIN",
+    "adres": "Karşıyaka Mahallesi Manolya Sokağı No: 56/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,20 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
+    "kod": "815",
+    "ad": "Sosyal Yardım İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Engelli Hizmetlerinden Yararlanma Başvurusu",
+  "konu": "Sosyal Yardım Başvurusu",
   "sayi": null,
-  "tarih": "20.04.2026",
+  "tarih": "11.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Engelli Hizmetlerinden Yararlanma",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Sosyal Yardım",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,7 +50,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Engelli Hizmetlerinden Yararlanma",
-    "resmî işlemlerde kullanılmak üzere"
+    "Sosyal Yardım",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

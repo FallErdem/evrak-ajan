@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Atlas Yapı Denetim A.Ş.",
+    "kurum_adi": "Doruk Turizm ve Ticaret A.Ş.",
     "ad": null,
-    "adres": "İvedik Mahallesi Menekşe Caddesi No: 36/9 Yenimahalle/ANKARA",
+    "adres": "Ragıpbey Mahallesi Sümbül Sokak No: 78/4 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -22,19 +22,22 @@
   "aile": "belge_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "051",
-    "ad": "Toplantı ve Etkinlik İşleri",
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "Çalıştay Katılım Talebi",
-  "sayi": "2026/8834",
-  "tarih": "07.04.2026",
+  "konu": "Yangın Güvenliği Raporu Başvurusu",
+  "sayi": "2026/488",
+  "tarih": "30.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Çalıştay Katılım",
+    "Talep": "Yangın Güvenliği Raporu",
     "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -44,11 +47,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yenimahalle Belediye Başkanlığı",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Çalıştay Katılım",
+    "Yangın Güvenliği Raporu",
     "resmî işlemlerde kullanılmak üzere"
   ]
 }

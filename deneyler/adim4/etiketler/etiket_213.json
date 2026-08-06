@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatih ÖZDEMIR",
-    "adres": "Demetevler Mahallesi Erguvan Sokağı No: 54/3 Yenimahalle/ANKARA",
+    "ad": "Burak KARACA",
+    "adres": "Ostim Mahallesi Zeytin Sokak No: 117/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.08",
-    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
-    "saklama_suresi": "B"
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
+    "saklama_suresi": "15"
   },
-  "konu": "İfraz ve Tevhid Talebi",
+  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
   "sayi": null,
-  "tarih": "09.01.2026",
+  "tarih": "22.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İfraz ve Tevhid",
-    "Taşınmaz": "55701 ada, 17 parsel",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Emlak Vergisi Borç Sorgulama",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -44,12 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İfraz ve Tevhid",
-    "55701 ada, 17 parsel",
-    "resmî işlemlerde kullanılmak üzere"
+    "Emlak Vergisi Borç Sorgulama",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

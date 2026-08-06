@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra KARA",
-    "adres": "Beştepe Mahallesi Erguvan Sokağı No: 6/18 Yenimahalle/ANKARA",
+    "ad": "Büşra AVCI",
+    "adres": "Yakacık Mahallesi Akasya Sokağı No: 78/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,22 +21,25 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Hakkında Şikâyet",
+  "konu": "Belge Talepleri Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "16.03.2026",
+  "tarih": "22.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Diploma Hakkında Şikâyet",
-    "Sorun": "park alanındaki oyun grupları bakımsız durumda",
-    "Yer": "Susuz Mahallesi",
-    "Süre": "bir aydan uzun süredir",
+    "Şikâyet konusu": "Belge Talepleri Hakkında Şikâyet",
+    "Sorun": "taşımalı eğitim aracı öğrencileri geç alıyor",
+    "Yer": "Karşıyaka Mahallesi",
+    "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -48,13 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Özel Öğretim Kurumları Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Diploma Hakkında Şikâyet",
-    "Susuz Mahallesi",
-    "bir aydan uzun süredir",
+    "Belge Talepleri Hakkında Şikâyet",
+    "Karşıyaka Mahallesi",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

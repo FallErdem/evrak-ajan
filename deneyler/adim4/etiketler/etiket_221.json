@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sultan ŞIMŞEK",
-    "adres": "Karşıyaka Mahallesi Manolya Sokak No: 76/3 Yenimahalle/ANKARA",
+    "ad": "Mehmet YILDIRIM",
+    "adres": "Yakacık Mahallesi Ihlamur Sokak No: 31/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,21 +21,24 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "309",
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Topluluk Etkinlik İzni Talebi",
+  "konu": "Öğrenci Topluluğu Kurulma Talebi",
   "sayi": null,
-  "tarih": "06.03.2026",
+  "tarih": "08.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Topluluk Etkinlik İzni",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Öğrenci Topluluğu Kurulma",
+    "Öğrenim bilgisi": "4. sınıf öğrencisi",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,8 +52,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Topluluk Etkinlik İzni",
-    "lisansüstü programa kayıtlı",
-    "ilgili kuruma sunulmak üzere"
+    "Öğrenci Topluluğu Kurulma",
+    "4. sınıf öğrencisi",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

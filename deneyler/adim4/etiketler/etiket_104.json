@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Pınar ÇAKIR",
-    "adres": "Yakacık Mahallesi Lale Sokağı No: 72/23 Yenimahalle/ANKARA",
+    "ad": "Aslı ŞAHIN",
+    "adres": "Ragıpbey Mahallesi Ceviz Caddesi No: 66/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,23 +21,26 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Ruhsat Hakkında Şikâyet",
+  "konu": "Arşivlerden Yararlanma Hakkında Şikâyet",
   "sayi": null,
-  "tarih": "03.04.2026",
+  "tarih": "17.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ruhsat Hakkında Şikâyet",
+    "Şikâyet konusu": "Arşivlerden Yararlanma Hakkında Şikâyet",
     "Sorun": "sokak aydınlatması uzun süredir çalışmıyor",
-    "Yer": "Çiğdemtepe Mahallesi",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Yer": "Pamuklar Mahallesi",
+    "Süre": "bir aydan uzun süredir",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -48,13 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Hakkında Şikâyet",
-    "Çiğdemtepe Mahallesi",
-    "yaklaşık üç haftadır",
+    "Arşivlerden Yararlanma Hakkında Şikâyet",
+    "Pamuklar Mahallesi",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

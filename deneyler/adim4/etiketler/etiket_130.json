@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Öz Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Anadolu Turizm ve Ticaret A.Ş.",
     "ad": null,
-    "adres": "İvedik Mahallesi Kestane Sokağı No: 102/12 Yenimahalle/ANKARA",
+    "adres": "Şentepe Mahallesi Yasemin Caddesi No: 89/5 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -22,22 +22,25 @@
   "aile": "bilgi_edinme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Yurtdışı Öğrenim Denklik Başvurusu",
-  "sayi": "2026/8266",
-  "tarih": "18.02.2026",
+  "konu": "Disiplin İşleri Hakkında Bilgi Edinme Başvurusu",
+  "sayi": "2026/199",
+  "tarih": "16.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Yurtdışı Eğitim Denkliği konusundaki güncel verilerin paylaşılması",
+    "Talep": "Disiplin İşleri konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,6 +56,6 @@
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "yıllara göre sayısal döküm",
-    "e-Devlet üzerinden"
+    "elektronik posta ile"
   ]
 }

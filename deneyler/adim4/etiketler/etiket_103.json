@@ -12,16 +12,19 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Temizlik İşleri Müdürlüğü",
+    "kurum_adi": "Yapı Kontrol Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "83011479",
+    "detsis_no": "53265760",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Yazı İşleri Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "110.04",
@@ -29,17 +32,17 @@
     "saklama_suresi": "B"
   },
   "konu": "Encümen Kararları Oluru",
-  "sayi": "E-83011479-110.04-6853190",
-  "tarih": "28.01.2026",
+  "sayi": "E-53265760-110.04-2805823",
+  "tarih": "27.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Konu": "Encümen Kararları",
-    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
+    "Gerekçe": "kaynakların etkin kullanılması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -55,6 +58,6 @@
   ],
   "anahtar_terimler": [
     "Encümen Kararları",
-    "mevzuatın öngördüğü sürelere uyulması"
+    "kaynakların etkin kullanılması"
   ]
 }

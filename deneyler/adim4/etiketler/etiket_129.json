@@ -12,16 +12,19 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "106",
@@ -29,18 +32,18 @@
     "saklama_suresi": "2"
   },
   "konu": "Sınav Programları ve Sınavlar Talebi",
-  "sayi": "E-10213773-106-8545577",
-  "tarih": "05.03.2026",
+  "sayi": "E-65859045-106-3343611",
+  "tarih": "18.03.2026",
   "ilgi": {
-    "tarih": "11.02.2026",
-    "sayi": "E-39985474-106-6196105"
+    "tarih": "09.02.2026",
+    "sayi": "E-86488853-106-1535417"
   },
   "ek": null,
   "somut_bilgiler": {
     "Mevcut durum": "Sınav Programları ve Sınavlar kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
-    "Talep": "teknik destek sağlanması"
+    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Amaç": "kaynakların etkin kullanılması",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,8 +58,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "mevzuatın öngördüğü sürelere uyulması",
-    "teknik destek sağlanması"
+    "mevcut kaynaklar yetersiz kalmaktadır",
+    "kaynakların etkin kullanılması",
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

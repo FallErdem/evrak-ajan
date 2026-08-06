@@ -22,23 +22,26 @@
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Yeni Kayıt İşlemleri Hakkında Görüş Talebi",
-  "sayi": "E-55461037-302.01-5987837",
-  "tarih": "16.04.2026",
+  "konu": "Tez İşleri Hakkında Görüş Talebi",
+  "sayi": "E-55461037-302.14-3761716",
+  "tarih": "12.02.2026",
   "ilgi": {
-    "tarih": "27.03.2026",
-    "sayi": "E-39985474-302.01-5545523"
+    "tarih": "02.01.2026",
+    "sayi": "E-47014261-302.14-5075327"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Yeni Kayıt İşlemleri",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Konu": "Tez İşleri",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,7 +57,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Yeni Kayıt İşlemleri",
+    "Tez İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

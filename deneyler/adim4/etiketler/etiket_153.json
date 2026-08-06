@@ -15,22 +15,25 @@
     "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10056635",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "24316060",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Genelgeler Listesinin Gönderilmesi",
-  "sayi": "E-10056635-010.06-3592695",
-  "tarih": "13.02.2026",
+  "konu": "Bilgi Edinme, Talep ve Şikayetler Listesinin Gönderilmesi",
+  "sayi": "E-24316060-622.01-2046520",
+  "tarih": "06.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
@@ -40,8 +43,8 @@
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "güz dönemi",
-    "Sayı": "47 kayıt",
-    "Ek 1": "Genelgeler listesi",
+    "Sayı": "68 kayıt",
+    "Ek 1": "Bilgi Edinme, Talep ve Şikayetler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -60,8 +63,7 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "güz dönemi",
-    "47 kayıt",
-    "Genelgeler listesi",
+    "68 kayıt",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

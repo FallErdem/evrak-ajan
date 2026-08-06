@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf KILIÇ",
-    "adres": "Gayret Mahallesi Yasemin Sokağı No: 96/9 Yenimahalle/ANKARA",
+    "ad": "Elif AYDIN",
+    "adres": "Pamuklar Mahallesi Sümbül Sokak No: 66/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,6 +21,9 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "855",
@@ -29,12 +32,12 @@
   },
   "konu": "Borç Bilgisi Talebi",
   "sayi": null,
-  "tarih": "18.03.2026",
+  "tarih": "13.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Borç Bilgisi",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -48,6 +51,6 @@
   ],
   "anahtar_terimler": [
     "Borç Bilgisi",
-    "başvuru dosyasına eklenmek üzere"
+    "sürecin tamamlanabilmesi için"
   ]
 }

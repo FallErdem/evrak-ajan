@@ -12,16 +12,19 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
     "kod": "602.04",
@@ -29,11 +32,11 @@
     "saklama_suresi": "15"
   },
   "konu": "Stratejik Plan Hakkında Görüş Talebi",
-  "sayi": "E-65859045-602.04-1886726",
-  "tarih": "16.03.2026",
+  "sayi": "E-55461037-602.04-3832986",
+  "tarih": "22.05.2026",
   "ilgi": {
-    "tarih": "02.02.2026",
-    "sayi": "E-39985474-602.04-8886139"
+    "tarih": "08.04.2026",
+    "sayi": "E-39985474-602.04-6542444"
   },
   "ek": null,
   "somut_bilgiler": {

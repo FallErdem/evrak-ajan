@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_egitim_rehberlik_sb",
-    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-    "detsis_no": "87302975",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,25 +22,28 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "160.01.02",
-    "ad": "Kaynaştırma Eğitimi",
-    "saklama_suresi": "10"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Kaynaştırma Öğrencisi Yerleştirme Talebi",
-  "sayi": "E-39985474-160.01.02-2601882",
-  "tarih": "28.04.2026",
+  "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
+  "sayi": "E-39985474-355.02-6505876",
+  "tarih": "06.02.2026",
   "ilgi": {
-    "tarih": "26.03.2026",
-    "sayi": "E-55461037-160.01.02-8582131"
+    "tarih": "14.01.2026",
+    "sayi": "E-55461037-355.02-3740671"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Mevcut durum": "Kaynaştırma Eğitimi kapsamındaki iş yükü artmıştır",
-    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
-    "Amaç": "vatandaş memnuniyetinin artırılması",
-    "Talep": "teknik destek sağlanması"
+    "Mevcut durum": "Eğitim Fakülteleri İle İlişkiler kapsamındaki iş yükü artmıştır",
+    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
+    "Amaç": "kaynakların etkin kullanılması",
+    "Talep": "gerekli ödeneğin tahsis edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +53,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "ek kapasiteye ihtiyaç duyulmaktadır",
-    "vatandaş memnuniyetinin artırılması",
-    "teknik destek sağlanması"
+    "mevcut kaynaklar yetersiz kalmaktadır",
+    "kaynakların etkin kullanılması",
+    "gerekli ödeneğin tahsis edilmesi"
   ]
 }

@@ -12,16 +12,24 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10204305",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "24312041",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "dagitim": [
+    "Yenimahalle Belediye Başkanlığı",
+    "Yenimahalle Kaymakamlığı",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "Zabıta Müdürlüğü"
+  ],
   "beklenen_kapanis": "karma",
   "sdp": {
     "kod": "755.01",
@@ -29,18 +37,18 @@
     "saklama_suresi": "30"
   },
   "konu": "Zemin Etüdü Raporunun Gönderilmesi",
-  "sayi": "E-10204305-755.01-3564743",
-  "tarih": "25.05.2026",
+  "sayi": "E-24312041-755.01-3626289",
+  "tarih": "03.04.2026",
   "ilgi": {
-    "tarih": "14.05.2026",
-    "sayi": "E-65859045-755.01-6372243"
+    "tarih": "19.03.2026",
+    "sayi": "E-33152401-755.01-2214410"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Zemin Etüdü Raporunun Gönderilmesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Teslim yeri": "Müdürlüğümüz kayıt bürosu",
-    "Teslim şartı": "noter onaylı vekâletname ile veya bizzat",
+    "Teslim şartı": "kimlik ibrazı ile şahsen veya vekâletname ile",
     "Geçerlilik": "düzenlendiği tarihten itibaren bir yıl"
   },
   "paragraf_cumle_sayilari": [
@@ -56,9 +64,8 @@
   ],
   "anahtar_terimler": [
     "Zemin Etüdü Raporunun Gönderilmesi",
-    "olumlu, belge düzenlendi",
+    "olumlu, talep karşılandı",
     "Müdürlüğümüz kayıt bürosu",
-    "noter onaylı vekâletname ile veya bizzat",
     "düzenlendiği tarihten itibaren bir yıl"
   ]
 }

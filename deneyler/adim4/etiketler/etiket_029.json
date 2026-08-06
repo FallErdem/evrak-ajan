@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,29 +22,32 @@
   "aile": "kaynak_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": null,
+  "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "201",
-    "ad": "Seçim ve Atama İşleri",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Seçim ve Atama İşleri Talebi",
-  "sayi": "E-65859045-201-1886381",
-  "tarih": "22.05.2026",
+  "konu": "Karar Örneği Talebi",
+  "sayi": "E-65859045-050.04-3360349",
+  "tarih": "13.04.2026",
   "ilgi": {
-    "tarih": "30.04.2026",
-    "sayi": "E-39985474-201-8207665"
+    "tarih": "02.03.2026",
+    "sayi": "E-39985474-050.04-6520230"
   },
   "ek": {
     "adet": 1,
     "aciklama": "İhtiyaç listesi",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Mevcut durum": "Seçim ve Atama İşleri kapsamındaki iş yükü artmıştır",
-    "Sonuç": "mevcut kaynaklar yetersiz kalmaktadır",
-    "Amaç": "hizmetlerin aksamadan yürütülmesi",
-    "Talep": "ilave personel görevlendirilmesi"
+    "Mevcut durum": "Kararlar kapsamındaki iş yükü artmıştır",
+    "Sonuç": "ek kapasiteye ihtiyaç duyulmaktadır",
+    "Amaç": "mevzuatın öngördüğü sürelere uyulması",
+    "Talep": "teknik destek sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -54,13 +57,14 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "mevcut kaynaklar yetersiz kalmaktadır",
-    "hizmetlerin aksamadan yürütülmesi",
-    "ilave personel görevlendirilmesi"
+    "Kararlar kapsamındaki iş yükü artmıştır",
+    "ek kapasiteye ihtiyaç duyulmaktadır",
+    "mevzuatın öngördüğü sürelere uyulması",
+    "teknik destek sağlanması"
   ]
 }
