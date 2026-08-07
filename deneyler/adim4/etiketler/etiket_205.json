@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Gamze AYDIN",
-    "adres": "Pamuklar Mahallesi Manolya Sokağı No: 30/3 Yenimahalle/ANKARA",
+    "ad": "Salih UÇAR",
+    "adres": "Çiğdemtepe Mahallesi Menekşe Caddesi No: 112/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019143051",
-    "bolum": "Türkçe Öğretmenliği",
-    "sinif": "1"
+    "ogrenci_no": "2020569551",
+    "bolum": "Matematik Öğretmenliği",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -35,12 +35,12 @@
   },
   "konu": "Kayıt Dondurma ve İzin Talebi",
   "sayi": null,
-  "tarih": "28.05.2026",
+  "tarih": "24.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Kayıt Dondurma ve İzin",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Öğrenim bilgisi": "2019 yılı mezunu",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
@@ -56,7 +56,7 @@
   ],
   "anahtar_terimler": [
     "Kayıt Dondurma ve İzin",
-    "lisansüstü programa kayıtlı",
+    "2019 yılı mezunu",
     "sürecin tamamlanabilmesi için"
   ]
 }

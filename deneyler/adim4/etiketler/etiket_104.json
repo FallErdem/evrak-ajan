@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten AKSOY",
-    "adres": "Beştepe Mahallesi Kestane Sokağı No: 104/4 Yenimahalle/ANKARA",
+    "ad": "Şaban KARACA",
+    "adres": "Çiğdemtepe Mahallesi Çınar Caddesi No: 35/14 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,26 +22,26 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Mesul Müdür Değişikliği Bildirimi",
+  "konu": "Yangın Merdiveni Uygunluğu",
   "sayi": null,
-  "tarih": "19.02.2026",
+  "tarih": "05.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Mesul Müdür Değişikliği",
-    "Sorun": "ruhsat başvurum iki aydır sonuçlandırılmadı",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Yangın Merdiveni Uygunluğu",
+    "Sorun": "yerinde inceleme için gelmesi gereken ekip iki kez randevuya gelmedi",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "Ergazi Mahallesi"
+    "Yer": "Kaletepe Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,13 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Mesul Müdür Değişikliği",
-    "bir aydan uzun süredir",
+    "Yangın Merdiveni Uygunluğu",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi",
-    "Ergazi Mahallesi"
+    "Kaletepe Mahallesi"
   ]
 }

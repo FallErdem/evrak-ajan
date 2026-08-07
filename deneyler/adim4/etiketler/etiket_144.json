@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Esra TEKIN",
-    "adres": "Demetevler Mahallesi Zeytin Caddesi No: 53/10 Yenimahalle/ANKARA",
+    "ad": "Emine KAYA",
+    "adres": "Emniyet Mahallesi Akasya Caddesi No: 80/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,23 +21,23 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_makam": "Yenimahalle Kaymakamlığı",
+  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
     "saklama_suresi": "10"
   },
-  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
+  "konu": "Bağış Makbuzu Talebi",
   "sayi": null,
-  "tarih": "05.03.2026",
+  "tarih": "04.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Taşımalı Eğitim Kapsamına Alınma",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Bağış Makbuzu",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim Kapsamına Alınma",
-    "sürecin tamamlanabilmesi için"
+    "Bağış Makbuzu"
   ]
 }

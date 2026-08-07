@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Kaymakamlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "56248377",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,16 +32,16 @@
     "saklama_suresi": "B"
   },
   "konu": "Para Cezası Kararı Hk.",
-  "sayi": "E-56248377-110.04-428631",
-  "tarih": "06.03.2026",
+  "sayi": "E-10213773-110.04-10014871",
+  "tarih": "22.04.2026",
   "ilgi": {
-    "tarih": "04.02.2026",
-    "sayi": "E-15986609-110.04-2238397"
+    "tarih": "16.04.2026",
+    "sayi": "E-15986609-110.04-569631"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Para Cezası Kararı",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
@@ -59,7 +59,7 @@
   ],
   "anahtar_terimler": [
     "Para Cezası Kararı",
-    "olumlu, belge düzenlendi",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı"
   ]
 }

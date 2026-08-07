@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özgüryurt Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Akarsu Ortaokulu Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10109079",
+    "detsis_no": "10073076",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
@@ -31,20 +31,20 @@
     "ad": "Yatırım Programı",
     "saklama_suresi": "10"
   },
-  "konu": "Ödenek Aktarma Talebi",
-  "sayi": "E-10109079-602.07-5673",
-  "tarih": "25.02.2026",
+  "konu": "Yatırım Programı Revizyon Talebi",
+  "sayi": "E-10073076-602.07-7399",
+  "tarih": "08.05.2026",
   "ilgi": {
-    "tarih": "04.02.2026",
-    "sayi": "E-14588481-602.07-5418141"
+    "tarih": "14.04.2026",
+    "sayi": "E-14588481-602.07-3197838"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Ödenek Aktarma",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Yatırım Programı Revizyon",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,8 +58,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Ödenek Aktarma",
-    "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı"
+    "Yatırım Programı Revizyon",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

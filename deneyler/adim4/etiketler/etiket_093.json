@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Hüseyin ATEŞ",
-    "adres": "Serhat Mahallesi Erguvan Caddesi No: 82/7 Yenimahalle/ANKARA",
+    "ad": "Havva SARI",
+    "adres": "Pamuklar Mahallesi Manolya Sokak No: 56/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021410098",
-    "bolum": "Diş Hekimliği Fakültesi",
-    "sinif": "4"
+    "ogrenci_no": "2019867351",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Talebi",
+  "konu": "Erasmus+ Başvuru Duyurusu",
   "sayi": null,
-  "tarih": "04.05.2026",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma",
+    "Talep": "Erasmus+ Başvuru",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,7 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "lisansüstü programa kayıtlı",
-    "resmî işlemlerde kullanılmak üzere"
+    "Erasmus+ Başvuru",
+    "lisansüstü programa kayıtlı"
   ]
 }

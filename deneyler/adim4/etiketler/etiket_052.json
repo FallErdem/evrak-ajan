@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,23 +23,23 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.08",
-    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
+    "kod": "756.01",
+    "ad": "Tahsis, Devir ve Takas",
     "saklama_suresi": "B"
   },
-  "konu": "İfraz ve Tevhid Talebi",
-  "sayi": "E-39985474-115.01.08-4228174",
-  "tarih": "24.03.2026",
+  "konu": "Tahsisin Kaldırılması Talebi",
+  "sayi": "E-39985474-756.01-8627470",
+  "tarih": "07.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "İfraz ve Tevhid",
-    "Ortak iş": "İfraz ve Tevhid konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "İfraz ve Tevhid konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Tahsisin Kaldırılması",
+    "Ortak iş": "Tahsisin Kaldırılması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "gerekli tahsisin yapılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -49,10 +49,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İfraz ve Tevhid"
+    "Tahsisin Kaldırılması",
+    "gerekli tahsisin yapılması"
   ]
 }

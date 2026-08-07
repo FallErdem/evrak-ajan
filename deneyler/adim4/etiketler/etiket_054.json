@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ali ŞAHIN",
-    "adres": "Serhat Mahallesi Lale Caddesi No: 26/6 Yenimahalle/ANKARA",
+    "ad": "Salih KORKMAZ",
+    "adres": "İvedik Mahallesi Manolya Caddesi No: 110/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,12 +32,12 @@
   },
   "konu": "Tahsilat Makbuzu Talebi",
   "sayi": null,
-  "tarih": "13.03.2026",
+  "tarih": "26.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Tahsilat Makbuzu",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Tahsilat Makbuzu",
-    "mağduriyetin giderilmesi bakımından"
+    "Tahsilat Makbuzu"
   ]
 }

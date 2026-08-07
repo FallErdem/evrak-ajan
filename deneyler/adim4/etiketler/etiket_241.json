@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -26,36 +26,36 @@
   "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
-      "İlçe Kaymakamlıklarına",
-      "İlçe Belediye Başkanlıklarına"
+      "Valilik Makamlarına",
+      "İl Millî Eğitim Müdürlüklerine"
     ],
     "bilgi": [
-      "İçişleri Bakanlığına"
+      "Cumhurbaşkanlığına"
     ]
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Diploma Kayıt Numarası Sorgusu",
-  "sayi": "E-10213773-198.02.01-19016374",
-  "tarih": "20.04.2026",
+  "konu": "Nakil Belgelerinin Gönderilmesi",
+  "sayi": "E-24316060-210.01-60817337",
+  "tarih": "30.01.2026",
   "ilgi": {
-    "tarih": "09.04.2026",
-    "sayi": "E-21291472-198.02.01-6906186"
+    "tarih": "07.01.2026",
+    "sayi": "E-21291472-210.01-2976669"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "güz dönemi",
-    "Sayı": "142 kayıt",
-    "Ek 1": "Diploma listesi",
+    "Dönem": "öğretim yılı",
+    "Sayı": "186 kayıt",
+    "Ek 1": "Nakiller listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -73,9 +73,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "güz dönemi",
-    "142 kayıt",
-    "Diploma listesi",
+    "öğretim yılı",
+    "186 kayıt",
+    "Nakiller listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

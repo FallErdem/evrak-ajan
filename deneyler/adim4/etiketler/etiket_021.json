@@ -5,42 +5,42 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Havva GÜNEŞ",
-    "adres": "Serhat Mahallesi Papatya Sokağı No: 62/18 Yenimahalle/ANKARA",
+    "ad": "Emine DOĞAN",
+    "adres": "Ragıpbey Mahallesi Papatya Sokağı No: 25/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025421480",
-    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
-    "sinif": "2"
+    "ogrenci_no": "2024717131",
+    "bolum": "Kimya (Doktora)",
+    "sinif": "4"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Araştırma Talebinin Reddi Hk.",
+  "konu": "Tez Teslim Süresi Uzatım Talebi",
   "sayi": null,
-  "tarih": "01.04.2026",
+  "tarih": "19.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Araştırma Talebinin Reddi",
-    "Sorun": "araştırma iznim gerekçe gösterilmeden reddedildi",
+    "Şikâyet konusu": "Tez Teslim Süresi Uzatım",
+    "Sorun": "tez savunma jürim iki aydır oluşturulmadı",
     "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
@@ -53,12 +53,12 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Araştırma Talebinin Reddi",
+    "Tez Teslim Süresi Uzatım",
     "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]

@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Vizyon Ticaret A.Ş.",
+    "kurum_adi": "Başkent Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Beştepe Mahallesi Menekşe Sokağı No: 16/15 Yenimahalle/ANKARA",
+    "adres": "İvedik Mahallesi Papatya Sokak No: 51/8 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,18 +27,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Şikâyet Başvurusu Hk.",
-  "sayi": "2026/1155",
-  "tarih": "28.05.2026",
+  "konu": "Belge Talebinin Karşılanamaması Hk.",
+  "sayi": "2026/364",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Bilgi Edinme, Talep ve Şikayetler konusundaki güncel verilerin paylaşılması",
+    "Talep": "Belge Talebinin Karşılanamaması işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
     "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },

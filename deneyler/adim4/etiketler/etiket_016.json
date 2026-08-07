@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,20 +23,20 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
-    "saklama_suresi": "B"
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Denklik Belgesi Talebi",
-  "sayi": "E-55461037-102.03-646738",
-  "tarih": "29.04.2026",
+  "konu": "Staj Süresinin Uzatılması Talebi",
+  "sayi": "E-55461037-773-3013350",
+  "tarih": "24.02.2026",
   "ilgi": {
-    "tarih": "16.03.2026",
-    "sayi": "E-17311665-102.03-5296972"
+    "tarih": "16.02.2026",
+    "sayi": "E-43123369-773-8153087"
   },
   "ek": {
     "adet": 1,
@@ -44,9 +44,9 @@
     "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Denklik Belgesi",
-    "Ortak iş": "Denklik Belgesi konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Denklik Belgesi konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Staj Süresinin Uzatılması",
+    "Ortak iş": "Staj Süresinin Uzatılması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Staj Süresinin Uzatılması konusunda gerekli sürenin tanınması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,11 +56,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Denklik Belgesi"
+    "Staj Süresinin Uzatılması"
   ]
 }

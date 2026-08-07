@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "kurum_adi": "Hukuk İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "85330682",
+    "detsis_no": "10578106",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,19 +32,19 @@
     "saklama_suresi": "10"
   },
   "konu": "Tıbbi Atık Bertarafı Hk.",
-  "sayi": "E-85330682-155.01-3545279",
-  "tarih": "23.03.2026",
+  "sayi": "E-10578106-155.01-3352940",
+  "tarih": "06.02.2026",
   "ilgi": {
-    "tarih": "17.03.2026",
-    "sayi": "E-83011479-155.01-1082795"
+    "tarih": "25.12.2025",
+    "sayi": "E-83011479-155.01-746700"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Tıbbi Atık Bertarafı",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -60,7 +60,6 @@
   "anahtar_terimler": [
     "Tıbbi Atık Bertarafı",
     "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "ilgide kayıtlı yazı"
   ]
 }

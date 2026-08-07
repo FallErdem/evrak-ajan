@@ -32,16 +32,16 @@
     "saklama_suresi": "B"
   },
   "konu": "Encümen Kararının Gönderilmesi",
-  "sayi": "E-24304062-110.04-62186266",
-  "tarih": "24.02.2026",
+  "sayi": "E-24304062-110.04-74640841",
+  "tarih": "06.03.2026",
   "ilgi": {
-    "tarih": "20.02.2026",
-    "sayi": "E-15986609-110.04-2245479"
+    "tarih": "17.02.2026",
+    "sayi": "E-15986609-110.04-549797"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Encümen Kararının Gönderilmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
     "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
@@ -59,7 +59,7 @@
   ],
   "anahtar_terimler": [
     "Encümen Kararının Gönderilmesi",
-    "olumlu, işlem tamamlandı",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı"
   ]
 }

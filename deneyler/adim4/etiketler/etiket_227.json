@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_egitim_rehberlik_sb",
-    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-    "detsis_no": "87302975",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -26,8 +26,7 @@
   "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
-      "İlçe Kaymakamlıklarına",
-      "İlçe Belediye Başkanlıklarına"
+      "İl Müdürlüklerine"
     ],
     "bilgi": [
       "İçişleri Bakanlığına"
@@ -35,24 +34,24 @@
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "160.01.02",
-    "ad": "Kaynaştırma Eğitimi",
-    "saklama_suresi": "10"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Kaynaştırma Uygulaması Bilgi Talebi",
-  "sayi": "E-10213773-160.01.02-18989114",
-  "tarih": "02.04.2026",
+  "konu": "Kayıt Takviminin Duyurulması",
+  "sayi": "E-10213773-205-10053973",
+  "tarih": "19.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 6
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "bahar dönemi",
-    "Sayı": "112 kayıt",
-    "Ek 1": "Kaynaştırma Eğitimi listesi",
+    "Dönem": "öğretim yılı",
+    "Sayı": "68 kayıt",
+    "Ek 1": "Kayıt-Kabul listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -65,14 +64,14 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "bahar dönemi",
-    "112 kayıt",
-    "Kaynaştırma Eğitimi listesi",
+    "öğretim yılı",
+    "68 kayıt",
+    "Kayıt-Kabul listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

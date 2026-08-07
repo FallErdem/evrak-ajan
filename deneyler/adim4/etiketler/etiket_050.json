@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Kuzey Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Doruk Eğitim Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Çiğdemtepe Mahallesi Sümbül Sokağı No: 28/1 Yenimahalle/ANKARA",
+    "adres": "Beştepe Mahallesi Manolya Sokağı No: 115/12 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -32,15 +32,15 @@
     "saklama_suresi": "10"
   },
   "konu": "Salon Tahsis Talebi",
-  "sayi": "2026/36",
-  "tarih": "07.01.2026",
+  "sayi": "2026/503",
+  "tarih": "01.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Öğrenci Toplulukları, Birlikleri vb. konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Salon Tahsis işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +56,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "yıllara göre sayısal döküm",
+    "elektronik posta ile"
   ]
 }

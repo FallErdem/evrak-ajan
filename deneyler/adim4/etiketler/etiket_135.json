@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -26,7 +26,7 @@
   "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
-      "İlçe Belediye Başkanlıklarına"
+      "İlçe Belediye Başkanlığına"
     ],
     "bilgi": [
       "Ankara Valiliğine"
@@ -34,24 +34,24 @@
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
-    "saklama_suresi": "15"
+    "kod": "807.01",
+    "ad": "Bina ve Tesisler",
+    "saklama_suresi": "10"
   },
-  "konu": "Ödenek Talebi",
-  "sayi": "E-24432702-841.01-6568025",
-  "tarih": "18.03.2026",
+  "konu": "Boya Badana İşleri Hk.",
+  "sayi": "E-56248377-807.01-403227",
+  "tarih": "27.01.2026",
   "ilgi": {
-    "tarih": "06.02.2026",
-    "sayi": "E-43195403-841.01-1889009"
+    "tarih": "26.12.2025",
+    "sayi": "E-33152401-807.01-1811569"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Ödenek",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Boya Badana İşleri",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -61,11 +61,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "Boya Badana İşleri",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

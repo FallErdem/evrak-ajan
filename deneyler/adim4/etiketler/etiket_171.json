@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ali KESKIN",
-    "adres": "İvedik Mahallesi Manolya Sokak No: 101/4 Yenimahalle/ANKARA",
+    "ad": "Sevgi KARACA",
+    "adres": "Batıkent Mahallesi Papatya Sokak No: 112/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025312116",
+    "ogrenci_no": "2023452691",
     "bolum": "Kimya (Doktora)",
-    "sinif": "3"
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.14",
-    "ad": "Tez İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Danışman Değişikliği Talebi",
+  "konu": "Kesin Kayıt Başvurusu",
   "sayi": null,
-  "tarih": "19.03.2026",
+  "tarih": "15.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Danışman Değişikliği",
+    "Talep": "Kesin Kayıt",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Danışman Değişikliği",
-    "lisansüstü programa kayıtlı",
-    "mağduriyetin giderilmesi bakımından"
+    "Kesin Kayıt",
+    "lisansüstü programa kayıtlı"
   ]
 }

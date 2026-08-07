@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
     "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
-    "saklama_suresi": "2"
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Sınav Gözetmeni Görevlendirmesi",
-  "sayi": "E-55461037-106-623876",
-  "tarih": "20.03.2026",
+  "konu": "Staj Kabul Yazısı Talebi",
+  "sayi": "E-65859045-773-1033957",
+  "tarih": "15.05.2026",
   "ilgi": {
-    "tarih": "16.02.2026",
-    "sayi": "E-86488853-106-4037071"
+    "tarih": "06.05.2026",
+    "sayi": "E-43123369-773-8214370"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Sınav Gözetmeni Görevlendirmesi",
-    "Ortak iş": "Sınav Gözetmeni Görevlendirmesi konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Sınav Gözetmeni Görevlendirmesi konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Staj Kabul Yazısı",
+    "Ortak iş": "Staj Kabul Yazısı konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Staj Kabul Yazısı kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,11 +52,11 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sınav Gözetmeni Görevlendirmesi"
+    "Staj Kabul Yazısı"
   ]
 }

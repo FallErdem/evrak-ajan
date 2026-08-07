@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,25 +23,25 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Personel Dairesi Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "201",
+    "ad": "Seçim ve Atama İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Belgenin Dijital Kopyasının Gönderilmesi",
-  "sayi": "E-55461037-805.02.05-634711",
-  "tarih": "08.04.2026",
+  "konu": "Atama Onayı Hk.",
+  "sayi": "E-55461037-201-3007990",
+  "tarih": "11.02.2026",
   "ilgi": {
-    "tarih": "04.03.2026",
-    "sayi": "E-82642947-805.02.05-6176379"
+    "tarih": "30.01.2026",
+    "sayi": "E-42218640-201-8094197"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Arşivlerden Yararlanma",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Seçim ve Atama İşleri",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,12 +52,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Personel Dairesi Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Arşivlerden Yararlanma",
+    "Seçim ve Atama İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten YILDIRIM",
-    "adres": "Barıştepe Mahallesi Yasemin Caddesi No: 31/17 Yenimahalle/ANKARA",
+    "ad": "Hüseyin YAVUZ",
+    "adres": "Demetevler Mahallesi Manolya Sokak No: 106/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,19 +26,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
+    "kod": "115.02.01",
+    "ad": "İmar Durumu (Belgesi)",
     "saklama_suresi": "B"
   },
-  "konu": "İskan Ruhsatı Başvurusu",
+  "konu": "İmar Durumu Bilgi Talebi",
   "sayi": null,
-  "tarih": "03.02.2026",
+  "tarih": "15.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İskan Ruhsatı",
-    "Taşınmaz": "34024 ada, 37 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "İmar Durumu Bilgi",
+    "Taşınmaz": "17640 ada, 36 parsel",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,8 +51,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İskan Ruhsatı",
-    "34024 ada, 37 parsel",
-    "sürecin tamamlanabilmesi için"
+    "İmar Durumu Bilgi",
+    "17640 ada, 36 parsel"
   ]
 }

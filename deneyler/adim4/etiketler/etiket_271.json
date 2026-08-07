@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "752.01",
-    "ad": "Kamulaştırma",
+    "kod": "756.01",
+    "ad": "Tahsis, Devir ve Takas",
     "saklama_suresi": "B"
   },
-  "konu": "Taşınmazın Kamulaştırma Kapsamına Alınması Talebi",
-  "sayi": "E-55461037-752.01-607248",
-  "tarih": "19.02.2026",
+  "konu": "Bedelsiz Devir Talebi",
+  "sayi": "E-39985474-756.01-8637888",
+  "tarih": "21.01.2026",
   "ilgi": {
-    "tarih": "28.01.2026",
-    "sayi": "E-87730597-752.01-2655095"
+    "tarih": "05.01.2026",
+    "sayi": "E-87730597-756.01-589007"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Taşınmazın Kamulaştırma Kapsamına Alınması",
-    "Ortak iş": "Taşınmazın Kamulaştırma Kapsamına Alınması konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Taşınmazın Kamulaştırma Kapsamına Alınması konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Bedelsiz Devir",
+    "Ortak iş": "Bedelsiz Devir konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Bedelsiz Devir konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,5 +55,7 @@
     "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
-  "anahtar_terimler": []
+  "anahtar_terimler": [
+    "Bedelsiz Devir"
+  ]
 }

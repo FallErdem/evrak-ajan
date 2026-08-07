@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Genelge Görüşü Talebi",
-  "sayi": "E-10213773-010.06-18906928",
-  "tarih": "06.02.2026",
+  "konu": "Alınan Kararların Özeti",
+  "sayi": "E-10213773-050.04-9991881",
+  "tarih": "06.04.2026",
   "ilgi": {
-    "tarih": "05.01.2026",
-    "sayi": "E-39985474-010.06-4153751"
+    "tarih": "20.02.2026",
+    "sayi": "E-39985474-050.04-8660350"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Genelgeler",
+    "Konu": "Kararlar",
     "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },

@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Vizyon İnşaat Ltd. Şti.",
+    "kurum_adi": "Merkez Mimarlık Ltd. Şti.",
     "ad": null,
-    "adres": "Yeşilevler Mahallesi Yasemin Sokak No: 16/11 Yenimahalle/ANKARA",
+    "adres": "Pamuklar Mahallesi Zeytin Sokak No: 33/1 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,19 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.01",
-    "ad": "İmar Durumu (Belgesi)",
+    "kod": "115.02.08",
+    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
     "saklama_suresi": "B"
   },
-  "konu": "İmar Durumu Bilgi Talebi",
-  "sayi": "2026/100",
-  "tarih": "20.01.2026",
+  "konu": "İskan Ruhsatı Başvurusu",
+  "sayi": "2026/433",
+  "tarih": "02.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İmar Durumu (Belgesi) konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Talep": "İskan Ruhsatı işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
     "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "yıllara göre sayısal döküm",
     "Kurumunuz kayıt bürosundan elden"
   ]
 }

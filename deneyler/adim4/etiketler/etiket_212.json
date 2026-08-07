@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -31,18 +31,18 @@
     "ad": "Eğitim Fakülteleri İle İlişkiler",
     "saklama_suresi": "15"
   },
-  "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
-  "sayi": "E-65859045-355.02-2371433",
-  "tarih": "01.04.2026",
+  "konu": "Uygulama Kontenjanı Bildirimi",
+  "sayi": "E-39985474-355.02-8731782",
+  "tarih": "27.05.2026",
   "ilgi": {
-    "tarih": "23.02.2026",
-    "sayi": "E-55461037-355.02-609627"
+    "tarih": "18.05.2026",
+    "sayi": "E-55461037-355.02-3047672"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Uygulama Öğrencisi Yerleştirme",
-    "Ortak iş": "Uygulama Öğrencisi Yerleştirme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Uygulama Öğrencisi Yerleştirme kapsamında öğrenci kabul edilmesi"
+    "Konu": "Uygulama Kontenjanı",
+    "Ortak iş": "Uygulama Kontenjanı konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Uygulama Kontenjanı için kontenjan ayrılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +56,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Uygulama Öğrencisi Yerleştirme"
+    "Uygulama Kontenjanı"
   ]
 }

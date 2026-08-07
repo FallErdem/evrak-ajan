@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Sevgi AKSOY",
-    "adres": "Barıştepe Mahallesi Menekşe Sokak No: 33/20 Yenimahalle/ANKARA",
+    "ad": "Emine KARA",
+    "adres": "Gayret Mahallesi Çınar Caddesi No: 59/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024228408",
-    "bolum": "Tıp Fakültesi",
-    "sinif": "4"
+    "ogrenci_no": "2023450047",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,18 +29,17 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "İngilizce Transkript Talebi",
+  "konu": "Mezuniyet Belgesi Doğrulama Talebi",
   "sayi": null,
-  "tarih": "10.02.2026",
+  "tarih": "03.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İngilizce Transkript",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Talep": "Mezuniyet Belgesi Doğrulama",
     "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -55,8 +54,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İngilizce Transkript",
-    "lisansüstü programa kayıtlı",
+    "Mezuniyet Belgesi Doğrulama",
     "başvuru dosyasına eklenmek üzere"
   ]
 }

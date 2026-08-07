@@ -5,47 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "kurum_adi": "Ruhsat ve Denetim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "89052714",
+    "detsis_no": "59553370",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Emlak ve İstimlak Müdürlüğü",
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.02",
-    "ad": "Satış ve Kiralama",
-    "saklama_suresi": "B"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Taşınmaz Satış İhalesi Hk.",
-  "sayi": "E-89052714-756.02-2038008",
-  "tarih": "06.02.2026",
+  "konu": "Stratejik Plan Hazırlık Çalışmaları",
+  "sayi": "E-59553370-602.04-3852954",
+  "tarih": "12.05.2026",
   "ilgi": {
-    "tarih": "02.01.2026",
-    "sayi": "E-87730597-756.02-2643825"
+    "tarih": "06.05.2026",
+    "sayi": "E-65859045-602.04-1029217"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Taşınmaz Satış İhalesi",
+    "Talep": "Stratejik Plan Hazırlık Çalışmaları",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Taşınmaz": "28490 ada, 16 parsel",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,14 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Taşınmaz Satış İhalesi",
+    "Stratejik Plan Hazırlık Çalışmaları",
     "olumlu, işlem tamamlandı",
-    "28490 ada, 16 parsel",
-    "ilgide kayıtlı yazı",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "ilgide kayıtlı yazı"
   ]
 }

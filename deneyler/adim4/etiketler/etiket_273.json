@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra ŞIMŞEK",
-    "adres": "Ergazi Mahallesi Erguvan Sokak No: 15/1 Yenimahalle/ANKARA",
+    "ad": "Mehmet ŞAHIN",
+    "adres": "Yeşilevler Mahallesi Sümbül Sokak No: 3/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,26 +22,26 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Ruhsatın Askıya Alınması Hk.",
+  "konu": "Rapor Sureti Talebi",
   "sayi": null,
-  "tarih": "19.01.2026",
+  "tarih": "09.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ruhsatın Askıya Alınması",
-    "Sorun": "ruhsat başvurum iki aydır sonuçlandırılmadı",
-    "Süre": "bir aydan uzun süredir",
+    "Şikâyet konusu": "Rapor Sureti",
+    "Sorun": "yerinde inceleme için gelmesi gereken ekip iki kez randevuya gelmedi",
+    "Süre": "geçtiğimiz aydan bu yana",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "Pamuklar Mahallesi"
+    "Yer": "Ragıpbey Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,13 +51,13 @@
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsatın Askıya Alınması",
-    "bir aydan uzun süredir",
+    "Rapor Sureti",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi",
-    "Pamuklar Mahallesi"
+    "Ragıpbey Mahallesi"
   ]
 }

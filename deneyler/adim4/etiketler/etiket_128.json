@@ -27,28 +27,28 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Teslimi Talebi",
-  "sayi": "E-24316060-198.02.01-62493865",
-  "tarih": "11.03.2026",
+  "konu": "Kimlik Numarası Kaydı Hk.",
+  "sayi": "E-24316060-235-60912223",
+  "tarih": "27.02.2026",
   "ilgi": {
-    "tarih": "06.03.2026",
-    "sayi": "E-21291472-198.02.01-6880258"
+    "tarih": "13.01.2026",
+    "sayi": "E-21291472-235-2980713"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Diploma kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim) kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

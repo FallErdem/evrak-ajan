@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Sevgi ÇAKIR",
-    "adres": "Pamuklar Mahallesi Nergis Sokağı No: 112/11 Yenimahalle/ANKARA",
+    "ad": "Şerife AYDIN",
+    "adres": "Beştepe Mahallesi Erguvan Sokağı No: 22/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020892735",
-    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
-    "sinif": "3"
+    "ogrenci_no": "2021828252",
+    "bolum": "Mimarlık Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "itiraz",
   "aile": "itiraz",
@@ -29,13 +29,13 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "saklama_suresi": "10"
   },
-  "konu": "Staj Sigorta İşlemleri",
+  "konu": "Topluluk Danışmanı Görevlendirmesi",
   "sayi": null,
-  "tarih": "22.01.2026",
+  "tarih": "18.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -43,7 +43,7 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Staj Sigorta İşlemleri",
+    "İtiraz konusu": "Topluluk Danışmanı Görevlendirmesi",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -61,7 +61,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Sigorta İşlemleri",
+    "Topluluk Danışmanı Görevlendirmesi",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

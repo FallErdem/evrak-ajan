@@ -12,12 +12,12 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Burak KARACA",
-    "adres": "Ostim Mahallesi Zeytin Sokak No: 117/20 Yenimahalle/ANKARA",
+    "ad": "Salih KARACA",
+    "adres": "Ragıpbey Mahallesi Menekşe Sokağı No: 68/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019130354",
-    "bolum": "Kimya (Doktora)",
+    "ogrenci_no": "2022973982",
+    "bolum": "Matematik (Yüksek Lisans)",
     "sinif": "1"
   },
   "belge_turu": "dilekce",
@@ -33,15 +33,15 @@
     "ad": "Tez İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Tez Konusu Değişikliği Talebi",
+  "konu": "Danışman Değişikliği Talebi",
   "sayi": null,
-  "tarih": "06.02.2026",
+  "tarih": "16.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Tez Konusu Değişikliği",
-    "Öğrenim bilgisi": "2. sınıf öğrencisi",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Danışman Değişikliği",
+    "Öğrenim bilgisi": "4. sınıf öğrencisi",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Tez Konusu Değişikliği",
-    "2. sınıf öğrencisi"
+    "Danışman Değişikliği",
+    "4. sınıf öğrencisi",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

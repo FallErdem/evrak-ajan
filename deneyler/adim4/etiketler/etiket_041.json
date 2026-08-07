@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ayşe ÖZDEMIR",
-    "adres": "Susuz Mahallesi Ihlamur Sokağı No: 45/11 Yenimahalle/ANKARA",
+    "ad": "Zeynep ASLAN",
+    "adres": "Serhat Mahallesi Lale Sokak No: 29/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,27 +21,27 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_makam": "Yenimahalle Kaymakamlığı",
+  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
     "saklama_suresi": "10"
   },
-  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
+  "konu": "Bağış Makbuzu Talebi",
   "sayi": null,
-  "tarih": "23.02.2026",
+  "tarih": "08.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 6
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Talep": "Taşımalı Eğitim Kapsamına Alınma",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Bağış Makbuzu",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -54,7 +54,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim Kapsamına Alınma",
-    "mağduriyetin giderilmesi bakımından"
+    "Bağış Makbuzu",
+    "sürecin tamamlanabilmesi için"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten ŞIMŞEK",
-    "adres": "Demetevler Mahallesi Çınar Sokak No: 53/23 Yenimahalle/ANKARA",
+    "ad": "Hasan AKSOY",
+    "adres": "Ostim Mahallesi Papatya Sokağı No: 38/14 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,22 +21,22 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_makam": "Yenimahalle Kaymakamlığı",
+  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
+    "saklama_suresi": "10"
   },
-  "konu": "Şube Oluşturma Talebi",
+  "konu": "Güzergâh Değişikliği Talebi",
   "sayi": null,
-  "tarih": "16.04.2026",
+  "tarih": "03.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Şube Oluşturma",
+    "Talep": "Güzergâh Değişikliği",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -50,7 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Şube Oluşturma",
+    "Güzergâh Değişikliği",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

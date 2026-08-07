@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Ege Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Demetevler Mahallesi Kestane Sokağı No: 52/24 Yenimahalle/ANKARA",
+    "adres": "Susuz Mahallesi Papatya Caddesi No: 102/17 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,18 +27,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Nakil Talebi",
-  "sayi": "2026/619",
-  "tarih": "20.05.2026",
+  "konu": "Gelir Belgesi Talebi",
+  "sayi": "2026/68",
+  "tarih": "16.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Nakiller konusundaki güncel verilerin paylaşılması",
+    "Talep": "Gelir Belgesi işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
     "Bildirim yolu": "posta yoluyla adresime"
   },

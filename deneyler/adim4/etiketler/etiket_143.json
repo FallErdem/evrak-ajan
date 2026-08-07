@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "98244303",
+    "detsis_no": "17311665",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
-    "saklama_suresi": "10"
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Staj Değerlendirme Formunun Gönderilmesi",
-  "sayi": "E-98244303-773-1379242",
-  "tarih": "21.05.2026",
+  "konu": "Bütünleme Sınav Programı",
+  "sayi": "E-17311665-106-2193955",
+  "tarih": "29.05.2026",
   "ilgi": {
-    "tarih": "17.04.2026",
-    "sayi": "E-86488853-773-4092286"
+    "tarih": "06.05.2026",
+    "sayi": "E-86488853-106-5012758"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Staj Değerlendirme Formunun Gönderilmesi",
+    "Talep": "Bütünleme Sınav Programı",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -59,9 +59,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Değerlendirme Formunun Gönderilmesi",
+    "Bütünleme Sınav Programı",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

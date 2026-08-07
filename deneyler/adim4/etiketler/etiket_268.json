@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Salih BOZKURT",
-    "adres": "Gayret Mahallesi Akasya Caddesi No: 99/12 Yenimahalle/ANKARA",
+    "ad": "Meryem KOÇ",
+    "adres": "Çiğdemtepe Mahallesi Nergis Sokağı No: 97/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,23 +26,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Yangın Merdiveni Uygunluğu",
+  "konu": "Muayene Randevusu Hk.",
   "sayi": null,
-  "tarih": "15.04.2026",
+  "tarih": "13.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Yangın Merdiveni Uygunluğu",
+    "İtiraz konusu": "Muayene Randevusu",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +57,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yangın Merdiveni Uygunluğu",
+    "Muayene Randevusu",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

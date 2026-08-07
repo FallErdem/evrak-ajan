@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ayşe ÇETIN",
-    "adres": "Ergazi Mahallesi Sümbül Sokağı No: 80/2 Yenimahalle/ANKARA",
+    "ad": "Sultan ERDOĞAN",
+    "adres": "Pamuklar Mahallesi Lale Caddesi No: 46/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,15 +30,15 @@
     "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Kurs Kontenjanının Artırılması",
+  "konu": "Usta Öğretici Görevlendirmesi",
   "sayi": null,
-  "tarih": "21.05.2026",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kurs Kontenjanının Artırılması",
-    "Sorun": "kurs bitirme belgem altı aydır düzenlenmedi",
-    "Süre": "yaklaşık üç haftadır",
+    "Şikâyet konusu": "Usta Öğretici Görevlendirmesi",
+    "Sorun": "kayıt olduğum kurs yeterli kursiyer yok denilerek iptal edildi",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
@@ -54,8 +54,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kurs Kontenjanının Artırılması",
-    "yaklaşık üç haftadır",
+    "Usta Öğretici Görevlendirmesi",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

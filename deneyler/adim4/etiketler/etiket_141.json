@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Havva GÜNEŞ",
-    "adres": "Pamuklar Mahallesi Nergis Sokak No: 14/20 Yenimahalle/ANKARA",
+    "ad": "Ahmet AVCI",
+    "adres": "Şentepe Mahallesi Ceviz Sokağı No: 119/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022966910",
-    "bolum": "Diş Hekimliği Fakültesi",
-    "sinif": "4"
+    "ogrenci_no": "2022644254",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,18 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Denklik Başvurusu",
+  "konu": "Kayıt Süresi Uzatım Talebi",
   "sayi": null,
-  "tarih": "10.03.2026",
+  "tarih": "26.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma Denklik",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Kayıt Süresi Uzatım",
+    "Öğrenim bilgisi": "4. sınıf öğrencisi",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -54,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Diploma Denklik",
-    "resmî işlemlerde kullanılmak üzere"
+    "Kayıt Süresi Uzatım",
+    "4. sınıf öğrencisi",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -27,27 +27,27 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "kod": "135.03",
+    "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Başvuru Cevabının Gönderilmesi",
-  "sayi": "E-10213773-622.01-19062489",
-  "tarih": "21.05.2026",
+  "konu": "Halk Eğitim Kursu Açılması Talebi",
+  "sayi": "E-24316060-135.03-61051118",
+  "tarih": "09.04.2026",
   "ilgi": {
-    "tarih": "07.04.2026",
-    "sayi": "E-91571118-622.01-6797445"
+    "tarih": "26.02.2026",
+    "sayi": "E-91571118-135.03-3732508"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 4
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "güz dönemi",
-    "Sayı": "24 kayıt",
-    "Ek 1": "Bilgi Edinme, Talep ve Şikayetler listesi",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Sayı": "35 kayıt",
+    "Ek 1": "Yaygın Eğitim Kursları listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -65,8 +65,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "güz dönemi",
-    "24 kayıt",
+    "içinde bulunulan öğretim yılı",
+    "35 kayıt",
+    "Yaygın Eğitim Kursları listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

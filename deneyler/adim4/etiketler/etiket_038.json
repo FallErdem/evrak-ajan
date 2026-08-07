@@ -5,19 +5,19 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Elif POLAT",
-    "adres": "Yeşilevler Mahallesi Papatya Sokak No: 90/17 Yenimahalle/ANKARA",
+    "ad": "Hatice BULUT",
+    "adres": "Karşıyaka Mahallesi Papatya Sokağı No: 55/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025244927",
-    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
+    "ogrenci_no": "2025568022",
+    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
     "sinif": "4"
   },
   "belge_turu": "dilekce",
@@ -25,25 +25,26 @@
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
     "saklama_suresi": "10"
   },
-  "konu": "Yeni Durak Talebi",
+  "konu": "Taksitlendirme Talebi",
   "sayi": null,
-  "tarih": "06.01.2026",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Talep": "Yeni Durak",
+    "Talep": "Taksitlendirme",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -53,12 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Yeni Durak",
+    "lisansüstü programa kayıtlı",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

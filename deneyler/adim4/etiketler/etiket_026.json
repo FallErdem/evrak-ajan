@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Serkan KILIÇ",
-    "adres": "Ergazi Mahallesi Sümbül Sokağı No: 5/2 Yenimahalle/ANKARA",
+    "ad": "Ahmet ÇETIN",
+    "adres": "Ergazi Mahallesi Kestane Sokak No: 15/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,15 +30,15 @@
     "ad": "İdari Yaptırım/Para Cezası İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "İdari Para Cezasına İtiraz",
+  "konu": "Tutanağın Tebliği Hk.",
   "sayi": null,
-  "tarih": "04.05.2026",
+  "tarih": "16.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İdari Para Cezasına İtiraz",
-    "Sorun": "itirazım otuz gün içinde cevaplanmadı",
-    "Süre": "yaklaşık üç haftadır",
+    "Şikâyet konusu": "Tutanağın Tebliği",
+    "Sorun": "kesilen para cezasının tebligatı tarafıma hiç ulaşmadı",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -54,9 +54,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İdari Para Cezasına İtiraz",
-    "itirazım otuz gün içinde cevaplanmadı",
-    "yaklaşık üç haftadır",
+    "Tutanağın Tebliği",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

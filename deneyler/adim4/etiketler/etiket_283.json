@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -26,7 +26,7 @@
   "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
-      "İlçe Belediye Başkanlıklarına"
+      "İlçe Belediye Başkanlığına"
     ],
     "bilgi": [
       "Ankara Valiliğine"
@@ -34,13 +34,13 @@
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "Ceza Tutarının Yeniden Hesaplanması",
-  "sayi": "E-24432702-858-6526160",
-  "tarih": "02.02.2026",
+  "konu": "Karar Örneğinin Gönderilmesi",
+  "sayi": "E-56248377-641.04-424995",
+  "tarih": "06.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
@@ -49,9 +49,9 @@
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "yılın ilk yarısı",
-    "Sayı": "112 kayıt",
-    "Ek 1": "İdari Yaptırım/Para Cezası İşleri listesi",
+    "Dönem": "üçüncü çeyrek",
+    "Sayı": "24 kayıt",
+    "Ek 1": "İdari Davalar listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -69,8 +69,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "yılın ilk yarısı",
-    "112 kayıt",
+    "üçüncü çeyrek",
+    "24 kayıt",
+    "İdari Davalar listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Burak YAVUZ",
-    "adres": "Uğur Mumcu Mahallesi Menekşe Sokak No: 81/6 Yenimahalle/ANKARA",
+    "ad": "İbrahim KARA",
+    "adres": "Serhat Mahallesi Manolya Sokak No: 8/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024165897",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "2"
+    "ogrenci_no": "2021147094",
+    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,17 +29,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Sosyal Yardım Başvurusu",
+  "konu": "Etkinlik Bütçe Desteği Talebi",
   "sayi": null,
-  "tarih": "23.03.2026",
+  "tarih": "11.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Sosyal Yardım",
+    "Talep": "Etkinlik Bütçe Desteği",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -54,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sosyal Yardım",
+    "Etkinlik Bütçe Desteği",
+    "lisansüstü programa kayıtlı",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Şube Oluşturma Talebi",
-  "sayi": "E-65859045-205-2339666",
-  "tarih": "06.02.2026",
+  "konu": "Öğretmenlik Uygulaması Değerlendirme Raporu",
+  "sayi": "E-65859045-355.02-967107",
+  "tarih": "09.01.2026",
   "ilgi": {
-    "tarih": "25.12.2025",
-    "sayi": "E-93213107-205-4819009"
+    "tarih": "12.12.2025",
+    "sayi": "E-55461037-355.02-2982899"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Şube Oluşturma",
-    "Ortak iş": "Şube Oluşturma konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Şube Oluşturma konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Öğretmenlik Uygulaması Değerlendirme Raporu",
+    "Ortak iş": "Öğretmenlik Uygulaması Değerlendirme Raporu konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Öğretmenlik Uygulaması Değerlendirme Raporu kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,10 +52,8 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
-  "anahtar_terimler": [
-    "Şube Oluşturma"
-  ]
+  "anahtar_terimler": []
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ayşe YAVUZ",
-    "adres": "Gayret Mahallesi Ihlamur Caddesi No: 12/6 Yenimahalle/ANKARA",
+    "ad": "Mehmet UÇAR",
+    "adres": "Barıştepe Mahallesi Akasya Caddesi No: 100/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "752.01",
-    "ad": "Kamulaştırma",
+    "kod": "115.02.04",
+    "ad": "Yapı Ruhsatı",
     "saklama_suresi": "B"
   },
-  "konu": "Taşınmazın Kamulaştırma Kapsamına Alınması Talebi",
+  "konu": "Ruhsat Yenileme Talebi",
   "sayi": null,
-  "tarih": "19.03.2026",
+  "tarih": "30.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Taşınmazın Kamulaştırma Kapsamına Alınması",
-    "Taşınmaz": "85818 ada, 38 parsel",
+    "Talep": "Ruhsat Yenileme",
+    "Taşınmaz": "71994 ada, 16 parsel",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
@@ -47,10 +47,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "85818 ada, 38 parsel"
+    "Ruhsat Yenileme",
+    "71994 ada, 16 parsel"
   ]
 }

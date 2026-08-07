@@ -22,26 +22,26 @@
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_makam": "Yenimahalle Kaymakamlığı",
+  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Kayıt İşlemleri Hk.",
-  "sayi": "E-39985474-205-4253754",
-  "tarih": "20.04.2026",
+  "konu": "Denetim Kurulu Raporu",
+  "sayi": "E-39985474-165.01-8663939",
+  "tarih": "25.02.2026",
   "ilgi": {
-    "tarih": "06.04.2026",
-    "sayi": "E-93213107-205-4897361"
+    "tarih": "22.01.2026",
+    "sayi": "E-93213107-165.01-8297823"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Kayıt-Kabul",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Okul Aile Birlikleri",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,6 +56,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "Okul Aile Birlikleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

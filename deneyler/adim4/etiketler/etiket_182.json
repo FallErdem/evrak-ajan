@@ -12,12 +12,12 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Sultan AVCI",
-    "adres": "Barıştepe Mahallesi Menekşe Caddesi No: 116/3 Yenimahalle/ANKARA",
+    "ad": "Ali ERDOĞAN",
+    "adres": "Barıştepe Mahallesi Manolya Caddesi No: 113/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021720194",
-    "bolum": "Diş Hekimliği Fakültesi",
+    "ogrenci_no": "2019176106",
+    "bolum": "Mimarlık Fakültesi",
     "sinif": "3"
   },
   "belge_turu": "dilekce",
@@ -33,14 +33,14 @@
     "ad": "Katkı Payları / Öğrenim Ücretleri",
     "saklama_suresi": "10"
   },
-  "konu": "Katkı Payı Muafiyet Başvurusu",
+  "konu": "Katkı Payı İade Talebi",
   "sayi": null,
-  "tarih": "13.02.2026",
+  "tarih": "29.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Katkı Payı Muafiyet",
-    "Öğrenim bilgisi": "2018 yılı mezunu",
+    "Talep": "Katkı Payı İade",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
@@ -55,8 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı Muafiyet",
-    "2018 yılı mezunu",
+    "Katkı Payı İade",
+    "lisansüstü programa kayıtlı",
     "sürecin tamamlanabilmesi için"
   ]
 }

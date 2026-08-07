@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,19 +32,19 @@
     "saklama_suresi": "15"
   },
   "konu": "Performans Göstergesi Verisi Talebi",
-  "sayi": "E-10213773-602.04-18956137",
-  "tarih": "11.03.2026",
+  "sayi": "E-56248377-602.04-423230",
+  "tarih": "28.04.2026",
   "ilgi": {
-    "tarih": "04.03.2026",
-    "sayi": "E-65859045-602.04-2354999"
+    "tarih": "27.03.2026",
+    "sayi": "E-65859045-602.04-1007944"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Performans Göstergesi Verisi",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,

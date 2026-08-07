@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Karar Düzeltme Talebi",
-  "sayi": "E-55461037-050.04-625549",
-  "tarih": "23.03.2026",
+  "konu": "Staj Süresinin Uzatılması Talebi",
+  "sayi": "E-55461037-773-3003129",
+  "tarih": "30.01.2026",
   "ilgi": {
-    "tarih": "19.02.2026",
-    "sayi": "E-39985474-050.04-4196667"
+    "tarih": "12.01.2026",
+    "sayi": "E-43123369-773-8126038"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Karar Düzeltme",
-    "Ortak iş": "Karar Düzeltme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Karar Düzeltme konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Staj Süresinin Uzatılması",
+    "Ortak iş": "Staj Süresinin Uzatılması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Staj Süresinin Uzatılması konusunda gerekli sürenin tanınması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,11 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Karar Düzeltme"
+    "Staj Süresinin Uzatılması"
   ]
 }

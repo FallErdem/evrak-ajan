@@ -541,6 +541,17 @@ class EtiketUretici:
 
     # -- birim ve kod seçimi -------------------------------------------------
 
+    @staticmethod
+    def _isbirligi_mi(s: Siparis) -> bool:
+        """Bu sipariş isbirligi_talebi ailesine düşecek mi.
+
+        talep_yazisi + ayni_duzey -> yön "ayni" -> isbirligi_talebi.
+        Bunu birim/kod seçiminden ÖNCE bilmek gerekiyor: iki ayrı tüzel
+        kişinin ortak işi olan konular sınırlı. Ölçülen hata: üniversite,
+        ilçe MEM'den okul aile birliği bağış makbuzu istiyordu.
+        """
+        return s.belge_turu == "talep_yazisi" and s.gonderen_tipi == "ayni_duzey"
+
     def _kullanilabilir_kodlar(self, birim: Birim, vatandas: bool) -> list[SdpKodu]:
         """Birimin belge kodu olarak kullanabileceği SDP kodları.
 
@@ -571,6 +582,13 @@ class EtiketUretici:
         """
         vatandas = s.gonderen_tipi in ("vatandas", "ozel_tuzel")
         hepsi = kurum.alici_birimler
+        # İşbirliği talebinde ortak iş kodu olan birimlere DOYMA
+        # FİLTRESİNDEN ÖNCE daral. Sonra daraltılırsa, o birimlerin kodları
+        # doyduğunda yedekleme devreye girip beyaz liste dışına çıkıyordu.
+        if self._isbirligi_mi(s):
+            ortak = [b for b in hepsi
+                     if _ISBIRLIGI_YAPRAK & set(b.sdp_kodlari)]
+            hepsi = ortak or hepsi
 
         def bosluk_var_mi(b: Birim, vat: bool) -> bool:
             return any(self.kod_sayaci[k.kod] < self.kod_azami
@@ -625,13 +643,27 @@ class EtiketUretici:
     def _kod_sec(self, birim: Birim, s: Siparis) -> SdpKodu:
         vatandas = s.gonderen_tipi in ("vatandas", "ozel_tuzel")
         adaylar = self._kullanilabilir_kodlar(birim, vatandas)
+        if self._isbirligi_mi(s):
+            ortak = [k for k in adaylar if k.kod in _ISBIRLIGI_KODLARI]
+            adaylar = ortak or adaylar
+        else:
+            # REZERVASYON: beyaz liste kodları (802, 773, 045.02 gibi ortak
+            # kodlar) başka belge türleri tarafından tüketilirse işbirliği
+            # talebine yer kalmıyor ve yedekleme beyaz listenin dışına
+            # çıkıyordu. Diğer türler bu kodları SON tercih olarak kullanır.
+            digerleri = [k for k in adaylar if k.kod not in _ISBIRLIGI_KODLARI]
+            adaylar = digerleri or adaylar
         if not adaylar:
             raise RuntimeError(f"{birim.birim_kodu} icin kullanilabilir SDP kodu yok")
         doymamis = [k for k in adaylar if self.kod_sayaci[k.kod] < self.kod_azami]
         if not doymamis:
-            # Vatandaş filtresi yüzünden doymuş olabilir; tüm kodlara bak
-            doymamis = [k for k in self._kullanilabilir_kodlar(birim, False)
-                        if self.kod_sayaci[k.kod] < self.kod_azami]
+            # Vatandaş filtresi yüzünden doymuş olabilir; tüm kodlara bak.
+            # İŞBİRLİĞİ FİLTRESİ BURADA DA GEÇERLİ — yoksa yedekleme beyaz
+            # listenin dışına çıkıyordu (ölçüm: 7 belge).
+            tumu = self._kullanilabilir_kodlar(birim, False)
+            if self._isbirligi_mi(s):
+                tumu = [k for k in tumu if k.kod in _ISBIRLIGI_KODLARI] or tumu
+            doymamis = [k for k in tumu if self.kod_sayaci[k.kod] < self.kod_azami]
         adaylar = doymamis or adaylar
         return min(adaylar, key=lambda k: (self.kod_sayaci[k.kod], self.h.rnd.random()))
 
@@ -643,8 +675,16 @@ class EtiketUretici:
         belge_turu=dilekce olan bir belgeye "Hafriyat Atığı Şikayeti"
         konusu düşüyordu. Etiket kendi içinde çelişince ölçüm bozulur.
         """
+        adaylar = kod.ornek_konular
+        # Vatandaş "Tadilat Talebinin Değerlendirilmesi" diye dilekçe yazmaz.
+        # "Değerlendirilmesi", "Gönderilmesi", "Duyurulması" kurumun kendi iç
+        # yazışma dilidir. Konu havuzunda ağız etiketi yok; son ekten ayırıyoruz.
+        if belge_turu in ("dilekce", "sikayet", "itiraz", "bilgi_edinme"):
+            dis = [k for k in adaylar if not _KURUM_AGZI_KONU.search(k)]
+            adaylar = dis or adaylar
+
         desen = _TUR_KONU_DESENI.get(belge_turu)
-        uygun = [k for k in kod.ornek_konular if desen.search(k)] if desen else []
+        uygun = [k for k in adaylar if desen.search(k)] if desen else []
 
         # Yedekleme sırası: TÜR UYUMU çeşitlilikten önce gelir. Türle uyumsuz
         # bir konu etiketi kendi içinde çelişkili yapar (dilekçe belgesine
@@ -660,7 +700,7 @@ class EtiketUretici:
         #    Kod başına artık 6-7 konu var ve çoğu nötr isim tamlaması
         #    ("Muayene ve Kabul İşlemleri"), her türe oturuyor. Kod adından
         #    türetmek ise yapay başlık üretiyordu ("Mal Alım İşi Hk.").
-        digerleri = [k for k in kod.ornek_konular
+        digerleri = [k for k in adaylar
                      if self.konu_sayaci[k] < self.konu_azami]
         if digerleri:
             return min(digerleri,
@@ -685,7 +725,8 @@ class EtiketUretici:
                 return t
         return self.h.is_gunu(bas, bit)
 
-    def _dagitim_listesi(self, kurum: Kurum, gonderen_adi: str) -> dict:
+    def _dagitim_listesi(self, kurum: Kurum, gonderen_adi: str,
+                         alici_tipi: str) -> dict:
         """Dağıtımlı yazının muhatap listesi — gereği / bilgi ayrımlı.
 
         ÜÇ ÖLÇÜLEN HATA DÜZELTİLDİ:
@@ -706,7 +747,13 @@ class EtiketUretici:
         # kolektif dağıtım kümesidir. Ölçülen hata: YÖK'ün sınav duyurusu
         # dağıtımında "Ankara Valiliği" görünüyordu — YÖK valiliğe sınav
         # duyurusu dağıtmaz.
-        geregi = _DAGITIM_KUMESI.get(gonderen_adi)
+        # Dağıtım kümesi ALICI KURUM TİPİNİ kapsamalı. Ölçülen hata:
+        # Çevre-Şehircilik Bakanlığı belediyeye yazıyordu ama dağıtım
+        # ["81 İl Valiliğine", "Çevre ve Şehircilik İl Müdürlüklerine"] idi —
+        # belediye hiçbir kalemde yoktu. Bir belediye "81 İl Valiliğine"
+        # dağıtımlı bir yazının muhatabı olamaz.
+        geregi = _DAGITIM_KUMESI.get((gonderen_adi, alici_tipi)) \
+            or _DAGITIM_KUMESI.get(gonderen_adi)
         if geregi is None:
             geregi = [kurum.kurum_adi]
             ayni = [m for m in kurum.hiyerarsi.get("ayni_duzey", [])
@@ -898,8 +945,13 @@ class EtiketUretici:
                        if kod.kod[:3] in _FIZIKSEL_MEKAN else {})}
 
         if aile == "bilgi_edinme":
+            # Talep KONUDAN türetilir, kod adından değil. Ölçülen hata:
+            # konu "Salon Tahsis Talebi" iken gövde "Öğrenci Toplulukları,
+            # Birlikleri vb. konusundaki güncel verilerin paylaşılması"
+            # diyordu — konu bireysel işlem, gövde istatistik istiyordu.
             return {"Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-                    "Talep": f"{kod.ad} konusundaki güncel verilerin paylaşılması",
+                    "Talep": f"{_talep_ifadesi(konu, kod.ad)} işlemlerine "
+                             f"ilişkin güncel bilgilerin paylaşılması",
                     "İstenen ayrıntı": h.sec([
                         "yıllara göre sayısal döküm",
                         "işlem sayısı ve ortalama sonuçlanma süresi",
@@ -1000,8 +1052,13 @@ class EtiketUretici:
                 # Fakültesi öğrencisinin dilekçesi Gazi Eğitim Fakültesi
                 # Dekanlığına gidiyordu.
                 gonderen["bolum"] = _bolum_sec(h, birim.birim_adi)
-                # Staj konulu dilekçeyi 1. sınıf öğrencisi vermez.
-                alt = 3 if re.search(r"staj", konu, re.I) else 1
+                # Kod bazlı asgari sınıf. Staj için en az 3. sınıf, değişim
+                # programı ve yatay geçiş için en az 2 (bir dönem öğrenim
+                # şartı), mezuniyet işlemleri için 4. Ölçülen hata: 1. sınıf
+                # öğrencisi değişim programından dönmüş ve hibe bekliyordu.
+                alt = _ASGARI_SINIF.get(kod.kod, 1)
+                if re.search(r"staj", konu, re.I):
+                    alt = max(alt, 3)
                 gonderen["sinif"] = str(h.rnd.randint(alt, 4))
         elif s.gonderen_tipi == "ozel_tuzel":
             # Özel hukuk tüzel kişileri DETSİS'te kayıtlı değildir; yazılarında
@@ -1057,7 +1114,14 @@ class EtiketUretici:
         # "bu evrak hangi birime düşmeli" görevini test etmek için değerli.
         dis_gonderen = gonderen["tip"] != "kurum" or (
             not any(b.birim_adi == gonderen["kurum_adi"] for b in kurum.birimler))
-        if dis_gonderen:
+        # İlçe müdürlüğü KENDİ BAŞLIK BLOĞUNA sahip ayrı bir muhataptır
+        # (kurum_ilmem.json > baslik_bloku_ilce). Hem dışarıdan hem il
+        # müdürlüğünden yazılırken muhatap kaymakamlıktır — ilçe müdürlüğü
+        # il müdürlüğünün iç birimi değil, ayrı bir taşra teşkilatıdır.
+        ilce = _ILCE_MUHATAP.get(birim.birim_kodu)
+        if ilce:
+            muhatap_makam, muhatap_parantez = ilce
+        elif dis_gonderen:
             muhatap_makam = kurum.kurum_adi
             muhatap_parantez = birim.birim_adi if birim.seviye == 2 else None
         else:
@@ -1071,7 +1135,8 @@ class EtiketUretici:
         # geçersizdir; bu yüzden liste burada üretiliyor.
         dagitim = None
         if s.karma_kapanis:
-            dagitim = self._dagitim_listesi(kurum, gonderen["kurum_adi"] or "")
+            dagitim = self._dagitim_listesi(kurum, gonderen["kurum_adi"] or "",
+                                            kurum.kurum_tipi)
             # KARMA ancak "bilgi" listesindeki makam gönderene göre GERÇEK BİR
             # ÜST veya DIŞ KURUM ise geçerli. Kurumun kendi organına bilgi
             # göndermek arz yönü yaratmaz — Yükseköğretim Denetleme Kurulu
@@ -1541,25 +1606,52 @@ _DENETIM_BIRIMI = re.compile(r"Zabıta|Denetim|Teftiş|Kontrol", re.I)
 # YÖK'ün sınav duyurusu "Ankara Valiliği"ne dağıtılıyor görünüyordu.
 # Gerçek örnek dayanağı: İŞKUR yazısında "Dağıtım: Üniversite Rektörlüklerine",
 # İçişleri yazısında "Bilgi: 81 İl Valiliğine, Emniyet Genel Müdürlüğüne".
+# Dağıtım kümeleri. Anahtar ya (gönderen, alıcı_kurum_tipi) çiftidir ya da
+# yalnızca gönderendir. Çift anahtar, dağıtım listesinin ALICIYI KAPSAMASINI
+# garantiler: bir belediye "81 İl Valiliğine" dağıtımlı yazının muhatabı olamaz.
 _DAGITIM_KUMESI = {
-    "Yükseköğretim Kurulu Başkanlığı": ["Üniversite Rektörlüklerine"],
-    "Millî Eğitim Bakanlığı": ["Valilik Makamlarına",
-                               "İl Millî Eğitim Müdürlüklerine"],
-    "İçişleri Bakanlığı": ["81 İl Valiliğine"],
-    "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı":
+    ("Yükseköğretim Kurulu Başkanlığı", "universite"): ["Üniversite Rektörlüklerine"],
+    ("Millî Eğitim Bakanlığı", "il_mudurlugu"):
+        ["Valilik Makamlarına", "İl Millî Eğitim Müdürlüklerine"],
+    ("Millî Eğitim Bakanlığı", "universite"):
+        ["Üniversite Rektörlüklerine", "Valilik Makamlarına"],
+    ("İçişleri Bakanlığı", "belediye"):
+        ["Belediye Başkanlıklarına", "İl Özel İdarelerine"],
+    ("İçişleri Bakanlığı", "il_mudurlugu"): ["81 İl Valiliğine"],
+    ("Çevre, Şehircilik ve İklim Değişikliği Bakanlığı", "belediye"):
+        ["Belediye Başkanlıklarına", "İl Özel İdarelerine"],
+    ("Çevre, Şehircilik ve İklim Değişikliği Bakanlığı", "il_mudurlugu"):
         ["81 İl Valiliğine", "Çevre ve Şehircilik İl Müdürlüklerine"],
-    "Ankara Valiliği": ["İlçe Kaymakamlıklarına", "İlçe Belediye Başkanlıklarına"],
+    ("Ankara Valiliği", "belediye"):
+        ["İlçe Kaymakamlıklarına", "İlçe Belediye Başkanlıklarına"],
+    ("Ankara Valiliği", "il_mudurlugu"): ["İl Müdürlüklerine"],
+    ("Ankara Valiliği", "universite"):
+        ["Üniversite Rektörlüklerine", "İlçe Kaymakamlıklarına"],
+    ("Ankara Büyükşehir Belediye Başkanlığı", "belediye"):
+        ["İlçe Belediye Başkanlıklarına"],
+    ("Yenimahalle Kaymakamlığı", "il_mudurlugu"): ["İlçe Müdürlüklerine"],
+    ("Yenimahalle Kaymakamlığı", "belediye"): ["İlçe Belediye Başkanlığına"],
+    ("Yenimahalle Kaymakamlığı", "universite"): ["İlgili Kurum ve Kuruluşlara"],
+    # Yalnızca gönderene bağlı yedekler
+    "Yükseköğretim Kurulu Başkanlığı": ["Üniversite Rektörlüklerine"],
+    "Millî Eğitim Bakanlığı": ["Valilik Makamlarına"],
+    "İçişleri Bakanlığı": ["81 İl Valiliğine"],
+    "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı": ["81 İl Valiliğine"],
+    "Ankara Valiliği": ["İlçe Kaymakamlıklarına"],
     "Ankara Büyükşehir Belediye Başkanlığı": ["İlçe Belediye Başkanlıklarına"],
     "Yenimahalle Kaymakamlığı": ["İlçe Müdürlüklerine"],
 }
 
+# Bilgi kopyası GERÇEK BİR DIŞ MAKAMA gider. "Bakanlık Makamına" kalıbı ancak
+# gönderen bir genel müdürlükse geçerli; bakanlığın kendisi kendi makamına
+# bilgi kopyası göndermez.
 _DAGITIM_BILGI = {
     "Yükseköğretim Kurulu Başkanlığı": ["Yükseköğretim Denetleme Kuruluna"],
-    "Millî Eğitim Bakanlığı": ["Bakanlık Makamına"],
+    "Millî Eğitim Bakanlığı": ["Cumhurbaşkanlığına"],
     "Ankara Valiliği": ["İçişleri Bakanlığına"],
     "Ankara Büyükşehir Belediye Başkanlığı": ["Ankara Valiliğine"],
     "İçişleri Bakanlığı": ["Emniyet Genel Müdürlüğüne"],
-    "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı": ["Bakanlık Makamına"],
+    "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı": ["81 İl Valiliğine"],
     "Yenimahalle Kaymakamlığı": ["Ankara Valiliğine"],
 }
 
@@ -1577,6 +1669,15 @@ def _isbirligi_talebi(konu: str, is_adi: str) -> str:
         return "iş birliği protokolü düzenlenmesi"
     if "veri" in k or "bilgi" in k or "istatistik" in k:
         return f"{is_adi} kapsamındaki bilgilerin paylaşılması"
+    # Konu "... Uzatılması" ise talep süre uzatımıdır; "öğrenci kabul
+    # edilmesi" bambaşka bir işlem. Ölçülen hata: konu "Staj Süresinin
+    # Uzatılması Talebi" iken gövde öğrenci kabulü istiyordu.
+    if "uzat" in k or "süre" in k:
+        return f"{is_adi} konusunda gerekli sürenin tanınması"
+    if "tahsis" in k or "salon" in k:
+        return "gerekli tahsisin yapılması"
+    if "kontenjan" in k or "yeri" in k:
+        return f"{is_adi} için kontenjan ayrılması"
     if "staj" in k or "uygulama" in k:
         return f"{is_adi} kapsamında öğrenci kabul edilmesi"
     if "tahsis" in k or "salon" in k or "yer tahsis" in k:
@@ -1654,3 +1755,50 @@ _FIZIKSEL_MEKAN = frozenset({
     "115", "155", "165", "170", "175", "180", "752", "755", "756",
     "802", "807", "140", "205",
 })
+
+
+# İlçe müdürlüğü kendi başlık bloğuna sahip ayrı muhataptır; dışarıdan yazan
+# kurum il müdürlüğüne değil doğrudan kaymakamlığa yazar
+# (kurum_ilmem.json > baslik_bloku_ilce).
+_ILCE_MUHATAP = {
+    "yenimahalle_ilce_mem": ("Yenimahalle Kaymakamlığı",
+                             "İlçe Millî Eğitim Müdürlüğü"),
+}
+
+# Kod bazlı asgari sınıf. Erasmus/Farabi başvurusunda en az bir dönem öğrenim
+# şartı var; 1. sınıf öğrencisi değişimden dönüp hibe bekliyor olamaz.
+_ASGARI_SINIF = {
+    "304.03": 3,   # stajlar
+    "773": 3,      # staj işleri
+    "310": 2,      # öğrenci değişim programları
+    "301.06": 2,   # yatay geçiş
+    "302.15": 4,   # mezuniyet işlemleri
+}
+
+# İki ayrı tüzel kişinin GERÇEKTEN ortak işi olan kodlar. Bu dokuzun dışında
+# isbirligi_talebi üretilmez. Ölçülen hata üç turda tekrarlandı: üniversite
+# ilçe MEM'den okul aile birliği bağış makbuzu istiyordu.
+_ISBIRLIGI_KODLARI = frozenset({
+    "355.02",   # Eğitim Fakülteleri İle İlişkiler
+    "773",      # Staj İşleri
+    "304.03",   # Stajlar
+    "250",      # İşletmelerde Meslekî Eğitim
+    "815",      # Sosyal Yardım İşleri
+    "051",      # Toplantı ve Etkinlik İşleri
+    "045.02",   # Hukuki (görüş)
+    "802",      # Ulaşım ve Servis İşleri
+    "756.01",   # Tahsis, Devir ve Takas
+})
+
+# Kurumun kendi iç yazışma diline ait konu ekleri. Vatandaş dilekçesinde
+# bulunmaz: vatandaş "Tadilat Talebi" yazar, "Tadilat Talebinin
+# Değerlendirilmesi" yazmaz.
+_KURUM_AGZI_KONU = re.compile(
+    r"(Gönderilmesi|Değerlendirilmesi|Duyurulması|Bildirimi|Onayı|"
+    r"Görevlendirme|Tebliği|Raporu|Cetveli|Kararı|Tutanağı|Yayımlan|"
+    r"Güncellenmesi|Dağıtımı|İncelenmesi)\s*$", re.I)
+
+# Beyaz listenin YAPRAK olanları. 250 grup düğümüdür (saklama süresi boş,
+# altında alt kod var) ve belge kodu olarak kullanılamaz; birim filtresinde
+# onu saymak, tek beyaz liste kodu 250 olan birimi uygun sanmaya yol açıyordu.
+_ISBIRLIGI_YAPRAK = _ISBIRLIGI_KODLARI - {"250"}

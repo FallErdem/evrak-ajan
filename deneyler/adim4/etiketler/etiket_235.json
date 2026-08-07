@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Şaban AVCI",
-    "adres": "Pamuklar Mahallesi Ceviz Sokak No: 63/16 Yenimahalle/ANKARA",
+    "ad": "Meryem YILDIRIM",
+    "adres": "Emniyet Mahallesi Sümbül Sokağı No: 28/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021543853",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "3"
+    "ogrenci_no": "2024106990",
+    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -29,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "saklama_suresi": "10"
   },
-  "konu": "Mevlana Programı Hareketliliği Hk.",
+  "konu": "Kayıt Yenileme Başvurusu",
   "sayi": null,
-  "tarih": "23.02.2026",
+  "tarih": "25.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Mevlana Programı Hareketliliği",
-    "Sorun": "değişim programı hibem dönem bitmesine rağmen ödenmedi",
-    "Süre": "geçtiğimiz aydan bu yana",
+    "Şikâyet konusu": "Kayıt Yenileme",
+    "Sorun": "kayıt sildirdiğim hâlde adıma harç borcu çıkarılıyor",
+    "Süre": "yaklaşık üç haftadır",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -58,8 +58,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Mevlana Programı Hareketliliği",
-    "geçtiğimiz aydan bu yana",
+    "Kayıt Yenileme",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]
 }

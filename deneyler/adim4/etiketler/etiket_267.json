@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hatice KESKIN",
-    "adres": "Beştepe Mahallesi Manolya Sokak No: 62/15 Yenimahalle/ANKARA",
+    "ad": "Yusuf AVCI",
+    "adres": "Yakacık Mahallesi Yasemin Caddesi No: 48/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,26 +22,26 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "Muayene Ücreti Hk.",
+  "konu": "Ruhsat Sureti Talebi",
   "sayi": null,
-  "tarih": "03.04.2026",
+  "tarih": "01.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Muayene Ücreti",
-    "Sorun": "terazi damgalama başvurum sezon boyunca sıraya alınmadı",
-    "Süre": "bir aydan uzun süredir",
+    "Şikâyet konusu": "Ruhsat Sureti",
+    "Sorun": "komşumdaki işyeri ruhsatsız çalıştığı hâlde denetlenmiyor",
+    "Süre": "yaklaşık üç haftadır",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "Şentepe Mahallesi"
+    "Yer": "Ergazi Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,13 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Muayene Ücreti",
-    "bir aydan uzun süredir",
+    "Ruhsat Sureti",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi",
-    "Şentepe Mahallesi"
+    "Ergazi Mahallesi"
   ]
 }

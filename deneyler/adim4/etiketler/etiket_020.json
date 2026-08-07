@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,27 +23,27 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "kod": "815",
+    "ad": "Sosyal Yardım İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Bilgi Edinme Talebinin Reddi Hk.",
-  "sayi": "E-55461037-622.01-618087",
-  "tarih": "10.03.2026",
+  "konu": "Sosyal İnceleme Raporu Talebi",
+  "sayi": "E-55461037-815-3046476",
+  "tarih": "15.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "İlgili belge",
-    "sayfa": 3
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Bilgi Edinme Talebinin Reddi",
-    "Ortak iş": "Bilgi Edinme Talebinin Reddi konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Bilgi Edinme Talebinin Reddi kapsamındaki bilgilerin paylaşılması"
+    "Konu": "Sosyal İnceleme Raporu",
+    "Ortak iş": "Sosyal İnceleme Raporu konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Sosyal İnceleme Raporu konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,10 +53,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bilgi Edinme Talebinin Reddi"
+    "Sosyal İnceleme Raporu"
   ]
 }

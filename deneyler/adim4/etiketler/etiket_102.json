@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep AKTAŞ",
-    "adres": "Şentepe Mahallesi Ihlamur Sokak No: 20/23 Yenimahalle/ANKARA",
+    "ad": "Ramazan ÇAKIR",
+    "adres": "Ergazi Mahallesi Kestane Sokağı No: 51/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,20 +30,20 @@
     "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
     "saklama_suresi": "10"
   },
-  "konu": "Ölçü Aleti Beyannamesi",
+  "konu": "Ölçü Aleti Tamir İzni",
   "sayi": null,
-  "tarih": "21.05.2026",
+  "tarih": "14.01.2026",
   "ilgi": {
-    "tarih": "07.05.2026",
-    "sayi": "E-59553370-175-3552365"
+    "tarih": "22.12.2025",
+    "sayi": "E-59553370-175-3779833"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 4
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Ölçü Aleti Beyannamesi",
+    "İtiraz konusu": "Ölçü Aleti Tamir İzni",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -60,7 +60,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ölçü Aleti Beyannamesi",
+    "Ölçü Aleti Tamir İzni",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

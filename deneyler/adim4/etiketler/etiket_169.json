@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
+    "birim_kodu": "ozel_egitim_rehberlik_sb",
+    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "detsis_no": "87302975",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -23,31 +23,31 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_parantez": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
+    "kod": "160.01.02",
+    "ad": "Kaynaştırma Eğitimi",
     "saklama_suresi": "10"
   },
-  "konu": "Kurs Bitirme Belgesi Talebi",
-  "sayi": "E-10213773-135.03-18892001",
-  "tarih": "27.01.2026",
+  "konu": "Kaynaştırma Öğretmeni Talebi",
+  "sayi": "E-10213773-160.01.02-9907632",
+  "tarih": "06.02.2026",
   "ilgi": {
-    "tarih": "19.01.2026",
-    "sayi": "E-91571118-135.03-6738806"
+    "tarih": "13.01.2026",
+    "sayi": "E-87302975-160.01.02-4889252"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 6
+    "sayfa": 4
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "güz dönemi",
-    "Sayı": "47 kayıt",
-    "Ek 1": "Yaygın Eğitim Kursları listesi",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Sayı": "35 kayıt",
+    "Ek 1": "Kaynaştırma Eğitimi listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -60,14 +60,14 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "güz dönemi",
-    "47 kayıt",
-    "Yaygın Eğitim Kursları listesi",
+    "içinde bulunulan öğretim yılı",
+    "35 kayıt",
+    "Kaynaştırma Eğitimi listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

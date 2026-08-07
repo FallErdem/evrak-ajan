@@ -5,44 +5,44 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
+    "kurum_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "18426575",
+    "detsis_no": "89052714",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Hukuk İşleri Müdürlüğü",
+  "muhatap_makam": "Yazı İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "kod": "105.04",
+    "ad": "Meclis Kararları",
     "saklama_suresi": "15"
   },
-  "konu": "İtirazın Değerlendirilmesi",
-  "sayi": "E-18426575-858-630394",
-  "tarih": "28.04.2026",
+  "konu": "Kararın Kesinleşmesi Hk.",
+  "sayi": "E-89052714-105.04-1688382",
+  "tarih": "27.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "İdari Yaptırım/Para Cezası İşleri",
-    "Gerekçe": "iş ve işlemlerin zamanında tamamlanması",
+    "Konu": "Meclis Kararları",
+    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,11 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İdari Yaptırım/Para Cezası İşleri",
-    "iş ve işlemlerin zamanında tamamlanması"
+    "Meclis Kararları",
+    "mevzuatın öngördüğü sürelere uyulması"
   ]
 }

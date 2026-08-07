@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Kemal ATEŞ",
-    "adres": "Ergazi Mahallesi Yasemin Sokak No: 61/15 Yenimahalle/ANKARA",
+    "ad": "Gamze ASLAN",
+    "adres": "Yeşilevler Mahallesi Zeytin Caddesi No: 84/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023761344",
-    "bolum": "Kimya (Doktora)",
-    "sinif": "1"
+    "ogrenci_no": "2022394257",
+    "bolum": "Biyoloji (Yüksek Lisans)",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -33,15 +33,15 @@
     "ad": "Tez İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Tez Teslim Süresi Uzatım Talebi",
+  "konu": "Tez Konusu Değişikliği Talebi",
   "sayi": null,
-  "tarih": "09.02.2026",
+  "tarih": "03.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Tez Teslim Süresi Uzatım",
-    "Öğrenim bilgisi": "3. sınıf öğrencisi",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Tez Konusu Değişikliği",
+    "Öğrenim bilgisi": "1. sınıf öğrencisi",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Tez Teslim Süresi Uzatım",
-    "3. sınıf öğrencisi",
-    "sürecin tamamlanabilmesi için"
+    "Tez Konusu Değişikliği",
+    "1. sınıf öğrencisi",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

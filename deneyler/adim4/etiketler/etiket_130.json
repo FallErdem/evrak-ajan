@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Güven Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Şafak Ticaret A.Ş.",
     "ad": null,
-    "adres": "Serhat Mahallesi Nergis Sokak No: 73/3 Yenimahalle/ANKARA",
+    "adres": "Ostim Mahallesi Nergis Sokağı No: 89/15 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,26 +27,26 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Denklik Kararına İtiraz",
-  "sayi": "2026/498",
-  "tarih": "26.03.2026",
+  "konu": "Disiplin Cezasına İtiraz",
+  "sayi": "2026/668",
+  "tarih": "04.05.2026",
   "ilgi": {
-    "tarih": "10.02.2026",
-    "sayi": "E-63971525-215.01-1150766"
+    "tarih": "23.03.2026",
+    "sayi": "E-63971525-225.02-4954579"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Denklik Kararına İtiraz",
+    "İtiraz konusu": "Disiplin Cezasına İtiraz",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -61,7 +61,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Denklik Kararına İtiraz",
+    "Disiplin Cezasına İtiraz",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

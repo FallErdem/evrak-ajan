@@ -12,39 +12,39 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "87302975",
+    "detsis_no": "93213107",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
+  "hiyerarsi_yonu": "ust",
   "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "Nakil Belgelerinin Gönderilmesi",
-  "sayi": "E-87302975-210.01-5887224",
-  "tarih": "28.05.2026",
+  "konu": "Diploma Defteri Kaydı",
+  "sayi": "E-93213107-198.02.01-8319265",
+  "tarih": "19.02.2026",
   "ilgi": {
-    "tarih": "28.04.2026",
-    "sayi": "E-21291472-210.01-6920436"
+    "tarih": "04.02.2026",
+    "sayi": "E-21291472-198.02.01-2995362"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Nakil Belgelerinin Gönderilmesi",
+    "Talep": "Diploma Defteri Kaydı",
     "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,8 +58,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Nakil Belgelerinin Gönderilmesi",
+    "Diploma Defteri Kaydı",
     "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı"
+    "ilgide kayıtlı yazı",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

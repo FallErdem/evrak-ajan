@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Merve ÖZKAN",
-    "adres": "Yeşilevler Mahallesi Zeytin Sokak No: 5/23 Yenimahalle/ANKARA",
+    "ad": "Nurten YILDIZ",
+    "adres": "Beştepe Mahallesi Ihlamur Sokak No: 95/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,16 +30,16 @@
     "ad": "Yurtdışı Eğitim Denkliği",
     "saklama_suresi": "B"
   },
-  "konu": "Denklik Dosyası Eksik Evrak Bildirimi",
+  "konu": "Apostil Şerhli Belge Talebi",
   "sayi": null,
-  "tarih": "06.04.2026",
+  "tarih": "30.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Denklik Dosyası Eksik Evrak",
-    "Sorun": "denklik kararında sınıf seviyesi bir alt sınıf olarak belirlendi",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Apostil Şerhli Belge",
+    "Sorun": "çocuğum denklik çıkmadığı için okula başlayamadı",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,8 +54,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Denklik Dosyası Eksik Evrak",
-    "yaklaşık iki aydır",
+    "Apostil Şerhli Belge",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

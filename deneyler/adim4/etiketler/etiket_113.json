@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Burak YAVUZ",
-    "adres": "Ragıpbey Mahallesi Ihlamur Sokak No: 1/23 Yenimahalle/ANKARA",
+    "ad": "Hüseyin TURAN",
+    "adres": "Karşıyaka Mahallesi Erguvan Sokak No: 45/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Belge Talebinin Karşılanamaması Hk.",
+  "konu": "Araştırma Talebinin Reddi Hk.",
   "sayi": null,
-  "tarih": "04.03.2026",
+  "tarih": "17.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Belge Talebinin Karşılanamaması",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Araştırma Talebinin Reddi",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Belge Talebinin Karşılanamaması",
-    "başvuru dosyasına eklenmek üzere"
+    "Araştırma Talebinin Reddi",
+    "sürecin tamamlanabilmesi için"
   ]
 }

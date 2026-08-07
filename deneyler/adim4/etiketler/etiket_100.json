@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -34,16 +34,16 @@
   },
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "204.01",
-    "ad": "Doçentlik",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Doçentlik Sözlü Sınavı Hk.",
-  "sayi": "E-32625594-204.01-57540800",
-  "tarih": "09.01.2026",
+  "konu": "Kararın Uygulanması Hk.",
+  "sayi": "E-32625594-050.04-57559917",
+  "tarih": "16.01.2026",
   "ilgi": {
-    "tarih": "09.12.2025",
-    "sayi": "E-42218640-204.01-7443881"
+    "tarih": "31.12.2025",
+    "sayi": "E-82642947-050.04-8300972"
   },
   "ek": {
     "adet": 1,
@@ -51,11 +51,11 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Doçentlik kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Kararlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -65,7 +65,7 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],

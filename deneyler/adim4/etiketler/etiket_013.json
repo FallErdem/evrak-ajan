@@ -5,19 +5,19 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Yusuf KILIÇ",
-    "adres": "Serhat Mahallesi Çınar Sokak No: 111/5 Yenimahalle/ANKARA",
+    "ad": "Mustafa ÖZTÜRK",
+    "adres": "Susuz Mahallesi Menekşe Caddesi No: 6/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022360309",
-    "bolum": "İnşaat Mühendisliği",
+    "ogrenci_no": "2025660449",
+    "bolum": "Fen Fakültesi Matematik",
     "sinif": "4"
   },
   "belge_turu": "dilekce",
@@ -25,25 +25,25 @@
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Staj Süresinin Uzatılması Talebi",
+  "konu": "Şikâyet Başvurusu Hk.",
   "sayi": null,
-  "tarih": "16.04.2026",
+  "tarih": "07.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 6
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Talep": "Staj Süresinin Uzatılması",
+    "Talep": "Şikâyet Başvurusu",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
@@ -53,12 +53,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Süresinin Uzatılması",
+    "Şikâyet Başvurusu",
     "sürecin tamamlanabilmesi için"
   ]
 }

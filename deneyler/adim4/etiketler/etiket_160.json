@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sultan DUMAN",
-    "adres": "Beştepe Mahallesi Ceviz Sokağı No: 20/22 Yenimahalle/ANKARA",
+    "ad": "Büşra ÇELIK",
+    "adres": "Karşıyaka Mahallesi Menekşe Sokağı No: 35/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,14 +30,14 @@
     "ad": "Engellilere Yönelik Hizmetler",
     "saklama_suresi": "10"
   },
-  "konu": "Engelli Aracı Talebi",
+  "konu": "Rampa Yapılması Talebi",
   "sayi": null,
-  "tarih": "23.01.2026",
+  "tarih": "26.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Engelli Aracı",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Rampa Yapılması",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Engelli Aracı",
-    "mağduriyetin giderilmesi bakımından"
+    "Rampa Yapılması"
   ]
 }

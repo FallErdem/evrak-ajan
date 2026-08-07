@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf ÖZDEMIR",
-    "adres": "Şentepe Mahallesi Zeytin Caddesi No: 3/10 Yenimahalle/ANKARA",
+    "ad": "Ramazan KESKIN",
+    "adres": "Ergazi Mahallesi Erguvan Caddesi No: 85/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,22 +26,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "Rapor Sureti Talebi",
+  "konu": "Hafta Tatili Ruhsatı Talebi",
   "sayi": null,
-  "tarih": "14.05.2026",
+  "tarih": "06.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Rapor Sureti",
-    "Sorun": "uygunluk raporu talebim geciktiği için ruhsat sürem doldu",
-    "Süre": "yaklaşık iki aydır",
+    "Şikâyet konusu": "Hafta Tatili Ruhsatı",
+    "Sorun": "devir talebim eksik evrak denilerek iade edildi ancak eksik belirtilmedi",
+    "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "Şentepe Mahallesi"
+    "Yer": "Kaletepe Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Rapor Sureti",
-    "yaklaşık iki aydır",
+    "Hafta Tatili Ruhsatı",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi",
-    "Şentepe Mahallesi"
+    "Kaletepe Mahallesi"
   ]
 }

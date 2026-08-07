@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Aslı KAYA",
-    "adres": "Yakacık Mahallesi Çınar Caddesi No: 36/22 Yenimahalle/ANKARA",
+    "ad": "Murat ERDOĞAN",
+    "adres": "Karşıyaka Mahallesi Manolya Sokağı No: 82/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,18 +30,18 @@
     "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "Mesul Müdür Değişikliği Bildirimi",
+  "konu": "Ruhsat Devir Talebi",
   "sayi": null,
-  "tarih": "23.03.2026",
+  "tarih": "13.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Mesul Müdür Değişikliği",
+    "Şikâyet konusu": "Ruhsat Devir",
     "Sorun": "ruhsat başvurum iki aydır sonuçlandırılmadı",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "Emniyet Mahallesi"
+    "Yer": "Batıkent Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Mesul Müdür Değişikliği",
-    "geçtiğimiz aydan bu yana",
+    "Ruhsat Devir",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi",
-    "Emniyet Mahallesi"
+    "Batıkent Mahallesi"
   ]
 }

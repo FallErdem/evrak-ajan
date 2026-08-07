@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -27,27 +27,27 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Uygulama Takviminin Bildirilmesi",
-  "sayi": "E-24316060-355.02-62528047",
-  "tarih": "18.03.2026",
+  "konu": "Genelgenin Yürürlükten Kaldırılması",
+  "sayi": "E-10213773-010.06-10042117",
+  "tarih": "11.05.2026",
   "ilgi": {
-    "tarih": "26.02.2026",
-    "sayi": "E-55461037-355.02-611195"
+    "tarih": "07.05.2026",
+    "sayi": "E-55461037-010.06-3043161"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 4
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
-    "Sayı": "112 kayıt",
-    "Ek 1": "Eğitim Fakülteleri İle İlişkiler listesi",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Sayı": "24 kayıt",
+    "Ek 1": "Genelgeler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -65,9 +65,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "öğretim yılı",
-    "112 kayıt",
-    "Eğitim Fakülteleri İle İlişkiler listesi",
+    "içinde bulunulan öğretim yılı",
+    "24 kayıt",
+    "Genelgeler listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

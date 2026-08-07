@@ -31,22 +31,22 @@
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Topluluk Danışmanı Görevlendirmesi",
-  "sayi": "E-32625594-309-58086098",
-  "tarih": "01.05.2026",
+  "konu": "Topluluk Tüzüğünün Onayı",
+  "sayi": "E-32625594-309-57641931",
+  "tarih": "02.02.2026",
   "ilgi": {
-    "tarih": "07.04.2026",
-    "sayi": "E-98244303-309-1337344"
+    "tarih": "01.01.2026",
+    "sayi": "E-98244303-309-8879958"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 2
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
-    "Sayı": "142 kayıt",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Sayı": "47 kayıt",
     "Ek 1": "Öğrenci Toplulukları, Birlikleri vb. listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
@@ -66,8 +66,8 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "öğretim yılı",
-    "142 kayıt",
+    "içinde bulunulan öğretim yılı",
+    "47 kayıt",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

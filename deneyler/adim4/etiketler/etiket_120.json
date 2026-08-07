@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hasan TEKIN",
-    "adres": "Ragıpbey Mahallesi Çınar Sokak No: 15/21 Yenimahalle/ANKARA",
+    "ad": "Mehmet BULUT",
+    "adres": "Batıkent Mahallesi Sümbül Sokağı No: 94/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,26 +26,26 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
-    "saklama_suresi": "10"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Servis Saatlerinin Düzenlenmesi",
+  "konu": "Şube Oluşturma Talebi",
   "sayi": null,
-  "tarih": "14.05.2026",
+  "tarih": "23.01.2026",
   "ilgi": {
-    "tarih": "14.04.2026",
-    "sayi": "E-21291472-802-6910013"
+    "tarih": "11.12.2025",
+    "sayi": "E-21291472-205-2958782"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 1
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Servis Saatlerinin Düzenlenmesi",
+    "İtiraz konusu": "Şube Oluşturma",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -60,7 +60,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Servis Saatlerinin Düzenlenmesi",
+    "Şube Oluşturma",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

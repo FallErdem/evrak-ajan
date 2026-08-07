@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf KORKMAZ",
-    "adres": "Ergazi Mahallesi Çınar Sokağı No: 120/2 Yenimahalle/ANKARA",
+    "ad": "Gamze KAYA",
+    "adres": "Susuz Mahallesi Lale Caddesi No: 83/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,16 +30,16 @@
     "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Halk Eğitim Kursu Açılması Talebi",
+  "konu": "Kurs Yeri Tahsisi",
   "sayi": null,
-  "tarih": "28.04.2026",
+  "tarih": "04.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Halk Eğitim Kursu Açılması",
+    "Şikâyet konusu": "Kurs Yeri Tahsisi",
     "Sorun": "kurs saatleri duyurulandan farklı uygulanıyor",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Süre": "bir aydan uzun süredir",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,8 +54,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Halk Eğitim Kursu Açılması",
-    "yaklaşık kırk gündür",
+    "Kurs Yeri Tahsisi",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

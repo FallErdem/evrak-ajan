@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
-    "saklama_suresi": "15"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Öğretmenlik Uygulaması Protokolü",
-  "sayi": "E-39985474-355.02-4233655",
-  "tarih": "30.03.2026",
+  "konu": "Bilgi Edinme Talebinin Reddi Hk.",
+  "sayi": "E-39985474-622.01-8643257",
+  "tarih": "28.01.2026",
   "ilgi": {
-    "tarih": "03.03.2026",
-    "sayi": "E-55461037-355.02-614072"
+    "tarih": "22.01.2026",
+    "sayi": "E-55461037-622.01-2999776"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Eğitim Fakülteleri İle İlişkiler",
+    "Konu": "Bilgi Edinme, Talep ve Şikayetler",
     "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -56,7 +56,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Eğitim Fakülteleri İle İlişkiler",
+    "Bilgi Edinme, Talep ve Şikayetler",
     "konu hakkında görüş bildirilmesi"
   ]
 }

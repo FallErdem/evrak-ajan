@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Şaban ERDOĞAN",
-    "adres": "Gayret Mahallesi Manolya Sokak No: 72/9 Yenimahalle/ANKARA",
+    "ad": "Sultan YAVUZ",
+    "adres": "Susuz Mahallesi Ceviz Caddesi No: 77/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021744423",
-    "bolum": "Tıp Fakültesi",
-    "sinif": "2"
+    "ogrenci_no": "2022661876",
+    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
-    "saklama_suresi": "10"
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
+    "saklama_suresi": "B"
   },
-  "konu": "Kayıt Dondurma Talebi",
+  "konu": "Değişim Programı Ders Tanıma Talebi",
   "sayi": null,
-  "tarih": "12.02.2026",
+  "tarih": "23.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Dondurma",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Değişim Programı Ders Tanıma",
+    "Öğrenim bilgisi": "2. sınıf öğrencisi",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Dondurma",
-    "lisansüstü programa kayıtlı",
-    "mağduriyetin giderilmesi bakımından"
+    "Değişim Programı Ders Tanıma",
+    "2. sınıf öğrencisi",
+    "sürecin tamamlanabilmesi için"
   ]
 }

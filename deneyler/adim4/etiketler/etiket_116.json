@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Kemal KARA",
-    "adres": "Ergazi Mahallesi Menekşe Sokağı No: 37/13 Yenimahalle/ANKARA",
+    "ad": "Elif BOZKURT",
+    "adres": "Beştepe Mahallesi Nergis Sokak No: 53/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,19 +26,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
+    "kod": "115.02.10",
+    "ad": "Adres ve Numaralandırma",
     "saklama_suresi": "B"
   },
-  "konu": "Yapı Kullanma İzin Belgesi Talebi",
+  "konu": "Kapı Numarası Verilmesi Talebi",
   "sayi": null,
-  "tarih": "25.05.2026",
+  "tarih": "13.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yapı Kullanma İzin Belgesi",
-    "Taşınmaz": "91241 ada, 43 parsel",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Kapı Numarası Verilmesi",
+    "Taşınmaz": "79830 ada, 27 parsel",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,8 +51,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yapı Kullanma İzin Belgesi",
-    "91241 ada, 43 parsel",
-    "ilgili kuruma sunulmak üzere"
+    "Kapı Numarası Verilmesi",
+    "79830 ada, 27 parsel"
   ]
 }

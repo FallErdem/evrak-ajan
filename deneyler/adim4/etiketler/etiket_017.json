@@ -5,46 +5,47 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Hasan YILDIZ",
-    "adres": "Susuz Mahallesi Nergis Sokağı No: 95/21 Yenimahalle/ANKARA",
+    "ad": "Esra ERDOĞAN",
+    "adres": "Emniyet Mahallesi Erguvan Caddesi No: 106/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023776243",
-    "bolum": "Mimarlık Fakültesi",
-    "sinif": "1"
+    "ogrenci_no": "2025943909",
+    "bolum": "Rehberlik ve Psikolojik Danışmanlık",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
+    "kod": "302.08",
+    "ad": "İzin İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Sosyal İnceleme Raporu Talebi",
+  "konu": "Sağlık Sebebiyle İzin Talebi",
   "sayi": null,
-  "tarih": "27.04.2026",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 3
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Talep": "Sosyal İnceleme Raporu",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Sağlık Sebebiyle İzin",
+    "Öğrenim bilgisi": "2019 yılı mezunu",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -53,12 +54,13 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sosyal İnceleme Raporu",
-    "resmî işlemlerde kullanılmak üzere"
+    "Sağlık Sebebiyle İzin",
+    "2019 yılı mezunu",
+    "sürecin tamamlanabilmesi için"
   ]
 }

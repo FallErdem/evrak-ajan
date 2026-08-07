@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Doruk Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Kuzey Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Yeşilevler Mahallesi Erguvan Sokağı No: 102/6 Yenimahalle/ANKARA",
+    "adres": "Gayret Mahallesi Zeytin Sokağı No: 108/22 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,16 +31,16 @@
     "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Belge Sureti Talebi",
-  "sayi": "2026/176",
-  "tarih": "20.02.2026",
+  "konu": "Arşivden Belge Çıkarılması Talebi",
+  "sayi": "2026/154",
+  "tarih": "26.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Belge Talepleri konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Arşivden Belge Çıkarılması işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "yıllara göre sayısal döküm",
+    "elektronik posta ile"
   ]
 }

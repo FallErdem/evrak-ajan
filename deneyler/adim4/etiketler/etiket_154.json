@@ -5,45 +5,45 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "kurum_adi": "Yıldıztepe İlkokulu Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "14588481",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10093484",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Ortaöğretim Şube Müdürlüğü",
-  "muhatap_parantez": null,
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Disiplin Dosyasının Gönderilmesi",
-  "sayi": "E-14588481-225.02-5394554",
-  "tarih": "08.01.2026",
+  "konu": "Öğrenci Bilgi Formunun Gönderilmesi",
+  "sayi": "E-10093484-235-5287",
+  "tarih": "19.03.2026",
   "ilgi": {
-    "tarih": "01.12.2025",
-    "sayi": "E-63971525-225.02-1099656"
+    "tarih": "12.02.2026",
+    "sayi": "E-21291472-235-3000581"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Disiplin Dosyasının Gönderilmesi",
+    "Talep": "Öğrenci Bilgi Formunun Gönderilmesi",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
     "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
@@ -54,12 +54,13 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Disiplin Dosyasının Gönderilmesi",
+    "Öğrenci Bilgi Formunun Gönderilmesi",
     "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "89052714",
+    "detsis_no": "26888327",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -31,20 +31,20 @@
     "ad": "Bütçe Çalışmaları",
     "saklama_suresi": "15"
   },
-  "konu": "Gelir Gider Tahmin Cetveli",
-  "sayi": "E-89052714-841.01-2045573",
-  "tarih": "02.03.2026",
+  "konu": "Bütçe Teklifinin Hazırlanması",
+  "sayi": "E-26888327-841.01-2548776",
+  "tarih": "06.04.2026",
   "ilgi": {
-    "tarih": "24.02.2026",
-    "sayi": "E-43195403-841.01-1895917"
+    "tarih": "20.02.2026",
+    "sayi": "E-43195403-841.01-2298318"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Gelir Gider Tahmin Cetveli",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Bütçe Teklifinin Hazırlanması",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,8 +58,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Gelir Gider Tahmin Cetveli",
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "Bütçe Teklifinin Hazırlanması",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

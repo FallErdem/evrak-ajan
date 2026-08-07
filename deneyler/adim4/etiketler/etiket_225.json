@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ali DEMIR",
-    "adres": "Karşıyaka Mahallesi Sümbül Sokak No: 57/11 Yenimahalle/ANKARA",
+    "ad": "Murat ÇELIK",
+    "adres": "Ergazi Mahallesi Papatya Sokağı No: 12/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Nakil Başvurusunun Değerlendirilmesi",
+  "konu": "Gelir Belgesi Talebi",
   "sayi": null,
-  "tarih": "10.02.2026",
+  "tarih": "16.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Nakil Başvurusunun Değerlendirilmesi",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Gelir Belgesi",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,6 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Nakil Başvurusunun Değerlendirilmesi"
+    "Gelir Belgesi",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

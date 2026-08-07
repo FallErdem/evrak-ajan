@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Vizyon Mimarlık Ltd. Şti.",
+    "kurum_adi": "Atlas Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Ragıpbey Mahallesi Lale Sokağı No: 23/2 Yenimahalle/ANKARA",
+    "adres": "Ragıpbey Mahallesi Ihlamur Sokağı No: 28/16 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,19 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.08",
-    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
+    "kod": "115.01.06",
+    "ad": "Uygulama İmar Planı",
     "saklama_suresi": "B"
   },
-  "konu": "İhdas Talebi",
-  "sayi": "2026/392",
-  "tarih": "17.03.2026",
+  "konu": "Plan Tadilatı Başvurusu",
+  "sayi": "2026/145",
+  "tarih": "20.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb. konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Talep": "Plan Tadilatı işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
     "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "yıllara göre sayısal döküm",
     "posta yoluyla adresime"
   ]
 }

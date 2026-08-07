@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Pınar ASLAN",
-    "adres": "Şentepe Mahallesi Zeytin Caddesi No: 19/4 Yenimahalle/ANKARA",
+    "ad": "Ayşe SARI",
+    "adres": "İvedik Mahallesi Manolya Caddesi No: 60/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,13 +32,13 @@
   },
   "konu": "Emlak Vergisi Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "02.04.2026",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Emlak Vergisi Muafiyet",
-    "Taşınmaz": "61142 ada, 7 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Taşınmaz": "13503 ada, 26 parsel",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -52,7 +52,6 @@
   ],
   "anahtar_terimler": [
     "Emlak Vergisi Muafiyet",
-    "61142 ada, 7 parsel",
-    "sürecin tamamlanabilmesi için"
+    "13503 ada, 26 parsel"
   ]
 }

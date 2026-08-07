@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Öz Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Kuzey Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Emniyet Mahallesi Menekşe Sokağı No: 25/7 Yenimahalle/ANKARA",
+    "adres": "İvedik Mahallesi Yasemin Caddesi No: 57/8 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,16 +31,16 @@
     "ad": "Yurtdışı Eğitim Denkliği",
     "saklama_suresi": "B"
   },
-  "konu": "Apostil Şerhli Belge Talebi",
-  "sayi": "2026/490",
-  "tarih": "14.05.2026",
+  "konu": "Yurtdışı Öğrenim Denklik Başvurusu",
+  "sayi": "2026/165",
+  "tarih": "28.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Yurtdışı Eğitim Denkliği konusundaki güncel verilerin paylaşılması",
+    "Talep": "Yurtdışı Öğrenim Denklik işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "e-Devlet üzerinden"
   ]
 }

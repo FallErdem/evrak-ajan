@@ -12,37 +12,37 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özgüryurt Mesleki ve Teknik Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10206023",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "93213107",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "kod": "198.02.01",
+    "ad": "Diploma",
     "saklama_suresi": "B"
   },
-  "konu": "Yabancı Uyruklu Öğrenci Nakil İşlemi",
-  "sayi": "E-10206023-235-6274",
-  "tarih": "08.04.2026",
+  "konu": "Yurtdışı Kullanım İçin Onay Talebi",
+  "sayi": "E-93213107-198.02.01-8355380",
+  "tarih": "07.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "Gerekçe": "kaynakların etkin kullanılması",
+    "Konu": "Diploma",
+    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,6 +57,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "kaynakların etkin kullanılması"
+    "mevzuatın öngördüğü sürelere uyulması"
   ]
 }

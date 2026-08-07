@@ -5,43 +5,43 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Kemal KESKIN",
-    "adres": "Emniyet Mahallesi Ihlamur Caddesi No: 103/21 Yenimahalle/ANKARA",
+    "ad": "Meryem ATEŞ",
+    "adres": "Kaletepe Mahallesi Papatya Sokağı No: 26/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019375937",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "1"
+    "ogrenci_no": "2020362758",
+    "bolum": "Türkçe Öğretmenliği",
+    "sinif": "3"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Denklik Dosyası Eksik Evrak Bildirimi",
+  "konu": "Mazeret Belgesi Talebi",
   "sayi": null,
-  "tarih": "12.03.2026",
+  "tarih": "09.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Denklik Dosyası Eksik Evrak",
-    "Sorun": "itirazıma altmış gün geçmesine rağmen cevap verilmedi",
-    "Süre": "yaklaşık iki aydır",
+    "Şikâyet konusu": "Mazeret Belgesi",
+    "Sorun": "izin dönüşü kaydım yenilenmediği için derslere yazılamadım",
+    "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -53,13 +53,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Denklik Dosyası Eksik Evrak",
-    "yaklaşık iki aydır",
+    "Mazeret Belgesi",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

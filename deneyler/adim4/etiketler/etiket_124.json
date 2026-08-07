@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Sevgi YILDIRIM",
-    "adres": "Çiğdemtepe Mahallesi Menekşe Sokak No: 25/23 Yenimahalle/ANKARA",
+    "ad": "Kemal ÖZTÜRK",
+    "adres": "Ostim Mahallesi Akasya Caddesi No: 56/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022202707",
-    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
-    "sinif": "2"
+    "ogrenci_no": "2021146990",
+    "bolum": "Diş Hekimliği Fakültesi",
+    "sinif": "3"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -33,16 +33,16 @@
     "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Kimliği Yenileme",
+  "konu": "İngilizce Transkript Talebi",
   "sayi": null,
-  "tarih": "20.03.2026",
+  "tarih": "17.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Öğrenci Kimliği Yenileme",
-    "Sorun": "askerlik belgem düzenlenmediği için işlemim gecikti",
+    "Şikâyet konusu": "İngilizce Transkript",
+    "Sorun": "öğrenci belgesi talebime iki haftadır cevap verilmedi",
     "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -58,7 +58,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Öğrenci Kimliği Yenileme",
+    "İngilizce Transkript",
     "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]

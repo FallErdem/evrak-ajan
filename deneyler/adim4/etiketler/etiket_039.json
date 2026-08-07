@@ -27,28 +27,28 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Diploma Bilgilerinin Teyidi",
-  "sayi": "E-24316060-198.02.01-62697402",
-  "tarih": "23.04.2026",
+  "konu": "Nakil İptali Bildirimi",
+  "sayi": "E-24316060-210.01-60803077",
+  "tarih": "26.01.2026",
   "ilgi": {
-    "tarih": "06.04.2026",
-    "sayi": "E-21291472-198.02.01-6903699"
+    "tarih": "15.12.2025",
+    "sayi": "E-21291472-210.01-2961327"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 4
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Diploma kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Nakiller kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

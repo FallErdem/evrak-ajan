@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Servis Aracı Görevlendirmesi",
-  "sayi": "E-93213107-802-4845973",
-  "tarih": "29.01.2026",
+  "konu": "Öğrenim Belgesi Talebi",
+  "sayi": "E-93213107-235-8378965",
+  "tarih": "08.05.2026",
   "ilgi": {
-    "tarih": "19.01.2026",
-    "sayi": "E-21291472-802-6845133"
+    "tarih": "21.04.2026",
+    "sayi": "E-21291472-235-3045829"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Ulaşım ve Servis İşleri",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,7 +56,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Ulaşım ve Servis İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Mustafa GÜLER",
-    "adres": "Şentepe Mahallesi Sümbül Caddesi No: 110/22 Yenimahalle/ANKARA",
+    "ad": "Ramazan ÖZDEMIR",
+    "adres": "Beştepe Mahallesi Manolya Sokağı No: 56/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021258016",
-    "bolum": "Fen Fakültesi Matematik",
-    "sinif": "3"
+    "ogrenci_no": "2023232407",
+    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Süresi Uzatım Talebi",
+  "konu": "İlişik Kesme Belgesi Talebi",
   "sayi": null,
-  "tarih": "31.03.2026",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Süresi Uzatım",
-    "Öğrenim bilgisi": "4. sınıf öğrencisi",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "İlişik Kesme Belgesi",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Süresi Uzatım",
-    "4. sınıf öğrencisi"
+    "İlişik Kesme Belgesi",
+    "lisansüstü programa kayıtlı",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

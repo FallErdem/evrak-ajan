@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mustafa AKTAŞ",
-    "adres": "Serhat Mahallesi Kestane Caddesi No: 85/5 Yenimahalle/ANKARA",
+    "ad": "Serkan KARACA",
+    "adres": "Ragıpbey Mahallesi Akasya Sokak No: 93/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,22 +30,22 @@
     "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "Yangın Güvenliği Raporu Başvurusu",
+  "konu": "Yerinde İnceleme Randevusu",
   "sayi": null,
-  "tarih": "08.05.2026",
+  "tarih": "23.03.2026",
   "ilgi": {
-    "tarih": "20.04.2026",
-    "sayi": "E-59553370-180.03-3542608"
+    "tarih": "06.02.2026",
+    "sayi": "E-59553370-180.03-3803629"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Yangın Güvenliği Raporu",
+    "İtiraz konusu": "Yerinde İnceleme Randevusu",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -60,7 +60,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yangın Güvenliği Raporu",
+    "Yerinde İnceleme Randevusu",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yapi_kontrol",
-    "birim_adi": "Yapı Kontrol Müdürlüğü",
-    "detsis_no": "53265760",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -26,7 +26,8 @@
   "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
-      "81 İl Valiliğine"
+      "Belediye Başkanlıklarına",
+      "İl Özel İdarelerine"
     ],
     "bilgi": [
       "Emniyet Genel Müdürlüğüne"
@@ -34,27 +35,27 @@
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "755.02",
+    "ad": "İhale",
+    "saklama_suresi": "15"
   },
-  "konu": "Karar Örneğinin Gönderilmesi",
-  "sayi": "E-24312041-641.04-64782594",
-  "tarih": "19.05.2026",
+  "konu": "Teklif Zarflarının Açılması",
+  "sayi": "E-24312041-755.02-64511029",
+  "tarih": "26.02.2026",
   "ilgi": {
-    "tarih": "15.04.2026",
-    "sayi": "E-53265760-641.04-2563906"
+    "tarih": "19.02.2026",
+    "sayi": "E-33152401-755.02-1842249"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "yılın ilk yarısı",
-    "Sayı": "35 kayıt",
-    "Ek 1": "İdari Davalar listesi",
+    "Dönem": "üçüncü çeyrek",
+    "Sayı": "47 kayıt",
+    "Ek 1": "İhale listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -67,14 +68,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yapı Kontrol Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "yılın ilk yarısı",
-    "35 kayıt",
-    "İdari Davalar listesi",
+    "üçüncü çeyrek",
+    "47 kayıt",
+    "İhale listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

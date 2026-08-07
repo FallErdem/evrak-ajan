@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Anadolu İnşaat Ltd. Şti.",
+    "kurum_adi": "Ege İnşaat Ltd. Şti.",
     "ad": null,
-    "adres": "Ostim Mahallesi Kestane Sokak No: 116/21 Yenimahalle/ANKARA",
+    "adres": "Ergazi Mahallesi Kestane Caddesi No: 72/17 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -32,14 +32,14 @@
     "saklama_suresi": "B"
   },
   "konu": "İmar Durum Belgesi Talebi",
-  "sayi": "2026/70",
-  "tarih": "03.02.2026",
+  "sayi": "2026/911",
+  "tarih": "24.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İmar Durumu (Belgesi) konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Talep": "İmar Durum Belgesi işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
     "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [

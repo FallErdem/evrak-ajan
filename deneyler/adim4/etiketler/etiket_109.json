@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatih KAYA",
-    "adres": "Karşıyaka Mahallesi Papatya Sokağı No: 103/6 Yenimahalle/ANKARA",
+    "ad": "Murat KOÇ",
+    "adres": "Karşıyaka Mahallesi Yasemin Sokak No: 97/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,20 +26,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kurs Programı Değişikliği",
+  "konu": "Suret Onay Ücreti Hk.",
   "sayi": null,
-  "tarih": "22.01.2026",
+  "tarih": "15.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kurs Programı Değişikliği",
-    "Sorun": "kurs bitirme belgem altı aydır düzenlenmedi",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Suret Onay Ücreti",
+    "Sorun": "talep ettiğim belgenin örneği bir aydır düzenlenmedi",
+    "Süre": "bir aydan uzun süredir",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,8 +54,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kurs Programı Değişikliği",
-    "geçtiğimiz aydan bu yana",
+    "Suret Onay Ücreti",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
@@ -27,16 +27,16 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Yatırım Programı Revizyon Talebi",
-  "sayi": "E-10213773-602.07-18957590",
-  "tarih": "12.03.2026",
+  "konu": "Performans Göstergesi Verisi Talebi",
+  "sayi": "E-24316060-602.04-61067410",
+  "tarih": "14.04.2026",
   "ilgi": {
-    "tarih": "23.02.2026",
-    "sayi": "E-14588481-602.07-5434897"
+    "tarih": "03.03.2026",
+    "sayi": "E-14588481-602.04-3171343"
   },
   "ek": null,
   "somut_bilgiler": {

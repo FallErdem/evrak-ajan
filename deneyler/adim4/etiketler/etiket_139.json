@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Genel Sekreterlik",
+    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "82642947",
+    "detsis_no": "17311665",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "051",
-    "ad": "Toplantı ve Etkinlik İşleri",
-    "saklama_suresi": "15"
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "saklama_suresi": "10"
   },
-  "konu": "Etkinlik Programının Gönderilmesi",
-  "sayi": "E-82642947-051-6207905",
-  "tarih": "15.04.2026",
+  "konu": "Topluluk Danışmanı Görevlendirmesi",
+  "sayi": "E-17311665-309-2184090",
+  "tarih": "18.05.2026",
   "ilgi": {
-    "tarih": "25.03.2026",
-    "sayi": "E-98244303-051-1325329"
+    "tarih": "03.04.2026",
+    "sayi": "E-98244303-309-8945295"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Etkinlik Programının Gönderilmesi",
+    "Talep": "Topluluk Danışmanı Görevlendirmesi",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -59,8 +59,10 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Etkinlik Programının Gönderilmesi",
+    "Topluluk Danışmanı Görevlendirmesi",
     "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emre SARI",
-    "adres": "Barıştepe Mahallesi Ceviz Sokak No: 115/16 Yenimahalle/ANKARA",
+    "ad": "Sultan AKSOY",
+    "adres": "Pamuklar Mahallesi Akasya Sokağı No: 13/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Nakil Başvurusunun Değerlendirilmesi",
+  "konu": "Kayıt Alanı Dışından Kayıt Talebi",
   "sayi": null,
-  "tarih": "30.01.2026",
+  "tarih": "15.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Nakil Başvurusunun Değerlendirilmesi",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Kayıt Alanı Dışından Kayıt",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Nakil Başvurusunun Değerlendirilmesi",
-    "mağduriyetin giderilmesi bakımından"
+    "Kayıt Alanı Dışından Kayıt",
+    "sürecin tamamlanabilmesi için"
   ]
 }

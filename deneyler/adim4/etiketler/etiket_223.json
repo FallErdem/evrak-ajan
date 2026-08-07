@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
+    "saklama_suresi": "10"
   },
-  "konu": "Altı Aylık Değerlendirme Raporu",
-  "sayi": "E-24316060-602.04-62206496",
-  "tarih": "09.01.2026",
+  "konu": "Alım Miktarının Artırılması",
+  "sayi": "E-24316060-934.01-61077827",
+  "tarih": "17.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 3
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
-    "Sayı": "12 kayıt",
-    "Ek 1": "Stratejik Plan listesi",
+    "Dönem": "bahar dönemi",
+    "Sayı": "112 kayıt",
+    "Ek 1": "Mal Alım İşi listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -62,9 +62,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "öğretim yılı",
-    "12 kayıt",
-    "Stratejik Plan listesi",
+    "bahar dönemi",
+    "112 kayıt",
+    "Mal Alım İşi listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

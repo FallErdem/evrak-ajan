@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet ARSLAN",
-    "adres": "Beştepe Mahallesi Ceviz Caddesi No: 66/22 Yenimahalle/ANKARA",
+    "ad": "Mustafa KILIÇ",
+    "adres": "Batıkent Mahallesi Yasemin Sokak No: 107/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,18 +30,18 @@
     "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "Hafta Tatili Ruhsatı Talebi",
+  "konu": "İşyeri Açma ve Çalışma Ruhsatı Başvurusu",
   "sayi": null,
-  "tarih": "13.03.2026",
+  "tarih": "15.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Hafta Tatili Ruhsatı",
-    "Sorun": "komşumdaki işyeri ruhsatsız çalıştığı hâlde denetlenmiyor",
+    "Şikâyet konusu": "İşyeri Açma ve Çalışma Ruhsatı",
+    "Sorun": "ruhsat başvurum iki aydır sonuçlandırılmadı",
     "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "İvedik Mahallesi"
+    "Yer": "Yeşilevler Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Hafta Tatili Ruhsatı",
+    "İşyeri Açma ve Çalışma Ruhsatı",
     "yaklaşık iki aydır",
     "sorunun giderilmesi",
-    "İvedik Mahallesi"
+    "Yeşilevler Mahallesi"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Arşivden Suret Talebi",
-  "sayi": "E-55461037-805.02.05-610681",
-  "tarih": "25.02.2026",
+  "konu": "Staj Süresinin Sayılması Talebi",
+  "sayi": "E-10213773-304.03-10004869",
+  "tarih": "15.04.2026",
   "ilgi": {
-    "tarih": "14.01.2026",
-    "sayi": "E-82642947-805.02.05-6139481"
+    "tarih": "10.04.2026",
+    "sayi": "E-43123369-304.03-8194318"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Arşivden Suret",
-    "Ortak iş": "Arşivden Suret konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Arşivden Suret konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Staj Süresinin Sayılması",
+    "Ortak iş": "Staj Süresinin Sayılması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Staj Süresinin Sayılması konusunda gerekli sürenin tanınması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,11 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Arşivden Suret"
+    "Staj Süresinin Sayılması"
   ]
 }

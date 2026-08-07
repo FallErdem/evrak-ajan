@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Güven Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Ege Ticaret A.Ş.",
     "ad": null,
-    "adres": "İvedik Mahallesi Ceviz Sokak No: 85/2 Yenimahalle/ANKARA",
+    "adres": "Uğur Mumcu Mahallesi Zeytin Sokak No: 92/4 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,18 +27,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Uygunluk Raporu Yenileme Talebi",
-  "sayi": "2026/206",
-  "tarih": "29.01.2026",
+  "konu": "Terazi Damgalama Başvurusu",
+  "sayi": "2026/24",
+  "tarih": "06.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İtfaiye Uygunluk Raporları konusundaki güncel verilerin paylaşılması",
+    "Talep": "Terazi Damgalama işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
     "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },

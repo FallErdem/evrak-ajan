@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra BULUT",
-    "adres": "Gayret Mahallesi Çınar Caddesi No: 30/17 Yenimahalle/ANKARA",
+    "ad": "Ramazan KOÇ",
+    "adres": "Serhat Mahallesi Erguvan Sokağı No: 49/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,20 +26,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "kod": "198.02.01",
+    "ad": "Diploma",
     "saklama_suresi": "B"
   },
-  "konu": "Tercüman Desteği Talebi",
+  "konu": "Yurtdışı Kullanım İçin Onay Talebi",
   "sayi": null,
-  "tarih": "19.02.2026",
+  "tarih": "26.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Tercüman Desteği",
-    "Sorun": "çocuğumun kaydı kimlik numarası olmadığı gerekçesiyle yapılmadı",
+    "Şikâyet konusu": "Yurtdışı Kullanım İçin Onay",
+    "Sorun": "diplomamın hazırlanması iki aydır gecikiyor",
     "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,7 +54,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Tercüman Desteği",
+    "Yurtdışı Kullanım İçin Onay",
     "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf ERDOĞAN",
-    "adres": "Kaletepe Mahallesi Erguvan Caddesi No: 28/16 Yenimahalle/ANKARA",
+    "ad": "Selin DEMIR",
+    "adres": "Çiğdemtepe Mahallesi Zeytin Sokağı No: 76/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,15 +30,15 @@
     "ad": "Emlak Vergisi",
     "saklama_suresi": "15"
   },
-  "konu": "Vergi Değeri Düzeltme Talebi",
+  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
   "sayi": null,
-  "tarih": "09.01.2026",
+  "tarih": "23.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Vergi Değeri Düzeltme",
-    "Taşınmaz": "80856 ada, 25 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Emlak Vergisi Borç Sorgulama",
+    "Taşınmaz": "96487 ada, 31 parsel",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,8 +51,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Vergi Değeri Düzeltme",
-    "80856 ada, 25 parsel",
-    "sürecin tamamlanabilmesi için"
+    "Emlak Vergisi Borç Sorgulama",
+    "96487 ada, 31 parsel"
   ]
 }

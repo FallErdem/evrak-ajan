@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_egitim_rehberlik_sb",
-    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-    "detsis_no": "87302975",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze AYDIN",
-    "adres": "Demetevler Mahallesi Zeytin Caddesi No: 44/14 Yenimahalle/ANKARA",
+    "ad": "Hatice ŞIMŞEK",
+    "adres": "Yakacık Mahallesi Papatya Sokak No: 81/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,23 +22,23 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "160.01.02",
-    "ad": "Kaynaştırma Eğitimi",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "BEP Toplantısı Daveti",
+  "konu": "Kimlik Numarası Kaydı Hk.",
   "sayi": null,
-  "tarih": "14.01.2026",
+  "tarih": "15.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "BEP Toplantısı Daveti",
-    "Sorun": "çocuğum için bireyselleştirilmiş eğitim planı hazırlanmadı",
-    "Süre": "bir aydan uzun süredir",
+    "Şikâyet konusu": "Kimlik Numarası Kaydı",
+    "Sorun": "uyum sınıfı açılmadığı için çocuğum dersleri takip edemiyor",
+    "Süre": "geçtiğimiz aydan bu yana",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -50,12 +50,12 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "BEP Toplantısı Daveti",
-    "bir aydan uzun süredir",
+    "Kimlik Numarası Kaydı",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

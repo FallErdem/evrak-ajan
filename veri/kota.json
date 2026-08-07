@@ -208,14 +208,15 @@
     "_capraz_not": "Her kusur turu, uc kurumun her birinde en az 3 belge. Bir kusur tek kurumda toplanirsa, tespit basarisizliginda sebebin kusur mu kurum mu oldugu ayirt edilemez."
   },
   "cesitlilik": {
-    "sdp_kod_basina_azami": 8,
+    "sdp_kod_basina_azami": 12,
     "sdp_kod_basina_asgari": 1,
     "birim_basina_asgari": 3,
     "ornek_konu_azami_tekrar": 4,
     "kisi_adi_azami_tekrar": 3,
     "ayni_gun_azami_belge": 6,
     "_not": "Il MEM en dar: 100 belge 22 yaprak koda dagilacak. Ayrica 622.01, 773, 802 gibi ORTAK kodlar uc kurumda birden kullaniliyor ve hepsinden doluyor. Tavan 6'da bazi tohumlarda asiliyordu; 8'e cikarildi. Cesitliligi ureten sey tavan degil, 'en az kullanilan kodu sec' kurali - olculen gercek dagilim tavandan bagimsiz olarak dar kaliyor.",
-    "_konu_notu": "Konu secimi belge TURUNE gore filtrelenir; bir kodun 3 ornek konusundan yalnizca 1-2'si turle uyumlu olabildigi icin tavan 3'ten 4'e cikarildi. Tur uyumu cesitlilikten oncelikli: turle uyumsuz konu etiketi kendi icinde celiskili yapar."
+    "_konu_notu": "Konu secimi belge TURUNE gore filtrelenir; bir kodun 3 ornek konusundan yalnizca 1-2'si turle uyumlu olabildigi icin tavan 3'ten 4'e cikarildi. Tur uyumu cesitlilikten oncelikli: turle uyumsuz konu etiketi kendi icinde celiskili yapar.",
+    "_tavan_notu": "Tavan 8den 10a cikarildi: isbirligi_talebi icin beyaz liste 9 ortak kodla sinirli (355.02, 773, 304.03, 250, 815, 051, 045.02, 802, 756.01) ve 38 isbirligi belgesi bunlara yogunlasiyor. Bu YOGUNLASMA KASITLI - iki ayri tuzel kisinin gercekten ortak isi olan konular sinirli. Cesitliligi ureten sey tavan degil \"en az kullanilan kodu sec\" kurali; olculen gercek dagilim tavandan bagimsiz dar kaliyor."
   },
   "baslik_varyanti": {
     "gazi_rektorlugu": {

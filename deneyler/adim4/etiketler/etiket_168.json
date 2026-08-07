@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
-    "saklama_suresi": "15"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "İhale İlanı Hk.",
-  "sayi": "E-18426575-755.02-634606",
-  "tarih": "12.05.2026",
+  "konu": "Zemin Etüdü Raporunun Gönderilmesi",
+  "sayi": "E-18426575-755.01-1853761",
+  "tarih": "05.05.2026",
   "ilgi": {
-    "tarih": "22.04.2026",
-    "sayi": "E-33152401-755.02-802052"
+    "tarih": "29.04.2026",
+    "sayi": "E-33152401-755.01-1880499"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İhale İlanı",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Zemin Etüdü Raporunun Gönderilmesi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,8 +58,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İhale İlanı",
-    "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı"
+    "Zemin Etüdü Raporunun Gönderilmesi",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

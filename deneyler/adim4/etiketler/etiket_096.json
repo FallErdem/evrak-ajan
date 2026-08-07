@@ -27,19 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
-    "saklama_suresi": "2"
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Sınav Salonu Tahsisi",
-  "sayi": "E-55461037-106-663414",
-  "tarih": "28.05.2026",
+  "konu": "Staj Kabul Yazısı Talebi",
+  "sayi": "E-55461037-773-3033706",
+  "tarih": "14.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Sınav Salonu Tahsisi",
-    "Ortak iş": "Sınav Salonu Tahsisi konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "gerekli yer tahsisinin yapılması"
+    "Konu": "Staj Kabul Yazısı",
+    "Ortak iş": "Staj Kabul Yazısı konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Staj Kabul Yazısı kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -54,7 +54,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sınav Salonu Tahsisi",
-    "gerekli yer tahsisinin yapılması"
+    "Staj Kabul Yazısı"
   ]
 }

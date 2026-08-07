@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Havva POLAT",
-    "adres": "Susuz Mahallesi Yasemin Sokağı No: 106/18 Yenimahalle/ANKARA",
+    "ad": "Burak KORKMAZ",
+    "adres": "Ergazi Mahallesi Lale Caddesi No: 32/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025601566",
-    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
-    "sinif": "3"
+    "ogrenci_no": "2021503223",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -35,12 +35,12 @@
   },
   "konu": "Geçici Mezuniyet Belgesi Talebi",
   "sayi": null,
-  "tarih": "07.05.2026",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Geçici Mezuniyet Belgesi",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Öğrenim bilgisi": "2. sınıf öğrencisi",
     "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
@@ -56,7 +56,7 @@
   ],
   "anahtar_terimler": [
     "Geçici Mezuniyet Belgesi",
-    "lisansüstü programa kayıtlı",
+    "2. sınıf öğrencisi",
     "resmî işlemlerde kullanılmak üzere"
   ]
 }

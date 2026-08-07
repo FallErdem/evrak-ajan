@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Fen İşleri Müdürlüğü",
+    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "33152401",
+    "detsis_no": "26888327",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -31,19 +31,19 @@
     "ad": "İdari Davalar",
     "saklama_suresi": "40"
   },
-  "konu": "İstinaf Başvurusu Hk.",
-  "sayi": "E-33152401-641.04-779830",
-  "tarih": "12.03.2026",
+  "konu": "Karar Örneğinin Gönderilmesi",
+  "sayi": "E-26888327-641.04-2557271",
+  "tarih": "22.04.2026",
   "ilgi": {
-    "tarih": "16.02.2026",
-    "sayi": "E-10578106-641.04-3878287"
+    "tarih": "10.03.2026",
+    "sayi": "E-10578106-641.04-3370282"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İstinaf Başvurusu",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Karar Örneğinin Gönderilmesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
@@ -58,8 +58,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İstinaf Başvurusu",
-    "olumlu, işlem tamamlandı",
+    "Karar Örneğinin Gönderilmesi",
+    "olumlu, belge düzenlendi",
     "ilgide kayıtlı yazı"
   ]
 }

@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Bilgi Edinme Talebinin Reddi Hk.",
-  "sayi": "E-65859045-622.01-2370868",
-  "tarih": "31.03.2026",
+  "konu": "Uygulama Okulunun Belirlenmesi",
+  "sayi": "E-65859045-355.02-1029087",
+  "tarih": "06.05.2026",
   "ilgi": {
-    "tarih": "25.03.2026",
-    "sayi": "E-55461037-622.01-626675"
+    "tarih": "31.03.2026",
+    "sayi": "E-55461037-355.02-3027878"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Bilgi Edinme Talebinin Reddi",
-    "Ortak iş": "Bilgi Edinme Talebinin Reddi konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Bilgi Edinme Talebinin Reddi kapsamındaki bilgilerin paylaşılması"
+    "Konu": "Uygulama Okulunun Belirlenmesi",
+    "Ortak iş": "Uygulama Okulunun Belirlenmesi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Uygulama Okulunun Belirlenmesi kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +56,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bilgi Edinme Talebinin Reddi"
+    "Uygulama Okulunun Belirlenmesi"
   ]
 }

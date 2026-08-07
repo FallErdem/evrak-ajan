@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Aslı DOĞAN",
-    "adres": "Barıştepe Mahallesi Kestane Caddesi No: 116/19 Yenimahalle/ANKARA",
+    "ad": "Sultan KARACA",
+    "adres": "Pamuklar Mahallesi Yasemin Sokağı No: 104/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024317782",
-    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
-    "sinif": "3"
+    "ogrenci_no": "2024410540",
+    "bolum": "Diş Hekimliği Fakültesi",
+    "sinif": "1"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -29,20 +29,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Mezuniyet Tarihinin Düzeltilmesi",
+  "konu": "Diploma Denklik Başvurusu",
   "sayi": null,
-  "tarih": "14.01.2026",
+  "tarih": "20.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Mezuniyet Tarihinin Düzeltilmesi",
-    "Sorun": "geçici mezuniyet belgem iş başvuru süresi içinde verilmedi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Diploma Denklik",
+    "Sorun": "itirazıma altmış gün geçmesine rağmen cevap verilmedi",
+    "Süre": "bir aydan uzun süredir",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -58,8 +58,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Mezuniyet Tarihinin Düzeltilmesi",
-    "yaklaşık kırk gündür",
+    "Diploma Denklik",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

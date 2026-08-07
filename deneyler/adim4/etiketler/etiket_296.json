@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Kemal DOĞAN",
-    "adres": "Barıştepe Mahallesi Ceviz Sokağı No: 68/3 Yenimahalle/ANKARA",
+    "ad": "Büşra AKTAŞ",
+    "adres": "Yeşilevler Mahallesi Papatya Sokağı No: 99/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,13 +32,13 @@
   },
   "konu": "Kısmi İskan Talebi",
   "sayi": null,
-  "tarih": "24.04.2026",
+  "tarih": "25.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Kısmi İskan",
-    "Taşınmaz": "39706 ada, 29 parsel",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Taşınmaz": "18960 ada, 5 parsel",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -52,7 +52,6 @@
   ],
   "anahtar_terimler": [
     "Kısmi İskan",
-    "39706 ada, 29 parsel",
-    "mağduriyetin giderilmesi bakımından"
+    "18960 ada, 5 parsel"
   ]
 }

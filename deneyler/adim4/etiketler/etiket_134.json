@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -31,12 +31,12 @@
     "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Alım Miktarının Artırılması",
-  "sayi": "E-10213773-934.01-18905391",
-  "tarih": "05.02.2026",
+  "konu": "Kırtasiye Malzemesi Alımı",
+  "sayi": "E-24316060-934.01-61050846",
+  "tarih": "09.04.2026",
   "ilgi": {
-    "tarih": "02.01.2026",
-    "sayi": "E-14588481-934.01-5389141"
+    "tarih": "25.03.2026",
+    "sayi": "E-14588481-934.01-3185276"
   },
   "ek": {
     "adet": 1,
@@ -48,7 +48,7 @@
     "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

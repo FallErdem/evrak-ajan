@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -23,20 +23,20 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
+    "saklama_suresi": "10"
   },
-  "konu": "Geçici Kayıt Talebi",
-  "sayi": "E-24316060-215.01-62494339",
-  "tarih": "11.03.2026",
+  "konu": "Yatırım Programı Teklifi",
+  "sayi": "E-24316060-602.07-60782947",
+  "tarih": "20.01.2026",
   "ilgi": {
-    "tarih": "18.02.2026",
-    "sayi": "E-63971525-215.01-1156346"
+    "tarih": "18.12.2025",
+    "sayi": "E-14588481-602.07-3123795"
   },
   "ek": {
     "adet": 2,
@@ -45,9 +45,9 @@
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "35 kayıt",
-    "Ek 1": "Yurtdışı Eğitim Denkliği listesi",
+    "Dönem": "öğretim yılı",
+    "Sayı": "186 kayıt",
+    "Ek 1": "Yatırım Programı listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -60,14 +60,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
-    "35 kayıt",
-    "Yurtdışı Eğitim Denkliği listesi",
+    "öğretim yılı",
+    "186 kayıt",
+    "Yatırım Programı listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

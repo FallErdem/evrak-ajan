@@ -22,26 +22,26 @@
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_makam": "Yenimahalle Kaymakamlığı",
+  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Kantin İhalesi Duyurusu",
-  "sayi": "E-65859045-165.01-2404512",
-  "tarih": "27.05.2026",
+  "konu": "Taşıma Merkezi Okulun Belirlenmesi",
+  "sayi": "E-65859045-140-1032810",
+  "tarih": "13.05.2026",
   "ilgi": {
-    "tarih": "12.05.2026",
-    "sayi": "E-93213107-165.01-4925156"
+    "tarih": "01.05.2026",
+    "sayi": "E-93213107-140-8373763"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Okul Aile Birlikleri",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Taşımalı Eğitim",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,7 +56,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Okul Aile Birlikleri",
+    "Taşımalı Eğitim",
     "konu hakkında görüş bildirilmesi"
   ]
 }

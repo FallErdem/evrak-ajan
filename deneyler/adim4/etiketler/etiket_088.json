@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yeşilyurt Vadi Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Umutkent Mesleki ve Teknik Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10132027",
+    "detsis_no": "10196904",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Disiplin Dosyasının Gönderilmesi",
-  "sayi": "E-10132027-225.02-2591",
-  "tarih": "27.02.2026",
+  "konu": "Burs Ödemesi Hk.",
+  "sayi": "E-10196904-245.04-3041",
+  "tarih": "10.02.2026",
   "ilgi": {
-    "tarih": "23.01.2026",
-    "sayi": "E-63971525-225.02-1137765"
+    "tarih": "29.12.2025",
+    "sayi": "E-63971525-245.04-4891574"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Disiplin Dosyasının Gönderilmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Burs Ödemesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,8 +58,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Disiplin Dosyasının Gönderilmesi",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "Burs Ödemesi",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

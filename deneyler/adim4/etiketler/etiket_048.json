@@ -31,15 +31,15 @@
     "ad": "Toplantı ve Etkinlik İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Çalıştay Katılım Talebi",
-  "sayi": "E-90226917-051-2080322",
-  "tarih": "31.03.2026",
+  "konu": "Etkinlik Salonu Tahsis Talebi",
+  "sayi": "E-90226917-051-2498220",
+  "tarih": "30.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Çalıştay Katılım",
-    "Ortak iş": "Çalıştay Katılım konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Çalıştay Katılım konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Etkinlik Salonu Tahsis",
+    "Ortak iş": "Etkinlik Salonu Tahsis konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "gerekli tahsisin yapılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,6 +53,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Çalıştay Katılım"
+    "Etkinlik Salonu Tahsis",
+    "gerekli tahsisin yapılması"
   ]
 }

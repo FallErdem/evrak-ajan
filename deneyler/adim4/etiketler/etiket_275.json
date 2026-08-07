@@ -5,46 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "kurum_adi": "Gelirler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "59553370",
+    "detsis_no": "30032784",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Yazı İşleri Müdürlüğü",
+  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "105.04",
-    "ad": "Meclis Kararları",
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
     "saklama_suresi": "15"
   },
-  "konu": "Meclis Kararının Gönderilmesi",
-  "sayi": "E-59553370-105.04-3530305",
-  "tarih": "30.03.2026",
+  "konu": "Gelir Gider Tahmin Cetveli",
+  "sayi": "E-30032784-841.01-739981",
+  "tarih": "05.05.2026",
   "ilgi": {
-    "tarih": "27.03.2026",
-    "sayi": "E-15986609-105.04-2260860"
+    "tarih": "27.04.2026",
+    "sayi": "E-43195403-841.01-2333911"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Meclis Kararının Gönderilmesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Gelir Gider Tahmin Cetveli",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,13 +54,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Meclis Kararının Gönderilmesi",
-    "olumlu, belge düzenlendi",
+    "Gelir Gider Tahmin Cetveli",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

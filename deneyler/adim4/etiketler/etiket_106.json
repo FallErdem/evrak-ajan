@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "86488853",
+    "detsis_no": "98244303",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,19 +32,19 @@
     "saklama_suresi": "15"
   },
   "konu": "Program Açma Başvurusu Hk.",
-  "sayi": "E-86488853-104.01-4021326",
-  "tarih": "30.01.2026",
+  "sayi": "E-98244303-104.01-8943022",
+  "tarih": "31.03.2026",
   "ilgi": {
-    "tarih": "02.01.2026",
-    "sayi": "E-43123369-104.01-6607008"
+    "tarih": "03.03.2026",
+    "sayi": "E-43123369-104.01-8164860"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Program Açma Başvurusu",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -60,8 +60,7 @@
   ],
   "anahtar_terimler": [
     "Program Açma Başvurusu",
-    "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı"
   ]
 }
