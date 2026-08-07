@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Meryem KESKIN",
-    "adres": "Susuz Mahallesi Menekşe Caddesi No: 61/24 Yenimahalle/ANKARA",
+    "ad": "Ali ŞAHIN",
+    "adres": "Serhat Mahallesi Lale Caddesi No: 26/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,17 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Emlak Vergisi Muafiyet Başvurusu",
+  "konu": "Tahsilat Makbuzu Talebi",
   "sayi": null,
-  "tarih": "06.02.2026",
+  "tarih": "13.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Emlak Vergisi Muafiyet",
-    "Taşınmaz": "12807 ada, 27 parsel",
+    "Talep": "Tahsilat Makbuzu",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -51,8 +50,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Muafiyet",
-    "12807 ada, 27 parsel",
+    "Tahsilat Makbuzu",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

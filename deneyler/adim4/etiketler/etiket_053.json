@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Personel Dairesi Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
-    "saklama_suresi": "10"
+    "kod": "209",
+    "ad": "Akademik Personel Görevlendirmeleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Kendi İsteğiyle Kayıt Sildirme Talebi",
-  "sayi": "E-10213773-302.11-8186229",
-  "tarih": "19.03.2026",
+  "konu": "39. Madde Görevlendirme Talebi",
+  "sayi": "E-10213773-209-18921893",
+  "tarih": "16.02.2026",
   "ilgi": {
-    "tarih": "10.03.2026",
-    "sayi": "E-47014261-302.11-2204993"
+    "tarih": "13.02.2026",
+    "sayi": "E-42218640-209-7498330"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Kendi İsteğiyle Kayıt Sildirme",
-    "Ortak iş": "Kendi İsteğiyle Kayıt Sildirme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Kendi İsteğiyle Kayıt Sildirme konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "39. Madde Görevlendirme",
+    "Ortak iş": "39. Madde Görevlendirme konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "39. Madde Görevlendirme konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,11 +52,11 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Personel Dairesi Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kendi İsteğiyle Kayıt Sildirme"
+    "39. Madde Görevlendirme"
   ]
 }

@@ -5,58 +5,52 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emre KURT",
-    "adres": "Ostim Mahallesi Nergis Caddesi No: 101/17 Yenimahalle/ANKARA",
+    "ad": "Sultan DUMAN",
+    "adres": "Beştepe Mahallesi Ceviz Sokağı No: 20/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
-  "belge_turu": "sikayet",
-  "aile": "sikayet",
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
+    "saklama_suresi": "10"
   },
-  "konu": "İdari Yaptırım/Para Cezası İşleri Hakkında Şikâyet",
+  "konu": "Engelli Aracı Talebi",
   "sayi": null,
-  "tarih": "06.05.2026",
+  "tarih": "23.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İdari Yaptırım/Para Cezası İşleri Hakkında Şikâyet",
-    "Sorun": "idari yaptırım/para cezası işleri konusundaki başvurum sonuçlandırılmadı",
-    "Yer": "Gayret Mahallesi",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Talep": "Engelli Aracı",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    3
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Gayret Mahallesi",
-    "yaklaşık üç haftadır",
-    "sorunun giderilmesi"
+    "Engelli Aracı",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Fatih AVCI",
-    "adres": "Kaletepe Mahallesi Yasemin Sokağı No: 21/19 Yenimahalle/ANKARA",
+    "ad": "Sultan AVCI",
+    "adres": "Barıştepe Mahallesi Menekşe Caddesi No: 116/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024816527",
-    "bolum": "Fen Fakültesi Matematik",
-    "sinif": "1"
+    "ogrenci_no": "2021720194",
+    "bolum": "Diş Hekimliği Fakültesi",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Geçici Mezuniyet Belgesi Talebi",
+  "konu": "Katkı Payı Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "16.04.2026",
+  "tarih": "13.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Geçici Mezuniyet Belgesi",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Katkı Payı Muafiyet",
+    "Öğrenim bilgisi": "2018 yılı mezunu",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Geçici Mezuniyet Belgesi",
-    "lisansüstü programa kayıtlı",
-    "başvuru dosyasına eklenmek üzere"
+    "Katkı Payı Muafiyet",
+    "2018 yılı mezunu",
+    "sürecin tamamlanabilmesi için"
   ]
 }

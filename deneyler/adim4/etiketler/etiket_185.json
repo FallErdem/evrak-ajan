@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze DOĞAN",
-    "adres": "Kaletepe Mahallesi Ihlamur Sokağı No: 48/20 Yenimahalle/ANKARA",
+    "ad": "Mehmet UÇAR",
+    "adres": "Beştepe Mahallesi Ihlamur Caddesi No: 114/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Arşiv Belgesi Araştırma Talebi",
+  "konu": "Bilgi Edinme Başvurusu",
   "sayi": null,
-  "tarih": "11.02.2026",
+  "tarih": "26.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Arşiv Belgesi Araştırma",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Bilgi Edinme",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşiv Belgesi Araştırma",
-    "başvuru dosyasına eklenmek üzere"
+    "Bilgi Edinme",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

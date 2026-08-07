@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,29 +23,32 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
-    "saklama_suresi": "10"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Sosyal Yardım İşleri Hk.",
-  "sayi": "E-32625594-815-46103411",
-  "tarih": "30.03.2026",
-  "ilgi": null,
+  "konu": "Genelgenin Duyurulması",
+  "sayi": "E-32625594-010.06-57833830",
+  "tarih": "10.03.2026",
+  "ilgi": {
+    "tarih": "02.02.2026",
+    "sayi": "E-82642947-010.06-6153755"
+  },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 3
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Sosyal Yardım İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Genelgeler kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,7 +58,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],

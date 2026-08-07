@@ -5,46 +5,45 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
+    "kurum_adi": "Ruhsat ve Denetim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "18426575",
+    "detsis_no": "59553370",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_makam": "Yazı İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.02",
-    "ad": "Satış ve Kiralama",
-    "saklama_suresi": "B"
+    "kod": "105.04",
+    "ad": "Meclis Kararları",
+    "saklama_suresi": "15"
   },
-  "konu": "Taşınmaz Satış İhalesi Hk.",
-  "sayi": "E-18426575-756.02-2934503",
-  "tarih": "06.02.2026",
+  "konu": "Meclis Kararının Gönderilmesi",
+  "sayi": "E-59553370-105.04-3530305",
+  "tarih": "30.03.2026",
   "ilgi": {
-    "tarih": "23.01.2026",
-    "sayi": "E-87730597-756.02-1326397"
+    "tarih": "27.03.2026",
+    "sayi": "E-15986609-105.04-2260860"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Taşınmaz Satış İhalesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Taşınmaz": "85968 ada, 9 parsel",
+    "Talep": "Meclis Kararının Gönderilmesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
     "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
@@ -55,13 +54,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Taşınmaz Satış İhalesi",
-    "olumlu, işlem tamamlandı",
-    "85968 ada, 9 parsel",
-    "ilgide kayıtlı yazı"
+    "Meclis Kararının Gönderilmesi",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

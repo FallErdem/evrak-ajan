@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Doruk Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Ege Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Yakacık Mahallesi Akasya Sokak No: 38/5 Yenimahalle/ANKARA",
+    "adres": "Çiğdemtepe Mahallesi Lale Sokağı No: 69/11 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,15 +31,15 @@
     "ad": "Bursluluk",
     "saklama_suresi": "10"
   },
-  "konu": "Bursluluk Başvurusu",
-  "sayi": "2026/346",
-  "tarih": "25.02.2026",
+  "konu": "Gelir Belgesi Talebi",
+  "sayi": "2026/523",
+  "tarih": "16.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Bursluluk konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
     "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
@@ -55,7 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
     "posta yoluyla adresime"
   ]
 }

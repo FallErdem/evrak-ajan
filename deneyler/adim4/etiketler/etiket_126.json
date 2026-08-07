@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Genelgeler Listesinin Gönderilmesi",
-  "sayi": "E-32625594-010.06-46137808",
-  "tarih": "10.04.2026",
+  "konu": "Staj Değerlendirme Formunun Gönderilmesi",
+  "sayi": "E-32625594-773-57978812",
+  "tarih": "09.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
-    "Sayı": "94 kayıt",
-    "Ek 1": "Genelgeler listesi",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Sayı": "18 kayıt",
+    "Ek 1": "Staj İşleri listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,15 +57,15 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "öğretim yılı",
-    "94 kayıt",
-    "Genelgeler listesi",
+    "içinde bulunulan öğretim yılı",
+    "18 kayıt",
+    "Staj İşleri listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

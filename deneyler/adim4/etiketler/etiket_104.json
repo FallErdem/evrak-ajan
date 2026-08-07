@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ayşe ATEŞ",
-    "adres": "Gayret Mahallesi Papatya Caddesi No: 89/11 Yenimahalle/ANKARA",
+    "ad": "Nurten AKSOY",
+    "adres": "Beştepe Mahallesi Kestane Sokağı No: 104/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,22 +26,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "Bilgi Edinme, Talep ve Şikayetler Hakkında Şikâyet",
+  "konu": "Mesul Müdür Değişikliği Bildirimi",
   "sayi": null,
-  "tarih": "21.04.2026",
+  "tarih": "19.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Bilgi Edinme, Talep ve Şikayetler Hakkında Şikâyet",
-    "Sorun": "bilgi edinme, talep ve şikayetler hakkındaki talebime yazılı cevap verilmedi",
-    "Yer": "Ragıpbey Mahallesi",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Mesul Müdür Değişikliği",
+    "Sorun": "ruhsat başvurum iki aydır sonuçlandırılmadı",
+    "Süre": "bir aydan uzun süredir",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Talep": "sorunun giderilmesi",
+    "Yer": "Ergazi Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,8 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ragıpbey Mahallesi",
-    "geçtiğimiz aydan bu yana",
-    "sorunun giderilmesi"
+    "Mesul Müdür Değişikliği",
+    "bir aydan uzun süredir",
+    "sorunun giderilmesi",
+    "Ergazi Mahallesi"
   ]
 }

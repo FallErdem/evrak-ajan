@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Meryem YILDIZ",
-    "adres": "Emniyet Mahallesi Lale Sokağı No: 73/7 Yenimahalle/ANKARA",
+    "ad": "Ali AKTAŞ",
+    "adres": "Serhat Mahallesi Lale Sokağı No: 67/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
+    "saklama_suresi": "10"
   },
-  "konu": "Disiplin İşleri Talebi",
+  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
   "sayi": null,
-  "tarih": "06.02.2026",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Disiplin İşleri",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Taşımalı Eğitim Kapsamına Alınma",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Disiplin İşleri",
-    "sürecin tamamlanabilmesi için"
+    "Taşımalı Eğitim Kapsamına Alınma",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

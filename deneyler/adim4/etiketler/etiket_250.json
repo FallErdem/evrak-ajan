@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,8 +22,8 @@
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
       "Üniversite Rektörlüklerine"
@@ -32,27 +32,27 @@
       "Yükseköğretim Denetleme Kuruluna"
     ]
   },
-  "beklenen_kapanis": "karma",
+  "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
-    "saklama_suresi": "10"
+    "kod": "209",
+    "ad": "Akademik Personel Görevlendirmeleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Belge Talepleri Hk.",
-  "sayi": "E-32625594-622.02-45918274",
-  "tarih": "29.01.2026",
+  "konu": "Ders Görevlendirmesi Hk.",
+  "sayi": "E-32625594-209-57740493",
+  "tarih": "19.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Belge Talepleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Akademik Personel Görevlendirmeleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -62,7 +62,7 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Personel Dairesi Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],

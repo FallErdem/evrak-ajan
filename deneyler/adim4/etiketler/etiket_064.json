@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şaban BULUT",
-    "adres": "Pamuklar Mahallesi Sümbül Sokağı No: 91/8 Yenimahalle/ANKARA",
+    "ad": "Büşra YILDIRIM",
+    "adres": "Susuz Mahallesi Menekşe Sokağı No: 97/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,21 +22,21 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Kayıt Alanı Dışından Kayıt Talebi",
+  "konu": "Servis Güzergâhı Talebi",
   "sayi": null,
-  "tarih": "20.04.2026",
+  "tarih": "18.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Alanı Dışından Kayıt",
+    "Talep": "Servis Güzergâhı",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -46,11 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kayıt Alanı Dışından Kayıt",
+    "Servis Güzergâhı",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

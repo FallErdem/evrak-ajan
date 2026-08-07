@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatih ARSLAN",
-    "adres": "Uğur Mumcu Mahallesi Akasya Sokağı No: 3/4 Yenimahalle/ANKARA",
+    "ad": "Ramazan BOZKURT",
+    "adres": "Ragıpbey Mahallesi Menekşe Sokak No: 54/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,35 +22,35 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "855",
-    "ad": "Borç ve Alacak İşleri",
-    "saklama_suresi": "15"
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
+    "saklama_suresi": "10"
   },
-  "konu": "Borç Yapılandırma Talebi",
+  "konu": "Sıfır Atık Belgesi Talebi",
   "sayi": null,
-  "tarih": "05.02.2026",
+  "tarih": "09.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Borç Yapılandırma",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Sıfır Atık Belgesi",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "tarih_eksik",
+  "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Borç Yapılandırma",
-    "sürecin tamamlanabilmesi için"
+    "Sıfır Atık Belgesi",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

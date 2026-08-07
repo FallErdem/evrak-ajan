@@ -5,57 +5,58 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
-      "İlçe Belediye Başkanlıklarına"
+      "81 İl Valiliğine",
+      "Çevre ve Şehircilik İl Müdürlüklerine"
     ],
     "bilgi": [
-      "Ankara Valiliğine"
+      "Bakanlık Makamına"
     ]
   },
-  "beklenen_kapanis": "karma",
+  "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "115.02.01",
-    "ad": "İmar Durumu (Belgesi)",
-    "saklama_suresi": "B"
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
+    "saklama_suresi": "15"
   },
-  "konu": "Parsel İmar Durumu Hk.",
-  "sayi": "E-24432702-115.02.01-11152088",
-  "tarih": "06.05.2026",
+  "konu": "Rayiç Bedel Tespiti Hk.",
+  "sayi": "E-24304062-190.01.07-62307275",
+  "tarih": "30.03.2026",
   "ilgi": {
-    "tarih": "24.03.2026",
-    "sayi": "E-18426575-115.02.01-2961110"
+    "tarih": "11.03.2026",
+    "sayi": "E-30032784-190.01.07-3257382"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "İmar Durumu (Belgesi) kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Emlak Vergisi kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan yıl sonunda bildirilmesi"
+    "İstenen 2": "sonuçların mali yıl sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -65,11 +66,12 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "sonuçların mali yıl sonunda bildirilmesi"
   ]
 }

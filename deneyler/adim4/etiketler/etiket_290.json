@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Mühendislik Fakültesi Dekanlığı",
+    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "43123369",
+    "detsis_no": "86488853",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
@@ -27,13 +27,13 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
   },
-  "konu": "Hukuki Oluru",
-  "sayi": "E-43123369-045.02-3159595",
-  "tarih": "15.01.2026",
+  "konu": "Alınan Kararların Özeti",
+  "sayi": "E-86488853-050.04-4008332",
+  "tarih": "16.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -41,8 +41,8 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Hukuki",
-    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
+    "Konu": "Kararlar",
+    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -58,6 +58,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "mevzuatın öngördüğü sürelere uyulması"
+    "hizmetlerin aksamadan yürütülmesi"
   ]
 }

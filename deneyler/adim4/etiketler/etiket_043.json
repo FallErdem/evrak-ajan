@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze KARACA",
-    "adres": "Ergazi Mahallesi Nergis Sokağı No: 13/21 Yenimahalle/ANKARA",
+    "ad": "Emre SARI",
+    "adres": "Barıştepe Mahallesi Ceviz Sokak No: 115/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,12 +32,12 @@
   },
   "konu": "Nakil Başvurusunun Değerlendirilmesi",
   "sayi": null,
-  "tarih": "26.02.2026",
+  "tarih": "30.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Nakil Başvurusunun Değerlendirilmesi",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,6 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Nakil Başvurusunun Değerlendirilmesi"
+    "Nakil Başvurusunun Değerlendirilmesi",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

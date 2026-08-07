@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Stratejik Plan Verisi Talebi",
-  "sayi": "E-10213773-602.04-8101627",
-  "tarih": "15.01.2026",
+  "konu": "Arşivden Suret Talebi",
+  "sayi": "E-55461037-805.02.05-610681",
+  "tarih": "25.02.2026",
   "ilgi": {
-    "tarih": "08.12.2025",
-    "sayi": "E-39985474-602.04-7609079"
+    "tarih": "14.01.2026",
+    "sayi": "E-82642947-805.02.05-6139481"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Stratejik Plan Verisi",
-    "Ortak iş": "Stratejik Plan Verisi konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Stratejik Plan Verisi kapsamındaki bilgilerin paylaşılması"
+    "Konu": "Arşivden Suret",
+    "Ortak iş": "Arşivden Suret konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Arşivden Suret konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,11 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Stratejik Plan Verisi"
+    "Arşivden Suret"
   ]
 }

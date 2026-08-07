@@ -27,18 +27,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.01",
-    "ad": "Tahsis, Devir ve Takas",
+    "kod": "756.02",
+    "ad": "Satış ve Kiralama",
     "saklama_suresi": "B"
   },
-  "konu": "Tahsis, Devir ve Takas Hakkında Görüş Talebi",
-  "sayi": "E-90226917-756.01-3925459",
-  "tarih": "14.04.2026",
+  "konu": "Kira Sözleşmesinin Yenilenmesi",
+  "sayi": "E-90226917-756.02-2114912",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Tahsis, Devir ve Takas",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Satış ve Kiralama",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,7 +53,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Tahsis, Devir ve Takas",
+    "Satış ve Kiralama",
     "konu hakkında görüş bildirilmesi"
   ]
 }

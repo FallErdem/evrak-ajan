@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Kemal KESKIN",
-    "adres": "Kaletepe Mahallesi Menekşe Caddesi No: 74/10 Yenimahalle/ANKARA",
+    "ad": "Salih KARACA",
+    "adres": "Beştepe Mahallesi Manolya Sokağı No: 115/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Belge Sureti Talebi",
+  "konu": "Arşiv Belgesi Araştırma Talebi",
   "sayi": null,
-  "tarih": "28.01.2026",
+  "tarih": "20.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Belge Sureti",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Arşiv Belgesi Araştırma",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Belge Sureti",
-    "başvuru dosyasına eklenmek üzere"
+    "Arşiv Belgesi Araştırma",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

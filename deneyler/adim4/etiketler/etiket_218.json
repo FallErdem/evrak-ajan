@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -27,25 +27,25 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Yurtdışı Eğitim Denkliği Hk.",
-  "sayi": "E-10213773-215.01-8106916",
-  "tarih": "19.01.2026",
+  "konu": "Disiplin Cezasına İtiraz",
+  "sayi": "E-24316060-225.02-62220649",
+  "tarih": "12.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Yurtdışı Eğitim Denkliği kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Disiplin İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Esra KARA",
-    "adres": "Emniyet Mahallesi Çınar Sokak No: 109/3 Yenimahalle/ANKARA",
+    "ad": "Hasan KORKMAZ",
+    "adres": "Ergazi Mahallesi Çınar Caddesi No: 32/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Engelli Aracı Talebi",
+  "konu": "Arşivden Suret Talebi",
   "sayi": null,
-  "tarih": "17.04.2026",
+  "tarih": "07.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Engelli Aracı",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Arşivden Suret",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Engelli Aracı",
-    "mağduriyetin giderilmesi bakımından"
+    "Arşivden Suret",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Salih ÇELIK",
-    "adres": "Serhat Mahallesi Sümbül Sokağı No: 12/6 Yenimahalle/ANKARA",
+    "ad": "Burak YAVUZ",
+    "adres": "Uğur Mumcu Mahallesi Menekşe Sokak No: 81/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022483479",
-    "bolum": "Fen Fakültesi Matematik",
-    "sinif": "1"
+    "ogrenci_no": "2024165897",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -33,13 +33,13 @@
     "ad": "Sosyal Yardım İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Yardım Başvurusunun Değerlendirilmesi",
+  "konu": "Sosyal Yardım Başvurusu",
   "sayi": null,
-  "tarih": "07.01.2026",
+  "tarih": "23.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yardım Başvurusunun Değerlendirilmesi",
+    "Talep": "Sosyal Yardım",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -54,7 +54,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Yardım Başvurusunun Değerlendirilmesi",
+    "Sosyal Yardım",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

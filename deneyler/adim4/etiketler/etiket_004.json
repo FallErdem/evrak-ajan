@@ -5,16 +5,16 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Merkez Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Başkent Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Çiğdemtepe Mahallesi Ihlamur Caddesi No: 117/11 Yenimahalle/ANKARA",
+    "adres": "Susuz Mahallesi Papatya Sokağı No: 25/13 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,24 +23,24 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
-    "saklama_suresi": "10"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Kurs Bitirme Belgesi Talebi",
-  "sayi": "2026/88",
-  "tarih": "22.01.2026",
+  "konu": "Cezanın Sicilden Silinmesi Talebi",
+  "sayi": "2026/51",
+  "tarih": "06.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Yaygın Eğitim Kursları konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Talep": "Disiplin İşleri konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,11 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "e-Devlet üzerinden"
+    "posta yoluyla adresime"
   ]
 }

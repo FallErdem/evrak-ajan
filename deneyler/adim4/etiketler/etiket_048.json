@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Çankaya Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "90226917",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,7 +23,7 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
@@ -32,8 +32,8 @@
     "saklama_suresi": "15"
   },
   "konu": "Çalıştay Katılım Talebi",
-  "sayi": "E-55461037-051-1871759",
-  "tarih": "15.01.2026",
+  "sayi": "E-90226917-051-2080322",
+  "tarih": "31.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
@@ -49,7 +49,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yenimahalle Belediye Başkanlığı",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

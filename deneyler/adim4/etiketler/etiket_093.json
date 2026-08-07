@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Fatma BULUT",
-    "adres": "Ragıpbey Mahallesi Zeytin Sokak No: 119/10 Yenimahalle/ANKARA",
+    "ad": "Hüseyin ATEŞ",
+    "adres": "Serhat Mahallesi Erguvan Caddesi No: 82/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021682720",
+    "ogrenci_no": "2021410098",
     "bolum": "Diş Hekimliği Fakültesi",
-    "sinif": "2"
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -35,13 +35,13 @@
   },
   "konu": "Diploma Talebi",
   "sayi": null,
-  "tarih": "18.02.2026",
+  "tarih": "04.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Diploma",
-    "Öğrenim bilgisi": "2. sınıf öğrencisi",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,7 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "2. sınıf öğrencisi",
-    "ilgili kuruma sunulmak üzere"
+    "lisansüstü programa kayıtlı",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

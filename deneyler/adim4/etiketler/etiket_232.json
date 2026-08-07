@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Anadolu Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Ege Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Batıkent Mahallesi Zeytin Sokak No: 68/20 Yenimahalle/ANKARA",
+    "adres": "Ragıpbey Mahallesi Manolya Sokak No: 10/14 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "İşyeri Açma ve Çalışma Ruhsatı Başvurusu",
-  "sayi": "2026/35",
-  "tarih": "05.01.2026",
+  "konu": "Cezanın Kaldırılması Talebi",
+  "sayi": "2026/552",
+  "tarih": "20.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Ruhsat konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "İdari Yaptırım/Para Cezası İşleri konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,7 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
-    "Kurumunuz kayıt bürosundan elden"
+    "posta yoluyla adresime"
   ]
 }

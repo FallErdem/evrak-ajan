@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Güven Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Başkent Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Gayret Mahallesi Çınar Caddesi No: 71/3 Yenimahalle/ANKARA",
+    "adres": "Kaletepe Mahallesi Çınar Caddesi No: 40/21 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,23 +23,23 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
-  "sayi": "2026/140",
-  "tarih": "21.01.2026",
+  "konu": "Engelli Erişim Düzenlemesi Talebi",
+  "sayi": "2026/86",
+  "tarih": "28.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Emlak Vergisi konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Talep": "Engellilere Yönelik Hizmetler konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
     "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
@@ -50,11 +50,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "yıllara göre sayısal döküm",
     "elektronik posta ile"
   ]
 }

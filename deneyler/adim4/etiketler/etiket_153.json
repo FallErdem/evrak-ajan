@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -31,19 +31,22 @@
     "ad": "Eğitim Fakülteleri İle İlişkiler",
     "saklama_suresi": "15"
   },
-  "konu": "Eğitim Fakülteleri İle İlişkiler Listesinin Gönderilmesi",
-  "sayi": "E-10213773-355.02-8187304",
-  "tarih": "20.03.2026",
-  "ilgi": null,
+  "konu": "Uygulama Takviminin Bildirilmesi",
+  "sayi": "E-24316060-355.02-62528047",
+  "tarih": "18.03.2026",
+  "ilgi": {
+    "tarih": "26.02.2026",
+    "sayi": "E-55461037-355.02-611195"
+  },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "öğretim yılı",
-    "Sayı": "35 kayıt",
+    "Sayı": "112 kayıt",
     "Ek 1": "Eğitim Fakülteleri İle İlişkiler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
@@ -63,7 +66,7 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "öğretim yılı",
-    "35 kayıt",
+    "112 kayıt",
     "Eğitim Fakülteleri İle İlişkiler listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"

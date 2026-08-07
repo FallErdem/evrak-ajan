@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -32,20 +32,20 @@
     "saklama_suresi": "15"
   },
   "konu": "Program Açma Başvurusu Hk.",
-  "sayi": "E-65859045-104.01-2550229",
-  "tarih": "17.02.2026",
+  "sayi": "E-10213773-104.01-19050580",
+  "tarih": "13.05.2026",
   "ilgi": {
-    "tarih": "11.02.2026",
-    "sayi": "E-43123369-104.01-3180574"
+    "tarih": "28.04.2026",
+    "sayi": "E-43123369-104.01-6711375"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Konu": "Program Açma kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
     "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"

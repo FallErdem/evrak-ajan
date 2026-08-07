@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şaban KILIÇ",
-    "adres": "Barıştepe Mahallesi Menekşe Sokağı No: 60/22 Yenimahalle/ANKARA",
+    "ad": "Ömer ÇELIK",
+    "adres": "Pamuklar Mahallesi Zeytin Sokak No: 10/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,13 +30,13 @@
     "ad": "Engellilere Yönelik Hizmetler",
     "saklama_suresi": "10"
   },
-  "konu": "Engelli Erişim Düzenlemesi Talebi",
+  "konu": "Refakatçi Desteği Talebi",
   "sayi": null,
-  "tarih": "11.03.2026",
+  "tarih": "08.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Engelli Erişim Düzenlemesi",
+    "Talep": "Refakatçi Desteği",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -50,7 +50,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Engelli Erişim Düzenlemesi",
+    "Refakatçi Desteği",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
-    "saklama_suresi": "10"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Yatırım Programı Listesinin Gönderilmesi",
-  "sayi": "E-10213773-602.07-8176693",
-  "tarih": "12.03.2026",
+  "konu": "Genelge Taslağı Hakkında Görüş",
+  "sayi": "E-24316060-010.06-62749553",
+  "tarih": "04.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "bahar dönemi",
-    "Sayı": "186 kayıt",
-    "Ek 1": "Yatırım Programı listesi",
+    "Dönem": "öğretim yılı",
+    "Sayı": "47 kayıt",
+    "Ek 1": "Genelgeler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +57,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "bahar dönemi",
-    "186 kayıt",
-    "Yatırım Programı listesi",
+    "öğretim yılı",
+    "47 kayıt",
+    "Genelgeler listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

@@ -5,46 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "85330682",
+    "detsis_no": "18426575",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
+  "muhatap_makam": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
+    "kod": "773",
+    "ad": "Staj İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Yatırım Programı Hk.",
-  "sayi": "E-85330682-602.07-1653715",
-  "tarih": "20.04.2026",
+  "konu": "Staj Değerlendirme Formunun Gönderilmesi",
+  "sayi": "E-18426575-773-619789",
+  "tarih": "24.03.2026",
   "ilgi": {
-    "tarih": "16.04.2026",
-    "sayi": "E-43195403-602.07-1737910"
+    "tarih": "27.02.2026",
+    "sayi": "E-85330682-773-3531700"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yatırım Programı",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Staj Değerlendirme Formunun Gönderilmesi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,12 +54,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yatırım Programı",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "Staj Değerlendirme Formunun Gönderilmesi",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

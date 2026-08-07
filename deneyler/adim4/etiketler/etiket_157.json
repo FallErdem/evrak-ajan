@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Kayıt-Kabul Hakkında Görüş Talebi",
-  "sayi": "E-65859045-205-2573798",
-  "tarih": "03.04.2026",
+  "konu": "Kantin İhalesi Duyurusu",
+  "sayi": "E-65859045-165.01-2404512",
+  "tarih": "27.05.2026",
   "ilgi": {
-    "tarih": "10.03.2026",
-    "sayi": "E-93213107-205-8054754"
+    "tarih": "12.05.2026",
+    "sayi": "E-93213107-165.01-4925156"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Kayıt-Kabul",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Okul Aile Birlikleri",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,6 +56,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "Okul Aile Birlikleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

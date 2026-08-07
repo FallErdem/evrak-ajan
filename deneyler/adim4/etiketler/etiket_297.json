@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Personel Dairesi Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "204.01",
+    "ad": "Doçentlik",
+    "saklama_suresi": "15"
   },
-  "konu": "Arşivden Suret Talebi",
-  "sayi": "E-55461037-805.02.05-1907650",
-  "tarih": "03.04.2026",
+  "konu": "Doçentlik Eser İnceleme Raporu",
+  "sayi": "E-10213773-204.01-18948913",
+  "tarih": "06.03.2026",
   "ilgi": {
-    "tarih": "24.03.2026",
-    "sayi": "E-82642947-805.02.05-3431317"
+    "tarih": "03.03.2026",
+    "sayi": "E-42218640-204.01-7513306"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Arşivden Suret",
-    "Ortak iş": "Arşivden Suret konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Arşivden Suret konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Doçentlik Eser İnceleme Raporu",
+    "Ortak iş": "Doçentlik Eser İnceleme Raporu konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Doçentlik Eser İnceleme Raporu konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,11 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Personel Dairesi Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Arşivden Suret"
+    "Doçentlik Eser İnceleme Raporu"
   ]
 }

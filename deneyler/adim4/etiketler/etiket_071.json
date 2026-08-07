@@ -5,19 +5,19 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ali DUMAN",
-    "adres": "Şentepe Mahallesi Sümbül Caddesi No: 20/4 Yenimahalle/ANKARA",
+    "ad": "Burak TEKIN",
+    "adres": "Serhat Mahallesi Nergis Sokak No: 104/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024383839",
-    "bolum": "Matematik Öğretmenliği",
+    "ogrenci_no": "2021424775",
+    "bolum": "Diş Hekimliği Fakültesi",
     "sinif": "4"
   },
   "belge_turu": "dilekce",
@@ -25,23 +25,23 @@
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Zorunlu Staj Başvurusu",
+  "konu": "Öğrenci Belgesi Talebi",
   "sayi": null,
-  "tarih": "27.01.2026",
+  "tarih": "20.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Zorunlu Staj",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Öğrenci Belgesi",
+    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,12 +50,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Zorunlu Staj",
-    "lisansüstü programa kayıtlı"
+    "Öğrenci Belgesi",
+    "3. sınıf öğrencisi",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

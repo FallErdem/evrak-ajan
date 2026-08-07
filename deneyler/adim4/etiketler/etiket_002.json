@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,27 +23,27 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Nakdi Yardım Talebi",
-  "sayi": "E-55461037-815-1918749",
-  "tarih": "27.04.2026",
+  "konu": "Onaylı Örnek Talebi",
+  "sayi": "E-55461037-622.02-591277",
+  "tarih": "22.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "İlgili belge",
-    "sayfa": 3
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Nakdi Yardım",
-    "Ortak iş": "Nakdi Yardım konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Nakdi Yardım konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Onaylı Örnek",
+    "Ortak iş": "Onaylı Örnek konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Onaylı Örnek konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,10 +53,10 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Nakdi Yardım"
+    "Onaylı Örnek"
   ]
 }

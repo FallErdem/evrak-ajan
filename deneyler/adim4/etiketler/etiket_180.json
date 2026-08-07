@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -23,24 +23,24 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Personel Dairesi Başkanlığı",
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "903.02",
-    "ad": "Atama İşleri",
-    "saklama_suresi": "B"
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
   },
-  "konu": "Atama İşleri Hakkında Görüş Talebi",
-  "sayi": "E-55461037-903.02-1867246",
-  "tarih": "05.01.2026",
+  "konu": "Kararın Uygulanması Hk.",
+  "sayi": "E-65859045-050.04-2396750",
+  "tarih": "14.05.2026",
   "ilgi": {
-    "tarih": "19.12.2025",
-    "sayi": "E-42218640-903.02-2835978"
+    "tarih": "03.04.2026",
+    "sayi": "E-82642947-050.04-6198940"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Atama İşleri",
+    "Konu": "Kararlar",
     "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -52,12 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Atama İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

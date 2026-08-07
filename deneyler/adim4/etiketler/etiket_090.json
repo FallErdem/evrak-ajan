@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
@@ -23,27 +23,27 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
-    "saklama_suresi": "15"
+    "kod": "815",
+    "ad": "Sosyal Yardım İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Ödenek Talebi",
-  "sayi": "E-10213773-841.01-8091004",
-  "tarih": "07.01.2026",
+  "konu": "Yardım Kesilmesi Hk.",
+  "sayi": "E-24312041-815-64672929",
+  "tarih": "16.04.2026",
   "ilgi": {
-    "tarih": "17.12.2025",
-    "sayi": "E-43195403-841.01-1685126"
+    "tarih": "27.03.2026",
+    "sayi": "E-85330682-815-3547642"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "en geç bir hafta içinde"
+    "Süre": "beş iş günü içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,12 +53,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "en geç bir hafta içinde"
+    "beş iş günü içinde"
   ]
 }

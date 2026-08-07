@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
+    "saklama_suresi": "10"
   },
-  "konu": "Disiplin İşleri Hk.",
-  "sayi": "E-10213773-225.02-8230298",
-  "tarih": "21.04.2026",
+  "konu": "Yatırım Ödeneği Talebi",
+  "sayi": "E-10213773-602.07-19031090",
+  "tarih": "30.04.2026",
   "ilgi": {
-    "tarih": "01.04.2026",
-    "sayi": "E-63971525-225.02-1254740"
+    "tarih": "23.03.2026",
+    "sayi": "E-14588481-602.07-5459547"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Disiplin İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Yatırım Programı kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
@@ -58,7 +58,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [

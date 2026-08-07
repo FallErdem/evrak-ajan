@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Havva AKTAŞ",
-    "adres": "Ostim Mahallesi Ceviz Caddesi No: 98/2 Yenimahalle/ANKARA",
+    "ad": "Kemal KARA",
+    "adres": "Ergazi Mahallesi Menekşe Sokağı No: 37/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -37,8 +37,8 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Yapı Kullanma İzin Belgesi",
-    "Taşınmaz": "12798 ada, 29 parsel",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Taşınmaz": "91241 ada, 43 parsel",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -52,7 +52,7 @@
   ],
   "anahtar_terimler": [
     "Yapı Kullanma İzin Belgesi",
-    "12798 ada, 29 parsel",
-    "resmî işlemlerde kullanılmak üzere"
+    "91241 ada, 43 parsel",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

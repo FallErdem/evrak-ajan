@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Hukuki Görüş Talebi",
-  "sayi": "E-65859045-045.02-2532379",
-  "tarih": "14.01.2026",
+  "konu": "Bilgi Edinme Talebinin Reddi Hk.",
+  "sayi": "E-65859045-622.01-2370868",
+  "tarih": "31.03.2026",
   "ilgi": {
-    "tarih": "22.12.2025",
-    "sayi": "E-55461037-045.02-1860690"
+    "tarih": "25.03.2026",
+    "sayi": "E-55461037-622.01-626675"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Hukuki Görüş",
-    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
+    "Konu": "Bilgi Edinme Talebinin Reddi",
+    "Ortak iş": "Bilgi Edinme Talebinin Reddi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Bilgi Edinme Talebinin Reddi kapsamındaki bilgilerin paylaşılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +56,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Hukuki Görüş"
+    "Bilgi Edinme Talebinin Reddi"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "204.01",
-    "ad": "Doçentlik",
+    "kod": "201",
+    "ad": "Seçim ve Atama İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Doçentlik Talebi",
-  "sayi": "E-10213773-204.01-8156583",
-  "tarih": "25.02.2026",
+  "konu": "Senato Üyeliği Seçimi",
+  "sayi": "E-65859045-201-2322577",
+  "tarih": "08.01.2026",
   "ilgi": {
-    "tarih": "14.01.2026",
-    "sayi": "E-42218640-204.01-2861887"
+    "tarih": "03.12.2025",
+    "sayi": "E-42218640-201-7438922"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Doçentlik",
-    "Ortak iş": "Doçentlik konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Doçentlik konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Senato Üyeliği Seçimi",
+    "Ortak iş": "Senato Üyeliği Seçimi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Senato Üyeliği Seçimi konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,5 +56,7 @@
     "Gazi Üniversitesi",
     "Gazi"
   ],
-  "anahtar_terimler": []
+  "anahtar_terimler": [
+    "Senato Üyeliği Seçimi"
+  ]
 }

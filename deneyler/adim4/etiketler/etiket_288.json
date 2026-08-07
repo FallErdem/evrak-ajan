@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf YAVUZ",
-    "adres": "Emniyet Mahallesi Nergis Caddesi No: 101/1 Yenimahalle/ANKARA",
+    "ad": "Serkan AYDIN",
+    "adres": "Batıkent Mahallesi Akasya Sokağı No: 62/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,17 +30,17 @@
     "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "Ruhsat Kararına İtiraz",
+  "konu": "Ruhsat Sureti Talebi",
   "sayi": null,
-  "tarih": "25.02.2026",
+  "tarih": "10.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 3
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Ruhsat Kararına İtiraz",
+    "İtiraz konusu": "Ruhsat Sureti",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -57,7 +57,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Kararına İtiraz",
+    "Ruhsat Sureti",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

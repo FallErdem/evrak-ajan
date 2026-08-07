@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten ATEŞ",
-    "adres": "İvedik Mahallesi Lale Caddesi No: 110/23 Yenimahalle/ANKARA",
+    "ad": "Mehmet UÇAR",
+    "adres": "Ergazi Mahallesi Ceviz Sokağı No: 26/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,21 +22,21 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
     "saklama_suresi": "10"
   },
-  "konu": "CİMER Başvurusu Hk.",
+  "konu": "Çöp Toplama Talebi",
   "sayi": null,
-  "tarih": "30.04.2026",
+  "tarih": "28.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "CİMER Başvurusu",
+    "Talep": "Çöp Toplama",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
@@ -46,10 +46,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "CİMER Başvurusu"
+    "Çöp Toplama"
   ]
 }

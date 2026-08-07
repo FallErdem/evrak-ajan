@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep YILMAZ",
-    "adres": "Emniyet Mahallesi Lale Caddesi No: 62/15 Yenimahalle/ANKARA",
+    "ad": "Sevgi KARA",
+    "adres": "Ergazi Mahallesi Menekşe Caddesi No: 77/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,18 +30,18 @@
     "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+  "konu": "İtfaiye Uygunluk Raporu Talebi",
   "sayi": null,
-  "tarih": "26.01.2026",
+  "tarih": "08.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
-    "Sorun": "yangın merdiveni kapalı tutuluyor",
-    "Yer": "Emniyet Mahallesi",
+    "Şikâyet konusu": "İtfaiye Uygunluk Raporu",
+    "Sorun": "yerinde inceleme için gelmesi gereken ekip iki kez randevuya gelmedi",
     "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Talep": "sorunun giderilmesi",
+    "Yer": "Ergazi Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "yangın merdiveni kapalı tutuluyor",
-    "Emniyet Mahallesi",
+    "İtfaiye Uygunluk Raporu",
     "yaklaşık kırk gündür",
-    "sorunun giderilmesi"
+    "sorunun giderilmesi",
+    "Ergazi Mahallesi"
   ]
 }

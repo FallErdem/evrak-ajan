@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ramazan AVCI",
-    "adres": "Çiğdemtepe Mahallesi Erguvan Sokağı No: 52/5 Yenimahalle/ANKARA",
+    "ad": "Gamze DUMAN",
+    "adres": "Yakacık Mahallesi Lale Caddesi No: 80/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
     "saklama_suresi": "10"
   },
-  "konu": "Onaylı Örnek Talebi",
+  "konu": "Bağış Makbuzu Talebi",
   "sayi": null,
-  "tarih": "22.05.2026",
+  "tarih": "19.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Onaylı Örnek",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Bağış Makbuzu",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +46,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Onaylı Örnek",
-    "resmî işlemlerde kullanılmak üzere"
+    "Bağış Makbuzu"
   ]
 }

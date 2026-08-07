@@ -5,44 +5,43 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Emre DEMIR",
-    "adres": "Çiğdemtepe Mahallesi Ceviz Caddesi No: 47/8 Yenimahalle/ANKARA",
+    "ad": "Aslı DOĞAN",
+    "adres": "Barıştepe Mahallesi Kestane Caddesi No: 116/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022431126",
-    "bolum": "Diş Hekimliği Fakültesi",
-    "sinif": "2"
+    "ogrenci_no": "2024317782",
+    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
+    "sinif": "3"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Öğrenci Toplulukları, Birlikleri vb. Hakkında Şikâyet",
+  "konu": "Mezuniyet Tarihinin Düzeltilmesi",
   "sayi": null,
-  "tarih": "27.02.2026",
+  "tarih": "14.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Öğrenci Toplulukları, Birlikleri vb. Hakkında Şikâyet",
-    "Sorun": "öğrenci toplulukları, birlikleri vb. hakkındaki talebime yazılı cevap verilmedi",
-    "Yer": "Gölbaşı Yerleşkesi",
-    "Süre": "yaklaşık iki aydır",
+    "Şikâyet konusu": "Mezuniyet Tarihinin Düzeltilmesi",
+    "Sorun": "geçici mezuniyet belgem iş başvuru süresi içinde verilmedi",
+    "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -54,13 +53,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Gölbaşı Yerleşkesi",
-    "yaklaşık iki aydır",
+    "Mezuniyet Tarihinin Düzeltilmesi",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

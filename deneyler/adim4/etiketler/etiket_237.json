@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Aslı KARACA",
-    "adres": "Şentepe Mahallesi Manolya Sokak No: 36/11 Yenimahalle/ANKARA",
+    "ad": "Selin AYDIN",
+    "adres": "Yeşilevler Mahallesi Papatya Caddesi No: 67/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "Bursluluk Başvurusu",
+  "konu": "Diploma İkinci Nüsha Talebi",
   "sayi": null,
-  "tarih": "10.03.2026",
+  "tarih": "24.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bursluluk",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Diploma İkinci Nüsha",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,6 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "mağduriyetin giderilmesi bakımından"
+    "Diploma İkinci Nüsha",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

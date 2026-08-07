@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Mal Alım İşi Başvurusu Hk.",
-  "sayi": "E-10213773-934.01-8250259",
-  "tarih": "06.05.2026",
+  "konu": "Evrak Örneğinin Gönderilmesi",
+  "sayi": "E-24316060-622.02-62233520",
+  "tarih": "15.01.2026",
   "ilgi": {
-    "tarih": "25.03.2026",
-    "sayi": "E-14588481-934.01-6760738"
+    "tarih": "19.12.2025",
+    "sayi": "E-91571118-622.02-6715757"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Mal Alım İşi Başvurusu",
+    "Talep": "Evrak Örneğinin Gönderilmesi",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,12 +54,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
+    "Özel Öğretim Kurumları Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Mal Alım İşi Başvurusu",
+    "Evrak Örneğinin Gönderilmesi",
     "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

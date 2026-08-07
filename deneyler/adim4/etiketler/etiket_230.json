@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_egitim_rehberlik_sb",
-    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-    "detsis_no": "87302975",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Esra GÜLER",
-    "adres": "Uğur Mumcu Mahallesi Nergis Caddesi No: 11/24 Yenimahalle/ANKARA",
+    "ad": "Sevgi ÇELIK",
+    "adres": "Gayret Mahallesi Nergis Sokağı No: 95/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,24 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "160.01.02",
-    "ad": "Kaynaştırma Eğitimi",
+    "kod": "135.03",
+    "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Kaynaştırma Eğitimi Hakkında Şikâyet",
+  "konu": "Kurs Yeri Tahsisi",
   "sayi": null,
-  "tarih": "29.04.2026",
+  "tarih": "01.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kaynaştırma Eğitimi Hakkında Şikâyet",
-    "Sorun": "kaynaştırma eğitimi konusundaki başvurum sonuçlandırılmadı",
-    "Yer": "okul servis güzergâhı",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Kurs Yeri Tahsisi",
+    "Sorun": "kurs saatleri duyurulandan farklı uygulanıyor",
+    "Süre": "bir aydan uzun süredir",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -51,13 +50,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "Özel Öğretim Kurumları Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kaynaştırma Eğitimi Hakkında Şikâyet",
-    "okul servis güzergâhı",
-    "yaklaşık kırk gündür",
+    "Kurs Yeri Tahsisi",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

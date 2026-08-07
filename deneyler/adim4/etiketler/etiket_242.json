@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,32 +23,32 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_parantez": "Hukuk İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "752.01",
-    "ad": "Kamulaştırma",
-    "saklama_suresi": "B"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Kamu Yararı Kararı Hk.",
-  "sayi": "E-10213773-752.01-8277111",
-  "tarih": "26.05.2026",
+  "konu": "Uygulamanın Hukuka Uygunluğu Hk.",
+  "sayi": "E-24304062-045.02-62434875",
+  "tarih": "05.05.2026",
   "ilgi": {
-    "tarih": "12.05.2026",
-    "sayi": "E-87730597-752.01-1364917"
+    "tarih": "31.03.2026",
+    "sayi": "E-10578106-045.02-3897379"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 3
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Kamulaştırma kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Hukuki kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan yıl sonunda bildirilmesi"
+    "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -58,7 +58,7 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

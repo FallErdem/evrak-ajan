@@ -5,39 +5,39 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "98244303",
+    "detsis_no": "17311665",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Personel Dairesi Başkanlığı",
+  "muhatap_makam": "Genel Sekreterlik",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "204.01",
-    "ad": "Doçentlik",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Doçentlik Hakkında Görüş Talebi",
-  "sayi": "E-98244303-204.01-7981661",
-  "tarih": "20.03.2026",
+  "konu": "Kararın İlgililere Tebliği",
+  "sayi": "E-17311665-050.04-5262202",
+  "tarih": "29.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Doçentlik",
+    "Konu": "Kararlar",
     "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -49,7 +49,7 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],

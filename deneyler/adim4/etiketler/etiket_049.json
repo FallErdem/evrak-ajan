@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Onur ŞAHIN",
-    "adres": "Ergazi Mahallesi Akasya Sokak No: 46/7 Yenimahalle/ANKARA",
+    "ad": "Yusuf KORKMAZ",
+    "adres": "Ergazi Mahallesi Çınar Sokağı No: 120/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,15 +30,14 @@
     "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
+  "konu": "Halk Eğitim Kursu Açılması Talebi",
   "sayi": null,
-  "tarih": "13.05.2026",
+  "tarih": "28.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
-    "Sorun": "yaygın eğitim kursları işlemlerinde uzun süredir aksama yaşanıyor",
-    "Yer": "okul servis güzergâhı",
+    "Şikâyet konusu": "Halk Eğitim Kursu Açılması",
+    "Sorun": "kurs saatleri duyurulandan farklı uygulanıyor",
     "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
@@ -55,8 +54,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yaygın Eğitim Kursları Hakkında Şikâyet",
-    "okul servis güzergâhı",
+    "Halk Eğitim Kursu Açılması",
     "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]

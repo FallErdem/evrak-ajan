@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,22 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.10",
-    "ad": "Adres ve Numaralandırma",
+    "kod": "115.01.08",
+    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
     "saklama_suresi": "B"
   },
-  "konu": "Numarataj Belgesi Talebi",
-  "sayi": "E-55461037-115.02.10-1932426",
-  "tarih": "27.05.2026",
-  "ilgi": {
-    "tarih": "24.04.2026",
-    "sayi": "E-18426575-115.02.10-2978963"
-  },
+  "konu": "İfraz ve Tevhid Talebi",
+  "sayi": "E-39985474-115.01.08-4228174",
+  "tarih": "24.03.2026",
+  "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Numarataj Belgesi",
-    "Ortak iş": "Numarataj Belgesi konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Numarataj Belgesi konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "İfraz ve Tevhid",
+    "Ortak iş": "İfraz ve Tevhid konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "İfraz ve Tevhid konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +53,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Numarataj Belgesi"
+    "İfraz ve Tevhid"
   ]
 }

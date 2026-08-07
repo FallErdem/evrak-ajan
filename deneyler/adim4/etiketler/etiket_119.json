@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,20 +23,20 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "104.01",
-    "ad": "Program Açma",
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
     "saklama_suresi": "15"
   },
-  "konu": "Kontenjan Talebi",
-  "sayi": "E-32625594-104.01-45977277",
-  "tarih": "17.02.2026",
+  "konu": "Performans Göstergesi Verisi Talebi",
+  "sayi": "E-32625594-602.04-57536861",
+  "tarih": "08.01.2026",
   "ilgi": {
-    "tarih": "19.01.2026",
-    "sayi": "E-43123369-104.01-3162881"
+    "tarih": "31.12.2025",
+    "sayi": "E-39985474-602.04-4149196"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -53,7 +53,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],

@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Personel Dairesi Başkanlığı",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "201",
-    "ad": "Seçim ve Atama İşleri",
-    "saklama_suresi": "15"
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Seçim ve Atama İşleri Talebi",
-  "sayi": "E-65859045-201-2588048",
-  "tarih": "30.04.2026",
+  "konu": "Sınav Gözetmeni Görevlendirmesi",
+  "sayi": "E-55461037-106-623876",
+  "tarih": "20.03.2026",
   "ilgi": {
-    "tarih": "02.04.2026",
-    "sayi": "E-42218640-201-2939993"
+    "tarih": "16.02.2026",
+    "sayi": "E-86488853-106-4037071"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Seçim ve Atama İşleri",
-    "Ortak iş": "Seçim ve Atama İşleri konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Seçim ve Atama İşleri konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Sınav Gözetmeni Görevlendirmesi",
+    "Ortak iş": "Sınav Gözetmeni Görevlendirmesi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Sınav Gözetmeni Görevlendirmesi konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,11 +52,11 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Seçim ve Atama İşleri"
+    "Sınav Gözetmeni Görevlendirmesi"
   ]
 }

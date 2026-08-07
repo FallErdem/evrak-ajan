@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yapi_kontrol",
-    "birim_adi": "Yapı Kontrol Müdürlüğü",
-    "detsis_no": "53265760",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,47 +23,43 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "İdari Davalar Hk.",
-  "sayi": "E-24432702-641.04-11034543",
-  "tarih": "21.01.2026",
-  "ilgi": {
-    "tarih": "09.12.2025",
-    "sayi": "E-53265760-641.04-1746925"
-  },
+  "konu": "Sempozyum Duyurusu",
+  "sayi": "E-10213773-051-18860411",
+  "tarih": "06.01.2026",
+  "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "İdari Davalar kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Toplantı ve Etkinlik İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların mali yıl sonunda bildirilmesi"
+    "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
     2
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "tarih_tutarsiz",
+  "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yapı Kontrol Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "sonuçların mali yıl sonunda bildirilmesi"
+    "uygulamanın ilgililere duyurulması"
   ]
 }

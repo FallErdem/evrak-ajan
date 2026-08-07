@@ -5,45 +5,44 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Meryem GÜNEŞ",
-    "adres": "İvedik Mahallesi Çınar Caddesi No: 103/10 Yenimahalle/ANKARA",
+    "ad": "Havva GÜNEŞ",
+    "adres": "Serhat Mahallesi Papatya Sokağı No: 62/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019468200",
+    "ogrenci_no": "2025421480",
     "bolum": "İktisadi ve İdari Bilimler Fakültesi",
-    "sinif": "3"
+    "sinif": "2"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Katkı Payları / Öğrenim Ücretleri Hakkında Şikâyet",
+  "konu": "Araştırma Talebinin Reddi Hk.",
   "sayi": null,
-  "tarih": "19.01.2026",
+  "tarih": "01.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Katkı Payları / Öğrenim Ücretleri Hakkında Şikâyet",
-    "Sorun": "kayıt işlemim sistemde görünmüyor",
-    "Yer": "Merkez Yerleşke yemekhanesi",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Araştırma Talebinin Reddi",
+    "Sorun": "araştırma iznim gerekçe gösterilmeden reddedildi",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,14 +53,13 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "kayıt işlemim sistemde görünmüyor",
-    "Merkez Yerleşke yemekhanesi",
-    "yaklaşık üç haftadır",
+    "Araştırma Talebinin Reddi",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

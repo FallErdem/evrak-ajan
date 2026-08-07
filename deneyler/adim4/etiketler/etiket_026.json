@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Murat ARSLAN",
-    "adres": "Serhat Mahallesi Yasemin Sokağı No: 111/24 Yenimahalle/ANKARA",
+    "ad": "Serkan KILIÇ",
+    "adres": "Ergazi Mahallesi Sümbül Sokağı No: 5/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
-  "belge_turu": "itiraz",
-  "aile": "itiraz",
+  "belge_turu": "sikayet",
+  "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
@@ -26,41 +26,37 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Bilgi Edinme, Talep ve Şikayetler Kararına İtiraz",
+  "konu": "İdari Para Cezasına İtiraz",
   "sayi": null,
-  "tarih": "11.02.2026",
-  "ilgi": {
-    "tarih": "03.02.2026",
-    "sayi": "E-53265760-622.01-1773649"
-  },
-  "ek": {
-    "adet": 1,
-    "aciklama": "Başvuru evrakı",
-    "sayfa": 1
-  },
+  "tarih": "04.05.2026",
+  "ilgi": null,
+  "ek": null,
   "somut_bilgiler": {
-    "İtiraz konusu": "Bilgi Edinme, Talep ve Şikayetler Kararına İtiraz",
-    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
-    "Talep": "kararın yeniden değerlendirilmesi"
+    "Şikâyet konusu": "İdari Para Cezasına İtiraz",
+    "Sorun": "itirazım otuz gün içinde cevaplanmadı",
+    "Süre": "yaklaşık üç haftadır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
     2
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "ek_beyani_yanlis",
+  "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Yapı Kontrol Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "talep olumsuz sonuçlandırılmıştır",
-    "kararın yeniden değerlendirilmesi"
+    "İdari Para Cezasına İtiraz",
+    "itirazım otuz gün içinde cevaplanmadı",
+    "yaklaşık üç haftadır",
+    "sorunun giderilmesi"
   ]
 }

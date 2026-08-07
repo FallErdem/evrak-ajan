@@ -12,38 +12,38 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ortaöğretim Şube Müdürlüğü",
+    "kurum_adi": "Nurbahçe Ortaokulu Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "63971525",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10082751",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Strateji Geliştirme Şube Müdürlüğü",
-  "muhatap_parantez": null,
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Yatırım Programı Hk.",
-  "sayi": "E-63971525-602.07-1279047",
-  "tarih": "04.05.2026",
+  "konu": "Ürün Numunesi Talebi",
+  "sayi": "E-10082751-934.01-3397",
+  "tarih": "06.05.2026",
   "ilgi": {
-    "tarih": "09.04.2026",
-    "sayi": "E-14588481-602.07-6770037"
+    "tarih": "17.04.2026",
+    "sayi": "E-14588481-934.01-5481344"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yatırım Programı",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Ürün Numunesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
     "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
@@ -58,8 +58,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yatırım Programı",
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "Ürün Numunesi",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

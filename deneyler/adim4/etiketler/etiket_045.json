@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,19 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Hukuki Görüş Talebi",
-  "sayi": "E-65859045-045.02-2579563",
-  "tarih": "14.04.2026",
-  "ilgi": null,
+  "konu": "Genelge Görüşü Talebi",
+  "sayi": "E-39985474-010.06-4280414",
+  "tarih": "18.05.2026",
+  "ilgi": {
+    "tarih": "20.04.2026",
+    "sayi": "E-55461037-010.06-641650"
+  },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Hukuki Görüş",
-    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
+    "Konu": "Genelge Görüşü",
+    "Ortak iş": "Genelge Görüşü konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Genelge Görüşü konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,6 +56,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Hukuki Görüş"
+    "Genelge Görüşü"
   ]
 }

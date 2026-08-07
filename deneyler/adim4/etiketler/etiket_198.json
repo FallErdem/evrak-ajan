@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Elif KESKIN",
-    "adres": "Ergazi Mahallesi Sümbül Sokağı No: 119/21 Yenimahalle/ANKARA",
+    "ad": "Burak KARACA",
+    "adres": "Ostim Mahallesi Zeytin Sokak No: 117/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022680553",
-    "bolum": "Matematik (Yüksek Lisans)",
-    "sinif": "2"
+    "ogrenci_no": "2019130354",
+    "bolum": "Kimya (Doktora)",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -33,15 +33,15 @@
     "ad": "Tez İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Tez Teslim Süresi Uzatım Talebi",
+  "konu": "Tez Konusu Değişikliği Talebi",
   "sayi": null,
-  "tarih": "24.03.2026",
+  "tarih": "06.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Tez Teslim Süresi Uzatım",
-    "Öğrenim bilgisi": "2019 yılı mezunu",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Tez Konusu Değişikliği",
+    "Öğrenim bilgisi": "2. sınıf öğrencisi",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Tez Teslim Süresi Uzatım",
-    "2019 yılı mezunu",
-    "sürecin tamamlanabilmesi için"
+    "Tez Konusu Değişikliği",
+    "2. sınıf öğrencisi"
   ]
 }

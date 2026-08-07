@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatma ARSLAN",
-    "adres": "Ostim Mahallesi Ihlamur Caddesi No: 36/8 Yenimahalle/ANKARA",
+    "ad": "Hasan TEKIN",
+    "adres": "Ragıpbey Mahallesi Çınar Sokak No: 15/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,30 +22,30 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Okul Aile Birlikleri Kararına İtiraz",
+  "konu": "Servis Saatlerinin Düzenlenmesi",
   "sayi": null,
-  "tarih": "12.03.2026",
+  "tarih": "14.05.2026",
   "ilgi": {
-    "tarih": "29.01.2026",
-    "sayi": "E-93213107-165.01-8026860"
+    "tarih": "14.04.2026",
+    "sayi": "E-21291472-802-6910013"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Okul Aile Birlikleri Kararına İtiraz",
+    "İtiraz konusu": "Servis Saatlerinin Düzenlenmesi",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,11 +56,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Okul Aile Birlikleri Kararına İtiraz",
+    "Servis Saatlerinin Düzenlenmesi",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

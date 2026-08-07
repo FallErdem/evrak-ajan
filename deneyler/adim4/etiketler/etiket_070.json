@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sevgi ÖZKAN",
-    "adres": "Ragıpbey Mahallesi Kestane Sokağı No: 89/12 Yenimahalle/ANKARA",
+    "ad": "Hatice POLAT",
+    "adres": "Ergazi Mahallesi Yasemin Sokağı No: 82/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,18 +30,18 @@
     "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "Ruhsat Hakkında Şikâyet",
+  "konu": "Mesul Müdür Değişikliği Bildirimi",
   "sayi": null,
-  "tarih": "17.02.2026",
+  "tarih": "21.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ruhsat Hakkında Şikâyet",
-    "Sorun": "ruhsatsız işletme faaliyetini sürdürüyor",
-    "Yer": "Emniyet Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
+    "Şikâyet konusu": "Mesul Müdür Değişikliği",
+    "Sorun": "devir talebim eksik evrak denilerek iade edildi ancak eksik belirtilmedi",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
-    "Talep": "sorunun giderilmesi"
+    "Talep": "sorunun giderilmesi",
+    "Yer": "Pamuklar Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,10 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Hakkında Şikâyet",
-    "ruhsatsız işletme faaliyetini sürdürüyor",
-    "Emniyet Mahallesi",
-    "yaklaşık kırk gündür",
-    "sorunun giderilmesi"
+    "Mesul Müdür Değişikliği",
+    "bir aydan uzun süredir",
+    "sorunun giderilmesi",
+    "Pamuklar Mahallesi"
   ]
 }

@@ -5,42 +5,42 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ramazan KESKIN",
-    "adres": "Ergazi Mahallesi Erguvan Caddesi No: 85/20 Yenimahalle/ANKARA",
+    "ad": "Ayşe ÖZKAN",
+    "adres": "Pamuklar Mahallesi Zeytin Sokağı No: 35/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021627411",
-    "bolum": "Matematik (Yüksek Lisans)",
-    "sinif": "4"
+    "ogrenci_no": "2019724441",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Dondurma Talebi",
+  "konu": "Öğrenci Topluluğu Kurulma Talebi",
   "sayi": null,
-  "tarih": "06.03.2026",
+  "tarih": "09.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Dondurma",
-    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Talep": "Öğrenci Topluluğu Kurulma",
+    "Öğrenim bilgisi": "2024 yılı mezunu",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
@@ -50,12 +50,12 @@
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Dondurma",
-    "3. sınıf öğrencisi"
+    "Öğrenci Topluluğu Kurulma",
+    "2024 yılı mezunu"
   ]
 }

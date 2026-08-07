@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Osman DEMIR",
-    "adres": "Beştepe Mahallesi Zeytin Sokağı No: 28/4 Yenimahalle/ANKARA",
+    "ad": "Gamze POLAT",
+    "adres": "Serhat Mahallesi Sümbül Caddesi No: 56/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,7 +22,7 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
@@ -30,18 +30,18 @@
     "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "Ruhsat Hakkında Şikâyet",
+  "konu": "Mesul Müdür Değişikliği Bildirimi",
   "sayi": null,
-  "tarih": "11.02.2026",
+  "tarih": "02.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ruhsat Hakkında Şikâyet",
-    "Sorun": "işyeri ruhsatta belirtilen faaliyet dışında çalışıyor",
-    "Yer": "Emniyet Mahallesi",
-    "Süre": "yaklaşık iki aydır",
+    "Şikâyet konusu": "Mesul Müdür Değişikliği",
+    "Sorun": "komşumdaki işyeri ruhsatsız çalıştığı hâlde denetlenmiyor",
+    "Süre": "geçtiğimiz aydan bu yana",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Talep": "sorunun giderilmesi",
+    "Yer": "Kaletepe Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,13 +51,13 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Hakkında Şikâyet",
-    "Emniyet Mahallesi",
-    "yaklaşık iki aydır",
-    "sorunun giderilmesi"
+    "Mesul Müdür Değişikliği",
+    "geçtiğimiz aydan bu yana",
+    "sorunun giderilmesi",
+    "Kaletepe Mahallesi"
   ]
 }

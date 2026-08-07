@@ -5,45 +5,45 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "kurum_adi": "Personel Dairesi Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "98244303",
+    "detsis_no": "42218640",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_makam": "Mühendislik Fakültesi Dekanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
-    "saklama_suresi": "10"
+    "kod": "104.01",
+    "ad": "Program Açma",
+    "saklama_suresi": "15"
   },
-  "konu": "Nakil İşlemi Hk.",
-  "sayi": "E-98244303-302.11-7920657",
-  "tarih": "08.01.2026",
+  "konu": "Program Açma Başvurusu Hk.",
+  "sayi": "E-42218640-104.01-7515696",
+  "tarih": "06.03.2026",
   "ilgi": {
-    "tarih": "04.12.2025",
-    "sayi": "E-47014261-302.11-2133347"
+    "tarih": "22.01.2026",
+    "sayi": "E-43123369-104.01-6625099"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Nakil İşlemi",
+    "Talep": "Program Açma Başvurusu",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
     "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
@@ -54,12 +54,12 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Nakil İşlemi",
+    "Program Açma Başvurusu",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı"
   ]

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -27,28 +27,28 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
     "saklama_suresi": "15"
   },
-  "konu": "Genelgenin Duyurulması",
-  "sayi": "E-65859045-010.06-2543903",
-  "tarih": "05.02.2026",
+  "konu": "Uygulama Kontenjanı Bildirimi",
+  "sayi": "E-39985474-355.02-4250742",
+  "tarih": "17.04.2026",
   "ilgi": {
-    "tarih": "27.01.2026",
-    "sayi": "E-55461037-010.06-1877256"
+    "tarih": "14.04.2026",
+    "sayi": "E-55461037-355.02-638086"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Genelgeler kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Eğitim Fakülteleri İle İlişkiler kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

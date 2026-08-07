@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "104.01",
+    "ad": "Program Açma",
+    "saklama_suresi": "15"
   },
-  "konu": "Stajlar Hk.",
-  "sayi": "E-32625594-304.03-46017355",
-  "tarih": "02.03.2026",
+  "konu": "Program Açma Başvurusu Hk.",
+  "sayi": "E-32625594-104.01-57560230",
+  "tarih": "13.01.2026",
   "ilgi": {
-    "tarih": "13.02.2026",
-    "sayi": "E-43123369-304.03-3182164"
+    "tarih": "12.12.2025",
+    "sayi": "E-43123369-104.01-6588046"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Stajlar",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Program Açma Başvurusu",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -59,9 +59,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "Program Açma Başvurusu",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı"
   ]
 }

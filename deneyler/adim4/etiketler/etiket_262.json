@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Osman ERDOĞAN",
-    "adres": "Batıkent Mahallesi Zeytin Caddesi No: 77/2 Yenimahalle/ANKARA",
+    "ad": "Sevgi AKSOY",
+    "adres": "Barıştepe Mahallesi Menekşe Sokak No: 33/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021747440",
-    "bolum": "Fen Fakültesi Matematik",
-    "sinif": "3"
+    "ogrenci_no": "2024228408",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,18 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Denklik Başvurusu",
+  "konu": "İngilizce Transkript Talebi",
   "sayi": null,
-  "tarih": "06.04.2026",
+  "tarih": "10.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma Denklik",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "İngilizce Transkript",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -54,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Diploma Denklik",
-    "ilgili kuruma sunulmak üzere"
+    "İngilizce Transkript",
+    "lisansüstü programa kayıtlı",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

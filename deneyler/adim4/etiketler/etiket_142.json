@@ -5,42 +5,42 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Personel Dairesi Başkanlığı",
+    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "42218640",
+    "detsis_no": "17311665",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Genel Sekreterlik",
+  "muhatap_makam": "Mühendislik Fakültesi Dekanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Hukuki Mütalaanın Gönderilmesi",
-  "sayi": "E-42218640-045.02-2919855",
-  "tarih": "13.03.2026",
+  "konu": "Askerlik Sebebiyle İzin",
+  "sayi": "E-17311665-302.08-5347473",
+  "tarih": "22.05.2026",
   "ilgi": {
-    "tarih": "18.02.2026",
-    "sayi": "E-82642947-045.02-3399237"
+    "tarih": "23.04.2026",
+    "sayi": "E-43123369-302.08-6706990"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Hukuki Mütalaanın Gönderilmesi",
+    "Talep": "Askerlik Sebebiyle İzin",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
@@ -54,12 +54,12 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Hukuki Mütalaanın Gönderilmesi",
+    "Askerlik Sebebiyle İzin",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı"
   ]

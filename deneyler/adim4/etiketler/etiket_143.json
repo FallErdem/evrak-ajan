@@ -5,24 +5,24 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
     "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "17311665",
+    "detsis_no": "98244303",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Mühendislik Fakültesi Dekanlığı",
+  "muhatap_makam": "Gazi Eğitim Fakültesi Dekanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
@@ -32,19 +32,19 @@
     "saklama_suresi": "10"
   },
   "konu": "Staj Değerlendirme Formunun Gönderilmesi",
-  "sayi": "E-17311665-773-4538743",
-  "tarih": "07.05.2026",
+  "sayi": "E-98244303-773-1379242",
+  "tarih": "21.05.2026",
   "ilgi": {
-    "tarih": "27.04.2026",
-    "sayi": "E-43123369-773-3238969"
+    "tarih": "17.04.2026",
+    "sayi": "E-86488853-773-4092286"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Staj Değerlendirme Formunun Gönderilmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,13 +54,14 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
     "Staj Değerlendirme Formunun Gönderilmesi",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

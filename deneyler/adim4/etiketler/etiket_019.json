@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çankaya Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "90226917",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -23,25 +23,25 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.02",
-    "ad": "Satış ve Kiralama",
+    "kod": "115.02.04",
+    "ad": "Yapı Ruhsatı",
     "saklama_suresi": "B"
   },
-  "konu": "Satış ve Kiralama Hakkında Görüş Talebi",
-  "sayi": "E-90226917-756.02-3940486",
-  "tarih": "14.05.2026",
+  "konu": "Müteahhit Değişikliği Bildirimi",
+  "sayi": "E-55461037-115.02.04-607355",
+  "tarih": "19.02.2026",
   "ilgi": {
-    "tarih": "31.03.2026",
-    "sayi": "E-87730597-756.02-1350054"
+    "tarih": "20.01.2026",
+    "sayi": "E-18426575-115.02.04-600769"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Satış ve Kiralama",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Yapı Ruhsatı",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,11 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Satış ve Kiralama",
+    "Yapı Ruhsatı",
     "konu hakkında görüş bildirilmesi"
   ]
 }

@@ -5,55 +5,56 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Merkez Ticaret A.Ş.",
+    "kurum_adi": "Şafak Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Susuz Mahallesi Papatya Sokak No: 67/21 Yenimahalle/ANKARA",
+    "adres": "İvedik Mahallesi Menekşe Sokak No: 111/22 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
-  "belge_turu": "dilekce",
-  "aile": "belge_talebi",
+  "belge_turu": "bilgi_edinme",
+  "aile": "bilgi_edinme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "815",
+    "ad": "Sosyal Yardım İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Emlak Vergisi Muafiyet Başvurusu",
-  "sayi": "2026/112",
-  "tarih": "14.01.2026",
+  "konu": "Yardım Başvurusunun Değerlendirilmesi",
+  "sayi": "2026/101",
+  "tarih": "15.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Emlak Vergisi Muafiyet",
-    "Taşınmaz": "50646 ada, 17 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "Talep": "Sosyal Yardım İşleri konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
   "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Muafiyet",
-    "50646 ada, 17 parsel",
-    "sürecin tamamlanabilmesi için"
+    "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "posta yoluyla adresime"
   ]
 }

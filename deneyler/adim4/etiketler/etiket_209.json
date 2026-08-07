@@ -5,63 +5,61 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "kurum_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "59553370",
+    "detsis_no": "85330682",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
-    "saklama_suresi": "10"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Engellilere Yönelik Hizmetler Hk.",
-  "sayi": "E-59553370-120.02-977372",
-  "tarih": "16.03.2026",
+  "konu": "Zamanaşımına Uğramış Alacak Hk.",
+  "sayi": "E-85330682-855-3501451",
+  "tarih": "05.01.2026",
   "ilgi": {
-    "tarih": "03.02.2026",
-    "sayi": "E-85330682-120.02-1614509"
+    "tarih": "02.01.2026",
+    "sayi": "E-43195403-855-1875344"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Engellilere Yönelik Hizmetler",
+    "Talep": "Zamanaşımına Uğramış Alacak",
     "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
     3
   ],
   "pdf_bicimi": "taranmis",
-  "kusur": "sdp_uyumsuz",
+  "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Engellilere Yönelik Hizmetler",
+    "Zamanaşımına Uğramış Alacak",
     "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "ilgide kayıtlı yazı"
   ]
 }

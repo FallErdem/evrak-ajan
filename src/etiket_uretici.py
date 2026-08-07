@@ -47,6 +47,7 @@ class SdpKodu:
     kurum_tipi: str
     vatandas_konusu: bool
     ornek_konular: list[str]
+    sikayet_cumleleri: list[str] = field(default_factory=list)
 
     @property
     def grup_dugumu_mu(self) -> bool:
@@ -112,6 +113,8 @@ def sdp_yukle(yol: Path) -> dict[str, SdpKodu]:
             kurum_tipi=s["kurum_tipi"],
             vatandas_konusu=(s["vatandas_konusu"] == "evet"),
             ornek_konular=[k.strip() for k in s["ornek_konular"].split("|") if k.strip()],
+            sikayet_cumleleri=[c.strip() for c in
+                               s.get("sikayet_cumleleri", "").split("|") if c.strip()],
         )
     return sonuc
 
@@ -653,10 +656,17 @@ class EtiketUretici:
         if doymamis:
             return min(doymamis, key=lambda k: (self.konu_sayaci[k], self.h.rnd.random()))
 
-        # 2. Yoksa kod adından türet. Doymuş bir örnek konuyu tekrar kullanmak
-        #    yerine türetmeyi seçiyoruz: türetilen konu tanım gereği türle
-        #    uyumlu ve sayıca sınırsız. Türle UYUMSUZ bir örnek konuya düşmek
-        #    ise etiketi kendi içinde çelişkili yapardı.
+        # 2. Türle uyumlu kalmadıysa kodun DİĞER konularına düş.
+        #    Kod başına artık 6-7 konu var ve çoğu nötr isim tamlaması
+        #    ("Muayene ve Kabul İşlemleri"), her türe oturuyor. Kod adından
+        #    türetmek ise yapay başlık üretiyordu ("Mal Alım İşi Hk.").
+        digerleri = [k for k in kod.ornek_konular
+                     if self.konu_sayaci[k] < self.konu_azami]
+        if digerleri:
+            return min(digerleri,
+                       key=lambda k: (self.konu_sayaci[k], self.h.rnd.random()))
+
+        # 3. Son çare: kod adından türet. 6-7 konunun hepsi doyduysa.
         for i in range(12):
             t = _konu_turet(kod.ad, belge_turu, i)
             if self.konu_sayaci[t] < self.konu_azami:
@@ -703,7 +713,9 @@ class EtiketUretici:
                     if m != gonderen_adi]
             geregi += self.h.karistir(ayni)[:1]
         bilgi = _DAGITIM_BILGI.get(gonderen_adi, [])
-        return {"geregi": geregi, "bilgi": bilgi}
+        # Bilgi kopyası gerçek bir üst/dış makama mı gidiyor?
+        ust_var = any(b not in _KENDI_ORGANI.get(gonderen_adi, []) for b in bilgi)
+        return {"geregi": geregi, "bilgi": bilgi, "ust_makam_var": ust_var}
 
     def _somut_makam(self, kurum: Kurum, makam: str, alici_birim: Birim) -> str:
         """Çoğul makam tanımını somut bir birime çevirir.
@@ -875,11 +887,15 @@ class EtiketUretici:
             # hata: "kaldırım işgali" şikâyeti üniversiteye yazılmıştı;
             # kaldırım belediyenin işidir, üniversiteye yazılmaz.
             return {"Şikâyet konusu": _talep_ifadesi(konu, kod.ad),
-                    "Sorun": h.sec(_sikayet_sorunu(kod.kod, kod.ad, kurum.kurum_tipi)),
-                    "Yer": _sikayet_yeri(h, kurum.kurum_tipi),
+                    "Sorun": h.sec(_sikayet_sorunu(kod, kurum.kurum_tipi)),
                     "Süre": h.sikayet_suresi(),
                     "Önceki başvuru": h.onceki_basvuru(),
-                    "Talep": "sorunun giderilmesi"}
+                    "Talep": "sorunun giderilmesi",
+                    # Yer alanı YALNIZCA fiziksel mekân şikâyetlerinde.
+                    # Katkı payı veya belge talebi bir idari işlemdir;
+                    # fiziksel bir mekânda geçmez.
+                    **({"Yer": _sikayet_yeri(h, kurum.kurum_tipi)}
+                       if kod.kod[:3] in _FIZIKSEL_MEKAN else {})}
 
         if aile == "bilgi_edinme":
             return {"Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
@@ -1020,7 +1036,12 @@ class EtiketUretici:
         if gonderen["tip"] == "kurum":
             ic = next((b for b in kurum.birimler
                        if b.birim_adi == gonderen["kurum_adi"]), None)
-            if ic is not None and ic.seviye == birim.seviye:
+            # İlçe müdürlüğü ve okul, kurumun İÇ BİRİMİ değil AST KURULUŞUDUR.
+            # birimler.csv'de aynı seviyede görünüyorlar ama DETSİS hiyerarşisi
+            # "İl MEM > İlçe MEM" diyor. Seviye eşitliğine bakıp "ayni"
+            # demek cevap anahtarını bozuyordu.
+            ast_kurulus = _AST_KURULUS.search(gonderen["kurum_adi"] or "")
+            if ic is not None and ic.seviye == birim.seviye and not ast_kurulus:
                 yon = "ayni"
 
         # Ödenek ve personel talebi yalnızca HİYERARŞİK ÜSTTEN istenir.
@@ -1051,9 +1072,18 @@ class EtiketUretici:
         dagitim = None
         if s.karma_kapanis:
             dagitim = self._dagitim_listesi(kurum, gonderen["kurum_adi"] or "")
-            # KARMA ancak dağıtımda hem üst hem ast makam varsa geçerli.
-            # Bütün muhataplar astsa kapanış yalnızca "rica" olur.
-            kapanis = "karma" if dagitim["bilgi"] else "rica"
+            # KARMA ancak "bilgi" listesindeki makam gönderene göre GERÇEK BİR
+            # ÜST veya DIŞ KURUM ise geçerli. Kurumun kendi organına bilgi
+            # göndermek arz yönü yaratmaz — Yükseköğretim Denetleme Kurulu
+            # YÖK'ün üstü değil, kendi organıdır (2547 s. Kanun m.8).
+            kapanis = "karma" if dagitim.get("ust_makam_var") else "rica"
+            dagitim.pop("ust_makam_var", None)
+            # Dağıtımlı yazının TEKİL MUHATABI OLMAZ. Hitap satırı
+            # "DAĞITIM YERLERİNE" olur; 19 gerçek yazının dağıtımlı
+            # olanlarının tamamında böyle. Alıcı birim `alici` bloğunda
+            # havale hedefi olarak zaten duruyor.
+            muhatap_makam = "DAĞITIM YERLERİNE"
+            muhatap_parantez = None
         elif vatandas_yazari or s.gonderen_tipi == "ozel_tuzel":
             kapanis = "arz"
         else:
@@ -1456,25 +1486,22 @@ _SIKAYET_VARSAYILAN = {
 }
 
 
-def _sikayet_sorunu(kod: str, kod_adi: str, kurum_tipi: str) -> list[str]:
-    """Şikâyet konusu SDP koduna bağlı seçilir.
+def _sikayet_sorunu(kod: "SdpKodu", kurum_tipi: str) -> list[str]:
+    """Şikâyet cümlesi CSV'deki sikayet_cumleleri sütunundan gelir.
 
-    Önce tam kod (115.02.01), sonra ana grup (115). İkisi de havuzda yoksa
-    KOD ADINDAN türetilir — genel havuza düşmek konu ile gövdeyi koparıyordu.
-    Ölçülen örnek: "210.01 Nakiller" kodlu şikâyetin gövdesinde servis şoförü
-    belge kontrolünden söz ediliyordu.
+    Önceki üç yöntem de yetersizdi:
+      1. Belge ailesine bağlı havuz -> kod ile içerik kopuktu
+      2. Ana gruba bağlı havuz      -> 115 kodun ancak yarısını kapsıyordu
+      3. Kod adından türetme        -> Türkçe bozuluyordu
+         ("nakiller işlemlerinde uzun süredir aksama yaşanıyor")
+
+    Artık 50 kodun her biri için elle yazılmış 3 doğal cümle var.
+    Üreteç şikâyeti zaten yalnızca o 50 koddan seçiyor; boş kalma
+    ihtimali düşük ama yedek havuz duruyor.
     """
-    for anahtar in (kod, kod[:3]):
-        if anahtar in _SIKAYET_KOD:
-            return _SIKAYET_KOD[anahtar]
-    # tr_kucult ZORUNLU: Python'un lower() metodu "İ" harfini "i̇" (i + ayrı
-    # nokta) yapar ve metinde "staj i̇şleri" gibi bozuk çıktı üretir.
-    ad = tr_kucult_basit(_PARANTEZ.sub("", kod_adi).strip())
-    return [
-        f"{ad} konusundaki başvurum sonuçlandırılmadı",
-        f"{ad} işlemlerinde uzun süredir aksama yaşanıyor",
-        f"{ad} hakkındaki talebime yazılı cevap verilmedi",
-    ]
+    if kod.sikayet_cumleleri:
+        return kod.sikayet_cumleleri
+    return _SIKAYET_VARSAYILAN.get(kurum_tipi, _SIKAYET_VARSAYILAN["belediye"])
 
 
 def _sikayet_yeri(h, kurum_tipi: str) -> str:
@@ -1604,3 +1631,26 @@ def _sirket_turu(kod: str) -> list[str]:
                    "205", "210", "215", "135", "198", "235", "245"):
         return ["Eğitim Hizmetleri Ltd. Şti.", "Danışmanlık Ltd. Şti."]
     return _SIRKET_GENEL
+
+
+# İlçe müdürlükleri ve okullar kurumun İÇ BİRİMİ değil AST KURULUŞUDUR.
+# birimler.csv'de aynı seviyede görünürler ama DETSİS hiyerarşisi
+# "İl MEM > İlçe MEM > Okul" der; yazışmada alıcı ÜST konumdadır.
+_AST_KURULUS = re.compile(r"İlçe|Okulu|Lisesi|Anaokulu|Ortaokulu", re.I)
+
+# Bir kurumun KENDİ ORGANI — bunlara bilgi kopyası göndermek arz yönü
+# yaratmaz. Yükseköğretim Denetleme Kurulu YÖK'ün üstü değil, kendi
+# organıdır (2547 s. Kanun m.8).
+_KENDI_ORGANI = {
+    "Yükseköğretim Kurulu Başkanlığı": ["Yükseköğretim Denetleme Kuruluna"],
+    "Millî Eğitim Bakanlığı": ["Bakanlık Makamına"],
+    "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı": ["Bakanlık Makamına"],
+}
+
+# Şikâyetin fiziksel bir mekânı ancak bu kod gruplarında olur.
+# 302.x (öğrenci işleri), 622.x (bilgi edinme), 855/858 (mali) idari
+# işlemdir; "Merkez Yerleşke yemekhanesi" gibi bir yer bilgisi anlamsız.
+_FIZIKSEL_MEKAN = frozenset({
+    "115", "155", "165", "170", "175", "180", "752", "755", "756",
+    "802", "807", "140", "205",
+})

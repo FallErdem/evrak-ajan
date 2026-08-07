@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "ozel_egitim_rehberlik_sb",
+    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "detsis_no": "87302975",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -22,8 +22,8 @@
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
       "İlçe Kaymakamlıklarına",
@@ -35,24 +35,24 @@
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
+    "kod": "160.01.02",
+    "ad": "Kaynaştırma Eğitimi",
     "saklama_suresi": "10"
   },
-  "konu": "Mal Alım İşi Listesinin Gönderilmesi",
-  "sayi": "E-10213773-934.01-8108496",
-  "tarih": "20.01.2026",
+  "konu": "Kaynaştırma Uygulaması Bilgi Talebi",
+  "sayi": "E-10213773-160.01.02-18989114",
+  "tarih": "02.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 3
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "142 kayıt",
-    "Ek 1": "Mal Alım İşi listesi",
+    "Dönem": "bahar dönemi",
+    "Sayı": "112 kayıt",
+    "Ek 1": "Kaynaştırma Eğitimi listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -65,14 +65,14 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
+    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
-    "142 kayıt",
-    "Mal Alım İşi listesi",
+    "bahar dönemi",
+    "112 kayıt",
+    "Kaynaştırma Eğitimi listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

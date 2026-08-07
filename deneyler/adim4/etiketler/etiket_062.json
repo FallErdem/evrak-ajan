@@ -12,14 +12,14 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Vizyon Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Kuzey Eğitim Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Şentepe Mahallesi Kestane Sokak No: 66/6 Yenimahalle/ANKARA",
+    "adres": "Gayret Mahallesi Akasya Sokağı No: 96/18 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
-  "belge_turu": "bilgi_edinme",
-  "aile": "bilgi_edinme",
+  "belge_turu": "itiraz",
+  "aile": "itiraz",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Gazi Üniversitesi",
@@ -27,23 +27,27 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
-    "saklama_suresi": "10"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "İzin Başvurusunun Değerlendirilmesi",
-  "sayi": "2026/314",
-  "tarih": "13.03.2026",
+  "konu": "Zorunlu Staj Başvurusu",
+  "sayi": "2026/282",
+  "tarih": "24.02.2026",
   "ilgi": null,
-  "ek": null,
+  "ek": {
+    "adet": 1,
+    "aciklama": "Başvuru evrakı",
+    "sayfa": 2
+  },
   "somut_bilgiler": {
-    "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İzin İşleri konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "posta yoluyla adresime"
+    "İtiraz konusu": "Zorunlu Staj",
+    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     2
   ],
   "pdf_bicimi": "metin_katmanli",
@@ -55,7 +59,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "posta yoluyla adresime"
+    "Zorunlu Staj",
+    "talep olumsuz sonuçlandırılmıştır",
+    "kararın yeniden değerlendirilmesi"
   ]
 }

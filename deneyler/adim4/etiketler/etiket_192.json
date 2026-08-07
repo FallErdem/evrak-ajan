@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Gamze ŞIMŞEK",
-    "adres": "İvedik Mahallesi Yasemin Sokağı No: 74/16 Yenimahalle/ANKARA",
+    "ad": "Şaban ERDOĞAN",
+    "adres": "Gayret Mahallesi Manolya Sokak No: 72/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025316850",
+    "ogrenci_no": "2021744423",
     "bolum": "Tıp Fakültesi",
-    "sinif": "1"
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Talebi",
+  "konu": "Kayıt Dondurma Talebi",
   "sayi": null,
-  "tarih": "06.04.2026",
+  "tarih": "12.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma",
-    "Öğrenim bilgisi": "2. sınıf öğrencisi",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Kayıt Dondurma",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "2. sınıf öğrencisi",
-    "resmî işlemlerde kullanılmak üzere"
+    "Kayıt Dondurma",
+    "lisansüstü programa kayıtlı",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

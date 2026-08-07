@@ -5,46 +5,45 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Pınar GÜLER",
-    "adres": "Çiğdemtepe Mahallesi Çınar Sokak No: 78/22 Yenimahalle/ANKARA",
+    "ad": "Yusuf KILIÇ",
+    "adres": "Serhat Mahallesi Çınar Sokak No: 111/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019472054",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "3"
+    "ogrenci_no": "2022360309",
+    "bolum": "İnşaat Mühendisliği",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "kod": "773",
+    "ad": "Staj İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Topluluğu Kurulma Talebi",
+  "konu": "Staj Süresinin Uzatılması Talebi",
   "sayi": null,
-  "tarih": "29.01.2026",
+  "tarih": "16.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 4
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Talep": "Öğrenci Topluluğu Kurulma",
-    "Öğrenim bilgisi": "2018 yılı mezunu",
+    "Talep": "Staj Süresinin Uzatılması",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
@@ -54,13 +53,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Öğrenci Topluluğu Kurulma",
-    "2018 yılı mezunu",
+    "Staj Süresinin Uzatılması",
     "sürecin tamamlanabilmesi için"
   ]
 }

@@ -5,19 +5,19 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Serkan UÇAR",
-    "adres": "Serhat Mahallesi Nergis Sokak No: 43/13 Yenimahalle/ANKARA",
+    "ad": "Sevgi ÇAKIR",
+    "adres": "Pamuklar Mahallesi Nergis Sokağı No: 112/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020833201",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "ogrenci_no": "2020892735",
+    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
     "sinif": "3"
   },
   "belge_turu": "itiraz",
@@ -25,28 +25,25 @@
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
-    "saklama_suresi": "B"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Denklik Kararına İtiraz",
+  "konu": "Staj Sigorta İşlemleri",
   "sayi": null,
-  "tarih": "02.04.2026",
-  "ilgi": {
-    "tarih": "16.03.2026",
-    "sayi": "E-17311665-102.03-4497366"
-  },
+  "tarih": "22.01.2026",
+  "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Denklik Kararına İtiraz",
+    "İtiraz konusu": "Staj Sigorta İşlemleri",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -59,12 +56,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Denklik Kararına İtiraz",
+    "Staj Sigorta İşlemleri",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sevgi KARACA",
-    "adres": "Batıkent Mahallesi Papatya Sokak No: 112/7 Yenimahalle/ANKARA",
+    "ad": "Nurten AKSOY",
+    "adres": "Çiğdemtepe Mahallesi Nergis Caddesi No: 4/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,23 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
-    "saklama_suresi": "B"
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
+    "saklama_suresi": "10"
   },
-  "konu": "Kısmi İskan Talebi",
+  "konu": "Atık Konteyneri Talebi",
   "sayi": null,
-  "tarih": "15.05.2026",
+  "tarih": "10.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kısmi İskan",
-    "Taşınmaz": "89378 ada, 22 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Atık Konteyneri",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,12 +46,11 @@
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Kısmi İskan",
-    "89378 ada, 22 parsel",
-    "sürecin tamamlanabilmesi için"
+    "Atık Konteyneri",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,31 +23,31 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Hukuk İşleri Müdürlüğü",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
+    "saklama_suresi": "10"
   },
-  "konu": "İdari Davalar Listesinin Gönderilmesi",
-  "sayi": "E-10213773-641.04-8163260",
-  "tarih": "02.03.2026",
+  "konu": "Talep Edilen Belgenin Gönderilmesi",
+  "sayi": "E-24312041-622.02-64732130",
+  "tarih": "04.05.2026",
   "ilgi": {
-    "tarih": "05.02.2026",
-    "sayi": "E-10578106-641.04-1652517"
+    "tarih": "20.04.2026",
+    "sayi": "E-26888327-622.02-1321502"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 3
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "mali yıl",
+    "Dönem": "yılın ilk yarısı",
     "Sayı": "35 kayıt",
-    "Ek 1": "İdari Davalar listesi",
+    "Ek 1": "Belge Talepleri listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,17 +57,17 @@
     2
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "tarih_tutarsiz",
+  "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "mali yıl",
+    "yılın ilk yarısı",
     "35 kayıt",
-    "İdari Davalar listesi",
+    "Belge Talepleri listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

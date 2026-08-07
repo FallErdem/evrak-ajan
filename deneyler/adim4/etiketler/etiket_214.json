@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Mustafa KARA",
-    "adres": "Şentepe Mahallesi Erguvan Caddesi No: 16/10 Yenimahalle/ANKARA",
+    "ad": "Havva POLAT",
+    "adres": "Susuz Mahallesi Yasemin Sokağı No: 106/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021457843",
-    "bolum": "Mimarlık Fakültesi",
-    "sinif": "4"
+    "ogrenci_no": "2025601566",
+    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Kayıt Süresi Uzatım Talebi",
+  "konu": "Geçici Mezuniyet Belgesi Talebi",
   "sayi": null,
-  "tarih": "05.05.2026",
+  "tarih": "07.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Süresi Uzatım",
+    "Talep": "Geçici Mezuniyet Belgesi",
     "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Süresi Uzatım",
+    "Geçici Mezuniyet Belgesi",
     "lisansüstü programa kayıtlı",
-    "mağduriyetin giderilmesi bakımından"
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

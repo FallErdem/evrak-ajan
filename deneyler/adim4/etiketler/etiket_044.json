@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Meryem KILIÇ",
-    "adres": "Uğur Mumcu Mahallesi Sümbül Sokağı No: 17/17 Yenimahalle/ANKARA",
+    "ad": "Ayşe YAVUZ",
+    "adres": "Gayret Mahallesi Ihlamur Caddesi No: 12/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,23 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
+  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
-    "saklama_suresi": "10"
+    "kod": "752.01",
+    "ad": "Kamulaştırma",
+    "saklama_suresi": "B"
   },
-  "konu": "Atık Konteyneri Talebi",
+  "konu": "Taşınmazın Kamulaştırma Kapsamına Alınması Talebi",
   "sayi": null,
-  "tarih": "15.04.2026",
+  "tarih": "19.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Atık Konteyneri",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Taşınmazın Kamulaştırma Kapsamına Alınması",
+    "Taşınmaz": "85818 ada, 38 parsel",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +47,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Atık Konteyneri",
-    "mağduriyetin giderilmesi bakımından"
+    "85818 ada, 38 parsel"
   ]
 }

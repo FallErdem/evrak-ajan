@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hüseyin DEMIR",
-    "adres": "Gayret Mahallesi Menekşe Caddesi No: 58/2 Yenimahalle/ANKARA",
+    "ad": "Nurten KARA",
+    "adres": "Ergazi Mahallesi Ceviz Caddesi No: 81/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,23 +26,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "İdari Para Cezasına İtiraz",
+  "konu": "CİMER Başvurusunun Değerlendirilmesi",
   "sayi": null,
-  "tarih": "10.04.2026",
+  "tarih": "10.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "İdari Para Cezasına İtiraz",
+    "İtiraz konusu": "CİMER Başvurusunun Değerlendirilmesi",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +57,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İdari Para Cezasına İtiraz",
+    "CİMER Başvurusunun Değerlendirilmesi",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

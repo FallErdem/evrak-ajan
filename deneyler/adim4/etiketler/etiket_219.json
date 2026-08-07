@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Bereketli İlkokulu Müdürlüğü",
+    "kurum_adi": "Özgüryurt Mesleki ve Teknik Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10084865",
+    "detsis_no": "10206023",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "olur_yazisi",
@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
     "saklama_suresi": "B"
   },
-  "konu": "Kayıt-Kabul Oluru",
-  "sayi": "E-10084865-205-5137",
-  "tarih": "30.01.2026",
+  "konu": "Yabancı Uyruklu Öğrenci Nakil İşlemi",
+  "sayi": "E-10206023-235-6274",
+  "tarih": "08.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 4
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Kayıt-Kabul",
-    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
+    "Konu": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "Gerekçe": "kaynakların etkin kullanılması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,6 +57,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "hizmetlerin aksamadan yürütülmesi"
+    "kaynakların etkin kullanılması"
   ]
 }

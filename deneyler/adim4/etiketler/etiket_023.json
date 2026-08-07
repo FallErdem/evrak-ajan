@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Yusuf KILIÇ",
-    "adres": "Uğur Mumcu Mahallesi Papatya Sokağı No: 17/18 Yenimahalle/ANKARA",
+    "ad": "Mehmet AVCI",
+    "adres": "Şentepe Mahallesi Manolya Caddesi No: 2/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019291538",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "2"
+    "ogrenci_no": "2022958614",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "1"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -29,20 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
+    "saklama_suresi": "B"
   },
-  "konu": "Belge İşlemleri Hakkında Şikâyet",
+  "konu": "Farabi Başvuru Sonuçları",
   "sayi": null,
-  "tarih": "20.02.2026",
+  "tarih": "12.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Belge İşlemleri Hakkında Şikâyet",
-    "Sorun": "belge talebime yazılı cevap verilmedi",
-    "Yer": "Merkez Yerleşke",
-    "Süre": "yaklaşık üç haftadır",
+    "Şikâyet konusu": "Farabi Başvuru Sonuçları",
+    "Sorun": "değişim programı hibem dönem bitmesine rağmen ödenmedi",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -59,10 +58,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Belge İşlemleri Hakkında Şikâyet",
-    "belge talebime yazılı cevap verilmedi",
-    "Merkez Yerleşke",
-    "yaklaşık üç haftadır",
+    "Farabi Başvuru Sonuçları",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

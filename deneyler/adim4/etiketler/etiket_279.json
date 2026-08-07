@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "209",
-    "ad": "Akademik Personel Görevlendirmeleri",
+    "kod": "204.01",
+    "ad": "Doçentlik",
     "saklama_suresi": "15"
   },
-  "konu": "39. Madde Görevlendirme Talebi",
-  "sayi": "E-55461037-209-1900816",
-  "tarih": "19.03.2026",
+  "konu": "Doçentlik Jüri Üyeliği Görevlendirmesi",
+  "sayi": "E-65859045-204.01-2353858",
+  "tarih": "02.03.2026",
   "ilgi": {
     "tarih": "25.02.2026",
-    "sayi": "E-42218640-209-2903965"
+    "sayi": "E-42218640-204.01-7508474"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "39. Madde Görevlendirme",
-    "Ortak iş": "39. Madde Görevlendirme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "39. Madde Görevlendirme konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Doçentlik Jüri Üyeliği Görevlendirmesi",
+    "Ortak iş": "Doçentlik Jüri Üyeliği Görevlendirmesi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Doçentlik Jüri Üyeliği Görevlendirmesi konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,6 +57,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "39. Madde Görevlendirme"
+    "Doçentlik Jüri Üyeliği Görevlendirmesi"
   ]
 }

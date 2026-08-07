@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "24432702",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -27,13 +27,13 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "İdari Yaptırım/Para Cezası İşleri Listesinin Gönderilmesi",
-  "sayi": "E-24304062-858-69426758",
-  "tarih": "29.04.2026",
+  "konu": "Karar Örneğinin Gönderilmesi",
+  "sayi": "E-24432702-641.04-6554769",
+  "tarih": "04.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
@@ -42,9 +42,9 @@
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan yıl",
-    "Sayı": "18 kayıt",
-    "Ek 1": "İdari Yaptırım/Para Cezası İşleri listesi",
+    "Dönem": "yılın ilk yarısı",
+    "Sayı": "24 kayıt",
+    "Ek 1": "İdari Davalar listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -62,8 +62,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan yıl",
-    "18 kayıt",
+    "yılın ilk yarısı",
+    "24 kayıt",
+    "İdari Davalar listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

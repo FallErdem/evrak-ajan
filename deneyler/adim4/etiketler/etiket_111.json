@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Fatma KORKMAZ",
-    "adres": "Serhat Mahallesi Sümbül Caddesi No: 117/23 Yenimahalle/ANKARA",
+    "ad": "Derya YILDIZ",
+    "adres": "Karşıyaka Mahallesi Sümbül Caddesi No: 96/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024878684",
-    "bolum": "Diş Hekimliği Fakültesi",
-    "sinif": "2"
+    "ogrenci_no": "2025995512",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,18 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
     "saklama_suresi": "B"
   },
-  "konu": "Denklik Belgesi Talebi",
+  "konu": "Kabul Mektubu Talebi",
   "sayi": null,
-  "tarih": "05.03.2026",
+  "tarih": "06.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Denklik Belgesi",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Kabul Mektubu",
+    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -54,7 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Denklik Belgesi",
-    "başvuru dosyasına eklenmek üzere"
+    "Kabul Mektubu",
+    "3. sınıf öğrencisi",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

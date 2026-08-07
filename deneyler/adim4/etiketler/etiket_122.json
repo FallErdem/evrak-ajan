@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hatice AVCI",
-    "adres": "Uğur Mumcu Mahallesi Manolya Caddesi No: 87/6 Yenimahalle/ANKARA",
+    "ad": "Nurten ŞIMŞEK",
+    "adres": "Demetevler Mahallesi Çınar Sokak No: 53/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,22 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
-    "saklama_suresi": "10"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Servis Güzergahı Talebi",
+  "konu": "Şube Oluşturma Talebi",
   "sayi": null,
-  "tarih": "20.01.2026",
+  "tarih": "16.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Servis Güzergahı",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Şube Oluşturma",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,10 +46,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Servis Güzergahı"
+    "Şube Oluşturma",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "makine_ikmal",
+    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "detsis_no": "89052714",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,17 +23,17 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "807.01",
-    "ad": "Bina ve Tesisler",
+    "kod": "801",
+    "ad": "Taşıt ve İş Makineleri İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Çatı Onarımı Hk.",
-  "sayi": "E-24304062-807.01-69402334",
-  "tarih": "21.04.2026",
+  "konu": "Araç Görevlendirmesi",
+  "sayi": "E-24312041-801-64418525",
+  "tarih": "29.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -41,11 +41,11 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Bina ve Tesisler kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Taşıt ve İş Makineleri İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların mali yıl sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan yıl sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,12 +55,11 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "sonuçların mali yıl sonunda bildirilmesi"
+    "uygulamanın ilgililere duyurulması"
   ]
 }

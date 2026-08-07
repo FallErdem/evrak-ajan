@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten YILDIRIM",
-    "adres": "Beştepe Mahallesi Çınar Caddesi No: 97/16 Yenimahalle/ANKARA",
+    "ad": "Esra TEKIN",
+    "adres": "Demetevler Mahallesi Zeytin Caddesi No: 53/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
+    "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Nakil Talebi",
+  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
   "sayi": null,
-  "tarih": "28.04.2026",
+  "tarih": "05.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenci Nakil",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Taşımalı Eğitim Kapsamına Alınma",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Öğrenci Nakil",
-    "mağduriyetin giderilmesi bakımından"
+    "Taşımalı Eğitim Kapsamına Alınma",
+    "sürecin tamamlanabilmesi için"
   ]
 }

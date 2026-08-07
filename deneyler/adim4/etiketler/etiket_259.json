@@ -5,10 +5,10 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,23 +23,23 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "051",
-    "ad": "Toplantı ve Etkinlik İşleri",
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
     "saklama_suresi": "15"
   },
-  "konu": "Çalıştay Katılım Talebi",
-  "sayi": "E-55461037-051-1897570",
-  "tarih": "12.03.2026",
+  "konu": "Ödenek Talebi",
+  "sayi": "E-55461037-841.01-614151",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Çalıştay Katılım",
-    "Ortak iş": "Çalıştay Katılım konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Çalıştay Katılım konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Ödenek",
+    "Ortak iş": "Ödenek konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Ödenek konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -49,10 +49,8 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yenimahalle Belediye Başkanlığı",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
-  "anahtar_terimler": [
-    "Çalıştay Katılım"
-  ]
+  "anahtar_terimler": []
 }

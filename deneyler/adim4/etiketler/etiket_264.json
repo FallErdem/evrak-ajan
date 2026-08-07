@@ -31,22 +31,22 @@
     "ad": "Yurtdışı Eğitim Denkliği",
     "saklama_suresi": "B"
   },
-  "konu": "Yurtdışı Eğitim Denkliği Listesinin Gönderilmesi",
-  "sayi": "E-24316060-215.01-88424463",
-  "tarih": "28.04.2026",
+  "konu": "Geçici Kayıt Talebi",
+  "sayi": "E-24316060-215.01-62494339",
+  "tarih": "11.03.2026",
   "ilgi": {
-    "tarih": "09.04.2026",
-    "sayi": "E-63971525-215.01-1260622"
+    "tarih": "18.02.2026",
+    "sayi": "E-63971525-215.01-1156346"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 3
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "güz dönemi",
-    "Sayı": "18 kayıt",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Sayı": "35 kayıt",
     "Ek 1": "Yurtdışı Eğitim Denkliği listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
@@ -65,8 +65,8 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "güz dönemi",
-    "18 kayıt",
+    "içinde bulunulan öğretim yılı",
+    "35 kayıt",
     "Yurtdışı Eğitim Denkliği listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"

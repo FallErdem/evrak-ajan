@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
-    "saklama_suresi": "10"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
-  "sayi": "E-39985474-140-7708093",
-  "tarih": "23.04.2026",
+  "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
+  "sayi": "E-65859045-355.02-2371433",
+  "tarih": "01.04.2026",
   "ilgi": {
-    "tarih": "09.04.2026",
-    "sayi": "E-93213107-140-8075747"
+    "tarih": "23.02.2026",
+    "sayi": "E-55461037-355.02-609627"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Taşımalı Eğitim Kapsamına Alınma",
-    "Ortak iş": "Taşımalı Eğitim Kapsamına Alınma konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Taşımalı Eğitim Kapsamına Alınma konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Uygulama Öğrencisi Yerleştirme",
+    "Ortak iş": "Uygulama Öğrencisi Yerleştirme konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Uygulama Öğrencisi Yerleştirme kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,10 +52,10 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim Kapsamına Alınma"
+    "Uygulama Öğrencisi Yerleştirme"
   ]
 }

@@ -12,37 +12,37 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Temel Eğitim Şube Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "21291472",
+    "detsis_no": "93213107",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
+  "hiyerarsi_yonu": "ust",
   "muhatap_makam": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
-    "saklama_suresi": "10"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Taşımalı Eğitim Oluru",
-  "sayi": "E-21291472-140-4179521",
-  "tarih": "17.04.2026",
+  "konu": "Kayıt Takviminin Duyurulması",
+  "sayi": "E-93213107-205-4828242",
+  "tarih": "06.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 3
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Taşımalı Eğitim",
-    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
+    "Konu": "Kayıt-Kabul",
+    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +57,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim",
-    "hizmetlerin aksamadan yürütülmesi"
+    "mevzuatın öngördüğü sürelere uyulması"
   ]
 }

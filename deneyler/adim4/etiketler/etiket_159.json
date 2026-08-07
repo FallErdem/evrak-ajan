@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Öz İnşaat Ltd. Şti.",
+    "kurum_adi": "Vizyon İnşaat Ltd. Şti.",
     "ad": null,
-    "adres": "Beştepe Mahallesi Ihlamur Sokağı No: 55/3 Yenimahalle/ANKARA",
+    "adres": "Yeşilevler Mahallesi Yasemin Sokak No: 16/11 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.06",
-    "ad": "Uygulama İmar Planı",
+    "kod": "115.02.01",
+    "ad": "İmar Durumu (Belgesi)",
     "saklama_suresi": "B"
   },
-  "konu": "Uygulama İmar Planı Değişikliği Talebi",
-  "sayi": "2026/376",
-  "tarih": "21.05.2026",
+  "konu": "İmar Durumu Bilgi Talebi",
+  "sayi": "2026/100",
+  "tarih": "20.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Uygulama İmar Planı konusundaki güncel verilerin paylaşılması",
+    "Talep": "İmar Durumu (Belgesi) konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "elektronik posta ile"
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "elektronik posta ile"
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "17311665",
+    "detsis_no": "98244303",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Kurul Kararının Gönderilmesi",
-  "sayi": "E-17311665-050.04-4504420",
-  "tarih": "25.03.2026",
+  "konu": "Uygulamanın Hukuka Uygunluğu Hk.",
+  "sayi": "E-98244303-045.02-1386728",
+  "tarih": "29.05.2026",
   "ilgi": {
-    "tarih": "17.02.2026",
-    "sayi": "E-82642947-050.04-3398227"
+    "tarih": "21.04.2026",
+    "sayi": "E-82642947-045.02-6212572"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kurul Kararının Gönderilmesi",
+    "Talep": "Uygulamanın Hukuka Uygunluğu",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
@@ -59,7 +59,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kurul Kararının Gönderilmesi",
+    "Uygulamanın Hukuka Uygunluğu",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
     "süreç Müdürlüğümüzce takip edilmektedir"

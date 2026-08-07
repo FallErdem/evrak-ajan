@@ -14,7 +14,7 @@
     "tip": "ozel_tuzel_kisi",
     "kurum_adi": "Şafak Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Beştepe Mahallesi Akasya Sokak No: 91/23 Yenimahalle/ANKARA",
+    "adres": "Demetevler Mahallesi Kestane Sokağı No: 52/24 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,19 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Disiplin İşleri Hakkında Bilgi Edinme Başvurusu",
-  "sayi": "2026/408",
-  "tarih": "05.03.2026",
+  "konu": "Öğrenci Nakil Talebi",
+  "sayi": "2026/619",
+  "tarih": "20.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Disiplin İşleri konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Talep": "Nakiller konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
     "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
@@ -55,7 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
     "posta yoluyla adresime"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çankaya Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "90226917",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,19 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.01",
-    "ad": "Tahsis, Devir ve Takas",
+    "kod": "752.01",
+    "ad": "Kamulaştırma",
     "saklama_suresi": "B"
   },
-  "konu": "Okul Yeri Tahsis Talebi",
-  "sayi": "E-90226917-756.01-3919346",
-  "tarih": "02.04.2026",
+  "konu": "Kamulaştırma Bedeli Ödeme Talebi",
+  "sayi": "E-39985474-752.01-4201359",
+  "tarih": "24.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Okul Yeri Tahsis",
-    "Ortak iş": "Okul Yeri Tahsis konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "gerekli yer tahsisinin yapılması"
+    "Konu": "Kamulaştırma Bedeli Ödeme",
+    "Ortak iş": "Kamulaştırma Bedeli Ödeme konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Kamulaştırma Bedeli Ödeme konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,7 +53,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Okul Yeri Tahsis",
-    "gerekli yer tahsisinin yapılması"
+    "Kamulaştırma Bedeli Ödeme"
   ]
 }

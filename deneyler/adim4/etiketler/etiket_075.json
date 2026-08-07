@@ -5,42 +5,42 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Murat ÇETIN",
-    "adres": "Çiğdemtepe Mahallesi Akasya Sokağı No: 87/11 Yenimahalle/ANKARA",
+    "ad": "Onur AVCI",
+    "adres": "Ragıpbey Mahallesi Ihlamur Sokağı No: 81/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021530614",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "4"
+    "ogrenci_no": "2024454542",
+    "bolum": "Kimya (Doktora)",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Değişim Programı Ders Tanıma Talebi",
+  "konu": "Kayıt İptali Talebi",
   "sayi": null,
-  "tarih": "06.01.2026",
+  "tarih": "14.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Değişim Programı Ders Tanıma",
-    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Talep": "Kayıt İptali",
+    "Öğrenim bilgisi": "2018 yılı mezunu",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -50,13 +50,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Değişim Programı Ders Tanıma",
-    "3. sınıf öğrencisi",
+    "Kayıt İptali",
+    "2018 yılı mezunu",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

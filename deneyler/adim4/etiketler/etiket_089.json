@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,32 +23,32 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Kararlar Hk.",
-  "sayi": "E-32625594-050.04-46156211",
-  "tarih": "16.04.2026",
+  "konu": "Ücret Tarifesinin Duyurulması",
+  "sayi": "E-32625594-302.03-58106004",
+  "tarih": "05.05.2026",
   "ilgi": {
-    "tarih": "07.04.2026",
-    "sayi": "E-39985474-050.04-7696428"
+    "tarih": "31.03.2026",
+    "sayi": "E-17311665-302.03-5308124"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Kararlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Katkı Payları / Öğrenim Ücretleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -58,7 +58,7 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],

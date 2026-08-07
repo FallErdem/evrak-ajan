@@ -5,45 +5,45 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Akarsu Ortaokulu Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "93213107",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10073076",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
-  "muhatap_parantez": null,
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Hk.",
-  "sayi": "E-93213107-198.02.01-8051252",
-  "tarih": "05.03.2026",
+  "konu": "Suret Onay Ücreti Hk.",
+  "sayi": "E-10073076-622.02-1560",
+  "tarih": "08.01.2026",
   "ilgi": {
-    "tarih": "09.02.2026",
-    "sayi": "E-21291472-198.02.01-4124895"
+    "tarih": "24.12.2025",
+    "sayi": "E-91571118-622.02-6719318"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Suret Onay Ücreti",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
@@ -54,13 +54,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Özel Öğretim Kurumları Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "olumlu, belge düzenlendi",
+    "Suret Onay Ücreti",
+    "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur",
     "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

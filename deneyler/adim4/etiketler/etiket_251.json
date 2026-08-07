@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "makine_ikmal",
+    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "detsis_no": "89052714",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,29 +23,29 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Hukuk İşleri Müdürlüğü",
+  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "801",
+    "ad": "Taşıt ve İş Makineleri İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Para Cezası Tahsilatı Hk.",
-  "sayi": "E-24304062-858-69488612",
-  "tarih": "19.05.2026",
+  "konu": "Hizmet Aracı Tahsis Talebi",
+  "sayi": "E-24312041-801-64715883",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "İdari Yaptırım/Para Cezası İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Taşıt ve İş Makineleri İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan yıl sonunda bildirilmesi"
+    "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,7 +55,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

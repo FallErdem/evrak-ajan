@@ -12,14 +12,14 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Güven Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Gayret Mahallesi Çınar Sokağı No: 51/14 Yenimahalle/ANKARA",
+    "adres": "Serhat Mahallesi Nergis Sokak No: 73/3 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
-  "belge_turu": "bilgi_edinme",
-  "aile": "bilgi_edinme",
+  "belge_turu": "itiraz",
+  "aile": "itiraz",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
@@ -27,23 +27,30 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Teslimi Talebi",
-  "sayi": "2026/793",
-  "tarih": "15.05.2026",
-  "ilgi": null,
-  "ek": null,
+  "konu": "Denklik Kararına İtiraz",
+  "sayi": "2026/498",
+  "tarih": "26.03.2026",
+  "ilgi": {
+    "tarih": "10.02.2026",
+    "sayi": "E-63971525-215.01-1150766"
+  },
+  "ek": {
+    "adet": 1,
+    "aciklama": "Başvuru evrakı",
+    "sayfa": 6
+  },
   "somut_bilgiler": {
-    "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Diploma konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "İtiraz konusu": "Denklik Kararına İtiraz",
+    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     2
   ],
   "pdf_bicimi": "metin_katmanli",
@@ -54,7 +61,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "e-Devlet üzerinden"
+    "Denklik Kararına İtiraz",
+    "talep olumsuz sonuçlandırılmıştır",
+    "kararın yeniden değerlendirilmesi"
   ]
 }

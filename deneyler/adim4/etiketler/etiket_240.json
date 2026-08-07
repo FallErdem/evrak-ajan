@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
-    "saklama_suresi": "10"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
-  "sayi": "E-65859045-140-2553829",
-  "tarih": "24.02.2026",
+  "konu": "Şube Oluşturma Talebi",
+  "sayi": "E-65859045-205-2339666",
+  "tarih": "06.02.2026",
   "ilgi": {
-    "tarih": "14.01.2026",
-    "sayi": "E-93213107-140-8016537"
+    "tarih": "25.12.2025",
+    "sayi": "E-93213107-205-4819009"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Taşımalı Eğitim Kapsamına Alınma",
-    "Ortak iş": "Taşımalı Eğitim Kapsamına Alınma konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Taşımalı Eğitim Kapsamına Alınma konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Şube Oluşturma",
+    "Ortak iş": "Şube Oluşturma konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Şube Oluşturma konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +56,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim Kapsamına Alınma"
+    "Şube Oluşturma"
   ]
 }

@@ -14,8 +14,8 @@ Amaç: aynı işi başka biri tekrarlayabilsin, genişletebilsin ve hatalarını
 `sdp_kodlari.csv` — 115 satır, UTF-8 (BOM'suz), LF satır sonu, virgül ayraç,
 virgül içeren alanlar çift tırnaklı.
 
-10 sütun: `kod, ana_grup, seviye, ust_kod, ad, saklama_suresi, kapsam, kurum_tipi,
-vatandas_konusu, ornek_konular`
+11 sütun: `kod, ana_grup, seviye, ust_kod, ad, saklama_suresi, kapsam, kurum_tipi,
+vatandas_konusu, ornek_konular, sikayet_cumleleri`
 
 | Grup | Satır | Kod aralığı |
 |---|---|---|
@@ -175,17 +175,48 @@ kod listesi ve insan kararı gerektiren alanlar (`vatandas_konusu`, `ornek_konul
 tutulur. Bu ilkeye geçildiğinde 11 alan otomatik düzeldi — 10'u MEB'in eksik saklama
 süresi, 1'i yanlış transkripsiyon.
 
-### `ornek_konular`
+### `ornek_konular` (6-8 adet)
 
-Her kod için o kod altında gerçekten yazılabilecek 3 belge konusu, `|` ile ayrılmış.
+Her kod için o kod altında gerçekten yazılabilecek 6-8 belge konusu, `|` ile ayrılmış.
+Toplam 755 konu başlığı.
 Resmî yazının `Konu:` satırına yazılacak türden — **cümle değil, konu başlığı**:
 
 ```
 İmar Durum Belgesi Talebi|Parsel İmar Durumu Hk.|İmar Durumu Bilgi Talebi
 ```
 
-Bu sütun kaynakta yoktur; kurumsal yazışma pratiğinden yazılmıştır. Veri setinin en
-yumuşak kısmı budur — kodlar doğrulanabilir, konu başlıkları doğrulanamaz.
+**Zorunlu kural: kodun adının kendisi konu olarak yazılmaz.** SDP kodu bir klasör
+etiketidir; konu ise o klasöre giren somut iştir. İncelenen 19 gerçek yazının Konu
+satırlarının hiçbiri kod adı değildir ("Kuşkonmaz", "Vidanjör ücretleri", "Mezuniyet
+töreni"). Harness bu kuralı kontrol eder (B15).
+
+Konular farklı belge türlerine dağıtılmıştır: talep/dilekçe, şikâyet cevabı, duyuru,
+görüş talebi, cevap yazısı. Her kodda beş türün hepsi bulunmaz — ölçüt tür sayısı değil
+doğallıktır (ör. `010 Mevzuat İşleri` için şikâyet konusu zorlama olurdu).
+
+### `sikayet_cumleleri` (3 adet, 50 kodda dolu)
+
+Vatandaş veya öğrenci ağzından, **birinci tekil şahıs**, doğal Türkçe şikâyet cümleleri.
+`|` ile ayrılmış, cümle sonunda nokta yoktur, küçük harfle başlar (kısaltmalar hariç:
+CİMER, RAM).
+
+```
+210.01 -> çocuğumun nakil başvurusu üç haftadır sonuçlandırılmadı
+773    -> staj başvuru evrakım bir aydır işleme alınmadı
+302.11 -> kayıt dondurma başvurum otuz gündür sonuçlandırılmadı
+```
+
+Sütun **yalnızca 50 kodda doludur**: `vatandas_konusu=evet` olan 51 koddan CSV'de alt kodu
+olmayan (yaprak) 50'si. Tek elenen `160.01 Özel Eğitim Hizmetleri` — altında `160.01.02`
+bulunduğu için grup düğümüdür. Kalan 65 kodda sütun boştur; üreteç o kodları şikâyete
+zaten seçmez.
+
+**Neden ayrı sütun:** üreteç şikâyet gövdesini kod adını cümleye gömerek üretiyordu
+("nakiller işlemlerinde uzun süredir aksama yaşanıyor" — Türkçe olarak bozuk). Cümleler
+elle yazılınca bu sorun kökten kalkar.
+
+Bu iki sütun kaynakta yoktur; kurumsal yazışma pratiğinden yazılmıştır. Veri setinin en
+yumuşak kısmı budur — kodlar doğrulanabilir, konu ve şikâyet metinleri doğrulanamaz.
 
 ---
 
@@ -272,7 +303,9 @@ başlık satırı birebir beklenen 10 sütun
 satır** · seviye 1 ⟺ `ust_kod` boş · `ad` ≤ 200 karakter, boş değil, kırpılmış ·
 `kapsam ∈ {ortak, kuruma_ozel}` · `vatandas_konusu ∈ {evet, hayir}` ·
 `kurum_tipi` sözlüğe uyuyor · `kapsam=ortak ⟺ kurum_tipi=hepsi` ·
-`ornek_konular` tam 3 parça, boş değil, cümle değil
+`ornek_konular` 6-8 parça, tekrarsız, cümle değil, **kod adı içermiyor** ·
+`sikayet_cumleleri` boş ya da tam 3 parça, tekrarsız, noktasız, küçük harfle başlıyor,
+yalnızca `vatandas_konusu=evet` ve yaprak kodlarda dolu
 
 **C — Resmî kaynak eşleşmesi**
 Her kod ilgili resmî `.xls`'te var mı · `ad` birebir aynı mı · `saklama_suresi` aynı mı
@@ -286,7 +319,7 @@ Bölüm başlığı kodu yok · `020` yok · `030.x` yok · `.99` yok
 **F — Dağılım bantları**
 Toplam 80-120 · ortak 30-40 · belediye 20-30 · üniversite 15-25 · il MEM 15-25
 
-**Son çalıştırma: 115/115 satır, 0 hata.**
+**Son çalıştırma: 115/115 satır, 0 hata.** (755 konu başlığı, 150 şikâyet cümlesi dahil)
 
 ---
 

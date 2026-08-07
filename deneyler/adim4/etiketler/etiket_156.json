@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hasan TURAN",
-    "adres": "Şentepe Mahallesi Çınar Sokak No: 30/21 Yenimahalle/ANKARA",
+    "ad": "Esra KAYA",
+    "adres": "Pamuklar Mahallesi Erguvan Sokak No: 111/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
-  "belge_turu": "itiraz",
-  "aile": "itiraz",
+  "belge_turu": "sikayet",
+  "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
@@ -30,20 +30,18 @@
     "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
     "saklama_suresi": "10"
   },
-  "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
+  "konu": "Muayene Randevusu Hk.",
   "sayi": null,
-  "tarih": "30.03.2026",
+  "tarih": "24.02.2026",
   "ilgi": null,
-  "ek": {
-    "adet": 1,
-    "aciklama": "Başvuru evrakı",
-    "sayfa": 1
-  },
+  "ek": null,
   "somut_bilgiler": {
-    "İtiraz konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
-    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
-    "Talep": "kararın yeniden değerlendirilmesi"
+    "Şikâyet konusu": "Muayene Randevusu",
+    "Sorun": "muayene randevusu verilmediği için işyerim denetimde ceza aldı",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Talep": "sorunun giderilmesi",
+    "Yer": "Yakacık Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -57,7 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "talep olumsuz sonuçlandırılmıştır",
-    "kararın yeniden değerlendirilmesi"
+    "Muayene Randevusu",
+    "geçtiğimiz aydan bu yana",
+    "sorunun giderilmesi",
+    "Yakacık Mahallesi"
   ]
 }

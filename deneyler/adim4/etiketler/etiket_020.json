@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,27 +23,27 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "110.04",
-    "ad": "Encümen Kararları",
-    "saklama_suresi": "B"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Encümen Kararı Örneği Talebi",
-  "sayi": "E-55461037-110.04-1929787",
-  "tarih": "21.05.2026",
+  "konu": "Bilgi Edinme Talebinin Reddi Hk.",
+  "sayi": "E-55461037-622.01-618087",
+  "tarih": "10.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "İlgili belge",
-    "sayfa": 1
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Encümen Kararı Örneği",
-    "Ortak iş": "Encümen Kararı Örneği konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Encümen Kararı Örneği konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Bilgi Edinme Talebinin Reddi",
+    "Ortak iş": "Bilgi Edinme Talebinin Reddi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Bilgi Edinme Talebinin Reddi kapsamındaki bilgilerin paylaşılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,10 +53,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Encümen Kararı Örneği"
+    "Bilgi Edinme Talebinin Reddi"
   ]
 }

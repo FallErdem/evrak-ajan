@@ -5,45 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "makine_ikmal",
-    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
-    "detsis_no": "89052714",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
   "aile": "tekit",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
-      "İlçe Belediye Başkanlıklarına"
+      "81 İl Valiliğine",
+      "Çevre ve Şehircilik İl Müdürlüklerine"
     ],
     "bilgi": [
-      "Ankara Valiliğine"
+      "Bakanlık Makamına"
     ]
   },
-  "beklenen_kapanis": "karma",
+  "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "801",
-    "ad": "Taşıt ve İş Makineleri İşleri",
+    "kod": "125",
+    "ad": "Evlendirme İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Hizmet Aracı Tahsis Talebi",
-  "sayi": "E-24432702-801-11020201",
-  "tarih": "08.01.2026",
+  "konu": "Nikâh Ücreti Hk.",
+  "sayi": "E-24304062-125-62183281",
+  "tarih": "23.02.2026",
   "ilgi": {
-    "tarih": "28.11.2025",
-    "sayi": "E-89052714-801-3564590"
+    "tarih": "29.01.2026",
+    "sayi": "E-15986609-125-2235670"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -60,7 +61,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

@@ -5,10 +5,10 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "makine_ikmal",
-    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
-    "detsis_no": "89052714",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,17 +23,17 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "801",
-    "ad": "Taşıt ve İş Makineleri İşleri",
-    "saklama_suresi": "10"
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Taşıt ve İş Makineleri İşleri Hk.",
-  "sayi": "E-55461037-801-1910937",
-  "tarih": "10.04.2026",
+  "konu": "Sempozyum Duyurusu",
+  "sayi": "E-55461037-051-651234",
+  "tarih": "07.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -41,11 +41,11 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Taşıt ve İş Makineleri İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Toplantı ve Etkinlik İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan yıl sonunda bildirilmesi"
+    "İstenen 2": "sonuçların mali yıl sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,11 +55,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "sonuçların mali yıl sonunda bildirilmesi"
   ]
 }

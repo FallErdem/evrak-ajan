@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
-    "saklama_suresi": "15"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "İhale Talebi",
-  "sayi": "E-39985474-755.02-7680373",
-  "tarih": "16.03.2026",
+  "konu": "Fizibilite Raporu Talebi",
+  "sayi": "E-55461037-755.01-639394",
+  "tarih": "16.04.2026",
   "ilgi": {
-    "tarih": "06.02.2026",
-    "sayi": "E-33152401-755.02-2517847"
+    "tarih": "13.04.2026",
+    "sayi": "E-33152401-755.01-797194"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "İhale",
-    "Ortak iş": "İhale konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "İhale konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Fizibilite Raporu",
+    "Ortak iş": "Fizibilite Raporu konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Fizibilite Raporu konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,5 +55,7 @@
     "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
-  "anahtar_terimler": []
+  "anahtar_terimler": [
+    "Fizibilite Raporu"
+  ]
 }

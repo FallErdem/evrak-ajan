@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24312041",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -27,35 +27,32 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "755.01",
-    "ad": "Etüd-Proje ve Fizibilite",
-    "saklama_suresi": "30"
+    "kod": "807.01",
+    "ad": "Bina ve Tesisler",
+    "saklama_suresi": "10"
   },
-  "konu": "Etüd-Proje ve Fizibilite Hk.",
-  "sayi": "E-24312041-755.01-54765466",
-  "tarih": "18.03.2026",
-  "ilgi": {
-    "tarih": "20.02.2026",
-    "sayi": "E-33152401-755.01-2524188"
-  },
+  "konu": "Çatı Onarımı Hk.",
+  "sayi": "E-24304062-807.01-62488069",
+  "tarih": "20.05.2026",
+  "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Etüd-Proje ve Fizibilite kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Bina ve Tesisler kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan yıl sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
     2
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "konu_eksik",
+  "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Fen İşleri Müdürlüğü",

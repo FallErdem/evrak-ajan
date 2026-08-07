@@ -27,23 +27,23 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
-    "saklama_suresi": "2"
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "saklama_suresi": "10"
   },
-  "konu": "Sınav Programları ve Sınavlar Hk. (Tekit)",
-  "sayi": "E-32625594-106-46125609",
-  "tarih": "06.04.2026",
+  "konu": "İlişik Kesme Belgesi Talebi",
+  "sayi": "E-32625594-302.11-57979708",
+  "tarih": "09.04.2026",
   "ilgi": {
-    "tarih": "17.03.2026",
-    "sayi": "E-47014261-106-2210013"
+    "tarih": "01.04.2026",
+    "sayi": "E-47014261-302.11-1429124"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "en geç bir hafta içinde"
+    "Süre": "ay sonuna kadar"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -60,6 +60,6 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "en geç bir hafta içinde"
+    "ay sonuna kadar"
   ]
 }

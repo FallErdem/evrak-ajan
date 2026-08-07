@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Eğitim Fakülteleri İle İlişkiler Talebi",
-  "sayi": "E-65859045-355.02-2553375",
-  "tarih": "23.02.2026",
+  "konu": "Genelge Görüşü Talebi",
+  "sayi": "E-65859045-010.06-2351338",
+  "tarih": "26.02.2026",
   "ilgi": {
-    "tarih": "29.01.2026",
-    "sayi": "E-55461037-355.02-1878177"
+    "tarih": "12.01.2026",
+    "sayi": "E-55461037-010.06-585553"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Eğitim Fakülteleri İle İlişkiler",
-    "Ortak iş": "Eğitim Fakülteleri İle İlişkiler konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Eğitim Fakülteleri İle İlişkiler konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Genelge Görüşü",
+    "Ortak iş": "Genelge Görüşü konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Genelge Görüşü konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +56,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Eğitim Fakülteleri İle İlişkiler"
+    "Genelge Görüşü"
   ]
 }

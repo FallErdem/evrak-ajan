@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Doruk Yapı Denetim A.Ş.",
+    "kurum_adi": "Doruk Mimarlık Ltd. Şti.",
     "ad": null,
-    "adres": "Serhat Mahallesi Nergis Sokak No: 78/16 Yenimahalle/ANKARA",
+    "adres": "Çiğdemtepe Mahallesi Kestane Caddesi No: 22/18 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.04",
-    "ad": "Yapı Ruhsatı",
+    "kod": "115.02.10",
+    "ad": "Adres ve Numaralandırma",
     "saklama_suresi": "B"
   },
-  "konu": "Ruhsat Yenileme Talebi",
-  "sayi": "2026/280",
-  "tarih": "18.02.2026",
+  "konu": "Kapı Numarası Verilmesi Talebi",
+  "sayi": "2026/91",
+  "tarih": "30.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Yapı Ruhsatı konusundaki güncel verilerin paylaşılması",
+    "Talep": "Adres ve Numaralandırma konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +56,6 @@
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "yıllara göre sayısal döküm",
-    "e-Devlet üzerinden"
+    "posta yoluyla adresime"
   ]
 }

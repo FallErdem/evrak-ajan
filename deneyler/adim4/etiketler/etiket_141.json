@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ali KARACA",
-    "adres": "Ostim Mahallesi Menekşe Sokak No: 50/21 Yenimahalle/ANKARA",
+    "ad": "Havva GÜNEŞ",
+    "adres": "Pamuklar Mahallesi Nergis Sokak No: 14/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023637115",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "1"
+    "ogrenci_no": "2022966910",
+    "bolum": "Diş Hekimliği Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
-    "saklama_suresi": "10"
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Katkı Payı İade Talebi",
+  "konu": "Diploma Denklik Başvurusu",
   "sayi": null,
-  "tarih": "08.05.2026",
+  "tarih": "10.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Katkı Payı İade",
-    "Öğrenim bilgisi": "2021 yılı mezunu",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Diploma Denklik",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +54,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı İade",
-    "2021 yılı mezunu",
-    "mağduriyetin giderilmesi bakımından"
+    "Diploma Denklik",
+    "resmî işlemlerde kullanılmak üzere"
   ]
 }

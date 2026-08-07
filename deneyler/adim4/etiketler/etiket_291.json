@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,22 +23,22 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
-    "saklama_suresi": "10"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Taşımalı Eğitim Hakkında Görüş Talebi",
-  "sayi": "E-65859045-140-2542272",
-  "tarih": "02.02.2026",
+  "konu": "Sözleşme Metni Hakkında Görüş",
+  "sayi": "E-65859045-045.02-2364326",
+  "tarih": "20.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Taşımalı Eğitim",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Hukuki",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -49,11 +49,10 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim",
     "konu hakkında görüş bildirilmesi"
   ]
 }

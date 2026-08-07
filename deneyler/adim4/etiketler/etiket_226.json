@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Esra ARSLAN",
-    "adres": "Kaletepe Mahallesi Nergis Sokak No: 22/7 Yenimahalle/ANKARA",
+    "ad": "Kemal KILIÇ",
+    "adres": "Yeşilevler Mahallesi Menekşe Sokağı No: 28/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,23 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.04",
-    "ad": "Yapı Ruhsatı",
-    "saklama_suresi": "B"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Yapı Ruhsatı Başvurusu",
+  "konu": "Borç Yapılandırma Talebi",
   "sayi": null,
-  "tarih": "06.03.2026",
+  "tarih": "03.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yapı Ruhsatı",
-    "Taşınmaz": "43304 ada, 3 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Borç Yapılandırma",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,12 +46,10 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yapı Ruhsatı",
-    "43304 ada, 3 parsel",
-    "sürecin tamamlanabilmesi için"
+    "Borç Yapılandırma"
   ]
 }

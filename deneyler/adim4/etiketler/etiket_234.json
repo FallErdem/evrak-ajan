@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hatice ARSLAN",
-    "adres": "Kaletepe Mahallesi Ceviz Sokağı No: 117/19 Yenimahalle/ANKARA",
+    "ad": "İbrahim AVCI",
+    "adres": "Serhat Mahallesi Lale Caddesi No: 45/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,26 +22,26 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Okul Aile Birliği Gelir Gider Bildirimi",
+  "konu": "Servis Hizmeti Aksaklığı Bildirimi",
   "sayi": null,
-  "tarih": "30.03.2026",
+  "tarih": "06.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Okul Aile Birliği Gelir Gider",
-    "Sorun": "işyeri ilan edilen kapanış saatine uymuyor",
-    "Yer": "okul servis güzergâhı",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Servis Hizmeti Aksaklığı",
+    "Sorun": "servis aracı sabahları güzergâhın son durağına hiç uğramıyor",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Talep": "sorunun giderilmesi",
+    "Yer": "okul servis güzergâhı"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,13 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Okul Aile Birliği Gelir Gider",
-    "okul servis güzergâhı",
-    "yaklaşık kırk gündür",
-    "sorunun giderilmesi"
+    "Servis Hizmeti Aksaklığı",
+    "yaklaşık iki aydır",
+    "sorunun giderilmesi",
+    "okul servis güzergâhı"
   ]
 }

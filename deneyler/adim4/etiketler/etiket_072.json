@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra ARSLAN",
-    "adres": "Ergazi Mahallesi Akasya Caddesi No: 31/2 Yenimahalle/ANKARA",
+    "ad": "Gamze AYDIN",
+    "adres": "Demetevler Mahallesi Zeytin Caddesi No: 44/14 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,16 +30,15 @@
     "ad": "Kaynaştırma Eğitimi",
     "saklama_suresi": "10"
   },
-  "konu": "Kaynaştırma Eğitimi Hakkında Şikâyet",
+  "konu": "BEP Toplantısı Daveti",
   "sayi": null,
-  "tarih": "09.02.2026",
+  "tarih": "14.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kaynaştırma Eğitimi Hakkında Şikâyet",
-    "Sorun": "kaynaştırma eğitimi hakkındaki talebime yazılı cevap verilmedi",
-    "Yer": "ilçe merkezi",
-    "Süre": "yaklaşık iki aydır",
+    "Şikâyet konusu": "BEP Toplantısı Daveti",
+    "Sorun": "çocuğum için bireyselleştirilmiş eğitim planı hazırlanmadı",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -55,9 +54,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kaynaştırma Eğitimi Hakkında Şikâyet",
-    "ilçe merkezi",
-    "yaklaşık iki aydır",
+    "BEP Toplantısı Daveti",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

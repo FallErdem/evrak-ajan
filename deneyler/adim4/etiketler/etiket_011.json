@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_egitim_rehberlik_sb",
-    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-    "detsis_no": "87302975",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatma GÜNEŞ",
-    "adres": "Emniyet Mahallesi Sümbül Sokağı No: 97/21 Yenimahalle/ANKARA",
+    "ad": "Hüseyin GÜLER",
+    "adres": "Serhat Mahallesi Erguvan Caddesi No: 12/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,17 +22,17 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "160.01.02",
-    "ad": "Kaynaştırma Eğitimi",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Kaynaştırma Öğrencisi Yerleştirme Talebi",
+  "konu": "Yabancı Uyruklu Öğrenci Kayıt Talebi",
   "sayi": null,
-  "tarih": "25.02.2026",
+  "tarih": "17.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -40,7 +40,7 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Talep": "Kaynaştırma Öğrencisi Yerleştirme",
+    "Talep": "Yabancı Uyruklu Öğrenci Kayıt",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
@@ -50,11 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kaynaştırma Öğrencisi Yerleştirme",
+    "Yabancı Uyruklu Öğrenci Kayıt",
     "sürecin tamamlanabilmesi için"
   ]
 }

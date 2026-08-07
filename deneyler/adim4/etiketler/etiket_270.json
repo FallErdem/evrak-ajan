@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Büşra POLAT",
-    "adres": "Susuz Mahallesi Ceviz Sokağı No: 79/7 Yenimahalle/ANKARA",
+    "ad": "Serkan ŞIMŞEK",
+    "adres": "Batıkent Mahallesi Ceviz Sokak No: 112/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019633188",
-    "bolum": "Diş Hekimliği Fakültesi",
-    "sinif": "1"
+    "ogrenci_no": "2019819817",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Topluluk Etkinlik İzni Talebi",
+  "konu": "Staj Yeri Talebi",
   "sayi": null,
-  "tarih": "03.03.2026",
+  "tarih": "12.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Topluluk Etkinlik İzni",
-    "Öğrenim bilgisi": "4. sınıf öğrencisi",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Staj Yeri",
+    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,8 +55,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Topluluk Etkinlik İzni",
-    "4. sınıf öğrencisi",
-    "sürecin tamamlanabilmesi için"
+    "Staj Yeri",
+    "lisansüstü programa kayıtlı"
   ]
 }

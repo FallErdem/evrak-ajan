@@ -12,18 +12,18 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yeşilyurt Vadi Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "93213107",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10132027",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Ortaöğretim Şube Müdürlüğü",
-  "muhatap_parantez": null,
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
@@ -31,20 +31,20 @@
     "ad": "Disiplin İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Disiplin İşleri Hk.",
-  "sayi": "E-93213107-225.02-8010912",
-  "tarih": "06.01.2026",
+  "konu": "Disiplin Dosyasının Gönderilmesi",
+  "sayi": "E-10132027-225.02-2591",
+  "tarih": "27.02.2026",
   "ilgi": {
-    "tarih": "29.12.2025",
-    "sayi": "E-63971525-225.02-1186241"
+    "tarih": "23.01.2026",
+    "sayi": "E-63971525-225.02-1137765"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Disiplin İşleri",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Disiplin Dosyasının Gönderilmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,9 +58,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Disiplin İşleri",
-    "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "Disiplin Dosyasının Gönderilmesi",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı"
   ]
 }

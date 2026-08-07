@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -27,28 +27,28 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
     "saklama_suresi": "10"
   },
-  "konu": "Mal Alım İşi Hk.",
-  "sayi": "E-24316060-934.01-88058156",
-  "tarih": "07.01.2026",
+  "konu": "Yatırım Programı Teklifi",
+  "sayi": "E-10213773-602.07-18933784",
+  "tarih": "24.02.2026",
   "ilgi": {
-    "tarih": "19.12.2025",
-    "sayi": "E-14588481-934.01-6701763"
+    "tarih": "09.02.2026",
+    "sayi": "E-14588481-602.07-5422573"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Mal Alım İşi kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Yatırım Programı kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

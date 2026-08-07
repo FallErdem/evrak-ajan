@@ -5,45 +5,45 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yapı Kontrol Müdürlüğü",
+    "kurum_adi": "Zabıta Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "53265760",
+    "detsis_no": "50719027",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
+  "muhatap_makam": "Fen İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
-    "saklama_suresi": "15"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "Bütçe Teklifinin Gönderilmesi",
-  "sayi": "E-53265760-841.01-1787088",
-  "tarih": "03.03.2026",
+  "konu": "Zemin Etüdü Raporunun Gönderilmesi",
+  "sayi": "E-50719027-755.01-1077919",
+  "tarih": "15.04.2026",
   "ilgi": {
-    "tarih": "02.02.2026",
-    "sayi": "E-43195403-841.01-1705710"
+    "tarih": "25.03.2026",
+    "sayi": "E-33152401-755.01-786871"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bütçe Teklifinin Gönderilmesi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Zemin Etüdü Raporunun Gönderilmesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
     "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
@@ -54,12 +54,13 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bütçe Teklifinin Gönderilmesi",
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "Zemin Etüdü Raporunun Gönderilmesi",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

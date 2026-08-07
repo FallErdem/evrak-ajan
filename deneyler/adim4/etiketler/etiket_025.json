@@ -14,7 +14,7 @@
     "tip": "ozel_tuzel_kisi",
     "kurum_adi": "Vizyon Ticaret A.Ş.",
     "ad": null,
-    "adres": "İvedik Mahallesi Kestane Caddesi No: 10/3 Yenimahalle/ANKARA",
+    "adres": "Beştepe Mahallesi Menekşe Sokağı No: 16/15 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Onaylı Örnek Talebi",
-  "sayi": "2026/140",
-  "tarih": "13.02.2026",
+  "konu": "Şikâyet Başvurusu Hk.",
+  "sayi": "2026/1155",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Belge Talepleri konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "elektronik posta ile"
+    "Talep": "Bilgi Edinme, Talep ve Şikayetler konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "elektronik posta ile"
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

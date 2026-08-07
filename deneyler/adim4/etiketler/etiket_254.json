@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emre AKSOY",
-    "adres": "Ergazi Mahallesi Çınar Caddesi No: 50/19 Yenimahalle/ANKARA",
+    "ad": "Meryem DEMIR",
+    "adres": "Yeşilevler Mahallesi Papatya Sokak No: 54/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,14 +30,14 @@
     "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Arşivden Suret Talebi",
+  "konu": "Arşiv Belgesi Araştırma Talebi",
   "sayi": null,
-  "tarih": "13.04.2026",
+  "tarih": "16.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Arşivden Suret",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Arşiv Belgesi Araştırma",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +50,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşivden Suret",
-    "resmî işlemlerde kullanılmak üzere"
+    "Arşiv Belgesi Araştırma",
+    "ilgili kuruma sunulmak üzere"
   ]
 }

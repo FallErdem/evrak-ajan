@@ -27,19 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
+    "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Nakil Talebi",
-  "sayi": "E-39985474-210.01-7660157",
-  "tarih": "16.02.2026",
+  "konu": "Güzergâh Değişikliği Talebi",
+  "sayi": "E-39985474-140-4253614",
+  "tarih": "20.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Öğrenci Nakil",
-    "Ortak iş": "Öğrenci Nakil konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Öğrenci Nakil konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Güzergâh Değişikliği",
+    "Ortak iş": "Güzergâh Değişikliği konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Güzergâh Değişikliği konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,6 +53,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Öğrenci Nakil"
+    "Güzergâh Değişikliği"
   ]
 }

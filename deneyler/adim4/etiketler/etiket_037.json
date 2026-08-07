@@ -5,44 +5,44 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yapı Kontrol Müdürlüğü",
+    "kurum_adi": "Fen İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "53265760",
+    "detsis_no": "33152401",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Gelirler Müdürlüğü",
+  "muhatap_makam": "Hukuk İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "Emlak Vergisi Oluru",
-  "sayi": "E-53265760-190.01.07-1764672",
-  "tarih": "15.01.2026",
+  "konu": "Karar Örneğinin Gönderilmesi",
+  "sayi": "E-33152401-641.04-813493",
+  "tarih": "13.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 3
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Emlak Vergisi",
-    "Gerekçe": "vatandaş memnuniyetinin artırılması",
+    "Konu": "İdari Davalar",
+    "Gerekçe": "kaynakların etkin kullanılması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,11 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi",
-    "vatandaş memnuniyetinin artırılması"
+    "İdari Davalar",
+    "kaynakların etkin kullanılması"
   ]
 }

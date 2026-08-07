@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Kaymakamlığı",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "56248377",
+    "detsis_no": "24432702",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -27,16 +27,16 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "İdari Davalar Hk.",
-  "sayi": "E-56248377-641.04-841801",
-  "tarih": "17.04.2026",
+  "konu": "Tutanağın Tebliği Hk.",
+  "sayi": "E-24432702-858-6623480",
+  "tarih": "15.05.2026",
   "ilgi": {
-    "tarih": "16.03.2026",
-    "sayi": "E-10578106-641.04-1672012"
+    "tarih": "08.04.2026",
+    "sayi": "E-10578106-858-3900806"
   },
   "ek": {
     "adet": 1,
@@ -44,11 +44,11 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "İdari Davalar kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "İdari Yaptırım/Para Cezası İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların mali yıl sonunda bildirilmesi"
+    "İstenen 2": "sonuçların üçüncü çeyrek sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -63,7 +63,6 @@
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "sonuçların mali yıl sonunda bildirilmesi"
+    "uygulamanın ilgililere duyurulması"
   ]
 }

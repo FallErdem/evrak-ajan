@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -23,25 +23,25 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.14",
-    "ad": "Tez İşleri",
-    "saklama_suresi": "B"
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Tez İşleri Hakkında Görüş Talebi",
-  "sayi": "E-65859045-302.14-2601146",
-  "tarih": "25.05.2026",
+  "konu": "Staj Başvurusu",
+  "sayi": "E-55461037-773-602131",
+  "tarih": "10.02.2026",
   "ilgi": {
-    "tarih": "22.05.2026",
-    "sayi": "E-47014261-302.14-2259384"
+    "tarih": "12.01.2026",
+    "sayi": "E-86488853-773-4004552"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Tez İşleri",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Staj İşleri",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,12 +52,12 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Tez İşleri",
+    "Staj İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

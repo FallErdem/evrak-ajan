@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yapi_kontrol",
-    "birim_adi": "Yapı Kontrol Müdürlüğü",
-    "detsis_no": "53265760",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
+    "saklama_suresi": "10"
   },
-  "konu": "İdari Davalar Listesinin Gönderilmesi",
-  "sayi": "E-24304062-641.04-69509378",
-  "tarih": "26.05.2026",
+  "konu": "Teslimat Süresinin Uzatılması",
+  "sayi": "E-10213773-934.01-19007304",
+  "tarih": "14.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 3
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "üçüncü çeyrek",
-    "Sayı": "68 kayıt",
-    "Ek 1": "İdari Davalar listesi",
+    "Dönem": "yılın ilk yarısı",
+    "Sayı": "142 kayıt",
+    "Ek 1": "Mal Alım İşi listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +57,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yapı Kontrol Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "üçüncü çeyrek",
-    "68 kayıt",
-    "İdari Davalar listesi",
+    "yılın ilk yarısı",
+    "142 kayıt",
+    "Mal Alım İşi listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

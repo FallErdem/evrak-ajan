@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,23 +23,23 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Genelge Görüşü Talebi",
-  "sayi": "E-39985474-010.06-7677562",
-  "tarih": "12.03.2026",
+  "konu": "Bağış Makbuzu Talebi",
+  "sayi": "E-39985474-165.01-4241227",
+  "tarih": "07.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Genelge Görüşü",
-    "Ortak iş": "Genelge Görüşü konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Genelge Görüşü konusunda görüş bildirilmesi"
+    "Konu": "Bağış Makbuzu",
+    "Ortak iş": "Bağış Makbuzu konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Bağış Makbuzu konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -49,10 +49,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Genelge Görüşü"
+    "Bağış Makbuzu"
   ]
 }

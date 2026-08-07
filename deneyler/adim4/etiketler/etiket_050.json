@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Güven Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Kuzey Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Uğur Mumcu Mahallesi Zeytin Sokağı No: 9/18 Yenimahalle/ANKARA",
+    "adres": "Çiğdemtepe Mahallesi Sümbül Sokağı No: 28/1 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,16 +31,16 @@
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Topluluk Etkinlik İzni Talebi",
-  "sayi": "2026/359",
-  "tarih": "17.02.2026",
+  "konu": "Salon Tahsis Talebi",
+  "sayi": "2026/36",
+  "tarih": "07.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Öğrenci Toplulukları, Birlikleri vb. konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "elektronik posta ile"
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +56,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "elektronik posta ile"
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

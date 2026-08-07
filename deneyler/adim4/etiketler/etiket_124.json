@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Hatice KOÇ",
-    "adres": "Beştepe Mahallesi Sümbül Caddesi No: 72/12 Yenimahalle/ANKARA",
+    "ad": "Sevgi YILDIRIM",
+    "adres": "Çiğdemtepe Mahallesi Menekşe Sokak No: 25/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019626695",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "4"
+    "ogrenci_no": "2022202707",
+    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
+    "sinif": "2"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -33,16 +33,15 @@
     "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Belge İşlemleri Hakkında Şikâyet",
+  "konu": "Öğrenci Kimliği Yenileme",
   "sayi": null,
-  "tarih": "20.01.2026",
+  "tarih": "20.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Belge İşlemleri Hakkında Şikâyet",
-    "Sorun": "belge talebime yazılı cevap verilmedi",
-    "Yer": "Beşevler Yerleşkesi",
-    "Süre": "geçtiğimiz aydan bu yana",
+    "Şikâyet konusu": "Öğrenci Kimliği Yenileme",
+    "Sorun": "askerlik belgem düzenlenmediği için işlemim gecikti",
+    "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -59,10 +58,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Belge İşlemleri Hakkında Şikâyet",
-    "belge talebime yazılı cevap verilmedi",
-    "Beşevler Yerleşkesi",
-    "geçtiğimiz aydan bu yana",
+    "Öğrenci Kimliği Yenileme",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

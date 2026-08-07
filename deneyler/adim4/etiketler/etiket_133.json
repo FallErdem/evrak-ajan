@@ -27,16 +27,16 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Yaygın Eğitim Kursları Listesinin Gönderilmesi",
-  "sayi": "E-10213773-135.03-8110902",
-  "tarih": "22.01.2026",
+  "konu": "Başvuru Cevabının Gönderilmesi",
+  "sayi": "E-10213773-622.01-19062489",
+  "tarih": "21.05.2026",
   "ilgi": {
-    "tarih": "25.12.2025",
-    "sayi": "E-91571118-135.03-8929345"
+    "tarih": "07.04.2026",
+    "sayi": "E-91571118-622.01-6797445"
   },
   "ek": {
     "adet": 2,
@@ -45,9 +45,9 @@
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "bahar dönemi",
-    "Sayı": "35 kayıt",
-    "Ek 1": "Yaygın Eğitim Kursları listesi",
+    "Dönem": "güz dönemi",
+    "Sayı": "24 kayıt",
+    "Ek 1": "Bilgi Edinme, Talep ve Şikayetler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -65,9 +65,8 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "bahar dönemi",
-    "35 kayıt",
-    "Yaygın Eğitim Kursları listesi",
+    "güz dönemi",
+    "24 kayıt",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Burak KARACA",
-    "adres": "Beştepe Mahallesi Erguvan Caddesi No: 62/19 Yenimahalle/ANKARA",
+    "ad": "Hüseyin POLAT",
+    "adres": "Beştepe Mahallesi Nergis Caddesi No: 113/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,22 +26,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+  "konu": "Periyodik Muayene Talebi",
   "sayi": null,
-  "tarih": "20.04.2026",
+  "tarih": "16.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
-    "Sorun": "yangın merdiveni kapalı tutuluyor",
-    "Yer": "Gayret Mahallesi",
+    "Şikâyet konusu": "Periyodik Muayene",
+    "Sorun": "muayene randevusu verilmediği için işyerim denetimde ceza aldı",
     "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Talep": "sorunun giderilmesi",
+    "Yer": "Demetevler Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "yangın merdiveni kapalı tutuluyor",
-    "Gayret Mahallesi",
+    "Periyodik Muayene",
     "yaklaşık kırk gündür",
-    "sorunun giderilmesi"
+    "sorunun giderilmesi",
+    "Demetevler Mahallesi"
   ]
 }

@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,30 +23,30 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Hukuki Görüş Talebi",
-  "sayi": "E-65859045-045.02-2583797",
-  "tarih": "22.04.2026",
+  "konu": "Zorunlu Nakil Talebi",
+  "sayi": "E-65859045-210.01-2350818",
+  "tarih": "25.02.2026",
   "ilgi": {
-    "tarih": "01.04.2026",
-    "sayi": "E-55461037-045.02-1906717"
+    "tarih": "12.01.2026",
+    "sayi": "E-93213107-210.01-4832783"
   },
   "ek": {
     "adet": 1,
     "aciklama": "İlgili belge",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Hukuki Görüş",
-    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
+    "Konu": "Zorunlu Nakil",
+    "Ortak iş": "Zorunlu Nakil konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Zorunlu Nakil konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,10 +56,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Hukuki Görüş"
+    "Zorunlu Nakil"
   ]
 }

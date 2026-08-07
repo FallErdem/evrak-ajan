@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Doruk Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Güven Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Barıştepe Mahallesi Ihlamur Caddesi No: 71/11 Yenimahalle/ANKARA",
+    "adres": "İvedik Mahallesi Ceviz Sokak No: 85/2 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Periyodik Muayene Talebi",
-  "sayi": "2026/188",
-  "tarih": "25.03.2026",
+  "konu": "Uygunluk Raporu Yenileme Talebi",
+  "sayi": "2026/206",
+  "tarih": "29.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Ölçü ve Ölçü Aletleri ile İlgili İşler konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "posta yoluyla adresime"
+    "Talep": "İtfaiye Uygunluk Raporları konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,7 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
-    "posta yoluyla adresime"
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

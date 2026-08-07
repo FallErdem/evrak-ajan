@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -23,20 +23,20 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
+    "saklama_suresi": "10"
   },
-  "konu": "Yabancı Uyruklu Öğrenciler Hk.",
-  "sayi": "E-10213773-235-8172662",
-  "tarih": "09.03.2026",
+  "konu": "Mal Alımı Teknik Şartnamesi",
+  "sayi": "E-10213773-934.01-19008808",
+  "tarih": "15.04.2026",
   "ilgi": {
-    "tarih": "10.02.2026",
-    "sayi": "E-21291472-235-4125806"
+    "tarih": "09.03.2026",
+    "sayi": "E-14588481-934.01-5447284"
   },
   "ek": {
     "adet": 1,
@@ -44,11 +44,11 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim) kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Mal Alım İşi kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -58,7 +58,7 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [

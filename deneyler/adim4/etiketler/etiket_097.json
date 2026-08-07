@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ömer YAVUZ",
-    "adres": "İvedik Mahallesi Ceviz Caddesi No: 117/23 Yenimahalle/ANKARA",
+    "ad": "Aslı KAYA",
+    "adres": "Yakacık Mahallesi Çınar Caddesi No: 36/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,18 +30,18 @@
     "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "Ruhsat Hakkında Şikâyet",
+  "konu": "Mesul Müdür Değişikliği Bildirimi",
   "sayi": null,
-  "tarih": "19.02.2026",
+  "tarih": "23.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ruhsat Hakkında Şikâyet",
-    "Sorun": "işyeri ruhsatta belirtilen faaliyet dışında çalışıyor",
-    "Yer": "Barıştepe Mahallesi",
+    "Şikâyet konusu": "Mesul Müdür Değişikliği",
+    "Sorun": "ruhsat başvurum iki aydır sonuçlandırılmadı",
     "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
-    "Talep": "sorunun giderilmesi"
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Talep": "sorunun giderilmesi",
+    "Yer": "Emniyet Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Hakkında Şikâyet",
-    "Barıştepe Mahallesi",
+    "Mesul Müdür Değişikliği",
     "geçtiğimiz aydan bu yana",
-    "sorunun giderilmesi"
+    "sorunun giderilmesi",
+    "Emniyet Mahallesi"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24312041",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -32,30 +32,30 @@
     "saklama_suresi": "15"
   },
   "konu": "Sempozyum Duyurusu",
-  "sayi": "E-24312041-051-54918528",
-  "tarih": "24.04.2026",
+  "sayi": "E-56248377-051-440255",
+  "tarih": "13.05.2026",
   "ilgi": {
-    "tarih": "08.04.2026",
-    "sayi": "E-65859045-051-2576357"
+    "tarih": "30.03.2026",
+    "sayi": "E-65859045-051-2370246"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Konu": "Toplantı ve Etkinlik İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan yıl sonunda bildirilmesi"
+    "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
     2
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "ilgi_kopuk",
+  "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle Belediye Başkanlığı",

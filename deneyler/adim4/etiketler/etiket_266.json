@@ -12,12 +12,12 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Merve AKSOY",
-    "adres": "Yeşilevler Mahallesi Kestane Sokak No: 45/11 Yenimahalle/ANKARA",
+    "ad": "İbrahim YILDIZ",
+    "adres": "Emniyet Mahallesi Yasemin Sokak No: 50/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022776883",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "ogrenci_no": "2023194550",
+    "bolum": "Fen Fakültesi Matematik",
     "sinif": "3"
   },
   "belge_turu": "dilekce",
@@ -29,18 +29,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Katkı Payı Muafiyet Başvurusu",
+  "konu": "Kesin Kayıt Başvurusu",
   "sayi": null,
-  "tarih": "27.02.2026",
+  "tarih": "08.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Katkı Payı Muafiyet",
-    "Öğrenim bilgisi": "2. sınıf öğrencisi",
+    "Talep": "Kesin Kayıt",
+    "Öğrenim bilgisi": "4. sınıf öğrencisi",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -55,8 +55,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı Muafiyet",
-    "2. sınıf öğrencisi",
+    "Kesin Kayıt",
+    "4. sınıf öğrencisi",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

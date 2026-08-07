@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "kurum_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "89052714",
+    "detsis_no": "85330682",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -31,35 +31,36 @@
     "ad": "Atık Yönetimi",
     "saklama_suresi": "10"
   },
-  "konu": "Atık Yönetimi Hk.",
-  "sayi": "E-89052714-155.01-3647030",
-  "tarih": "15.05.2026",
+  "konu": "Tıbbi Atık Bertarafı Hk.",
+  "sayi": "E-85330682-155.01-3545279",
+  "tarih": "23.03.2026",
   "ilgi": {
-    "tarih": "14.04.2026",
-    "sayi": "E-83011479-155.01-3169679"
+    "tarih": "17.03.2026",
+    "sayi": "E-83011479-155.01-1082795"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Atık Yönetimi",
+    "Talep": "Tıbbi Atık Bertarafı",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
     3
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "kapanis_yanlis",
+  "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Atık Yönetimi",
+    "Tıbbi Atık Bertarafı",
     "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

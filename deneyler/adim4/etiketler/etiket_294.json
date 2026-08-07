@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Yıldız İnşaat Ltd. Şti.",
+    "kurum_adi": "Başkent İnşaat Ltd. Şti.",
     "ad": null,
-    "adres": "Yeşilevler Mahallesi Ceviz Sokak No: 87/14 Yenimahalle/ANKARA",
+    "adres": "İvedik Mahallesi Yasemin Caddesi No: 36/6 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
+    "kod": "115.01.06",
+    "ad": "Uygulama İmar Planı",
     "saklama_suresi": "B"
   },
-  "konu": "İskan Ruhsatı Başvurusu",
-  "sayi": "2026/310",
-  "tarih": "04.05.2026",
+  "konu": "Plan Tadilatı Başvurusu",
+  "sayi": "2026/33",
+  "tarih": "05.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Yapı Kullanma İzni (İskan Ruhsatı) konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Talep": "Uygulama İmar Planı konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "e-Devlet üzerinden"
+    "yıllara göre sayısal döküm",
+    "posta yoluyla adresime"
   ]
 }

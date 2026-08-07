@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine KURT",
-    "adres": "İvedik Mahallesi Ihlamur Caddesi No: 109/15 Yenimahalle/ANKARA",
+    "ad": "Salih ÇAKIR",
+    "adres": "Yeşilevler Mahallesi Papatya Sokağı No: 6/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,21 +26,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Yurtdışı Öğrenim Denklik Başvurusu",
+  "konu": "Bursluluk Başvurusu",
   "sayi": null,
-  "tarih": "02.02.2026",
+  "tarih": "03.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 3
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Talep": "Yurtdışı Öğrenim Denklik",
+    "Talep": "Bursluluk",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -54,7 +54,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yurtdışı Öğrenim Denklik",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

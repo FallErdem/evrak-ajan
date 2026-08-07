@@ -5,59 +5,52 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife KARACA",
-    "adres": "Serhat Mahallesi Sümbül Caddesi No: 32/22 Yenimahalle/ANKARA",
+    "ad": "Kemal KAYA",
+    "adres": "Pamuklar Mahallesi Yasemin Sokağı No: 79/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
-  "belge_turu": "sikayet",
-  "aile": "sikayet",
+  "belge_turu": "dilekce",
+  "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+  "konu": "Tahsilat Makbuzu Talebi",
   "sayi": null,
-  "tarih": "05.02.2026",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
-    "Sorun": "işyerinde yangın tüpü bulunmuyor",
-    "Yer": "Emniyet Mahallesi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
-    "Talep": "sorunun giderilmesi"
+    "Talep": "Tahsilat Makbuzu",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    3
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "işyerinde yangın tüpü bulunmuyor",
-    "Emniyet Mahallesi",
-    "yaklaşık kırk gündür",
-    "sorunun giderilmesi"
+    "Tahsilat Makbuzu",
+    "sürecin tamamlanabilmesi için"
   ]
 }

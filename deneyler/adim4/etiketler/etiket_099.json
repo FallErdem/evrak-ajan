@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hüseyin SARI",
-    "adres": "Karşıyaka Mahallesi Çınar Sokağı No: 90/22 Yenimahalle/ANKARA",
+    "ad": "Sultan ÇETIN",
+    "adres": "Yeşilevler Mahallesi Akasya Sokağı No: 13/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,24 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
+    "kod": "245.04",
+    "ad": "Bursluluk",
     "saklama_suresi": "10"
   },
-  "konu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
+  "konu": "Bursluluk Sonucuna İtiraz",
   "sayi": null,
-  "tarih": "23.04.2026",
+  "tarih": "09.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yaygın Eğitim Kursları Hakkında Şikâyet",
-    "Sorun": "yaygın eğitim kursları işlemlerinde uzun süredir aksama yaşanıyor",
-    "Yer": "ilçe merkezi",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Bursluluk Sonucuna İtiraz",
+    "Sorun": "bursluluk sonucuna itirazım cevapsız kaldı",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -51,13 +50,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "Ortaöğretim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yaygın Eğitim Kursları Hakkında Şikâyet",
-    "ilçe merkezi",
-    "yaklaşık üç haftadır",
+    "Bursluluk Sonucuna İtiraz",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Pınar ÖZDEMIR",
-    "adres": "Barıştepe Mahallesi Menekşe Sokağı No: 103/12 Yenimahalle/ANKARA",
+    "ad": "Yusuf ÖZDEMIR",
+    "adres": "Şentepe Mahallesi Zeytin Caddesi No: 3/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,18 +30,18 @@
     "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
+  "konu": "Rapor Sureti Talebi",
   "sayi": null,
-  "tarih": "12.05.2026",
+  "tarih": "14.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İtfaiye Uygunluk Raporları Hakkında Şikâyet",
-    "Sorun": "yangın merdiveni kapalı tutuluyor",
-    "Yer": "İvedik Mahallesi",
+    "Şikâyet konusu": "Rapor Sureti",
+    "Sorun": "uygunluk raporu talebim geciktiği için ruhsat sürem doldu",
     "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
-    "Talep": "sorunun giderilmesi"
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Talep": "sorunun giderilmesi",
+    "Yer": "Şentepe Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "yangın merdiveni kapalı tutuluyor",
-    "İvedik Mahallesi",
+    "Rapor Sureti",
     "yaklaşık iki aydır",
-    "sorunun giderilmesi"
+    "sorunun giderilmesi",
+    "Şentepe Mahallesi"
   ]
 }

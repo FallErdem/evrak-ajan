@@ -5,54 +5,57 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Merkez Mimarlık Ltd. Şti.",
+    "kurum_adi": "Merkez Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Çiğdemtepe Mahallesi Lale Sokağı No: 70/2 Yenimahalle/ANKARA",
+    "adres": "Demetevler Mahallesi Akasya Caddesi No: 62/24 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
-  "belge_turu": "dilekce",
-  "aile": "belge_talebi",
+  "belge_turu": "bilgi_edinme",
+  "aile": "bilgi_edinme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.10",
-    "ad": "Adres ve Numaralandırma",
-    "saklama_suresi": "B"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Kapı Numarası Verilmesi Talebi",
-  "sayi": "2026/228",
-  "tarih": "03.02.2026",
+  "konu": "Terazi Damgalama Başvurusu",
+  "sayi": "2026/480",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kapı Numarası Verilmesi",
-    "Taşınmaz": "34501 ada, 17 parsel",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "Talep": "Ölçü ve Ölçü Aletleri ile İlgili İşler konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
   "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Kapı Numarası Verilmesi",
-    "34501 ada, 17 parsel"
+    "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "yıllara göre sayısal döküm",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
@@ -23,27 +23,27 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Halk Eğitim Kursu Açılması Talebi",
-  "sayi": "E-24316060-135.03-88457894",
-  "tarih": "08.05.2026",
+  "konu": "Ürün Numunesi Talebi",
+  "sayi": "E-10213773-934.01-18969537",
+  "tarih": "20.03.2026",
   "ilgi": {
-    "tarih": "13.04.2026",
-    "sayi": "E-91571118-135.03-8997176"
+    "tarih": "24.02.2026",
+    "sayi": "E-14588481-934.01-5435695"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "beş iş günü içinde"
+    "Süre": "ay sonuna kadar"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,12 +53,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "Strateji Geliştirme Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "beş iş günü içinde"
+    "ay sonuna kadar"
   ]
 }

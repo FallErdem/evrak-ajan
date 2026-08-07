@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Güven Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Öz Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Karşıyaka Mahallesi Lale Sokak No: 3/5 Yenimahalle/ANKARA",
+    "adres": "Ragıpbey Mahallesi Çınar Caddesi No: 74/17 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Bursluluk Başvurusu",
-  "sayi": "2026/803",
-  "tarih": "14.04.2026",
+  "konu": "Savunma Talebi",
+  "sayi": "2026/319",
+  "tarih": "25.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Bursluluk konusundaki güncel verilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Talep": "Disiplin İşleri konusundaki güncel verilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "e-Devlet üzerinden"
+    "yıllara göre sayısal döküm",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

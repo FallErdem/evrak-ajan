@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hatice TURAN",
-    "adres": "İvedik Mahallesi Ceviz Sokak No: 85/2 Yenimahalle/ANKARA",
+    "ad": "Mustafa AKTAŞ",
+    "adres": "Serhat Mahallesi Kestane Caddesi No: 85/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,22 +30,22 @@
     "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "İtfaiye Uygunluk Raporları Kararına İtiraz",
+  "konu": "Yangın Güvenliği Raporu Başvurusu",
   "sayi": null,
-  "tarih": "16.04.2026",
+  "tarih": "08.05.2026",
   "ilgi": {
-    "tarih": "31.03.2026",
-    "sayi": "E-59553370-180.03-985969"
+    "tarih": "20.04.2026",
+    "sayi": "E-59553370-180.03-3542608"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 3
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "İtfaiye Uygunluk Raporları Kararına İtiraz",
+    "İtiraz konusu": "Yangın Güvenliği Raporu",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -60,6 +60,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
+    "Yangın Güvenliği Raporu",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

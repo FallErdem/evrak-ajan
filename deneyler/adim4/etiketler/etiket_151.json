@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Derya ASLAN",
-    "adres": "Ragıpbey Mahallesi Nergis Caddesi No: 75/4 Yenimahalle/ANKARA",
+    "ad": "Nurten YILDIRIM",
+    "adres": "Barıştepe Mahallesi Yasemin Caddesi No: 31/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,19 +26,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.01",
-    "ad": "İmar Durumu (Belgesi)",
+    "kod": "115.02.08",
+    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
     "saklama_suresi": "B"
   },
-  "konu": "İmar Durumu Bilgi Talebi",
+  "konu": "İskan Ruhsatı Başvurusu",
   "sayi": null,
-  "tarih": "16.03.2026",
+  "tarih": "03.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İmar Durumu Bilgi",
-    "Taşınmaz": "12950 ada, 42 parsel",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "İskan Ruhsatı",
+    "Taşınmaz": "34024 ada, 37 parsel",
+    "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,8 +51,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İmar Durumu Bilgi",
-    "12950 ada, 42 parsel",
-    "mağduriyetin giderilmesi bakımından"
+    "İskan Ruhsatı",
+    "34024 ada, 37 parsel",
+    "sürecin tamamlanabilmesi için"
   ]
 }

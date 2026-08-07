@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatma AKTAŞ",
-    "adres": "Demetevler Mahallesi Ceviz Caddesi No: 57/14 Yenimahalle/ANKARA",
+    "ad": "Mehmet ARSLAN",
+    "adres": "Beştepe Mahallesi Ceviz Caddesi No: 66/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,26 +22,26 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Hakkında Şikâyet",
+  "konu": "Hafta Tatili Ruhsatı Talebi",
   "sayi": null,
-  "tarih": "02.03.2026",
+  "tarih": "13.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Hakkında Şikâyet",
-    "Sorun": "ölçü ve ölçü aletleri ile ilgili işler işlemlerinde uzun süredir aksama yaşanıyor",
-    "Yer": "Susuz Mahallesi",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Hafta Tatili Ruhsatı",
+    "Sorun": "komşumdaki işyeri ruhsatsız çalıştığı hâlde denetlenmiyor",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Talep": "sorunun giderilmesi",
+    "Yer": "İvedik Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,12 +51,13 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Susuz Mahallesi",
-    "bir aydan uzun süredir",
-    "sorunun giderilmesi"
+    "Hafta Tatili Ruhsatı",
+    "yaklaşık iki aydır",
+    "sorunun giderilmesi",
+    "İvedik Mahallesi"
   ]
 }

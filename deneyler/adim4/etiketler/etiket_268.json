@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hatice KILIÇ",
-    "adres": "Şentepe Mahallesi Menekşe Sokak No: 16/11 Yenimahalle/ANKARA",
+    "ad": "Salih BOZKURT",
+    "adres": "Gayret Mahallesi Akasya Caddesi No: 99/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,23 +26,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Ruhsat Kararına İtiraz",
+  "konu": "Yangın Merdiveni Uygunluğu",
   "sayi": null,
-  "tarih": "22.05.2026",
+  "tarih": "15.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 4
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Ruhsat Kararına İtiraz",
+    "İtiraz konusu": "Yangın Merdiveni Uygunluğu",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,7 +57,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Kararına İtiraz",
+    "Yangın Merdiveni Uygunluğu",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

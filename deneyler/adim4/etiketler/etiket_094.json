@@ -27,25 +27,25 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "755.01",
-    "ad": "Etüd-Proje ve Fizibilite",
-    "saklama_suresi": "30"
+    "kod": "755.02",
+    "ad": "İhale",
+    "saklama_suresi": "15"
   },
-  "konu": "Etüd-Proje ve Fizibilite Hk.",
-  "sayi": "E-24304062-755.01-69174985",
-  "tarih": "06.02.2026",
+  "konu": "İhale Sonucunun Bildirilmesi",
+  "sayi": "E-24304062-755.02-62144493",
+  "tarih": "12.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Etüd-Proje ve Fizibilite kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "İhale kapsamında yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların üçüncü çeyrek sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

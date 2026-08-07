@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hüseyin UÇAR",
-    "adres": "Demetevler Mahallesi Nergis Sokağı No: 45/12 Yenimahalle/ANKARA",
+    "ad": "Ayşe KILIÇ",
+    "adres": "Ragıpbey Mahallesi Papatya Sokağı No: 27/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,31 +26,30 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
     "saklama_suresi": "B"
   },
-  "konu": "Öğrenim Belgesi Talebi",
+  "konu": "Okul Kayıt Başvurusu",
   "sayi": null,
-  "tarih": "16.01.2026",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenim Belgesi",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Okul Kayıt",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "muhatap_belirsiz",
+  "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Öğrenim Belgesi",
-    "başvuru dosyasına eklenmek üzere"
+    "Okul Kayıt"
   ]
 }

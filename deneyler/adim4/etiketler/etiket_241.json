@@ -22,8 +22,8 @@
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
       "İlçe Kaymakamlıklarına",
@@ -35,27 +35,27 @@
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
-    "saklama_suresi": "10"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "Ulaşım ve Servis İşleri Listesinin Gönderilmesi",
-  "sayi": "E-10213773-802-8223760",
-  "tarih": "16.04.2026",
+  "konu": "Diploma Kayıt Numarası Sorgusu",
+  "sayi": "E-10213773-198.02.01-19016374",
+  "tarih": "20.04.2026",
   "ilgi": {
-    "tarih": "08.04.2026",
-    "sayi": "E-21291472-802-4172109"
+    "tarih": "09.04.2026",
+    "sayi": "E-21291472-198.02.01-6906186"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 6
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "94 kayıt",
-    "Ek 1": "Ulaşım ve Servis İşleri listesi",
+    "Dönem": "güz dönemi",
+    "Sayı": "142 kayıt",
+    "Ek 1": "Diploma listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -73,9 +73,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
-    "94 kayıt",
-    "Ulaşım ve Servis İşleri listesi",
+    "güz dönemi",
+    "142 kayıt",
+    "Diploma listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

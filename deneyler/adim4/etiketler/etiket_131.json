@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Kemal KURT",
-    "adres": "Şentepe Mahallesi Yasemin Caddesi No: 14/8 Yenimahalle/ANKARA",
+    "ad": "Yusuf ERDOĞAN",
+    "adres": "Kaletepe Mahallesi Erguvan Caddesi No: 28/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,21 +22,22 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
-    "saklama_suresi": "10"
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
+    "saklama_suresi": "15"
   },
-  "konu": "Çöp Toplama Talebi",
+  "konu": "Vergi Değeri Düzeltme Talebi",
   "sayi": null,
-  "tarih": "29.04.2026",
+  "tarih": "09.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Çöp Toplama",
+    "Talep": "Vergi Değeri Düzeltme",
+    "Taşınmaz": "80856 ada, 25 parsel",
     "Gerekçe": "sürecin tamamlanabilmesi için"
   },
   "paragraf_cumle_sayilari": [
@@ -46,11 +47,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Çöp Toplama",
+    "Vergi Değeri Düzeltme",
+    "80856 ada, 25 parsel",
     "sürecin tamamlanabilmesi için"
   ]
 }

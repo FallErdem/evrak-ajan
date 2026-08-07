@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,8 +22,8 @@
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
       "Üniversite Rektörlüklerine"
@@ -32,27 +32,27 @@
       "Yükseköğretim Denetleme Kuruluna"
     ]
   },
-  "beklenen_kapanis": "karma",
+  "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
   },
-  "konu": "Öğrenci Toplulukları, Birlikleri vb. Hk.",
-  "sayi": "E-32625594-309-46152810",
-  "tarih": "15.04.2026",
+  "konu": "Kararın Uygulanması Hk.",
+  "sayi": "E-32625594-050.04-57984648",
+  "tarih": "10.04.2026",
   "ilgi": {
-    "tarih": "03.03.2026",
-    "sayi": "E-98244303-309-7967095"
+    "tarih": "01.04.2026",
+    "sayi": "E-82642947-050.04-6197409"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Öğrenci Toplulukları, Birlikleri vb. kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Kararlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
     "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
@@ -65,7 +65,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Genel Sekreterlik",
     "Gazi Üniversitesi",
     "Gazi"
   ],

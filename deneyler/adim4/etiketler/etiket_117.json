@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
-    "saklama_suresi": "15"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
-  "sayi": "E-65859045-355.02-2561249",
-  "tarih": "10.03.2026",
+  "konu": "Hukuki Görüş Talebi",
+  "sayi": "E-65859045-045.02-2371434",
+  "tarih": "01.04.2026",
   "ilgi": {
-    "tarih": "20.02.2026",
-    "sayi": "E-55461037-355.02-1888400"
+    "tarih": "23.02.2026",
+    "sayi": "E-55461037-045.02-609499"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Uygulama Öğrencisi Yerleştirme",
-    "Ortak iş": "Uygulama Öğrencisi Yerleştirme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Uygulama Öğrencisi Yerleştirme kapsamında öğrenci kabul edilmesi"
+    "Konu": "Hukuki Görüş",
+    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,6 +56,6 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Uygulama Öğrencisi Yerleştirme"
+    "Hukuki Görüş"
   ]
 }

@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,24 +23,24 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Genelge Görüşü Talebi",
-  "sayi": "E-39985474-010.06-7708819",
-  "tarih": "24.04.2026",
+  "konu": "Kayıt İşlemleri Hk.",
+  "sayi": "E-39985474-205-4253754",
+  "tarih": "20.04.2026",
   "ilgi": {
-    "tarih": "09.04.2026",
-    "sayi": "E-55461037-010.06-1910420"
+    "tarih": "06.04.2026",
+    "sayi": "E-93213107-205-4897361"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Genelgeler",
+    "Konu": "Kayıt-Kabul",
     "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -52,7 +52,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [

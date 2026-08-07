@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Osman KOÇ",
-    "adres": "Gayret Mahallesi Ihlamur Caddesi No: 10/4 Yenimahalle/ANKARA",
+    "ad": "Hatice KOÇ",
+    "adres": "Çiğdemtepe Mahallesi Ihlamur Caddesi No: 99/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,18 +30,18 @@
     "ad": "Bina ve Tesisler",
     "saklama_suresi": "10"
   },
-  "konu": "Okul Binası Onarım Talebi",
+  "konu": "Tadilat Talebinin Değerlendirilmesi",
   "sayi": null,
-  "tarih": "17.04.2026",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Talep": "Okul Binası Onarım",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Tadilat Talebinin Değerlendirilmesi",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -54,6 +54,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Okul Binası Onarım"
+    "Tadilat Talebinin Değerlendirilmesi",
+    "mağduriyetin giderilmesi bakımından"
   ]
 }

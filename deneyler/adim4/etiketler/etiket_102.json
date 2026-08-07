@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hatice AKSOY",
-    "adres": "Batıkent Mahallesi Yasemin Caddesi No: 76/13 Yenimahalle/ANKARA",
+    "ad": "Zeynep AKTAŞ",
+    "adres": "Şentepe Mahallesi Ihlamur Sokak No: 20/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,22 +30,22 @@
     "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
     "saklama_suresi": "10"
   },
-  "konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
+  "konu": "Ölçü Aleti Beyannamesi",
   "sayi": null,
-  "tarih": "08.05.2026",
+  "tarih": "21.05.2026",
   "ilgi": {
-    "tarih": "07.04.2026",
-    "sayi": "E-59553370-175-989999"
+    "tarih": "07.05.2026",
+    "sayi": "E-59553370-175-3552365"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Ölçü ve Ölçü Aletleri ile İlgili İşler Kararına İtiraz",
+    "İtiraz konusu": "Ölçü Aleti Beyannamesi",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -60,6 +60,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
+    "Ölçü Aleti Beyannamesi",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

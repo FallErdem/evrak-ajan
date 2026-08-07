@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -31,21 +31,21 @@
     "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Mal Alım İşi Hk.",
-  "sayi": "E-10213773-934.01-8187525",
-  "tarih": "20.03.2026",
+  "konu": "Mal Alımı İhale Onayı",
+  "sayi": "E-24312041-934.01-64761897",
+  "tarih": "13.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Konu": "Mal Alım İşi kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların mali yıl sonunda bildirilmesi"
+    "İstenen 2": "sonuçların yılın ilk yarısı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -60,7 +60,6 @@
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "sonuçların mali yıl sonunda bildirilmesi"
+    "uygulamanın ilgililere duyurulması"
   ]
 }

@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Yıldız Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Başkent Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Ostim Mahallesi Sümbül Sokak No: 16/20 Yenimahalle/ANKARA",
+    "adres": "Yakacık Mahallesi Sümbül Sokağı No: 24/3 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,24 +23,24 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Uygunluk Raporu Yenileme Talebi",
-  "sayi": "2026/48",
-  "tarih": "06.01.2026",
+  "konu": "Engelli Hizmetlerinden Yararlanma Başvurusu",
+  "sayi": "2026/106",
+  "tarih": "04.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İtfaiye Uygunluk Raporları konusundaki güncel verilerin paylaşılması",
+    "Talep": "Engellilere Yönelik Hizmetler konusundaki güncel verilerin paylaşılması",
     "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "elektronik posta ile"
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +50,12 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "yıllara göre sayısal döküm",
-    "elektronik posta ile"
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

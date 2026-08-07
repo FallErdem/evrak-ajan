@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,30 +23,30 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Staj Yeri Talebi",
-  "sayi": "E-10213773-304.03-8120522",
-  "tarih": "29.01.2026",
+  "konu": "Denklik Belgesi Talebi",
+  "sayi": "E-55461037-102.03-646738",
+  "tarih": "29.04.2026",
   "ilgi": {
-    "tarih": "25.12.2025",
-    "sayi": "E-43123369-304.03-3143512"
+    "tarih": "16.03.2026",
+    "sayi": "E-17311665-102.03-5296972"
   },
   "ek": {
     "adet": 1,
     "aciklama": "İlgili belge",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Staj Yeri",
-    "Ortak iş": "Staj Yeri konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Staj Yeri kapsamında öğrenci kabul edilmesi"
+    "Konu": "Denklik Belgesi",
+    "Ortak iş": "Denklik Belgesi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Denklik Belgesi konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,11 +56,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Yeri"
+    "Denklik Belgesi"
   ]
 }

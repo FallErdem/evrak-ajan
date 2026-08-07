@@ -73,10 +73,9 @@
     }
   },
   "tur_gonderen_uyumu": {
-    "_aciklama": "Hangi belge turu hangi gonderen tipinden gelebilir. Ozel hukuk tuzel kisileri de dilekce, sikayet ve bilgi edinme basvurusu yapabilir: bir insaat sirketi ruhsat icin dilekce verir, 4982 sayili Kanun tuzel kisileri de kapsar.",
+    "_aciklama": "Hangi belge turu hangi gonderen tipinden gelebilir. DILEKCE yalnizca gercek kisi/ogrenciden gelir: dilekce sayisi olmayan, kisinin verdigi belgedir. Kendi evrak numarasi olan bir sirket dilekce degil RESMI YAZI yazar. Ozel tuzel kisiler sikayet, bilgi edinme ve itiraz yazabilir (4982 sayili Kanun tuzel kisileri de kapsar).",
     "dilekce": [
-      "vatandas",
-      "ozel_tuzel"
+      "vatandas"
     ],
     "sikayet": [
       "vatandas",

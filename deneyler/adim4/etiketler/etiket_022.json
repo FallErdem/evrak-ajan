@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,7 +23,7 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
@@ -32,20 +32,20 @@
     "saklama_suresi": "15"
   },
   "konu": "Para Cezası Tahsilatı Hk.",
-  "sayi": "E-24432702-858-11177896",
-  "tarih": "29.05.2026",
+  "sayi": "E-24432702-858-6626244",
+  "tarih": "18.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 6
+    "sayfa": 4
   },
   "somut_bilgiler": {
     "Konu": "İdari Yaptırım/Para Cezası İşleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların mali yıl sonunda bildirilmesi"
+    "İstenen 2": "sonuçların üçüncü çeyrek sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,12 +55,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "sonuçların mali yıl sonunda bildirilmesi"
+    "uygulamanın ilgililere duyurulması"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yazı İşleri Müdürlüğü",
+    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "15986609",
+    "detsis_no": "18426575",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -31,17 +31,17 @@
     "ad": "İhale",
     "saklama_suresi": "15"
   },
-  "konu": "İhale Sonucunun Bildirilmesi",
-  "sayi": "E-15986609-755.02-2313444",
-  "tarih": "27.03.2026",
+  "konu": "İhale İlanı Hk.",
+  "sayi": "E-18426575-755.02-634606",
+  "tarih": "12.05.2026",
   "ilgi": {
-    "tarih": "16.03.2026",
-    "sayi": "E-33152401-755.02-2534897"
+    "tarih": "22.04.2026",
+    "sayi": "E-33152401-755.02-802052"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İhale Sonucunun Bildirilmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "İhale İlanı",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
     "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
@@ -51,15 +51,15 @@
     3
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "sayi_eksik",
+  "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İhale Sonucunun Bildirilmesi",
-    "olumlu, işlem tamamlandı",
+    "İhale İlanı",
+    "olumlu, belge düzenlendi",
     "ilgide kayıtlı yazı"
   ]
 }

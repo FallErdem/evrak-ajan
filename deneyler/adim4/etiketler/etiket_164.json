@@ -5,27 +5,27 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Mehmet YAVUZ",
-    "adres": "Beştepe Mahallesi Erguvan Sokak No: 96/16 Yenimahalle/ANKARA",
+    "ad": "Mustafa GÜLER",
+    "adres": "Şentepe Mahallesi Sümbül Caddesi No: 110/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023884049",
-    "bolum": "Biyoloji (Yüksek Lisans)",
-    "sinif": "2"
+    "ogrenci_no": "2021258016",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
@@ -33,14 +33,14 @@
     "ad": "Yeni Kayıt İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kesin Kayıt Başvurusu",
+  "konu": "Kayıt Süresi Uzatım Talebi",
   "sayi": null,
-  "tarih": "14.01.2026",
+  "tarih": "31.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kesin Kayıt",
-    "Öğrenim bilgisi": "3. sınıf öğrencisi",
+    "Talep": "Kayıt Süresi Uzatım",
+    "Öğrenim bilgisi": "4. sınıf öğrencisi",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
   },
   "paragraf_cumle_sayilari": [
@@ -50,12 +50,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kesin Kayıt",
-    "3. sınıf öğrencisi"
+    "Kayıt Süresi Uzatım",
+    "4. sınıf öğrencisi"
   ]
 }

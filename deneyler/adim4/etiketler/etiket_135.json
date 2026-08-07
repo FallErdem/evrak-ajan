@@ -12,44 +12,43 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24432702",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
-      "İlçe Kaymakamlıklarına",
       "İlçe Belediye Başkanlıklarına"
     ],
     "bilgi": [
-      "İçişleri Bakanlığına"
+      "Ankara Valiliğine"
     ]
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "855",
-    "ad": "Borç ve Alacak İşleri",
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
     "saklama_suresi": "15"
   },
-  "konu": "Alacağın Tahsili Hk.",
-  "sayi": "E-10213773-855-8145969",
-  "tarih": "17.02.2026",
+  "konu": "Ödenek Talebi",
+  "sayi": "E-24432702-841.01-6568025",
+  "tarih": "18.03.2026",
   "ilgi": {
-    "tarih": "10.02.2026",
-    "sayi": "E-43195403-855-1709249"
+    "tarih": "06.02.2026",
+    "sayi": "E-43195403-841.01-1889009"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Alacağın Tahsili",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Ödenek",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
     "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
@@ -66,8 +65,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Alacağın Tahsili",
-    "olumlu, belge düzenlendi",
+    "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı"
   ]
 }

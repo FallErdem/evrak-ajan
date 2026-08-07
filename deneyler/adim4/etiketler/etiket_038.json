@@ -5,19 +5,19 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Büşra ARSLAN",
-    "adres": "Beştepe Mahallesi Papatya Caddesi No: 72/6 Yenimahalle/ANKARA",
+    "ad": "Elif POLAT",
+    "adres": "Yeşilevler Mahallesi Papatya Sokak No: 90/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025992268",
-    "bolum": "Diş Hekimliği Fakültesi",
+    "ogrenci_no": "2025244927",
+    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
     "sinif": "4"
   },
   "belge_turu": "dilekce",
@@ -25,26 +25,25 @@
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Süresi Uzatım Talebi",
+  "konu": "Yeni Durak Talebi",
   "sayi": null,
-  "tarih": "16.02.2026",
+  "tarih": "06.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Tapu fotokopisi",
-    "sayfa": 1
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Talep": "Kayıt Süresi Uzatım",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
+    "Talep": "Yeni Durak",
     "Gerekçe": "mağduriyetin giderilmesi bakımından"
   },
   "paragraf_cumle_sayilari": [
@@ -54,13 +53,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Süresi Uzatım",
-    "lisansüstü programa kayıtlı",
+    "Yeni Durak",
     "mağduriyetin giderilmesi bakımından"
   ]
 }

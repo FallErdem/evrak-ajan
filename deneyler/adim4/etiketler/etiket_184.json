@@ -5,10 +5,10 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,24 +23,24 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Atık Yönetimi Hakkında Görüş Talebi",
-  "sayi": "E-55461037-155.01-1910419",
-  "tarih": "09.04.2026",
+  "konu": "Stratejik Plan Taslağı Hakkında Görüş",
+  "sayi": "E-55461037-602.04-654095",
+  "tarih": "12.05.2026",
   "ilgi": {
-    "tarih": "27.03.2026",
-    "sayi": "E-83011479-155.01-3160757"
+    "tarih": "06.04.2026",
+    "sayi": "E-65859045-602.04-2374396"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Atık Yönetimi",
+    "Konu": "Stratejik Plan",
     "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -52,11 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Yenimahalle Belediye Başkanlığı",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Atık Yönetimi",
+    "Stratejik Plan",
     "konu hakkında görüş bildirilmesi"
   ]
 }

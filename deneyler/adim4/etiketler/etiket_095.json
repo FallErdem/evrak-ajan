@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife ŞAHIN",
-    "adres": "Ragıpbey Mahallesi Kestane Sokak No: 8/7 Yenimahalle/ANKARA",
+    "ad": "Ömer ATEŞ",
+    "adres": "İvedik Mahallesi Ihlamur Sokak No: 85/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,19 +26,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.08",
-    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
+    "kod": "115.01.06",
+    "ad": "Uygulama İmar Planı",
     "saklama_suresi": "B"
   },
-  "konu": "İfraz ve Tevhid Talebi",
+  "konu": "Plan Örneği Talebi",
   "sayi": null,
-  "tarih": "25.05.2026",
+  "tarih": "27.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İfraz ve Tevhid",
-    "Taşınmaz": "61247 ada, 39 parsel",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Plan Örneği",
+    "Taşınmaz": "84692 ada, 17 parsel",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,8 +51,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İfraz ve Tevhid",
-    "61247 ada, 39 parsel",
-    "mağduriyetin giderilmesi bakımından"
+    "Plan Örneği",
+    "84692 ada, 17 parsel",
+    "başvuru dosyasına eklenmek üzere"
   ]
 }

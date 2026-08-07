@@ -22,8 +22,8 @@
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Personel Dairesi Başkanlığı",
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
       "Üniversite Rektörlüklerine"
@@ -32,18 +32,18 @@
       "Yükseköğretim Denetleme Kuruluna"
     ]
   },
-  "beklenen_kapanis": "karma",
+  "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "209",
-    "ad": "Akademik Personel Görevlendirmeleri",
+    "kod": "204.01",
+    "ad": "Doçentlik",
     "saklama_suresi": "15"
   },
-  "konu": "Ders Görevlendirmesi Hk.",
-  "sayi": "E-32625594-209-46088710",
-  "tarih": "25.03.2026",
+  "konu": "Doçentlik Sözlü Sınavı Hk.",
+  "sayi": "E-32625594-204.01-57540800",
+  "tarih": "09.01.2026",
   "ilgi": {
-    "tarih": "20.02.2026",
-    "sayi": "E-42218640-209-2899129"
+    "tarih": "09.12.2025",
+    "sayi": "E-42218640-204.01-7443881"
   },
   "ek": {
     "adet": 1,
@@ -51,11 +51,11 @@
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Akademik Personel Görevlendirmeleri kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Doçentlik kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,

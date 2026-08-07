@@ -12,35 +12,35 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Söğütbaşı İlkokulu Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10095429",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "93213107",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "802",
+    "ad": "Ulaşım ve Servis İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Kayıt-Kabul Hakkında Görüş Talebi",
-  "sayi": "E-10095429-205-5581",
-  "tarih": "16.01.2026",
+  "konu": "Servis Aracı Görevlendirmesi",
+  "sayi": "E-93213107-802-4845973",
+  "tarih": "29.01.2026",
   "ilgi": {
-    "tarih": "06.01.2026",
-    "sayi": "E-21291472-205-4097270"
+    "tarih": "19.01.2026",
+    "sayi": "E-21291472-802-6845133"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Kayıt-Kabul",
+    "Konu": "Ulaşım ve Servis İşleri",
     "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
@@ -56,6 +56,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "Ulaşım ve Servis İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

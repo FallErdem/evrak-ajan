@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Osman KAYA",
-    "adres": "Yakacık Mahallesi Menekşe Sokağı No: 30/9 Yenimahalle/ANKARA",
+    "ad": "Fatma SARI",
+    "adres": "İvedik Mahallesi Nergis Caddesi No: 114/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,30 +22,30 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
     "saklama_suresi": "B"
   },
-  "konu": "Denklik Kararına İtiraz",
+  "konu": "Kimlik Numarası Kaydı Hk.",
   "sayi": null,
-  "tarih": "27.04.2026",
+  "tarih": "16.03.2026",
   "ilgi": {
-    "tarih": "27.03.2026",
-    "sayi": "E-63971525-215.01-1251131"
+    "tarih": "02.03.2026",
+    "sayi": "E-21291472-235-6877052"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Başvuru evrakı",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Denklik Kararına İtiraz",
+    "İtiraz konusu": "Kimlik Numarası Kaydı",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,11 +56,11 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Denklik Kararına İtiraz",
+    "Kimlik Numarası Kaydı",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]
