@@ -5,45 +5,45 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "makine_ikmal",
+    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "detsis_no": "89052714",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Hukuk İşleri Müdürlüğü",
+    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10578106",
+    "detsis_no": "18426575",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Temizlik İşleri Müdürlüğü",
+  "muhatap_makam": "Makine İkmal Bakım ve Onarım Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
+    "kod": "801",
+    "ad": "Taşıt ve İş Makineleri İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Tıbbi Atık Bertarafı Hk.",
-  "sayi": "E-10578106-155.01-3352940",
-  "tarih": "06.02.2026",
+  "konu": "Araç Görevlendirmesi",
+  "sayi": "E-18426575-801-1493832",
+  "tarih": "27.04.2026",
   "ilgi": {
-    "tarih": "25.12.2025",
-    "sayi": "E-83011479-155.01-746700"
+    "tarih": "25.03.2026",
+    "sayi": "E-89052714-801-3465517"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Tıbbi Atık Bertarafı",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Araç Görevlendirmesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
     "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
@@ -54,12 +54,12 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Tıbbi Atık Bertarafı",
-    "olumlu, talep karşılandı",
+    "Araç Görevlendirmesi",
+    "olumlu, belge düzenlendi",
     "ilgide kayıtlı yazı"
   ]
 }

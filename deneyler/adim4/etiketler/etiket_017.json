@@ -5,47 +5,48 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Esra ERDOĞAN",
-    "adres": "Emniyet Mahallesi Erguvan Caddesi No: 106/4 Yenimahalle/ANKARA",
+    "ad": "Şerife ATEŞ",
+    "adres": "Yeşilevler Mahallesi Sümbül Sokağı No: 46/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025943909",
-    "bolum": "Rehberlik ve Psikolojik Danışmanlık",
-    "sinif": "3"
+    "ogrenci_no": "2020991880",
+    "bolum": "Biyoloji (Yüksek Lisans)",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
-    "saklama_suresi": "10"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Sağlık Sebebiyle İzin Talebi",
+  "konu": "Tez Konusu Değişikliği Talebi",
   "sayi": null,
-  "tarih": "29.04.2026",
+  "tarih": "08.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Tapu fotokopisi",
-    "sayfa": 4
+    "aciklama": "Öğrenci belgesi",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Talep": "Sağlık Sebebiyle İzin",
-    "Öğrenim bilgisi": "2019 yılı mezunu",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Tez Konusu Değişikliği",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -54,13 +55,12 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
-    "Gazi Üniversitesi",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sağlık Sebebiyle İzin",
-    "2019 yılı mezunu",
-    "sürecin tamamlanabilmesi için"
+    "Tez Konusu Değişikliği",
+    "sürecin tamamlanabilmesi için",
+    "elektronik posta ile"
   ]
 }

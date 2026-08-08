@@ -37,7 +37,9 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Taşımalı Eğitim Kapsamına Alınma",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +48,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "Taşımalı Eğitim Kapsamına Alınma",
-    "mağduriyetin giderilmesi bakımından"
+    "mağduriyetin giderilmesi bakımından",
+    "şahsen başvuru yapılmıştır",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

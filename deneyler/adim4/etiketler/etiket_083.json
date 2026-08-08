@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -31,12 +31,12 @@
     "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Alınan Kararların Özeti",
-  "sayi": "E-10213773-050.04-9991881",
-  "tarih": "06.04.2026",
+  "konu": "Kararın Uygulanması Hk.",
+  "sayi": "E-65859045-050.04-3529399",
+  "tarih": "29.05.2026",
   "ilgi": {
-    "tarih": "20.02.2026",
-    "sayi": "E-39985474-050.04-8660350"
+    "tarih": "17.04.2026",
+    "sayi": "E-39985474-050.04-7055404"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -53,7 +53,6 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Gazi Üniversitesi Rektörlüğü",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [

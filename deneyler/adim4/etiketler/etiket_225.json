@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Murat ÇELIK",
-    "adres": "Ergazi Mahallesi Papatya Sokağı No: 12/15 Yenimahalle/ANKARA",
+    "ad": "Selin DEMIR",
+    "adres": "Emniyet Mahallesi Erguvan Sokağı No: 12/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,14 +30,16 @@
     "ad": "Bursluluk",
     "saklama_suresi": "10"
   },
-  "konu": "Gelir Belgesi Talebi",
+  "konu": "Bursluluk Başvurusu",
   "sayi": null,
-  "tarih": "16.04.2026",
+  "tarih": "08.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Gelir Belgesi",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Bursluluk",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +48,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Gelir Belgesi",
-    "resmî işlemlerde kullanılmak üzere"
+    "sürecin tamamlanabilmesi için",
+    "elektronik posta ile"
   ]
 }

@@ -5,43 +5,43 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yıldıztepe Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10114782",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "93213107",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_makam": "Strateji Geliştirme Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "CİMER Başvurusunun Değerlendirilmesi",
-  "sayi": "E-10114782-622.01-5193",
-  "tarih": "06.03.2026",
+  "konu": "Stratejik Plan Hazırlık Çalışmaları",
+  "sayi": "E-93213107-602.04-8277434",
+  "tarih": "16.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Bilgi Edinme, Talep ve Şikayetler",
+    "Konu": "Stratejik Plan",
     "Gerekçe": "iş ve işlemlerin zamanında tamamlanması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
@@ -53,11 +53,10 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bilgi Edinme, Talep ve Şikayetler",
+    "Stratejik Plan",
     "iş ve işlemlerin zamanında tamamlanması"
   ]
 }

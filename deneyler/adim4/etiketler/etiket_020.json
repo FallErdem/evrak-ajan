@@ -27,23 +27,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
+    "kod": "773",
+    "ad": "Staj İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Sosyal İnceleme Raporu Talebi",
-  "sayi": "E-55461037-815-3046476",
-  "tarih": "15.05.2026",
+  "konu": "Staj Kabul Yazısı Talebi",
+  "sayi": "E-55461037-773-3025457",
+  "tarih": "25.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "İlgili belge",
+    "aciklama": "Çalışma programı",
     "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Sosyal İnceleme Raporu",
-    "Ortak iş": "Sosyal İnceleme Raporu konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Sosyal İnceleme Raporu konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Staj Kabul Yazısı",
+    "Ortak iş": "Staj Kabul Yazısı konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Staj Kabul Yazısı kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,6 +57,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Sosyal İnceleme Raporu"
+    "Staj Kabul Yazısı"
   ]
 }

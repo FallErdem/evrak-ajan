@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "17311665",
+    "detsis_no": "47014261",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -27,18 +27,18 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "204.01",
-    "ad": "Doçentlik",
+    "kod": "209",
+    "ad": "Akademik Personel Görevlendirmeleri",
     "saklama_suresi": "15"
   },
-  "konu": "Doçentlik Sözlü Sınavı Hk.",
-  "sayi": "E-17311665-204.01-2066046",
-  "tarih": "06.01.2026",
+  "konu": "35. Madde Kapsamında Görevlendirme",
+  "sayi": "E-47014261-209-1076607",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Doçentlik",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Akademik Personel Görevlendirmeleri",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -50,10 +50,10 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Personel Dairesi Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
+    "Akademik Personel Görevlendirmeleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

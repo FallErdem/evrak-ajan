@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -32,11 +32,11 @@
     "saklama_suresi": "10"
   },
   "konu": "Denetim Kurulu Raporu",
-  "sayi": "E-39985474-165.01-8663939",
-  "tarih": "25.02.2026",
+  "sayi": "E-65859045-165.01-3521097",
+  "tarih": "15.05.2026",
   "ilgi": {
-    "tarih": "22.01.2026",
-    "sayi": "E-93213107-165.01-8297823"
+    "tarih": "01.05.2026",
+    "sayi": "E-93213107-165.01-8318461"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -52,8 +52,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "Okul Aile Birlikleri",

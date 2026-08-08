@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Fatma KARACA",
-    "adres": "Yeşilevler Mahallesi Ceviz Caddesi No: 43/18 Yenimahalle/ANKARA",
+    "ad": "Osman KOÇ",
+    "adres": "Çiğdemtepe Mahallesi Çınar Caddesi No: 105/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024278329",
-    "bolum": "Mimarlık Fakültesi",
-    "sinif": "1"
+    "ogrenci_no": "2021929892",
+    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,18 +29,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Denklik Belgesi Talebi",
+  "konu": "Transkript Talebi",
   "sayi": null,
-  "tarih": "27.05.2026",
+  "tarih": "04.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Denklik Belgesi",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Transkript",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,11 +52,10 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Denklik Belgesi",
-    "resmî işlemlerde kullanılmak üzere"
+    "başvuru dosyasına eklenmek üzere",
+    "e-Devlet üzerinden"
   ]
 }

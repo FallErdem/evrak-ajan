@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,19 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "İhtilaflı Hususta Değerlendirme Talebi",
-  "sayi": "E-65859045-045.02-966072",
-  "tarih": "07.01.2026",
+  "konu": "Öğretmenlik Uygulaması Protokolü",
+  "sayi": "E-39985474-355.02-7035473",
+  "tarih": "23.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "İhtilaflı Hususta Değerlendirme",
-    "Ortak iş": "İhtilaflı Hususta Değerlendirme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "İhtilaflı Hususta Değerlendirme konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Öğretmenlik Uygulaması Protokolü",
+    "Ortak iş": "Öğretmenlik Uygulaması Protokolü konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "iş birliği protokolü düzenlenmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -48,11 +48,10 @@
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
-    "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "İhtilaflı Hususta Değerlendirme"
+    "Öğretmenlik Uygulaması Protokolü",
+    "iş birliği protokolü düzenlenmesi"
   ]
 }

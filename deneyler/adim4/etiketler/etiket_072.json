@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hatice ŞIMŞEK",
-    "adres": "Yakacık Mahallesi Papatya Sokak No: 81/8 Yenimahalle/ANKARA",
+    "ad": "Emine DOĞAN",
+    "adres": "Pamuklar Mahallesi Sümbül Sokak No: 42/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,26 +21,27 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_makam": "Yenimahalle Kaymakamlığı",
+  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Kimlik Numarası Kaydı Hk.",
+  "konu": "Yönetim Kurulu Seçimi Hk.",
   "sayi": null,
-  "tarih": "15.04.2026",
+  "tarih": "07.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kimlik Numarası Kaydı",
-    "Sorun": "uyum sınıfı açılmadığı için çocuğum dersleri takip edemiyor",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Yönetim Kurulu Seçimi",
+    "Sorun": "kantin fiyatları belirlenen tarifenin üzerinde uygulanıyor",
+    "Süre": "bir aydan uzun süredir",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Talep": "sorunun giderilmesi",
+    "Yer": "ilçe merkezi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -50,12 +51,12 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kimlik Numarası Kaydı",
-    "geçtiğimiz aydan bu yana",
-    "sorunun giderilmesi"
+    "Yönetim Kurulu Seçimi",
+    "bir aydan uzun süredir",
+    "sorunun giderilmesi",
+    "ilçe merkezi"
   ]
 }

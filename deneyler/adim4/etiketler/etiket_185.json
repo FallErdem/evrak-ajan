@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin ÇETIN",
-    "adres": "Emniyet Mahallesi Akasya Sokak No: 36/1 Yenimahalle/ANKARA",
+    "ad": "Serkan ÖZKAN",
+    "adres": "Kaletepe Mahallesi Ceviz Caddesi No: 56/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,19 +26,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.04",
-    "ad": "Yapı Ruhsatı",
+    "kod": "115.02.01",
+    "ad": "İmar Durumu (Belgesi)",
     "saklama_suresi": "B"
   },
-  "konu": "Ruhsat Harcı İadesi Talebi",
+  "konu": "İmar Durum Belgesi Talebi",
   "sayi": null,
-  "tarih": "20.03.2026",
+  "tarih": "21.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Ruhsat Harcı İadesi",
-    "Taşınmaz": "45379 ada, 43 parsel",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "İmar Durum Belgesi",
+    "Taşınmaz": "26262 ada, 1 parsel",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,8 +53,10 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Harcı İadesi",
-    "45379 ada, 43 parsel",
-    "mağduriyetin giderilmesi bakımından"
+    "İmar Durum Belgesi",
+    "26262 ada, 1 parsel",
+    "resmî işlemlerde kullanılmak üzere",
+    "şahsen başvuru yapılmıştır",
+    "posta yoluyla adresime"
   ]
 }

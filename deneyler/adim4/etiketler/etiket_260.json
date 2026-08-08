@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ayşe SARI",
-    "adres": "İvedik Mahallesi Manolya Caddesi No: 60/21 Yenimahalle/ANKARA",
+    "ad": "Gamze AYDIN",
+    "adres": "Kaletepe Mahallesi Menekşe Sokak No: 3/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,19 +26,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Emlak Vergisi Muafiyet Başvurusu",
+  "konu": "Borç Bilgisi Talebi",
   "sayi": null,
-  "tarih": "28.05.2026",
+  "tarih": "22.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Emlak Vergisi Muafiyet",
-    "Taşınmaz": "13503 ada, 26 parsel",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Borç Bilgisi",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,7 +52,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Muafiyet",
-    "13503 ada, 26 parsel"
+    "Borç Bilgisi",
+    "sürecin tamamlanabilmesi için",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

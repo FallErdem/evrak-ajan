@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -32,11 +32,11 @@
     "saklama_suresi": "30"
   },
   "konu": "İhtilaflı Hususta Değerlendirme Talebi",
-  "sayi": "E-55461037-045.02-3013884",
-  "tarih": "25.02.2026",
+  "sayi": "E-65859045-045.02-3457028",
+  "tarih": "27.01.2026",
   "ilgi": {
-    "tarih": "20.01.2026",
-    "sayi": "E-82642947-045.02-8320562"
+    "tarih": "24.12.2025",
+    "sayi": "E-82642947-045.02-8111207"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -53,7 +53,6 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Genel Sekreterlik",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [

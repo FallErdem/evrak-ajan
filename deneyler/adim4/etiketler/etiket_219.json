@@ -12,37 +12,37 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Ortaöğretim Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "93213107",
+    "detsis_no": "63971525",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
     "saklama_suresi": "B"
   },
-  "konu": "Yurtdışı Kullanım İçin Onay Talebi",
-  "sayi": "E-93213107-198.02.01-8355380",
-  "tarih": "07.04.2026",
+  "konu": "Yabancı Uyruklu Öğrenci Nakil İşlemi",
+  "sayi": "E-63971525-235-5785220",
+  "tarih": "04.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Taslak metin",
+    "aciklama": "Gerekçe raporu",
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Diploma",
-    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
+    "Konu": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,10 +53,9 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "mevzuatın öngördüğü sürelere uyulması"
+    "hizmetlerin aksamadan yürütülmesi"
   ]
 }

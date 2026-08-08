@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -35,24 +35,24 @@
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "755.01",
-    "ad": "Etüd-Proje ve Fizibilite",
-    "saklama_suresi": "30"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Uygulama Projesi Revizyonu",
-  "sayi": "E-24304062-755.01-74627396",
+  "konu": "Araştırma İzni Hk.",
+  "sayi": "E-24304062-805.02.05-74627396",
   "tarih": "02.03.2026",
   "ilgi": {
     "tarih": "27.01.2026",
-    "sayi": "E-33152401-755.01-1829475"
+    "sayi": "E-26888327-805.02.05-1829475"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "aciklama": "Etik kurul kararı",
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Etüd-Proje ve Fizibilite kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Araştırma İzni konusunda yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
@@ -66,7 +66,7 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

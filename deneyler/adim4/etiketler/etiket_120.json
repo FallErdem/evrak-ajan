@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet BULUT",
-    "adres": "Batıkent Mahallesi Sümbül Sokağı No: 94/7 Yenimahalle/ANKARA",
+    "ad": "Selin ÇAKIR",
+    "adres": "Karşıyaka Mahallesi Papatya Sokak No: 55/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,20 +30,20 @@
     "ad": "Kayıt-Kabul",
     "saklama_suresi": "B"
   },
-  "konu": "Şube Oluşturma Talebi",
+  "konu": "Yaş Nedeniyle Kayıt Erteleme",
   "sayi": null,
-  "tarih": "23.01.2026",
+  "tarih": "27.02.2026",
   "ilgi": {
-    "tarih": "11.12.2025",
-    "sayi": "E-21291472-205-2958782"
+    "tarih": "06.02.2026",
+    "sayi": "E-21291472-205-4920834"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Başvuru evrakı",
-    "sayfa": 3
+    "aciklama": "Nüfus kayıt örneği",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Şube Oluşturma",
+    "İtiraz konusu": "Yaş Nedeniyle Kayıt Erteleme",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -56,11 +56,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Şube Oluşturma",
+    "Yaş Nedeniyle Kayıt Erteleme",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

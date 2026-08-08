@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze KAYA",
-    "adres": "Susuz Mahallesi Lale Caddesi No: 83/8 Yenimahalle/ANKARA",
+    "ad": "Emre SARI",
+    "adres": "Demetevler Mahallesi Ihlamur Sokak No: 88/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,14 +30,14 @@
     "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Kurs Yeri Tahsisi",
+  "konu": "Usta Öğretici Görevlendirmesi",
   "sayi": null,
-  "tarih": "04.03.2026",
+  "tarih": "23.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kurs Yeri Tahsisi",
-    "Sorun": "kurs saatleri duyurulandan farklı uygulanıyor",
+    "Şikâyet konusu": "Usta Öğretici Görevlendirmesi",
+    "Sorun": "kayıt olduğum kurs yeterli kursiyer yok denilerek iptal edildi",
     "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
@@ -50,11 +50,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kurs Yeri Tahsisi",
+    "Usta Öğretici Görevlendirmesi",
     "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]

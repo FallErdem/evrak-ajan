@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -32,11 +32,11 @@
     "saklama_suresi": "30"
   },
   "konu": "Hukuki Görüş Talebi",
-  "sayi": "E-10213773-045.02-9953551",
-  "tarih": "10.03.2026",
+  "sayi": "E-65859045-045.02-3490859",
+  "tarih": "25.03.2026",
   "ilgi": {
-    "tarih": "28.01.2026",
-    "sayi": "E-82642947-045.02-8328397"
+    "tarih": "10.02.2026",
+    "sayi": "E-82642947-045.02-8148579"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -53,7 +53,6 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Genel Sekreterlik",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [

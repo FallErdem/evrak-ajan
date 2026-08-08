@@ -27,27 +27,27 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Genelgenin Yürürlükten Kaldırılması",
-  "sayi": "E-10213773-010.06-10042117",
-  "tarih": "11.05.2026",
+  "konu": "Başvuru Cevabının Gönderilmesi",
+  "sayi": "E-10213773-622.01-11577359",
+  "tarih": "18.05.2026",
   "ilgi": {
     "tarih": "07.05.2026",
-    "sayi": "E-55461037-010.06-3043161"
+    "sayi": "E-55461037-622.01-3043173"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 6
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "24 kayıt",
-    "Ek 1": "Genelgeler listesi",
+    "Sayı": "47 kayıt",
+    "Ek 1": "Bilgi Edinme, Talep ve Şikayetler listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -59,15 +59,12 @@
   "pdf_bicimi": "metin_katmanli",
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
-    "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "içinde bulunulan öğretim yılı",
-    "24 kayıt",
-    "Genelgeler listesi",
+    "47 kayıt",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

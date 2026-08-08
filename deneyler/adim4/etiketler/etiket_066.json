@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "kurum_adi": "Özgüryurt İlkokulu Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "91571118",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10088059",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -31,17 +31,17 @@
     "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Genelge Uygulamasında Karşılaşılan Tereddütler",
-  "sayi": "E-91571118-010.06-3790654",
-  "tarih": "28.05.2026",
+  "konu": "Genelgenin İlgili Birimlere Dağıtımı",
+  "sayi": "E-10088059-010.06-4094",
+  "tarih": "06.01.2026",
   "ilgi": {
-    "tarih": "21.04.2026",
-    "sayi": "E-55461037-010.06-3036579"
+    "tarih": "26.12.2025",
+    "sayi": "E-55461037-010.06-2988694"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Genelge Uygulamasında Karşılaşılan Tereddütler",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Genelgenin İlgili Birimlere Dağıtımı",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
     "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
@@ -53,12 +53,11 @@
   "pdf_bicimi": "metin_katmanli",
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
-    "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "olumlu, belge düzenlendi",
+    "Genelgenin İlgili Birimlere Dağıtımı",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı"
   ]
 }

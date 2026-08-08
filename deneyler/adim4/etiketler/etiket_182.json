@@ -5,43 +5,44 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ali ERDOĞAN",
-    "adres": "Barıştepe Mahallesi Manolya Caddesi No: 113/18 Yenimahalle/ANKARA",
+    "ad": "Pınar ASLAN",
+    "adres": "Beştepe Mahallesi Ihlamur Caddesi No: 111/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019176106",
-    "bolum": "Mimarlık Fakültesi",
-    "sinif": "3"
+    "ogrenci_no": "2019465595",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Katkı Payı İade Talebi",
+  "konu": "Etkinlik Bütçe Desteği Talebi",
   "sayi": null,
-  "tarih": "29.05.2026",
+  "tarih": "31.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Katkı Payı İade",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Etkinlik Bütçe Desteği",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,13 +51,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı İade",
-    "lisansüstü programa kayıtlı",
-    "sürecin tamamlanabilmesi için"
+    "Etkinlik Bütçe Desteği",
+    "şahsen başvuru yapılmıştır",
+    "elektronik posta ile"
   ]
 }

@@ -5,44 +5,44 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Meryem ATEŞ",
-    "adres": "Kaletepe Mahallesi Papatya Sokağı No: 26/19 Yenimahalle/ANKARA",
+    "ad": "Meryem SARI",
+    "adres": "Gayret Mahallesi Zeytin Caddesi No: 101/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020362758",
-    "bolum": "Türkçe Öğretmenliği",
-    "sinif": "3"
+    "ogrenci_no": "2019299320",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "1"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Mazeret Belgesi Talebi",
+  "konu": "Öğrenci Kimliği Yenileme",
   "sayi": null,
-  "tarih": "09.02.2026",
+  "tarih": "05.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Mazeret Belgesi",
-    "Sorun": "izin dönüşü kaydım yenilenmediği için derslere yazılamadım",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Şikâyet konusu": "Öğrenci Kimliği Yenileme",
+    "Sorun": "transkriptimde geçen dönemin notları görünmüyor",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,13 +53,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
-    "Gazi Üniversitesi",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Mazeret Belgesi",
-    "yaklaşık kırk gündür",
+    "Öğrenci Kimliği Yenileme",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

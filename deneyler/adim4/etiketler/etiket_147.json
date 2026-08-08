@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hatice KAYA",
-    "adres": "Ragıpbey Mahallesi Lale Sokak No: 20/12 Yenimahalle/ANKARA",
+    "ad": "Osman ŞAHIN",
+    "adres": "Beştepe Mahallesi Nergis Sokak No: 26/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,28 +22,28 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Denklik Kararına İtiraz",
+  "konu": "Zorunlu Nakil Talebi",
   "sayi": null,
-  "tarih": "11.02.2026",
+  "tarih": "21.04.2026",
   "ilgi": {
-    "tarih": "05.01.2026",
-    "sayi": "E-63971525-215.01-4896957"
+    "tarih": "16.04.2026",
+    "sayi": "E-21291472-210.01-4972672"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Başvuru evrakı",
+    "aciklama": "Öğrenci belgesi",
     "sayfa": 3
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Denklik Kararına İtiraz",
+    "İtiraz konusu": "Zorunlu Nakil",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -56,11 +56,10 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Denklik Kararına İtiraz",
+    "Zorunlu Nakil",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

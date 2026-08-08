@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Serkan ÇAKIR",
-    "adres": "Serhat Mahallesi Manolya Sokağı No: 26/17 Yenimahalle/ANKARA",
+    "ad": "Serkan ERDOĞAN",
+    "adres": "Barıştepe Mahallesi Menekşe Caddesi No: 69/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,18 +30,18 @@
     "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "Yangın Güvenliği Raporu Başvurusu",
+  "konu": "Rapor Sureti Talebi",
   "sayi": null,
-  "tarih": "21.04.2026",
+  "tarih": "13.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yangın Güvenliği Raporu",
+    "Şikâyet konusu": "Rapor Sureti",
     "Sorun": "raporum düzenlendiği hâlde tarafıma gönderilmedi",
-    "Süre": "geçtiğimiz aydan bu yana",
+    "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi",
-    "Yer": "Serhat Mahallesi"
+    "Yer": "Ostim Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yangın Güvenliği Raporu",
-    "geçtiğimiz aydan bu yana",
+    "Rapor Sureti",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi",
-    "Serhat Mahallesi"
+    "Ostim Mahallesi"
   ]
 }

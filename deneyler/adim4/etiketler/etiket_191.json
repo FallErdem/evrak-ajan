@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,31 +23,31 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Topluluk Tüzüğünün Onayı",
-  "sayi": "E-32625594-309-57641931",
-  "tarih": "02.02.2026",
+  "konu": "Belgenin Dijital Kopyasının Gönderilmesi",
+  "sayi": "E-32625594-805.02.05-56917764",
+  "tarih": "22.05.2026",
   "ilgi": {
-    "tarih": "01.01.2026",
-    "sayi": "E-98244303-309-8879958"
+    "tarih": "18.05.2026",
+    "sayi": "E-82642947-805.02.05-8223679"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Liste ve takvim",
-    "sayfa": 3
+    "aciklama": "Etik kurul kararı",
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "47 kayıt",
-    "Ek 1": "Öğrenci Toplulukları, Birlikleri vb. listesi",
+    "Sayı": "142 kayıt",
+    "Ek 1": "Arşivlerden Yararlanma listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -60,14 +60,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "Gazi Üniversitesi",
+    "Genel Sekreterlik",
     "Gazi"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "içinde bulunulan öğretim yılı",
-    "47 kayıt",
+    "142 kayıt",
+    "Arşivlerden Yararlanma listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

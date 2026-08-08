@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Plan Hedeflerinin Güncellenmesi",
-  "sayi": "E-32625594-602.04-57520951",
-  "tarih": "08.01.2026",
+  "konu": "Kurul Kararının Gönderilmesi",
+  "sayi": "E-32625594-050.04-56705752",
+  "tarih": "07.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 2
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "35 kayıt",
-    "Ek 1": "Stratejik Plan listesi",
+    "Dönem": "öğretim yılı",
+    "Sayı": "68 kayıt",
+    "Ek 1": "Kararlar listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -58,14 +58,13 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Gazi Üniversitesi Rektörlüğü",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
-    "35 kayıt",
-    "Stratejik Plan listesi",
+    "öğretim yılı",
+    "68 kayıt",
+    "Kararlar listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

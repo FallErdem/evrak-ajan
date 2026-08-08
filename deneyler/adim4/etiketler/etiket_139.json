@@ -31,20 +31,20 @@
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Topluluk Danışmanı Görevlendirmesi",
-  "sayi": "E-17311665-309-2184090",
-  "tarih": "18.05.2026",
+  "konu": "Öğrenci Topluluğu Kurulma Talebi",
+  "sayi": "E-17311665-309-4871925",
+  "tarih": "25.02.2026",
   "ilgi": {
-    "tarih": "03.04.2026",
-    "sayi": "E-98244303-309-8945295"
+    "tarih": "02.02.2026",
+    "sayi": "E-98244303-309-7763210"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Topluluk Danışmanı Görevlendirmesi",
+    "Talep": "Öğrenci Topluluğu Kurulma",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,14 +55,11 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Topluluk Danışmanı Görevlendirmesi",
+    "Öğrenci Topluluğu Kurulma",
     "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "ilgide kayıtlı yazı"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ahmet ÇETIN",
-    "adres": "Demetevler Mahallesi Sümbül Sokak No: 83/24 Yenimahalle/ANKARA",
+    "ad": "Hasan BULUT",
+    "adres": "Ergazi Mahallesi Zeytin Sokak No: 43/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,14 +30,16 @@
     "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Halk Eğitim Kursu Açılması Talebi",
+  "konu": "Kurs Bitirme Belgesi Talebi",
   "sayi": null,
-  "tarih": "02.04.2026",
+  "tarih": "08.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Halk Eğitim Kursu Açılması",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Kurs Bitirme Belgesi",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +48,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Halk Eğitim Kursu Açılması",
-    "sürecin tamamlanabilmesi için"
+    "Kurs Bitirme Belgesi",
+    "resmî işlemlerde kullanılmak üzere",
+    "posta yoluyla adresime"
   ]
 }

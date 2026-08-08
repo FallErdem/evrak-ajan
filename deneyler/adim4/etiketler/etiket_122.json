@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hasan AKSOY",
-    "adres": "Ostim Mahallesi Papatya Sokağı No: 38/14 Yenimahalle/ANKARA",
+    "ad": "Ramazan ARSLAN",
+    "adres": "Kaletepe Mahallesi Akasya Sokak No: 103/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,12 +32,14 @@
   },
   "konu": "Güzergâh Değişikliği Talebi",
   "sayi": null,
-  "tarih": "03.04.2026",
+  "tarih": "13.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Güzergâh Değişikliği",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +48,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "Güzergâh Değişikliği",
-    "mağduriyetin giderilmesi bakımından"
+    "posta yoluyla adresime"
   ]
 }

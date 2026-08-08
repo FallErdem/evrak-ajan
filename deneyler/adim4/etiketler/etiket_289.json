@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -31,16 +31,16 @@
     "ad": "Diploma",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Kayıt Numarası Sorgusu",
-  "sayi": "E-10213773-198.02.01-9891698",
-  "tarih": "26.01.2026",
+  "konu": "Diploma Bilgilerindeki Hatanın Düzeltilmesi",
+  "sayi": "E-24316060-198.02.01-60929560",
+  "tarih": "04.03.2026",
   "ilgi": {
-    "tarih": "08.01.2026",
-    "sayi": "E-21291472-198.02.01-2977388"
+    "tarih": "23.01.2026",
+    "sayi": "E-21291472-198.02.01-4910439"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma Kayıt Numarası Sorgusu",
+    "Talep": "Diploma Bilgilerindeki Hatanın Düzeltilmesi",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
@@ -54,11 +54,9 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Diploma Kayıt Numarası Sorgusu",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı"
   ]

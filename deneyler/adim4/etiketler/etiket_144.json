@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine KAYA",
-    "adres": "Emniyet Mahallesi Akasya Caddesi No: 80/19 Yenimahalle/ANKARA",
+    "ad": "Merve SARI",
+    "adres": "Susuz Mahallesi Yasemin Sokak No: 61/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,12 +32,14 @@
   },
   "konu": "Bağış Makbuzu Talebi",
   "sayi": null,
-  "tarih": "04.03.2026",
+  "tarih": "02.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Bağış Makbuzu",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,10 +48,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bağış Makbuzu"
+    "Bağış Makbuzu",
+    "sürecin tamamlanabilmesi için",
+    "e-Devlet üzerinden"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Mühendislik Fakültesi Dekanlığı",
+    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "43123369",
+    "detsis_no": "17311665",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "903.02",
-    "ad": "Atama İşleri",
-    "saklama_suresi": "B"
+    "kod": "204.01",
+    "ad": "Doçentlik",
+    "saklama_suresi": "15"
   },
-  "konu": "Atama Kararının İptali Hk.",
-  "sayi": "E-43123369-903.02-8171739",
-  "tarih": "12.03.2026",
+  "konu": "Başvuru Dosyasının Gönderilmesi",
+  "sayi": "E-17311665-204.01-4883059",
+  "tarih": "10.03.2026",
   "ilgi": {
-    "tarih": "10.02.2026",
-    "sayi": "E-42218640-903.02-8103192"
+    "tarih": "23.02.2026",
+    "sayi": "E-42218640-204.01-3283177"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Atama Kararının İptali",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Başvuru Dosyasının Gönderilmesi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
@@ -55,12 +55,11 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Personel Dairesi Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Atama Kararının İptali",
-    "olumlu, işlem tamamlandı",
+    "Başvuru Dosyasının Gönderilmesi",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı"
   ]
 }

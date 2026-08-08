@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Salih ÖZTÜRK",
-    "adres": "Yeşilevler Mahallesi Ceviz Sokak No: 48/13 Yenimahalle/ANKARA",
+    "ad": "Şerife KAYA",
+    "adres": "Batıkent Mahallesi Erguvan Caddesi No: 63/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,27 +22,27 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "Damga Süresi Dolan Aletler",
+  "konu": "Ruhsatın Askıya Alınması Hk.",
   "sayi": null,
-  "tarih": "22.05.2026",
+  "tarih": "08.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Başvuru evrakı",
-    "sayfa": 1
+    "aciklama": "İşyeri açma ruhsatı fotokopisi",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Damga Süresi Dolan Aletler",
+    "İtiraz konusu": "Ruhsatın Askıya Alınması",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,11 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Damga Süresi Dolan Aletler",
+    "Ruhsatın Askıya Alınması",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

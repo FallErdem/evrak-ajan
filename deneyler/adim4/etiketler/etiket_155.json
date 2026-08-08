@@ -5,19 +5,19 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Şerife AYDIN",
-    "adres": "Beştepe Mahallesi Erguvan Sokağı No: 22/6 Yenimahalle/ANKARA",
+    "ad": "Hatice AKSOY",
+    "adres": "Ragıpbey Mahallesi Erguvan Sokak No: 11/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021828252",
-    "bolum": "Mimarlık Fakültesi",
+    "ogrenci_no": "2025705092",
+    "bolum": "Hukuk Fakültesi",
     "sinif": "4"
   },
   "belge_turu": "itiraz",
@@ -25,27 +25,27 @@
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
     "saklama_suresi": "10"
   },
-  "konu": "Topluluk Danışmanı Görevlendirmesi",
+  "konu": "Katkı Payı Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "18.05.2026",
+  "tarih": "21.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Başvuru evrakı",
+    "aciklama": "Transkript",
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Topluluk Danışmanı Görevlendirmesi",
+    "İtiraz konusu": "Katkı Payı Muafiyet",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -56,12 +56,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "Gazi Üniversitesi",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Topluluk Danışmanı Görevlendirmesi",
+    "Katkı Payı Muafiyet",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

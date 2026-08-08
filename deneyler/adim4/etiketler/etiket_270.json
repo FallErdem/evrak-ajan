@@ -5,43 +5,44 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Şaban YILDIRIM",
-    "adres": "Yeşilevler Mahallesi Nergis Sokak No: 71/14 Yenimahalle/ANKARA",
+    "ad": "Hatice AYDIN",
+    "adres": "Demetevler Mahallesi Kestane Sokağı No: 62/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019626091",
-    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
-    "sinif": "2"
+    "ogrenci_no": "2020915733",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Askerlik Durum Belgesi Talebi",
+  "konu": "Öğrenci Topluluğu Kurulma Talebi",
   "sayi": null,
-  "tarih": "07.05.2026",
+  "tarih": "13.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Askerlik Durum Belgesi",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Öğrenci Topluluğu Kurulma",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,13 +51,13 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Askerlik Durum Belgesi",
-    "lisansüstü programa kayıtlı",
-    "ilgili kuruma sunulmak üzere"
+    "Öğrenci Topluluğu Kurulma",
+    "mağduriyetin giderilmesi bakımından",
+    "şahsen başvuru yapılmıştır",
+    "elektronik posta ile"
   ]
 }

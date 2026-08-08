@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,29 +22,29 @@
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_makam": "Personel Dairesi Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
-    "saklama_suresi": "2"
+    "kod": "201",
+    "ad": "Seçim ve Atama İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Sınav Tarihi Değişikliği",
-  "sayi": "E-98244303-106-8952992",
-  "tarih": "14.04.2026",
+  "konu": "Atama Onayı Hk.",
+  "sayi": "E-98244303-201-7789554",
+  "tarih": "06.03.2026",
   "ilgi": {
-    "tarih": "07.04.2026",
-    "sayi": "E-47014261-106-2537781"
+    "tarih": "02.02.2026",
+    "sayi": "E-42218640-201-3267532"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Sınav Tarihi Değişikliği",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Atama Onayı",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,13 +54,14 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "Gazi Üniversitesi",
+    "Personel Dairesi Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sınav Tarihi Değişikliği",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "Atama Onayı",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur",
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

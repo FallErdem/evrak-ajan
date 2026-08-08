@@ -36,15 +36,15 @@
   "tarih": "26.01.2026",
   "ilgi": {
     "tarih": "15.12.2025",
-    "sayi": "E-21291472-210.01-2961327"
+    "sayi": "E-21291472-210.01-4881250"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
+    "aciklama": "İkametgâh belgesi",
     "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Nakiller kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Nakil İptali konusunda yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
@@ -58,8 +58,7 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",

@@ -14,13 +14,13 @@
     "tip": "ozel_tuzel_kisi",
     "kurum_adi": "Kuzey Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Ergazi Mahallesi Sümbül Caddesi No: 100/19 Yenimahalle/ANKARA",
+    "adres": "Uğur Mumcu Mahallesi Zeytin Sokak No: 85/2 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
   "belge_turu": "bilgi_edinme",
   "aile": "bilgi_edinme",
-  "yazan_tipi": "kurum",
+  "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
   "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
@@ -31,16 +31,16 @@
     "ad": "Uygulama İmar Planı",
     "saklama_suresi": "B"
   },
-  "konu": "Plan Örneği Talebi",
-  "sayi": "2026/500",
-  "tarih": "10.03.2026",
+  "konu": "Plan Tadilatı Başvurusu",
+  "sayi": "2026/890",
+  "tarih": "22.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Plan Örneği işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Talep": "Plan Tadilatı işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "e-Devlet üzerinden"
+    "yıllara göre sayısal döküm",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

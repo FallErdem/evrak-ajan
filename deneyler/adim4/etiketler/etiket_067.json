@@ -5,45 +5,45 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
+    "kurum_adi": "Temizlik İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "26888327",
+    "detsis_no": "83011479",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Hukuk İşleri Müdürlüğü",
+  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
   },
-  "konu": "Karar Örneğinin Gönderilmesi",
-  "sayi": "E-26888327-641.04-2557271",
-  "tarih": "22.04.2026",
+  "konu": "Bütçe Kalemi Değişiklik Teklifi",
+  "sayi": "E-83011479-841.01-1986959",
+  "tarih": "12.03.2026",
   "ilgi": {
-    "tarih": "10.03.2026",
-    "sayi": "E-10578106-641.04-3370282"
+    "tarih": "09.03.2026",
+    "sayi": "E-43195403-841.01-2433956"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Karar Örneğinin Gönderilmesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Bütçe Kalemi Değişiklik Teklifi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
     "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
@@ -54,12 +54,12 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Karar Örneğinin Gönderilmesi",
-    "olumlu, belge düzenlendi",
+    "Bütçe Kalemi Değişiklik Teklifi",
+    "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı"
   ]
 }

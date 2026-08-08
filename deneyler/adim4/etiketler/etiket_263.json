@@ -12,18 +12,18 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Erdemtepe İlkokulu Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "93213107",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10084867",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Özel Öğretim Kurumları Şube Müdürlüğü",
-  "muhatap_parantez": null,
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
@@ -31,18 +31,18 @@
     "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Suret Onay Ücreti Hk.",
-  "sayi": "E-93213107-622.02-8325548",
-  "tarih": "27.02.2026",
+  "konu": "Onaylı Örnek Talebi",
+  "sayi": "E-10084867-622.02-3286",
+  "tarih": "15.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Taslak metin",
+    "aciklama": "Gerekçe raporu",
     "sayfa": 2
   },
   "somut_bilgiler": {
     "Konu": "Belge Talepleri",
-    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
+    "Gerekçe": "kaynakların etkin kullanılması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,11 +53,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "Belge Talepleri",
-    "mevzuatın öngördüğü sürelere uyulması"
+    "kaynakların etkin kullanılması"
   ]
 }

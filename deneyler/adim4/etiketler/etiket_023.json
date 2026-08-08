@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Murat ARSLAN",
-    "adres": "Serhat Mahallesi Yasemin Sokağı No: 111/24 Yenimahalle/ANKARA",
+    "ad": "Nurten ÇAKIR",
+    "adres": "Şentepe Mahallesi Lale Caddesi No: 40/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019414947",
+    "ogrenci_no": "2023862581",
     "bolum": "Fen Fakültesi Matematik",
-    "sinif": "4"
+    "sinif": "1"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -29,19 +29,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Eki Talebi",
+  "konu": "Kayıt İptali Talebi",
   "sayi": null,
-  "tarih": "11.02.2026",
+  "tarih": "16.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Diploma Eki",
-    "Sorun": "diplomam mezun olalı altı ay geçmesine rağmen düzenlenmedi",
-    "Süre": "yaklaşık kırk gündür",
+    "Şikâyet konusu": "Kayıt İptali",
+    "Sorun": "istenen belgeyi teslim ettiğim hâlde dosyam eksik gösterildi",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
@@ -54,12 +54,11 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Diploma Eki",
-    "yaklaşık kırk gündür",
+    "Kayıt İptali",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

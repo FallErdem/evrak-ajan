@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten KAYA",
-    "adres": "Kaletepe Mahallesi Nergis Sokak No: 101/19 Yenimahalle/ANKARA",
+    "ad": "Mehmet KARA",
+    "adres": "Yakacık Mahallesi Lale Caddesi No: 18/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Teslimi Talebi",
+  "konu": "Apostil Şerhli Belge Talebi",
   "sayi": null,
-  "tarih": "20.02.2026",
+  "tarih": "28.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma Teslimi",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Apostil Şerhli Belge",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +48,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Diploma Teslimi",
-    "ilgili kuruma sunulmak üzere"
+    "Apostil Şerhli Belge",
+    "resmî işlemlerde kullanılmak üzere",
+    "elektronik posta ile"
   ]
 }

@@ -5,10 +5,10 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "756.01",
-    "ad": "Tahsis, Devir ve Takas",
-    "saklama_suresi": "B"
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Okul Yeri Tahsis Talebi",
-  "sayi": "E-55461037-756.01-3025782",
+  "konu": "Etkinlik Salonu Tahsis Talebi",
+  "sayi": "E-55461037-051-3025782",
   "tarih": "26.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "İlgili belge",
-    "sayfa": 3
+    "aciklama": "Protokol taslağı",
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Okul Yeri Tahsis",
-    "Ortak iş": "Okul Yeri Tahsis konusunda iki kurumun ortak yürüttüğü işlem",
+    "Konu": "Etkinlik Salonu Tahsis",
+    "Ortak iş": "Etkinlik Salonu Tahsis konusunda iki kurumun ortak yürüttüğü işlem",
     "Talep": "gerekli tahsisin yapılması"
   },
   "paragraf_cumle_sayilari": [
@@ -53,11 +53,10 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Okul Yeri Tahsis",
+    "Etkinlik Salonu Tahsis",
     "gerekli tahsisin yapılması"
   ]
 }

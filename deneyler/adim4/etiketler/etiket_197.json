@@ -5,45 +5,46 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yazı İşleri Müdürlüğü",
+    "kurum_adi": "Mali Hizmetler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "15986609",
+    "detsis_no": "43195403",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Hukuk İşleri Müdürlüğü",
+  "muhatap_makam": "Emlak ve İstimlak Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "752.01",
+    "ad": "Kamulaştırma",
+    "saklama_suresi": "B"
   },
-  "konu": "Yürütmeyi Durdurma Kararı Hk.",
-  "sayi": "E-15986609-641.04-547389",
-  "tarih": "10.02.2026",
+  "konu": "Kamu Yararı Kararı Hk.",
+  "sayi": "E-43195403-752.01-2412359",
+  "tarih": "19.01.2026",
   "ilgi": {
-    "tarih": "30.12.2025",
-    "sayi": "E-10578106-641.04-3332325"
+    "tarih": "24.12.2025",
+    "sayi": "E-87730597-752.01-1672980"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yürütmeyi Durdurma Kararı",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Kamu Yararı Kararı",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Taşınmaz": "57404 ada, 25 parsel",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
     "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
@@ -54,12 +55,13 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yürütmeyi Durdurma Kararı",
-    "olumlu, belge düzenlendi",
+    "Kamu Yararı Kararı",
+    "olumlu, işlem tamamlandı",
+    "57404 ada, 25 parsel",
     "ilgide kayıtlı yazı"
   ]
 }

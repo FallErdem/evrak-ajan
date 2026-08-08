@@ -5,44 +5,44 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Sultan KARACA",
-    "adres": "Pamuklar Mahallesi Yasemin Sokağı No: 104/21 Yenimahalle/ANKARA",
+    "ad": "Zeynep TURAN",
+    "adres": "Uğur Mumcu Mahallesi Sümbül Sokağı No: 73/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024410540",
-    "bolum": "Diş Hekimliği Fakültesi",
-    "sinif": "1"
+    "ogrenci_no": "2019201121",
+    "bolum": "Hukuk Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
-    "saklama_suresi": "B"
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Denklik Başvurusu",
+  "konu": "Topluluk Danışmanı Görevlendirmesi",
   "sayi": null,
-  "tarih": "20.02.2026",
+  "tarih": "26.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Diploma Denklik",
-    "Sorun": "itirazıma altmış gün geçmesine rağmen cevap verilmedi",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Topluluk Danışmanı Görevlendirmesi",
+    "Sorun": "topluluk kurma başvurumuz bir dönemdir sonuçlandırılmadı",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,13 +53,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Diploma Denklik",
-    "bir aydan uzun süredir",
+    "Topluluk Danışmanı Görevlendirmesi",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

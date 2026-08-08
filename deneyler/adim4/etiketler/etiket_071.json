@@ -5,43 +5,44 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Zeynep DEMIR",
-    "adres": "Karşıyaka Mahallesi Kestane Sokağı No: 33/23 Yenimahalle/ANKARA",
+    "ad": "Aslı ÖZKAN",
+    "adres": "Yeşilevler Mahallesi Zeytin Sokak No: 63/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020619187",
-    "bolum": "Matematik (Yüksek Lisans)",
-    "sinif": "1"
+    "ogrenci_no": "2024703194",
+    "bolum": "Diş Hekimliği Fakültesi",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
-    "saklama_suresi": "10"
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Kendi İsteğiyle Kayıt Sildirme Talebi",
+  "konu": "Mezuniyet Belgesi Doğrulama Talebi",
   "sayi": null,
-  "tarih": "06.05.2026",
+  "tarih": "20.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kendi İsteğiyle Kayıt Sildirme",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Mezuniyet Belgesi Doğrulama",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,12 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "Gazi Üniversitesi",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kendi İsteğiyle Kayıt Sildirme",
-    "lisansüstü programa kayıtlı"
+    "Mezuniyet Belgesi Doğrulama",
+    "resmî işlemlerde kullanılmak üzere",
+    "şahsen başvuru yapılmıştır",
+    "e-Devlet üzerinden"
   ]
 }

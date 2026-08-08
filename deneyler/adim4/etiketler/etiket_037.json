@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -22,26 +22,26 @@
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_makam": "Fen İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "755.02",
+    "ad": "İhale",
+    "saklama_suresi": "15"
   },
-  "konu": "Ölçü Aleti Beyannamesi",
-  "sayi": "E-83011479-175-805405",
-  "tarih": "12.05.2026",
+  "konu": "İhaleye İtiraz Başvurusu",
+  "sayi": "E-83011479-755.02-2024717",
+  "tarih": "25.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Taslak metin",
-    "sayfa": 3
+    "aciklama": "Gerekçe raporu",
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "Konu": "İhale",
     "Gerekçe": "kaynakların etkin kullanılması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
@@ -53,11 +53,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ölçü ve Ölçü Aletleri ile İlgili İşler",
     "kaynakların etkin kullanılması"
   ]
 }

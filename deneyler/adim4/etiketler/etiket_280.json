@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Meryem AKTAŞ",
-    "adres": "Beştepe Mahallesi Nergis Sokağı No: 46/11 Yenimahalle/ANKARA",
+    "ad": "Sultan AYDIN",
+    "adres": "Serhat Mahallesi Nergis Sokak No: 112/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,16 +30,16 @@
     "ad": "Bursluluk",
     "saklama_suresi": "10"
   },
-  "konu": "Bursluluk Sınavı Duyurusu",
+  "konu": "Burs Ödemesi Hk.",
   "sayi": null,
-  "tarih": "30.04.2026",
+  "tarih": "18.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Bursluluk Sınavı",
-    "Sorun": "bursluluk sonucuna itirazım cevapsız kaldı",
+    "Şikâyet konusu": "Burs Ödemesi",
+    "Sorun": "burs ödemem üç aydır yatmadı",
     "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -50,11 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bursluluk Sınavı",
+    "Burs Ödemesi",
+    "burs ödemem üç aydır yatmadı",
     "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]

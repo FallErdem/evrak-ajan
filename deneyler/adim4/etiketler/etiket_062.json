@@ -12,15 +12,15 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Başkent Eğitim Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Yakacık Mahallesi Zeytin Sokak No: 12/23 Yenimahalle/ANKARA",
+    "adres": "Demetevler Mahallesi Sümbül Sokağı No: 45/17 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
   "belge_turu": "itiraz",
   "aile": "itiraz",
-  "yazan_tipi": "kurum",
+  "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
@@ -31,19 +31,19 @@
     "ad": "İzin İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "İzin Dönüşü Kayıt Yenileme",
-  "sayi": "2026/262",
-  "tarih": "17.04.2026",
+  "konu": "Askerlik Sebebiyle İzin",
+  "sayi": "2026/659",
+  "tarih": "04.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Başvuru evrakı",
-    "sayfa": 3
+    "aciklama": "Öğrenci belgesi",
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "İzin Dönüşü Kayıt Yenileme",
+    "İtiraz konusu": "Askerlik Sebebiyle İzin",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -55,11 +55,10 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Mühendislik Fakültesi Dekanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İzin Dönüşü Kayıt Yenileme",
+    "Askerlik Sebebiyle İzin",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

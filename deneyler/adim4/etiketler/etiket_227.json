@@ -34,24 +34,24 @@
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
+    "kod": "198.02.01",
+    "ad": "Diploma",
     "saklama_suresi": "B"
   },
-  "konu": "Kayıt Takviminin Duyurulması",
-  "sayi": "E-10213773-205-10053973",
-  "tarih": "19.05.2026",
+  "konu": "Diploma İkinci Nüsha Talebi",
+  "sayi": "E-10213773-198.02.01-11483841",
+  "tarih": "04.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
-    "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "aciklama": "Öğrenci listesi",
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "öğretim yılı",
-    "Sayı": "68 kayıt",
-    "Ek 1": "Kayıt-Kabul listesi",
+    "Sayı": "94 kayıt",
+    "Ek 1": "Diploma listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -64,14 +64,13 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "öğretim yılı",
-    "68 kayıt",
-    "Kayıt-Kabul listesi",
+    "94 kayıt",
+    "Diploma listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

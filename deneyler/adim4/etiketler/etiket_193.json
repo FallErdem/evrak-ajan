@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "yapi_kontrol",
+    "birim_adi": "Yapı Kontrol Müdürlüğü",
+    "detsis_no": "53265760",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "İhale Komisyonu Kararı",
-  "sayi": "E-56248377-755.02-422164",
-  "tarih": "23.04.2026",
+  "konu": "İtirazın Değerlendirilmesi",
+  "sayi": "E-56248377-858-270404",
+  "tarih": "17.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
-    "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "aciklama": "İtiraz dilekçesi",
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "yılın ilk yarısı",
-    "Sayı": "47 kayıt",
-    "Ek 1": "İhale listesi",
+    "Sayı": "94 kayıt",
+    "Ek 1": "İdari Yaptırım/Para Cezası İşleri listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +57,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Yapı Kontrol Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "yılın ilk yarısı",
-    "47 kayıt",
-    "İhale listesi",
+    "94 kayıt",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

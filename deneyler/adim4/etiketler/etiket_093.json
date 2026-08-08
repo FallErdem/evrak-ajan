@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Havva SARI",
-    "adres": "Pamuklar Mahallesi Manolya Sokak No: 56/21 Yenimahalle/ANKARA",
+    "ad": "Fatih ŞIMŞEK",
+    "adres": "Kaletepe Mahallesi Zeytin Sokağı No: 115/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019867351",
-    "bolum": "Tıp Fakültesi",
-    "sinif": "3"
+    "ogrenci_no": "2023973978",
+    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Erasmus+ Başvuru Duyurusu",
+  "konu": "Diploma Eki Talebi",
   "sayi": null,
-  "tarih": "28.05.2026",
+  "tarih": "04.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Erasmus+ Başvuru",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Diploma Eki",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,11 +52,11 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Erasmus+ Başvuru",
-    "lisansüstü programa kayıtlı"
+    "Diploma Eki",
+    "başvuru dosyasına eklenmek üzere",
+    "posta yoluyla adresime"
   ]
 }

@@ -12,39 +12,39 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "kurum_adi": "Erdemtepe Ortaokulu Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "87302975",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10085547",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Strateji Geliştirme Şube Müdürlüğü",
-  "muhatap_parantez": null,
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Ödenek Aktarma Talebi",
-  "sayi": "E-87302975-602.07-4999433",
-  "tarih": "29.05.2026",
+  "konu": "Stratejik Plan Taslağı Hakkında Görüş",
+  "sayi": "E-10085547-602.04-4203",
+  "tarih": "18.03.2026",
   "ilgi": {
-    "tarih": "22.04.2026",
-    "sayi": "E-14588481-602.07-3202948"
+    "tarih": "13.02.2026",
+    "sayi": "E-14588481-602.04-3754015"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Ödenek Aktarma",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Stratejik Plan Taslağı Hakkında Görüş",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,12 +54,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Ödenek Aktarma",
-    "olumlu, talep karşılandı",
+    "Stratejik Plan Taslağı Hakkında Görüş",
+    "olumlu, belge düzenlendi",
     "ilgide kayıtlı yazı"
   ]
 }

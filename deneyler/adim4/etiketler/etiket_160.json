@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra ÇELIK",
-    "adres": "Karşıyaka Mahallesi Menekşe Sokağı No: 35/24 Yenimahalle/ANKARA",
+    "ad": "Fatih DUMAN",
+    "adres": "Beştepe Mahallesi Çınar Sokağı No: 107/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,14 +30,16 @@
     "ad": "Engellilere Yönelik Hizmetler",
     "saklama_suresi": "10"
   },
-  "konu": "Rampa Yapılması Talebi",
+  "konu": "Engelli Hizmetlerinden Yararlanma Başvurusu",
   "sayi": null,
-  "tarih": "26.03.2026",
+  "tarih": "27.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Rampa Yapılması",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "Engelli Hizmetlerinden Yararlanma",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,6 +52,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Rampa Yapılması"
+    "Engelli Hizmetlerinden Yararlanma",
+    "sürecin tamamlanabilmesi için",
+    "elektronik posta ile"
   ]
 }

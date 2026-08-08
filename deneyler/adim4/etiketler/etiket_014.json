@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,28 +23,28 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "125",
-    "ad": "Evlendirme İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Nikâh Ücreti Hk.",
-  "sayi": "E-24304062-125-74513891",
+  "konu": "Tutanağın Tebliği Hk.",
+  "sayi": "E-24304062-858-74513891",
   "tarih": "29.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
-    "aciklama": "Liste ve takvim",
-    "sayfa": 6
+    "aciklama": "İtiraz dilekçesi",
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "mali yıl",
-    "Sayı": "112 kayıt",
-    "Ek 1": "Evlendirme İşlemleri listesi",
+    "Sayı": "142 kayıt",
+    "Ek 1": "İdari Yaptırım/Para Cezası İşleri listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -57,14 +57,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "mali yıl",
-    "112 kayıt",
-    "Evlendirme İşlemleri listesi",
+    "142 kayıt",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra AKTAŞ",
-    "adres": "Yeşilevler Mahallesi Papatya Sokağı No: 99/15 Yenimahalle/ANKARA",
+    "ad": "Hasan TEKIN",
+    "adres": "Pamuklar Mahallesi Manolya Caddesi No: 90/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,19 +26,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
+    "kod": "115.02.01",
+    "ad": "İmar Durumu (Belgesi)",
     "saklama_suresi": "B"
   },
-  "konu": "Kısmi İskan Talebi",
+  "konu": "İmar Durum Belgesi Talebi",
   "sayi": null,
-  "tarih": "25.05.2026",
+  "tarih": "23.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kısmi İskan",
-    "Taşınmaz": "18960 ada, 5 parsel",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle"
+    "Talep": "İmar Durum Belgesi",
+    "Taşınmaz": "33282 ada, 2 parsel",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,7 +53,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Kısmi İskan",
-    "18960 ada, 5 parsel"
+    "İmar Durum Belgesi",
+    "33282 ada, 2 parsel",
+    "ilgili kuruma sunulmak üzere",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

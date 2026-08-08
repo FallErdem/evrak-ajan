@@ -27,22 +27,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
-    "saklama_suresi": "10"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Onaylı Örnek Talebi",
-  "sayi": "E-42218640-622.02-8184102",
-  "tarih": "20.05.2026",
+  "konu": "Genelge Uygulamasında Karşılaşılan Tereddütler",
+  "sayi": "E-42218640-010.06-3348056",
+  "tarih": "21.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Taslak metin",
-    "sayfa": 3
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Belge Talepleri",
-    "Gerekçe": "vatandaş memnuniyetinin artırılması",
+    "Konu": "Genelgeler",
+    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,11 +54,9 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Genel Sekreterlik",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Belge Talepleri",
-    "vatandaş memnuniyetinin artırılması"
+    "hizmetlerin aksamadan yürütülmesi"
   ]
 }

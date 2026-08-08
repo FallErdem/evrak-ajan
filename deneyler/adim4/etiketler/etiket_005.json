@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sultan BULUT",
-    "adres": "Gayret Mahallesi Yasemin Sokağı No: 7/7 Yenimahalle/ANKARA",
+    "ad": "Sultan KILIÇ",
+    "adres": "Susuz Mahallesi Ceviz Sokak No: 14/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,26 +22,29 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "752.01",
+    "ad": "Kamulaştırma",
+    "saklama_suresi": "B"
   },
-  "konu": "Arşiv Belgesi Araştırma Talebi",
+  "konu": "Kamulaştırma Bedeli Ödeme Talebi",
   "sayi": null,
-  "tarih": "17.03.2026",
+  "tarih": "04.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Tapu fotokopisi",
-    "sayfa": 2
+    "aciklama": "Kadastro paftası",
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Talep": "Arşiv Belgesi Araştırma",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Kamulaştırma Bedeli Ödeme",
+    "Taşınmaz": "62489 ada, 13 parsel",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,11 +53,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşiv Belgesi Araştırma",
-    "ilgili kuruma sunulmak üzere"
+    "Kamulaştırma Bedeli Ödeme",
+    "62489 ada, 13 parsel",
+    "elektronik posta ile"
   ]
 }

@@ -5,46 +5,48 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Mustafa ÖZTÜRK",
-    "adres": "Susuz Mahallesi Menekşe Caddesi No: 6/21 Yenimahalle/ANKARA",
+    "ad": "Salih GÜLER",
+    "adres": "Karşıyaka Mahallesi Zeytin Sokağı No: 113/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025660449",
-    "bolum": "Fen Fakültesi Matematik",
-    "sinif": "4"
+    "ogrenci_no": "2021440505",
+    "bolum": "Makine Mühendisliği",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "kod": "302.08",
+    "ad": "İzin İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Şikâyet Başvurusu Hk.",
+  "konu": "Kayıt Dondurma ve İzin Talebi",
   "sayi": null,
-  "tarih": "07.05.2026",
+  "tarih": "28.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Tapu fotokopisi",
-    "sayfa": 3
+    "aciklama": "Transkript",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Talep": "Şikâyet Başvurusu",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Kayıt Dondurma ve İzin",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -53,12 +55,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
-    "Gazi Üniversitesi",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Şikâyet Başvurusu",
-    "sürecin tamamlanabilmesi için"
+    "Kayıt Dondurma ve İzin",
+    "şahsen başvuru yapılmıştır",
+    "e-Devlet üzerinden"
   ]
 }

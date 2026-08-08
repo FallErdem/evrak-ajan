@@ -5,46 +5,46 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak Ticaret A.Ş.",
+    "kurum_adi": "Doruk Ticaret A.Ş.",
     "ad": null,
-    "adres": "Ostim Mahallesi Nergis Sokağı No: 89/15 Yenimahalle/ANKARA",
+    "adres": "Şentepe Mahallesi Zeytin Caddesi No: 15/16 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
   "belge_turu": "itiraz",
   "aile": "itiraz",
-  "yazan_tipi": "kurum",
+  "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Disiplin Cezasına İtiraz",
-  "sayi": "2026/668",
-  "tarih": "04.05.2026",
+  "konu": "Suret Onay Ücreti Hk.",
+  "sayi": "2026/550",
+  "tarih": "07.05.2026",
   "ilgi": {
-    "tarih": "23.03.2026",
-    "sayi": "E-63971525-225.02-4954579"
+    "tarih": "04.05.2026",
+    "sayi": "E-91571118-622.02-2032752"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Başvuru evrakı",
-    "sayfa": 2
+    "aciklama": "Karar sureti",
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Disiplin Cezasına İtiraz",
+    "İtiraz konusu": "Suret Onay Ücreti",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -57,11 +57,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Disiplin Cezasına İtiraz",
+    "Suret Onay Ücreti",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

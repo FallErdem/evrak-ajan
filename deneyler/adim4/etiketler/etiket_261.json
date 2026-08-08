@@ -12,15 +12,15 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Öz Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Öz Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Uğur Mumcu Mahallesi Nergis Sokak No: 69/13 Yenimahalle/ANKARA",
+    "adres": "Barıştepe Mahallesi Lale Sokağı No: 77/12 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
   "belge_turu": "bilgi_edinme",
   "aile": "bilgi_edinme",
-  "yazan_tipi": "kurum",
+  "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
   "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
@@ -31,16 +31,16 @@
     "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "Uygunluk Raporu Yenileme Talebi",
-  "sayi": "2026/171",
-  "tarih": "29.01.2026",
+  "konu": "İtfaiye Uygunluk Raporu Talebi",
+  "sayi": "2026/41",
+  "tarih": "20.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Uygunluk Raporu Yenileme işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "elektronik posta ile"
+    "Talep": "İtfaiye Uygunluk Raporu işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "elektronik posta ile"
+    "yıllara göre sayısal döküm",
+    "e-Devlet üzerinden"
   ]
 }

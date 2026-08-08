@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mustafa KILIÇ",
-    "adres": "Batıkent Mahallesi Yasemin Sokak No: 107/5 Yenimahalle/ANKARA",
+    "ad": "Fatih KAYA",
+    "adres": "Karşıyaka Mahallesi Menekşe Sokağı No: 101/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,18 +30,18 @@
     "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "İşyeri Açma ve Çalışma Ruhsatı Başvurusu",
+  "konu": "Faaliyet Konusu Değişikliği",
   "sayi": null,
-  "tarih": "15.01.2026",
+  "tarih": "23.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İşyeri Açma ve Çalışma Ruhsatı",
-    "Sorun": "ruhsat başvurum iki aydır sonuçlandırılmadı",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Faaliyet Konusu Değişikliği",
+    "Sorun": "komşumdaki işyeri ruhsatsız çalıştığı hâlde denetlenmiyor",
+    "Süre": "yaklaşık üç haftadır",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "Yeşilevler Mahallesi"
+    "Yer": "Emniyet Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İşyeri Açma ve Çalışma Ruhsatı",
-    "yaklaşık iki aydır",
+    "Faaliyet Konusu Değişikliği",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi",
-    "Yeşilevler Mahallesi"
+    "Emniyet Mahallesi"
   ]
 }

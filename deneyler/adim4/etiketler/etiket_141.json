@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ahmet AVCI",
-    "adres": "Şentepe Mahallesi Ceviz Sokağı No: 119/3 Yenimahalle/ANKARA",
+    "ad": "Şerife ÇETIN",
+    "adres": "Çiğdemtepe Mahallesi Menekşe Sokağı No: 12/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022644254",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "2"
+    "ogrenci_no": "2023951528",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Süresi Uzatım Talebi",
+  "konu": "İngilizce Transkript Talebi",
   "sayi": null,
-  "tarih": "26.03.2026",
+  "tarih": "29.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Süresi Uzatım",
-    "Öğrenim bilgisi": "4. sınıf öğrencisi",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "İngilizce Transkript",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,12 +52,12 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Süresi Uzatım",
-    "4. sınıf öğrencisi",
-    "mağduriyetin giderilmesi bakımından"
+    "İngilizce Transkript",
+    "resmî işlemlerde kullanılmak üzere",
+    "şahsen başvuru yapılmıştır",
+    "posta yoluyla adresime"
   ]
 }

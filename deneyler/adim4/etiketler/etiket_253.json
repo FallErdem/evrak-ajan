@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -31,18 +31,18 @@
     "ad": "Staj İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Staj Kabul Yazısı Talebi",
-  "sayi": "E-65859045-773-1033957",
-  "tarih": "15.05.2026",
+  "konu": "Staj Süresinin Uzatılması Talebi",
+  "sayi": "E-55461037-773-3025336",
+  "tarih": "25.03.2026",
   "ilgi": {
-    "tarih": "06.05.2026",
-    "sayi": "E-43123369-773-8214370"
+    "tarih": "09.03.2026",
+    "sayi": "E-43123369-773-3553978"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Staj Kabul Yazısı",
-    "Ortak iş": "Staj Kabul Yazısı konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Staj Kabul Yazısı kapsamında öğrenci kabul edilmesi"
+    "Konu": "Staj Süresinin Uzatılması",
+    "Ortak iş": "Staj Süresinin Uzatılması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Staj Süresinin Uzatılması konusunda gerekli sürenin tanınması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,10 +53,9 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Mühendislik Fakültesi Dekanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Kabul Yazısı"
+    "Staj Süresinin Uzatılması"
   ]
 }

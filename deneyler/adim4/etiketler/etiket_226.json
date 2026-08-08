@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hatice KARA",
-    "adres": "Şentepe Mahallesi Sümbül Sokağı No: 32/8 Yenimahalle/ANKARA",
+    "ad": "Şerife ASLAN",
+    "adres": "Batıkent Mahallesi Erguvan Sokağı No: 92/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,23 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.08",
-    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
-    "saklama_suresi": "B"
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
+    "saklama_suresi": "15"
   },
-  "konu": "İfraz ve Tevhid Talebi",
+  "konu": "Vergi Değeri Düzeltme Talebi",
   "sayi": null,
-  "tarih": "11.05.2026",
+  "tarih": "19.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İfraz ve Tevhid",
-    "Taşınmaz": "54360 ada, 7 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Vergi Değeri Düzeltme",
+    "Taşınmaz": "77245 ada, 6 parsel",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -47,12 +49,13 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İfraz ve Tevhid",
-    "54360 ada, 7 parsel",
-    "sürecin tamamlanabilmesi için"
+    "Vergi Değeri Düzeltme",
+    "77245 ada, 6 parsel",
+    "sürecin tamamlanabilmesi için",
+    "elektronik posta ile"
   ]
 }

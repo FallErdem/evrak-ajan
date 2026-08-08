@@ -5,10 +5,10 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "makine_ikmal",
-    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
-    "detsis_no": "89052714",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,26 +23,26 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "802",
-    "ad": "Ulaşım ve Servis İşleri",
-    "saklama_suresi": "10"
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Yeni Durak Talebi",
-  "sayi": "E-39985474-802-8659521",
-  "tarih": "19.02.2026",
+  "konu": "Etkinlik Salonu Tahsis Talebi",
+  "sayi": "E-39985474-051-7052177",
+  "tarih": "13.04.2026",
   "ilgi": {
-    "tarih": "21.01.2026",
-    "sayi": "E-89052714-802-1663600"
+    "tarih": "10.04.2026",
+    "sayi": "E-65859045-051-3500372"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Yeni Durak",
-    "Ortak iş": "Yeni Durak konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Yeni Durak konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Etkinlik Salonu Tahsis",
+    "Ortak iş": "Etkinlik Salonu Tahsis konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "gerekli tahsisin yapılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -52,10 +52,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yeni Durak"
+    "Etkinlik Salonu Tahsis",
+    "gerekli tahsisin yapılması"
   ]
 }

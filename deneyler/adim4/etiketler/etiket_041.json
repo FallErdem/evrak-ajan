@@ -36,12 +36,14 @@
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Tapu fotokopisi",
+    "aciklama": "Başvuru formu",
     "sayfa": 3
   },
   "somut_bilgiler": {
     "Talep": "Bağış Makbuzu",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,11 +52,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "Bağış Makbuzu",
-    "sürecin tamamlanabilmesi için"
+    "e-Devlet üzerinden"
   ]
 }

@@ -12,12 +12,12 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Emine KARA",
-    "adres": "Gayret Mahallesi Çınar Caddesi No: 59/6 Yenimahalle/ANKARA",
+    "ad": "Fatih KARA",
+    "adres": "Demetevler Mahallesi Ceviz Sokak No: 51/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023450047",
-    "bolum": "Fen Fakültesi Matematik",
+    "ogrenci_no": "2021846825",
+    "bolum": "Hukuk Fakültesi",
     "sinif": "3"
   },
   "belge_turu": "dilekce",
@@ -29,18 +29,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
     "saklama_suresi": "B"
   },
-  "konu": "Mezuniyet Belgesi Doğrulama Talebi",
+  "konu": "Farabi Başvuru Sonuçları",
   "sayi": null,
-  "tarih": "03.02.2026",
+  "tarih": "18.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Mezuniyet Belgesi Doğrulama",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Farabi Başvuru Sonuçları",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,11 +52,11 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Mezuniyet Belgesi Doğrulama",
-    "başvuru dosyasına eklenmek üzere"
+    "Farabi Başvuru Sonuçları",
+    "sürecin tamamlanabilmesi için",
+    "e-Devlet üzerinden"
   ]
 }

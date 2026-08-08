@@ -5,46 +5,46 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ozel_egitim_rehberlik_sb",
+    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "detsis_no": "87302975",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yıldıztepe İlkokulu Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10093484",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "93213107",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_makam": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "160.01.02",
+    "ad": "Kaynaştırma Eğitimi",
+    "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Bilgi Formunun Gönderilmesi",
-  "sayi": "E-10093484-235-5287",
-  "tarih": "19.03.2026",
+  "konu": "BEP Hazırlanması Hk.",
+  "sayi": "E-93213107-160.01.02-8303320",
+  "tarih": "14.04.2026",
   "ilgi": {
-    "tarih": "12.02.2026",
-    "sayi": "E-21291472-235-3000581"
+    "tarih": "06.03.2026",
+    "sayi": "E-87302975-160.01.02-4524277"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenci Bilgi Formunun Gönderilmesi",
+    "Talep": "BEP Hazırlanması",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,13 +54,12 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Özel Eğitim ve Rehberlik Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Öğrenci Bilgi Formunun Gönderilmesi",
+    "BEP Hazırlanması",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

@@ -12,35 +12,35 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Ege Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Merkez Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Ragıpbey Mahallesi Lale Sokak No: 55/12 Yenimahalle/ANKARA",
+    "adres": "Susuz Mahallesi Lale Sokağı No: 115/19 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
   "belge_turu": "bilgi_edinme",
   "aile": "bilgi_edinme",
-  "yazan_tipi": "kurum",
+  "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
   "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "İtfaiye Uygunluk Raporu Talebi",
-  "sayi": "2026/164",
-  "tarih": "05.02.2026",
+  "konu": "Terazi Damgalama Başvurusu",
+  "sayi": "2026/296",
+  "tarih": "25.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İtfaiye Uygunluk Raporu işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Terazi Damgalama işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "yıllara göre sayısal döküm",
+    "elektronik posta ile"
   ]
 }

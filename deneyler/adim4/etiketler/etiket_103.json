@@ -5,44 +5,44 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "kurum_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "89052714",
+    "detsis_no": "85330682",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Yazı İşleri Müdürlüğü",
+  "muhatap_makam": "Hukuk İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "105.04",
-    "ad": "Meclis Kararları",
-    "saklama_suresi": "15"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "Kararın Kesinleşmesi Hk.",
-  "sayi": "E-89052714-105.04-1688382",
-  "tarih": "27.03.2026",
+  "konu": "Yürütmeyi Durdurma Kararı Hk.",
+  "sayi": "E-85330682-641.04-2432414",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Taslak metin",
+    "aciklama": "Gerekçe raporu",
     "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Meclis Kararları",
-    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
+    "Konu": "İdari Davalar",
+    "Gerekçe": "iş ve işlemlerin zamanında tamamlanması",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,11 +53,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Meclis Kararları",
-    "mevzuatın öngördüğü sürelere uyulması"
+    "İdari Davalar",
+    "iş ve işlemlerin zamanında tamamlanması"
   ]
 }

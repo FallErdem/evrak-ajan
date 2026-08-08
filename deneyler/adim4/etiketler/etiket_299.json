@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Meryem POLAT",
-    "adres": "Kaletepe Mahallesi Lale Sokağı No: 108/23 Yenimahalle/ANKARA",
+    "ad": "Fatma KARACA",
+    "adres": "Yakacık Mahallesi Ihlamur Sokağı No: 118/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,20 +26,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
+    "saklama_suresi": "B"
   },
-  "konu": "Soruşturmacı Görevlendirmesi",
+  "konu": "Sınıf Seviyesinin Belirlenmesi",
   "sayi": null,
-  "tarih": "10.03.2026",
+  "tarih": "27.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Soruşturmacı Görevlendirmesi",
-    "Sorun": "olayla ilgisi olmadığı hâlde çocuğum soruşturmaya dâhil edildi",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Sınıf Seviyesinin Belirlenmesi",
+    "Sorun": "yurtdışı denklik başvurum dört aydır sonuçlanmadı",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -50,12 +50,11 @@
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Soruşturmacı Görevlendirmesi",
-    "yaklaşık iki aydır",
+    "Sınıf Seviyesinin Belirlenmesi",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

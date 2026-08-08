@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şaban KURT",
-    "adres": "Batıkent Mahallesi Menekşe Caddesi No: 44/16 Yenimahalle/ANKARA",
+    "ad": "Mehmet UÇAR",
+    "adres": "Beştepe Mahallesi Ihlamur Caddesi No: 114/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,15 +30,15 @@
     "ad": "Bursluluk",
     "saklama_suresi": "10"
   },
-  "konu": "Kontenjan Sonuçlarının Açıklanması",
+  "konu": "Bursluluk Sınavı Duyurusu",
   "sayi": null,
-  "tarih": "03.04.2026",
+  "tarih": "26.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kontenjan Sonuçlarının Açıklanması",
-    "Sorun": "burs ödemem üç aydır yatmadı",
-    "Süre": "geçtiğimiz aydan bu yana",
+    "Şikâyet konusu": "Bursluluk Sınavı",
+    "Sorun": "bursluluk sonucuna itirazım cevapsız kaldı",
+    "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -50,13 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kontenjan Sonuçlarının Açıklanması",
-    "burs ödemem üç aydır yatmadı",
-    "geçtiğimiz aydan bu yana",
+    "Bursluluk Sınavı",
+    "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]
 }

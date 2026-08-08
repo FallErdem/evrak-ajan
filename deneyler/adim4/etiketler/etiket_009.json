@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -32,16 +32,16 @@
     "saklama_suresi": "30"
   },
   "konu": "Hukuki Görüş Talebi",
-  "sayi": "E-39985474-045.02-8693611",
-  "tarih": "06.04.2026",
+  "sayi": "E-65859045-045.02-3487330",
+  "tarih": "19.03.2026",
   "ilgi": {
-    "tarih": "16.03.2026",
-    "sayi": "E-55461037-045.02-3021680"
+    "tarih": "09.03.2026",
+    "sayi": "E-55461037-045.02-3018837"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "İlgili belge",
-    "sayfa": 1
+    "aciklama": "Çalışma programı",
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Konu": "Hukuki Görüş",
@@ -55,8 +55,6 @@
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
-    "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [

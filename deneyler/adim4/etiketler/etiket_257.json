@@ -31,19 +31,19 @@
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Salon Tahsis Talebi",
-  "sayi": "E-32625594-309-58092655",
-  "tarih": "07.05.2026",
+  "konu": "Topluluk Etkinlik İzni Talebi",
+  "sayi": "E-32625594-309-56385973",
+  "tarih": "29.01.2026",
   "ilgi": {
-    "tarih": "08.04.2026",
-    "sayi": "E-98244303-309-8948752"
+    "tarih": "22.01.2026",
+    "sayi": "E-98244303-309-7754250"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "ay sonuna kadar"
+    "Süre": "en geç bir hafta içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -54,12 +54,11 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "ay sonuna kadar"
+    "en geç bir hafta içinde"
   ]
 }

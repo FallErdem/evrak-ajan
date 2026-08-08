@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Kaymakamlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "56248377",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -26,10 +26,11 @@
   "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
-      "İlçe Belediye Başkanlığına"
+      "Belediye Başkanlıklarına",
+      "İl Özel İdarelerine"
     ],
     "bilgi": [
-      "Ankara Valiliğine"
+      "81 İl Valiliğine"
     ]
   },
   "beklenen_kapanis": "karma",
@@ -39,19 +40,19 @@
     "saklama_suresi": "10"
   },
   "konu": "Boya Badana İşleri Hk.",
-  "sayi": "E-56248377-807.01-403227",
-  "tarih": "27.01.2026",
+  "sayi": "E-24304062-807.01-74877296",
+  "tarih": "12.05.2026",
   "ilgi": {
-    "tarih": "26.12.2025",
-    "sayi": "E-33152401-807.01-1811569"
+    "tarih": "28.04.2026",
+    "sayi": "E-33152401-807.01-3219863"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Boya Badana İşleri",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -66,8 +67,7 @@
   ],
   "anahtar_terimler": [
     "Boya Badana İşleri",
-    "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı"
   ]
 }

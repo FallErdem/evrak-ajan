@@ -39,8 +39,8 @@
     "saklama_suresi": "15"
   },
   "konu": "Kararın Uygulanması Hk.",
-  "sayi": "E-32625594-050.04-57943990",
-  "tarih": "06.04.2026",
+  "sayi": "E-32625594-050.04-56884510",
+  "tarih": "15.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -48,11 +48,11 @@
     "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Kararlar kapsamında yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Kararın Uygulanması konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -63,7 +63,6 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Gazi Üniversitesi Rektörlüğü",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [

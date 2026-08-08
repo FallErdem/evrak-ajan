@@ -39,13 +39,14 @@
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Tapu fotokopisi",
-    "sayfa": 1
+    "aciklama": "Etkinlik programı",
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Talep": "Etkinlik Bütçe Desteği",
-    "Öğrenim bilgisi": "3. sınıf öğrencisi",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -55,12 +56,11 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
     "Etkinlik Bütçe Desteği",
-    "3. sınıf öğrencisi",
-    "sürecin tamamlanabilmesi için"
+    "sürecin tamamlanabilmesi için",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

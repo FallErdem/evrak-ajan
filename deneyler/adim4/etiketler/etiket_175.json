@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
+    "kurum_adi": "Hukuk İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "26888327",
+    "detsis_no": "10578106",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -31,17 +31,17 @@
     "ad": "Bütçe Çalışmaları",
     "saklama_suresi": "15"
   },
-  "konu": "Bütçe Teklifinin Hazırlanması",
-  "sayi": "E-26888327-841.01-2548776",
-  "tarih": "06.04.2026",
+  "konu": "Gelir Gider Tahmin Cetveli",
+  "sayi": "E-10578106-841.01-2904770",
+  "tarih": "17.04.2026",
   "ilgi": {
-    "tarih": "20.02.2026",
-    "sayi": "E-43195403-841.01-2298318"
+    "tarih": "26.03.2026",
+    "sayi": "E-43195403-841.01-2441488"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bütçe Teklifinin Hazırlanması",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Gelir Gider Tahmin Cetveli",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
@@ -58,8 +58,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bütçe Teklifinin Hazırlanması",
-    "olumlu, belge düzenlendi",
+    "Gelir Gider Tahmin Cetveli",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
     "süreç Müdürlüğümüzce takip edilmektedir"
   ]

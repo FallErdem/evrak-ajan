@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Gamze ASLAN",
-    "adres": "Yeşilevler Mahallesi Zeytin Caddesi No: 84/16 Yenimahalle/ANKARA",
+    "ad": "Pınar ASLAN",
+    "adres": "Batıkent Mahallesi Manolya Caddesi No: 109/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022394257",
+    "ogrenci_no": "2025833580",
     "bolum": "Biyoloji (Yüksek Lisans)",
-    "sinif": "3"
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.14",
-    "ad": "Tez İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Tez Konusu Değişikliği Talebi",
+  "konu": "Kesin Kayıt Başvurusu",
   "sayi": null,
-  "tarih": "03.02.2026",
+  "tarih": "16.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Tez Konusu Değişikliği",
-    "Öğrenim bilgisi": "1. sınıf öğrencisi",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından"
+    "Talep": "Kesin Kayıt",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,12 +52,11 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Tez Konusu Değişikliği",
-    "1. sınıf öğrencisi",
-    "mağduriyetin giderilmesi bakımından"
+    "Kesin Kayıt",
+    "mağduriyetin giderilmesi bakımından",
+    "elektronik posta ile"
   ]
 }

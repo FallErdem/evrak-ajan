@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Meryem YILDIRIM",
-    "adres": "Emniyet Mahallesi Sümbül Sokağı No: 28/6 Yenimahalle/ANKARA",
+    "ad": "Murat BOZKURT",
+    "adres": "Emniyet Mahallesi Yasemin Sokak No: 71/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024106990",
-    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
-    "sinif": "2"
+    "ogrenci_no": "2019655981",
+    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "sinif": "4"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -29,20 +29,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
-    "saklama_suresi": "10"
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Kayıt Yenileme Başvurusu",
+  "konu": "Diploma Teslim Randevusu",
   "sayi": null,
-  "tarih": "25.03.2026",
+  "tarih": "20.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kayıt Yenileme",
-    "Sorun": "kayıt sildirdiğim hâlde adıma harç borcu çıkarılıyor",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Diploma Teslim Randevusu",
+    "Sorun": "geçici mezuniyet belgem iş başvuru süresi içinde verilmedi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,12 +54,11 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Yenileme",
-    "yaklaşık üç haftadır",
+    "Diploma Teslim Randevusu",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

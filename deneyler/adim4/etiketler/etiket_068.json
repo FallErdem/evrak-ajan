@@ -5,43 +5,43 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "14588481",
+    "detsis_no": "93213107",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Yenimahalle Kaymakamlığı",
-  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Yönetim Kurulu Seçimi Hk.",
-  "sayi": "E-14588481-165.01-3175688",
-  "tarih": "10.03.2026",
+  "konu": "Bilgi Edinme Talebinin Reddi Hk.",
+  "sayi": "E-93213107-622.01-8292701",
+  "tarih": "02.04.2026",
   "ilgi": {
     "tarih": "02.03.2026",
-    "sayi": "E-93213107-165.01-8327801"
+    "sayi": "E-55461037-622.01-3015912"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yönetim Kurulu Seçimi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Bilgi Edinme Talebinin Reddi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
     "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
@@ -53,13 +53,11 @@
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
-    "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yönetim Kurulu Seçimi",
-    "olumlu, işlem tamamlandı",
+    "Bilgi Edinme Talebinin Reddi",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı"
   ]
 }

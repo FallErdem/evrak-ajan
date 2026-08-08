@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "201",
-    "ad": "Seçim ve Atama İşleri",
-    "saklama_suresi": "15"
+    "kod": "903.02",
+    "ad": "Atama İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Atama Onayı Hk.",
-  "sayi": "E-55461037-201-3007990",
-  "tarih": "11.02.2026",
+  "konu": "Görevden Ayrılış Bildirimi",
+  "sayi": "E-10213773-903.02-11466625",
+  "tarih": "18.02.2026",
   "ilgi": {
-    "tarih": "30.01.2026",
-    "sayi": "E-42218640-201-8094197"
+    "tarih": "26.01.2026",
+    "sayi": "E-42218640-903.02-3262439"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Seçim ve Atama İşleri",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Konu": "Atama İşleri",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -53,11 +53,10 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Personel Dairesi Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Seçim ve Atama İşleri",
+    "Atama İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

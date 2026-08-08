@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Merve KURT",
-    "adres": "Yeşilevler Mahallesi Sümbül Sokak No: 92/12 Yenimahalle/ANKARA",
+    "ad": "Fatih ÇAKIR",
+    "adres": "Ragıpbey Mahallesi Manolya Sokağı No: 111/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,18 +30,18 @@
     "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "Faaliyet Konusu Değişikliği",
+  "konu": "Ruhsat Devir Talebi",
   "sayi": null,
-  "tarih": "28.04.2026",
+  "tarih": "09.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Faaliyet Konusu Değişikliği",
+    "Şikâyet konusu": "Ruhsat Devir",
     "Sorun": "devir talebim eksik evrak denilerek iade edildi ancak eksik belirtilmedi",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "Demetevler Mahallesi"
+    "Yer": "Gayret Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Faaliyet Konusu Değişikliği",
-    "geçtiğimiz aydan bu yana",
+    "Ruhsat Devir",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi",
-    "Demetevler Mahallesi"
+    "Gayret Mahallesi"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
@@ -27,16 +27,16 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "807.01",
-    "ad": "Bina ve Tesisler",
-    "saklama_suresi": "10"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "Çatı Onarımı Hk.",
-  "sayi": "E-10213773-807.01-9875942",
-  "tarih": "15.01.2026",
+  "konu": "Etüt Proje Hazırlanması Talebi",
+  "sayi": "E-24312041-755.01-64600367",
+  "tarih": "25.03.2026",
   "ilgi": {
-    "tarih": "10.12.2025",
-    "sayi": "E-33152401-807.01-1802649"
+    "tarih": "20.02.2026",
+    "sayi": "E-33152401-755.01-3190419"
   },
   "ek": null,
   "somut_bilgiler": {

@@ -5,19 +5,19 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Şaban DEMIR",
-    "adres": "Gayret Mahallesi Menekşe Sokağı No: 98/16 Yenimahalle/ANKARA",
+    "ad": "Elif YILMAZ",
+    "adres": "Ragıpbey Mahallesi Akasya Caddesi No: 6/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022947901",
-    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
+    "ogrenci_no": "2020413685",
+    "bolum": "Kimya (Doktora)",
     "sinif": "4"
   },
   "belge_turu": "dilekce",
@@ -25,23 +25,24 @@
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
     "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Belgesi Talebi",
+  "konu": "İlişik Kesme Belgesi Talebi",
   "sayi": null,
-  "tarih": "16.02.2026",
+  "tarih": "07.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenci Belgesi",
-    "Öğrenim bilgisi": "2025 yılı mezunu",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "İlişik Kesme Belgesi",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,13 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Öğrenci Belgesi",
-    "2025 yılı mezunu",
-    "ilgili kuruma sunulmak üzere"
+    "İlişik Kesme Belgesi",
+    "başvuru dosyasına eklenmek üzere",
+    "şahsen başvuru yapılmıştır",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ramazan KOÇ",
-    "adres": "Serhat Mahallesi Erguvan Sokağı No: 49/10 Yenimahalle/ANKARA",
+    "ad": "Ömer ATEŞ",
+    "adres": "İvedik Mahallesi Ihlamur Sokak No: 85/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,23 +22,23 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Yurtdışı Kullanım İçin Onay Talebi",
+  "konu": "Gelir Belgesi Talebi",
   "sayi": null,
-  "tarih": "26.05.2026",
+  "tarih": "27.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yurtdışı Kullanım İçin Onay",
-    "Sorun": "diplomamın hazırlanması iki aydır gecikiyor",
-    "Süre": "yaklaşık üç haftadır",
+    "Şikâyet konusu": "Gelir Belgesi",
+    "Sorun": "gelir belgesi sunduğum hâlde başvurum değerlendirmeye alınmadı",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
@@ -50,12 +50,11 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yurtdışı Kullanım İçin Onay",
-    "yaklaşık üç haftadır",
+    "Gelir Belgesi",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

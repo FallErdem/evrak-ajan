@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ahmet ASLAN",
-    "adres": "Barıştepe Mahallesi Çınar Sokağı No: 74/1 Yenimahalle/ANKARA",
+    "ad": "İbrahim ÇELIK",
+    "adres": "Gayret Mahallesi Akasya Caddesi No: 4/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,18 +26,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Arşivden Suret Talebi",
+  "konu": "Arşivden Belge Çıkarılması Talebi",
   "sayi": null,
-  "tarih": "11.03.2026",
+  "tarih": "06.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Arşivden Suret",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere"
+    "Talep": "Arşivden Belge Çıkarılması",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,7 +52,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşivden Suret",
-    "ilgili kuruma sunulmak üzere"
+    "Arşivden Belge Çıkarılması",
+    "başvuru dosyasına eklenmek üzere",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

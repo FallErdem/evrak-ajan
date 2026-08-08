@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,30 +23,30 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
-    "saklama_suresi": "10"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Staj Süresinin Uzatılması Talebi",
-  "sayi": "E-55461037-773-3013350",
+  "konu": "İhtilaflı Hususta Değerlendirme Talebi",
+  "sayi": "E-55461037-045.02-3013350",
   "tarih": "24.02.2026",
   "ilgi": {
     "tarih": "16.02.2026",
-    "sayi": "E-43123369-773-8153087"
+    "sayi": "E-82642947-045.02-8153087"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "İlgili belge",
-    "sayfa": 6
+    "aciklama": "Çalışma programı",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Staj Süresinin Uzatılması",
-    "Ortak iş": "Staj Süresinin Uzatılması konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Staj Süresinin Uzatılması konusunda gerekli sürenin tanınması"
+    "Konu": "İhtilaflı Hususta Değerlendirme",
+    "Ortak iş": "İhtilaflı Hususta Değerlendirme konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "İhtilaflı Hususta Değerlendirme konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,11 +56,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
-    "Gazi Üniversitesi",
+    "Genel Sekreterlik",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Süresinin Uzatılması"
+    "İhtilaflı Hususta Değerlendirme"
   ]
 }

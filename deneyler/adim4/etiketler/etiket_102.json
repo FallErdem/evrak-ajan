@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ramazan ÇAKIR",
-    "adres": "Ergazi Mahallesi Kestane Sokağı No: 51/5 Yenimahalle/ANKARA",
+    "ad": "Hüseyin ÇELIK",
+    "adres": "Emniyet Mahallesi Zeytin Sokak No: 25/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,22 +30,22 @@
     "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
     "saklama_suresi": "10"
   },
-  "konu": "Ölçü Aleti Tamir İzni",
+  "konu": "Periyodik Muayene Talebi",
   "sayi": null,
-  "tarih": "14.01.2026",
+  "tarih": "11.05.2026",
   "ilgi": {
-    "tarih": "22.12.2025",
-    "sayi": "E-59553370-175-3779833"
+    "tarih": "20.04.2026",
+    "sayi": "E-59553370-175-2291926"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Başvuru evrakı",
-    "sayfa": 1
+    "aciklama": "Karar sureti",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Ölçü Aleti Tamir İzni",
+    "İtiraz konusu": "Periyodik Muayene",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -60,7 +60,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ölçü Aleti Tamir İzni",
+    "Periyodik Muayene",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

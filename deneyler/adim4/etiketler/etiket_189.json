@@ -12,15 +12,15 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Kuzey Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Başkent Ticaret A.Ş.",
     "ad": null,
-    "adres": "Gayret Mahallesi Zeytin Sokağı No: 108/22 Yenimahalle/ANKARA",
+    "adres": "Uğur Mumcu Mahallesi Çınar Sokak No: 88/17 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
   "belge_turu": "bilgi_edinme",
   "aile": "bilgi_edinme",
-  "yazan_tipi": "kurum",
+  "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
   "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
@@ -31,16 +31,16 @@
     "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Arşivden Belge Çıkarılması Talebi",
-  "sayi": "2026/154",
-  "tarih": "26.01.2026",
+  "konu": "Belge Sureti Talebi",
+  "sayi": "2026/365",
+  "tarih": "05.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Arşivden Belge Çıkarılması işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "elektronik posta ile"
+    "Talep": "Belge Sureti işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,12 +50,10 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
-    "elektronik posta ile"
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

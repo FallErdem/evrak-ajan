@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet ŞAHIN",
-    "adres": "Yeşilevler Mahallesi Sümbül Sokak No: 3/17 Yenimahalle/ANKARA",
+    "ad": "Osman DOĞAN",
+    "adres": "Emniyet Mahallesi Menekşe Caddesi No: 16/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,18 +30,18 @@
     "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "Rapor Sureti Talebi",
+  "konu": "Yerinde İnceleme Randevusu",
   "sayi": null,
   "tarih": "09.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Rapor Sureti",
-    "Sorun": "yerinde inceleme için gelmesi gereken ekip iki kez randevuya gelmedi",
+    "Şikâyet konusu": "Yerinde İnceleme Randevusu",
+    "Sorun": "raporum düzenlendiği hâlde tarafıma gönderilmedi",
     "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "Ragıpbey Mahallesi"
+    "Yer": "Çiğdemtepe Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Rapor Sureti",
+    "Yerinde İnceleme Randevusu",
     "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi",
-    "Ragıpbey Mahallesi"
+    "Çiğdemtepe Mahallesi"
   ]
 }

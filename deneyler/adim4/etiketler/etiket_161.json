@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -31,9 +31,9 @@
     "ad": "Kayıt-Kabul",
     "saklama_suresi": "B"
   },
-  "konu": "Kayıt Belgelerinin Tamamlanması",
-  "sayi": "E-39985474-205-8632061",
-  "tarih": "13.01.2026",
+  "konu": "Kayıt İşlemleri Hk.",
+  "sayi": "E-65859045-205-3512883",
+  "tarih": "01.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
@@ -49,8 +49,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "konu hakkında görüş bildirilmesi"

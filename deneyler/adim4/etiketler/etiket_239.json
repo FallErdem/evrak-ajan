@@ -5,43 +5,44 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Sevgi ÇELIK",
-    "adres": "Gayret Mahallesi Nergis Sokağı No: 95/10 Yenimahalle/ANKARA",
+    "ad": "Hasan KORKMAZ",
+    "adres": "Pamuklar Mahallesi Kestane Sokak No: 38/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023913321",
-    "bolum": "Fen Fakültesi Matematik",
-    "sinif": "2"
+    "ogrenci_no": "2023994034",
+    "bolum": "Biyoloji (Yüksek Lisans)",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
-    "saklama_suresi": "10"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Katkı Payı Muafiyet Başvurusu",
+  "konu": "Danışman Değişikliği Talebi",
   "sayi": null,
-  "tarih": "01.05.2026",
+  "tarih": "18.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Katkı Payı Muafiyet",
-    "Öğrenim bilgisi": "2021 yılı mezunu",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Danışman Değişikliği",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,13 +51,13 @@
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı Muafiyet",
-    "2021 yılı mezunu",
-    "sürecin tamamlanabilmesi için"
+    "Danışman Değişikliği",
+    "mağduriyetin giderilmesi bakımından",
+    "şahsen başvuru yapılmıştır",
+    "elektronik posta ile"
   ]
 }

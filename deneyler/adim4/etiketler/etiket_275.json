@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gelirler Müdürlüğü",
+    "kurum_adi": "Temizlik İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "30032784",
+    "detsis_no": "83011479",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -31,19 +31,19 @@
     "ad": "Bütçe Çalışmaları",
     "saklama_suresi": "15"
   },
-  "konu": "Gelir Gider Tahmin Cetveli",
-  "sayi": "E-30032784-841.01-739981",
-  "tarih": "05.05.2026",
+  "konu": "Bütçe Takviminin Duyurulması",
+  "sayi": "E-83011479-841.01-1956897",
+  "tarih": "12.01.2026",
   "ilgi": {
-    "tarih": "27.04.2026",
-    "sayi": "E-43195403-841.01-2333911"
+    "tarih": "10.12.2025",
+    "sayi": "E-43195403-841.01-2394627"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Gelir Gider Tahmin Cetveli",
+    "Talep": "Bütçe Takviminin Duyurulması",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
     "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
@@ -58,9 +58,10 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Gelir Gider Tahmin Cetveli",
+    "Bütçe Takviminin Duyurulması",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
+    "talep edilen bilgiler ekte sunulmuştur",
     "süreç Müdürlüğümüzce takip edilmektedir"
   ]
 }

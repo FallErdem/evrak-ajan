@@ -12,34 +12,34 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Merkez Mimarlık Ltd. Şti.",
+    "kurum_adi": "Ege Mimarlık Ltd. Şti.",
     "ad": null,
-    "adres": "Pamuklar Mahallesi Zeytin Sokak No: 33/1 Yenimahalle/ANKARA",
+    "adres": "Serhat Mahallesi Lale Caddesi No: 36/12 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
   "belge_turu": "bilgi_edinme",
   "aile": "bilgi_edinme",
-  "yazan_tipi": "kurum",
+  "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
   "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
+    "kod": "115.02.10",
+    "ad": "Adres ve Numaralandırma",
     "saklama_suresi": "B"
   },
-  "konu": "İskan Ruhsatı Başvurusu",
-  "sayi": "2026/433",
-  "tarih": "02.03.2026",
+  "konu": "Kapı Numarası Verilmesi Talebi",
+  "sayi": "2026/94",
+  "tarih": "12.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İskan Ruhsatı işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Talep": "Kapı Numarası Verilmesi işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
     "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
@@ -55,7 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
     "Kurumunuz kayıt bürosundan elden"
   ]
 }

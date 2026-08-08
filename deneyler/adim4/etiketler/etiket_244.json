@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,23 +23,23 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
-    "saklama_suresi": "10"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Staj Kabul Yazısı Talebi",
-  "sayi": "E-10213773-773-9866999",
-  "tarih": "09.01.2026",
+  "konu": "Uygulamanın Hukuka Uygunluğu Hk.",
+  "sayi": "E-55461037-045.02-3034137",
+  "tarih": "15.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Staj Kabul Yazısı",
-    "Ortak iş": "Staj Kabul Yazısı konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Staj Kabul Yazısı kapsamında öğrenci kabul edilmesi"
+    "Konu": "Uygulamanın Hukuka Uygunluğu",
+    "Ortak iş": "Uygulamanın Hukuka Uygunluğu konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Uygulamanın Hukuka Uygunluğu kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -49,11 +49,10 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
-    "Gazi Üniversitesi",
+    "Genel Sekreterlik",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Kabul Yazısı"
+    "Uygulamanın Hukuka Uygunluğu"
   ]
 }

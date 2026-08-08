@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ahmet ÇETIN",
-    "adres": "İvedik Mahallesi Nergis Caddesi No: 68/11 Yenimahalle/ANKARA",
+    "ad": "Zeynep KURT",
+    "adres": "Emniyet Mahallesi Menekşe Sokağı No: 98/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,12 +32,14 @@
   },
   "konu": "Bağış Makbuzu Talebi",
   "sayi": null,
-  "tarih": "06.04.2026",
+  "tarih": "29.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Bağış Makbuzu",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -46,11 +48,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "Bağış Makbuzu",
-    "sürecin tamamlanabilmesi için"
+    "sürecin tamamlanabilmesi için",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

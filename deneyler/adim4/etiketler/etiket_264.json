@@ -27,27 +27,27 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Yatırım Programı Teklifi",
-  "sayi": "E-24316060-602.07-60782947",
-  "tarih": "20.01.2026",
+  "konu": "Alım Miktarının Artırılması",
+  "sayi": "E-24316060-934.01-61217453",
+  "tarih": "28.05.2026",
   "ilgi": {
-    "tarih": "18.12.2025",
-    "sayi": "E-14588481-602.07-3123795"
+    "tarih": "06.05.2026",
+    "sayi": "E-14588481-934.01-3805576"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Liste ve takvim",
+    "aciklama": "Teknik şartname",
     "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "öğretim yılı",
-    "Sayı": "186 kayıt",
-    "Ek 1": "Yatırım Programı listesi",
+    "Sayı": "112 kayıt",
+    "Ek 1": "Mal Alım İşi listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
   },
@@ -60,14 +60,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "öğretim yılı",
-    "186 kayıt",
-    "Yatırım Programı listesi",
+    "112 kayıt",
+    "Mal Alım İşi listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

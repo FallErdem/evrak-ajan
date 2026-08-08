@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,25 +23,25 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Personel Dairesi Başkanlığı",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "209",
-    "ad": "Akademik Personel Görevlendirmeleri",
-    "saklama_suresi": "15"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Ders Görevlendirmesi Hk.",
-  "sayi": "E-65859045-209-1005893",
-  "tarih": "23.03.2026",
+  "konu": "Tez Teslim Süresi Uzatım Talebi",
+  "sayi": "E-65859045-302.14-3471347",
+  "tarih": "20.02.2026",
   "ilgi": {
-    "tarih": "05.03.2026",
-    "sayi": "E-42218640-209-8122009"
+    "tarih": "04.02.2026",
+    "sayi": "E-47014261-302.14-1054214"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Akademik Personel Görevlendirmeleri",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Tez İşleri",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,12 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
-    "Gazi Üniversitesi",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Akademik Personel Görevlendirmeleri",
+    "Tez İşleri",
     "konu hakkında görüş bildirilmesi"
   ]
 }

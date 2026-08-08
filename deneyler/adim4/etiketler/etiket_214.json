@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Burak KORKMAZ",
-    "adres": "Ergazi Mahallesi Lale Caddesi No: 32/9 Yenimahalle/ANKARA",
+    "ad": "Şaban AKSOY",
+    "adres": "Uğur Mumcu Mahallesi Papatya Caddesi No: 75/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021503223",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "4"
+    "ogrenci_no": "2023426847",
+    "bolum": "Mimarlık Fakültesi",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,19 +29,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Geçici Mezuniyet Belgesi Talebi",
+  "konu": "Diploma Denklik Başvurusu",
   "sayi": null,
-  "tarih": "10.04.2026",
+  "tarih": "16.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Geçici Mezuniyet Belgesi",
-    "Öğrenim bilgisi": "2. sınıf öğrencisi",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere"
+    "Talep": "Diploma Denklik",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,12 +52,12 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Geçici Mezuniyet Belgesi",
-    "2. sınıf öğrencisi",
-    "resmî işlemlerde kullanılmak üzere"
+    "Diploma Denklik",
+    "ilgili kuruma sunulmak üzere",
+    "şahsen başvuru yapılmıştır",
+    "e-Devlet üzerinden"
   ]
 }

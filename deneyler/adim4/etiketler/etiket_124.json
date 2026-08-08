@@ -12,12 +12,12 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Kemal ÖZTÜRK",
-    "adres": "Ostim Mahallesi Akasya Caddesi No: 56/20 Yenimahalle/ANKARA",
+    "ad": "Derya YAVUZ",
+    "adres": "Çiğdemtepe Mahallesi Erguvan Sokak No: 54/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021146990",
-    "bolum": "Diş Hekimliği Fakültesi",
+    "ogrenci_no": "2020207749",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
     "sinif": "3"
   },
   "belge_turu": "sikayet",
@@ -29,20 +29,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "İngilizce Transkript Talebi",
+  "konu": "Seviye Tespit Sınavı Duyurusu",
   "sayi": null,
-  "tarih": "17.04.2026",
+  "tarih": "27.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İngilizce Transkript",
-    "Sorun": "öğrenci belgesi talebime iki haftadır cevap verilmedi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Seviye Tespit Sınavı",
+    "Sorun": "dosyama eksik evrak yazıldı ancak hangisi olduğu bildirilmedi",
+    "Süre": "yaklaşık üç haftadır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -54,12 +54,11 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İngilizce Transkript",
-    "yaklaşık kırk gündür",
+    "Seviye Tespit Sınavı",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]
 }

@@ -5,46 +5,46 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Akarsu Ortaokulu Müdürlüğü",
+    "kurum_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10073076",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "91571118",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
-    "saklama_suresi": "10"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "Yatırım Programı Revizyon Talebi",
-  "sayi": "E-10073076-602.07-7399",
-  "tarih": "08.05.2026",
+  "konu": "Diploma Kayıt Numarası Sorgusu",
+  "sayi": "E-91571118-198.02.01-2003724",
+  "tarih": "23.03.2026",
   "ilgi": {
-    "tarih": "14.04.2026",
-    "sayi": "E-14588481-602.07-3197838"
+    "tarih": "03.03.2026",
+    "sayi": "E-21291472-198.02.01-4939725"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yatırım Programı Revizyon",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Diploma Kayıt Numarası Sorgusu",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,13 +54,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yatırım Programı Revizyon",
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "Diploma Kayıt Numarası Sorgusu",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı"
   ]
 }

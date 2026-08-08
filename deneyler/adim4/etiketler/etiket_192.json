@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Sultan YAVUZ",
-    "adres": "Susuz Mahallesi Ceviz Caddesi No: 77/9 Yenimahalle/ANKARA",
+    "ad": "Ahmet DUMAN",
+    "adres": "Pamuklar Mahallesi Zeytin Sokak No: 46/14 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022661876",
+    "ogrenci_no": "2023828272",
     "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
     "sinif": "4"
   },
@@ -29,19 +29,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "saklama_suresi": "10"
   },
-  "konu": "Değişim Programı Ders Tanıma Talebi",
+  "konu": "Kayıt Dondurma Talebi",
   "sayi": null,
-  "tarih": "23.03.2026",
+  "tarih": "09.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Değişim Programı Ders Tanıma",
-    "Öğrenim bilgisi": "2. sınıf öğrencisi",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Kayıt Dondurma",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -51,12 +52,11 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Değişim Programı Ders Tanıma",
-    "2. sınıf öğrencisi",
-    "sürecin tamamlanabilmesi için"
+    "Kayıt Dondurma",
+    "mağduriyetin giderilmesi bakımından",
+    "posta yoluyla adresime"
   ]
 }

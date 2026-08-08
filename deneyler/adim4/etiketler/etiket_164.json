@@ -5,19 +5,19 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ramazan ÖZDEMIR",
-    "adres": "Beştepe Mahallesi Manolya Sokağı No: 56/3 Yenimahalle/ANKARA",
+    "ad": "Merve ÇELIK",
+    "adres": "Susuz Mahallesi Erguvan Sokağı No: 67/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023232407",
-    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
+    "ogrenci_no": "2023714705",
+    "bolum": "Rehberlik ve Psikolojik Danışmanlık",
     "sinif": "2"
   },
   "belge_turu": "dilekce",
@@ -25,23 +25,24 @@
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "kod": "302.08",
+    "ad": "İzin İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "İlişik Kesme Belgesi Talebi",
+  "konu": "Mazeret Belgesi Talebi",
   "sayi": null,
-  "tarih": "03.03.2026",
+  "tarih": "29.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İlişik Kesme Belgesi",
-    "Öğrenim bilgisi": "lisansüstü programa kayıtlı",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere"
+    "Talep": "Mazeret Belgesi",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,13 +51,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
-    "Gazi Üniversitesi",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İlişik Kesme Belgesi",
-    "lisansüstü programa kayıtlı",
-    "başvuru dosyasına eklenmek üzere"
+    "Mazeret Belgesi",
+    "başvuru dosyasına eklenmek üzere",
+    "şahsen başvuru yapılmıştır",
+    "posta yoluyla adresime"
   ]
 }

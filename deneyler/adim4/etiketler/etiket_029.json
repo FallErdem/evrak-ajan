@@ -31,22 +31,22 @@
     "ad": "Hukuki",
     "saklama_suresi": "30"
   },
-  "konu": "İhtilaflı Hususta Değerlendirme Talebi",
+  "konu": "Hukuki Görüş Talebi",
   "sayi": "E-55461037-045.02-3024622",
   "tarih": "23.03.2026",
   "ilgi": {
     "tarih": "10.03.2026",
-    "sayi": "E-82642947-045.02-8368504"
+    "sayi": "E-82642947-045.02-8170256"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "İlgili belge",
-    "sayfa": 4
+    "aciklama": "Protokol taslağı",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "İhtilaflı Hususta Değerlendirme",
-    "Ortak iş": "İhtilaflı Hususta Değerlendirme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "İhtilaflı Hususta Değerlendirme konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Hukuki Görüş",
+    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,10 +57,9 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Genel Sekreterlik",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İhtilaflı Hususta Değerlendirme"
+    "Hukuki Görüş"
   ]
 }

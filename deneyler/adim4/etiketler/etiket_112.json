@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
@@ -31,19 +31,19 @@
     "ad": "Satış ve Kiralama",
     "saklama_suresi": "B"
   },
-  "konu": "Taşınmaz Satış İhalesi Hk.",
-  "sayi": "E-24432702-756.02-13057064",
-  "tarih": "23.01.2026",
+  "konu": "Kira Bedeli Artışı Hk.",
+  "sayi": "E-24304062-756.02-74905581",
+  "tarih": "20.05.2026",
   "ilgi": {
-    "tarih": "22.12.2025",
-    "sayi": "E-87730597-756.02-583738"
+    "tarih": "15.04.2026",
+    "sayi": "E-87730597-756.02-1729546"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "ay sonuna kadar"
+    "Süre": "en geç bir hafta içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -59,6 +59,6 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "ay sonuna kadar"
+    "en geç bir hafta içinde"
   ]
 }

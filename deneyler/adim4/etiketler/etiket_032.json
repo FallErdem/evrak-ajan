@@ -32,19 +32,19 @@
     "saklama_suresi": "10"
   },
   "konu": "Öğrenci Taşıma Güzergâhı Hk.",
-  "sayi": "E-10213773-140-10058196",
+  "sayi": "E-10213773-140-11582594",
   "tarih": "22.05.2026",
   "ilgi": {
     "tarih": "22.04.2026",
-    "sayi": "E-93213107-140-8366728"
+    "sayi": "E-93213107-140-8310310"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
+    "aciklama": "Genelge sureti",
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Taşımalı Eğitim kapsamında yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Öğrenci Taşıma Güzergâhı konusunda yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
@@ -58,8 +58,7 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",

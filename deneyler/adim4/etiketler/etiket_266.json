@@ -5,19 +5,19 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Mustafa ŞAHIN",
-    "adres": "Uğur Mumcu Mahallesi Lale Caddesi No: 11/22 Yenimahalle/ANKARA",
+    "ad": "Osman GÜNEŞ",
+    "adres": "Ostim Mahallesi Sümbül Caddesi No: 93/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025944821",
-    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
+    "ogrenci_no": "2020436045",
+    "bolum": "Fen Fakültesi Matematik",
     "sinif": "1"
   },
   "belge_turu": "dilekce",
@@ -25,23 +25,24 @@
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
     "saklama_suresi": "10"
   },
-  "konu": "Topluluk Etkinlik İzni Talebi",
+  "konu": "Katkı Payı İade Talebi",
   "sayi": null,
-  "tarih": "11.02.2026",
+  "tarih": "16.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Topluluk Etkinlik İzni",
-    "Öğrenim bilgisi": "2017 yılı mezunu",
-    "Gerekçe": "sürecin tamamlanabilmesi için"
+    "Talep": "Katkı Payı İade",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -50,13 +51,12 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "Gazi Üniversitesi",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Topluluk Etkinlik İzni",
-    "2017 yılı mezunu",
-    "sürecin tamamlanabilmesi için"
+    "Katkı Payı İade",
+    "sürecin tamamlanabilmesi için",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

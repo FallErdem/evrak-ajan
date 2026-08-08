@@ -12,15 +12,15 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Ege Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Başkent Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Susuz Mahallesi Papatya Caddesi No: 102/17 Yenimahalle/ANKARA",
+    "adres": "Ragıpbey Mahallesi Zeytin Sokağı No: 84/14 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
   "belge_turu": "bilgi_edinme",
   "aile": "bilgi_edinme",
-  "yazan_tipi": "kurum",
+  "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
   "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
@@ -32,15 +32,15 @@
     "saklama_suresi": "10"
   },
   "konu": "Gelir Belgesi Talebi",
-  "sayi": "2026/68",
-  "tarih": "16.01.2026",
+  "sayi": "2026/388",
+  "tarih": "13.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Gelir Belgesi işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "posta yoluyla adresime"
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -50,11 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "posta yoluyla adresime"
+    "yıllara göre sayısal döküm",
+    "elektronik posta ile"
   ]
 }

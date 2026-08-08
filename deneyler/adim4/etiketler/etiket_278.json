@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Öğrenim Belgesi Talebi",
-  "sayi": "E-93213107-235-8378965",
-  "tarih": "08.05.2026",
+  "konu": "Nakil Kontenjanı Bildirimi",
+  "sayi": "E-93213107-210.01-8246925",
+  "tarih": "10.02.2026",
   "ilgi": {
-    "tarih": "21.04.2026",
-    "sayi": "E-21291472-235-3045829"
+    "tarih": "06.01.2026",
+    "sayi": "E-21291472-210.01-4897582"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Nakiller",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -52,8 +52,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "konu hakkında görüş bildirilmesi"

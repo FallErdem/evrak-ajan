@@ -1,0 +1,1186 @@
+Bir kamu kurumunda resmî yazışma metinlerini kaleme alan görevlisin.
+Aşağıda 20 AYRI BELGE için şartname var. Her biri için SADECE METİN
+GÖVDESİNİ yaz.
+
+ÇIKTI BİÇİMİ — BUNA BİREBİR UY:
+Her belgeyi şu ayraçla başlat, başka hiçbir şey yazma:
+
+### BELGE <numara>
+(metin gövdesi)
+
+### BELGE <numara>
+(metin gövdesi)
+
+Ayraç satırı tam olarak "### BELGE" + üç haneli numara biçiminde
+olacak. Numaraları aşağıdaki şartnamelerde yazdığı gibi kullan, kendin
+numaralandırma. Belgeler arasına açıklama, başlık, yorum ekleme.
+İlk ayraçtan önce hiçbir şey yazma.
+
+HER BELGEYİ BAĞIMSIZ YAZ:
+Önceki belgelerde kullandığın cümle kalıplarını tekrarlama. Her
+belgenin ilk cümlesi farklı kurulsun. Aynı sözcük dizisini iki
+belgede kullanma — bu bir veri setidir ve çeşitlilik ölçülecektir.
+
+Bir kamu kurumunda resmî yazışma metinlerini kaleme alan görevlisin.
+Aşağıdaki şartnameye uygun belgenin SADECE METİN GÖVDESİNİ yaz.
+
+YAZMAYACAKLARIN:
+- Başlık bloğu (T.C., kurum adı, birim adı)
+- Sayı, Tarih, Konu satırları
+- "İlgi :" başlıklı satırın kendisi
+- Muhatap satırı, hitap satırı (DAĞITIM YERLERİNE gibi)
+- İmza, ad soyad, unvan
+- Ek listesi, dağıtım listesi
+- Açıklama, giriş cümlesi, "İşte metin:" gibi ifadeler
+- Kalın yazı, madde işareti, başlık gibi biçimlendirmeler
+
+Bunların hepsi şablon tarafından ayrıca eklenecektir.
+
+EN ÖNEMLİ KURAL — BİLGİ UYDURMA:
+Yalnızca şartnamenin "Somut bilgiler" bölümünde verilen bilgileri
+kullan. Orada geçmeyen hiçbir olgu, kurum adı, birim adı, belge adı,
+işlem adı, tarih, sayı, görüş veya hukuki sonuç yazma.
+Metni uzatmak için bilgi ekleme.
+
+Uydurma sayılan örnekler:
+- "...hukuki süreçler tamamlanmış olacaktır."  (böyle bir sonuç yok)
+- "...sakıncalı olduğu değerlendirilmektedir." (böyle bir görüş yok)
+- "Yapılan toplantıda..."                      (böyle bir olay yok)
+- "Mevzuat gereği..."                          (böyle bir dayanak yok)
+
+EK VE İLGİ:
+- "Ek: yok" ise metinde ek, belge, evrak, liste veya "ekte/ilişikte"
+  ifadelerinden HİÇ bahsetme.
+- "Ek: var" ise eke metin içinde atıf yap ("...listesi ekte
+  sunulmuştur"). Ek listesini yazma.
+- "İlgi: var" ise metnin ilk cümlesi ilgiye atıfla başlasın
+  ("İlgi'de kayıtlı..."). "İlgi :" satırını yazma.
+- "İlgi: yok" ise ilgiden hiç bahsetme.
+
+KİP — ŞAHSİLEŞTİRME YASAĞI:
+Fiiller genelleştirilmiş kipte olmalı. Birinci tekil ("düşünüyorum",
+"inceledim") veya birinci çoğul ("düşünmekteyiz", "inceledik",
+"görüyoruz") şahıs kullanma.
+  Yanlış: değerlendirdik, inceledik, karar verdik, düşünmekteyiz
+  Doğru : değerlendirilmiştir, incelenmiştir, karar verilmiştir,
+          tespit edilmiştir
+Bu kuralın TEK İSTİSNASI kapanış cümlesidir (aşağıya bak).
+
+KURUMLARA ATIF:
+- Kendi kurumundan söz ederken yalnızca: "Müdürlüğümüz",
+  "Başkanlığımız", "Bakanlığımız", "Kurumumuz", "Rektörlüğümüz".
+- Muhatap kurumdan söz ederken yalnızca: "Müdürlüğünüz",
+  "Başkanlığınız", "Bakanlığınız", "Rektörlüğünüz".
+- Gönderenin veya muhatabın adının HİÇBİR PARÇASINI yazma. Kurum
+  adının içinde geçen il/ilçe adları da buna dahildir.
+  Yanlış: "Ankara İl Millî Eğitim Müdürlüğünde..."
+  Doğru : "Müdürlüğümüzce..."
+- Kurum adının parçası olmayan coğrafi adlar serbesttir
+  ("il genelinde", "ilçe sınırlarında" gibi).
+
+TALEBİ TEK YERDE İFADE ET:
+Talep, istek veya bildiri yalnızca kapanış cümlesinde yer alır.
+Metnin ortasında "istenmektedir", "talep edilmektedir", "gerekmektedir"
+gibi ikinci bir talep cümlesi yazma.
+
+KAPANIŞ CÜMLESİ:
+Şartnamedeki "Beklenen kapanış" satırına göre seçilir.
+
+  ARZ için kullanılabilecek kapanışlar:
+    "Gereğini arz ederim."
+    "Konunun değerlendirilmesi hususunda gereğini arz ederim."
+    "Bilgilerinize arz ederim."
+    "Bilgilerini ve gereğini arz ederim."
+
+  RİCA için kullanılabilecek kapanışlar:
+    "Gereğini rica ederim."
+    "Konunun ilgililere duyurulması hususunda gereğini rica ederim."
+    "Bilgilerinizi rica ederim."
+    "Bilgilerini ve gereğini rica ederim."
+
+  KARMA (dağıtımlı yazı) için:
+    "Bilgileri ve gereğini arz/rica ederim."
+    "Gereğini arz ve rica ederim."
+
+  SUNULUR (muhatap gerçek kişi) için:
+    "Bilgilerinize sunulur."
+
+Kapanış fiili tam olarak "arz ederim" veya "rica ederim" biçimindedir.
+Aşağıdakiler YANLIŞTIR, hiçbirini yazma:
+    arz olunur, rica olunur, arz edilir, rica edilir, arz ederiz,
+    arz etmekteyiz, arz olunmaktadır, önem arz etmektedir
+
+Kapanış cümlesi normal bir cümledir: büyük harfle başlar, nokta ile
+biter. Başına üç nokta (...) veya başka bir işaret koyma.
+
+Kapanış, son paragrafın SON CÜMLESİDİR. Ayrı satıra veya ayrı
+paragrafa alma.
+
+BİÇİM:
+- Şartnamedeki paragraf yapısına birebir uy: her paragrafta belirtilen
+  sayıda cümle olsun.
+- Paragrafları aralarında BOŞ SATIR bırakarak ayır.
+
+
+### BELGE 141
+
+================================================================
+DİKKAT — BU BELGE BİR KURUM YAZISI DEĞİL, ÖĞRENCİ DİLEKÇESİDİR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" GEÇERSİZ. Dilekçeyi kayıtlı bir öğrenci kendi ağzından
+    yazar; birinci tekil şahıs KULLANILIR.
+    Doğru: "talep ediyorum", "tarafıma verilmesini", "ekte sunuyorum"
+
+  - "KURUMLARA ATIF" bölümünün ilk maddesi GEÇERSİZ. Yazan taraf bir
+    kamu kurumu değildir; "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler
+    KULLANILMAZ. Muhatap kuruma "Müdürlüğünüz", "Başkanlığınız",
+    "Rektörlüğünüz" denebilir.
+
+  - "TALEBİ TEK YERDE İFADE ET" GEÇERLİDİR, aynen uygulanır.
+  - "BİLGİ UYDURMA" yasağı GEÇERLİDİR, aynen uygulanır.
+  - "KAPANIŞ CÜMLESİ" kuralları GEÇERLİDİR.
+
+  - Öğrenci kendini tanıtır: bölüm, sınıf ve öğrenci numarası metinde
+    geçmelidir ("... Bölümü {n}. sınıf öğrencisiyim" gibi).
+================================================================
+
+
+--- SARTNAME ---
+Belge türü        : öğrenci dilekçesi
+Gönderen          : Şerife ÇETIN (Tıp Fakültesi, 4. sınıf, öğrenci no 2023951528)
+Muhatap           : Gazi Üniversitesi (Öğrenci İşleri Daire Başkanlığı)
+Hiyerarşi yönü    : GERÇEK KİŞİ — yazan kayıtlı bir öğrencidir
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : yok
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Talep           : İngilizce Transkript
+  - Kullanım amacı  : resmî işlemlerde kullanılmak üzere
+  - Başvuru şekli   : şahsen başvuru yapılmıştır
+  - Bildirim tercihi: posta yoluyla adresime
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — talebin konusu, dayanağı ve gerekçesi (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî ve saygılı; öğrenci ağzından, ama samimi değil
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin yazan kişinin ağzından mı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+6. Kapanış tam olarak "arz ederim." mi
+7. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 1 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 142
+
+--- SARTNAME ---
+Belge türü        : cevap yazısı (kurumdan kuruma)
+Gönderen          : Gazi Eğitim Fakültesi Dekanlığı
+Muhatap           : Genel Sekreterlik
+Hiyerarşi yönü    : AYNI DÜZEY — aralarında hiyerarşi yoktur
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : var
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Talep           : Genelge Görüşü
+  - Talebin sonucu  : olumlu, talep karşılandı
+  - Dayanak         : ilgide kayıtlı yazı
+  - Gönderilen      : istenen kayıtlar tarafımızca derlenmiştir
+  - Ek bilgi        : süreç Müdürlüğümüzce takip edilmektedir
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — talebin değerlendirilmesi ve sonucu
+  2. paragraf — 3 cümle — teslim/gönderim koşulları (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "arz ederim." mi
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İlk cümle ilgiye atıfla mı başlıyor
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 143
+
+--- SARTNAME ---
+Belge türü        : cevap yazısı (kurumdan kuruma)
+Gönderen          : Sağlık Kültür ve Spor Daire Başkanlığı
+Muhatap           : Fen Bilimleri Enstitüsü Müdürlüğü
+Hiyerarşi yönü    : AYNI DÜZEY — aralarında hiyerarşi yoktur
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : var
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Talep           : Nakil İşlemi
+  - Talebin sonucu  : olumlu, talep karşılandı
+  - Dayanak         : ilgide kayıtlı yazı
+  - Gönderilen      : istenen kayıtlar tarafımızca derlenmiştir
+  - Ek bilgi        : konuyla ilgili irtibat kişisi Müdürlüğümüzde
+                      görevlidir
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — talebin değerlendirilmesi ve sonucu
+  2. paragraf — 3 cümle — teslim/gönderim koşulları (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "arz ederim." mi
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İlk cümle ilgiye atıfla mı başlıyor
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 144
+
+================================================================
+DİKKAT — BU BELGE BİR KURUM YAZISI DEĞİL, VATANDAŞ DİLEKÇESİDİR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" GEÇERSİZ. Dilekçeyi bir vatandaş kendi ağzından
+    yazar; birinci tekil şahıs KULLANILIR.
+    Doğru: "talep ediyorum", "tarafıma verilmesini", "ekte sunuyorum"
+
+  - "KURUMLARA ATIF" bölümünün ilk maddesi GEÇERSİZ. Yazan taraf bir
+    kamu kurumu değildir; "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler
+    KULLANILMAZ. Muhatap kuruma "Müdürlüğünüz", "Başkanlığınız",
+    "Rektörlüğünüz" denebilir.
+
+  - "TALEBİ TEK YERDE İFADE ET" GEÇERLİDİR, aynen uygulanır.
+  - "BİLGİ UYDURMA" yasağı GEÇERLİDİR, aynen uygulanır.
+  - "KAPANIŞ CÜMLESİ" kuralları GEÇERLİDİR.
+================================================================
+
+
+--- SARTNAME ---
+Belge türü        : vatandaş dilekçesi
+Gönderen          : Merve SARI (vatandaş)
+Muhatap           : Yenimahalle Kaymakamlığı (İlçe Millî Eğitim Müdürlüğü)
+Hiyerarşi yönü    : GERÇEK KİŞİ — yazan bir vatandaştır
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : yok
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Talep           : Bağış Makbuzu
+  - Gerekçe         : sürecin tamamlanabilmesi için
+  - Başvuru şekli   : konu daha önce sözlü olarak da bildirilmiştir
+  - Bildirim tercihi: e-Devlet üzerinden
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — talebin konusu, dayanağı ve gerekçesi (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî ve saygılı, ama hukuk dili taklidi yapılmaz;
+                  ağdalı bürokratik kalıplar kullanılmaz
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin yazan kişinin ağzından mı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+6. Kapanış tam olarak "arz ederim." mi
+7. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 1 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 145
+
+================================================================
+DİKKAT — BU BELGE BİR KURUM YAZISI DEĞİL, ÖĞRENCİ DİLEKÇESİDİR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" GEÇERSİZ. Dilekçeyi kayıtlı bir öğrenci kendi ağzından
+    yazar; birinci tekil şahıs KULLANILIR.
+    Doğru: "talep ediyorum", "tarafıma verilmesini", "ekte sunuyorum"
+
+  - "KURUMLARA ATIF" bölümünün ilk maddesi GEÇERSİZ. Yazan taraf bir
+    kamu kurumu değildir; "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler
+    KULLANILMAZ. Muhatap kuruma "Müdürlüğünüz", "Başkanlığınız",
+    "Rektörlüğünüz" denebilir.
+
+  - "TALEBİ TEK YERDE İFADE ET" GEÇERLİDİR, aynen uygulanır.
+  - "BİLGİ UYDURMA" yasağı GEÇERLİDİR, aynen uygulanır.
+  - "KAPANIŞ CÜMLESİ" kuralları GEÇERLİDİR.
+
+  - Öğrenci kendini tanıtır: bölüm, sınıf ve öğrenci numarası metinde
+    geçmelidir ("... Bölümü {n}. sınıf öğrencisiyim" gibi).
+================================================================
+
+
+--- SARTNAME ---
+Belge türü        : şikâyet dilekçesi
+Gönderen          : Zeynep TURAN (Hukuk Fakültesi, 2. sınıf, öğrenci no 2019201121)
+Muhatap           : Gazi Üniversitesi (Sağlık Kültür ve Spor Daire Başkanlığı)
+Hiyerarşi yönü    : GERÇEK KİŞİ — yazan kayıtlı bir öğrencidir
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : yok
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Şikâyet konusu  : Topluluk Danışmanı Görevlendirmesi
+  - Sorun           : topluluk kurma başvurumuz bir dönemdir
+                      sonuçlandırılmadı
+  - Süre            : yaklaşık iki aydır
+  - Önceki başvuru  : durum daha önce telefonla bildirilmiş, sonuç
+                      alınamamıştır
+  - Talep           : sorunun giderilmesi
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — sorunun tanımı ve süresi
+  2. paragraf — 2 cümle — önceki başvuru ve talep (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî ve saygılı; öğrenci ağzından, ama samimi değil
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin yazan kişinin ağzından mı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+6. Kapanış tam olarak "arz ederim." mi
+7. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 146
+
+--- SARTNAME ---
+Belge türü        : tekit yazısı (hatırlatma)
+Gönderen          : İçişleri Bakanlığı
+Muhatap           : dağıtım yerleri (çok muhataplı yazı)
+Hiyerarşi yönü    : ALT — muhatap, gönderenin altındadır
+Beklenen kapanış  : KARMA — metin "arz/rica ederim." ile bitecek (dağıtımlı yazı)
+İlgi              : var
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Dayanak         : ilgide kayıtlı yazı
+  - Durum           : talep edilen bilgi henüz gönderilmemiştir
+  - Talep           : ivedilikle gönderilmesi
+  - Süre            : en geç bir hafta içinde
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — ilgiye atıf ve mevcut durum
+  2. paragraf — 2 cümle — talep ve süre (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "arz/rica ederim." mi
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İlk cümle ilgiye atıfla mı başlıyor
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 147
+
+================================================================
+DİKKAT — BU BELGE BİR KURUM YAZISI DEĞİL, VATANDAŞ DİLEKÇESİDİR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" GEÇERSİZ. Dilekçeyi bir vatandaş kendi ağzından
+    yazar; birinci tekil şahıs KULLANILIR.
+    Doğru: "talep ediyorum", "tarafıma verilmesini", "ekte sunuyorum"
+
+  - "KURUMLARA ATIF" bölümünün ilk maddesi GEÇERSİZ. Yazan taraf bir
+    kamu kurumu değildir; "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler
+    KULLANILMAZ. Muhatap kuruma "Müdürlüğünüz", "Başkanlığınız",
+    "Rektörlüğünüz" denebilir.
+
+  - "TALEBİ TEK YERDE İFADE ET" GEÇERLİDİR, aynen uygulanır.
+  - "BİLGİ UYDURMA" yasağı GEÇERLİDİR, aynen uygulanır.
+  - "KAPANIŞ CÜMLESİ" kuralları GEÇERLİDİR.
+================================================================
+
+
+--- SARTNAME ---
+Belge türü        : itiraz dilekçesi
+Gönderen          : Osman ŞAHIN (vatandaş)
+Muhatap           : Ankara İl Millî Eğitim Müdürlüğü (Temel Eğitim Şube Müdürlüğü)
+Hiyerarşi yönü    : GERÇEK KİŞİ — yazan bir vatandaştır
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : var
+Ek                : var (Öğrenci belgesi)
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - İtiraz konusu   : Zorunlu Nakil
+  - Önceki karar    : talep olumsuz sonuçlandırılmıştır
+  - İtiraz gerekçesi: benzer başvurular olumlu sonuçlandırılmıştır
+  - Talep           : kararın yeniden değerlendirilmesi
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — önceki karar ve itiraz gerekçesi
+  2. paragraf — 2 cümle — talep (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî ve saygılı, ama hukuk dili taklidi yapılmaz;
+                  ağdalı bürokratik kalıplar kullanılmaz
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin yazan kişinin ağzından mı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+6. Kapanış tam olarak "arz ederim." mi
+7. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+8. İlk cümle ilgiye atıfla mı başlıyor
+9. Eke metin içinde atıf yapıldı mı
+10. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 148
+
+================================================================
+DİKKAT — BU BELGE BİR KAMU KURUMU YAZISI DEĞİL, ÖZEL ŞİRKET YAZISIDIR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" GEÇERSİZ. Yazıyı bir şirket yetkilisi kendi ağzından
+    yazar; birinci tekil şahıs KULLANILIR.
+    Doğru: "talep ediyorum", "tarafıma verilmesini", "ekte sunuyorum"
+
+  - "KURUMLARA ATIF" bölümünün ilk maddesi GEÇERSİZ. Yazan taraf bir
+    kamu kurumu değildir; "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler
+    KULLANILMAZ. Muhatap kuruma "Müdürlüğünüz", "Başkanlığınız",
+    "Rektörlüğünüz" denebilir.
+
+  - "TALEBİ TEK YERDE İFADE ET" GEÇERLİDİR, aynen uygulanır.
+  - "BİLGİ UYDURMA" yasağı GEÇERLİDİR, aynen uygulanır.
+  - "KAPANIŞ CÜMLESİ" kuralları GEÇERLİDİR.
+
+  - Şirket kendinden "Şirketimiz" diye söz edebilir.
+  - Birinci ÇOĞUL şahıs da serbesttir ("talep ediyoruz").
+================================================================
+
+
+--- SARTNAME ---
+Belge türü        : bilgi edinme başvurusu
+Gönderen          : Başkent Ticaret A.Ş. (özel hukuk tüzel kişisi)
+Muhatap           : Ankara İl Millî Eğitim Müdürlüğü (Ortaöğretim Şube Müdürlüğü)
+Hiyerarşi yönü    : ÖZEL HUKUK TÜZEL KİŞİSİ — yazan bir şirkettir
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : yok
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Dayanak         : 4982 sayılı Bilgi Edinme Hakkı Kanunu
+  - Talep           : Savunma işlemlerine ilişkin güncel bilgilerin
+                      paylaşılması
+  - İstenen ayrıntı : işlem sayısı ve ortalama sonuçlanma süresi
+  - Bildirim yolu   : Kurumunuz kayıt bürosundan elden
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — kanuni dayanak ve talep
+  2. paragraf — 2 cümle — istenen ayrıntı ve bildirim yolu (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal; şirket ağzından
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin yazan kişinin ağzından mı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+6. Kapanış tam olarak "arz ederim." mi
+7. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 149
+
+--- SARTNAME ---
+Belge türü        : bilgilendirme yazısı (kurumdan kuruma)
+Gönderen          : Çevre, Şehircilik ve İklim Değişikliği Bakanlığı
+Muhatap           : Yenimahalle Belediye Başkanlığı (Yapı Kontrol Müdürlüğü)
+Hiyerarşi yönü    : ALT — muhatap, gönderenin altındadır
+Beklenen kapanış  : RİCA — metin "rica ederim." ile bitecek
+İlgi              : var
+Ek                : var (İtiraz dilekçesi)
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Konu            : Para Cezası Tahsilatı konusunda yeni bir uygulama
+                      yürürlüğe girmiştir
+  - Kaynak          : karar Makam onayı ile yürürlüğe girmiştir
+  - Kapsam          : bağlı tüm birimler uygulamaya tabidir
+  - İstenen 1       : uygulamanın ilgililere duyurulması
+  - İstenen 2       : sonuçların içinde bulunulan yıl sonunda bildirilmesi
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — uygulama, kaynağı ve kapsamı
+  2. paragraf — 2 cümle — muhataptan istenenler (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "rica ederim." mi
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İlk cümle ilgiye atıfla mı başlıyor
+8. Eke metin içinde atıf yapıldı mı
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 150
+
+================================================================
+DİKKAT — BU BELGE BİR KAMU KURUMU YAZISI DEĞİL, ÖZEL ŞİRKET YAZISIDIR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" GEÇERSİZ. Yazıyı bir şirket yetkilisi kendi ağzından
+    yazar; birinci tekil şahıs KULLANILIR.
+    Doğru: "talep ediyorum", "tarafıma verilmesini", "ekte sunuyorum"
+
+  - "KURUMLARA ATIF" bölümünün ilk maddesi GEÇERSİZ. Yazan taraf bir
+    kamu kurumu değildir; "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler
+    KULLANILMAZ. Muhatap kuruma "Müdürlüğünüz", "Başkanlığınız",
+    "Rektörlüğünüz" denebilir.
+
+  - "TALEBİ TEK YERDE İFADE ET" GEÇERLİDİR, aynen uygulanır.
+  - "BİLGİ UYDURMA" yasağı GEÇERLİDİR, aynen uygulanır.
+  - "KAPANIŞ CÜMLESİ" kuralları GEÇERLİDİR.
+
+  - Şirket kendinden "Şirketimiz" diye söz edebilir.
+  - Birinci ÇOĞUL şahıs da serbesttir ("talep ediyoruz").
+================================================================
+
+
+--- SARTNAME ---
+Belge türü        : bilgi edinme başvurusu
+Gönderen          : Atlas Hizmetleri Ltd. Şti. (özel hukuk tüzel kişisi)
+Muhatap           : Yenimahalle Belediye Başkanlığı (Kültür, Sanat ve Sosyal İşler Müdürlüğü)
+Hiyerarşi yönü    : ÖZEL HUKUK TÜZEL KİŞİSİ — yazan bir şirkettir
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : yok
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Dayanak         : 4982 sayılı Bilgi Edinme Hakkı Kanunu
+  - Talep           : Rampa Yapılması işlemlerine ilişkin güncel
+                      bilgilerin paylaşılması
+  - İstenen ayrıntı : konuya ilişkin yürürlükteki uygulama esasları
+  - Bildirim yolu   : Kurumunuz kayıt bürosundan elden
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — kanuni dayanak ve talep
+  2. paragraf — 2 cümle — istenen ayrıntı ve bildirim yolu (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal; şirket ağzından
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin yazan kişinin ağzından mı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+6. Kapanış tam olarak "arz ederim." mi
+7. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 151
+
+================================================================
+DİKKAT — BU BELGE BİR KURUM YAZISI DEĞİL, VATANDAŞ DİLEKÇESİDİR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" GEÇERSİZ. Dilekçeyi bir vatandaş kendi ağzından
+    yazar; birinci tekil şahıs KULLANILIR.
+    Doğru: "talep ediyorum", "tarafıma verilmesini", "ekte sunuyorum"
+
+  - "KURUMLARA ATIF" bölümünün ilk maddesi GEÇERSİZ. Yazan taraf bir
+    kamu kurumu değildir; "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler
+    KULLANILMAZ. Muhatap kuruma "Müdürlüğünüz", "Başkanlığınız",
+    "Rektörlüğünüz" denebilir.
+
+  - "TALEBİ TEK YERDE İFADE ET" GEÇERLİDİR, aynen uygulanır.
+  - "BİLGİ UYDURMA" yasağı GEÇERLİDİR, aynen uygulanır.
+  - "KAPANIŞ CÜMLESİ" kuralları GEÇERLİDİR.
+================================================================
+
+
+--- SARTNAME ---
+Belge türü        : vatandaş dilekçesi
+Gönderen          : Osman ÇAKIR (vatandaş)
+Muhatap           : Yenimahalle Belediye Başkanlığı (Gelirler Müdürlüğü)
+Hiyerarşi yönü    : GERÇEK KİŞİ — yazan bir vatandaştır
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : yok
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Talep           : Emlak Vergisi Muafiyet
+  - Taşınmaz        : 84389 ada, 8 parsel
+  - Gerekçe         : sürecin tamamlanabilmesi için
+  - Başvuru şekli   : şahsen başvuru yapılmıştır
+  - Bildirim tercihi: Kurumunuz kayıt bürosundan elden
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — talebin konusu, dayanağı ve gerekçesi (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî ve saygılı, ama hukuk dili taklidi yapılmaz;
+                  ağdalı bürokratik kalıplar kullanılmaz
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin yazan kişinin ağzından mı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+6. Kapanış tam olarak "arz ederim." mi
+7. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 1 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 152
+
+--- SARTNAME ---
+Belge türü        : bilgilendirme yazısı (kurumdan kuruma)
+Gönderen          : İçişleri Bakanlığı
+Muhatap           : Yenimahalle Belediye Başkanlığı
+Hiyerarşi yönü    : ALT — muhatap, gönderenin altındadır
+Beklenen kapanış  : RİCA — metin "rica ederim." ile bitecek
+İlgi              : yok
+Ek                : var (Uygulama esasları)
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Konu            : Plan Hedeflerinin Güncellenmesi konusunda yeni bir
+                      uygulama yürürlüğe girmiştir
+  - Kaynak          : karar Makam onayı ile yürürlüğe girmiştir
+  - Kapsam          : bağlı tüm birimler uygulamaya tabidir
+  - İstenen 1       : uygulamanın ilgililere duyurulması
+  - İstenen 2       : sonuçların mali yıl sonunda bildirilmesi
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — uygulama, kaynağı ve kapsamı
+  2. paragraf — 2 cümle — muhataptan istenenler (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "rica ederim." mi
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. Eke metin içinde atıf yapıldı mı
+8. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 153
+
+--- SARTNAME ---
+Belge türü        : üst yazı (ek gönderimi)
+Gönderen          : Ankara Valiliği
+Muhatap           : Ankara İl Millî Eğitim Müdürlüğü
+Hiyerarşi yönü    : ALT — muhatap, gönderenin altındadır
+Beklenen kapanış  : RİCA — metin "rica ederim." ile bitecek
+İlgi              : var
+Ek                : var (Liste ve takvim)
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Dayanak         : ilgide kayıtlı yazı
+  - Dönem           : içinde bulunulan öğretim yılı
+  - Sayı            : 47 kayıt
+  - Ek 1            : Bilgi Edinme, Talep ve Şikayetler listesi
+  - Ek 2            : uygulama takvimi
+  - İstenen         : listenin ilgili birimlere dağıtılması
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — dayanak ve dönem
+  2. paragraf — 2 cümle — gönderilen eklerin bildirilmesi
+  3. paragraf — 2 cümle — muhataptan istenenler (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "rica ederim." mi
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İlk cümle ilgiye atıfla mı başlıyor
+8. Eke metin içinde atıf yapıldı mı
+9. 3 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 154
+
+--- SARTNAME ---
+Belge türü        : cevap yazısı (kurumdan kuruma)
+Gönderen          : Yenimahalle İlçe Millî Eğitim Müdürlüğü
+Muhatap           : Özel Eğitim ve Rehberlik Şube Müdürlüğü
+Hiyerarşi yönü    : ÜST — muhatap, gönderenin üstündedir
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : var
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Talep           : BEP Hazırlanması
+  - Talebin sonucu  : olumlu, talep karşılandı
+  - Dayanak         : ilgide kayıtlı yazı
+  - Gönderilen      : istenen kayıtlar tarafımızca derlenmiştir
+  - Ek bilgi        : süreç Müdürlüğümüzce takip edilmektedir
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — talebin değerlendirilmesi ve sonucu
+  2. paragraf — 3 cümle — teslim/gönderim koşulları (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "arz ederim." mi
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İlk cümle ilgiye atıfla mı başlıyor
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 155
+
+================================================================
+DİKKAT — BU BELGE BİR KURUM YAZISI DEĞİL, ÖĞRENCİ DİLEKÇESİDİR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" GEÇERSİZ. Dilekçeyi kayıtlı bir öğrenci kendi ağzından
+    yazar; birinci tekil şahıs KULLANILIR.
+    Doğru: "talep ediyorum", "tarafıma verilmesini", "ekte sunuyorum"
+
+  - "KURUMLARA ATIF" bölümünün ilk maddesi GEÇERSİZ. Yazan taraf bir
+    kamu kurumu değildir; "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler
+    KULLANILMAZ. Muhatap kuruma "Müdürlüğünüz", "Başkanlığınız",
+    "Rektörlüğünüz" denebilir.
+
+  - "TALEBİ TEK YERDE İFADE ET" GEÇERLİDİR, aynen uygulanır.
+  - "BİLGİ UYDURMA" yasağı GEÇERLİDİR, aynen uygulanır.
+  - "KAPANIŞ CÜMLESİ" kuralları GEÇERLİDİR.
+
+  - Öğrenci kendini tanıtır: bölüm, sınıf ve öğrenci numarası metinde
+    geçmelidir ("... Bölümü {n}. sınıf öğrencisiyim" gibi).
+================================================================
+
+
+--- SARTNAME ---
+Belge türü        : itiraz dilekçesi
+Gönderen          : Hatice AKSOY (Hukuk Fakültesi, 4. sınıf, öğrenci no 2025705092)
+Muhatap           : Gazi Üniversitesi (Öğrenci İşleri Daire Başkanlığı)
+Hiyerarşi yönü    : GERÇEK KİŞİ — yazan kayıtlı bir öğrencidir
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : yok
+Ek                : var (Transkript)
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - İtiraz konusu   : Katkı Payı Muafiyet
+  - Önceki karar    : talep olumsuz sonuçlandırılmıştır
+  - İtiraz gerekçesi: benzer başvurular olumlu sonuçlandırılmıştır
+  - Talep           : kararın yeniden değerlendirilmesi
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — önceki karar ve itiraz gerekçesi
+  2. paragraf — 2 cümle — talep (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî ve saygılı; öğrenci ağzından, ama samimi değil
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin yazan kişinin ağzından mı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+6. Kapanış tam olarak "arz ederim." mi
+7. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+8. Eke metin içinde atıf yapıldı mı
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 156
+
+================================================================
+DİKKAT — BU BELGE BİR KURUM YAZISI DEĞİL, VATANDAŞ DİLEKÇESİDİR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" GEÇERSİZ. Dilekçeyi bir vatandaş kendi ağzından
+    yazar; birinci tekil şahıs KULLANILIR.
+    Doğru: "talep ediyorum", "tarafıma verilmesini", "ekte sunuyorum"
+
+  - "KURUMLARA ATIF" bölümünün ilk maddesi GEÇERSİZ. Yazan taraf bir
+    kamu kurumu değildir; "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler
+    KULLANILMAZ. Muhatap kuruma "Müdürlüğünüz", "Başkanlığınız",
+    "Rektörlüğünüz" denebilir.
+
+  - "TALEBİ TEK YERDE İFADE ET" GEÇERLİDİR, aynen uygulanır.
+  - "BİLGİ UYDURMA" yasağı GEÇERLİDİR, aynen uygulanır.
+  - "KAPANIŞ CÜMLESİ" kuralları GEÇERLİDİR.
+================================================================
+
+
+--- SARTNAME ---
+Belge türü        : şikâyet dilekçesi
+Gönderen          : Esra ÇETIN (vatandaş)
+Muhatap           : Yenimahalle Belediye Başkanlığı (Ruhsat ve Denetim Müdürlüğü)
+Hiyerarşi yönü    : GERÇEK KİŞİ — yazan bir vatandaştır
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : yok
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Şikâyet konusu  : Yangın Güvenliği Raporu
+  - Sorun           : uygunluk raporu talebim geciktiği için ruhsat sürem
+                      doldu
+  - Süre            : bir aydan uzun süredir
+  - Önceki başvuru  : durum daha önce telefonla bildirilmiş, sonuç
+                      alınamamıştır
+  - Talep           : sorunun giderilmesi
+  - Yer             : İvedik Mahallesi
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — sorunun tanımı ve süresi
+  2. paragraf — 2 cümle — önceki başvuru ve talep (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî ve saygılı, ama hukuk dili taklidi yapılmaz;
+                  ağdalı bürokratik kalıplar kullanılmaz
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin yazan kişinin ağzından mı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+6. Kapanış tam olarak "arz ederim." mi
+7. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 157
+
+--- SARTNAME ---
+Belge türü        : görüş talebi yazısı
+Gönderen          : Gazi Üniversitesi Rektörlüğü
+Muhatap           : Ankara İl Millî Eğitim Müdürlüğü
+Hiyerarşi yönü    : AYNI DÜZEY — aralarında hiyerarşi yoktur
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : var
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Konu            : Genelgeler
+  - Tereddüt        : iki farklı düzenleme arasında tereddüt oluşmuştur
+  - Talep           : konu hakkında görüş bildirilmesi
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — konu ve oluşan tereddüt
+  2. paragraf — 2 cümle — talep (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "arz ederim." mi
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İlk cümle ilgiye atıfla mı başlıyor
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 158
+
+--- SARTNAME ---
+Belge türü        : talep yazısı (kurumdan kuruma)
+Gönderen          : Gazi Üniversitesi Rektörlüğü
+Muhatap           : Ankara İl Millî Eğitim Müdürlüğü
+Hiyerarşi yönü    : AYNI DÜZEY — aralarında hiyerarşi yoktur
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : var
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Konu            : Uygulama Öğrencisi Yerleştirme
+  - Ortak iş        : Uygulama Öğrencisi Yerleştirme konusunda iki kurumun
+                      ortak yürüttüğü işlem
+  - Talep           : Uygulama Öğrencisi Yerleştirme kapsamında öğrenci
+                      kabul edilmesi
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — ortak işin tanımı
+  2. paragraf — 2 cümle — talep (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "arz ederim." mi
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İlk cümle ilgiye atıfla mı başlıyor
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 159
+
+================================================================
+DİKKAT — BU BELGE BİR KAMU KURUMU YAZISI DEĞİL, ÖZEL ŞİRKET YAZISIDIR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" GEÇERSİZ. Yazıyı bir şirket yetkilisi kendi ağzından
+    yazar; birinci tekil şahıs KULLANILIR.
+    Doğru: "talep ediyorum", "tarafıma verilmesini", "ekte sunuyorum"
+
+  - "KURUMLARA ATIF" bölümünün ilk maddesi GEÇERSİZ. Yazan taraf bir
+    kamu kurumu değildir; "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler
+    KULLANILMAZ. Muhatap kuruma "Müdürlüğünüz", "Başkanlığınız",
+    "Rektörlüğünüz" denebilir.
+
+  - "TALEBİ TEK YERDE İFADE ET" GEÇERLİDİR, aynen uygulanır.
+  - "BİLGİ UYDURMA" yasağı GEÇERLİDİR, aynen uygulanır.
+  - "KAPANIŞ CÜMLESİ" kuralları GEÇERLİDİR.
+
+  - Şirket kendinden "Şirketimiz" diye söz edebilir.
+  - Birinci ÇOĞUL şahıs da serbesttir ("talep ediyoruz").
+================================================================
+
+
+--- SARTNAME ---
+Belge türü        : bilgi edinme başvurusu
+Gönderen          : Ege Mimarlık Ltd. Şti. (özel hukuk tüzel kişisi)
+Muhatap           : Yenimahalle Belediye Başkanlığı (İmar ve Şehircilik Müdürlüğü)
+Hiyerarşi yönü    : ÖZEL HUKUK TÜZEL KİŞİSİ — yazan bir şirkettir
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : yok
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Dayanak         : 4982 sayılı Bilgi Edinme Hakkı Kanunu
+  - Talep           : Kapı Numarası Verilmesi işlemlerine ilişkin güncel
+                      bilgilerin paylaşılması
+  - İstenen ayrıntı : konuya ilişkin yürürlükteki uygulama esasları
+  - Bildirim yolu   : Kurumunuz kayıt bürosundan elden
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — kanuni dayanak ve talep
+  2. paragraf — 2 cümle — istenen ayrıntı ve bildirim yolu (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal; şirket ağzından
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin yazan kişinin ağzından mı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+6. Kapanış tam olarak "arz ederim." mi
+7. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 2 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+
+────────────────────────────────────────────────────────────────
+
+### BELGE 160
+
+================================================================
+DİKKAT — BU BELGE BİR KURUM YAZISI DEĞİL, VATANDAŞ DİLEKÇESİDİR
+================================================================
+Yukarıdaki talimatın şu maddeleri BU BELGE İÇİN GEÇERSİZDİR:
+
+  - "KİP — ŞAHSİLEŞTİRME YASAĞI" GEÇERSİZ. Dilekçeyi bir vatandaş kendi ağzından
+    yazar; birinci tekil şahıs KULLANILIR.
+    Doğru: "talep ediyorum", "tarafıma verilmesini", "ekte sunuyorum"
+
+  - "KURUMLARA ATIF" bölümünün ilk maddesi GEÇERSİZ. Yazan taraf bir
+    kamu kurumu değildir; "Müdürlüğümüz", "Başkanlığımız" gibi ifadeler
+    KULLANILMAZ. Muhatap kuruma "Müdürlüğünüz", "Başkanlığınız",
+    "Rektörlüğünüz" denebilir.
+
+  - "TALEBİ TEK YERDE İFADE ET" GEÇERLİDİR, aynen uygulanır.
+  - "BİLGİ UYDURMA" yasağı GEÇERLİDİR, aynen uygulanır.
+  - "KAPANIŞ CÜMLESİ" kuralları GEÇERLİDİR.
+================================================================
+
+
+--- SARTNAME ---
+Belge türü        : vatandaş dilekçesi
+Gönderen          : Fatih DUMAN (vatandaş)
+Muhatap           : Yenimahalle Belediye Başkanlığı (Kültür, Sanat ve Sosyal İşler Müdürlüğü)
+Hiyerarşi yönü    : GERÇEK KİŞİ — yazan bir vatandaştır
+Beklenen kapanış  : ARZ — metin "arz ederim." ile bitecek
+İlgi              : yok
+Ek                : yok
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Talep           : Engelli Hizmetlerinden Yararlanma
+  - Gerekçe         : sürecin tamamlanabilmesi için
+  - Başvuru şekli   : başvuru elektronik ortamda da iletilmiştir
+  - Bildirim tercihi: elektronik posta ile
+
+Paragraf yapısı :
+  1. paragraf — 3 cümle — talebin konusu, dayanağı ve gerekçesi (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî ve saygılı, ama hukuk dili taklidi yapılmaz;
+                  ağdalı bürokratik kalıplar kullanılmaz
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. Metin yazan kişinin ağzından mı — birinci tekil şahıs olmalı
+4. "Müdürlüğümüz" gibi kurum ifadesi var mı — OLMAMALI
+5. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+6. Kapanış tam olarak "arz ederim." mi
+7. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+8. Metinde "ek", "ekte", "ilişikte" geçiyor mu — GEÇMEMELİ
+9. 1 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.
+════════════════════════════════════════════════════════════════
+Yukarıdaki 20 belgenin gövdesini yaz. Her birini "### BELGE NNN"
+ayracıyla başlat. Şartnamelerin sırasını koru.
+════════════════════════════════════════════════════════════════

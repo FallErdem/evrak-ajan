@@ -31,18 +31,18 @@
     "ad": "Eğitim Fakülteleri İle İlişkiler",
     "saklama_suresi": "15"
   },
-  "konu": "Uygulama Okulunun Belirlenmesi",
-  "sayi": "E-65859045-355.02-1029087",
-  "tarih": "06.05.2026",
+  "konu": "Uygulama Öğretmeni Görevlendirmesi",
+  "sayi": "E-65859045-355.02-3493925",
+  "tarih": "30.03.2026",
   "ilgi": {
-    "tarih": "31.03.2026",
-    "sayi": "E-55461037-355.02-3027878"
+    "tarih": "27.03.2026",
+    "sayi": "E-55461037-355.02-3026257"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Uygulama Okulunun Belirlenmesi",
-    "Ortak iş": "Uygulama Okulunun Belirlenmesi konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Uygulama Okulunun Belirlenmesi kapsamında öğrenci kabul edilmesi"
+    "Konu": "Uygulama Öğretmeni Görevlendirmesi",
+    "Ortak iş": "Uygulama Öğretmeni Görevlendirmesi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Uygulama Öğretmeni Görevlendirmesi kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -51,11 +51,9 @@
   "pdf_bicimi": "metin_katmanli",
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
-    "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Uygulama Okulunun Belirlenmesi"
+    "Uygulama Öğretmeni Görevlendirmesi"
   ]
 }

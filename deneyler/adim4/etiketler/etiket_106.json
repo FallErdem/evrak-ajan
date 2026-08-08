@@ -5,45 +5,45 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "kurum_adi": "Personel Dairesi Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "98244303",
+    "detsis_no": "42218640",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Mühendislik Fakültesi Dekanlığı",
+  "muhatap_makam": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "104.01",
-    "ad": "Program Açma",
-    "saklama_suresi": "15"
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "saklama_suresi": "10"
   },
-  "konu": "Program Açma Başvurusu Hk.",
-  "sayi": "E-98244303-104.01-8943022",
-  "tarih": "31.03.2026",
+  "konu": "Topluluk Danışmanı Görevlendirmesi",
+  "sayi": "E-42218640-309-3351105",
+  "tarih": "25.05.2026",
   "ilgi": {
-    "tarih": "03.03.2026",
-    "sayi": "E-43123369-104.01-8164860"
+    "tarih": "06.05.2026",
+    "sayi": "E-98244303-309-7840007"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Program Açma Başvurusu",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Topluluk Danışmanı Görevlendirmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
   },
   "paragraf_cumle_sayilari": [
@@ -54,13 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
-    "Gazi Üniversitesi",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Program Açma Başvurusu",
-    "olumlu, talep karşılandı",
+    "Topluluk Danışmanı Görevlendirmesi",
+    "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -31,12 +31,12 @@
     "ad": "Doçentlik",
     "saklama_suresi": "15"
   },
-  "konu": "Sınav Jürisi Değişikliği",
-  "sayi": "E-65859045-204.01-967243",
-  "tarih": "09.01.2026",
+  "konu": "Doçentlik Jüri Üyeliği Görevlendirmesi",
+  "sayi": "E-55461037-204.01-3005630",
+  "tarih": "05.02.2026",
   "ilgi": {
-    "tarih": "01.12.2025",
-    "sayi": "E-42218640-204.01-8045160"
+    "tarih": "29.12.2025",
+    "sayi": "E-42218640-204.01-3241320"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -53,7 +53,6 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Personel Dairesi Başkanlığı",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [

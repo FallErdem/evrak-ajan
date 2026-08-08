@@ -858,7 +858,8 @@ class EtiketUretici:
     # -- somut bilgiler ------------------------------------------------------
 
     def _somut_bilgiler(self, aile: str, kurum: Kurum, birim: Birim,
-                        kod: SdpKodu, konu: str, s: Siparis) -> dict:
+                        kod: SdpKodu, konu: str, s: Siparis,
+                        ogrenci: bool = False) -> dict:
         """Belgenin içini dolduran değerler.
 
         Bunlar etiketin parçası ve aynı zamanda modele verilecek şartnamenin
@@ -874,11 +875,13 @@ class EtiketUretici:
             if _tasinmaz_konusu_mu(kod.kod, konu):
                 ada, parsel = h.ada_parsel()
                 b["Taşınmaz"] = f"{ada} ada, {parsel} parsel"
-            elif kod.kod[:3] in _OGRENCI_ANA_GRUP:
+            elif kod.kod[:3] in _OGRENCI_ANA_GRUP and not ogrenci:
+                # Öğrenci gönderende bölüm/sınıf/numara ZATEN var; buraya
+                # ikinci kez yazmak çelişki üretiyordu (gönderen "1. sınıf",
+                # somut bilgi "3. sınıf öğrencisi").
                 b["Öğrenim bilgisi"] = h.sec([
                     f"{h.rnd.randint(2016, 2025)} yılı mezunu",
-                    f"{h.rnd.choice(['1','2','3','4'])}. sınıf öğrencisi",
-                    "lisansüstü programa kayıtlı"])
+                    "mezun", "kayıtlı öğrenci"])
             # "Kullanım amacı" YALNIZCA bir belge/suret talebinde anlamlı.
             # Ölçülen hata: kamulaştırma bedeli ödeme, borç yapılandırma ve
             # taşımalı eğitim taleplerine de ekleniyordu; oralarda saçmalıyor.
@@ -891,6 +894,14 @@ class EtiketUretici:
                     "mağduriyetin giderilmesi bakımından",
                     "sürecin tamamlanabilmesi için",
                     "mevzuatta öngörülen şartların sağlanması nedeniyle"])
+            # 3 cümlelik bir dilekçe iki alanla yazılamaz; model malzeme
+            # bitince uyduruyor (ADIM 1'de ölçüldü). Başvuru yolu ve
+            # bildirim tercihi ekleniyor.
+            b["Başvuru şekli"] = h.sec([
+                "şahsen başvuru yapılmıştır",
+                "başvuru elektronik ortamda da iletilmiştir",
+                "konu daha önce sözlü olarak da bildirilmiştir"])
+            b["Bildirim tercihi"] = h.bildirim_yolu()
             return b
 
         if aile == "belge_cevabi":
@@ -969,7 +980,12 @@ class EtiketUretici:
                                     "teknik destek sağlanması"])}
 
         if aile == "bilgilendirme":
-            return {"Konu": f"{kod.ad} kapsamında yeni bir uygulama yürürlüğe girmiştir",
+            # KONUDAN türet, kod adından değil. Ölçülen hata: konu "Muayene
+            # ve Kabul İşlemleri" iken gövde "Mal Alım İşi kapsamında yeni
+            # bir uygulama" diyordu. Denetçinin bilgi_edinme ve isbirligi'de
+            # bulduğu desenin aynısı, bilgilendirme'de kalmıştı (42 belge).
+            return {"Konu": f"{_talep_ifadesi(konu, kod.ad)} konusunda yeni "
+                            f"bir uygulama yürürlüğe girmiştir",
                     "Kaynak": h.sec(["uygulama Bakanlıkça yürürlüğe konulmuştur",
                                      "karar Makam onayı ile yürürlüğe girmiştir",
                                      "düzenleme ilgili mevzuat gereği yapılmıştır"]),
@@ -1180,11 +1196,13 @@ class EtiketUretici:
         # --- ek ------------------------------------------------------------
         ek = None
         if s.ek_var:
+            # Ek açıklaması KODA bağlı. Aileye bağlıydı ve "Tapu fotokopisi"
+            # etkinlik bütçe desteği talebine de ekleniyordu.
             ek = {"adet": 1 if aile != "ust_yazi" else 2,
-                  "aciklama": _EK_ACIKLAMA.get(aile, "İlgili belge"),
+                  "aciklama": h.sec(_ek_aciklamasi(kod.kod, aile)),
                   "sayfa": h.sayfa_sayisi()}
 
-        somut = self._somut_bilgiler(aile, kurum, birim, kod, konu, s)
+        somut = self._somut_bilgiler(aile, kurum, birim, kod, konu, s, ogrenci)
 
         # --- linter için ---------------------------------------------------
         yasakli = [kurum.kurum_adi, birim.birim_adi]
@@ -1194,6 +1212,10 @@ class EtiketUretici:
             yasakli += ["Gazi Üniversitesi", "Gazi"]
         else:
             yasakli.append("Ankara İl Millî Eğitim Müdürlüğü")
+
+        # Tekrarları at, sırayı koru (kurum adı hem kurum hem yasaklı listede
+        # olabiliyor)
+        yasakli = list(dict.fromkeys(yasakli))
 
         return {
             "belge_no": f"{no:03d}",
@@ -1211,7 +1233,9 @@ class EtiketUretici:
             # Linter açısından ogrenci de vatandaş kaydında yazar (birinci
             # tekil şahıs serbest), ama gönderen sıfatı farklıdır.
             "yazan_tipi": ("ogrenci" if ogrenci
-                           else "vatandas" if vatandas_yazari else "kurum"),
+                           else "vatandas" if vatandas_yazari
+                           else "ozel_tuzel" if s.gonderen_tipi == "ozel_tuzel"
+                           else "kurum"),
             "hiyerarsi_yonu": yon,
             "muhatap_makam": muhatap_makam,
             "muhatap_parantez": muhatap_parantez,
@@ -1802,3 +1826,46 @@ _KURUM_AGZI_KONU = re.compile(
 # altında alt kod var) ve belge kodu olarak kullanılamaz; birim filtresinde
 # onu saymak, tek beyaz liste kodu 250 olan birimi uygun sanmaya yol açıyordu.
 _ISBIRLIGI_YAPRAK = _ISBIRLIGI_KODLARI - {"250"}
+
+
+# Ek açıklaması SDP koduna bağlı. Önceden aileye bağlıydı ve "Tapu fotokopisi"
+# etkinlik bütçe desteği talebine, arşiv araştırmasına da ekleniyordu.
+_EK_KOD = {
+    "115": ["Tapu fotokopisi", "Mimari proje", "Aplikasyon krokisi"],
+    "752": ["Tapu fotokopisi", "Kadastro paftası"],
+    "756": ["Tapu fotokopisi", "Kıymet takdir raporu"],
+    "170": ["İşyeri açma ruhsatı fotokopisi", "Vergi levhası fotokopisi"],
+    "155": ["Fotoğraf", "Konum krokisi"],
+    "302": ["Öğrenci belgesi", "Transkript", "Kimlik fotokopisi"],
+    "301": ["Öğrenci belgesi", "Ders içerikleri"],
+    "304": ["Staj başvuru formu", "Öğrenci belgesi"],
+    "309": ["Etkinlik programı", "Katılımcı listesi", "Bütçe tablosu"],
+    "310": ["Öğrenim anlaşması", "Transkript"],
+    "205": ["İkametgâh belgesi", "Nüfus kayıt örneği"],
+    "210": ["İkametgâh belgesi", "Öğrenci belgesi"],
+    "245": ["Gelir belgesi", "Öğrenci belgesi"],
+    "125": ["Nüfus cüzdanı fotokopisi", "Sağlık raporu"],
+    "855": ["Ödeme dekontu", "Borç dökümü"],
+    "858": ["Tebligat sureti", "İtiraz dilekçesi"],
+    "934": ["Teknik şartname", "Numune listesi"],
+    "802": ["Güzergâh krokisi", "Araç listesi"],
+    "805": ["Araştırma önerisi", "Etik kurul kararı"],
+}
+_EK_AILE = {
+    "belge_talebi": ["Kimlik fotokopisi", "Başvuru formu"],
+    "itiraz": ["Başvuru evrakı", "Karar sureti"],
+    "sikayet": ["Fotoğraf", "Görüşme kaydı dökümü"],
+    "belge_cevabi": ["Düzenlenen belge", "Bilgi notu"],
+    "kaynak_talebi": ["İhtiyaç listesi", "Keşif özeti"],
+    "isbirligi_talebi": ["Protokol taslağı", "Çalışma programı"],
+    "bilgilendirme": ["Uygulama esasları", "Genelge sureti"],
+    "gorus_talebi": ["İlgi yazı ve ekleri", "Mevzuat metni"],
+    "ust_yazi": ["Liste ve takvim", "Öğrenci listesi"],
+    "tekit": ["İlgi yazı sureti"],
+    "olur": ["Taslak metin", "Gerekçe raporu"],
+}
+
+
+def _ek_aciklamasi(kod: str, aile: str) -> list[str]:
+    """Ekin ne olduğu önce SDP koduna, yoksa belge ailesine göre seçilir."""
+    return _EK_KOD.get(kod[:3]) or _EK_AILE.get(aile, ["İlgili belge"])

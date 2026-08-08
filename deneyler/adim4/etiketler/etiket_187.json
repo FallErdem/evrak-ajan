@@ -12,39 +12,39 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "93213107",
+    "detsis_no": "91571118",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Defteri Kaydı",
-  "sayi": "E-93213107-198.02.01-8319265",
-  "tarih": "19.02.2026",
+  "konu": "Kimlik Numarası Kaydı Hk.",
+  "sayi": "E-91571118-235-2000040",
+  "tarih": "18.03.2026",
   "ilgi": {
-    "tarih": "04.02.2026",
-    "sayi": "E-21291472-198.02.01-2995362"
+    "tarih": "20.02.2026",
+    "sayi": "E-21291472-235-4931296"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma Defteri Kaydı",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Kimlik Numarası Kaydı",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,13 +54,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Diploma Defteri Kaydı",
-    "olumlu, belge düzenlendi",
+    "Kimlik Numarası Kaydı",
+    "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

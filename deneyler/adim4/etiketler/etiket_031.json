@@ -27,20 +27,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Genelge Görüşü Talebi",
-  "sayi": "E-98244303-010.06-8927421",
-  "tarih": "09.03.2026",
+  "konu": "Kurul Kararının Gönderilmesi",
+  "sayi": "E-98244303-050.04-7846699",
+  "tarih": "14.05.2026",
   "ilgi": {
-    "tarih": "23.02.2026",
-    "sayi": "E-39985474-010.06-8662402"
+    "tarih": "05.05.2026",
+    "sayi": "E-39985474-050.04-7069550"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Genelge Görüşü",
+    "Talep": "Kurul Kararının Gönderilmesi",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
@@ -55,11 +55,10 @@
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Gazi Üniversitesi Rektörlüğü",
-    "Gazi Üniversitesi",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Genelge Görüşü",
+    "Kurul Kararının Gönderilmesi",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
     "süreç Müdürlüğümüzce takip edilmektedir"

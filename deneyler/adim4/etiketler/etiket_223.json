@@ -31,19 +31,19 @@
     "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Alım Miktarının Artırılması",
-  "sayi": "E-24316060-934.01-61077827",
-  "tarih": "17.04.2026",
+  "konu": "Kırtasiye Malzemesi Alımı",
+  "sayi": "E-24316060-934.01-60787156",
+  "tarih": "21.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 2,
-    "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "aciklama": "Numune listesi",
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "bahar dönemi",
-    "Sayı": "112 kayıt",
+    "Dönem": "güz dönemi",
+    "Sayı": "47 kayıt",
     "Ek 1": "Mal Alım İşi listesi",
     "Ek 2": "uygulama takvimi",
     "İstenen": "listenin ilgili birimlere dağıtılması"
@@ -57,13 +57,12 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "bahar dönemi",
-    "112 kayıt",
+    "güz dönemi",
+    "47 kayıt",
     "Mal Alım İşi listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"

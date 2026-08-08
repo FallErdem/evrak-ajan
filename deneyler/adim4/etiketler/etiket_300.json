@@ -27,19 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
-    "saklama_suresi": "15"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Öğretmenlik Uygulaması Protokolü",
-  "sayi": "E-39985474-355.02-8707005",
-  "tarih": "24.04.2026",
+  "konu": "Hukuki Mütalaanın Gönderilmesi",
+  "sayi": "E-39985474-045.02-7003783",
+  "tarih": "11.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Öğretmenlik Uygulaması Protokolü",
-    "Ortak iş": "Öğretmenlik Uygulaması Protokolü konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "iş birliği protokolü düzenlenmesi"
+    "Konu": "Hukuki Mütalaanın Gönderilmesi",
+    "Ortak iş": "Hukuki Mütalaanın Gönderilmesi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Talep": "Hukuki Mütalaanın Gönderilmesi konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -48,12 +48,9 @@
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
-    "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü",
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Öğretmenlik Uygulaması Protokolü",
-    "iş birliği protokolü düzenlenmesi"
+    "Hukuki Mütalaanın Gönderilmesi"
   ]
 }

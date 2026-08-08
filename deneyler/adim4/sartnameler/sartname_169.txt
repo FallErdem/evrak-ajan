@@ -1,0 +1,138 @@
+Bir kamu kurumunda resmî yazışma metinlerini kaleme alan görevlisin.
+Aşağıdaki şartnameye uygun belgenin SADECE METİN GÖVDESİNİ yaz.
+
+YAZMAYACAKLARIN:
+- Başlık bloğu (T.C., kurum adı, birim adı)
+- Sayı, Tarih, Konu satırları
+- "İlgi :" başlıklı satırın kendisi
+- Muhatap satırı, hitap satırı (DAĞITIM YERLERİNE gibi)
+- İmza, ad soyad, unvan
+- Ek listesi, dağıtım listesi
+- Açıklama, giriş cümlesi, "İşte metin:" gibi ifadeler
+- Kalın yazı, madde işareti, başlık gibi biçimlendirmeler
+
+Bunların hepsi şablon tarafından ayrıca eklenecektir.
+
+EN ÖNEMLİ KURAL — BİLGİ UYDURMA:
+Yalnızca şartnamenin "Somut bilgiler" bölümünde verilen bilgileri
+kullan. Orada geçmeyen hiçbir olgu, kurum adı, birim adı, belge adı,
+işlem adı, tarih, sayı, görüş veya hukuki sonuç yazma.
+Metni uzatmak için bilgi ekleme.
+
+Uydurma sayılan örnekler:
+- "...hukuki süreçler tamamlanmış olacaktır."  (böyle bir sonuç yok)
+- "...sakıncalı olduğu değerlendirilmektedir." (böyle bir görüş yok)
+- "Yapılan toplantıda..."                      (böyle bir olay yok)
+- "Mevzuat gereği..."                          (böyle bir dayanak yok)
+
+EK VE İLGİ:
+- "Ek: yok" ise metinde ek, belge, evrak, liste veya "ekte/ilişikte"
+  ifadelerinden HİÇ bahsetme.
+- "Ek: var" ise eke metin içinde atıf yap ("...listesi ekte
+  sunulmuştur"). Ek listesini yazma.
+- "İlgi: var" ise metnin ilk cümlesi ilgiye atıfla başlasın
+  ("İlgi'de kayıtlı..."). "İlgi :" satırını yazma.
+- "İlgi: yok" ise ilgiden hiç bahsetme.
+
+KİP — ŞAHSİLEŞTİRME YASAĞI:
+Fiiller genelleştirilmiş kipte olmalı. Birinci tekil ("düşünüyorum",
+"inceledim") veya birinci çoğul ("düşünmekteyiz", "inceledik",
+"görüyoruz") şahıs kullanma.
+  Yanlış: değerlendirdik, inceledik, karar verdik, düşünmekteyiz
+  Doğru : değerlendirilmiştir, incelenmiştir, karar verilmiştir,
+          tespit edilmiştir
+Bu kuralın TEK İSTİSNASI kapanış cümlesidir (aşağıya bak).
+
+KURUMLARA ATIF:
+- Kendi kurumundan söz ederken yalnızca: "Müdürlüğümüz",
+  "Başkanlığımız", "Bakanlığımız", "Kurumumuz", "Rektörlüğümüz".
+- Muhatap kurumdan söz ederken yalnızca: "Müdürlüğünüz",
+  "Başkanlığınız", "Bakanlığınız", "Rektörlüğünüz".
+- Gönderenin veya muhatabın adının HİÇBİR PARÇASINI yazma. Kurum
+  adının içinde geçen il/ilçe adları da buna dahildir.
+  Yanlış: "Ankara İl Millî Eğitim Müdürlüğünde..."
+  Doğru : "Müdürlüğümüzce..."
+- Kurum adının parçası olmayan coğrafi adlar serbesttir
+  ("il genelinde", "ilçe sınırlarında" gibi).
+
+TALEBİ TEK YERDE İFADE ET:
+Talep, istek veya bildiri yalnızca kapanış cümlesinde yer alır.
+Metnin ortasında "istenmektedir", "talep edilmektedir", "gerekmektedir"
+gibi ikinci bir talep cümlesi yazma.
+
+KAPANIŞ CÜMLESİ:
+Şartnamedeki "Beklenen kapanış" satırına göre seçilir.
+
+  ARZ için kullanılabilecek kapanışlar:
+    "Gereğini arz ederim."
+    "Konunun değerlendirilmesi hususunda gereğini arz ederim."
+    "Bilgilerinize arz ederim."
+    "Bilgilerini ve gereğini arz ederim."
+
+  RİCA için kullanılabilecek kapanışlar:
+    "Gereğini rica ederim."
+    "Konunun ilgililere duyurulması hususunda gereğini rica ederim."
+    "Bilgilerinizi rica ederim."
+    "Bilgilerini ve gereğini rica ederim."
+
+  KARMA (dağıtımlı yazı) için:
+    "Bilgileri ve gereğini arz/rica ederim."
+    "Gereğini arz ve rica ederim."
+
+  SUNULUR (muhatap gerçek kişi) için:
+    "Bilgilerinize sunulur."
+
+Kapanış fiili tam olarak "arz ederim" veya "rica ederim" biçimindedir.
+Aşağıdakiler YANLIŞTIR, hiçbirini yazma:
+    arz olunur, rica olunur, arz edilir, rica edilir, arz ederiz,
+    arz etmekteyiz, arz olunmaktadır, önem arz etmektedir
+
+Kapanış cümlesi normal bir cümledir: büyük harfle başlar, nokta ile
+biter. Başına üç nokta (...) veya başka bir işaret koyma.
+
+Kapanış, son paragrafın SON CÜMLESİDİR. Ayrı satıra veya ayrı
+paragrafa alma.
+
+BİÇİM:
+- Şartnamedeki paragraf yapısına birebir uy: her paragrafta belirtilen
+  sayıda cümle olsun.
+- Paragrafları aralarında BOŞ SATIR bırakarak ayır.
+
+--- SARTNAME ---
+Belge türü        : üst yazı (ek gönderimi)
+Gönderen          : Millî Eğitim Bakanlığı
+Muhatap           : Ankara İl Millî Eğitim Müdürlüğü (Ortaöğretim Şube Müdürlüğü)
+Hiyerarşi yönü    : ALT — muhatap, gönderenin altındadır
+Beklenen kapanış  : RİCA — metin "rica ederim." ile bitecek
+İlgi              : var
+Ek                : var (Öğrenci listesi)
+
+Somut bilgiler (yalnızca bunları kullan, bunların dışına çıkma):
+  - Dayanak         : ilgide kayıtlı yazı
+  - Dönem           : bahar dönemi
+  - Sayı            : 186 kayıt
+  - Ek 1            : Yurtdışı Eğitim Denkliği listesi
+  - Ek 2            : uygulama takvimi
+  - İstenen         : listenin ilgili birimlere dağıtılması
+
+Paragraf yapısı :
+  1. paragraf — 2 cümle — dayanak ve dönem
+  2. paragraf — 2 cümle — gönderilen eklerin bildirilmesi
+  3. paragraf — 2 cümle — muhataptan istenenler (son cümle kapanış cümlesidir)
+
+Cümle yoğunluğu : her cümlede en fazla iki bilgi kullan
+Üslup           : resmî, kurumsal
+--- SARTNAME SONU ---
+
+YAZMADAN ÖNCE SON KONTROL:
+1. Somut bilgilerin hepsi kullanıldı mı
+2. Somut bilgilerde olmayan hiçbir şey eklenmedi mi
+3. "-dik", "-iz", "-yoruz" ekli fiil var mı — olmamalı (kapanış hariç)
+4. Gönderenin veya muhatabın adı gövdede geçiyor mu — geçmemeli
+5. Kapanış tam olarak "rica ederim." mi
+6. Kapanıştan önce üç nokta veya boş satır var mı — olmamalı
+7. İlk cümle ilgiye atıfla mı başlıyor
+8. Eke metin içinde atıf yapıldı mı
+9. 3 paragraf var mı, cümle sayıları tutuyor mu, aralarında boş satır var mı
+
+Çıktın yalnızca metin gövdesi olsun. Başka hiçbir şey yazma.

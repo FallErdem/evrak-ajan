@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Pınar YILMAZ",
-    "adres": "Pamuklar Mahallesi Lale Caddesi No: 112/12 Yenimahalle/ANKARA",
+    "ad": "Selin POLAT",
+    "adres": "Pamuklar Mahallesi Erguvan Caddesi No: 2/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,24 +21,24 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_makam": "Yenimahalle Kaymakamlığı",
+  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Yabancı Uyruklu Öğrenci Kayıt Talebi",
+  "konu": "Öğrenci Nakil Talebi",
   "sayi": null,
-  "tarih": "21.05.2026",
+  "tarih": "26.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yabancı Uyruklu Öğrenci Kayıt",
-    "Sorun": "uyum sınıfı açılmadığı için çocuğum dersleri takip edemiyor",
-    "Süre": "geçtiğimiz aydan bu yana",
+    "Şikâyet konusu": "Öğrenci Nakil",
+    "Sorun": "çocuğumun nakil başvurusu üç haftadır sonuçlandırılmadı",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
@@ -50,12 +50,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü",
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yabancı Uyruklu Öğrenci Kayıt",
-    "geçtiğimiz aydan bu yana",
+    "Öğrenci Nakil",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }
