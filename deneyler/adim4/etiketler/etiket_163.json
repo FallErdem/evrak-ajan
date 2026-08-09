@@ -32,19 +32,22 @@
     "saklama_suresi": "B"
   },
   "konu": "Bedelsiz Devir Talebi",
-  "sayi": "E-90226917-756.01-818944",
-  "tarih": "01.04.2026",
+  "sayi": "E-90226917-756.01-1978574",
+  "tarih": "15.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Konu": "Bedelsiz Devir",
     "Ortak iş": "Bedelsiz Devir konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
+    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
     "Talep": "Bedelsiz Devir konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [

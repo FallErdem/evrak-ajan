@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -31,24 +31,33 @@
     "ad": "Eğitim Fakülteleri İle İlişkiler",
     "saklama_suresi": "15"
   },
-  "konu": "Öğretmenlik Uygulaması Değerlendirme Raporu",
-  "sayi": "E-65859045-355.02-3452264",
-  "tarih": "19.01.2026",
-  "ilgi": null,
+  "konu": "Öğretmenlik Uygulaması Protokolü",
+  "sayi": "E-39985474-355.02-5064006",
+  "tarih": "01.04.2026",
+  "ilgi": {
+    "tarih": "26.03.2026",
+    "sayi": "E-55461037-355.02-1448725"
+  },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Öğretmenlik Uygulaması Değerlendirme Raporu",
-    "Ortak iş": "Öğretmenlik Uygulaması Değerlendirme Raporu konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Öğretmenlik Uygulaması Değerlendirme Raporu kapsamında öğrenci kabul edilmesi"
+    "Konu": "Öğretmenlik Uygulaması Protokolü",
+    "Ortak iş": "Öğretmenlik Uygulaması Protokolü konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
+    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
+    "Talep": "iş birliği protokolü düzenlenmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     2
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "sayi_eksik",
+  "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
-  "anahtar_terimler": []
+  "anahtar_terimler": [
+    "Öğretmenlik Uygulaması Protokolü",
+    "iş birliği protokolü düzenlenmesi"
+  ]
 }

@@ -31,37 +31,56 @@
     "ad": "Bütçe Çalışmaları",
     "saklama_suresi": "15"
   },
-  "konu": "Bütçe Takviminin Duyurulması",
-  "sayi": "E-83011479-841.01-1956897",
-  "tarih": "12.01.2026",
+  "konu": "Bütçe Teklifinin Hazırlanması",
+  "sayi": "E-83011479-841.01-1452286",
+  "tarih": "05.03.2026",
   "ilgi": {
-    "tarih": "10.12.2025",
-    "sayi": "E-43195403-841.01-2394627"
+    "tarih": "21.01.2026",
+    "sayi": "E-43195403-841.01-3558099"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bütçe Takviminin Duyurulması",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Bütçe Teklifinin Hazırlanması",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bütçe Takviminin Duyurulması",
-    "olumlu, talep karşılandı",
+    "Bütçe Teklifinin Hazırlanması",
+    "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "talep ilgili birimce incelenmiştir"
   ]
 }

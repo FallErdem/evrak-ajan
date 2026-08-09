@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Derya KAYA",
-    "adres": "Yakacık Mahallesi Manolya Sokak No: 37/12 Yenimahalle/ANKARA",
+    "ad": "Büşra TURAN",
+    "adres": "Yakacık Mahallesi Ceviz Sokak No: 5/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,40 +22,41 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "115.01.06",
+    "ad": "Uygulama İmar Planı",
+    "saklama_suresi": "B"
   },
-  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
+  "konu": "Yoğunluk Artışı Talebi",
   "sayi": null,
-  "tarih": "20.04.2026",
+  "tarih": "01.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Emlak Vergisi Borç Sorgulama",
-    "Taşınmaz": "20940 ada, 23 parsel",
+    "Talep": "Yoğunluk Artışı",
+    "Taşınmaz": "81790 ada, 21 parsel",
     "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Borç Sorgulama",
-    "20940 ada, 23 parsel",
+    "Yoğunluk Artışı",
+    "81790 ada, 21 parsel",
     "sürecin tamamlanabilmesi için",
-    "elektronik posta ile"
+    "e-Devlet üzerinden"
   ]
 }

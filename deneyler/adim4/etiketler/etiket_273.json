@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Osman DOĞAN",
-    "adres": "Emniyet Mahallesi Menekşe Caddesi No: 16/3 Yenimahalle/ANKARA",
+    "ad": "Emre YILDIZ",
+    "adres": "Ergazi Mahallesi Akasya Sokağı No: 94/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,34 +30,35 @@
     "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "Yerinde İnceleme Randevusu",
+  "konu": "İtfaiye Uygunluk Raporu Talebi",
   "sayi": null,
-  "tarih": "09.04.2026",
+  "tarih": "28.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yerinde İnceleme Randevusu",
-    "Sorun": "raporum düzenlendiği hâlde tarafıma gönderilmedi",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "İtfaiye Uygunluk Raporu",
+    "Sorun": "uygunluk raporu talebim geciktiği için ruhsat sürem doldu",
+    "Süre": "yaklaşık üç haftadır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi",
-    "Yer": "Çiğdemtepe Mahallesi"
+    "Yer": "İvedik Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "muhatap_belirsiz",
+  "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yerinde İnceleme Randevusu",
-    "geçtiğimiz aydan bu yana",
+    "İtfaiye Uygunluk Raporu",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi",
-    "Çiğdemtepe Mahallesi"
+    "İvedik Mahallesi"
   ]
 }

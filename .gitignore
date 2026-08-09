@@ -1,5 +1,3 @@
-.venv/
-
 # Windows
 Thumbs.db
 desktop.ini
@@ -36,3 +34,7 @@ venv/
 .idea/
 .DS_Store
 Thumbs.db
+
+deneyler/adim4/sartnameler/
+deneyler/adim4/partiler/
+deneyler/adim4/cevaplar/

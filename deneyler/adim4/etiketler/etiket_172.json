@@ -5,60 +5,86 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "kurum_adi": "Gülpınar Ortaokulu Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "91571118",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10084668",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
-  "muhatap_parantez": null,
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "135.03",
+    "ad": "Yaygın Eğitim Kursları",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Kayıt Numarası Sorgusu",
-  "sayi": "E-91571118-198.02.01-2003724",
-  "tarih": "23.03.2026",
+  "konu": "Kurs Yeri Tahsisi",
+  "sayi": "E-10084668-135.03-6187",
+  "tarih": "12.01.2026",
   "ilgi": {
-    "tarih": "03.03.2026",
-    "sayi": "E-21291472-198.02.01-4939725"
+    "tarih": "11.12.2025",
+    "sayi": "E-91571118-135.03-5294533"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma Kayıt Numarası Sorgusu",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Kurs Yeri Tahsisi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
-    3
+    2,
+    2
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak"
+    ],
+    [
+      "Talebin sonucu",
+      "Gönderilen",
+      "İnceleme"
+    ],
+    [
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
+  ],
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü"
+    "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Diploma Kayıt Numarası Sorgusu",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "Kurs Yeri Tahsisi",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı",
+    "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Başkent Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Şafak Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Demetevler Mahallesi Sümbül Sokağı No: 45/17 Yenimahalle/ANKARA",
+    "adres": "Batıkent Mahallesi Erguvan Sokağı No: 14/21 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,25 +31,30 @@
     "ad": "İzin İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Askerlik Sebebiyle İzin",
-  "sayi": "2026/659",
-  "tarih": "04.05.2026",
-  "ilgi": null,
+  "konu": "Mazeret Belgesi Talebi",
+  "sayi": "2026/473",
+  "tarih": "28.05.2026",
+  "ilgi": {
+    "tarih": "01.05.2026",
+    "sayi": "E-43123369-302.08-7424107"
+  },
   "ek": {
     "adet": 1,
-    "aciklama": "Öğrenci belgesi",
-    "sayfa": 4
+    "aciklama": "Dilekçe eki belge",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Askerlik Sebebiyle İzin",
+    "İtiraz konusu": "Mazeret Belgesi",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -58,7 +63,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Askerlik Sebebiyle İzin",
+    "Mazeret Belgesi",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

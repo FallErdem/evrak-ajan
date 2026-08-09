@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra YAVUZ",
-    "adres": "Yeşilevler Mahallesi Zeytin Caddesi No: 111/5 Yenimahalle/ANKARA",
+    "ad": "Emine ŞAHIN",
+    "adres": "Karşıyaka Mahallesi Lale Caddesi No: 31/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,45 +22,47 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Ölçü Aleti Beyannamesi",
+  "konu": "Dilekçe Cevabı",
   "sayi": null,
-  "tarih": "13.04.2026",
+  "tarih": "26.03.2026",
   "ilgi": {
-    "tarih": "18.03.2026",
-    "sayi": "E-59553370-175-2281100"
+    "tarih": "16.02.2026",
+    "sayi": "E-50719027-622.01-1526818"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Başvuru evrakı",
-    "sayfa": 4
+    "aciklama": "Kimlik fotokopisi",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Ölçü Aleti Beyannamesi",
+    "İtiraz konusu": "Dilekçe Cevabı",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ölçü Aleti Beyannamesi",
+    "Dilekçe Cevabı",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

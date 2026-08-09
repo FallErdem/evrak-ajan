@@ -12,12 +12,12 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Hatice AKSOY",
-    "adres": "Ragıpbey Mahallesi Erguvan Sokak No: 11/7 Yenimahalle/ANKARA",
+    "ad": "Emine YILMAZ",
+    "adres": "Gayret Mahallesi Akasya Sokak No: 78/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025705092",
-    "bolum": "Hukuk Fakültesi",
+    "ogrenci_no": "2025414656",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
     "sinif": "4"
   },
   "belge_turu": "itiraz",
@@ -29,21 +29,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
-    "saklama_suresi": "10"
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Katkı Payı Muafiyet Başvurusu",
+  "konu": "Diploma Teslim Randevusu",
   "sayi": null,
-  "tarih": "21.01.2026",
-  "ilgi": null,
+  "tarih": "16.04.2026",
+  "ilgi": {
+    "tarih": "04.03.2026",
+    "sayi": "E-17311665-302.15-4627816"
+  },
   "ek": {
     "adet": 1,
-    "aciklama": "Transkript",
+    "aciklama": "Tapu fotokopisi",
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Katkı Payı Muafiyet",
+    "İtiraz konusu": "Diploma Teslim Randevusu",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -52,7 +55,8 @@
     3,
     2
   ],
-  "pdf_bicimi": "metin_katmanli",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
@@ -60,7 +64,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı Muafiyet",
+    "Diploma Teslim Randevusu",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

@@ -5,63 +5,101 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_egitim_rehberlik_sb",
-    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-    "detsis_no": "87302975",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-  "dagitim": null,
-  "beklenen_kapanis": "rica",
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
+  "dagitim": {
+    "geregi": [
+      "Valilik Makamlarına",
+      "İl Millî Eğitim Müdürlüklerine"
+    ],
+    "bilgi": [
+      "Cumhurbaşkanlığına"
+    ]
+  },
+  "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "160.01.02",
-    "ad": "Kaynaştırma Eğitimi",
-    "saklama_suresi": "10"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "BEP Hazırlanması Hk.",
-  "sayi": "E-10213773-160.01.02-11460329",
-  "tarih": "13.02.2026",
-  "ilgi": {
-    "tarih": "13.01.2026",
-    "sayi": "E-87302975-160.01.02-4485550"
-  },
+  "konu": "Diploma Teslimi Talebi",
+  "sayi": "E-24316060-198.02.01-47797123",
+  "tarih": "20.03.2026",
+  "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 6
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "BEP Hazırlanması konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Diploma Teslimi konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
+    "Yürürlük": "15.01.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "geçici görevle çalışan personel",
+    "Esas 1": "işlemler tek merkezden yürütülecektir",
+    "Esas 2": "itirazlar on beş gün içinde sonuçlandırılacaktır",
+    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
+    "Süre": "dönem sonuna kadar",
+    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    3,
+    3,
+    3
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı",
+      "Yürürlük"
+    ],
+    [
+      "Esas 1",
+      "Esas 2",
+      "Geçiş hükmü"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen 1"
+    ]
+  ],
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Eğitim ve Rehberlik Şube Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "15.01.2026 tarihinde yürürlüğe girmiştir",
+    "geçici görevle çalışan personel",
+    "işlemler tek merkezden yürütülecektir",
+    "dönem sonuna kadar"
   ]
 }

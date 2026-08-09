@@ -5,62 +5,87 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Mali Hizmetler Müdürlüğü",
+    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "43195403",
+    "detsis_no": "26888327",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Fen İşleri Müdürlüğü",
+  "muhatap_makam": "Temizlik İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
-    "saklama_suresi": "15"
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
+    "saklama_suresi": "10"
   },
-  "konu": "İhale İlanı Hk.",
-  "sayi": "E-43195403-755.02-2437052",
-  "tarih": "16.03.2026",
+  "konu": "Tıbbi Atık Bertarafı Hk.",
+  "sayi": "E-26888327-155.01-3597290",
+  "tarih": "22.05.2026",
   "ilgi": {
-    "tarih": "05.02.2026",
-    "sayi": "E-33152401-755.02-3183864"
+    "tarih": "30.04.2026",
+    "sayi": "E-83011479-155.01-1473691"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İhale İlanı",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Tıbbi Atık Bertarafı",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
-    3
+    2,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak"
+    ],
+    [
+      "Talebin sonucu",
+      "Gönderilen",
+      "İnceleme"
+    ],
+    [
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "konu_eksik",
+  "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İhale İlanı",
-    "olumlu, talep karşılandı",
+    "Tıbbi Atık Bertarafı",
+    "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

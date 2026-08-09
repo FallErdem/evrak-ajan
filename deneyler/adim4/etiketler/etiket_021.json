@@ -5,27 +5,27 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
     "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Mustafa DOĞAN",
-    "adres": "Ragıpbey Mahallesi Papatya Sokağı No: 25/23 Yenimahalle/ANKARA",
+    "ad": "Zeynep ÖZDEMIR",
+    "adres": "Barıştepe Mahallesi Manolya Caddesi No: 11/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024717131",
-    "bolum": "Türkçe Öğretmenliği",
-    "sinif": "4"
+    "ogrenci_no": "2024530436",
+    "bolum": "İnşaat Mühendisliği",
+    "sinif": "3"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
@@ -33,31 +33,32 @@
     "ad": "İzin İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "İzin Dönüşü Kayıt Yenileme",
+  "konu": "Askerlik Sebebiyle İzin",
   "sayi": null,
-  "tarih": "02.02.2026",
+  "tarih": "31.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İzin Dönüşü Kayıt Yenileme",
-    "Sorun": "izin talebim otuz gündür sonuçlandırılmadı",
+    "Şikâyet konusu": "Askerlik Sebebiyle İzin",
+    "Sorun": "sağlık raporum kabul edilmediği hâlde gerekçe bildirilmedi",
     "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İzin Dönüşü Kayıt Yenileme",
+    "Askerlik Sebebiyle İzin",
     "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]

@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet UÇAR",
-    "adres": "Beştepe Mahallesi Ihlamur Caddesi No: 114/1 Yenimahalle/ANKARA",
+    "ad": "Burak KILIÇ",
+    "adres": "Susuz Mahallesi Nergis Caddesi No: 120/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,39 +22,40 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Bursluluk Sınavı Duyurusu",
+  "konu": "Yabancı Uyruklu Öğrenci Kayıt Talebi",
   "sayi": null,
   "tarih": "26.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Bursluluk Sınavı",
-    "Sorun": "bursluluk sonucuna itirazım cevapsız kaldı",
-    "Süre": "yaklaşık kırk gündür",
+    "Şikâyet konusu": "Yabancı Uyruklu Öğrenci Kayıt",
+    "Sorun": "çocuğumun kaydı kimlik numarası olmadığı gerekçesiyle yapılmadı",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bursluluk Sınavı",
-    "yaklaşık kırk gündür",
+    "Yabancı Uyruklu Öğrenci Kayıt",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

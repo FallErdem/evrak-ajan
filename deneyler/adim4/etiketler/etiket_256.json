@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,46 +23,71 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "saklama_suresi": "10"
   },
-  "konu": "Genelgenin Yürürlükten Kaldırılması",
-  "sayi": "E-10213773-010.06-11422669",
+  "konu": "Nakil İşlemi Hk.",
+  "sayi": "E-10213773-302.11-14689411",
   "tarih": "14.01.2026",
   "ilgi": {
-    "tarih": "31.12.2025",
-    "sayi": "E-82642947-010.06-8116758"
+    "tarih": "05.12.2025",
+    "sayi": "E-47014261-302.11-3060809"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "aciklama": "Genelge sureti",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Genelgenin Yürürlükten Kaldırılması konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Nakil İşlemi konusunda yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Yürürlük": "15.03.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "hâlihazırda işleme alınmış başvurular",
+    "Esas 1": "her başvuru için ayrı dosya açılacaktır",
+    "İrtibat": "tereddüt hâlinde Valiliğimize başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak",
+      "Yürürlük"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı",
+      "Esas 1"
+    ],
+    [
+      "İstenen 2",
+      "İrtibat",
+      "İstenen 1"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "15.03.2026 tarihinde yürürlüğe girmiştir",
+    "hâlihazırda işleme alınmış başvurular",
+    "her başvuru için ayrı dosya açılacaktır"
   ]
 }

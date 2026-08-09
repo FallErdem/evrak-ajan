@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,21 +22,28 @@
   "aile": "tekit",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
-  "dagitim": null,
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
+  "dagitim": {
+    "geregi": [
+      "Üniversite Rektörlüklerine"
+    ],
+    "bilgi": [
+      "Yükseköğretim Denetleme Kuruluna"
+    ]
+  },
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Topluluk Etkinlik İzni Talebi",
-  "sayi": "E-32625594-309-56385973",
-  "tarih": "29.01.2026",
+  "konu": "Genelge Görüşü Talebi",
+  "sayi": "E-32625594-010.06-75755923",
+  "tarih": "22.05.2026",
   "ilgi": {
-    "tarih": "22.01.2026",
-    "sayi": "E-98244303-309-7754250"
+    "tarih": "15.04.2026",
+    "sayi": "E-39985474-010.06-5074520"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -46,14 +53,14 @@
     "Süre": "en geç bir hafta içinde"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Esra ÇETIN",
-    "adres": "Yakacık Mahallesi Erguvan Caddesi No: 71/4 Yenimahalle/ANKARA",
+    "ad": "Esra YILMAZ",
+    "adres": "Yeşilevler Mahallesi Akasya Sokağı No: 22/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,27 +26,28 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Yangın Güvenliği Raporu Başvurusu",
+  "konu": "Periyodik Muayene Talebi",
   "sayi": null,
-  "tarih": "28.04.2026",
+  "tarih": "22.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yangın Güvenliği Raporu",
-    "Sorun": "uygunluk raporu talebim geciktiği için ruhsat sürem doldu",
-    "Süre": "bir aydan uzun süredir",
+    "Şikâyet konusu": "Periyodik Muayene",
+    "Sorun": "beyannamemin alındığına dair hiçbir belge verilmedi",
+    "Süre": "yaklaşık üç haftadır",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "İvedik Mahallesi"
+    "Yer": "Beştepe Mahallesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -55,9 +56,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yangın Güvenliği Raporu",
-    "bir aydan uzun süredir",
+    "Periyodik Muayene",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi",
-    "İvedik Mahallesi"
+    "Beştepe Mahallesi"
   ]
 }

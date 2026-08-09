@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife KAYA",
-    "adres": "Batıkent Mahallesi Erguvan Caddesi No: 63/16 Yenimahalle/ANKARA",
+    "ad": "Nurten SARI",
+    "adres": "Emniyet Mahallesi Ihlamur Sokak No: 95/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,42 +22,46 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Ruhsatın Askıya Alınması Hk.",
+  "konu": "Ölçü Aleti Tamir İzni",
   "sayi": null,
-  "tarih": "08.01.2026",
-  "ilgi": null,
+  "tarih": "06.04.2026",
+  "ilgi": {
+    "tarih": "04.03.2026",
+    "sayi": "E-59553370-175-3452820"
+  },
   "ek": {
     "adet": 1,
-    "aciklama": "İşyeri açma ruhsatı fotokopisi",
+    "aciklama": "İkametgâh belgesi",
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Ruhsatın Askıya Alınması",
+    "İtiraz konusu": "Ölçü Aleti Tamir İzni",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsatın Askıya Alınması",
+    "Ölçü Aleti Tamir İzni",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

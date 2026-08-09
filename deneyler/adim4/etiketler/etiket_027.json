@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yapi_kontrol",
-    "birim_adi": "Yapı Kontrol Müdürlüğü",
-    "detsis_no": "53265760",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Derya AVCI",
-    "adres": "Şentepe Mahallesi Nergis Caddesi No: 56/18 Yenimahalle/ANKARA",
+    "ad": "Nurten YAVUZ",
+    "adres": "Batıkent Mahallesi Ihlamur Caddesi No: 31/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,40 +22,44 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "Ceza Tutarının Yeniden Hesaplanması",
+  "konu": "İşyeri Açma ve Çalışma Ruhsatı Başvurusu",
   "sayi": null,
-  "tarih": "13.04.2026",
+  "tarih": "25.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ceza Tutarının Yeniden Hesaplanması",
-    "Sorun": "kesilen para cezasının tebligatı tarafıma hiç ulaşmadı",
-    "Süre": "yaklaşık üç haftadır",
+    "Şikâyet konusu": "İşyeri Açma ve Çalışma Ruhsatı",
+    "Sorun": "komşumdaki işyeri ruhsatsız çalıştığı hâlde denetlenmiyor",
+    "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
-    "Talep": "sorunun giderilmesi"
+    "Talep": "sorunun giderilmesi",
+    "Yer": "Kaletepe Mahallesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "tarih_eksik",
+  "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yapı Kontrol Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ceza Tutarının Yeniden Hesaplanması",
-    "yaklaşık üç haftadır",
-    "sorunun giderilmesi"
+    "İşyeri Açma ve Çalışma Ruhsatı",
+    "yaklaşık iki aydır",
+    "sorunun giderilmesi",
+    "Kaletepe Mahallesi"
   ]
 }

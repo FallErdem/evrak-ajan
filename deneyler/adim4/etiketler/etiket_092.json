@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -27,31 +27,36 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Nakil Belgelerinin Gönderilmesi",
-  "sayi": "E-39985474-210.01-7054543",
-  "tarih": "16.04.2026",
+  "konu": "Okul Aile Birliği Gelir Gider Bildirimi",
+  "sayi": "E-65859045-165.01-1648776",
+  "tarih": "29.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Nakiller",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Okul Aile Birliği Gelir Gider",
+    "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
+    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     2
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": "tarama_bozuk",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "Okul Aile Birliği Gelir Gider",
+    "işlemlerde gecikme yaşanmaktadır",
     "konu hakkında görüş bildirilmesi"
   ]
 }

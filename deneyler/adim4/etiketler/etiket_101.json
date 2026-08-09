@@ -12,13 +12,14 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Pınar ASLAN",
-    "adres": "Batıkent Mahallesi Manolya Caddesi No: 109/19 Yenimahalle/ANKARA",
+    "ad": "Fatma ÇAKIR",
+    "adres": "Yeşilevler Mahallesi Ihlamur Caddesi No: 48/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025833580",
-    "bolum": "Biyoloji (Yüksek Lisans)",
-    "sinif": "4"
+    "ogrenci_no": "2021357711",
+    "bolum": "Matematik (Yüksek Lisans)",
+    "sinif": null,
+    "ogrenim_duzeyi": "yüksek lisans öğrencisi"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -33,30 +34,32 @@
     "ad": "Yeni Kayıt İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kesin Kayıt Başvurusu",
+  "konu": "Kayıt Süresi Uzatım Talebi",
   "sayi": null,
-  "tarih": "16.01.2026",
+  "tarih": "10.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kesin Kayıt",
+    "Talep": "Kayıt Süresi Uzatım",
     "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": "tarih_eksik",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
+  "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kesin Kayıt",
+    "Kayıt Süresi Uzatım",
     "mağduriyetin giderilmesi bakımından",
-    "elektronik posta ile"
+    "şahsen başvuru yapılmıştır",
+    "posta yoluyla adresime"
   ]
 }

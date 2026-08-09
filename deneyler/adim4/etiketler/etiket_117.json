@@ -32,22 +32,25 @@
     "saklama_suresi": "15"
   },
   "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
-  "sayi": "E-39985474-355.02-7036285",
-  "tarih": "24.03.2026",
+  "sayi": "E-39985474-355.02-5080430",
+  "tarih": "23.04.2026",
   "ilgi": {
-    "tarih": "17.03.2026",
-    "sayi": "E-55461037-355.02-3022028"
+    "tarih": "13.04.2026",
+    "sayi": "E-55461037-355.02-1463413"
   },
   "ek": null,
   "somut_bilgiler": {
     "Konu": "Uygulama Öğrencisi Yerleştirme",
     "Ortak iş": "Uygulama Öğrencisi Yerleştirme konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
+    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
     "Talep": "Uygulama Öğrencisi Yerleştirme kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     2
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [

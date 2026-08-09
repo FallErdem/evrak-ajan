@@ -5,61 +5,86 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "kurum_adi": "Genel Sekreterlik",
     "ad": null,
     "adres": null,
-    "detsis_no": "86488853",
+    "detsis_no": "82642947",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_makam": "Personel Dairesi Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "209",
+    "ad": "Akademik Personel Görevlendirmeleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Kayıt Randevusu Hk.",
-  "sayi": "E-86488853-302.01-7699372",
-  "tarih": "04.02.2026",
+  "konu": "Ders Görevlendirmesi Hk.",
+  "sayi": "E-82642947-209-7035886",
+  "tarih": "18.03.2026",
   "ilgi": {
-    "tarih": "31.12.2025",
-    "sayi": "E-47014261-302.01-1025516"
+    "tarih": "03.03.2026",
+    "sayi": "E-42218640-209-1219657"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Randevusu",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Ders Görevlendirmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
+    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
-    3
+    2,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak"
+    ],
+    [
+      "Talebin sonucu",
+      "Gönderilen",
+      "İnceleme"
+    ],
+    [
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "konu_eksik",
+  "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Personel Dairesi Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Randevusu",
-    "olumlu, talep karşılandı",
+    "Ders Görevlendirmesi",
+    "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı"
   ]
 }

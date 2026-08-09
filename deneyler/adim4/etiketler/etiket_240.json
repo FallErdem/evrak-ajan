@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,33 +27,36 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Sözleşme Metni Hakkında Görüş",
-  "sayi": "E-65859045-045.02-3495005",
-  "tarih": "01.04.2026",
+  "konu": "Uygulama Okulunun Belirlenmesi",
+  "sayi": "E-39985474-355.02-5054956",
+  "tarih": "20.03.2026",
   "ilgi": {
     "tarih": "20.02.2026",
-    "sayi": "E-55461037-045.02-3011699"
+    "sayi": "E-55461037-355.02-1420732"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Sözleşme Metni Hakkında Görüş",
-    "Ortak iş": "Sözleşme Metni Hakkında Görüş konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Sözleşme Metni Hakkında Görüş konusunda görüş bildirilmesi"
+    "Konu": "Uygulama Okulunun Belirlenmesi",
+    "Ortak iş": "Uygulama Okulunun Belirlenmesi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
+    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
+    "Talep": "Uygulama Okulunun Belirlenmesi kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "tarih_tutarsiz",
+  "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Sözleşme Metni Hakkında Görüş"
+    "Uygulama Okulunun Belirlenmesi"
   ]
 }

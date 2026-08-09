@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -32,28 +32,28 @@
     "saklama_suresi": "30"
   },
   "konu": "Hukuki Görüş Talebi",
-  "sayi": "E-55461037-045.02-3024622",
-  "tarih": "23.03.2026",
-  "ilgi": {
-    "tarih": "10.03.2026",
-    "sayi": "E-82642947-045.02-8170256"
-  },
+  "sayi": "E-65859045-045.02-1675647",
+  "tarih": "17.04.2026",
+  "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Protokol taslağı",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
     "Konu": "Hukuki Görüş",
     "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
+    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
     "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     2
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "konu_eksik",
+  "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Genel Sekreterlik",

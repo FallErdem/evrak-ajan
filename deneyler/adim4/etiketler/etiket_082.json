@@ -5,62 +5,94 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
-  "dagitim": null,
-  "beklenen_kapanis": "rica",
-  "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
-    "saklama_suresi": "10"
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
+  "dagitim": {
+    "geregi": [
+      "Belediye Başkanlıklarına",
+      "İl Özel İdarelerine"
+    ],
+    "bilgi": [
+      "Emniyet Genel Müdürlüğüne"
+    ]
   },
-  "konu": "Mal Alımı İhale Onayı",
-  "sayi": "E-10213773-934.01-11537575",
-  "tarih": "16.04.2026",
+  "beklenen_kapanis": "karma",
+  "sdp": {
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
+  },
+  "konu": "Stratejik Plan Hazırlık Çalışmaları",
+  "sayi": "E-24312041-602.04-87761726",
+  "tarih": "25.03.2026",
   "ilgi": {
-    "tarih": "06.04.2026",
-    "sayi": "E-83011479-934.01-1999792"
+    "tarih": "10.02.2026",
+    "sayi": "E-65859045-602.04-1652910"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Mal Alımı İhale Onayı",
+    "Talep": "Stratejik Plan Hazırlık Çalışmaları",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    2,
+    2,
+    2
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": "kapanis_yanlis",
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Gönderilen"
+    ],
+    [
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Mal Alımı İhale Onayı",
+    "Stratejik Plan Hazırlık Çalışmaları",
     "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "talep ilgili birimce incelenmiştir"
   ]
 }

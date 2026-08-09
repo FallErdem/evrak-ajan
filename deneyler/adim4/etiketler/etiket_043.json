@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Esra YILDIRIM",
-    "adres": "Ostim Mahallesi Papatya Sokak No: 33/21 Yenimahalle/ANKARA",
+    "ad": "Onur AKTAŞ",
+    "adres": "Çiğdemtepe Mahallesi Ihlamur Caddesi No: 113/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,36 +22,39 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Bursluluk Başvurusu",
+  "konu": "Öğrenim Belgesi Talebi",
   "sayi": null,
-  "tarih": "29.01.2026",
+  "tarih": "28.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bursluluk",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Talep": "Öğrenim Belgesi",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
     "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "mağduriyetin giderilmesi bakımından",
+    "Öğrenim Belgesi",
+    "başvuru dosyasına eklenmek üzere",
+    "şahsen başvuru yapılmıştır",
     "Kurumunuz kayıt bürosundan elden"
   ]
 }

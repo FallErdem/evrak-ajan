@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -31,31 +31,32 @@
     "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Taşıma Merkezi Okulun Belirlenmesi",
-  "sayi": "E-39985474-140-7014217",
-  "tarih": "24.02.2026",
-  "ilgi": {
-    "tarih": "06.02.2026",
-    "sayi": "E-93213107-140-8243575"
-  },
+  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
+  "sayi": "E-65859045-140-1680450",
+  "tarih": "01.05.2026",
+  "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Taşımalı Eğitim",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Taşımalı Eğitim Kapsamına Alınma",
+    "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
+    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim",
+    "Taşımalı Eğitim Kapsamına Alınma",
+    "işlemlerde gecikme yaşanmaktadır",
     "konu hakkında görüş bildirilmesi"
   ]
 }

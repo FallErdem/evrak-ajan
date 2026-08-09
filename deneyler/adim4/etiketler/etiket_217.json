@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ramazan ŞIMŞEK",
-    "adres": "Ostim Mahallesi Nergis Sokak No: 5/12 Yenimahalle/ANKARA",
+    "ad": "Zeynep YILMAZ",
+    "adres": "Emniyet Mahallesi Ceviz Sokağı No: 62/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,27 +26,28 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Muayene Randevusu Hk.",
+  "konu": "Eksikliklerin Giderilmesi Hk.",
   "sayi": null,
-  "tarih": "13.05.2026",
+  "tarih": "14.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Muayene Randevusu",
-    "Sorun": "muayene randevusu verilmediği için işyerim denetimde ceza aldı",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Eksikliklerin Giderilmesi",
+    "Sorun": "uygunluk raporu talebim geciktiği için ruhsat sürem doldu",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "İvedik Mahallesi"
+    "Yer": "Şentepe Mahallesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -55,9 +56,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Muayene Randevusu",
-    "bir aydan uzun süredir",
+    "Eksikliklerin Giderilmesi",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi",
-    "İvedik Mahallesi"
+    "Şentepe Mahallesi"
   ]
 }

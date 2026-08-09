@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife ASLAN",
-    "adres": "Batıkent Mahallesi Erguvan Sokağı No: 92/19 Yenimahalle/ANKARA",
+    "ad": "Mehmet KARACA",
+    "adres": "Kaletepe Mahallesi Lale Caddesi No: 43/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,40 +22,43 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
-    "saklama_suresi": "15"
+    "kod": "115.01.06",
+    "ad": "Uygulama İmar Planı",
+    "saklama_suresi": "B"
   },
-  "konu": "Vergi Değeri Düzeltme Talebi",
+  "konu": "Plan Örneği Talebi",
   "sayi": null,
-  "tarih": "19.01.2026",
+  "tarih": "21.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Vergi Değeri Düzeltme",
-    "Taşınmaz": "77245 ada, 6 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Talep": "Plan Örneği",
+    "Taşınmaz": "97932 ada, 25 parsel",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": "tarama_bozuk",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Vergi Değeri Düzeltme",
-    "77245 ada, 6 parsel",
-    "sürecin tamamlanabilmesi için",
-    "elektronik posta ile"
+    "Plan Örneği",
+    "97932 ada, 25 parsel",
+    "ilgili kuruma sunulmak üzere",
+    "şahsen başvuru yapılmıştır",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

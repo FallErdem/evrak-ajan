@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -31,31 +31,31 @@
     "ad": "Staj İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Staj Kabul Yazısı Talebi",
-  "sayi": "E-55461037-773-3024581",
-  "tarih": "23.03.2026",
-  "ilgi": {
-    "tarih": "17.03.2026",
-    "sayi": "E-86488853-773-7730431"
-  },
+  "konu": "Staj Süresinin Uzatılması Talebi",
+  "sayi": "E-10213773-773-14761361",
+  "tarih": "06.03.2026",
+  "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Staj Kabul Yazısı",
-    "Ortak iş": "Staj Kabul Yazısı konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Staj Kabul Yazısı kapsamında öğrenci kabul edilmesi"
+    "Konu": "Staj Süresinin Uzatılması",
+    "Ortak iş": "Staj Süresinin Uzatılması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
+    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
+    "Talep": "Staj Süresinin Uzatılması konusunda gerekli sürenin tanınması"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
-  "kusur": "tarama_bozuk",
+  "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Kabul Yazısı"
+    "Staj Süresinin Uzatılması"
   ]
 }

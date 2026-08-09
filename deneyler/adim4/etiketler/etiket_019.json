@@ -5,10 +5,10 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,40 +23,43 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Bütçe Hazırlık Çalışmaları",
-  "sayi": "E-55461037-841.01-3003151",
-  "tarih": "30.01.2026",
+  "konu": "Genelge Taslağı Hakkında Görüş",
+  "sayi": "E-55461037-010.06-1448602",
+  "tarih": "26.03.2026",
   "ilgi": {
-    "tarih": "05.01.2026",
-    "sayi": "E-43195403-841.01-2406070"
+    "tarih": "12.02.2026",
+    "sayi": "E-65859045-010.06-1653625"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Bütçe Çalışmaları",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Konu": "Genelge Taslağı Hakkında Görüş",
+    "Mevcut uygulama": "uygulama birimler arasında farklılık göstermektedir",
+    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bütçe Çalışmaları",
+    "Genelge Taslağı Hakkında Görüş",
+    "işlemlerde gecikme yaşanmaktadır",
     "konu hakkında görüş bildirilmesi"
   ]
 }

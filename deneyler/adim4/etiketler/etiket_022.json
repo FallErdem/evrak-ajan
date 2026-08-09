@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,43 +23,78 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
-    "saklama_suresi": "B"
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
   },
-  "konu": "Eksikliklerin Giderilmesi Hk.",
-  "sayi": "E-24432702-115.02.08-9659478",
-  "tarih": "16.03.2026",
-  "ilgi": null,
+  "konu": "Bütçe Takviminin Duyurulması",
+  "sayi": "E-56248377-841.01-800204",
+  "tarih": "11.02.2026",
+  "ilgi": {
+    "tarih": "06.01.2026",
+    "sayi": "E-43195403-841.01-3550828"
+  },
   "ek": {
     "adet": 1,
-    "aciklama": "Aplikasyon krokisi",
-    "sayfa": 6
+    "aciklama": "Genelge sureti",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Eksikliklerin Giderilmesi konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Bütçe Takviminin Duyurulması konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların üçüncü çeyrek sonunda bildirilmesi"
+    "Yürürlük": "01.01.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "geçici görevle çalışan personel",
+    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
+    "Esas 2": "itirazlar on beş gün içinde sonuçlandırılacaktır",
+    "Geçiş hükmü": "devam eden işlemler için ek süre tanınmıştır",
+    "Süre": "otuz gün içinde",
+    "İrtibat": "tereddüt hâlinde Kaymakamlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    3,
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı",
+      "Yürürlük"
+    ],
+    [
+      "Esas 1",
+      "Esas 2",
+      "Geçiş hükmü"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen 1"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "01.01.2026 tarihinde yürürlüğe girmiştir",
+    "geçici görevle çalışan personel",
+    "otuz gün içinde"
   ]
 }

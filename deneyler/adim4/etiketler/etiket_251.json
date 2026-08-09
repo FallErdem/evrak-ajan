@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "yapi_kontrol",
+    "birim_adi": "Yapı Kontrol Müdürlüğü",
+    "detsis_no": "53265760",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24312041",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,44 +23,68 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "105.04",
-    "ad": "Meclis Kararları",
-    "saklama_suresi": "15"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "Kararın Kesinleşmesi Hk.",
-  "sayi": "E-24312041-105.04-64603995",
-  "tarih": "26.03.2026",
+  "konu": "İstinaf Başvurusu Hk.",
+  "sayi": "E-56248377-641.04-795875",
+  "tarih": "27.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Genelge sureti",
-    "sayfa": 4
+    "aciklama": "Uygulama esasları",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Kararın Kesinleşmesi konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "İstinaf Başvurusu konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların mali yıl sonunda bildirilmesi"
+    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Yürürlük": "01.03.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "geçici görevle çalışan personel",
+    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
+    "İrtibat": "uygulama Kaymakamlığımızca izlenecektir"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak",
+      "Yürürlük"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı",
+      "Esas 1"
+    ],
+    [
+      "İstenen 2",
+      "İrtibat",
+      "İstenen 1"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Yapı Kontrol Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
     "uygulamanın ilgililere duyurulması",
-    "sonuçların mali yıl sonunda bildirilmesi"
+    "01.03.2026 tarihinde yürürlüğe girmiştir",
+    "geçici görevle çalışan personel",
+    "uygulama Kaymakamlığımızca izlenecektir"
   ]
 }

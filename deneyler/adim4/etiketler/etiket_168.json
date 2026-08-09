@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
+    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "18426575",
+    "detsis_no": "26888327",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,28 +27,48 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
-    "saklama_suresi": "15"
+    "kod": "807.01",
+    "ad": "Bina ve Tesisler",
+    "saklama_suresi": "10"
   },
-  "konu": "İhale Sonucunun Bildirilmesi",
-  "sayi": "E-18426575-755.02-1494458",
-  "tarih": "28.04.2026",
+  "konu": "Çatı Onarımı Hk.",
+  "sayi": "E-26888327-807.01-3587230",
+  "tarih": "04.05.2026",
   "ilgi": {
-    "tarih": "18.03.2026",
-    "sayi": "E-33152401-755.02-3201880"
+    "tarih": "23.03.2026",
+    "sayi": "E-33152401-807.01-1973213"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İhale Sonucunun Bildirilmesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Çatı Onarımı",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": "tarih_tutarsiz",
@@ -58,9 +78,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İhale Sonucunun Bildirilmesi",
-    "olumlu, belge düzenlendi",
+    "Çatı Onarımı",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,54 +22,73 @@
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "DAĞITIM YERLERİNE",
-  "muhatap_parantez": null,
-  "dagitim": {
-    "geregi": [
-      "Üniversite Rektörlüklerine"
-    ],
-    "bilgi": [
-      "Yükseköğretim Denetleme Kuruluna"
-    ]
-  },
+  "muhatap_makam": "Gazi Üniversitesi",
+  "muhatap_parantez": "Personel Dairesi Başkanlığı",
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
-    "saklama_suresi": "2"
+    "kod": "204.01",
+    "ad": "Doçentlik",
+    "saklama_suresi": "15"
   },
-  "konu": "Tek Ders Sınavı Duyurusu",
-  "sayi": "E-32625594-106-56870952",
-  "tarih": "12.05.2026",
+  "konu": "Doçentlik Sözlü Sınavı Hk.",
+  "sayi": "E-32625594-204.01-75618591",
+  "tarih": "10.04.2026",
   "ilgi": {
-    "tarih": "29.04.2026",
-    "sayi": "E-86488853-106-7763042"
+    "tarih": "25.02.2026",
+    "sayi": "E-42218640-204.01-1214014"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Tek Ders Sınavı konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Doçentlik Sözlü Sınavı konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların bahar dönemi sonunda bildirilmesi"
+    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Yürürlük": "01.02.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "hâlihazırda işleme alınmış başvurular",
+    "Esas 1": "her başvuru için ayrı dosya açılacaktır",
+    "İrtibat": "uygulama Başkanlığımızca izlenecektir"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak",
+      "Yürürlük"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı",
+      "Esas 1"
+    ],
+    [
+      "İstenen 2",
+      "İrtibat",
+      "İstenen 1"
+    ]
   ],
   "pdf_bicimi": "taranmis",
-  "kusur": "sdp_uyumsuz",
+  "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Personel Dairesi Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "01.02.2026 tarihinde yürürlüğe girmiştir",
+    "hâlihazırda işleme alınmış başvurular",
+    "her başvuru için ayrı dosya açılacaktır",
+    "uygulama Başkanlığımızca izlenecektir"
   ]
 }

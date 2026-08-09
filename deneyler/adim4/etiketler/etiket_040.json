@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Burak YILDIZ",
-    "adres": "Beştepe Mahallesi Ihlamur Sokak No: 95/10 Yenimahalle/ANKARA",
+    "ad": "Gamze GÜLER",
+    "adres": "Ragıpbey Mahallesi Akasya Sokak No: 76/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,34 +26,35 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Cezanın Sicilden Silinmesi Talebi",
+  "konu": "Kontenjan Sonuçlarının Açıklanması",
   "sayi": null,
-  "tarih": "03.03.2026",
+  "tarih": "14.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Cezanın Sicilden Silinmesi",
-    "Sorun": "disiplin kararına itirazım süresinde cevaplanmadı",
+    "Şikâyet konusu": "Kontenjan Sonuçlarının Açıklanması",
+    "Sorun": "bursluluk sonucuna itirazım cevapsız kaldı",
     "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Cezanın Sicilden Silinmesi",
+    "Kontenjan Sonuçlarının Açıklanması",
     "yaklaşık kırk gündür",
     "sorunun giderilmesi"
   ]

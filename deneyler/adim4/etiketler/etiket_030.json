@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "17311665",
+    "detsis_no": "86488853",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,28 +27,48 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "204.01",
-    "ad": "Doçentlik",
+    "kod": "209",
+    "ad": "Akademik Personel Görevlendirmeleri",
     "saklama_suresi": "15"
   },
-  "konu": "Başvuru Dosyasının Gönderilmesi",
-  "sayi": "E-17311665-204.01-4883059",
-  "tarih": "10.03.2026",
+  "konu": "Ders Görevlendirmesi Hk.",
+  "sayi": "E-86488853-209-8899797",
+  "tarih": "12.01.2026",
   "ilgi": {
-    "tarih": "23.02.2026",
-    "sayi": "E-42218640-204.01-3283177"
+    "tarih": "01.12.2025",
+    "sayi": "E-42218640-209-1133001"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Başvuru Dosyasının Gönderilmesi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Ders Görevlendirmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
+    "Sınırlama": "yalnızca tamamlanmış işlemler dâhil edilmiştir",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": "kapanis_yanlis",
@@ -58,8 +78,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Başvuru Dosyasının Gönderilmesi",
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "Ders Görevlendirmesi",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı",
+    "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

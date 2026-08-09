@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Kemal ÖZTÜRK",
-    "adres": "Barıştepe Mahallesi Lale Caddesi No: 26/24 Yenimahalle/ANKARA",
+    "ad": "Murat ATEŞ",
+    "adres": "Yeşilevler Mahallesi Manolya Sokağı No: 118/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,42 +21,40 @@
   "aile": "sikayet",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
-  "muhatap_makam": "Yenimahalle Kaymakamlığı",
-  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
-    "saklama_suresi": "10"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Taşıma Aracı Sözleşmesi",
+  "konu": "Savunma Talebi",
   "sayi": null,
-  "tarih": "26.03.2026",
+  "tarih": "14.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Taşıma Aracı Sözleşmesi",
-    "Sorun": "taşıma aracı sabahları güzergâha hiç uğramıyor",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
-    "Talep": "sorunun giderilmesi",
-    "Yer": "okul servis güzergâhı"
+    "Şikâyet konusu": "Savunma",
+    "Sorun": "olayla ilgisi olmadığı hâlde çocuğum soruşturmaya dâhil edildi",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
     2
   ],
-  "pdf_bicimi": "metin_katmanli",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşıma Aracı Sözleşmesi",
-    "bir aydan uzun süredir",
-    "sorunun giderilmesi",
-    "okul servis güzergâhı"
+    "yaklaşık iki aydır",
+    "sorunun giderilmesi"
   ]
 }

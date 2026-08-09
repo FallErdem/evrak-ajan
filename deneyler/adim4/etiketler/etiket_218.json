@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -27,38 +27,70 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Kayıt Takviminin Duyurulması",
-  "sayi": "E-10213773-205-11450216",
-  "tarih": "05.02.2026",
+  "konu": "Nakil Kaydının e-Okulda Güncellenmesi",
+  "sayi": "E-24316060-210.01-47598048",
+  "tarih": "06.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Nüfus kayıt örneği",
+    "aciklama": "Genelge sureti",
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Kayıt Takviminin Duyurulması konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Nakil Kaydının e-Okulda Güncellenmesi konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Yürürlük": "15.02.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "geçici görevle çalışan personel",
+    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
+    "Esas 2": "itirazlar on beş gün içinde sonuçlandırılacaktır",
+    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
+    "İrtibat": "uygulama Bakanlığımızca izlenecektir"
   },
   "paragraf_cumle_sayilari": [
+    3,
     2,
-    2
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak",
+      "Yürürlük"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı"
+    ],
+    [
+      "Esas 1",
+      "Esas 2",
+      "Geçiş hükmü"
+    ],
+    [
+      "İstenen 2",
+      "İrtibat",
+      "İstenen 1"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "konu_eksik",
+  "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "15.02.2026 tarihinde yürürlüğe girmiştir",
+    "geçici görevle çalışan personel",
+    "uygulama Bakanlığımızca izlenecektir"
   ]
 }

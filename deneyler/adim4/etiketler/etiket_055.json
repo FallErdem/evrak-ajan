@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Ege Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Ege Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Karşıyaka Mahallesi Manolya Sokağı No: 46/24 Yenimahalle/ANKARA",
+    "adres": "Batıkent Mahallesi Sümbül Sokağı No: 55/7 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,21 +31,22 @@
     "ad": "Disiplin İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Savunma Talebi",
-  "sayi": "2026/382",
-  "tarih": "24.03.2026",
+  "konu": "Cezanın Sicilden Silinmesi Talebi",
+  "sayi": "2026/76",
+  "tarih": "21.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Savunma işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Talep": "Cezanın Sicilden Silinmesi işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
     2
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
@@ -54,7 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
-    "e-Devlet üzerinden"
+    "posta yoluyla adresime"
   ]
 }

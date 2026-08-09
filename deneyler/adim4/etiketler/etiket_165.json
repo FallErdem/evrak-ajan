@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -31,30 +31,52 @@
     "ad": "İdari Davalar",
     "saklama_suresi": "40"
   },
-  "konu": "İstinaf Başvurusu Hk.",
-  "sayi": "E-10213773-641.04-11450399",
-  "tarih": "05.02.2026",
+  "konu": "Yürütmeyi Durdurma Kararı Hk.",
+  "sayi": "E-24312041-641.04-88053497",
+  "tarih": "26.05.2026",
   "ilgi": {
-    "tarih": "28.01.2026",
-    "sayi": "E-10578106-641.04-2860251"
+    "tarih": "01.05.2026",
+    "sayi": "E-10578106-641.04-1543199"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "aciklama": "Genelge sureti",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "İstinaf Başvurusu konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Konu": "Yürütmeyi Durdurma Kararı konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların üçüncü çeyrek sonunda bildirilmesi"
+    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Yürürlük": "15.03.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
+    "Esas 1": "her başvuru için ayrı dosya açılacaktır",
+    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3,
+    3
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak",
+      "Yürürlük"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı",
+      "Esas 1"
+    ],
+    [
+      "İstenen 2",
+      "İrtibat",
+      "İstenen 1"
+    ]
+  ],
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
@@ -63,6 +85,10 @@
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "15.03.2026 tarihinde yürürlüğe girmiştir",
+    "sözleşmesi devam eden yükleniciler",
+    "her başvuru için ayrı dosya açılacaktır",
+    "süreç Bakanlığımızca takip edilmektedir"
   ]
 }

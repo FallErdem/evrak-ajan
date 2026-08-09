@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra SARI",
-    "adres": "Demetevler Mahallesi Menekşe Caddesi No: 73/11 Yenimahalle/ANKARA",
+    "ad": "Pınar ÖZKAN",
+    "adres": "Gayret Mahallesi Nergis Caddesi No: 92/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,37 +22,38 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "Cezanın Sicilden Silinmesi Talebi",
+  "konu": "Diploma İkinci Nüsha Talebi",
   "sayi": null,
-  "tarih": "10.03.2026",
+  "tarih": "02.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Cezanın Sicilden Silinmesi",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Talep": "Diploma İkinci Nüsha",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
     "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": "tarama_bozuk",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Cezanın Sicilden Silinmesi",
-    "mağduriyetin giderilmesi bakımından",
-    "posta yoluyla adresime"
+    "Diploma İkinci Nüsha",
+    "resmî işlemlerde kullanılmak üzere",
+    "e-Devlet üzerinden"
   ]
 }

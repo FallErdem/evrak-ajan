@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,46 +23,71 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
   },
-  "konu": "Hibe Ödemesi Hk.",
-  "sayi": "E-32625594-310-56446370",
-  "tarih": "11.02.2026",
+  "konu": "Kararın Uygulanması Hk.",
+  "sayi": "E-32625594-050.04-75452827",
+  "tarih": "18.02.2026",
   "ilgi": {
-    "tarih": "23.01.2026",
-    "sayi": "E-17311665-310-4843077"
+    "tarih": "12.02.2026",
+    "sayi": "E-39985474-050.04-5027942"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Transkript",
-    "sayfa": 1
+    "aciklama": "Genelge sureti",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Hibe Ödemesi konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Kararın Uygulanması konusunda yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Yürürlük": "15.05.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "hâlihazırda işleme alınmış başvurular",
+    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
+    "İrtibat": "uygulama Başkanlığımızca izlenecektir"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3,
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak",
+      "Yürürlük"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı",
+      "Esas 1"
+    ],
+    [
+      "İstenen 2",
+      "İrtibat",
+      "İstenen 1"
+    ]
+  ],
+  "pdf_bicimi": "taranmis",
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "15.05.2026 tarihinde yürürlüğe girmiştir",
+    "hâlihazırda işleme alınmış başvurular",
+    "uygulama Başkanlığımızca izlenecektir"
   ]
 }

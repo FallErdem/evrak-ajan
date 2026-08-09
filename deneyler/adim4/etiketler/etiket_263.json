@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Erdemtepe İlkokulu Müdürlüğü",
+    "kurum_adi": "Aydınyaka Mesleki ve Teknik Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10084867",
+    "detsis_no": "10204788",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "olur_yazisi",
@@ -23,40 +23,46 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Onaylı Örnek Talebi",
-  "sayi": "E-10084867-622.02-3286",
-  "tarih": "15.01.2026",
+  "konu": "Mal Alımı İhale Onayı",
+  "sayi": "E-10204788-934.01-1687",
+  "tarih": "20.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Gerekçe raporu",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Belge Talepleri",
-    "Gerekçe": "kaynakların etkin kullanılması",
+    "Konu": "Mal Alımı İhale Onayı",
+    "Gerekçe": "vatandaş memnuniyetinin artırılması",
+    "Mevcut durum": "hazırlık çalışmaları tamamlanmıştır",
+    "Etki": "kaynak kullanımı verimli hâle gelecektir",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü"
+    "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Belge Talepleri",
-    "kaynakların etkin kullanılması"
+    "Mal Alımı İhale Onayı",
+    "vatandaş memnuniyetinin artırılması",
+    "hazırlık çalışmaları tamamlanmıştır",
+    "kaynak kullanımı verimli hâle gelecektir"
   ]
 }

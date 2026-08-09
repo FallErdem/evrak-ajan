@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,36 +23,39 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "773",
+    "ad": "Staj İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Uygulamanın Hukuka Uygunluğu Hk.",
-  "sayi": "E-55461037-045.02-3034137",
-  "tarih": "15.04.2026",
+  "konu": "Staj Kabul Yazısı Talebi",
+  "sayi": "E-65859045-773-1689067",
+  "tarih": "26.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Uygulamanın Hukuka Uygunluğu",
-    "Ortak iş": "Uygulamanın Hukuka Uygunluğu konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Uygulamanın Hukuka Uygunluğu kapsamında öğrenci kabul edilmesi"
+    "Konu": "Staj Kabul Yazısı",
+    "Ortak iş": "Staj Kabul Yazısı konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
+    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
+    "Talep": "Staj Kabul Yazısı kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": "sdp_uyumsuz",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Uygulamanın Hukuka Uygunluğu"
+    "Staj Kabul Yazısı"
   ]
 }

@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,40 +23,41 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
-    "saklama_suresi": "15"
+    "kod": "125",
+    "ad": "Evlendirme İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Bütçe Teklifinin Hazırlanması",
-  "sayi": "E-39985474-841.01-7052845",
-  "tarih": "14.04.2026",
-  "ilgi": {
-    "tarih": "05.03.2026",
-    "sayi": "E-43195403-841.01-2432253"
-  },
+  "konu": "Nikâh Salonu Tahsisi",
+  "sayi": "E-39985474-125-5054993",
+  "tarih": "20.03.2026",
+  "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Bütçe Çalışmaları",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Konu": "Nikâh Salonu Tahsisi",
+    "Mevcut uygulama": "benzer taleplerde farklı sonuçlar doğmuştur",
+    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bütçe Çalışmaları",
+    "Nikâh Salonu Tahsisi",
+    "işlemlerde gecikme yaşanmaktadır",
     "konu hakkında görüş bildirilmesi"
   ]
 }

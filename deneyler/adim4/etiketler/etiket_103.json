@@ -5,59 +5,63 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "kurum_adi": "Mali Hizmetler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "85330682",
+    "detsis_no": "43195403",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Hukuk İşleri Müdürlüğü",
+  "muhatap_makam": "Fen İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "Yürütmeyi Durdurma Kararı Hk.",
-  "sayi": "E-85330682-641.04-2432414",
-  "tarih": "10.04.2026",
+  "konu": "Avan Projenin Onaylanması",
+  "sayi": "E-43195403-755.01-3595601",
+  "tarih": "09.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Gerekçe raporu",
-    "sayfa": 4
+    "aciklama": "Taslak metin",
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "İdari Davalar",
-    "Gerekçe": "iş ve işlemlerin zamanında tamamlanması",
+    "Konu": "Avan Projenin Onaylanması",
+    "Gerekçe": "vatandaş memnuniyetinin artırılması",
+    "Mevcut durum": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Etki": "işlemler daha kısa sürede tamamlanacaktır",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     2
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İdari Davalar",
-    "iş ve işlemlerin zamanında tamamlanması"
+    "Avan Projenin Onaylanması",
+    "vatandaş memnuniyetinin artırılması",
+    "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

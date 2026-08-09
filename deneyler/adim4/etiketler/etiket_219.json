@@ -5,57 +5,61 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ortaöğretim Şube Müdürlüğü",
+    "kurum_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "63971525",
+    "detsis_no": "87302975",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_makam": "Ortaöğretim Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Yabancı Uyruklu Öğrenci Nakil İşlemi",
-  "sayi": "E-63971525-235-5785220",
-  "tarih": "04.02.2026",
+  "konu": "Bursluluk Başvurusu",
+  "sayi": "E-87302975-245.04-8756485",
+  "tarih": "11.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Gerekçe raporu",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
+    "Konu": "Bursluluk",
+    "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
+    "Mevcut durum": "gerekli inceleme yapılmıştır",
+    "Etki": "işlemler daha kısa sürede tamamlanacaktır",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     2
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "hizmetlerin aksamadan yürütülmesi"
+    "mevzuatın öngördüğü sürelere uyulması",
+    "gerekli inceleme yapılmıştır"
   ]
 }

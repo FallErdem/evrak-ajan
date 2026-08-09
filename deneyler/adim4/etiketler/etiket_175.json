@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Hukuk İşleri Müdürlüğü",
+    "kurum_adi": "Yazı İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10578106",
+    "detsis_no": "15986609",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,25 +32,50 @@
     "saklama_suresi": "15"
   },
   "konu": "Gelir Gider Tahmin Cetveli",
-  "sayi": "E-10578106-841.01-2904770",
-  "tarih": "17.04.2026",
+  "sayi": "E-15986609-841.01-3261845",
+  "tarih": "18.02.2026",
   "ilgi": {
-    "tarih": "26.03.2026",
-    "sayi": "E-43195403-841.01-2441488"
+    "tarih": "29.01.2026",
+    "sayi": "E-43195403-841.01-3561973"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Gelir Gider Tahmin Cetveli",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
-    3
+    2,
+    2
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak"
+    ],
+    [
+      "Talebin sonucu",
+      "Gönderilen",
+      "İnceleme"
+    ],
+    [
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
+  ],
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
@@ -59,8 +84,8 @@
   ],
   "anahtar_terimler": [
     "Gelir Gider Tahmin Cetveli",
-    "olumlu, talep karşılandı",
+    "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

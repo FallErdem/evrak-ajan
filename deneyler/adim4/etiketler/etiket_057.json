@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Pınar ÖZDEMIR",
-    "adres": "Ergazi Mahallesi Menekşe Sokak No: 36/7 Yenimahalle/ANKARA",
+    "ad": "Selin ÇAKIR",
+    "adres": "Serhat Mahallesi Papatya Caddesi No: 41/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,39 +22,41 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.04",
-    "ad": "Yapı Ruhsatı",
-    "saklama_suresi": "B"
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
+    "saklama_suresi": "15"
   },
-  "konu": "Ruhsat Yenileme Talebi",
+  "konu": "Vergi Değeri Düzeltme Talebi",
   "sayi": null,
-  "tarih": "16.02.2026",
+  "tarih": "08.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Ruhsat Yenileme",
-    "Taşınmaz": "37719 ada, 19 parsel",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Talep": "Vergi Değeri Düzeltme",
+    "Taşınmaz": "99801 ada, 13 parsel",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
     "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Yenileme",
-    "37719 ada, 19 parsel",
+    "Vergi Değeri Düzeltme",
+    "99801 ada, 13 parsel",
+    "sürecin tamamlanabilmesi için",
     "Kurumunuz kayıt bürosundan elden"
   ]
 }

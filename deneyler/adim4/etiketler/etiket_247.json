@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -32,27 +32,53 @@
     "saklama_suresi": "10"
   },
   "konu": "Kantin İhalesi Duyurusu",
-  "sayi": "E-39985474-165.01-6991878",
-  "tarih": "27.01.2026",
-  "ilgi": {
-    "tarih": "12.01.2026",
-    "sayi": "E-93213107-165.01-8221177"
-  },
+  "sayi": "E-65859045-165.01-1652539",
+  "tarih": "09.02.2026",
+  "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Genelge sureti",
-    "sayfa": 3
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Konu": "Kantin İhalesi konusunda yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Yürürlük": "01.05.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
+    "Esas 1": "her başvuru için ayrı dosya açılacaktır",
+    "Esas 2": "itirazlar on beş gün içinde sonuçlandırılacaktır",
+    "Geçiş hükmü": "geçiş dönemi üç ay olarak belirlenmiştir",
+    "İrtibat": "uygulama Başkanlığımızca izlenecektir"
   },
   "paragraf_cumle_sayilari": [
+    3,
     2,
-    2
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak",
+      "Yürürlük"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı"
+    ],
+    [
+      "Esas 1",
+      "Esas 2",
+      "Geçiş hükmü"
+    ],
+    [
+      "İstenen 2",
+      "İrtibat",
+      "İstenen 1"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
@@ -62,6 +88,10 @@
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "01.05.2026 tarihinde yürürlüğe girmiştir",
+    "sözleşmesi devam eden yükleniciler",
+    "her başvuru için ayrı dosya açılacaktır",
+    "geçiş dönemi üç ay olarak belirlenmiştir"
   ]
 }

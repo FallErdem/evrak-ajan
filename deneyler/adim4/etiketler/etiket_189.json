@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Başkent Ticaret A.Ş.",
+    "kurum_adi": "Başkent Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Uğur Mumcu Mahallesi Çınar Sokak No: 88/17 Yenimahalle/ANKARA",
+    "adres": "Batıkent Mahallesi Yasemin Caddesi No: 119/22 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,29 +31,29 @@
     "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Belge Sureti Talebi",
-  "sayi": "2026/365",
-  "tarih": "05.05.2026",
+  "konu": "Belge Talebinin Karşılanamaması Hk.",
+  "sayi": "2026/451",
+  "tarih": "04.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Belge Sureti işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Belge Talebinin Karşılanamaması işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "imza_eksik",
+  "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "e-Devlet üzerinden"
   ]
 }

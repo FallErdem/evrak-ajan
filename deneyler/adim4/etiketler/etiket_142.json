@@ -5,62 +5,83 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "kurum_adi": "Personel Dairesi Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "86488853",
+    "detsis_no": "42218640",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Genel Sekreterlik",
+  "muhatap_makam": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "saklama_suresi": "10"
   },
-  "konu": "Genelge Görüşü Talebi",
-  "sayi": "E-86488853-010.06-7741076",
-  "tarih": "31.03.2026",
+  "konu": "Topluluk Yönetim Kurulu Bildirimi",
+  "sayi": "E-42218640-309-1299633",
+  "tarih": "27.05.2026",
   "ilgi": {
-    "tarih": "16.03.2026",
-    "sayi": "E-82642947-010.06-8174844"
+    "tarih": "29.04.2026",
+    "sayi": "E-98244303-309-1931531"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Genelge Görüşü",
+    "Talep": "Topluluk Yönetim Kurulu",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": "konu_eksik",
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Genelge Görüşü",
+    "Topluluk Yönetim Kurulu",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "talep ilgili birimce incelenmiştir",
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,30 +27,31 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "Hukuki Mütalaanın Gönderilmesi",
-  "sayi": "E-39985474-045.02-7003783",
-  "tarih": "11.02.2026",
+  "konu": "Öğretmenlik Uygulaması Değerlendirme Raporu",
+  "sayi": "E-65859045-355.02-1657716",
+  "tarih": "24.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Hukuki Mütalaanın Gönderilmesi",
-    "Ortak iş": "Hukuki Mütalaanın Gönderilmesi konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Hukuki Mütalaanın Gönderilmesi konusunda görüş bildirilmesi"
+    "Konu": "Öğretmenlik Uygulaması Değerlendirme Raporu",
+    "Ortak iş": "Öğretmenlik Uygulaması Değerlendirme Raporu konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
+    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
+    "Talep": "Öğretmenlik Uygulaması Değerlendirme Raporu kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     2
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
+  "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
-  "anahtar_terimler": [
-    "Hukuki Mütalaanın Gönderilmesi"
-  ]
+  "anahtar_terimler": []
 }

@@ -5,59 +5,60 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Derya YAVUZ",
-    "adres": "Çiğdemtepe Mahallesi Erguvan Sokak No: 54/20 Yenimahalle/ANKARA",
+    "ad": "Hasan AKSOY",
+    "adres": "Pamuklar Mahallesi Papatya Sokağı No: 45/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020207749",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "3"
+    "ogrenci_no": "2023876904",
+    "bolum": "Matematik Öğretmenliği",
+    "sinif": "2"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Seviye Tespit Sınavı Duyurusu",
+  "konu": "İzin Süresinin Uzatılması",
   "sayi": null,
-  "tarih": "27.03.2026",
+  "tarih": "06.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Seviye Tespit Sınavı",
-    "Sorun": "dosyama eksik evrak yazıldı ancak hangisi olduğu bildirilmedi",
+    "Şikâyet konusu": "İzin Süresinin Uzatılması",
+    "Sorun": "izin dönüşü kaydım yenilenmediği için derslere yazılamadım",
     "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
     2
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Seviye Tespit Sınavı",
+    "İzin Süresinin Uzatılması",
     "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]

@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,48 +23,77 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "115.02.01",
+    "ad": "İmar Durumu (Belgesi)",
+    "saklama_suresi": "B"
   },
-  "konu": "Tutanağın Tebliği Hk.",
-  "sayi": "E-24304062-858-74513891",
-  "tarih": "29.01.2026",
-  "ilgi": null,
+  "konu": "Çekme Mesafeleri Hk.",
+  "sayi": "E-56248377-115.02.01-820480",
+  "tarih": "22.04.2026",
+  "ilgi": {
+    "tarih": "17.04.2026",
+    "sayi": "E-18426575-115.02.01-3700602"
+  },
   "ek": {
     "adet": 2,
-    "aciklama": "İtiraz dilekçesi",
-    "sayfa": 2
+    "aciklama": "Liste ve takvim",
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "mali yıl",
-    "Sayı": "142 kayıt",
-    "Ek 1": "İdari Yaptırım/Para Cezası İşleri listesi",
+    "Dönem": "içinde bulunulan yıl",
+    "Ek 1": "Liste ve takvim",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
+    "Ek 2 içeriği": "başlangıç ve bitiş tarihlerini göstermektedir",
+    "Kapsam": "listede yer alanların tamamı sürece dâhildir",
+    "Değişiklik": "güncel liste dönem başında yenilenecektir",
+    "Süre": "dönem başlamadan önce"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2,
+    3,
+    3,
     2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem"
+    ],
+    [
+      "Ek 1",
+      "Ek 1 içeriği",
+      "Ek 2"
+    ],
+    [
+      "Ek 2 içeriği",
+      "Kapsam",
+      "Değişiklik"
+    ],
+    [
+      "Süre",
+      "İstenen"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "mali yıl",
-    "142 kayıt",
+    "içinde bulunulan yıl",
+    "Liste ve takvim",
     "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması"
+    "listenin ilgili birimlere dağıtılması",
+    "dönem başlamadan önce"
   ]
 }

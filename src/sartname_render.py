@@ -69,25 +69,91 @@ _KAPANIS_ACIKLAMA = {
     "sunulur": 'SUNULUR — metin "Bilgilerinize sunulur." ile bitecek',
 }
 
-# Paragraf yapısının aileye göre açıklaması. Yalnızca cümle sayısı vermek
-# yetmiyor; model paragrafın NE ANLATACAĞINI bilmezse iki paragrafı da aynı
-# şeye ayırıyor. ADIM 1'de ölçüldü.
-_PARAGRAF_ACIKLAMA = {
-    "belge_talebi":     ["talebin konusu, dayanağı ve gerekçesi"],
-    "itiraz":           ["önceki karar ve itiraz gerekçesi", "talep"],
-    "sikayet":          ["sorunun tanımı ve süresi", "önceki başvuru ve talep"],
-    "bilgi_edinme":     ["kanuni dayanak ve talep", "istenen ayrıntı ve bildirim yolu"],
-    "belge_cevabi":     ["talebin değerlendirilmesi ve sonucu",
-                         "teslim/gönderim koşulları"],
-    "kaynak_talebi":    ["mevcut durum ve sonucu", "amaç ve talep"],
-    "isbirligi_talebi": ["ortak işin tanımı", "talep"],
-    "bilgilendirme":    ["uygulama, kaynağı ve kapsamı", "muhataptan istenenler"],
-    "gorus_talebi":     ["konu ve oluşan tereddüt", "talep"],
-    "ust_yazi":         ["dayanak ve dönem", "gönderilen eklerin bildirilmesi",
-                         "muhataptan istenenler"],
-    "tekit":            ["ilgiye atıf ve mevcut durum", "talep ve süre"],
-    "olur":             ["konu ve gerekçe", "olur talebi"],
+# Paragraf İŞLEVLERİ — her paragraf farklı bir soruya cevap verir.
+#
+# DOLGU METNİ ENGELLEYEN ASIL MEKANİZMA BU. Yalnızca cümle sayısı verilirse
+# model uzun belgeyi aynı bilgiyi iki kez söyleyerek dolduruyor — ve bu,
+# uydurmadan daha tehlikeli çünkü kural denetleyicisine takılmaz: metinde
+# şartname dışı hiçbir bilgi yok, sadece tekrar var.
+#
+# Yapı: gövde işlevleri sırayla alınır, SON işlev her zaman en sonda durur
+# (kapanış cümlesi orada olacak).
+_PARAGRAF_ISLEV = {
+    "belge_talebi": {
+        "tek": "talebin konusu, dayanağı ve gerekçesi",
+        "govde": ["talebin konusu ve dayanağı"],
+        "son": "talep ve gerekçe"},
+    "itiraz": {
+        "tek": "önceki karar, itiraz gerekçesi ve talep",
+        "govde": ["önceki karar ve sonucu", "itiraz gerekçesi"],
+        "son": "yeniden değerlendirme talebi"},
+    "sikayet": {
+        "tek": "sorun, süresi ve talep",
+        "govde": ["sorunun tanımı ve süresi", "sorunun yol açtığı durum"],
+        "son": "önceki başvuru ve talep"},
+    "bilgi_edinme": {
+        "tek": "kanuni dayanak, talep ve bildirim yolu",
+        "govde": ["kanuni dayanak ve talep"],
+        "son": "istenen ayrıntı ve bildirim yolu"},
+    "belge_cevabi": {
+        "tek": "talebin değerlendirilmesi ve sonucu",
+        "govde": ["talebin değerlendirilmesi ve yapılan inceleme",
+                  "değerlendirmenin sonucu",
+                  "işlem ayrıntıları ve kapsam"],
+        "son": "teslim/bildirim koşulları ve irtibat"},
+    "kaynak_talebi": {
+        "tek": "mevcut durum, amaç ve talep",
+        "govde": ["mevcut durum ve sonucu"],
+        "son": "amaç ve talep"},
+    "isbirligi_talebi": {
+        "tek": "ortak işin tanımı ve talep",
+        "govde": ["ortak işin tanımı"],
+        "son": "talep"},
+    "bilgilendirme": {
+        "tek": "uygulama, kapsamı ve istenenler",
+        "govde": ["uygulamanın ne olduğu, kaynağı ve yürürlüğü",
+                  "kapsamı ve kapsam dışında kalanlar",
+                  "uygulama esasları ve geçiş hükmü"],
+        "son": "muhataptan istenenler, süre ve irtibat"},
+    "gorus_talebi": {
+        "tek": "konu, tereddüt ve talep",
+        "govde": ["konu ve oluşan tereddüt"],
+        "son": "görüş talebi"},
+    "ust_yazi": {
+        "tek": "dayanak, ekler ve istenenler",
+        "govde": ["dayanak, dönem ve kapsam",
+                  "gönderilen eklerin bildirilmesi",
+                  "eklerin içeriği ve kapsamı"],
+        "son": "muhataptan istenenler, süre ve irtibat"},
+    "tekit": {
+        "tek": "ilgiye atıf, mevcut durum ve talep",
+        "govde": ["ilgiye atıf ve mevcut durum"],
+        "son": "talep ve süre"},
+    "olur": {
+        "tek": "konu, gerekçe ve olur talebi",
+        "govde": ["konu ve gerekçe"],
+        "son": "olur talebi"},
 }
+
+
+def _paragraf_islevleri(aile: str, adet: int) -> list[str]:
+    """N paragraf için N işlev döndürür.
+
+    Gövde işlevleri sırayla alınır, son işlev her zaman en sona konur.
+    Gövde havuzu yetmezse son işlevden önce genel bir ara işlev eklenir —
+    ama bu durum tasarımda oluşmuyor: uzun katman ailelerinin gövde havuzu
+    3, azami paragraf sayısı 4.
+    """
+    t = _PARAGRAF_ISLEV.get(aile)
+    if not t:
+        return [""] * adet
+    if adet == 1:
+        return [t["tek"]]
+    govde = t["govde"][:adet - 1]
+    while len(govde) < adet - 1:
+        govde.append("konunun ayrıntıları")
+    return govde + [t["son"]]
+
 
 # Üslup, yazar tipine göre.
 _USLUP = {
@@ -167,8 +233,9 @@ def _yon_adi(e: dict) -> str:
 def _gonderen_satiri(e: dict) -> str:
     g = e["gonderen"]
     if g["tip"] == "ogrenci":
-        return (f"{g['ad']} ({g['bolum']}, {g['sinif']}. sınıf, "
-                f"öğrenci no {g['ogrenci_no']})")
+        duzey = (f"{g['sinif']}. sınıf" if g.get("sinif")
+                 else g.get("ogrenim_duzeyi", "kayıtlı öğrenci"))
+        return f"{g['ad']} ({g['bolum']}, {duzey}, öğrenci no {g['ogrenci_no']})"
     if g["tip"] == "gercek_kisi":
         return f"{g['ad']} (vatandaş)"
     if g["tip"] == "ozel_tuzel_kisi":
@@ -210,13 +277,26 @@ def _somut_bloku(e: dict) -> str:
 
 
 def _paragraf_bloku(e: dict) -> str:
+    """Paragraf planı. Uzun katmanda HANGİ ALANIN NEREYE gideceğini de yazar.
+
+    Ölçülen sorun: yalnızca cümle sayısı ve işlev verilince bazı alanların
+    hangi paragrafa gireceği belirsiz kalıyordu ("Süre" alanı üç ayrı
+    paragrafa da uyuyordu). Model ya bir alanı düşürüyor ya iki paragrafta
+    tekrarlıyordu.
+
+    Alan listesi verildiğinde her paragrafta alan sayısı cümle sayısına eşit
+    olur ve yerleşim belirsizliği ortadan kalkar.
+    """
     sayilar = e["paragraf_cumle_sayilari"]
-    aciklamalar = _PARAGRAF_ACIKLAMA.get(e["aile"], [""] * len(sayilar))
+    islevler = _paragraf_islevleri(e["aile"], len(sayilar))
+    gruplar = e.get("paragraf_alanlari")
     satirlar = []
     for i, n in enumerate(sayilar):
-        ac = aciklamalar[i] if i < len(aciklamalar) else ""
-        son = " (son cümle kapanış cümlesidir)" if i == len(sayilar) - 1 else ""
-        satirlar.append(f"  {i+1}. paragraf — {n} cümle — {ac}{son}")
+        son = "  (son cümle kapanış cümlesidir)" if i == len(sayilar) - 1 else ""
+        satirlar.append(f"  {i+1}. paragraf — {n} cümle — {islevler[i]}{son}")
+        if gruplar and i < len(gruplar):
+            satirlar.append(f"        kullanılacak alanlar: "
+                            f"{', '.join(gruplar[i])}")
     return "\n".join(satirlar)
 
 

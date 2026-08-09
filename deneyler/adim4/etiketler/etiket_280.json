@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sultan AYDIN",
-    "adres": "Serhat Mahallesi Nergis Sokak No: 112/18 Yenimahalle/ANKARA",
+    "ad": "Onur ŞAHIN",
+    "adres": "Demetevler Mahallesi Nergis Caddesi No: 74/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,40 +22,41 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "Burs Ödemesi Hk.",
+  "konu": "Yurtdışı Kullanım İçin Onay Talebi",
   "sayi": null,
-  "tarih": "18.02.2026",
+  "tarih": "30.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Burs Ödemesi",
-    "Sorun": "burs ödemem üç aydır yatmadı",
-    "Süre": "yaklaşık üç haftadır",
+    "Şikâyet konusu": "Yurtdışı Kullanım İçin Onay",
+    "Sorun": "diplomamda adım yanlış yazılmış, düzeltme talebim sonuçlanmadı",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Burs Ödemesi",
-    "burs ödemem üç aydır yatmadı",
-    "yaklaşık üç haftadır",
+    "Yurtdışı Kullanım İçin Onay",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

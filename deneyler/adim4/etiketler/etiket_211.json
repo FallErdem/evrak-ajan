@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "85330682",
+    "detsis_no": "26888327",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,26 +32,46 @@
     "saklama_suresi": "10"
   },
   "konu": "Çatı Onarımı Hk.",
-  "sayi": "E-85330682-807.01-2413840",
-  "tarih": "26.02.2026",
+  "sayi": "E-26888327-807.01-3528305",
+  "tarih": "19.01.2026",
   "ilgi": {
-    "tarih": "30.01.2026",
-    "sayi": "E-33152401-807.01-3181227"
+    "tarih": "08.01.2026",
+    "sayi": "E-33152401-807.01-1934744"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Çatı Onarımı",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Fen İşleri Müdürlüğü",
@@ -59,7 +79,8 @@
   ],
   "anahtar_terimler": [
     "Çatı Onarımı",
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı",
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

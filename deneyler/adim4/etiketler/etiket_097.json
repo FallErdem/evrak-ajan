@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep ATEŞ",
-    "adres": "Uğur Mumcu Mahallesi Ihlamur Caddesi No: 95/18 Yenimahalle/ANKARA",
+    "ad": "Derya POLAT",
+    "adres": "Ostim Mahallesi Ceviz Sokağı No: 88/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,26 +26,29 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "Şikâyet Başvurusu Hk.",
+  "konu": "Ruhsatın Askıya Alınması Hk.",
   "sayi": null,
-  "tarih": "14.05.2026",
+  "tarih": "18.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Şikâyet Başvurusu",
-    "Sorun": "CİMER üzerinden yaptığım başvuruya otuz gün geçmesine rağmen cevap verilmedi",
-    "Süre": "yaklaşık üç haftadır",
+    "Şikâyet konusu": "Ruhsatın Askıya Alınması",
+    "Sorun": "ruhsat başvurum iki aydır sonuçlandırılmadı",
+    "Süre": "yaklaşık kırk gündür",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
-    "Talep": "sorunun giderilmesi"
+    "Talep": "sorunun giderilmesi",
+    "Yer": "Karşıyaka Mahallesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
@@ -54,8 +57,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Şikâyet Başvurusu",
-    "yaklaşık üç haftadır",
-    "sorunun giderilmesi"
+    "Ruhsatın Askıya Alınması",
+    "yaklaşık kırk gündür",
+    "sorunun giderilmesi",
+    "Karşıyaka Mahallesi"
   ]
 }

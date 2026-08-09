@@ -22,56 +22,77 @@
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "DAĞITIM YERLERİNE",
-  "muhatap_parantez": null,
-  "dagitim": {
-    "geregi": [
-      "İl Müdürlüklerine"
-    ],
-    "bilgi": [
-      "İçişleri Bakanlığına"
-    ]
-  },
-  "beklenen_kapanis": "karma",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "dagitim": null,
+  "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma İkinci Nüsha Talebi",
-  "sayi": "E-10213773-198.02.01-11483841",
-  "tarih": "04.03.2026",
-  "ilgi": null,
+  "konu": "Kayıt Takviminin Duyurulması",
+  "sayi": "E-10213773-205-14837906",
+  "tarih": "29.04.2026",
+  "ilgi": {
+    "tarih": "22.04.2026",
+    "sayi": "E-21291472-205-6368845"
+  },
   "ek": {
     "adet": 2,
     "aciklama": "Öğrenci listesi",
-    "sayfa": 3
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
-    "Sayı": "94 kayıt",
-    "Ek 1": "Diploma listesi",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Ek 1": "Öğrenci listesi",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
+    "Ek 2 içeriği": "haftalık zaman çizelgesi biçimindedir",
+    "Kapsam": "listede yer alanların tamamı sürece dâhildir",
+    "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
+    "Süre": "on beş gün içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2,
+    3,
+    3,
     2
   ],
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem"
+    ],
+    [
+      "Ek 1",
+      "Ek 1 içeriği",
+      "Ek 2"
+    ],
+    [
+      "Ek 2 içeriği",
+      "Kapsam",
+      "Değişiklik"
+    ],
+    [
+      "Süre",
+      "İstenen"
+    ]
+  ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "sayi_eksik",
+  "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "öğretim yılı",
-    "94 kayıt",
-    "Diploma listesi",
+    "içinde bulunulan öğretim yılı",
+    "Öğrenci listesi",
     "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması"
+    "listenin ilgili birimlere dağıtılması",
+    "haftalık zaman çizelgesi biçimindedir"
   ]
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten ERDOĞAN",
-    "adres": "İvedik Mahallesi Lale Sokak No: 109/7 Yenimahalle/ANKARA",
+    "ad": "Onur BULUT",
+    "adres": "Pamuklar Mahallesi Lale Sokak No: 40/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,39 +22,40 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Kurs Programı Değişikliği",
+  "konu": "Uyum Sınıfı Açılması Talebi",
   "sayi": null,
-  "tarih": "05.02.2026",
+  "tarih": "27.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kurs Programı Değişikliği",
-    "Sorun": "kurs bitirme belgem altı aydır düzenlenmedi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Uyum Sınıfı Açılması",
+    "Sorun": "uyum sınıfı açılmadığı için çocuğum dersleri takip edemiyor",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
+  "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kurs Programı Değişikliği",
-    "yaklaşık kırk gündür",
+    "Uyum Sınıfı Açılması",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

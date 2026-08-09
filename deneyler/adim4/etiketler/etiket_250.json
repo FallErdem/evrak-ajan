@@ -22,16 +22,9 @@
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_makam": "Gazi Üniversitesi",
   "muhatap_parantez": null,
-  "dagitim": {
-    "geregi": [
-      "Üniversite Rektörlüklerine"
-    ],
-    "bilgi": [
-      "Yükseköğretim Denetleme Kuruluna"
-    ]
-  },
+  "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
     "kod": "050.04",
@@ -39,27 +32,59 @@
     "saklama_suresi": "15"
   },
   "konu": "Kararın Uygulanması Hk.",
-  "sayi": "E-32625594-050.04-56884510",
-  "tarih": "15.05.2026",
-  "ilgi": null,
+  "sayi": "E-32625594-050.04-75468949",
+  "tarih": "23.02.2026",
+  "ilgi": {
+    "tarih": "30.01.2026",
+    "sayi": "E-39985474-050.04-5018184"
+  },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 4
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Konu": "Kararın Uygulanması konusunda yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Yürürlük": "01.05.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "yürürlük tarihinden önce sonuçlandırılan işlemler",
+    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
+    "Esas 2": "değerlendirme sonucu başvurana yazılı bildirilecektir",
+    "Geçiş hükmü": "devam eden işlemler için ek süre tanınmıştır",
+    "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
+    3,
     2,
-    2
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak",
+      "Yürürlük"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı"
+    ],
+    [
+      "Esas 1",
+      "Esas 2",
+      "Geçiş hükmü"
+    ],
+    [
+      "İstenen 2",
+      "İrtibat",
+      "İstenen 1"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "ek_beyani_yanlis",
+  "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Gazi Üniversitesi Rektörlüğü",
@@ -67,6 +92,7 @@
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "01.05.2026 tarihinde yürürlüğe girmiştir"
   ]
 }

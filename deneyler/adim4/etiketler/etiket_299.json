@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatma KARACA",
-    "adres": "Yakacık Mahallesi Ihlamur Sokağı No: 118/13 Yenimahalle/ANKARA",
+    "ad": "Ramazan KORKMAZ",
+    "adres": "Ragıpbey Mahallesi Çınar Caddesi No: 87/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,35 +26,36 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Sınıf Seviyesinin Belirlenmesi",
+  "konu": "Burs Kesilmesi Hk.",
   "sayi": null,
-  "tarih": "27.05.2026",
+  "tarih": "13.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Sınıf Seviyesinin Belirlenmesi",
-    "Sorun": "yurtdışı denklik başvurum dört aydır sonuçlanmadı",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Burs Kesilmesi",
+    "Sorun": "bursluluk sonucuna itirazım cevapsız kaldı",
+    "Süre": "bir aydan uzun süredir",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": "muhatap_belirsiz",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Sınıf Seviyesinin Belirlenmesi",
-    "yaklaşık kırk gündür",
+    "Burs Kesilmesi",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi"
   ]
 }

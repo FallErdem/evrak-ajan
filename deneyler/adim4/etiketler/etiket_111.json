@@ -12,12 +12,12 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Osman KOÇ",
-    "adres": "Çiğdemtepe Mahallesi Çınar Caddesi No: 105/23 Yenimahalle/ANKARA",
+    "ad": "Nurten YILDIZ",
+    "adres": "Serhat Mahallesi Manolya Sokağı No: 47/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021929892",
-    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "ogrenci_no": "2023265460",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
     "sinif": "4"
   },
   "belge_turu": "dilekce",
@@ -29,33 +29,37 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
     "saklama_suresi": "10"
   },
-  "konu": "Transkript Talebi",
+  "konu": "Katkı Payı İade Talebi",
   "sayi": null,
-  "tarih": "04.02.2026",
+  "tarih": "08.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Transkript",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Talep": "Katkı Payı İade",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
     "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "imza_eksik",
+  "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "başvuru dosyasına eklenmek üzere",
+    "Katkı Payı İade",
+    "sürecin tamamlanabilmesi için",
+    "şahsen başvuru yapılmıştır",
     "e-Devlet üzerinden"
   ]
 }

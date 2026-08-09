@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -31,31 +31,35 @@
     "ad": "Hukuki",
     "saklama_suresi": "30"
   },
-  "konu": "İhtilaflı Hususta Değerlendirme Talebi",
-  "sayi": "E-65859045-045.02-3457028",
-  "tarih": "27.01.2026",
+  "konu": "Hukuki Görüş Talebi",
+  "sayi": "E-55461037-045.02-1500105",
+  "tarih": "28.05.2026",
   "ilgi": {
-    "tarih": "24.12.2025",
-    "sayi": "E-82642947-045.02-8111207"
+    "tarih": "18.05.2026",
+    "sayi": "E-82642947-045.02-7092463"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "İhtilaflı Hususta Değerlendirme",
-    "Ortak iş": "İhtilaflı Hususta Değerlendirme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "İhtilaflı Hususta Değerlendirme konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Hukuki Görüş",
+    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
+    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
+    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    2,
+    3
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": null,
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Genel Sekreterlik",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İhtilaflı Hususta Değerlendirme"
+    "Hukuki Görüş"
   ]
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine ŞIMŞEK",
-    "adres": "Beştepe Mahallesi Akasya Sokağı No: 112/8 Yenimahalle/ANKARA",
+    "ad": "Selin ŞAHIN",
+    "adres": "Pamuklar Mahallesi Menekşe Sokağı No: 35/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,38 +22,38 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Araştırma Talebinin Reddi Hk.",
+  "konu": "Borç Yapılandırma Talebi",
   "sayi": null,
-  "tarih": "03.03.2026",
+  "tarih": "23.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Araştırma Talebinin Reddi",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Talep": "Borç Yapılandırma",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
     "Başvuru şekli": "şahsen başvuru yapılmıştır",
     "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Araştırma Talebinin Reddi",
-    "sürecin tamamlanabilmesi için",
+    "Borç Yapılandırma",
     "şahsen başvuru yapılmıştır",
     "elektronik posta ile"
   ]

@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Fatih KARA",
-    "adres": "Demetevler Mahallesi Ceviz Sokak No: 51/21 Yenimahalle/ANKARA",
+    "ad": "Onur SARI",
+    "adres": "Pamuklar Mahallesi Sümbül Sokağı No: 83/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021846825",
-    "bolum": "Hukuk Fakültesi",
-    "sinif": "3"
+    "ogrenci_no": "2021364782",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,34 +29,37 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Farabi Başvuru Sonuçları",
+  "konu": "Mezuniyet Belgesi Doğrulama Talebi",
   "sayi": null,
-  "tarih": "18.03.2026",
+  "tarih": "19.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Farabi Başvuru Sonuçları",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Talep": "Mezuniyet Belgesi Doğrulama",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "tarih_eksik",
+  "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Farabi Başvuru Sonuçları",
-    "sürecin tamamlanabilmesi için",
-    "e-Devlet üzerinden"
+    "Mezuniyet Belgesi Doğrulama",
+    "ilgili kuruma sunulmak üzere",
+    "şahsen başvuru yapılmıştır",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

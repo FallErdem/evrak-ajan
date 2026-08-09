@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emre SARI",
-    "adres": "Demetevler Mahallesi Ihlamur Sokak No: 88/21 Yenimahalle/ANKARA",
+    "ad": "Ayşe AVCI",
+    "adres": "Batıkent Mahallesi Kestane Sokağı No: 1/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,26 +26,27 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Usta Öğretici Görevlendirmesi",
+  "konu": "Onaylı Örnek Talebi",
   "sayi": null,
-  "tarih": "23.04.2026",
+  "tarih": "16.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Usta Öğretici Görevlendirmesi",
-    "Sorun": "kayıt olduğum kurs yeterli kursiyer yok denilerek iptal edildi",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Şikâyet konusu": "Onaylı Örnek",
+    "Sorun": "belge talebime yazılı bir cevap verilmedi",
+    "Süre": "yaklaşık üç haftadır",
+    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
     2
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -53,8 +54,8 @@
     "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Usta Öğretici Görevlendirmesi",
-    "bir aydan uzun süredir",
+    "Onaylı Örnek",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]
 }

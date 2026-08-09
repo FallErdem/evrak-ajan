@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Personel Dairesi Başkanlığı",
+    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "42218640",
+    "detsis_no": "17311665",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
@@ -27,28 +27,32 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Genelge Uygulamasında Karşılaşılan Tereddütler",
-  "sayi": "E-42218640-010.06-3348056",
-  "tarih": "21.05.2026",
+  "konu": "Belgenin Dijital Kopyasının Gönderilmesi",
+  "sayi": "E-17311665-805.02.05-4610614",
+  "tarih": "10.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Taslak metin",
-    "sayfa": 6
+    "aciklama": "Gerekçe raporu",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Genelgeler",
+    "Konu": "Belgenin Dijital Kopyasının Gönderilmesi",
     "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
+    "Mevcut durum": "hazırlık çalışmaları tamamlanmıştır",
+    "Etki": "hizmet kalitesinde iyileşme beklenmektedir",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
@@ -57,6 +61,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "hizmetlerin aksamadan yürütülmesi"
+    "Belgenin Dijital Kopyasının Gönderilmesi",
+    "hizmetlerin aksamadan yürütülmesi",
+    "hazırlık çalışmaları tamamlanmıştır"
   ]
 }

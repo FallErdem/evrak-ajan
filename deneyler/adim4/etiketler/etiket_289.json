@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,37 +27,64 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Bilgilerindeki Hatanın Düzeltilmesi",
-  "sayi": "E-24316060-198.02.01-60929560",
-  "tarih": "04.03.2026",
+  "konu": "Öğrenci Bilgi Formunun Gönderilmesi",
+  "sayi": "E-10213773-235-14731659",
+  "tarih": "13.02.2026",
   "ilgi": {
-    "tarih": "23.01.2026",
-    "sayi": "E-21291472-198.02.01-4910439"
+    "tarih": "26.01.2026",
+    "sayi": "E-21291472-235-6307082"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma Bilgilerindeki Hatanın Düzeltilmesi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Öğrenci Bilgi Formunun Gönderilmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "konuyla ilgili irtibat Valiliğimizce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    2,
+    2,
+    2
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": null,
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Gönderilen"
+    ],
+    [
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "Öğrenci Bilgi Formunun Gönderilmesi",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı",
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

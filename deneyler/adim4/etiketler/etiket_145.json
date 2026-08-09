@@ -5,60 +5,61 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Zeynep TURAN",
-    "adres": "Uğur Mumcu Mahallesi Sümbül Sokağı No: 73/5 Yenimahalle/ANKARA",
+    "ad": "Havva AKSOY",
+    "adres": "Karşıyaka Mahallesi Nergis Sokağı No: 118/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019201121",
-    "bolum": "Hukuk Fakültesi",
-    "sinif": "2"
+    "ogrenci_no": "2024560657",
+    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "sinif": "3"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
+    "saklama_suresi": "B"
   },
-  "konu": "Topluluk Danışmanı Görevlendirmesi",
+  "konu": "Kabul Mektubu Talebi",
   "sayi": null,
-  "tarih": "26.03.2026",
+  "tarih": "16.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Topluluk Danışmanı Görevlendirmesi",
-    "Sorun": "topluluk kurma başvurumuz bir dönemdir sonuçlandırılmadı",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Şikâyet konusu": "Kabul Mektubu",
+    "Sorun": "yurtdışında aldığım dersler transkriptime işlenmedi",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
     2
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Topluluk Danışmanı Görevlendirmesi",
-    "yaklaşık iki aydır",
+    "Kabul Mektubu",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

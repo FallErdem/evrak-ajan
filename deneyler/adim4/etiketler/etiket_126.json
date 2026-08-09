@@ -32,29 +32,57 @@
     "saklama_suresi": "15"
   },
   "konu": "Kurul Kararının Gönderilmesi",
-  "sayi": "E-32625594-050.04-56705752",
-  "tarih": "07.04.2026",
-  "ilgi": null,
+  "sayi": "E-32625594-050.04-75582510",
+  "tarih": "30.03.2026",
+  "ilgi": {
+    "tarih": "20.02.2026",
+    "sayi": "E-39985474-050.04-5034066"
+  },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 6
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
-    "Sayı": "68 kayıt",
-    "Ek 1": "Kararlar listesi",
+    "Dönem": "güz dönemi",
+    "Ek 1": "Liste ve takvim",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
+    "Ek 2 içeriği": "başlangıç ve bitiş tarihlerini göstermektedir",
+    "Kapsam": "listede yer alanların tamamı sürece dâhildir",
+    "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
+    "Süre": "on beş gün içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2,
+    3,
+    3,
     2
   ],
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem"
+    ],
+    [
+      "Ek 1",
+      "Ek 1 içeriği",
+      "Ek 2"
+    ],
+    [
+      "Ek 2 içeriği",
+      "Kapsam",
+      "Değişiklik"
+    ],
+    [
+      "Süre",
+      "İstenen"
+    ]
+  ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "sayi_eksik",
+  "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Gazi Üniversitesi Rektörlüğü",
@@ -62,10 +90,10 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "öğretim yılı",
-    "68 kayıt",
-    "Kararlar listesi",
+    "güz dönemi",
+    "Liste ve takvim",
     "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması"
+    "listenin ilgili birimlere dağıtılması",
+    "on beş gün içinde"
   ]
 }

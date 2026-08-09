@@ -239,6 +239,17 @@ class VarlikHavuzu:
                 return t
         return baslangic
 
+    def yururluk_tarihi(self) -> str:
+        """Bir uygulamanın yürürlüğe girdiği tarih.
+
+        Belge tarihinden bağımsız; genelgenin kendisi belgeden önce
+        yürürlüğe girmiş olabilir. Ay başları tercih ediliyor — gerçek
+        uygulamalar genelde ay başında yürürlüğe girer.
+        """
+        ay = self.rnd.choice([1, 2, 3, 4, 5])
+        gun = self.rnd.choice([1, 1, 1, 15, 15])
+        return f"{gun:02d}.{ay:02d}.2026 tarihinde yürürlüğe girmiştir"
+
     def onceki_is_gunu(self, tarih: date, en_az: int = 3, en_cok: int = 45) -> date:
         """Verilen tarihten önce bir iş günü — ilgi yazısının tarihi için.
 

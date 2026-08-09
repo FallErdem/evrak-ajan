@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ömer ATEŞ",
-    "adres": "İvedik Mahallesi Ihlamur Sokak No: 85/6 Yenimahalle/ANKARA",
+    "ad": "Yusuf GÜLER",
+    "adres": "Karşıyaka Mahallesi Lale Caddesi No: 5/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,22 +30,23 @@
     "ad": "Bursluluk",
     "saklama_suresi": "10"
   },
-  "konu": "Gelir Belgesi Talebi",
+  "konu": "Bursluluk Sınavı Duyurusu",
   "sayi": null,
-  "tarih": "27.01.2026",
+  "tarih": "22.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Gelir Belgesi",
-    "Sorun": "gelir belgesi sunduğum hâlde başvurum değerlendirmeye alınmadı",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Şikâyet konusu": "Bursluluk Sınavı",
+    "Sorun": "bursluluk sonucuna itirazım cevapsız kaldı",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "imza_eksik",
   "yasakli_adlar": [
@@ -53,8 +54,8 @@
     "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Gelir Belgesi",
-    "bir aydan uzun süredir",
+    "Bursluluk Sınavı",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

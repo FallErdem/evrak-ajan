@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yapi_kontrol",
-    "birim_adi": "Yapı Kontrol Müdürlüğü",
-    "detsis_no": "53265760",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mustafa YAVUZ",
-    "adres": "Çiğdemtepe Mahallesi Menekşe Caddesi No: 28/24 Yenimahalle/ANKARA",
+    "ad": "Gamze DOĞAN",
+    "adres": "Çiğdemtepe Mahallesi Kestane Sokak No: 100/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,28 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
     "saklama_suresi": "10"
   },
-  "konu": "Dilekçe Cevabı",
+  "konu": "Muayene Ücreti Hk.",
   "sayi": null,
-  "tarih": "25.03.2026",
-  "ilgi": null,
+  "tarih": "09.03.2026",
+  "ilgi": {
+    "tarih": "03.03.2026",
+    "sayi": "E-59553370-175-3452530"
+  },
   "ek": {
     "adet": 1,
-    "aciklama": "Başvuru evrakı",
+    "aciklama": "Dilekçe eki belge",
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Dilekçe Cevabı",
+    "İtiraz konusu": "Muayene Ücreti",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
     "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
@@ -49,15 +52,16 @@
     3,
     2
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yapı Kontrol Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Dilekçe Cevabı",
+    "Muayene Ücreti",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep ASLAN",
-    "adres": "Serhat Mahallesi Lale Sokak No: 29/7 Yenimahalle/ANKARA",
+    "ad": "Burak YILDIZ",
+    "adres": "Ragıpbey Mahallesi Ceviz Caddesi No: 71/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,28 +26,29 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
-    "saklama_suresi": "10"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Bağış Makbuzu Talebi",
+  "konu": "Zorunlu Nakil Talebi",
   "sayi": null,
-  "tarih": "08.05.2026",
+  "tarih": "13.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Başvuru formu",
-    "sayfa": 3
+    "aciklama": "Önceki başvuru sureti",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Talep": "Bağış Makbuzu",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Talep": "Zorunlu Nakil",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
     "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -55,7 +56,8 @@
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bağış Makbuzu",
+    "Zorunlu Nakil",
+    "sürecin tamamlanabilmesi için",
     "e-Devlet üzerinden"
   ]
 }

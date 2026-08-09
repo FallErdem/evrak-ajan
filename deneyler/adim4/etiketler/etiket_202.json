@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Merkez Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Merkez Ticaret A.Ş.",
     "ad": null,
-    "adres": "Susuz Mahallesi Lale Sokağı No: 115/19 Yenimahalle/ANKARA",
+    "adres": "Gayret Mahallesi Papatya Sokak No: 78/13 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -32,22 +32,22 @@
     "saklama_suresi": "10"
   },
   "konu": "Terazi Damgalama Başvurusu",
-  "sayi": "2026/296",
-  "tarih": "25.03.2026",
+  "sayi": "2026/107",
+  "tarih": "20.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Terazi Damgalama işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "elektronik posta ile"
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": null,
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Ruhsat ve Denetim Müdürlüğü",
@@ -55,7 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
-    "elektronik posta ile"
+    "e-Devlet üzerinden"
   ]
 }

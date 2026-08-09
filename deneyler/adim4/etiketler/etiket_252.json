@@ -5,61 +5,87 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "makine_ikmal",
-    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
-    "detsis_no": "89052714",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
+    "kurum_adi": "Zabıta Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "18426575",
+    "detsis_no": "50719027",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "801",
-    "ad": "Taşıt ve İş Makineleri İşleri",
-    "saklama_suresi": "10"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Araç Görevlendirmesi",
-  "sayi": "E-18426575-801-1493832",
-  "tarih": "27.04.2026",
+  "konu": "Genelgenin İlgili Birimlere Dağıtımı",
+  "sayi": "E-50719027-010.06-1515855",
+  "tarih": "19.01.2026",
   "ilgi": {
-    "tarih": "25.03.2026",
-    "sayi": "E-89052714-801-3465517"
+    "tarih": "01.01.2026",
+    "sayi": "E-65859045-010.06-1639201"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Araç Görevlendirmesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Genelgenin İlgili Birimlere Dağıtımı",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    2,
+    2,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Gönderilen"
+    ],
+    [
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Araç Görevlendirmesi",
-    "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı"
+    "Genelgenin İlgili Birimlere Dağıtımı",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı",
+    "talep ilgili birimce incelenmiştir",
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

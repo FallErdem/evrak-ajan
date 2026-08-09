@@ -5,62 +5,64 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Salih GÜLER",
-    "adres": "Karşıyaka Mahallesi Zeytin Sokağı No: 113/16 Yenimahalle/ANKARA",
+    "ad": "Fatma YILDIZ",
+    "adres": "Şentepe Mahallesi Akasya Sokak No: 80/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021440505",
-    "bolum": "Makine Mühendisliği",
-    "sinif": "1"
+    "ogrenci_no": "2025536381",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Dondurma ve İzin Talebi",
+  "konu": "Salon Tahsis Talebi",
   "sayi": null,
-  "tarih": "28.01.2026",
+  "tarih": "23.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Transkript",
-    "sayfa": 1
+    "aciklama": "Kimlik fotokopisi",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Talep": "Kayıt Dondurma ve İzin",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Talep": "Salon Tahsis",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
     "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": null,
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Dondurma ve İzin",
-    "şahsen başvuru yapılmıştır",
+    "Salon Tahsis",
+    "mağduriyetin giderilmesi bakımından",
     "e-Devlet üzerinden"
   ]
 }

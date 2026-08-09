@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatma TURAN",
-    "adres": "Gayret Mahallesi Sümbül Sokak No: 59/17 Yenimahalle/ANKARA",
+    "ad": "Mustafa YILDIZ",
+    "adres": "Gayret Mahallesi Papatya Caddesi No: 116/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,38 +21,40 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_makam": "Yenimahalle Kaymakamlığı",
+  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
     "saklama_suresi": "10"
   },
-  "konu": "Halk Eğitim Kursu Açılması Talebi",
+  "konu": "Bağış Makbuzu Talebi",
   "sayi": null,
-  "tarih": "08.04.2026",
+  "tarih": "05.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Halk Eğitim Kursu Açılması",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Talep": "Bağış Makbuzu",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü"
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Halk Eğitim Kursu Açılması",
-    "mağduriyetin giderilmesi bakımından",
-    "e-Devlet üzerinden"
+    "Bağış Makbuzu",
+    "sürecin tamamlanabilmesi için",
+    "şahsen başvuru yapılmıştır",
+    "elektronik posta ile"
   ]
 }

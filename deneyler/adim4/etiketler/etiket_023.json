@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Nurten ÇAKIR",
-    "adres": "Şentepe Mahallesi Lale Caddesi No: 40/6 Yenimahalle/ANKARA",
+    "ad": "Esra YILDIRIM",
+    "adres": "Batıkent Mahallesi Manolya Sokağı No: 9/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023862581",
-    "bolum": "Fen Fakültesi Matematik",
-    "sinif": "1"
+    "ogrenci_no": "2020945042",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "2"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -29,36 +29,38 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt İptali Talebi",
+  "konu": "Belgenin Islak İmzalı Örneği",
   "sayi": null,
-  "tarih": "16.01.2026",
+  "tarih": "07.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kayıt İptali",
-    "Sorun": "istenen belgeyi teslim ettiğim hâlde dosyam eksik gösterildi",
-    "Süre": "bir aydan uzun süredir",
+    "Şikâyet konusu": "Belgenin Islak İmzalı Örneği",
+    "Sorun": "öğrenci belgesi talebime iki haftadır cevap verilmedi",
+    "Süre": "geçtiğimiz aydan bu yana",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": "tarama_bozuk",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt İptali",
-    "bir aydan uzun süredir",
+    "Belgenin Islak İmzalı Örneği",
+    "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]
 }

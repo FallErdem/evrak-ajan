@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Erdemtepe Ortaokulu Müdürlüğü",
+    "kurum_adi": "Nurbahçe Ortaokulu Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10085547",
+    "detsis_no": "10082751",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,38 +27,59 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
+    "saklama_suresi": "10"
   },
-  "konu": "Stratejik Plan Taslağı Hakkında Görüş",
-  "sayi": "E-10085547-602.04-4203",
-  "tarih": "18.03.2026",
+  "konu": "Proje Gerçekleşme Oranı Bildirimi",
+  "sayi": "E-10082751-602.07-1165",
+  "tarih": "07.01.2026",
   "ilgi": {
-    "tarih": "13.02.2026",
-    "sayi": "E-14588481-602.04-3754015"
+    "tarih": "27.11.2025",
+    "sayi": "E-14588481-602.07-4664464"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Stratejik Plan Taslağı Hakkında Görüş",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Proje Gerçekleşme Oranı",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
   ],
-  "pdf_bicimi": "metin_katmanli",
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
+  ],
+  "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Stratejik Plan Taslağı Hakkında Görüş",
-    "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı"
+    "Proje Gerçekleşme Oranı",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı",
+    "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

@@ -5,77 +5,95 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "DAĞITIM YERLERİNE",
-  "muhatap_parantez": null,
-  "dagitim": {
-    "geregi": [
-      "İlçe Belediye Başkanlıklarına"
-    ],
-    "bilgi": [
-      "Ankara Valiliğine"
-    ]
-  },
-  "beklenen_kapanis": "karma",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "dagitim": null,
+  "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "125",
-    "ad": "Evlendirme İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "755.02",
+    "ad": "İhale",
+    "saklama_suresi": "15"
   },
-  "konu": "Yabancı Uyruklu Eş İçin Belge Talebi",
-  "sayi": "E-24432702-125-9685144",
-  "tarih": "13.04.2026",
+  "konu": "İhaleye İtiraz Başvurusu",
+  "sayi": "E-24312041-755.02-88057626",
+  "tarih": "27.05.2026",
   "ilgi": {
-    "tarih": "09.04.2026",
-    "sayi": "E-15986609-125-2470660"
+    "tarih": "22.04.2026",
+    "sayi": "E-33152401-755.02-1988809"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Nüfus cüzdanı fotokopisi",
+    "aciklama": "Öğrenci listesi",
     "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan yıl",
-    "Sayı": "68 kayıt",
-    "Ek 1": "Evlendirme İşlemleri listesi",
+    "Dönem": "mali yıl",
+    "Ek 1": "Öğrenci listesi",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Ek 1 içeriği": "alfabetik olarak sıralanmıştır",
+    "Ek 2 içeriği": "aşamalara göre bölümlendirilmiştir",
+    "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
+    "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
+    "Süre": "dönem başlamadan önce"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2,
+    3,
+    3,
     2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem"
+    ],
+    [
+      "Ek 1",
+      "Ek 1 içeriği",
+      "Ek 2"
+    ],
+    [
+      "Ek 2 içeriği",
+      "Kapsam",
+      "Değişiklik"
+    ],
+    [
+      "Süre",
+      "İstenen"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan yıl",
-    "68 kayıt",
-    "Evlendirme İşlemleri listesi",
+    "mali yıl",
+    "Öğrenci listesi",
     "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması"
+    "listenin ilgili birimlere dağıtılması",
+    "alfabetik olarak sıralanmıştır"
   ]
 }

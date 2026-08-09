@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Doruk Ticaret A.Ş.",
+    "kurum_adi": "Atlas Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Şentepe Mahallesi Zeytin Caddesi No: 15/16 Yenimahalle/ANKARA",
+    "adres": "Uğur Mumcu Mahallesi Erguvan Sokağı No: 50/15 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,36 +31,34 @@
     "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Suret Onay Ücreti Hk.",
-  "sayi": "2026/550",
-  "tarih": "07.05.2026",
-  "ilgi": {
-    "tarih": "04.05.2026",
-    "sayi": "E-91571118-622.02-2032752"
-  },
+  "konu": "Belge Sureti Talebi",
+  "sayi": "2026/744",
+  "tarih": "08.05.2026",
+  "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Karar sureti",
-    "sayfa": 4
+    "aciklama": "Başvuru formu",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Suret Onay Ücreti",
+    "İtiraz konusu": "Belge Sureti",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Suret Onay Ücreti",
+    "Belge Sureti",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -31,30 +31,53 @@
     "ad": "Atık Yönetimi",
     "saklama_suresi": "10"
   },
-  "konu": "Ambalaj Atığı Toplama Sözleşmesi",
-  "sayi": "E-24304062-155.01-74912340",
-  "tarih": "22.05.2026",
-  "ilgi": null,
+  "konu": "Tıbbi Atık Bertarafı Hk.",
+  "sayi": "E-56248377-155.01-821077",
+  "tarih": "24.04.2026",
+  "ilgi": {
+    "tarih": "21.04.2026",
+    "sayi": "E-83011479-155.01-1470295"
+  },
   "ek": {
     "adet": 2,
-    "aciklama": "Konum krokisi",
+    "aciklama": "Liste ve takvim",
     "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "üçüncü çeyrek",
-    "Sayı": "94 kayıt",
-    "Ek 1": "Atık Yönetimi listesi",
+    "Dönem": "mali yıl",
+    "Sayı": "186 kayıt",
+    "Ek 1": "Liste ve takvim",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Kapsam": "listede yer alanların tamamı sürece dâhildir",
+    "Süre": "iki hafta içinde",
+    "İrtibat": "koordinasyon Kaymakamlığımızca sağlanacaktır"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
-    2
+    3,
+    3,
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem",
+      "Sayı"
+    ],
+    [
+      "Ek 1",
+      "Ek 2",
+      "Kapsam"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen"
+    ]
+  ],
+  "pdf_bicimi": "taranmis",
+  "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Temizlik İşleri Müdürlüğü",
@@ -62,9 +85,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "üçüncü çeyrek",
-    "94 kayıt",
-    "Atık Yönetimi listesi",
+    "mali yıl",
+    "186 kayıt",
+    "Liste ve takvim",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

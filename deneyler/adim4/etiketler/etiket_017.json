@@ -5,62 +5,63 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Şerife ATEŞ",
-    "adres": "Yeşilevler Mahallesi Sümbül Sokağı No: 46/21 Yenimahalle/ANKARA",
+    "ad": "Selin POLAT",
+    "adres": "Pamuklar Mahallesi Erguvan Caddesi No: 2/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020991880",
-    "bolum": "Biyoloji (Yüksek Lisans)",
-    "sinif": "1"
+    "ogrenci_no": "2020757564",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.14",
-    "ad": "Tez İşleri",
-    "saklama_suresi": "B"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Tez Konusu Değişikliği Talebi",
+  "konu": "Arşiv Belgesi Araştırma Talebi",
   "sayi": null,
-  "tarih": "08.04.2026",
+  "tarih": "26.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Öğrenci belgesi",
+    "aciklama": "Vekâletname",
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Talep": "Tez Konusu Değişikliği",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Talep": "Arşiv Belgesi Araştırma",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
     "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
     "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": "imza_eksik",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
+  "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Genel Sekreterlik",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Tez Konusu Değişikliği",
-    "sürecin tamamlanabilmesi için",
+    "Arşiv Belgesi Araştırma",
+    "resmî işlemlerde kullanılmak üzere",
     "elektronik posta ile"
   ]
 }

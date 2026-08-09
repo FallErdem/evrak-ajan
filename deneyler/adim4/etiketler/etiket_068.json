@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Ortaöğretim Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "93213107",
+    "detsis_no": "63971525",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -31,24 +31,44 @@
     "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Bilgi Edinme Talebinin Reddi Hk.",
-  "sayi": "E-93213107-622.01-8292701",
-  "tarih": "02.04.2026",
+  "konu": "Başvuru Cevabının Gönderilmesi",
+  "sayi": "E-63971525-622.01-8557099",
+  "tarih": "28.01.2026",
   "ilgi": {
-    "tarih": "02.03.2026",
-    "sayi": "E-55461037-622.01-3015912"
+    "tarih": "06.01.2026",
+    "sayi": "E-55461037-622.01-1384003"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bilgi Edinme Talebinin Reddi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Başvuru Cevabının Gönderilmesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
@@ -56,8 +76,9 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bilgi Edinme Talebinin Reddi",
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "Başvuru Cevabının Gönderilmesi",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı yazı",
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

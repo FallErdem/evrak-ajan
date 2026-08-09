@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Emlak ve İstimlak Müdürlüğü",
+    "kurum_adi": "Fen İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "87730597",
+    "detsis_no": "33152401",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,39 +27,59 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
-    "saklama_suresi": "15"
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
+    "saklama_suresi": "10"
   },
-  "konu": "Ödenek Talebi",
-  "sayi": "E-87730597-841.01-1749767",
-  "tarih": "25.05.2026",
+  "konu": "Yatırım Programı Teklifi",
+  "sayi": "E-33152401-602.07-1966880",
+  "tarih": "11.03.2026",
   "ilgi": {
-    "tarih": "20.05.2026",
-    "sayi": "E-43195403-841.01-2465735"
+    "tarih": "04.02.2026",
+    "sayi": "E-43195403-602.07-3564779"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Ödenek",
+    "Talep": "Yatırım Programı Teklifi",
     "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": "konu_eksik",
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
+    "Yatırım Programı Teklifi",
     "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "ilgide kayıtlı yazı"
   ]
 }

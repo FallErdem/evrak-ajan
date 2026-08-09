@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Fatih ŞIMŞEK",
-    "adres": "Kaletepe Mahallesi Zeytin Sokağı No: 115/17 Yenimahalle/ANKARA",
+    "ad": "Ali GÜNEŞ",
+    "adres": "Çiğdemtepe Mahallesi Menekşe Sokak No: 81/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023973978",
-    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
-    "sinif": "4"
+    "ogrenci_no": "2024891189",
+    "bolum": "Diş Hekimliği Fakültesi",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,24 +29,25 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Eki Talebi",
+  "konu": "Denklik Başvurusunun Sonuçlandırılması",
   "sayi": null,
-  "tarih": "04.05.2026",
+  "tarih": "27.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma Eki",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Talep": "Denklik Başvurusunun Sonuçlandırılması",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
     "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -55,8 +56,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Diploma Eki",
-    "başvuru dosyasına eklenmek üzere",
+    "Denklik Başvurusunun Sonuçlandırılması",
+    "sürecin tamamlanabilmesi için",
+    "şahsen başvuru yapılmıştır",
     "posta yoluyla adresime"
   ]
 }

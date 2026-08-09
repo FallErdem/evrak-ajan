@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Kuzey İnşaat Ltd. Şti.",
+    "kurum_adi": "Öz Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Uğur Mumcu Mahallesi Yasemin Caddesi No: 68/4 Yenimahalle/ANKARA",
+    "adres": "Pamuklar Mahallesi Erguvan Sokak No: 33/9 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -32,20 +32,20 @@
     "saklama_suresi": "B"
   },
   "konu": "Numarataj Belgesi Talebi",
-  "sayi": "2026/109",
-  "tarih": "20.01.2026",
+  "sayi": "2026/245",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Talep": "Numarataj Belgesi işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -55,6 +55,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "yıllara göre sayısal döküm",
+    "e-Devlet üzerinden"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hasan KARACA",
-    "adres": "Susuz Mahallesi Nergis Caddesi No: 59/17 Yenimahalle/ANKARA",
+    "ad": "Kemal AKTAŞ",
+    "adres": "Çiğdemtepe Mahallesi Nergis Caddesi No: 74/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,21 +30,22 @@
     "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
     "saklama_suresi": "B"
   },
-  "konu": "İhdas Talebi",
+  "konu": "İrtifak Hakkı Tesisi Talebi",
   "sayi": null,
-  "tarih": "05.03.2026",
+  "tarih": "25.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İhdas",
-    "Taşınmaz": "65895 ada, 31 parsel",
+    "Talep": "İrtifak Hakkı Tesisi",
+    "Taşınmaz": "27783 ada, 17 parsel",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
     "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "imza_eksik",
   "yasakli_adlar": [
@@ -53,7 +54,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "65895 ada, 31 parsel",
+    "İrtifak Hakkı Tesisi",
+    "27783 ada, 17 parsel",
     "posta yoluyla adresime"
   ]
 }

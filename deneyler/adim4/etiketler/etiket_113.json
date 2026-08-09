@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "İbrahim YILDIRIM",
-    "adres": "Şentepe Mahallesi Ceviz Sokağı No: 91/15 Yenimahalle/ANKARA",
+    "ad": "Pınar DOĞAN",
+    "adres": "Yakacık Mahallesi Yasemin Caddesi No: 39/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,20 +30,21 @@
     "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Onaylı Örnek Talebi",
+  "konu": "Arşivden Belge Çıkarılması Talebi",
   "sayi": null,
-  "tarih": "09.03.2026",
+  "tarih": "25.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Onaylı Örnek",
+    "Talep": "Arşivden Belge Çıkarılması",
     "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -52,8 +53,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Onaylı Örnek",
+    "Arşivden Belge Çıkarılması",
     "resmî işlemlerde kullanılmak üzere",
-    "elektronik posta ile"
+    "posta yoluyla adresime"
   ]
 }

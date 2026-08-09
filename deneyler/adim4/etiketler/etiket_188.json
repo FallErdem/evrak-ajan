@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ramazan UÇAR",
-    "adres": "Ostim Mahallesi Yasemin Caddesi No: 32/4 Yenimahalle/ANKARA",
+    "ad": "Şerife AKSOY",
+    "adres": "Ragıpbey Mahallesi Zeytin Sokak No: 95/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,20 +32,22 @@
   },
   "konu": "Bilgi Edinme Başvurusu",
   "sayi": null,
-  "tarih": "29.05.2026",
+  "tarih": "06.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Bilgi Edinme",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": "muhatap_belirsiz",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
+  "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
@@ -53,7 +55,8 @@
   ],
   "anahtar_terimler": [
     "Bilgi Edinme",
-    "sürecin tamamlanabilmesi için",
-    "e-Devlet üzerinden"
+    "mağduriyetin giderilmesi bakımından",
+    "şahsen başvuru yapılmıştır",
+    "posta yoluyla adresime"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -31,37 +31,67 @@
     "ad": "Yatırım Programı",
     "saklama_suresi": "10"
   },
-  "konu": "Yatırım İzleme Raporu",
-  "sayi": "E-10213773-602.07-11535176",
-  "tarih": "14.04.2026",
-  "ilgi": {
-    "tarih": "03.04.2026",
-    "sayi": "E-14588481-602.07-3784693"
-  },
+  "konu": "Yatırım Ödeneği Talebi",
+  "sayi": "E-24316060-602.07-47726039",
+  "tarih": "05.03.2026",
+  "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Yatırım İzleme Raporu konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Yatırım Ödeneği konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların güz dönemi sonunda bildirilmesi"
+    "Yürürlük": "01.04.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
+    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
+    "Esas 2": "itirazlar on beş gün içinde sonuçlandırılacaktır",
+    "Geçiş hükmü": "geçiş dönemi üç ay olarak belirlenmiştir",
+    "Süre": "on beş gün içinde",
+    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    3,
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı",
+      "Yürürlük"
+    ],
+    [
+      "Esas 1",
+      "Esas 2",
+      "Geçiş hükmü"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen 1"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "01.04.2026 tarihinde yürürlüğe girmiştir",
+    "sözleşmesi devam eden yükleniciler",
+    "geçiş dönemi üç ay olarak belirlenmiştir",
+    "on beş gün içinde"
   ]
 }

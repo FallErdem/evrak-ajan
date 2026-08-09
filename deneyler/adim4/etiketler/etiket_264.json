@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,50 +23,70 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Alım Miktarının Artırılması",
-  "sayi": "E-24316060-934.01-61217453",
-  "tarih": "28.05.2026",
+  "konu": "Evrak Örneğinin Gönderilmesi",
+  "sayi": "E-10213773-622.02-14737384",
+  "tarih": "17.02.2026",
   "ilgi": {
-    "tarih": "06.05.2026",
-    "sayi": "E-14588481-934.01-3805576"
+    "tarih": "13.02.2026",
+    "sayi": "E-91571118-622.02-5343692"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Teknik şartname",
+    "aciklama": "Öğrenci listesi",
     "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "öğretim yılı",
-    "Sayı": "112 kayıt",
-    "Ek 1": "Mal Alım İşi listesi",
+    "Sayı": "186 kayıt",
+    "Ek 1": "Öğrenci listesi",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Kapsam": "listede yer alanların tamamı sürece dâhildir",
+    "Süre": "iki hafta içinde",
+    "İrtibat": "süreç Valiliğimizce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
-    2
+    3,
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem",
+      "Sayı"
+    ],
+    [
+      "Ek 1",
+      "Ek 2",
+      "Kapsam"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü"
+    "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "öğretim yılı",
-    "112 kayıt",
-    "Mal Alım İşi listesi",
+    "186 kayıt",
+    "Öğrenci listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

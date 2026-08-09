@@ -31,27 +31,49 @@
     "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Mal Alımı Teknik Şartnamesi",
-  "sayi": "E-10213773-934.01-11472876",
-  "tarih": "23.02.2026",
+  "konu": "Kırtasiye Malzemesi Alımı",
+  "sayi": "E-10213773-934.01-14779788",
+  "tarih": "19.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Numune listesi",
-    "sayfa": 6
+    "aciklama": "Uygulama esasları",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Mal Alımı Teknik Şartnamesi konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Kırtasiye Malzemesi Alımı konusunda yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların öğretim yılı sonunda bildirilmesi"
+    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Yürürlük": "01.05.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "geçici görevle çalışan personel",
+    "Esas 1": "işlemler tek merkezden yürütülecektir",
+    "İrtibat": "uygulama Valiliğimizce izlenecektir"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3,
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak",
+      "Yürürlük"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı",
+      "Esas 1"
+    ],
+    [
+      "İstenen 2",
+      "İrtibat",
+      "İstenen 1"
+    ]
+  ],
+  "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
@@ -59,6 +81,10 @@
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "01.05.2026 tarihinde yürürlüğe girmiştir",
+    "geçici görevle çalışan personel",
+    "işlemler tek merkezden yürütülecektir",
+    "uygulama Valiliğimizce izlenecektir"
   ]
 }

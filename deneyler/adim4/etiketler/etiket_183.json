@@ -5,61 +5,87 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "17311665",
+    "detsis_no": "86488853",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Gazi Üniversitesi Rektörlüğü",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Personel Dairesi Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "903.02",
+    "ad": "Atama İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Kararın Uygulanması Hk.",
-  "sayi": "E-17311665-050.04-4920540",
-  "tarih": "22.04.2026",
+  "konu": "Atama Kararının İptali Hk.",
+  "sayi": "E-86488853-903.02-8936437",
+  "tarih": "24.02.2026",
   "ilgi": {
-    "tarih": "02.04.2026",
-    "sayi": "E-39985474-050.04-7043319"
+    "tarih": "20.01.2026",
+    "sayi": "E-42218640-903.02-1180099"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kararın Uygulanması",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Atama Kararının İptali",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
-    3
+    2,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak"
+    ],
+    [
+      "Talebin sonucu",
+      "Gönderilen",
+      "İnceleme"
+    ],
+    [
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "tarih_tutarsiz",
+  "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Personel Dairesi Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kararın Uygulanması",
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "Atama Kararının İptali",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı yazı",
+    "talep ilgili birimce incelenmiştir"
   ]
 }

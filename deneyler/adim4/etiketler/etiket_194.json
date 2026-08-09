@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -22,49 +22,79 @@
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
-  "dagitim": null,
-  "beklenen_kapanis": "rica",
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
+  "dagitim": {
+    "geregi": [
+      "İlçe Belediye Başkanlıklarına"
+    ],
+    "bilgi": [
+      "Ankara Valiliğine"
+    ]
+  },
+  "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "855",
-    "ad": "Borç ve Alacak İşleri",
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Tahsilat Makbuzu Talebi",
-  "sayi": "E-24432702-855-9675845",
+  "konu": "İtirazın Değerlendirilmesi",
+  "sayi": "E-24432702-858-7242430",
   "tarih": "03.04.2026",
-  "ilgi": null,
+  "ilgi": {
+    "tarih": "27.02.2026",
+    "sayi": "E-10578106-858-1510478"
+  },
   "ek": {
     "adet": 2,
-    "aciklama": "Borç dökümü",
-    "sayfa": 1
+    "aciklama": "Öğrenci listesi",
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "mali yıl",
-    "Sayı": "18 kayıt",
-    "Ek 1": "Borç ve Alacak İşleri listesi",
+    "Dönem": "içinde bulunulan yıl",
+    "Sayı": "47 kayıt",
+    "Ek 1": "Öğrenci listesi",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
+    "Süre": "iki hafta içinde",
+    "İrtibat": "koordinasyon Başkanlığımızca sağlanacaktır"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
-    2
+    3,
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem",
+      "Sayı"
+    ],
+    [
+      "Ek 1",
+      "Ek 2",
+      "Kapsam"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "sdp_uyumsuz",
+  "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "mali yıl",
-    "18 kayıt",
-    "Borç ve Alacak İşleri listesi",
+    "içinde bulunulan yıl",
+    "47 kayıt",
+    "Öğrenci listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

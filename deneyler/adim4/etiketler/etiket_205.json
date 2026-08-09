@@ -5,57 +5,60 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ayşe KARACA",
-    "adres": "Ostim Mahallesi Papatya Caddesi No: 98/21 Yenimahalle/ANKARA",
+    "ad": "Fatma TEKIN",
+    "adres": "Kaletepe Mahallesi Menekşe Sokak No: 101/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024815409",
-    "bolum": "Matematik (Yüksek Lisans)",
-    "sinif": "2"
+    "ogrenci_no": "2022875490",
+    "bolum": "Matematik Öğretmenliği",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
+    "kod": "302.08",
+    "ad": "İzin İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Süresi Uzatım Talebi",
+  "konu": "Sağlık Sebebiyle İzin Talebi",
   "sayi": null,
-  "tarih": "15.01.2026",
+  "tarih": "30.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Süresi Uzatım",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Talep": "Sağlık Sebebiyle İzin",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Süresi Uzatım",
-    "e-Devlet üzerinden"
+    "Sağlık Sebebiyle İzin",
+    "mağduriyetin giderilmesi bakımından",
+    "şahsen başvuru yapılmıştır",
+    "elektronik posta ile"
   ]
 }

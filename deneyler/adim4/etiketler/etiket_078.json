@@ -27,33 +27,37 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "209",
-    "ad": "Akademik Personel Görevlendirmeleri",
+    "kod": "201",
+    "ad": "Seçim ve Atama İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "35. Madde Kapsamında Görevlendirme",
-  "sayi": "E-47014261-209-1076607",
-  "tarih": "03.03.2026",
+  "konu": "Anabilim Dalı Başkanı Ataması",
+  "sayi": "E-47014261-201-3166662",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Akademik Personel Görevlendirmeleri",
+    "Konu": "Anabilim Dalı Başkanı Ataması",
+    "Mevcut uygulama": "benzer taleplerde farklı sonuçlar doğmuştur",
+    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
     "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     2
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "sdp_uyumsuz",
+  "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Personel Dairesi Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Akademik Personel Görevlendirmeleri",
+    "Anabilim Dalı Başkanı Ataması",
+    "işlemlerde gecikme yaşanmaktadır",
     "konu hakkında görüş bildirilmesi"
   ]
 }

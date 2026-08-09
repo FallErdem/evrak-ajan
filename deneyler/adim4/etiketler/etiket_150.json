@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Atlas Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Atlas Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "İvedik Mahallesi Nergis Caddesi No: 114/11 Yenimahalle/ANKARA",
+    "adres": "Beştepe Mahallesi Akasya Caddesi No: 117/21 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,38 +23,39 @@
   "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
-    "saklama_suresi": "10"
+    "kod": "115.02.04",
+    "ad": "Yapı Ruhsatı",
+    "saklama_suresi": "B"
   },
-  "konu": "Rampa Yapılması Talebi",
-  "sayi": "2026/372",
-  "tarih": "07.05.2026",
+  "konu": "Yapı Ruhsatı Başvurusu",
+  "sayi": "2026/308",
+  "tarih": "07.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Rampa Yapılması işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Yapı Ruhsatı işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "yıllara göre sayısal döküm",
+    "e-Devlet üzerinden"
   ]
 }

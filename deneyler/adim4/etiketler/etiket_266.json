@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Osman GÜNEŞ",
-    "adres": "Ostim Mahallesi Sümbül Caddesi No: 93/12 Yenimahalle/ANKARA",
+    "ad": "Fatma AVCI",
+    "adres": "Emniyet Mahallesi Sümbül Caddesi No: 95/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020436045",
-    "bolum": "Fen Fakültesi Matematik",
-    "sinif": "1"
+    "ogrenci_no": "2022497454",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,34 +29,34 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
-    "saklama_suresi": "10"
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
+    "saklama_suresi": "B"
   },
-  "konu": "Katkı Payı İade Talebi",
+  "konu": "Değişim Programı Ders Tanıma Talebi",
   "sayi": null,
-  "tarih": "16.03.2026",
+  "tarih": "01.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Katkı Payı İade",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Değişim Programı Ders Tanıma",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "imza_eksik",
+  "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı İade",
-    "sürecin tamamlanabilmesi için",
-    "Kurumunuz kayıt bürosundan elden"
+    "Değişim Programı Ders Tanıma",
+    "elektronik posta ile"
   ]
 }

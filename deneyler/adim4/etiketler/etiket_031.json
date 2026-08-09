@@ -5,62 +5,87 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "kurum_adi": "Genel Sekreterlik",
     "ad": null,
     "adres": null,
-    "detsis_no": "98244303",
+    "detsis_no": "82642947",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Gazi Üniversitesi Rektörlüğü",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Öğrenci İşleri Daire Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
+    "saklama_suresi": "B"
   },
-  "konu": "Kurul Kararının Gönderilmesi",
-  "sayi": "E-98244303-050.04-7846699",
-  "tarih": "14.05.2026",
+  "konu": "Hibe Ödemesi Hk.",
+  "sayi": "E-82642947-310-7021759",
+  "tarih": "03.03.2026",
   "ilgi": {
-    "tarih": "05.05.2026",
-    "sayi": "E-39985474-050.04-7069550"
+    "tarih": "20.01.2026",
+    "sayi": "E-17311665-310-4594185"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kurul Kararının Gönderilmesi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Hibe Ödemesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
-    3
+    2,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak"
+    ],
+    [
+      "Talebin sonucu",
+      "Gönderilen",
+      "İnceleme"
+    ],
+    [
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kurul Kararının Gönderilmesi",
-    "olumlu, talep karşılandı",
+    "Hibe Ödemesi",
+    "olumlu, belge düzenlendi",
     "ilgide kayıtlı yazı",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "talep edilen bilgiler ekte sunulmuştur"
   ]
 }

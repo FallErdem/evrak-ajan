@@ -12,67 +12,81 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
   "aile": "ust_yazi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "DAĞITIM YERLERİNE",
-  "muhatap_parantez": null,
-  "dagitim": {
-    "geregi": [
-      "İl Müdürlüklerine"
-    ],
-    "bilgi": [
-      "İçişleri Bakanlığına"
-    ]
-  },
-  "beklenen_kapanis": "karma",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "dagitim": null,
+  "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
     "saklama_suresi": "B"
   },
-  "konu": "Öğrenci Bilgi Formunun Gönderilmesi",
-  "sayi": "E-10213773-235-11458895",
-  "tarih": "12.02.2026",
+  "konu": "Kayıt Takviminin Duyurulması",
+  "sayi": "E-24316060-205-48110229",
+  "tarih": "25.05.2026",
   "ilgi": {
-    "tarih": "30.12.2025",
-    "sayi": "E-21291472-235-4892362"
+    "tarih": "21.05.2026",
+    "sayi": "E-21291472-205-6389934"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Öğrenci listesi",
-    "sayfa": 6
+    "aciklama": "Liste ve takvim",
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
+    "Dönem": "içinde bulunulan öğretim yılı",
     "Sayı": "18 kayıt",
-    "Ek 1": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim) listesi",
+    "Ek 1": "Liste ve takvim",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
+    "Süre": "dönem başlamadan önce",
+    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
-    2
+    3,
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem",
+      "Sayı"
+    ],
+    [
+      "Ek 1",
+      "Ek 2",
+      "Kapsam"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "öğretim yılı",
+    "içinde bulunulan öğretim yılı",
     "18 kayıt",
+    "Liste ve takvim",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

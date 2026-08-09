@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Çankaya Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "90226917",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -32,23 +32,26 @@
     "saklama_suresi": "10"
   },
   "konu": "Yeni Durak Talebi",
-  "sayi": "E-55461037-802-3010173",
-  "tarih": "16.02.2026",
+  "sayi": "E-90226917-802-1947025",
+  "tarih": "06.02.2026",
   "ilgi": {
-    "tarih": "04.02.2026",
-    "sayi": "E-89052714-802-3448538"
+    "tarih": "02.01.2026",
+    "sayi": "E-89052714-802-2105875"
   },
   "ek": null,
   "somut_bilgiler": {
     "Konu": "Yeni Durak",
     "Ortak iş": "Yeni Durak konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
+    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
     "Talep": "Yeni Durak konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",

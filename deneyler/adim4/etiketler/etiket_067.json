@@ -5,61 +5,83 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Temizlik İşleri Müdürlüğü",
+    "kurum_adi": "Mali Hizmetler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "83011479",
+    "detsis_no": "43195403",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
+  "muhatap_makam": "Hukuk İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Bütçe Kalemi Değişiklik Teklifi",
-  "sayi": "E-83011479-841.01-1986959",
-  "tarih": "12.03.2026",
+  "konu": "Para Cezası Tahsilatı Hk.",
+  "sayi": "E-43195403-858-3599417",
+  "tarih": "17.04.2026",
   "ilgi": {
-    "tarih": "09.03.2026",
-    "sayi": "E-43195403-841.01-2433956"
+    "tarih": "30.03.2026",
+    "sayi": "E-10578106-858-1526553"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bütçe Kalemi Değişiklik Teklifi",
+    "Talep": "Para Cezası Tahsilatı",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "yalnızca tamamlanmış işlemler dâhil edilmiştir",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "konu_eksik",
+  "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bütçe Kalemi Değişiklik Teklifi",
+    "Para Cezası Tahsilatı",
     "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "ilgide kayıtlı yazı",
+    "konu Müdürlüğümüzce değerlendirilmiştir",
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

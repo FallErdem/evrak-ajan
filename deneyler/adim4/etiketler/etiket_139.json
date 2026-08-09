@@ -31,35 +31,56 @@
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Topluluğu Kurulma Talebi",
-  "sayi": "E-17311665-309-4871925",
-  "tarih": "25.02.2026",
+  "konu": "Etkinlik Bütçe Desteği Talebi",
+  "sayi": "E-17311665-309-4665266",
+  "tarih": "21.04.2026",
   "ilgi": {
-    "tarih": "02.02.2026",
-    "sayi": "E-98244303-309-7763210"
+    "tarih": "08.04.2026",
+    "sayi": "E-98244303-309-1915789"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenci Topluluğu Kurulma",
+    "Talep": "Etkinlik Bütçe Desteği",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "İnceleme": "konu Başkanlığımızca değerlendirilmiştir",
+    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "konuyla ilgili irtibat Başkanlığımızca sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "sdp_uyumsuz",
+  "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Öğrenci Topluluğu Kurulma",
+    "Etkinlik Bütçe Desteği",
     "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "ilgide kayıtlı yazı",
+    "konu Başkanlığımızca değerlendirilmiştir"
   ]
 }

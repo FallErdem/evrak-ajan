@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çankaya Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "90226917",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -23,39 +23,44 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "Stratejik Plan Taslağı Hakkında Görüş",
-  "sayi": "E-90226917-602.04-787715",
-  "tarih": "14.01.2026",
+  "konu": "Mimari Proje Görüşü",
+  "sayi": "E-39985474-755.01-5090162",
+  "tarih": "06.05.2026",
   "ilgi": {
-    "tarih": "26.12.2025",
-    "sayi": "E-65859045-602.04-3438167"
+    "tarih": "01.04.2026",
+    "sayi": "E-33152401-755.01-1977914"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Stratejik Plan",
+    "Konu": "Mimari Proje Görüşü",
+    "Mevcut uygulama": "benzer taleplerde farklı sonuçlar doğmuştur",
+    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
     "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Stratejik Plan",
+    "Mimari Proje Görüşü",
+    "işlemlerde gecikme yaşanmaktadır",
     "konu hakkında görüş bildirilmesi"
   ]
 }

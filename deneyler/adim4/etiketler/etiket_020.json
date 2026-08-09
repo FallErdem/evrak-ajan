@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Çankaya Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "90226917",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -23,40 +23,47 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
-    "saklama_suresi": "10"
+    "kod": "756.01",
+    "ad": "Tahsis, Devir ve Takas",
+    "saklama_suresi": "B"
   },
-  "konu": "Staj Kabul Yazısı Talebi",
-  "sayi": "E-55461037-773-3025457",
-  "tarih": "25.03.2026",
-  "ilgi": null,
+  "konu": "Okul Yeri Tahsis Talebi",
+  "sayi": "E-90226917-756.01-1951490",
+  "tarih": "20.02.2026",
+  "ilgi": {
+    "tarih": "05.02.2026",
+    "sayi": "E-87730597-756.01-3691763"
+  },
   "ek": {
     "adet": 1,
-    "aciklama": "Çalışma programı",
-    "sayfa": 6
+    "aciklama": "Tapu fotokopisi",
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Staj Kabul Yazısı",
-    "Ortak iş": "Staj Kabul Yazısı konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Staj Kabul Yazısı kapsamında öğrenci kabul edilmesi"
+    "Konu": "Okul Yeri Tahsis",
+    "Ortak iş": "Okul Yeri Tahsis konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
+    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
+    "Talep": "gerekli tahsisin yapılması"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Staj Kabul Yazısı"
+    "Okul Yeri Tahsis",
+    "gerekli tahsisin yapılması"
   ]
 }

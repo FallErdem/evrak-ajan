@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine DOĞAN",
-    "adres": "Pamuklar Mahallesi Sümbül Sokak No: 42/10 Yenimahalle/ANKARA",
+    "ad": "Emre YILMAZ",
+    "adres": "Emniyet Mahallesi Ceviz Sokağı No: 109/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,37 +26,39 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Yönetim Kurulu Seçimi Hk.",
+  "konu": "Taşıma Merkezi Okulun Belirlenmesi",
   "sayi": null,
-  "tarih": "07.05.2026",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yönetim Kurulu Seçimi",
-    "Sorun": "kantin fiyatları belirlenen tarifenin üzerinde uygulanıyor",
-    "Süre": "bir aydan uzun süredir",
+    "Şikâyet konusu": "Taşıma Merkezi Okulun Belirlenmesi",
+    "Sorun": "araçta öğrenciler ayakta seyahat ediyor",
+    "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
     "Talep": "sorunun giderilmesi",
-    "Yer": "ilçe merkezi"
+    "Yer": "okul servis güzergâhı"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "tarih_eksik",
+  "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yönetim Kurulu Seçimi",
-    "bir aydan uzun süredir",
+    "Taşıma Merkezi Okulun Belirlenmesi",
+    "araçta öğrenciler ayakta seyahat ediyor",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi",
-    "ilçe merkezi"
+    "okul servis güzergâhı"
   ]
 }

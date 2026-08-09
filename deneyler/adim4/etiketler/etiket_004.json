@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Kuzey Ticaret A.Ş.",
+    "kurum_adi": "Atlas Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Serhat Mahallesi Manolya Caddesi No: 20/13 Yenimahalle/ANKARA",
+    "adres": "Uğur Mumcu Mahallesi Manolya Caddesi No: 33/1 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,25 +27,25 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Arşivden Belge Çıkarılması Talebi",
-  "sayi": "2026/684",
-  "tarih": "28.04.2026",
+  "konu": "Başvuru Süresinin Uzatılması",
+  "sayi": "2026/804",
+  "tarih": "18.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Arşivden Belge Çıkarılması işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "Talep": "Başvuru Süresinin Uzatılması işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "elektronik posta ile"
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -54,6 +54,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "elektronik posta ile"
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

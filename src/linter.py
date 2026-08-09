@@ -70,6 +70,9 @@ def normalize(metin: str) -> str:
     bozar.
     """
     metin = unicodedata.normalize("NFC", metin)
+    # Kesme işareti atılır: model "İlgi'de kayıtlı" yazıyor, etiket
+    # "ilgide kayıtlı" diyor. İkisi aynı ifade.
+    metin = metin.replace("'", "").replace("\u2019", "").replace("\u02bc", "")
     return sapkasiz(tr_kucult(metin))
 
 
@@ -321,8 +324,10 @@ inceledim değerlendirdim belirledim hazırladım düşündüm bildirdim
 
 
 def _sahsilestirme_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
-    # Vatandaş dilekçesinde birinci tekil şahıs zorunlu, denetlenmez
-    if e.yazan_tipi == "vatandas":
+    # Vatandaş, öğrenci ve özel hukuk tüzel kişisi birinci şahıs yazar.
+    # yazan_tipi iki değerliyken yalnızca "vatandas" atlanıyordu; üç yeni
+    # değer eklenince öğrenci ve şirket yazıları yanlış alarm veriyordu.
+    if e.yazan_tipi in ("vatandas", "ogrenci", "ozel_tuzel"):
         return []
 
     # Kapanış cümlesi ("arz ederim") istisnadır, kesip atılıyor
@@ -454,6 +459,32 @@ def _ad_sizintisi_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
 # --- bilgi kapsama -----------------------------------------------------------
 
 
+# Anlam tasimayan kelimeler — kapsama kontrolunde sayilmaz.
+# Anlam taşımayan sözcükler — kapsama kontrolünde sayılmaz.
+# NORMALIZE EDİLEREK saklanır: normalize() Türkçe harfleri korur (ç, ş, ı),
+# liste ASCII yazılınca "içinde" ile "icinde" eşleşmiyordu.
+_ETKISIZ = frozenset(normalize(k) for k in """
+ve veya ile de da ki bu şu o bir birer her tüm bütün için gibi kadar
+olan olarak üzere hakkında ilişkin dair konusunda kapsamında
+edilmiştir edilmiş edilecek edilir yapılmıştır yapılmış yapılacak
+olmuştur olmuş olacak olup bulunmaktadır bulunan gerekmektedir
+tarihinden itibaren sonra önce hâlinde halinde
+içinde içerisinde üzerine doğrultusunda gereği gereğince nedeniyle
+söz konusu ayrıca yine ancak fakat ise iken kere defa
+""".split())
+
+
+_ETKISIZ_KOK = frozenset(k[:5] for k in _ETKISIZ)
+
+
+def _icerik_sozcukleri(metin: str) -> list[str]:
+    """Anlam taşıyan sözcükler. Ek almış biçimler için kök yaklaşımı:
+    ilk 5 harf alınır ("yürürlüğe" ve "yürürlük" aynı sayılır).
+    """
+    return [k[:5] for k in re.findall(r"\w+", normalize(metin))
+            if len(k) > 3 and k not in _ETKISIZ and k[:5] not in _ETKISIZ_KOK]
+
+
 def _kapsama_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
     """Şartnamedeki somut bilgilerin hepsi metne girmiş mi.
 
@@ -463,16 +494,41 @@ def _kapsama_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
     bir koşuda metne hiç girmemişti.
     """
     n = normalize(metin)
-    return [
-        Bulgu("KPS-01", Onem.HATA,
-              f"Şartnamedeki bilgi metne girmemiş: '{terim}'", terim)
-        for terim in e.anahtar_terimler if normalize(terim) not in n
-    ]
+    metin_sozcukleri = set(_icerik_sozcukleri(metin))
+    bulgular = []
+    for terim in e.anahtar_terimler:
+        if normalize(terim) in n:
+            continue
+        # TAM EŞLEŞME ARAMAK YANLIŞ ALARM ÜRETİYOR. Model bilgiyi doğru
+        # aktarıyor ama kendi cümlesini kuruyor:
+        #   şartname: "15.01.2026 tarihinde yürürlüğe girmiştir"
+        #   metin   : "Düzenlemenin yürürlük tarihi 15.01.2026'dır"
+        # Bilgi metinde VAR. Bu yüzden içerik sözcüklerinin çoğunun
+        # geçmesi yeterli sayılıyor.
+        sozcukler = _icerik_sozcukleri(terim)
+        if not sozcukler:
+            continue
+        eslesen = sum(1 for k in sozcukler if k in metin_sozcukleri)
+        if eslesen / len(sozcukler) < 0.6:
+            bulgular.append(Bulgu(
+                "KPS-01", Onem.HATA,
+                f"Şartnamedeki bilgi metne girmemiş "
+                f"({eslesen}/{len(sozcukler)} sözcük): '{terim[:44]}'", terim))
+    return bulgular
 
 
 # --- ek ve ilgi ---------------------------------------------------------------
 
-_EK_DESENI = re.compile(r"\b(ekte|ekinde|ilişikte|ilişiğinde|ek olarak|eki̇nde)\b")
+# Çekimli biçimler de sayılır: "ektedir", "ekindedir", "ilişiktedir".
+# Kelime sınırlı desen bunları kaçırıyordu ve "önceki başvurumun sureti
+# ektedir" cümlesi ek atfı sayılmıyordu.
+# Fiil biçimleri de ek atfıdır: "dilekçeme ekledim", "ekliyorum",
+# "eklenmiştir". Yalnızca yer bildiren biçimler (ekte, ilişikte) aranınca
+# vatandaş dilekçelerindeki doğal ifade kaçırılıyordu.
+_EK_DESENI = re.compile(
+    r"\b(ekte\w*|ekinde\w*|ekimizde\w*|ilişikte\w*|ilişiğinde\w*|"
+    r"ek olarak|ekli\b|yazımız ekind\w*|ekled\w+|ekliyor\w*|eklenmiş\w*|"
+    r"eke dâhil|eke dahil|ekinde sun\w+)")
 _ILGI_DESENI = re.compile(r"\bilgi(?:'de|de|ye|nde)?\b")
 
 

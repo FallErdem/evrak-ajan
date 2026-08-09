@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sevgi BULUT",
-    "adres": "Yakacık Mahallesi Akasya Sokak No: 45/4 Yenimahalle/ANKARA",
+    "ad": "Selin KORKMAZ",
+    "adres": "Uğur Mumcu Mahallesi Yasemin Caddesi No: 2/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,30 +30,32 @@
     "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Arşiv Belgesi Araştırma Talebi",
+  "konu": "Arşivden Suret Talebi",
   "sayi": null,
-  "tarih": "17.03.2026",
+  "tarih": "10.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Arşiv Belgesi Araştırma",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Arşivden Suret",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşiv Belgesi Araştırma",
-    "ilgili kuruma sunulmak üzere",
-    "Kurumunuz kayıt bürosundan elden"
+    "Arşivden Suret",
+    "başvuru dosyasına eklenmek üzere",
+    "şahsen başvuru yapılmıştır",
+    "e-Devlet üzerinden"
   ]
 }

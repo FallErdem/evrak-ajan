@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sultan ÇETIN",
-    "adres": "Beştepe Mahallesi Sümbül Sokağı No: 96/15 Yenimahalle/ANKARA",
+    "ad": "Selin ÖZDEMIR",
+    "adres": "Yeşilevler Mahallesi Papatya Sokağı No: 113/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,11 +32,14 @@
   },
   "konu": "İdari Para Cezasına İtiraz",
   "sayi": null,
-  "tarih": "23.03.2026",
-  "ilgi": null,
+  "tarih": "13.04.2026",
+  "ilgi": {
+    "tarih": "08.04.2026",
+    "sayi": "E-53265760-858-3848059"
+  },
   "ek": {
     "adet": 1,
-    "aciklama": "Tebligat sureti",
+    "aciklama": "İkametgâh belgesi",
     "sayfa": 2
   },
   "somut_bilgiler": {
@@ -47,10 +50,11 @@
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Yapı Kontrol Müdürlüğü",

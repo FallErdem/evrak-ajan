@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Öz Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Güven Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Barıştepe Mahallesi Lale Sokağı No: 77/12 Yenimahalle/ANKARA",
+    "adres": "Demetevler Mahallesi Nergis Sokak No: 66/21 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,21 +31,22 @@
     "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "İtfaiye Uygunluk Raporu Talebi",
-  "sayi": "2026/41",
-  "tarih": "20.01.2026",
+  "konu": "Yangın Güvenliği Raporu Başvurusu",
+  "sayi": "2026/264",
+  "tarih": "13.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İtfaiye Uygunluk Raporu işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Talep": "Yangın Güvenliği Raporu işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
     2
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "imza_eksik",
   "yasakli_adlar": [
@@ -55,7 +56,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
-    "e-Devlet üzerinden"
+    "posta yoluyla adresime"
   ]
 }

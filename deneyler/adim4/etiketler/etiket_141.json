@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Şerife ÇETIN",
-    "adres": "Çiğdemtepe Mahallesi Menekşe Sokağı No: 12/9 Yenimahalle/ANKARA",
+    "ad": "Hüseyin AKSOY",
+    "adres": "Ergazi Mahallesi Lale Sokak No: 1/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023951528",
-    "bolum": "Tıp Fakültesi",
-    "sinif": "4"
+    "ogrenci_no": "2020637647",
+    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,24 +29,25 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "İngilizce Transkript Talebi",
+  "konu": "Diploma Denklik Başvurusu",
   "sayi": null,
-  "tarih": "29.05.2026",
+  "tarih": "20.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İngilizce Transkript",
+    "Talep": "Diploma Denklik",
     "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
     "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -55,9 +56,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İngilizce Transkript",
+    "Diploma Denklik",
     "resmî işlemlerde kullanılmak üzere",
-    "şahsen başvuru yapılmıştır",
     "posta yoluyla adresime"
   ]
 }

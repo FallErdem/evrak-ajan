@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hasan BULUT",
-    "adres": "Ergazi Mahallesi Zeytin Sokak No: 43/1 Yenimahalle/ANKARA",
+    "ad": "Zeynep AVCI",
+    "adres": "Demetevler Mahallesi Çınar Caddesi No: 14/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,20 +30,21 @@
     "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Kurs Bitirme Belgesi Talebi",
+  "konu": "Halk Eğitim Kursu Açılması Talebi",
   "sayi": null,
-  "tarih": "08.01.2026",
+  "tarih": "13.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kurs Bitirme Belgesi",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Talep": "Halk Eğitim Kursu Açılması",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
     "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -51,8 +52,8 @@
     "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kurs Bitirme Belgesi",
-    "resmî işlemlerde kullanılmak üzere",
+    "Halk Eğitim Kursu Açılması",
+    "sürecin tamamlanabilmesi için",
     "posta yoluyla adresime"
   ]
 }

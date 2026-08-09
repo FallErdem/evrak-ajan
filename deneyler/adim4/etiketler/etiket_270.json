@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Hatice AYDIN",
-    "adres": "Demetevler Mahallesi Kestane Sokağı No: 62/16 Yenimahalle/ANKARA",
+    "ad": "Murat BULUT",
+    "adres": "Şentepe Mahallesi Erguvan Sokağı No: 77/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020915733",
-    "bolum": "Tıp Fakültesi",
-    "sinif": "3"
+    "ogrenci_no": "2019779753",
+    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -33,31 +33,33 @@
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Topluluğu Kurulma Talebi",
+  "konu": "Topluluk Etkinlik İzni Talebi",
   "sayi": null,
-  "tarih": "13.01.2026",
+  "tarih": "30.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenci Topluluğu Kurulma",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Talep": "Topluluk Etkinlik İzni",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
     "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": "tarama_bozuk",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Öğrenci Topluluğu Kurulma",
-    "mağduriyetin giderilmesi bakımından",
+    "Topluluk Etkinlik İzni",
+    "sürecin tamamlanabilmesi için",
     "şahsen başvuru yapılmıştır",
-    "elektronik posta ile"
+    "e-Devlet üzerinden"
   ]
 }

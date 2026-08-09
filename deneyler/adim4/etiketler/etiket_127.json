@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -31,24 +31,27 @@
     "ad": "Tez İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Tez Teslim Süresi Uzatım Talebi",
-  "sayi": "E-65859045-302.14-3471347",
-  "tarih": "20.02.2026",
+  "konu": "Tez İzleme Komitesi Raporu",
+  "sayi": "E-10213773-302.14-14731673",
+  "tarih": "13.02.2026",
   "ilgi": {
-    "tarih": "04.02.2026",
-    "sayi": "E-47014261-302.14-1054214"
+    "tarih": "08.01.2026",
+    "sayi": "E-47014261-302.14-3085708"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Tez İşleri",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Konu": "Tez İzleme Komitesi Raporu",
+    "Mevcut uygulama": "uygulama birimler arasında farklılık göstermektedir",
+    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
@@ -56,7 +59,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Tez İşleri",
+    "Tez İzleme Komitesi Raporu",
+    "işlemlerde gecikme yaşanmaktadır",
     "konu hakkında görüş bildirilmesi"
   ]
 }

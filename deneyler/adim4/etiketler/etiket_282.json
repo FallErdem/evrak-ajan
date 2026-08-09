@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife ÖZTÜRK",
-    "adres": "Uğur Mumcu Mahallesi Nergis Caddesi No: 120/15 Yenimahalle/ANKARA",
+    "ad": "Elif KARA",
+    "adres": "Karşıyaka Mahallesi Yasemin Caddesi No: 111/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,20 +30,21 @@
     "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
+  "konu": "Güzergâh Değişikliği Talebi",
   "sayi": null,
-  "tarih": "13.03.2026",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Taşımalı Eğitim Kapsamına Alınma",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Talep": "Güzergâh Değişikliği",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
     "Başvuru şekli": "şahsen başvuru yapılmıştır",
     "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -51,8 +52,7 @@
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim Kapsamına Alınma",
-    "sürecin tamamlanabilmesi için",
+    "Güzergâh Değişikliği",
     "şahsen başvuru yapılmıştır",
     "posta yoluyla adresime"
   ]

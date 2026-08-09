@@ -5,61 +5,82 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "makine_ikmal",
+    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "detsis_no": "89052714",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Fen İşleri Müdürlüğü",
+    "kurum_adi": "Gelirler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "33152401",
+    "detsis_no": "30032784",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Yazı İşleri Müdürlüğü",
+  "muhatap_makam": "Makine İkmal Bakım ve Onarım Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "125",
-    "ad": "Evlendirme İşlemleri",
+    "kod": "801",
+    "ad": "Taşıt ve İş Makineleri İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Evlenme Başvurusu Hk.",
-  "sayi": "E-33152401-125-3195728",
-  "tarih": "04.03.2026",
+  "konu": "İş Makinesi Kiralama Talebi",
+  "sayi": "E-30032784-801-2481379",
+  "tarih": "03.03.2026",
   "ilgi": {
-    "tarih": "11.02.2026",
-    "sayi": "E-15986609-125-2440549"
+    "tarih": "27.02.2026",
+    "sayi": "E-89052714-801-2138286"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Evlenme Başvurusu",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "İş Makinesi Kiralama",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
+  ],
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Evlenme Başvurusu",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "İş Makinesi Kiralama",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı",
+    "talep ilgili birimce incelenmiştir"
   ]
 }

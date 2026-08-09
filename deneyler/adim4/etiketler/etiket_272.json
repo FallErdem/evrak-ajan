@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Meryem SARI",
-    "adres": "Gayret Mahallesi Zeytin Caddesi No: 101/3 Yenimahalle/ANKARA",
+    "ad": "Meryem UÇAR",
+    "adres": "Yakacık Mahallesi Erguvan Caddesi No: 86/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019299320",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "1"
+    "ogrenci_no": "2020751614",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -29,35 +29,36 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Öğrenci Kimliği Yenileme",
+  "konu": "Mezuniyet Töreni Duyurusu",
   "sayi": null,
-  "tarih": "05.05.2026",
+  "tarih": "13.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Öğrenci Kimliği Yenileme",
-    "Sorun": "transkriptimde geçen dönemin notları görünmüyor",
+    "Şikâyet konusu": "Mezuniyet Töreni",
+    "Sorun": "diplomam mezun olalı altı ay geçmesine rağmen düzenlenmedi",
     "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Öğrenci Kimliği Yenileme",
+    "Mezuniyet Töreni",
     "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]

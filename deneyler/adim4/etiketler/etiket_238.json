@@ -27,27 +27,27 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
-    "saklama_suresi": "10"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Staj Süresinin Uzatılması Talebi",
-  "sayi": "E-55461037-773-3023282",
-  "tarih": "20.03.2026",
-  "ilgi": {
-    "tarih": "23.02.2026",
-    "sayi": "E-43123369-773-3542157"
-  },
+  "konu": "Staj Yeri Talebi",
+  "sayi": "E-55461037-304.03-1401997",
+  "tarih": "28.01.2026",
+  "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Staj Süresinin Uzatılması",
-    "Ortak iş": "Staj Süresinin Uzatılması konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Staj Süresinin Uzatılması konusunda gerekli sürenin tanınması"
+    "Konu": "Staj Yeri",
+    "Ortak iş": "Staj Yeri konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
+    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
+    "Talep": "Staj Yeri için kontenjan ayrılması"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -56,6 +56,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Süresinin Uzatılması"
+    "Staj Yeri",
+    "Staj Yeri için kontenjan ayrılması"
   ]
 }

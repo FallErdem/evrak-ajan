@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hüseyin BOZKURT",
-    "adres": "Pamuklar Mahallesi Ceviz Caddesi No: 108/16 Yenimahalle/ANKARA",
+    "ad": "Elif ASLAN",
+    "adres": "Yeşilevler Mahallesi Ihlamur Caddesi No: 109/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,21 +30,22 @@
     "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Arşivden Suret Talebi",
+  "konu": "Araştırma Talebinin Reddi Hk.",
   "sayi": null,
-  "tarih": "31.03.2026",
+  "tarih": "26.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Arşivden Suret",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Talep": "Araştırma Talebinin Reddi",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
@@ -52,8 +53,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşivden Suret",
-    "resmî işlemlerde kullanılmak üzere",
-    "posta yoluyla adresime"
+    "Araştırma Talebinin Reddi",
+    "şahsen başvuru yapılmıştır",
+    "elektronik posta ile"
   ]
 }

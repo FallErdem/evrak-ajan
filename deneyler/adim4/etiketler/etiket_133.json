@@ -31,32 +31,52 @@
     "ad": "Diploma",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Defteri Kaydı",
-  "sayi": "E-24316060-198.02.01-60807216",
-  "tarih": "27.01.2026",
+  "konu": "Diploma Bilgilerinin Teyidi",
+  "sayi": "E-24316060-198.02.01-47825763",
+  "tarih": "26.03.2026",
   "ilgi": {
-    "tarih": "26.12.2025",
-    "sayi": "E-21291472-198.02.01-4889468"
+    "tarih": "24.02.2026",
+    "sayi": "E-21291472-198.02.01-6327924"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 4
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "12 kayıt",
-    "Ek 1": "Diploma listesi",
+    "Dönem": "bahar dönemi",
+    "Sayı": "18 kayıt",
+    "Ek 1": "Liste ve takvim",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Kapsam": "listede yer alanların tamamı sürece dâhildir",
+    "Süre": "iki hafta içinde",
+    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
-    2
+    3,
+    3,
+    3
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem",
+      "Sayı"
+    ],
+    [
+      "Ek 1",
+      "Ek 2",
+      "Kapsam"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen"
+    ]
+  ],
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
@@ -64,9 +84,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
-    "12 kayıt",
-    "Diploma listesi",
+    "bahar dönemi",
+    "18 kayıt",
+    "Liste ve takvim",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

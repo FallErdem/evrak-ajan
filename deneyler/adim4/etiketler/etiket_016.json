@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,43 +23,44 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "İhtilaflı Hususta Değerlendirme Talebi",
-  "sayi": "E-55461037-045.02-3013350",
-  "tarih": "24.02.2026",
-  "ilgi": {
-    "tarih": "16.02.2026",
-    "sayi": "E-82642947-045.02-8153087"
-  },
+  "konu": "Staj Yeri Talebi",
+  "sayi": "E-55461037-304.03-1465721",
+  "tarih": "16.04.2026",
+  "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Çalışma programı",
+    "aciklama": "Staj başvuru formu",
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "İhtilaflı Hususta Değerlendirme",
-    "Ortak iş": "İhtilaflı Hususta Değerlendirme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "İhtilaflı Hususta Değerlendirme konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Staj Yeri",
+    "Ortak iş": "Staj Yeri konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
+    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
+    "Talep": "Staj Yeri için kontenjan ayrılması"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İhtilaflı Hususta Değerlendirme"
+    "Staj Yeri",
+    "Staj Yeri için kontenjan ayrılması"
   ]
 }

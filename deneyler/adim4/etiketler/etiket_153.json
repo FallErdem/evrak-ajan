@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -32,39 +32,60 @@
     "saklama_suresi": "10"
   },
   "konu": "Başvuru Cevabının Gönderilmesi",
-  "sayi": "E-10213773-622.01-11577359",
-  "tarih": "18.05.2026",
+  "sayi": "E-24316060-622.01-48029241",
+  "tarih": "08.05.2026",
   "ilgi": {
-    "tarih": "07.05.2026",
-    "sayi": "E-55461037-622.01-3043173"
+    "tarih": "26.03.2026",
+    "sayi": "E-55461037-622.01-1448687"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "aciklama": "Öğrenci listesi",
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "47 kayıt",
-    "Ek 1": "Bilgi Edinme, Talep ve Şikayetler listesi",
+    "Dönem": "öğretim yılı",
+    "Sayı": "12 kayıt",
+    "Ek 1": "Öğrenci listesi",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Kapsam": "listede yer alanların tamamı sürece dâhildir",
+    "Süre": "dönem başlamadan önce",
+    "İrtibat": "koordinasyon Bakanlığımızca sağlanacaktır"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
-    2
+    3,
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem",
+      "Sayı"
+    ],
+    [
+      "Ek 1",
+      "Ek 2",
+      "Kapsam"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "kapanis_yanlis",
+  "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
-    "47 kayıt",
+    "öğretim yılı",
+    "12 kayıt",
+    "Öğrenci listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

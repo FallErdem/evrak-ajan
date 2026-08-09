@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özgüryurt İlkokulu Müdürlüğü",
+    "kurum_adi": "Özgüryurt Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10088059",
+    "detsis_no": "10109079",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
@@ -31,24 +31,44 @@
     "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Genelgenin İlgili Birimlere Dağıtımı",
-  "sayi": "E-10088059-010.06-4094",
-  "tarih": "06.01.2026",
+  "konu": "Genelge Uygulamasında Karşılaşılan Tereddütler",
+  "sayi": "E-10109079-010.06-4391",
+  "tarih": "27.02.2026",
   "ilgi": {
-    "tarih": "26.12.2025",
-    "sayi": "E-55461037-010.06-2988694"
+    "tarih": "14.01.2026",
+    "sayi": "E-55461037-010.06-1390445"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Genelgenin İlgili Birimlere Dağıtımı",
+    "Talep": "Genelge Uygulamasında Karşılaşılan Tereddütler",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir"
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
+    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": "tarih_tutarsiz",
@@ -56,8 +76,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Genelgenin İlgili Birimlere Dağıtımı",
     "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "ilgide kayıtlı yazı",
+    "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

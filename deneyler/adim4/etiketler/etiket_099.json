@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emre POLAT",
-    "adres": "Ragıpbey Mahallesi Yasemin Caddesi No: 76/2 Yenimahalle/ANKARA",
+    "ad": "Elif KOÇ",
+    "adres": "Susuz Mahallesi Kestane Sokağı No: 32/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,35 +26,36 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Tercüman Desteği Talebi",
+  "konu": "Öğrenci Nakil Talebi",
   "sayi": null,
-  "tarih": "03.03.2026",
+  "tarih": "16.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Tercüman Desteği",
-    "Sorun": "çocuğumun kaydı kimlik numarası olmadığı gerekçesiyle yapılmadı",
-    "Süre": "geçtiğimiz aydan bu yana",
+    "Şikâyet konusu": "Öğrenci Nakil",
+    "Sorun": "kontenjan olduğu söylendiği hâlde nakil talebim reddedildi",
+    "Süre": "yaklaşık iki aydır",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Tercüman Desteği",
-    "geçtiğimiz aydan bu yana",
+    "Öğrenci Nakil",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

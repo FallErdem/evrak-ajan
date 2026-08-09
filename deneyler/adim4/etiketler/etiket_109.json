@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sevgi KURT",
-    "adres": "Emniyet Mahallesi Ceviz Sokak No: 45/8 Yenimahalle/ANKARA",
+    "ad": "Yusuf ÇETIN",
+    "adres": "Pamuklar Mahallesi Nergis Sokak No: 27/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,20 +32,22 @@
   },
   "konu": "Kurs Kontenjanının Artırılması",
   "sayi": null,
-  "tarih": "11.03.2026",
+  "tarih": "01.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Şikâyet konusu": "Kurs Kontenjanının Artırılması",
-    "Sorun": "kayıt olduğum kurs yeterli kursiyer yok denilerek iptal edildi",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Sorun": "kurs bitirme belgem altı aydır düzenlenmedi",
+    "Süre": "yaklaşık üç haftadır",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
@@ -54,7 +56,7 @@
   ],
   "anahtar_terimler": [
     "Kurs Kontenjanının Artırılması",
-    "bir aydan uzun süredir",
+    "yaklaşık üç haftadır",
     "sorunun giderilmesi"
   ]
 }

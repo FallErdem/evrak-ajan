@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep KURT",
-    "adres": "Emniyet Mahallesi Menekşe Sokağı No: 98/4 Yenimahalle/ANKARA",
+    "ad": "Elif SARI",
+    "adres": "Serhat Mahallesi Menekşe Sokak No: 32/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,33 +26,34 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Bağış Makbuzu Talebi",
+  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
   "sayi": null,
-  "tarih": "29.01.2026",
+  "tarih": "14.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bağış Makbuzu",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Talep": "Taşımalı Eğitim Kapsamına Alınma",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
     "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bağış Makbuzu",
-    "sürecin tamamlanabilmesi için",
+    "Taşımalı Eğitim Kapsamına Alınma",
     "Kurumunuz kayıt bürosundan elden"
   ]
 }

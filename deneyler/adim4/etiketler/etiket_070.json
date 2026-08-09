@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatih ÇAKIR",
-    "adres": "Ragıpbey Mahallesi Manolya Sokağı No: 111/10 Yenimahalle/ANKARA",
+    "ad": "Osman BOZKURT",
+    "adres": "Ragıpbey Mahallesi Sümbül Sokak No: 54/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,34 +30,35 @@
     "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "Ruhsat Devir Talebi",
+  "konu": "Hafta Tatili Ruhsatı Talebi",
   "sayi": null,
-  "tarih": "09.01.2026",
+  "tarih": "27.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ruhsat Devir",
-    "Sorun": "devir talebim eksik evrak denilerek iade edildi ancak eksik belirtilmedi",
-    "Süre": "yaklaşık iki aydır",
+    "Şikâyet konusu": "Hafta Tatili Ruhsatı",
+    "Sorun": "komşumdaki işyeri ruhsatsız çalıştığı hâlde denetlenmiyor",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "Gayret Mahallesi"
+    "Yer": "Serhat Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
     2
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": "imza_eksik",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
+  "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsat Devir",
-    "yaklaşık iki aydır",
+    "Hafta Tatili Ruhsatı",
+    "bir aydan uzun süredir",
     "sorunun giderilmesi",
-    "Gayret Mahallesi"
+    "Serhat Mahallesi"
   ]
 }

@@ -5,61 +5,87 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "98244303",
+    "detsis_no": "47014261",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Gazi Üniversitesi Rektörlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
-    "saklama_suresi": "10"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Nakil İşlemi Hk.",
-  "sayi": "E-98244303-302.11-7834366",
-  "tarih": "29.04.2026",
+  "konu": "Genelge Kapsamındaki İşlemlerin Raporlanması",
+  "sayi": "E-47014261-010.06-3104694",
+  "tarih": "03.02.2026",
   "ilgi": {
-    "tarih": "23.03.2026",
-    "sayi": "E-47014261-302.11-1093038"
+    "tarih": "29.12.2025",
+    "sayi": "E-39985474-010.06-4994310"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Nakil İşlemi",
+    "Talep": "Genelge Kapsamındaki İşlemlerin Raporlanması",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    2,
+    2,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Gönderilen"
+    ],
+    [
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "ilgi_kopuk",
+  "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Nakil İşlemi",
     "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı"
+    "ilgide kayıtlı yazı",
+    "talep ilgili birimce incelenmiştir",
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

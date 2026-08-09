@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Güven Turizm ve Ticaret A.Ş.",
+    "kurum_adi": "Yıldız Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Susuz Mahallesi Menekşe Caddesi No: 104/16 Yenimahalle/ANKARA",
+    "adres": "Susuz Mahallesi Zeytin Caddesi No: 17/8 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,25 +27,25 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Hafta Tatili Ruhsatı Talebi",
-  "sayi": "2026/167",
-  "tarih": "19.02.2026",
+  "konu": "Cezanın Kaldırılması Talebi",
+  "sayi": "2026/207",
+  "tarih": "29.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Hafta Tatili Ruhsatı işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "Talep": "Cezanın Kaldırılması işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "elektronik posta ile"
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -56,6 +56,6 @@
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "yıllara göre sayısal döküm",
-    "elektronik posta ile"
+    "e-Devlet üzerinden"
   ]
 }

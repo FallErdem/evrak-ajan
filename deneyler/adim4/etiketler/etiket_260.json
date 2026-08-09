@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze AYDIN",
-    "adres": "Kaletepe Mahallesi Menekşe Sokak No: 3/17 Yenimahalle/ANKARA",
+    "ad": "Büşra AKTAŞ",
+    "adres": "Yeşilevler Mahallesi Papatya Sokağı No: 99/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,30 +30,31 @@
     "ad": "Borç ve Alacak İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Borç Bilgisi Talebi",
+  "konu": "Tahsilat Makbuzu Talebi",
   "sayi": null,
-  "tarih": "22.04.2026",
+  "tarih": "18.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Borç Bilgisi",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Tahsilat Makbuzu",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "muhatap_belirsiz",
+  "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Borç Bilgisi",
-    "sürecin tamamlanabilmesi için",
-    "Kurumunuz kayıt bürosundan elden"
+    "Tahsilat Makbuzu",
+    "mağduriyetin giderilmesi bakımından",
+    "e-Devlet üzerinden"
   ]
 }

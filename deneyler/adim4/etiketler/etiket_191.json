@@ -27,36 +27,56 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
   },
-  "konu": "Belgenin Dijital Kopyasının Gönderilmesi",
-  "sayi": "E-32625594-805.02.05-56917764",
-  "tarih": "22.05.2026",
+  "konu": "Kurul Kararının Gönderilmesi",
+  "sayi": "E-32625594-050.04-75449310",
+  "tarih": "17.02.2026",
   "ilgi": {
-    "tarih": "18.05.2026",
-    "sayi": "E-82642947-805.02.05-8223679"
+    "tarih": "03.02.2026",
+    "sayi": "E-82642947-050.04-6995937"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Etik kurul kararı",
+    "aciklama": "Öğrenci listesi",
     "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "142 kayıt",
-    "Ek 1": "Arşivlerden Yararlanma listesi",
+    "Dönem": "güz dönemi",
+    "Sayı": "24 kayıt",
+    "Ek 1": "Öğrenci listesi",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
+    "Süre": "on beş gün içinde",
+    "İrtibat": "koordinasyon Başkanlığımızca sağlanacaktır"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
-    2
+    3,
+    3,
+    3
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem",
+      "Sayı"
+    ],
+    [
+      "Ek 1",
+      "Ek 2",
+      "Kapsam"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen"
+    ]
+  ],
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
@@ -65,9 +85,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
-    "142 kayıt",
-    "Arşivlerden Yararlanma listesi",
+    "güz dönemi",
+    "24 kayıt",
+    "Öğrenci listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

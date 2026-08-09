@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Kaymakamlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "56248377",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -27,34 +27,57 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "İtirazın Değerlendirilmesi",
-  "sayi": "E-56248377-858-270404",
-  "tarih": "17.02.2026",
-  "ilgi": null,
+  "konu": "Karar Örneğinin Gönderilmesi",
+  "sayi": "E-24304062-641.04-57868074",
+  "tarih": "25.03.2026",
+  "ilgi": {
+    "tarih": "05.03.2026",
+    "sayi": "E-53265760-641.04-3837128"
+  },
   "ek": {
     "adet": 2,
-    "aciklama": "İtiraz dilekçesi",
-    "sayfa": 3
+    "aciklama": "Öğrenci listesi",
+    "sayfa": 6
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "yılın ilk yarısı",
-    "Sayı": "94 kayıt",
-    "Ek 1": "İdari Yaptırım/Para Cezası İşleri listesi",
+    "Dönem": "üçüncü çeyrek",
+    "Sayı": "142 kayıt",
+    "Ek 1": "Öğrenci listesi",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
+    "Süre": "iki hafta içinde",
+    "İrtibat": "koordinasyon Bakanlığımızca sağlanacaktır"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
-    2
+    3,
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem",
+      "Sayı"
+    ],
+    [
+      "Ek 1",
+      "Ek 2",
+      "Kapsam"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Yapı Kontrol Müdürlüğü",
@@ -62,8 +85,9 @@
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "yılın ilk yarısı",
-    "94 kayıt",
+    "üçüncü çeyrek",
+    "142 kayıt",
+    "Öğrenci listesi",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

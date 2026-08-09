@@ -27,32 +27,39 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
-    "saklama_suresi": "10"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Okul Aile Birliği Genel Kurulu",
-  "sayi": "E-39985474-165.01-7010053",
-  "tarih": "19.02.2026",
-  "ilgi": null,
+  "konu": "Kayıt İşlemleri Hk.",
+  "sayi": "E-39985474-205-5048328",
+  "tarih": "11.03.2026",
+  "ilgi": {
+    "tarih": "04.02.2026",
+    "sayi": "E-93213107-205-4008946"
+  },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Okul Aile Birlikleri",
+    "Konu": "Kayıt İşlemleri",
+    "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
+    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
     "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "sdp_uyumsuz",
+  "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Okul Aile Birlikleri",
+    "Kayıt İşlemleri",
+    "işlemlerde gecikme yaşanmaktadır",
     "konu hakkında görüş bildirilmesi"
   ]
 }

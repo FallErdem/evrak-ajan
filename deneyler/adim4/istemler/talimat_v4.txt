@@ -47,7 +47,10 @@ KURUMLARA ATIF:
 - Kendi kurumundan söz ederken yalnızca: "Müdürlüğümüz",
   "Başkanlığımız", "Bakanlığımız", "Kurumumuz", "Rektörlüğümüz".
 - Muhatap kurumdan söz ederken yalnızca: "Müdürlüğünüz",
-  "Başkanlığınız", "Bakanlığınız", "Rektörlüğünüz".
+  "Başkanlığınız", "Bakanlığınız", "Rektörlüğünüz", "Dekanlığınız",
+  "Valiliğiniz", "Kaymakamlığınız", "Kurumunuz".
+  Muhatap satırındaki makam ne ise onun karşılığını kullan; listede
+  karşılığı yoksa "Kurumunuz" de.
 - Gönderenin veya muhatabın adının HİÇBİR PARÇASINI yazma. Kurum
   adının içinde geçen il/ilçe adları da buna dahildir.
   Yanlış: "Ankara İl Millî Eğitim Müdürlüğünde..."

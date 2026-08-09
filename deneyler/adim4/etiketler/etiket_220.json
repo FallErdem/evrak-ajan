@@ -32,24 +32,25 @@
     "saklama_suresi": "B"
   },
   "konu": "Tahsisin Kaldırılması Talebi",
-  "sayi": "E-55461037-756.01-3031967",
-  "tarih": "10.04.2026",
-  "ilgi": {
-    "tarih": "04.03.2026",
-    "sayi": "E-87730597-756.01-1708389"
-  },
+  "sayi": "E-55461037-756.01-1481485",
+  "tarih": "05.05.2026",
+  "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Konu": "Tahsisin Kaldırılması",
     "Ortak iş": "Tahsisin Kaldırılması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
+    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
     "Talep": "gerekli tahsisin yapılması"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "ilgi_kopuk",
+  "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Emlak ve İstimlak Müdürlüğü",

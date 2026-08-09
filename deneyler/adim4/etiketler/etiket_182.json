@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Pınar ASLAN",
-    "adres": "Beştepe Mahallesi Ihlamur Caddesi No: 111/7 Yenimahalle/ANKARA",
+    "ad": "Hüseyin ŞAHIN",
+    "adres": "İvedik Mahallesi Papatya Sokağı No: 74/14 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019465595",
-    "bolum": "Fen Fakültesi Matematik",
-    "sinif": "2"
+    "ogrenci_no": "2020436678",
+    "bolum": "Mimarlık Fakültesi",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -33,20 +33,21 @@
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Etkinlik Bütçe Desteği Talebi",
+  "konu": "Salon Tahsis Talebi",
   "sayi": null,
-  "tarih": "31.03.2026",
+  "tarih": "28.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Etkinlik Bütçe Desteği",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Talep": "Salon Tahsis",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
     "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -55,8 +56,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Etkinlik Bütçe Desteği",
-    "şahsen başvuru yapılmıştır",
+    "Salon Tahsis",
+    "mağduriyetin giderilmesi bakımından",
     "elektronik posta ile"
   ]
 }

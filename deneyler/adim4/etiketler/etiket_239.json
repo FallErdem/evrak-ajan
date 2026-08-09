@@ -5,59 +5,60 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Hasan KORKMAZ",
-    "adres": "Pamuklar Mahallesi Kestane Sokak No: 38/6 Yenimahalle/ANKARA",
+    "ad": "Esra GÜNEŞ",
+    "adres": "Emniyet Mahallesi Çınar Caddesi No: 39/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023994034",
-    "bolum": "Biyoloji (Yüksek Lisans)",
-    "sinif": "3"
+    "ogrenci_no": "2019503631",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.14",
-    "ad": "Tez İşleri",
-    "saklama_suresi": "B"
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "saklama_suresi": "10"
   },
-  "konu": "Danışman Değişikliği Talebi",
+  "konu": "Etkinlik Bütçe Desteği Talebi",
   "sayi": null,
-  "tarih": "18.02.2026",
+  "tarih": "11.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Danışman Değişikliği",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Talep": "Etkinlik Bütçe Desteği",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": "muhatap_belirsiz",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Danışman Değişikliği",
-    "mağduriyetin giderilmesi bakımından",
-    "şahsen başvuru yapılmıştır",
-    "elektronik posta ile"
+    "Etkinlik Bütçe Desteği",
+    "sürecin tamamlanabilmesi için",
+    "e-Devlet üzerinden"
   ]
 }

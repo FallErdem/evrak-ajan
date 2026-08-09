@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hüseyin ÇELIK",
-    "adres": "Emniyet Mahallesi Zeytin Sokak No: 25/22 Yenimahalle/ANKARA",
+    "ad": "Yusuf TEKIN",
+    "adres": "Serhat Mahallesi Kestane Sokağı No: 2/17 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,41 +26,39 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Periyodik Muayene Talebi",
+  "konu": "Yerinde İnceleme Randevusu",
   "sayi": null,
-  "tarih": "11.05.2026",
-  "ilgi": {
-    "tarih": "20.04.2026",
-    "sayi": "E-59553370-175-2291926"
-  },
+  "tarih": "19.02.2026",
+  "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Karar sureti",
-    "sayfa": 2
+    "aciklama": "Önceki başvuru sureti",
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Periyodik Muayene",
+    "İtiraz konusu": "Yerinde İnceleme Randevusu",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": "tarih_tutarsiz",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
+  "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Periyodik Muayene",
+    "Yerinde İnceleme Randevusu",
     "talep olumsuz sonuçlandırılmıştır",
     "kararın yeniden değerlendirilmesi"
   ]

@@ -31,39 +31,71 @@
     "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Kırtasiye Malzemesi Alımı",
-  "sayi": "E-24316060-934.01-60787156",
-  "tarih": "21.01.2026",
-  "ilgi": null,
+  "konu": "Alım Miktarının Artırılması",
+  "sayi": "E-24316060-934.01-47526655",
+  "tarih": "22.01.2026",
+  "ilgi": {
+    "tarih": "13.01.2026",
+    "sayi": "E-14588481-934.01-4699145"
+  },
   "ek": {
     "adet": 2,
-    "aciklama": "Numune listesi",
-    "sayfa": 3
+    "aciklama": "Liste ve takvim",
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "güz dönemi",
-    "Sayı": "47 kayıt",
-    "Ek 1": "Mal Alım İşi listesi",
+    "Dönem": "içinde bulunulan öğretim yılı",
+    "Sayı": "94 kayıt",
+    "Ek 1": "Liste ve takvim",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması"
+    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
+    "Ek 2 içeriği": "aşamalara göre bölümlendirilmiştir",
+    "Kapsam": "listede yer alanların tamamı sürece dâhildir",
+    "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
+    "Süre": "dönem başlamadan önce",
+    "İrtibat": "koordinasyon Bakanlığımızca sağlanacaktır"
   },
   "paragraf_cumle_sayilari": [
+    3,
+    4,
     2,
-    2,
-    2
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Dayanak",
+      "Dönem",
+      "Sayı"
+    ],
+    [
+      "Ek 1",
+      "Ek 1 içeriği",
+      "Ek 2",
+      "Ek 2 içeriği"
+    ],
+    [
+      "Kapsam",
+      "Değişiklik"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "sayi_eksik",
+  "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "güz dönemi",
-    "47 kayıt",
-    "Mal Alım İşi listesi",
+    "içinde bulunulan öğretim yılı",
+    "94 kayıt",
+    "Liste ve takvim",
     "uygulama takvimi",
     "listenin ilgili birimlere dağıtılması"
   ]

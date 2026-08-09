@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Kuzey Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Öz Ticaret A.Ş.",
     "ad": null,
-    "adres": "Şentepe Mahallesi Kestane Sokağı No: 24/15 Yenimahalle/ANKARA",
+    "adres": "Emniyet Mahallesi Lale Caddesi No: 37/2 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,21 +31,21 @@
     "ad": "Emlak Vergisi",
     "saklama_suresi": "15"
   },
-  "konu": "Taksit Ödeme Bilgisi",
-  "sayi": "2026/108",
-  "tarih": "16.01.2026",
+  "konu": "Emlak Vergisi Muafiyet Başvurusu",
+  "sayi": "2026/153",
+  "tarih": "04.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Taksit Ödeme Bilgisi işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Talep": "Emlak Vergisi Muafiyet işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
     "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [

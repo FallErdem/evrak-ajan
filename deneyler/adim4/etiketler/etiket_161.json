@@ -31,20 +31,27 @@
     "ad": "Kayıt-Kabul",
     "saklama_suresi": "B"
   },
-  "konu": "Kayıt İşlemleri Hk.",
-  "sayi": "E-65859045-205-3512883",
-  "tarih": "01.05.2026",
-  "ilgi": null,
+  "konu": "Kayıt Takviminin Duyurulması",
+  "sayi": "E-65859045-205-1669465",
+  "tarih": "30.03.2026",
+  "ilgi": {
+    "tarih": "20.03.2026",
+    "sayi": "E-93213107-205-4036131"
+  },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Kayıt-Kabul",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Konu": "Kayıt Takviminin Duyurulması",
+    "Mevcut uygulama": "uygulama birimler arasında farklılık göstermektedir",
+    "Sonuç": "başvuranlara tutarlı cevap verilememektedir",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -52,6 +59,7 @@
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "Kayıt Takviminin Duyurulması",
     "konu hakkında görüş bildirilmesi"
   ]
 }

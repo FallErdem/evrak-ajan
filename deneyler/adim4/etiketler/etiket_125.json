@@ -27,41 +27,74 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
+    "saklama_suresi": "10"
   },
-  "konu": "Stratejik Plan Çalıştayı Daveti",
-  "sayi": "E-10213773-602.04-11537348",
-  "tarih": "16.04.2026",
+  "konu": "Mal Alımı Teknik Şartnamesi",
+  "sayi": "E-10213773-934.01-14857611",
+  "tarih": "13.05.2026",
   "ilgi": {
-    "tarih": "31.03.2026",
-    "sayi": "E-14588481-602.04-3782898"
+    "tarih": "09.04.2026",
+    "sayi": "E-14588481-934.01-4762630"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
-    "sayfa": 4
+    "aciklama": "Genelge sureti",
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Stratejik Plan Çalıştayı Daveti konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme ilgili mevzuat gereği yapılmıştır",
+    "Konu": "Mal Alımı Teknik Şartnamesi konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "sonuçların içinde bulunulan öğretim yılı sonunda bildirilmesi"
+    "Yürürlük": "01.04.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "yürürlük tarihinden önce sonuçlandırılan işlemler",
+    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
+    "Esas 2": "eksik belgeli başvurular işleme alınmayacaktır",
+    "Geçiş hükmü": "geçiş dönemi üç ay olarak belirlenmiştir",
+    "Süre": "otuz gün içinde",
+    "İrtibat": "uygulama Valiliğimizce izlenecektir"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    3,
+    3,
+    3
+  ],
+  "paragraf_alanlari": [
+    [
+      "Konu",
+      "Kaynak"
+    ],
+    [
+      "Kapsam",
+      "Kapsam dışı",
+      "Yürürlük"
+    ],
+    [
+      "Esas 1",
+      "Esas 2",
+      "Geçiş hükmü"
+    ],
+    [
+      "Süre",
+      "İrtibat",
+      "İstenen 1"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "ilgi_kopuk",
+  "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması"
+    "uygulamanın ilgililere duyurulması",
+    "01.04.2026 tarihinde yürürlüğe girmiştir",
+    "geçiş dönemi üç ay olarak belirlenmiştir",
+    "otuz gün içinde",
+    "uygulama Valiliğimizce izlenecektir"
   ]
 }

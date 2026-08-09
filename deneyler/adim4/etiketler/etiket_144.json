@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Merve SARI",
-    "adres": "Susuz Mahallesi Yasemin Sokak No: 61/12 Yenimahalle/ANKARA",
+    "ad": "Selin POLAT",
+    "adres": "Emniyet Mahallesi Nergis Caddesi No: 21/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,27 +32,28 @@
   },
   "konu": "Bağış Makbuzu Talebi",
   "sayi": null,
-  "tarih": "02.03.2026",
+  "tarih": "22.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Bağış Makbuzu",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "Bağış Makbuzu",
-    "sürecin tamamlanabilmesi için",
-    "e-Devlet üzerinden"
+    "mağduriyetin giderilmesi bakımından",
+    "elektronik posta ile"
   ]
 }

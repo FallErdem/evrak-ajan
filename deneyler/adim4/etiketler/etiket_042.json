@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Derya KILIÇ",
-    "adres": "Emniyet Mahallesi Çınar Sokak No: 56/14 Yenimahalle/ANKARA",
+    "ad": "Fatma KURT",
+    "adres": "Susuz Mahallesi Nergis Caddesi No: 18/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,42 +22,42 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
     "saklama_suresi": "B"
   },
-  "konu": "Yurtdışı Kullanım İçin Onay Talebi",
+  "konu": "Denklik Belgesi Talebi",
   "sayi": null,
-  "tarih": "11.03.2026",
+  "tarih": "06.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Başvuru formu",
-    "sayfa": 2
+    "aciklama": "Tapu fotokopisi",
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Talep": "Yurtdışı Kullanım İçin Onay",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Talep": "Denklik Belgesi",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
     "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "muhatap_belirsiz",
+  "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yurtdışı Kullanım İçin Onay",
-    "sürecin tamamlanabilmesi için",
-    "şahsen başvuru yapılmıştır",
+    "Denklik Belgesi",
+    "ilgili kuruma sunulmak üzere",
     "elektronik posta ile"
   ]
 }

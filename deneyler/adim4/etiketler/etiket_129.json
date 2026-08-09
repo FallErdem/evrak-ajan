@@ -5,9 +5,9 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
     "imza_unvani": "Dekan"
   },
   "gonderen": {
@@ -23,7 +23,7 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
@@ -31,32 +31,31 @@
     "ad": "Stajlar",
     "saklama_suresi": "2"
   },
-  "konu": "Staj Yeri Talebi",
-  "sayi": "E-65859045-304.03-3473678",
-  "tarih": "24.02.2026",
-  "ilgi": {
-    "tarih": "14.01.2026",
-    "sayi": "E-86488853-304.03-7683217"
-  },
+  "konu": "Staj Süresinin Sayılması Talebi",
+  "sayi": "E-65859045-304.03-1659759",
+  "tarih": "02.03.2026",
+  "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Staj Yeri",
-    "Ortak iş": "Staj Yeri konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Staj Yeri için kontenjan ayrılması"
+    "Konu": "Staj Süresinin Sayılması",
+    "Ortak iş": "Staj Süresinin Sayılması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
+    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
+    "Talep": "Staj Süresinin Sayılması konusunda gerekli sürenin tanınması"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Yeri",
-    "Staj Yeri için kontenjan ayrılması"
+    "Staj Süresinin Sayılması"
   ]
 }

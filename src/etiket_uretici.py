@@ -484,21 +484,40 @@ _AILE = {
     "olur_yazisi": "olur",
 }
 
-# Aile -> (paragraf sayısı, her paragraftaki cümle sayısı)
-_PARAGRAF = {
-    "belge_talebi":  [3],
-    "itiraz":        [3, 2],
-    "sikayet":       [3, 2],
-    "bilgi_edinme":  [2, 2],
-    "belge_cevabi":  [3, 3],
-    "kaynak_talebi": [2, 2],
-    "bilgilendirme": [2, 2],
-    "gorus_talebi":  [2, 2],
-    "isbirligi_talebi": [2, 2],
-    "ust_yazi":      [2, 2, 2],
-    "tekit":         [2, 2],
-    "olur":          [2, 2],
+# UZUNLUK KATMANI — aileye göre, rastgele değil.
+#
+# Ölçülen sorun: bütün belgeler 3-6 cümle arasındaydı, %72'si iki paragraf.
+# Gerçek yazışmada dilekçe kısadır ama genelge ve üst yazı uzundur. Dar
+# uzunluk dağılımı iki şeyi bozuyor: (a) şartname 6.5'in ödüllendirdiği
+# çeşitlilik, (b) özetleyici ajanın ölçümü — 4 cümlelik bir belgeyi
+# özetlemek anlamsız.
+#
+# Uzunluk TÜRDEN gelir. Vatandaş dilekçesini uzatmak gerçekçiliği bozar.
+_UZUNLUK_KATMANI = {
+    "belge_talebi":     "kisa",
+    "bilgi_edinme":     "kisa",
+    "tekit":            "kisa",
+    "sikayet":          "orta",
+    "itiraz":           "orta",
+    "gorus_talebi":     "orta",
+    "kaynak_talebi":    "orta",
+    "isbirligi_talebi": "orta",
+    "olur":             "orta",
+    "bilgilendirme":    "uzun",
+    "ust_yazi":         "uzun",
+    "belge_cevabi":     "uzun",
 }
+
+# Katman içinde de sabitlik yok — üç varyanttan biri seçilir. Tek bir yapı
+# kullanılsaydı 94 uzun belgenin hepsi aynı iskelette olurdu.
+_PARAGRAF_VARYANT = {
+    "kisa": [[3], [2, 2], [4]],                                    # 3-4 cümle
+    "orta": [[3, 2], [2, 3], [3, 3], [2, 2, 3]],                   # 5-7 cümle
+    "uzun": [[3, 2, 3], [3, 3, 3], [2, 3, 3, 2], [3, 2, 3, 2]],    # 8-10 cümle
+}
+# Varyantlar 3'ten 10'a KESİNTİSİZ aralık verir. İlk tasarımda 7-8 cümlelik
+# belge hiç yoktu (6'dan 9'a atlıyordu) ve uzunluk histogramında boşluk
+# oluşuyordu.
 
 # Gönderen tipi -> hiyerarşi yönü (gönderenin alıcıya göre konumu)
 _YON = {
@@ -859,7 +878,10 @@ class EtiketUretici:
 
     def _somut_bilgiler(self, aile: str, kurum: Kurum, birim: Birim,
                         kod: SdpKodu, konu: str, s: Siparis,
-                        ogrenci: bool = False) -> dict:
+                        ogrenci: bool = False,
+                        uzun: bool = False,
+                        gonderen_adi: str = "",
+                        _ek_adi: str = "İlgili liste") -> dict:
         """Belgenin içini dolduran değerler.
 
         Bunlar etiketin parçası ve aynı zamanda modele verilecek şartnamenin
@@ -919,16 +941,59 @@ class EtiketUretici:
                 b["Teslim yeri"] = f"{kurum_soz} kayıt bürosu"
                 b["Teslim şartı"] = h.teslim_sarti()
                 b["Geçerlilik"] = h.gecerlilik()
+                if uzun:
+                    b["İnceleme"] = h.sec([
+                        "başvuru evrakı ilgili birimce incelenmiştir",
+                        "dosya üzerinde gerekli araştırma yapılmıştır",
+                        "kayıtlar kontrol edilmiştir"])  # kurum adı geçmiyor
+                    b["Ek işlem"] = h.sec([
+                        "harç tahakkuku yapılmıştır",
+                        "kayıt işlemi tamamlanmıştır",
+                        "dosya numarası verilmiştir"])
+                    b["Süre"] = h.sec([
+                        "belge otuz gün içinde teslim alınmalıdır",
+                        "teslim alınmayan belgeler arşive kaldırılır"])
+                    b["İtiraz yolu"] = h.sec([
+                        "karara karşı altmış gün içinde itiraz edilebilir",
+                        "yeniden değerlendirme talebinde bulunulabilir"])
+                    b["İrtibat"] = f"{kurum_soz} kayıt bürosundan bilgi alınabilir"
             else:
                 b["Dayanak"] = "ilgide kayıtlı yazı"
                 b["Gönderilen"] = h.sec([
                     "talep edilen bilgiler ekte sunulmuştur",
                     "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-                    "istenen kayıtlar tarafımızca derlenmiştir"])
-                b["Ek bilgi"] = h.sec([
-                    "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir",
-                    "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir",
-                    "süreç Müdürlüğümüzce takip edilmektedir"])
+                    "istenen kayıtlar derlenerek hazırlanmıştır"])
+                # "Ek bilgi" havuzu İrtibat alanıyla çakışıyordu (ikisi de
+                # irtibat kişisinden söz ediyordu). Uzun katmanda İrtibat
+                # zaten var; kısa/orta katmanda Ek bilgi kullanılıyor.
+                if not uzun:
+                    b["Ek bilgi"] = h.sec([
+                        "ihtiyaç duyulması hâlinde ayrıntılı döküm gönderilebilir",
+                        "talep edilmesi hâlinde ek açıklama yapılabilir"])
+                if uzun:
+                    # Gönderen bakanlıkken "Müdürlüğümüzce" yazıyordu.
+                    # İrtibat alanında düzeltilmişti, İnceleme'de kalmıştı.
+                    gi = _gonderen_sozu(gonderen_adi)
+                    b["İnceleme"] = h.sec([
+                        "talep ilgili birimce incelenmiştir",
+                        "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+                        f"konu {gi}{_ek_ca(gi)} değerlendirilmiştir"])
+                    b["Kapsam"] = h.sec([
+                        "bildirilen bilgiler ilgili dönemi kapsamaktadır",
+                        "veriler kayıt tarihine göre düzenlenmiştir",
+                        "döküm birim bazında hazırlanmıştır"])
+                    b["Sınırlama"] = h.sec([
+                        "kişisel veri içeren kayıtlar paylaşılmamıştır",
+                        "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
+                        "yalnızca tamamlanmış işlemler dâhil edilmiştir"])
+                    b["Süre"] = h.sec([
+                        "ilave bilgi talebi on beş gün içinde iletilebilir",
+                        "güncel döküm dönem sonunda ayrıca gönderilecektir"])
+                    g = _gonderen_sozu(gonderen_adi)
+                    ca, e = _ek_ca(g), _ek_e(g)
+                    b["İrtibat"] = h.sec([
+                        f"konuyla ilgili irtibat {g}{ca} sağlanmaktadır",
+                        f"tereddüt hâlinde {g}{e} başvurulabilir"])
             return b
 
         if aile == "itiraz":
@@ -984,14 +1049,54 @@ class EtiketUretici:
             # ve Kabul İşlemleri" iken gövde "Mal Alım İşi kapsamında yeni
             # bir uygulama" diyordu. Denetçinin bilgi_edinme ve isbirligi'de
             # bulduğu desenin aynısı, bilgilendirme'de kalmıştı (42 belge).
-            return {"Konu": f"{_talep_ifadesi(konu, kod.ad)} konusunda yeni "
-                            f"bir uygulama yürürlüğe girmiştir",
-                    "Kaynak": h.sec(["uygulama Bakanlıkça yürürlüğe konulmuştur",
-                                     "karar Makam onayı ile yürürlüğe girmiştir",
-                                     "düzenleme ilgili mevzuat gereği yapılmıştır"]),
-                    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-                    "İstenen 1": "uygulamanın ilgililere duyurulması",
-                    "İstenen 2": f"sonuçların {_donem(h, kurum.kurum_tipi)} sonunda bildirilmesi"}
+            b = {"Konu": f"{_talep_ifadesi(konu, kod.ad)} konusunda yeni "
+                         f"bir uygulama yürürlüğe girmiştir",
+                 "Kaynak": h.sec(["uygulama Bakanlıkça yürürlüğe konulmuştur",
+                                  "karar Makam onayı ile yürürlüğe girmiştir",
+                                  "düzenleme Makam onayına istinaden yapılmıştır"]),
+                 "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
+                 "İstenen 1": "uygulamanın ilgililere duyurulması",
+                 "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi"}
+            if uzun:
+                # HER ALAN AYRI BİR OLGU. Aynı bilgiyi başka kelimelerle
+                # tekrarlayan alan eklenmiyor: dolgu metin, uydurmadan daha
+                # tehlikelidir çünkü linter'a takılmaz.
+                #
+                # KANUN ADI VE MADDE NUMARASI YOK. 115 SDP kodunun her biri
+                # için doğru mevzuat dayanağını bulmak ayrı bir araştırma
+                # turu gerektirir; uydurulan bir kanun atfı jüri tek bir
+                # tanesini kontrol ettiğinde bütün veri setini şüpheli yapar.
+                b["Yürürlük"] = h.yururluk_tarihi()
+                b["Kapsam dışı"] = h.sec([
+                    "hâlihazırda işleme alınmış başvurular",
+                    "yürürlük tarihinden önce sonuçlandırılan işlemler",
+                    "geçici görevle çalışan personel",
+                    "sözleşmesi devam eden yükleniciler"])
+                b["Esas 1"] = h.sec([
+                    "başvurular elektronik ortamda kayda alınacaktır",
+                    "işlemler tek merkezden yürütülecektir",
+                    "her başvuru için ayrı dosya açılacaktır",
+                    "belgelerin asılları birim arşivinde tutulacaktır"])
+                b["Esas 2"] = h.sec([
+                    "eksik belgeli başvurular işleme alınmayacaktır",
+                    "süre aşımı hâlinde başvuru yenilenecektir",
+                    "değerlendirme sonucu başvurana yazılı bildirilecektir",
+                    "itirazlar on beş gün içinde sonuçlandırılacaktır"])
+                b["Geçiş hükmü"] = h.sec([
+                    "mevcut başvurular eski usule göre sonuçlandırılacaktır",
+                    "devam eden işlemler için ek süre tanınmıştır",
+                    "geçiş dönemi üç ay olarak belirlenmiştir"])
+                b["Süre"] = h.sec(["on beş gün içinde", "otuz gün içinde",
+                                   "ay sonuna kadar", "dönem sonuna kadar"])
+                # Gönderen kurum tipine göre çekimlenir. Sabit "Müdürlüğümüz"
+                # yazmak, gönderen bakanlık veya valilikken yanlış oluyordu.
+                g = _gonderen_sozu(gonderen_adi)
+                ca, e = _ek_ca(g), _ek_e(g)
+                b["İrtibat"] = h.sec([
+                    f"süreç {g}{ca} takip edilmektedir",
+                    f"tereddüt hâlinde {g}{e} başvurulabilir",
+                    f"uygulama {g}{ca} izlenecektir"])
+            return b
 
         if aile == "isbirligi_talebi":
             # Talep KONUDAN türetilir. Ölçülen hata: konu "Hukuki Görüş
@@ -1000,10 +1105,25 @@ class EtiketUretici:
             iş = _talep_ifadesi(konu, kod.ad)
             return {"Konu": iş,
                     "Ortak iş": f"{iş} konusunda iki kurumun ortak yürüttüğü işlem",
+                    "Gerekçe": h.sec([
+                        "iki kurumun görev alanı bu konuda kesişmektedir",
+                        "hizmetin kesintisiz yürütülmesi gerekmektedir",
+                        "ortak çalışma önceki dönemde de sürdürülmüştür"]),
+                    "Beklenen katkı": h.sec([
+                        "kurumunuzdan teknik destek beklenmektedir",
+                        "kurumunuzun görevlendireceği personel gerekmektedir",
+                        "kurumunuzca yer ve donanım sağlanması beklenmektedir"]),
                     "Talep": _isbirligi_talebi(konu, iş)}
 
         if aile == "gorus_talebi":
-            return {"Konu": kod.ad,
+            return {"Konu": _talep_ifadesi(konu, kod.ad),
+                    "Mevcut uygulama": h.sec([
+                        "konu bugüne kadar birim takdiriyle yürütülmüştür",
+                        "uygulama birimler arasında farklılık göstermektedir",
+                        "benzer taleplerde farklı sonuçlar doğmuştur"]),
+                    "Sonuç": h.sec([
+                        "işlemlerde gecikme yaşanmaktadır",
+                        "başvuranlara tutarlı cevap verilememektedir"]),
                     "Tereddüt": h.sec([
                         "uygulamada hangi usulün izleneceği açık değildir",
                         "iki farklı düzenleme arasında tereddüt oluşmuştur",
@@ -1012,12 +1132,45 @@ class EtiketUretici:
 
         if aile == "ust_yazi":
             n = h.kisi_sayisi()
-            return {"Dayanak": "ilgide kayıtlı yazı",
-                    "Dönem": _donem(h, kurum.kurum_tipi),
-                    "Sayı": f"{n} kayıt",
-                    "Ek 1": f"{kod.ad} listesi",
-                    "Ek 2": "uygulama takvimi",
-                    "İstenen": "listenin ilgili birimlere dağıtılması"}
+            # İLGİ YOKKEN "ilgide kayıtlı yazı" YAZILAMAZ. Ölçülen çelişki:
+            # başlıkta İlgi: yok, gövdede "ilgide kayıtlı yazı", paragraf
+            # planında "ilgiye atıf". Model ya ilgiyi uyduracak ya paragrafı
+            # eksik yazacaktı.
+            b = {"Dayanak": ("ilgide kayıtlı yazı" if s.ilgi_var
+                             else h.sec(["yürütülen çalışma",
+                                         "Müdürlüğümüzce yapılan planlama",
+                                         "dönem başında belirlenen program"])),
+                 "Dönem": _donem(h, kurum.kurum_tipi),
+                 "Sayı": f"{n} kayıt",
+                 # Ek adı ETİKETTEKİ ek açıklamasıyla aynı olmalı; ayrı
+                 # havuzlardan çekilince başlık "Öğrenci listesi" derken
+                 # gövde "Proje Gerçekleşme Oranı listesi" diyordu.
+                 "Ek 1": _ek_adi,
+                 "Ek 2": "uygulama takvimi",
+                 "İstenen": "listenin ilgili birimlere dağıtılması"}
+            if uzun:
+                b["Ek 1 içeriği"] = h.sec([
+                    "ad soyad, birim ve tarih bilgilerini içermektedir",
+                    "sıra numarası ve durum bilgisiyle düzenlenmiştir",
+                    "alfabetik olarak sıralanmıştır"])
+                b["Ek 2 içeriği"] = h.sec([
+                    "haftalık zaman çizelgesi biçimindedir",
+                    "başlangıç ve bitiş tarihlerini göstermektedir",
+                    "aşamalara göre bölümlendirilmiştir"])
+                b["Kapsam"] = h.sec([
+                    "listede yer alanların tamamı sürece dâhildir",
+                    "yalnızca listede adı geçenler için geçerlidir"])
+                b["Değişiklik"] = h.sec([
+                    "listede değişiklik olması hâlinde ayrıca bildirilecektir",
+                    "güncel liste dönem başında yenilenecektir"])
+                b["Süre"] = h.sec(["on beş gün içinde", "iki hafta içinde",
+                                   "dönem başlamadan önce"])
+                g = _gonderen_sozu(gonderen_adi)
+                ca = _ek_ca(g)
+                b["İrtibat"] = h.sec([
+                    f"süreç {g}{ca} takip edilmektedir",
+                    f"koordinasyon {g}{ca} sağlanacaktır"])
+            return b
 
         if aile == "tekit":
             return {"Dayanak": "ilgide kayıtlı yazı",
@@ -1027,8 +1180,16 @@ class EtiketUretici:
                                    "ay sonuna kadar"])}
 
         if aile == "olur":
-            return {"Konu": kod.ad,
+            return {"Konu": _talep_ifadesi(konu, kod.ad),
                     "Gerekçe": h.gerekce(),
+                    "Mevcut durum": h.sec([
+                        "konu Müdürlüğümüzce değerlendirilmiştir",
+                        "hazırlık çalışmaları tamamlanmıştır",
+                        "gerekli inceleme yapılmıştır"]),
+                    "Etki": h.sec([
+                        "işlemler daha kısa sürede tamamlanacaktır",
+                        "hizmet kalitesinde iyileşme beklenmektedir",
+                        "kaynak kullanımı verimli hâle gelecektir"]),
                     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"}
 
         raise ValueError(f"Bilinmeyen aile: {aile}")
@@ -1075,7 +1236,14 @@ class EtiketUretici:
                 alt = _ASGARI_SINIF.get(kod.kod, 1)
                 if re.search(r"staj", konu, re.I):
                     alt = max(alt, 3)
-                gonderen["sinif"] = str(h.rnd.randint(alt, 4))
+                # Lisansüstü programda sınıf kavramı yoktur. Ölçülen hata:
+                # "Biyoloji (Yüksek Lisans) programının 4. sınıf öğrencisiyim"
+                if "Lisans)" in gonderen["bolum"] or "Doktora" in gonderen["bolum"]:
+                    gonderen["sinif"] = None
+                    gonderen["ogrenim_duzeyi"] = ("yüksek lisans öğrencisi"
+                        if "Yüksek" in gonderen["bolum"] else "doktora öğrencisi")
+                else:
+                    gonderen["sinif"] = str(h.rnd.randint(alt, 4))
         elif s.gonderen_tipi == "ozel_tuzel":
             # Özel hukuk tüzel kişileri DETSİS'te kayıtlı değildir; yazılarında
             # E- önekli devlet sayısı bulunmaz, kendi evrak numaralarını taşırlar.
@@ -1122,6 +1290,11 @@ class EtiketUretici:
         # hukuken hem anlamca geçersiz. Aynı düzey için işbirliği ailesi.
         if aile == "kaynak_talebi" and yon != "ust":
             aile = "isbirligi_talebi"
+
+        # Paragraf yapısı aile kesinleştikten SONRA seçilir; işbirliği
+        # dönüşümü aileyi değiştirdiği için önce seçmek yanlış katman verir.
+        paragraf = h.sec(_PARAGRAF_VARYANT[_UZUNLUK_KATMANI[aile]])
+        uzun_katman = _UZUNLUK_KATMANI[aile] == "uzun"
 
         # --- muhatap makamı -------------------------------------------------
         # Gerçek yazışmada muhatap TÜZEL KİŞİLİKTİR; dış kurum bir belediyenin
@@ -1202,7 +1375,25 @@ class EtiketUretici:
                   "aciklama": h.sec(_ek_aciklamasi(kod.kod, aile)),
                   "sayfa": h.sayfa_sayisi()}
 
-        somut = self._somut_bilgiler(aile, kurum, birim, kod, konu, s, ogrenci)
+        somut = self._somut_bilgiler(aile, kurum, birim, kod, konu, s,
+                                     ogrenci, uzun_katman,
+                                     gonderen.get("kurum_adi") or "",
+                                     ek["aciklama"] if ek else "İlgili liste")
+
+        # Uzun katmanda paragraf yapısı ALAN GRUPLARINDAN türer, önceden
+        # seçilen varyanttan değil. Böylece her paragrafta alan sayısı cümle
+        # sayısına eşit olur; "aç paragraf" (2 alan / 3 cümle) oluşamaz.
+        alan_gruplari = None
+        if uzun_katman:
+            alan_gruplari = _alan_gruplari(aile, somut, len(paragraf), h)
+            if alan_gruplari:
+                paragraf = [len(g) for g in alan_gruplari]
+                # Gruplara girmeyen alan LİSTEDEN ÇIKARILIR. Listede kalırsa
+                # model onu ya düşürür (kural denetimi "bilgi kullanılmadı"
+                # der) ya zorla bir paragrafa sıkıştırır (o paragrafın
+                # alan/cümle oranını bozar).
+                yerlesen = {a for g in alan_gruplari for a in g}
+                somut = {k: v for k, v in somut.items() if k in yerlesen}
 
         # --- linter için ---------------------------------------------------
         yasakli = [kurum.kurum_adi, birim.birim_adi]
@@ -1248,7 +1439,8 @@ class EtiketUretici:
             "ilgi": ilgi,
             "ek": ek,
             "somut_bilgiler": somut,
-            "paragraf_cumle_sayilari": _PARAGRAF[aile],
+            "paragraf_cumle_sayilari": paragraf,
+            "paragraf_alanlari": alan_gruplari,
             "pdf_bicimi": s.pdf_bicimi,
             "kusur": s.kusur,
             "yasakli_adlar": yasakli,
@@ -1867,5 +2059,159 @@ _EK_AILE = {
 
 
 def _ek_aciklamasi(kod: str, aile: str) -> list[str]:
-    """Ekin ne olduğu önce SDP koduna, yoksa belge ailesine göre seçilir."""
+    """Ekin ne olduğu önce BELGE AİLESİNE, sonra SDP koduna göre seçilir.
+
+    Sıra ters çevrildi. Önce koda bakılınca vatandaşın arşiv belgesi
+    talebine "Etik kurul kararı" ekleniyordu — kod 805'in eki araştırma
+    başvurusu için doğru ama dilekçe için değil.
+
+    Vatandaş dilekçesinde ek her zaman kişinin sunabileceği bir belgedir.
+    """
+    if aile in ("belge_talebi", "itiraz", "sikayet"):
+        return _EK_VATANDAS
+    # Kurum genelgesinin/üst yazısının eki VATANDAŞ BELGESİ OLAMAZ. Ölçülen
+    # hata: Millî Eğitim Bakanlığı genelgesinin eki "İkametgâh belgesi"
+    # çıkıyordu — kod 210 (Nakil) havuzundan geliyordu ama o havuz vatandaşın
+    # sunduğu belgeler için.
+    if aile in ("bilgilendirme", "ust_yazi", "tekit", "olur"):
+        return _EK_AILE.get(aile, ["İlgili belge"])
     return _EK_KOD.get(kod[:3]) or _EK_AILE.get(aile, ["İlgili belge"])
+
+
+# Vatandaşın dilekçesine ekleyebileceği belgeler. Kurum içi evrak (etik kurul
+# kararı, teknik şartname) buraya girmez.
+_EK_VATANDAS = ["Kimlik fotokopisi", "Tapu fotokopisi", "İkametgâh belgesi",
+                "Başvuru formu", "Fotoğraf", "Dilekçe eki belge",
+                "Önceki başvuru sureti", "Vekâletname"]
+
+# =============================================================================
+# ALAN GRUPLARI — uzun katmanda paragraf yapısı BUNLARDAN türer
+# =============================================================================
+# Ölçülen sorun: alan/cümle oranı GLOBAL tutuyordu (1,23) ama paragraf bazında
+# tutmuyordu. Örnek: "kapsam" paragrafında 2 alan vardı ama 3 cümle
+# isteniyordu — model üçüncü cümleyi ya dolgu ya tekrarla dolduracaktı.
+#
+# Çözüm: önce alanları paragraflara grupla, cümle sayısını grup boyundan türet.
+# Böylece her paragrafta oran tam 1,0 olur.
+#
+# KAPANIŞ PARAGRAFI: kapanış cümlesi sabit kalıptır ve yalnızca BİR alanı
+# taşır ("... duyurulması hususunda gereğini rica ederim"). Bu yüzden son
+# grubun cümle sayısı da grup boyuna eşit — kapanış cümlesi son alanı taşır.
+_ALAN_GRUPLARI = {
+    "bilgilendirme": {
+        4: [[["Konu", "Kaynak", "Yürürlük"],
+             ["Kapsam", "Kapsam dışı"],
+             ["Esas 1", "Esas 2", "Geçiş hükmü"],
+             ["İstenen 2", "İrtibat", "İstenen 1"]],
+            [["Konu", "Kaynak"],
+             ["Kapsam", "Kapsam dışı", "Yürürlük"],
+             ["Esas 1", "Esas 2", "Geçiş hükmü"],
+             ["Süre", "İrtibat", "İstenen 1"]]],
+        3: [[["Konu", "Kaynak", "Yürürlük"],
+             ["Kapsam", "Kapsam dışı", "Esas 1"],
+             ["İstenen 2", "İrtibat", "İstenen 1"]]],
+    },
+    "ust_yazi": {
+        4: [[["Dayanak", "Dönem", "Sayı"],
+             ["Ek 1", "Ek 1 içeriği", "Ek 2", "Ek 2 içeriği"],
+             ["Kapsam", "Değişiklik"],
+             ["Süre", "İrtibat", "İstenen"]],
+            [["Dayanak", "Dönem"],
+             ["Ek 1", "Ek 1 içeriği", "Ek 2"],
+             ["Ek 2 içeriği", "Kapsam", "Değişiklik"],
+             ["Süre", "İstenen"]]],
+        3: [[["Dayanak", "Dönem", "Sayı"],
+             ["Ek 1", "Ek 2", "Kapsam"],
+             ["Süre", "İrtibat", "İstenen"]]],
+    },
+    "belge_cevabi_vatandas": {
+        4: [[["Talep", "Taşınmaz", "İnceleme"],
+             ["Talebin sonucu", "Ek işlem"],
+             ["Teslim yeri", "Teslim şartı", "Geçerlilik"],
+             ["Süre", "İtiraz yolu", "İrtibat"]],
+            [["Talep", "İnceleme"],
+             ["Talebin sonucu", "Ek işlem", "Taşınmaz"],
+             ["Teslim yeri", "Teslim şartı", "Geçerlilik"],
+             ["İtiraz yolu", "İrtibat"]]],
+        3: [[["Talep", "Taşınmaz", "İnceleme"],
+             ["Talebin sonucu", "Ek işlem", "Geçerlilik"],
+             ["Teslim yeri", "Teslim şartı", "İrtibat"]]],
+    },
+    "belge_cevabi_kurum": {
+        4: [[["Talep", "Dayanak", "İnceleme"],
+             ["Talebin sonucu", "Gönderilen"],
+             ["Kapsam", "Sınırlama"],
+             ["Süre", "İrtibat"]],
+            [["Talep", "Dayanak"],
+             ["Talebin sonucu", "Gönderilen", "İnceleme"],
+             ["Kapsam", "Sınırlama"],
+             ["Süre", "İrtibat"]]],
+        3: [[["Talep", "Dayanak", "İnceleme"],
+             ["Talebin sonucu", "Kapsam", "Sınırlama"],
+             ["Süre", "İrtibat"]]],
+    },
+}
+
+
+def _alan_gruplari(aile: str, somut: dict, adet: int,
+                   h) -> list[list[str]] | None:
+    """Alanları paragraflara böler. Mevcut olmayan alanlar atılır.
+
+    Her paragraf sayısı için birden çok gruplama var; biri rastgele seçilir.
+    Tek gruplama olsaydı 94 uzun belgenin hepsi aynı iskelette olurdu ve
+    uzunluk histogramında boşluklar kalırdı.
+    """
+    anahtar = aile
+    if aile == "belge_cevabi":
+        anahtar = ("belge_cevabi_vatandas" if "Teslim yeri" in somut
+                   else "belge_cevabi_kurum")
+    tablo = _ALAN_GRUPLARI.get(anahtar)
+    if not tablo:
+        return None
+    adaylar = tablo.get(adet) or tablo[max(tablo)]
+    gruplar = h.sec(adaylar)
+    temiz = [[a for a in g if a in somut] for g in gruplar]
+    return [g for g in temiz if g] or None
+
+
+_KALIN_UNLU = set("aıouâû")
+
+
+def _ek_ca(kelime: str) -> str:
+    """Vasıta/bulunma eki: kalın ünlüden sonra 'ca', ince ünlüden sonra 'ce'.
+
+    Ölçülen hata: kod f"{soz}ce" yazıyordu ve "Bakanlığımızce" çıkıyordu.
+    Model doğrusunu ("Bakanlığımızca") yazdı, kural denetimi de bu yüzden
+    "bilgi metne girmemiş" dedi — yani etiket yanlıştı, metin doğruydu.
+    """
+    for h in reversed(kelime.lower()):
+        if h in _KALIN_UNLU:
+            return "ca"
+        if h in "eiöü":
+            return "ce"
+    return "ce"
+
+
+def _ek_e(kelime: str) -> str:
+    """Yönelme eki: 'a' veya 'e'."""
+    return "a" if _ek_ca(kelime) == "ca" else "e"
+
+
+def _gonderen_sozu(makam: str) -> str:
+    """Gönderen kurumun kendinden söz ediş biçimi.
+
+    "Müdürlüğümüz" sabit gömülüydü; gönderen bakanlık veya valilikken
+    yanlış çıkıyordu (İçişleri Bakanlığı'nın yazısında "Müdürlüğümüzce").
+    """
+    m = tr_kucult_basit(makam)
+    if "bakanlığ" in m or "bakanlık" in m:
+        return "Bakanlığımız"
+    if "valiliğ" in m or "valilik" in m:
+        return "Valiliğimiz"
+    if "kaymakam" in m:
+        return "Kaymakamlığımız"
+    if "rektörlüğ" in m or "üniversite" in m:
+        return "Rektörlüğümüz"
+    if "başkanlığ" in m or "belediye" in m or "kurul" in m:
+        return "Başkanlığımız"
+    return "Müdürlüğümüz"

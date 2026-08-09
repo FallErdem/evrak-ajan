@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ahmet DUMAN",
-    "adres": "Pamuklar Mahallesi Zeytin Sokak No: 46/14 Yenimahalle/ANKARA",
+    "ad": "Ahmet YAVUZ",
+    "adres": "İvedik Mahallesi Yasemin Sokağı No: 120/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023828272",
+    "ogrenci_no": "2022595940",
     "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
     "sinif": "4"
   },
@@ -29,24 +29,25 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Dondurma Talebi",
+  "konu": "Taksitlendirme Talebi",
   "sayi": null,
-  "tarih": "09.03.2026",
+  "tarih": "26.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Dondurma",
+    "Talep": "Taksitlendirme",
     "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -55,8 +56,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Dondurma",
     "mağduriyetin giderilmesi bakımından",
-    "posta yoluyla adresime"
+    "e-Devlet üzerinden"
   ]
 }

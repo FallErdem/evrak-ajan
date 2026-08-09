@@ -5,58 +5,61 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ramazan DUMAN",
-    "adres": "Pamuklar Mahallesi Yasemin Sokak No: 103/1 Yenimahalle/ANKARA",
+    "ad": "Serkan KESKIN",
+    "adres": "Emniyet Mahallesi Sümbül Sokağı No: 59/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023116593",
-    "bolum": "Türkçe Öğretmenliği",
-    "sinif": "3"
+    "ogrenci_no": "2024915794",
+    "bolum": "Kimya (Doktora)",
+    "sinif": null,
+    "ogrenim_duzeyi": "doktora öğrencisi"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.08",
-    "ad": "İzin İşleri",
-    "saklama_suresi": "10"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Sağlık Sebebiyle İzin Talebi",
+  "konu": "Tez Teslim Süresi Uzatım Talebi",
   "sayi": null,
-  "tarih": "14.04.2026",
+  "tarih": "19.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Sağlık Sebebiyle İzin",
+    "Talep": "Tez Teslim Süresi Uzatım",
     "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
     "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": "tarih_eksik",
+  "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sağlık Sebebiyle İzin",
+    "Tez Teslim Süresi Uzatım",
     "sürecin tamamlanabilmesi için",
+    "şahsen başvuru yapılmıştır",
     "posta yoluyla adresime"
   ]
 }

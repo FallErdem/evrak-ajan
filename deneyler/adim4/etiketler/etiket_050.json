@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Doruk Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Ege Eğitim Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Beştepe Mahallesi Manolya Sokağı No: 115/12 Yenimahalle/ANKARA",
+    "adres": "Susuz Mahallesi Akasya Sokak No: 34/11 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,23 +31,23 @@
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Salon Tahsis Talebi",
-  "sayi": "2026/503",
-  "tarih": "01.05.2026",
+  "konu": "Öğrenci Topluluğu Kurulma Talebi",
+  "sayi": "2026/255",
+  "tarih": "26.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Salon Tahsis işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "Talep": "Öğrenci Topluluğu Kurulma işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "elektronik posta ile"
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
+  "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
     "Sağlık Kültür ve Spor Daire Başkanlığı",
@@ -56,6 +56,6 @@
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "yıllara göre sayısal döküm",
-    "elektronik posta ile"
+    "posta yoluyla adresime"
   ]
 }

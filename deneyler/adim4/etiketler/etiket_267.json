@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şaban YILDIRIM",
-    "adres": "Yeşilevler Mahallesi Nergis Sokak No: 71/14 Yenimahalle/ANKARA",
+    "ad": "Aslı TURAN",
+    "adres": "Uğur Mumcu Mahallesi Manolya Sokağı No: 56/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,36 +26,40 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "Cezanın Kaldırılması Talebi",
+  "konu": "Ruhsat Sureti Talebi",
   "sayi": null,
-  "tarih": "07.05.2026",
+  "tarih": "09.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Cezanın Kaldırılması",
-    "Sorun": "kesilen para cezasının tebligatı tarafıma hiç ulaşmadı",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Ruhsat Sureti",
+    "Sorun": "komşumdaki işyeri ruhsatsız çalıştığı hâlde denetlenmiyor",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Talep": "sorunun giderilmesi",
+    "Yer": "Serhat Mahallesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Cezanın Kaldırılması",
-    "yaklaşık kırk gündür",
-    "sorunun giderilmesi"
+    "Ruhsat Sureti",
+    "yaklaşık iki aydır",
+    "sorunun giderilmesi",
+    "Serhat Mahallesi"
   ]
 }

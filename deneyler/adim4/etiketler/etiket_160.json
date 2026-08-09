@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatih DUMAN",
-    "adres": "Beştepe Mahallesi Çınar Sokağı No: 107/22 Yenimahalle/ANKARA",
+    "ad": "Fatma GÜNEŞ",
+    "adres": "Serhat Mahallesi Menekşe Sokağı No: 5/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,20 +30,21 @@
     "ad": "Engellilere Yönelik Hizmetler",
     "saklama_suresi": "10"
   },
-  "konu": "Engelli Hizmetlerinden Yararlanma Başvurusu",
+  "konu": "Refakatçi Desteği Talebi",
   "sayi": null,
-  "tarih": "27.04.2026",
+  "tarih": "08.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Engelli Hizmetlerinden Yararlanma",
+    "Talep": "Refakatçi Desteği",
     "Gerekçe": "sürecin tamamlanabilmesi için",
     "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
     "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -52,7 +53,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Engelli Hizmetlerinden Yararlanma",
+    "Refakatçi Desteği",
     "sürecin tamamlanabilmesi için",
     "elektronik posta ile"
   ]

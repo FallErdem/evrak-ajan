@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Sevgi SARI",
-    "adres": "Ragıpbey Mahallesi Papatya Sokak No: 68/18 Yenimahalle/ANKARA",
+    "ad": "Fatih ÖZTÜRK",
+    "adres": "Serhat Mahallesi Erguvan Sokak No: 59/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025398706",
-    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
-    "sinif": "1"
+    "ogrenci_no": "2020182415",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -33,20 +33,21 @@
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Salon Tahsis Talebi",
+  "konu": "Öğrenci Topluluğu Kurulma Talebi",
   "sayi": null,
-  "tarih": "20.04.2026",
+  "tarih": "12.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Salon Tahsis",
+    "Talep": "Öğrenci Topluluğu Kurulma",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
     "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -55,7 +56,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Salon Tahsis",
-    "elektronik posta ile"
+    "Öğrenci Topluluğu Kurulma",
+    "e-Devlet üzerinden"
   ]
 }

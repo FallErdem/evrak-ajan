@@ -5,62 +5,65 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Hüseyin ÖZKAN",
-    "adres": "Şentepe Mahallesi Zeytin Sokak No: 4/18 Yenimahalle/ANKARA",
+    "ad": "Ömer KURT",
+    "adres": "Şentepe Mahallesi Papatya Sokak No: 10/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023616307",
-    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
-    "sinif": "1"
+    "ogrenci_no": "2019668422",
+    "bolum": "Biyoloji (Yüksek Lisans)",
+    "sinif": null,
+    "ogrenim_duzeyi": "yüksek lisans öğrencisi"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Etkinlik Bütçe Desteği Talebi",
+  "konu": "Danışman Değişikliği Talebi",
   "sayi": null,
-  "tarih": "31.03.2026",
+  "tarih": "14.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Etkinlik programı",
-    "sayfa": 2
+    "aciklama": "Başvuru formu",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Talep": "Etkinlik Bütçe Desteği",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Talep": "Danışman Değişikliği",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
     "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
-  "pdf_bicimi": "metin_katmanli",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Etkinlik Bütçe Desteği",
-    "sürecin tamamlanabilmesi için",
-    "Kurumunuz kayıt bürosundan elden"
+    "Danışman Değişikliği",
+    "mağduriyetin giderilmesi bakımından",
+    "e-Devlet üzerinden"
   ]
 }

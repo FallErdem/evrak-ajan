@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_egitim_fak",
-    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
-    "detsis_no": "86488853",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,36 +23,40 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
+  "muhatap_parantez": "Genel Sekreterlik",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "304.03",
-    "ad": "Stajlar",
-    "saklama_suresi": "2"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Staj Süresinin Sayılması Talebi",
-  "sayi": "E-55461037-304.03-2993529",
-  "tarih": "07.01.2026",
-  "ilgi": null,
+  "konu": "Mahkeme Kararının Uygulanması Hakkında Görüş",
+  "sayi": "E-55461037-045.02-1441980",
+  "tarih": "18.03.2026",
+  "ilgi": {
+    "tarih": "09.03.2026",
+    "sayi": "E-82642947-045.02-7027452"
+  },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Staj Süresinin Sayılması",
-    "Ortak iş": "Staj Süresinin Sayılması konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Staj Süresinin Sayılması konusunda gerekli sürenin tanınması"
+    "Konu": "Mahkeme Kararının Uygulanması Hakkında Görüş",
+    "Ortak iş": "Mahkeme Kararının Uygulanması Hakkında Görüş konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
+    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
+    "Talep": "Mahkeme Kararının Uygulanması Hakkında Görüş konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
+  "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Eğitim Fakültesi Dekanlığı",
+    "Genel Sekreterlik",
     "Gazi"
   ],
-  "anahtar_terimler": [
-    "Staj Süresinin Sayılması"
-  ]
+  "anahtar_terimler": []
 }

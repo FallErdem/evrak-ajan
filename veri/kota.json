@@ -122,7 +122,8 @@
     "toplam_var": 120,
     "zorunlu_var": [
       "cevap_yazisi",
-      "tekit_yazisi"
+      "tekit_yazisi",
+      "ust_yazi"
     ],
     "zorunlu_yok": [
       "dilekce",
@@ -130,7 +131,7 @@
       "bilgi_edinme",
       "olur_yazisi"
     ],
-    "_not": "Kalan turlerde serbest; uretec 120'ye tamamlar."
+    "_not": "Ust yazi da ilgi zorunlusuna eklendi: ust yazinin ilk paragrafi ilgiye atif yapiyor, ilgi yokken celiskili belge uretiliyordu."
   },
   "ek": {
     "toplam_var": 90,

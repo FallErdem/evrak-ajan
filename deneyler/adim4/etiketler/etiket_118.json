@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Zeynep YILMAZ",
-    "adres": "Emniyet Mahallesi Lale Caddesi No: 62/15 Yenimahalle/ANKARA",
+    "ad": "Aslı ASLAN",
+    "adres": "İvedik Mahallesi Lale Sokak No: 83/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019333460",
-    "bolum": "Mimarlık Fakültesi",
-    "sinif": "4"
+    "ogrenci_no": "2022194452",
+    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,24 +29,25 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Talebi",
+  "konu": "Kayıt Dondurma Talebi",
   "sayi": null,
-  "tarih": "26.01.2026",
+  "tarih": "23.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Kayıt Dondurma",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -55,7 +56,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "başvuru dosyasına eklenmek üzere",
-    "Kurumunuz kayıt bürosundan elden"
+    "Kayıt Dondurma",
+    "sürecin tamamlanabilmesi için",
+    "şahsen başvuru yapılmıştır",
+    "posta yoluyla adresime"
   ]
 }

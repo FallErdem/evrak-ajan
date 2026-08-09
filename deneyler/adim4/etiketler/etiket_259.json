@@ -27,32 +27,36 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "815",
-    "ad": "Sosyal Yardım İşleri",
-    "saklama_suresi": "10"
+    "kod": "051",
+    "ad": "Toplantı ve Etkinlik İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "İhtiyaç Sahibi Ailelerin Bildirimi",
-  "sayi": "E-90226917-815-790554",
-  "tarih": "21.01.2026",
+  "konu": "Etkinlik Salonu Tahsis Talebi",
+  "sayi": "E-90226917-051-1946683",
+  "tarih": "05.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "İhtiyaç Sahibi Ailelerin",
-    "Ortak iş": "İhtiyaç Sahibi Ailelerin konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "İhtiyaç Sahibi Ailelerin konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Etkinlik Salonu Tahsis",
+    "Ortak iş": "Etkinlik Salonu Tahsis konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
+    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
+    "Talep": "gerekli tahsisin yapılması"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     2
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İhtiyaç Sahibi Ailelerin"
+    "Etkinlik Salonu Tahsis",
+    "gerekli tahsisin yapılması"
   ]
 }

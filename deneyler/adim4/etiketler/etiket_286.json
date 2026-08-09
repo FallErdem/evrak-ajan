@@ -32,11 +32,11 @@
     "saklama_suresi": "15"
   },
   "konu": "Program Açma Başvurusu Hk.",
-  "sayi": "E-32625594-104.01-56343326",
-  "tarih": "20.01.2026",
+  "sayi": "E-32625594-104.01-75354455",
+  "tarih": "19.01.2026",
   "ilgi": {
-    "tarih": "15.12.2025",
-    "sayi": "E-43123369-104.01-3483708"
+    "tarih": "29.12.2025",
+    "sayi": "E-43123369-104.01-7310064"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -44,11 +44,36 @@
     "Talebin sonucu": "olumlu, işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "Ek bilgi": "süreç Müdürlüğümüzce takip edilmektedir"
+    "İnceleme": "konu Başkanlığımızca değerlendirilmiştir",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "yalnızca tamamlanmış işlemler dâhil edilmiştir",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "konuyla ilgili irtibat Başkanlığımızca sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
-    3
+    2,
+    2
+  ],
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak"
+    ],
+    [
+      "Talebin sonucu",
+      "Gönderilen",
+      "İnceleme"
+    ],
+    [
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
   ],
   "pdf_bicimi": "metin_katmanli",
   "kusur": "konu_eksik",
@@ -62,6 +87,7 @@
     "olumlu, işlem tamamlandı",
     "ilgide kayıtlı yazı",
     "talep edilen bilgiler ekte sunulmuştur",
-    "süreç Müdürlüğümüzce takip edilmektedir"
+    "konu Başkanlığımızca değerlendirilmiştir",
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

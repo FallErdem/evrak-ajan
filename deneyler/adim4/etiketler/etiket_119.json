@@ -22,9 +22,16 @@
   "aile": "tekit",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
-  "dagitim": null,
+  "muhatap_makam": "DAĞITIM YERLERİNE",
+  "muhatap_parantez": null,
+  "dagitim": {
+    "geregi": [
+      "Üniversite Rektörlüklerine"
+    ],
+    "bilgi": [
+      "Yükseköğretim Denetleme Kuruluna"
+    ]
+  },
   "beklenen_kapanis": "rica",
   "sdp": {
     "kod": "104.01",
@@ -32,11 +39,11 @@
     "saklama_suresi": "15"
   },
   "konu": "Program Açma Başvurusu Hk.",
-  "sayi": "E-32625594-104.01-56521599",
-  "tarih": "27.02.2026",
+  "sayi": "E-32625594-104.01-75335194",
+  "tarih": "13.01.2026",
   "ilgi": {
-    "tarih": "02.02.2026",
-    "sayi": "E-43123369-104.01-3524707"
+    "tarih": "26.12.2025",
+    "sayi": "E-43123369-104.01-7307403"
   },
   "ek": null,
   "somut_bilgiler": {
@@ -46,10 +53,10 @@
     "Süre": "en geç bir hafta içinde"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",

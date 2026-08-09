@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Çankaya Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "90226917",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -31,24 +31,24 @@
     "ad": "Tahsis, Devir ve Takas",
     "saklama_suresi": "B"
   },
-  "konu": "Tahsisin Kaldırılması Talebi",
-  "sayi": "E-55461037-756.01-3019163",
-  "tarih": "10.03.2026",
-  "ilgi": {
-    "tarih": "10.02.2026",
-    "sayi": "E-87730597-756.01-1697294"
-  },
+  "konu": "Bedelsiz Devir Talebi",
+  "sayi": "E-90226917-756.01-1974088",
+  "tarih": "01.05.2026",
+  "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Tahsisin Kaldırılması",
-    "Ortak iş": "Tahsisin Kaldırılması konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "gerekli tahsisin yapılması"
+    "Konu": "Bedelsiz Devir",
+    "Ortak iş": "Bedelsiz Devir konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
+    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
+    "Talep": "Bedelsiz Devir konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3,
+    3
   ],
-  "pdf_bicimi": "metin_katmanli",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
@@ -56,7 +56,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Tahsisin Kaldırılması",
-    "gerekli tahsisin yapılması"
+    "Bedelsiz Devir"
   ]
 }

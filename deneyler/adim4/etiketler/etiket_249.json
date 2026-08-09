@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet KARA",
-    "adres": "Yakacık Mahallesi Lale Caddesi No: 18/19 Yenimahalle/ANKARA",
+    "ad": "Sevgi ŞAHIN",
+    "adres": "Pamuklar Mahallesi Ceviz Sokağı No: 37/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,29 +30,32 @@
     "ad": "Yurtdışı Eğitim Denkliği",
     "saklama_suresi": "B"
   },
-  "konu": "Apostil Şerhli Belge Talebi",
+  "konu": "Geçici Kayıt Talebi",
   "sayi": null,
-  "tarih": "28.04.2026",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Apostil Şerhli Belge",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Talep": "Geçici Kayıt",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
     "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
-  "pdf_bicimi": "metin_katmanli",
-  "kusur": null,
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "taranmis",
+  "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
     "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Apostil Şerhli Belge",
-    "resmî işlemlerde kullanılmak üzere",
+    "Geçici Kayıt",
+    "mağduriyetin giderilmesi bakımından",
+    "şahsen başvuru yapılmıştır",
     "elektronik posta ile"
   ]
 }

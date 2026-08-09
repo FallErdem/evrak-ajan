@@ -5,10 +5,10 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -21,47 +21,65 @@
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Emlak ve İstimlak Müdürlüğü",
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "752.01",
-    "ad": "Kamulaştırma",
-    "saklama_suresi": "B"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Kamu Yararı Kararı Hk.",
-  "sayi": "E-43195403-752.01-2412359",
-  "tarih": "19.01.2026",
+  "konu": "Plan Hedeflerinin Güncellenmesi",
+  "sayi": "E-43195403-602.04-3551304",
+  "tarih": "07.01.2026",
   "ilgi": {
-    "tarih": "24.12.2025",
-    "sayi": "E-87730597-752.01-1672980"
+    "tarih": "29.12.2025",
+    "sayi": "E-65859045-602.04-1638105"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kamu Yararı Kararı",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Taşınmaz": "57404 ada, 25 parsel",
+    "Talep": "Plan Hedeflerinin Güncellenmesi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar tarafımızca derlenmiştir",
-    "Ek bilgi": "konuyla ilgili irtibat kişisi Müdürlüğümüzde görevlidir"
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    3,
+    2
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": "kapanis_yanlis",
+  "paragraf_alanlari": [
+    [
+      "Talep",
+      "Dayanak",
+      "İnceleme"
+    ],
+    [
+      "Talebin sonucu",
+      "Kapsam",
+      "Sınırlama"
+    ],
+    [
+      "Süre",
+      "İrtibat"
+    ]
+  ],
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Kamu Yararı Kararı",
-    "olumlu, işlem tamamlandı",
-    "57404 ada, 25 parsel",
-    "ilgide kayıtlı yazı"
+    "Plan Hedeflerinin Güncellenmesi",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı",
+    "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

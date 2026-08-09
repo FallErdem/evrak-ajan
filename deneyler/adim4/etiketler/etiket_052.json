@@ -5,10 +5,10 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,35 +23,44 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "051",
-    "ad": "Toplantı ve Etkinlik İşleri",
-    "saklama_suresi": "15"
+    "kod": "756.01",
+    "ad": "Tahsis, Devir ve Takas",
+    "saklama_suresi": "B"
   },
-  "konu": "Çalıştay Katılım Talebi",
-  "sayi": "E-39985474-051-6976167",
-  "tarih": "07.01.2026",
-  "ilgi": null,
+  "konu": "Tahsisin Kaldırılması Talebi",
+  "sayi": "E-39985474-756.01-5052029",
+  "tarih": "16.03.2026",
+  "ilgi": {
+    "tarih": "06.02.2026",
+    "sayi": "E-87730597-756.01-3692237"
+  },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Çalıştay Katılım",
-    "Ortak iş": "Çalıştay Katılım konusunda iki kurumun ortak yürüttüğü işlem",
-    "Talep": "Çalıştay Katılım konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Tahsisin Kaldırılması",
+    "Ortak iş": "Tahsisin Kaldırılması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
+    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
+    "Talep": "gerekli tahsisin yapılması"
   },
   "paragraf_cumle_sayilari": [
     2,
-    2
+    2,
+    3
   ],
-  "pdf_bicimi": "taranmis",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Çalıştay Katılım"
+    "Tahsisin Kaldırılması",
+    "gerekli tahsisin yapılması"
   ]
 }

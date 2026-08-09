@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ramazan ARSLAN",
-    "adres": "Kaletepe Mahallesi Akasya Sokak No: 103/15 Yenimahalle/ANKARA",
+    "ad": "Selin KAYA",
+    "adres": "Gayret Mahallesi Ceviz Sokağı No: 48/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,18 +32,19 @@
   },
   "konu": "Güzergâh Değişikliği Talebi",
   "sayi": null,
-  "tarih": "13.02.2026",
+  "tarih": "05.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Güzergâh Değişikliği",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
+  "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
@@ -52,6 +53,7 @@
   ],
   "anahtar_terimler": [
     "Güzergâh Değişikliği",
-    "posta yoluyla adresime"
+    "şahsen başvuru yapılmıştır",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

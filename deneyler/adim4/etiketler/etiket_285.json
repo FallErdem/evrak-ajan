@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mustafa POLAT",
-    "adres": "Emniyet Mahallesi Erguvan Sokağı No: 50/3 Yenimahalle/ANKARA",
+    "ad": "İbrahim GÜLER",
+    "adres": "Ragıpbey Mahallesi Sümbül Sokak No: 48/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,33 +26,36 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Araştırma Talebinin Reddi Hk.",
+  "konu": "Belge Talebinin Karşılanamaması Hk.",
   "sayi": null,
-  "tarih": "24.04.2026",
+  "tarih": "10.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Araştırma Talebinin Reddi",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
+    "Talep": "Belge Talebinin Karşılanamaması",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
     "Başvuru şekli": "şahsen başvuru yapılmıştır",
     "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
-  "pdf_bicimi": "taranmis",
-  "kusur": "tarama_bozuk",
+  "paragraf_alanlari": null,
+  "pdf_bicimi": "metin_katmanli",
+  "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
     "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Araştırma Talebinin Reddi",
+    "Belge Talebinin Karşılanamaması",
+    "resmî işlemlerde kullanılmak üzere",
     "şahsen başvuru yapılmıştır",
     "e-Devlet üzerinden"
   ]
