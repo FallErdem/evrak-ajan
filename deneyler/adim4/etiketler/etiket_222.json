@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "İbrahim ASLAN",
-    "adres": "Karşıyaka Mahallesi Menekşe Sokağı No: 86/1 Yenimahalle/ANKARA",
+    "ad": "Ali BULUT",
+    "adres": "Susuz Mahallesi Manolya Caddesi No: 120/15 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,40 +22,41 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
+    "kod": "245.04",
+    "ad": "Bursluluk",
     "saklama_suresi": "10"
   },
-  "konu": "Usta Öğretici Görevlendirmesi",
+  "konu": "Kontenjan Sonuçlarının Açıklanması",
   "sayi": null,
-  "tarih": "02.02.2026",
+  "tarih": "12.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Usta Öğretici Görevlendirmesi",
-    "Sorun": "kurs saatleri duyurulandan farklı uygulanıyor",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Kontenjan Sonuçlarının Açıklanması",
+    "Sorun": "gelir belgesi sunduğum hâlde başvurum değerlendirmeye alınmadı",
+    "Süre": "yılbaşından bu yana",
+    "Önceki başvuru": "konu ilgili birime şahsen de bildirilmiştir",
+    "Talep": "gerekli incelemenin yapılması"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Usta Öğretici Görevlendirmesi",
-    "bir aydan uzun süredir",
-    "sorunun giderilmesi"
+    "Kontenjan Sonuçlarının Açıklanması",
+    "yılbaşından bu yana",
+    "gerekli incelemenin yapılması"
   ]
 }

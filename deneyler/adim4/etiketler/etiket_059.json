@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "İbrahim POLAT",
-    "adres": "Yeşilevler Mahallesi Menekşe Sokağı No: 51/24 Yenimahalle/ANKARA",
+    "ad": "Merve AKTAŞ",
+    "adres": "Ergazi Mahallesi Erguvan Sokağı No: 119/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,38 +22,42 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "115.02.10",
+    "ad": "Adres ve Numaralandırma",
+    "saklama_suresi": "B"
   },
-  "konu": "Araştırma Talebinin Reddi Hk.",
+  "konu": "Kapı Numarası Verilmesi Talebi",
   "sayi": null,
-  "tarih": "28.04.2026",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Araştırma Talebinin Reddi",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Talep": "Kapı Numarası Verilmesi",
+    "Taşınmaz": "44148 ada, 29 parsel",
+    "Gerekçe": "başvuru süresinin dolmak üzere olması nedeniyle",
+    "Başvuru şekli": "aynı talep geçen ay da iletilmiştir",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
-    4
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Araştırma Talebinin Reddi",
-    "elektronik posta ile"
+    "Kapı Numarası Verilmesi",
+    "44148 ada, 29 parsel",
+    "aynı talep geçen ay da iletilmiştir",
+    "posta yoluyla adresime"
   ]
 }

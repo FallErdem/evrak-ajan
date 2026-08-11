@@ -12,45 +12,44 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Aydınyaka Mesleki ve Teknik Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10204788",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "93213107",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_makam": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
     "saklama_suresi": "10"
   },
-  "konu": "Mal Alımı İhale Onayı",
-  "sayi": "E-10204788-934.01-1687",
-  "tarih": "20.01.2026",
+  "konu": "Yatırım Programı Teklifi",
+  "sayi": "E-93213107-602.07-2260310",
+  "tarih": "27.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Gerekçe raporu",
-    "sayfa": 4
+    "aciklama": "Taslak metin",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Mal Alımı İhale Onayı",
-    "Gerekçe": "vatandaş memnuniyetinin artırılması",
-    "Mevcut durum": "hazırlık çalışmaları tamamlanmıştır",
-    "Etki": "kaynak kullanımı verimli hâle gelecektir",
+    "Konu": "Yatırım Programı Teklifi",
+    "Gerekçe": "başvuruların tek elden yürütülmesi",
+    "Mevcut durum": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Etki": "hizmet kalitesinde iyileşme beklenmektedir",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
-    3
+    3,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -60,9 +59,8 @@
     "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Mal Alımı İhale Onayı",
-    "vatandaş memnuniyetinin artırılması",
-    "hazırlık çalışmaları tamamlanmıştır",
-    "kaynak kullanımı verimli hâle gelecektir"
+    "Yatırım Programı Teklifi",
+    "başvuruların tek elden yürütülmesi",
+    "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

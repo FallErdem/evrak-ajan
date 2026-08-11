@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Personel Dairesi Başkanlığı",
+    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "42218640",
+    "detsis_no": "47014261",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,22 +32,22 @@
     "saklama_suresi": "10"
   },
   "konu": "Topluluk Yönetim Kurulu Bildirimi",
-  "sayi": "E-42218640-309-1299633",
-  "tarih": "27.05.2026",
+  "sayi": "E-47014261-309-4822851",
+  "tarih": "31.03.2026",
   "ilgi": {
-    "tarih": "29.04.2026",
-    "sayi": "E-98244303-309-1931531"
+    "tarih": "12.03.2026",
+    "sayi": "E-98244303-309-5753286"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Topluluk Yönetim Kurulu",
-    "Talebin sonucu": "olumlu, talep karşılandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "İnceleme": "talep ilgili birimce incelenmiştir",
-    "Kapsam": "döküm birim bazında hazırlanmıştır",
-    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
-    "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
+    "Talebin sonucu": "olumlu, kayıt güncellendi",
+    "Dayanak": "ilgide kayıtlı başvuru",
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "kayıtlar yıllara göre ayrılmıştır",
+    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
+    "Süre": "sonraki döküm üç ayda bir gönderilecektir",
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -79,9 +79,9 @@
   ],
   "anahtar_terimler": [
     "Topluluk Yönetim Kurulu",
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı",
-    "talep ilgili birimce incelenmiştir",
-    "döküm birim bazında hazırlanmıştır"
+    "olumlu, kayıt güncellendi",
+    "ilgide kayıtlı başvuru",
+    "konu Müdürlüğümüzce değerlendirilmiştir",
+    "kayıtlar yıllara göre ayrılmıştır"
   ]
 }

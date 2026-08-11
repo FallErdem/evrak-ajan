@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "İbrahim ÇELIK",
-    "adres": "Susuz Mahallesi Sümbül Sokak No: 41/3 Yenimahalle/ANKARA",
+    "ad": "Burak YAVUZ",
+    "adres": "Barıştepe Mahallesi Manolya Sokak No: 52/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,21 +30,20 @@
     "ad": "Diploma",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Kayıt Numarası Sorgusu",
+  "konu": "Diploma İkinci Nüsha Talebi",
   "sayi": null,
-  "tarih": "24.04.2026",
+  "tarih": "28.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Diploma Kayıt Numarası Sorgusu",
+    "Şikâyet konusu": "Diploma İkinci Nüsha",
     "Sorun": "ikinci nüsha talebime hiç cevap verilmedi",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Süre": "yaklaşık üç haftadır",
+    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Talep": "mağduriyetin giderilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,
@@ -55,8 +54,8 @@
     "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Diploma Kayıt Numarası Sorgusu",
-    "geçtiğimiz aydan bu yana",
-    "sorunun giderilmesi"
+    "Diploma İkinci Nüsha",
+    "yaklaşık üç haftadır",
+    "mağduriyetin giderilmesi"
   ]
 }

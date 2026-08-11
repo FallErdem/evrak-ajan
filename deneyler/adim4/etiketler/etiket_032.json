@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,54 +23,54 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Bilgi Edinme Talebinin Reddi Hk.",
-  "sayi": "E-24316060-622.01-47786798",
-  "tarih": "18.03.2026",
+  "konu": "Kimlik Numarası Kaydı Hk.",
+  "sayi": "E-10213773-235-15041178",
+  "tarih": "13.05.2026",
   "ilgi": {
-    "tarih": "18.02.2026",
-    "sayi": "E-55461037-622.01-1419064"
+    "tarih": "01.04.2026",
+    "sayi": "E-21291472-235-6407893"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Genelge sureti",
-    "sayfa": 3
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Bilgi Edinme Talebinin Reddi konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "Yürürlük": "15.02.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
-    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
+    "Konu": "Kimlik Numarası Kaydı konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Kapsam": "uygulama bütün birimleri kapsamaktadır",
+    "İstenen 1": "düzenlemenin ilgili birimlerde ilan edilmesi",
+    "İstenen 2": "işlem sayısının dönem sonunda gönderilmesi",
+    "Yürürlük": "15.04.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "geçici koruma statüsündeki başvurular",
+    "Esas 1": "her başvuru için ayrı dosya açılacaktır",
     "Esas 2": "süre aşımı hâlinde başvuru yenilenecektir",
-    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
-    "Süre": "on beş gün içinde",
-    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
+    "Geçiş hükmü": "devam eden işlemler için ek süre tanınmıştır",
+    "İrtibat": "tereddüt hâlinde Valiliğimize başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
+    2,
     3,
     3
   ],
   "paragraf_alanlari": [
     [
       "Konu",
-      "Kaynak"
+      "Kaynak",
+      "Yürürlük"
     ],
     [
       "Kapsam",
-      "Kapsam dışı",
-      "Yürürlük"
+      "Kapsam dışı"
     ],
     [
       "Esas 1",
@@ -78,7 +78,7 @@
       "Geçiş hükmü"
     ],
     [
-      "Süre",
+      "İstenen 2",
       "İrtibat",
       "İstenen 1"
     ]
@@ -86,13 +86,13 @@
   "pdf_bicimi": "taranmis",
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "15.02.2026 tarihinde yürürlüğe girmiştir",
-    "sözleşmesi devam eden yükleniciler",
-    "on beş gün içinde"
+    "uygulama bütün birimleri kapsamaktadır",
+    "15.04.2026 tarihinde yürürlüğe girmiştir",
+    "geçici koruma statüsündeki başvurular",
+    "her başvuru için ayrı dosya açılacaktır"
   ]
 }

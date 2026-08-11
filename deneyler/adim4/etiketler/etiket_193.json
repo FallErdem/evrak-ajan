@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yapi_kontrol",
-    "birim_adi": "Yapı Kontrol Müdürlüğü",
-    "detsis_no": "53265760",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,56 +23,61 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
+  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
+    "saklama_suresi": "10"
   },
-  "konu": "Karar Örneğinin Gönderilmesi",
-  "sayi": "E-24304062-641.04-57868074",
-  "tarih": "25.03.2026",
+  "konu": "Hafriyat Atığı Şikâyeti",
+  "sayi": "E-10213773-155.01-14883089",
+  "tarih": "12.01.2026",
   "ilgi": {
-    "tarih": "05.03.2026",
-    "sayi": "E-53265760-641.04-3837128"
+    "tarih": "02.12.2025",
+    "sayi": "E-83011479-155.01-2241314"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Öğrenci listesi",
+    "aciklama": "Liste ve takvim",
     "sayfa": 6
   },
   "somut_bilgiler": {
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "üçüncü çeyrek",
-    "Sayı": "142 kayıt",
-    "Ek 1": "Öğrenci listesi",
-    "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması",
-    "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
-    "Süre": "iki hafta içinde",
-    "İrtibat": "koordinasyon Bakanlığımızca sağlanacaktır"
+    "Dayanak": "ilgide kayıtlı bildirim",
+    "Dönem": "mali yıl",
+    "Ek 1": "Liste ve takvim",
+    "Ek 2": "zaman çizelgesi",
+    "İstenen": "listenin ilgililere duyurulması",
+    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
+    "Ek 2 içeriği": "haftalık zaman çizelgesi biçimindedir",
+    "Kapsam": "listede yer alanların tamamı sürece dâhildir",
+    "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
+    "Süre": "on beş gün içinde"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
     3,
-    3
+    2
   ],
   "paragraf_alanlari": [
     [
       "Dayanak",
-      "Dönem",
-      "Sayı"
+      "Dönem"
     ],
     [
       "Ek 1",
-      "Ek 2",
-      "Kapsam"
+      "Ek 1 içeriği",
+      "Ek 2"
+    ],
+    [
+      "Ek 2 içeriği",
+      "Kapsam",
+      "Değişiklik"
     ],
     [
       "Süre",
-      "İrtibat",
       "İstenen"
     ]
   ],
@@ -80,15 +85,15 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yapı Kontrol Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "ilgide kayıtlı yazı",
-    "üçüncü çeyrek",
-    "142 kayıt",
-    "Öğrenci listesi",
-    "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması"
+    "ilgide kayıtlı bildirim",
+    "mali yıl",
+    "Liste ve takvim",
+    "zaman çizelgesi",
+    "listenin ilgililere duyurulması",
+    "haftalık zaman çizelgesi biçimindedir"
   ]
 }

@@ -5,58 +5,61 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Esra BULUT",
-    "adres": "Yeşilevler Mahallesi Akasya Caddesi No: 46/19 Yenimahalle/ANKARA",
+    "ad": "Büşra ÇAKIR",
+    "adres": "Ostim Mahallesi Kestane Sokağı No: 39/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019789678",
-    "bolum": "Hukuk Fakültesi",
-    "sinif": "4"
+    "ogrenci_no": "2022684201",
+    "bolum": "Matematik (Yüksek Lisans)",
+    "sinif": null,
+    "ogrenim_duzeyi": "yüksek lisans öğrencisi"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Talebi",
+  "konu": "İlişik Kesme Belgesi Talebi",
   "sayi": null,
-  "tarih": "23.04.2026",
+  "tarih": "06.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "İlişik Kesme Belgesi",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "başvuru dosyasına eklenmek üzere",
-    "Kurumunuz kayıt bürosundan elden"
+    "İlişik Kesme Belgesi",
+    "resmî işlemlerde kullanılmak üzere",
+    "kayıtlı elektronik posta adresime"
   ]
 }

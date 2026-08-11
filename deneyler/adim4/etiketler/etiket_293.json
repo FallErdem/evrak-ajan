@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak Yapı Denetim A.Ş.",
+    "kurum_adi": "Öz Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Barıştepe Mahallesi Çınar Caddesi No: 70/9 Yenimahalle/ANKARA",
+    "adres": "Pamuklar Mahallesi Zeytin Caddesi No: 32/12 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,40 +23,38 @@
   "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.08",
-    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
-    "saklama_suresi": "B"
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
+    "saklama_suresi": "10"
   },
-  "konu": "İfraz ve Tevhid Talebi",
-  "sayi": "2026/967",
-  "tarih": "14.05.2026",
+  "konu": "Engelli Hizmetlerinden Yararlanma Başvurusu",
+  "sayi": "2026/249",
+  "tarih": "19.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "İfraz ve Tevhid işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Talep": "Engelli Hizmetlerinden Yararlanma işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
-    "e-Devlet üzerinden"
+    "posta yoluyla adresime"
   ]
 }

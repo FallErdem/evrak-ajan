@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şaban AVCI",
-    "adres": "Pamuklar Mahallesi Ceviz Sokak No: 63/16 Yenimahalle/ANKARA",
+    "ad": "Ahmet YILDIZ",
+    "adres": "Ergazi Mahallesi Ihlamur Sokağı No: 22/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,17 +30,17 @@
     "ad": "Emlak Vergisi",
     "saklama_suresi": "15"
   },
-  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
+  "konu": "Emlak Vergisi Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "23.02.2026",
+  "tarih": "28.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Emlak Vergisi Borç Sorgulama",
-    "Taşınmaz": "65481 ada, 18 parsel",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Talep": "Emlak Vergisi Muafiyet",
+    "Taşınmaz": "91777 ada, 38 parsel",
+    "Gerekçe": "hak kaybına uğramamak için",
+    "Başvuru şekli": "başvuru posta yoluyla da gönderilmiştir",
+    "Bildirim tercihi": "iadeli taahhütlü posta ile"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,8 +55,10 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Emlak Vergisi Borç Sorgulama",
-    "65481 ada, 18 parsel",
-    "elektronik posta ile"
+    "Emlak Vergisi Muafiyet",
+    "91777 ada, 38 parsel",
+    "hak kaybına uğramamak için",
+    "başvuru posta yoluyla da gönderilmiştir",
+    "iadeli taahhütlü posta ile"
   ]
 }

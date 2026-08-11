@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Denetim Kurulu Raporu",
-  "sayi": "E-39985474-165.01-5037756",
-  "tarih": "25.02.2026",
+  "konu": "Öğrenci Taşıma Güzergâhı Hk.",
+  "sayi": "E-65859045-140-2729820",
+  "tarih": "09.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Denetim Kurulu Raporu",
-    "Mevcut uygulama": "benzer taleplerde farklı sonuçlar doğmuştur",
-    "Sonuç": "başvuranlara tutarlı cevap verilememektedir",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Konu": "Öğrenci Taşıma Güzergâhı",
+    "Mevcut uygulama": "uygulama birimler arasında farklılık göstermektedir",
+    "Sonuç": "aynı konuda tekrar başvuru yapılmaktadır",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Talep": "konunun açıklığa kavuşturulması"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -55,7 +55,8 @@
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Denetim Kurulu Raporu",
-    "konu hakkında görüş bildirilmesi"
+    "Öğrenci Taşıma Güzergâhı",
+    "aynı konuda tekrar başvuru yapılmaktadır",
+    "konunun açıklığa kavuşturulması"
   ]
 }

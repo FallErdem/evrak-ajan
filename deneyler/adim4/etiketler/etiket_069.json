@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Kaymakamlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "56248377",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,39 +23,36 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Hukuk İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "Muayene Randevusu Hk.",
-  "sayi": "E-56248377-175-803713",
-  "tarih": "23.02.2026",
+  "konu": "İstinaf Başvurusu Hk.",
+  "sayi": "E-24304062-641.04-57606470",
+  "tarih": "29.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Genelge sureti",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Muayene Randevusu konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Konu": "İstinaf Başvurusu konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "esaslar üst yazı ile bildirilmiştir",
+    "Kapsam": "kapsama giren bütün işlemler bu esasa göre yürütülür",
+    "İstenen 1": "esasların personele tebliğ edilmesi",
+    "İstenen 2": "uygulamada karşılaşılan sorunların iletilmesi",
     "Yürürlük": "15.02.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
-    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
-    "Esas 2": "değerlendirme sonucu başvurana yazılı bildirilecektir",
-    "Geçiş hükmü": "devam eden işlemler için ek süre tanınmıştır",
-    "İrtibat": "tereddüt hâlinde Kaymakamlığımıza başvurulabilir"
+    "Kapsam dışı": "ihalesi tamamlanmış işler",
+    "Esas 1": "onay süreci iki aşamalı yürütülecektir",
+    "İrtibat": "uygulama Bakanlığımızca izlenecektir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2,
     3,
     3
   ],
@@ -67,12 +64,8 @@
     ],
     [
       "Kapsam",
-      "Kapsam dışı"
-    ],
-    [
-      "Esas 1",
-      "Esas 2",
-      "Geçiş hükmü"
+      "Kapsam dışı",
+      "Esas 1"
     ],
     [
       "İstenen 2",
@@ -84,13 +77,15 @@
   "kusur": "ek_beyani_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
+    "esaslar üst yazı ile bildirilmiştir",
+    "esasların personele tebliğ edilmesi",
     "15.02.2026 tarihinde yürürlüğe girmiştir",
-    "sözleşmesi devam eden yükleniciler"
+    "ihalesi tamamlanmış işler",
+    "onay süreci iki aşamalı yürütülecektir",
+    "uygulama Bakanlığımızca izlenecektir"
   ]
 }

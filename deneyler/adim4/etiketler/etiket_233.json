@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Yıldız Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Kuzey Yapı Denetim A.Ş.",
     "ad": null,
-    "adres": "Susuz Mahallesi Zeytin Caddesi No: 17/8 Yenimahalle/ANKARA",
+    "adres": "Demetevler Mahallesi Erguvan Sokak No: 95/5 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,39 +23,39 @@
   "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "115.02.01",
+    "ad": "İmar Durumu (Belgesi)",
+    "saklama_suresi": "B"
   },
-  "konu": "Cezanın Kaldırılması Talebi",
-  "sayi": "2026/207",
-  "tarih": "29.01.2026",
+  "konu": "İmar Durum Belgesi Talebi",
+  "sayi": "2026/318",
+  "tarih": "20.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Cezanın Kaldırılması işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "Talep": "İmar Durum Belgesi işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Bildirim yolu": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
-    4
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "yıllara göre sayısal döküm",
-    "e-Devlet üzerinden"
+    "kayıtlı elektronik posta adresime"
   ]
 }

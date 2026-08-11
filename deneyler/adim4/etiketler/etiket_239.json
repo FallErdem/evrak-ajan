@@ -5,19 +5,19 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Esra GÜNEŞ",
-    "adres": "Emniyet Mahallesi Çınar Caddesi No: 39/15 Yenimahalle/ANKARA",
+    "ad": "Şerife KARA",
+    "adres": "Emniyet Mahallesi Sümbül Sokak No: 96/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019503631",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "ogrenci_no": "2023598306",
+    "bolum": "Mimarlık Fakültesi",
     "sinif": "2"
   },
   "belge_turu": "dilekce",
@@ -25,24 +25,24 @@
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
+    "saklama_suresi": "B"
   },
-  "konu": "Etkinlik Bütçe Desteği Talebi",
+  "konu": "Kabul Mektubu Talebi",
   "sayi": null,
-  "tarih": "11.02.2026",
+  "tarih": "21.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Etkinlik Bütçe Desteği",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Talep": "Kabul Mektubu",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "başvuru kayıt bürosuna teslim edilmiştir",
+    "Bildirim tercihi": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,12 +53,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Etkinlik Bütçe Desteği",
-    "sürecin tamamlanabilmesi için",
-    "e-Devlet üzerinden"
+    "Kabul Mektubu",
+    "mağduriyetin giderilmesi bakımından",
+    "başvuru kayıt bürosuna teslim edilmiştir",
+    "kayıtlı elektronik posta adresime"
   ]
 }

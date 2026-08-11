@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sultan KURT",
-    "adres": "Gayret Mahallesi Nergis Sokağı No: 85/13 Yenimahalle/ANKARA",
+    "ad": "Hatice KOÇ",
+    "adres": "Çiğdemtepe Mahallesi Ihlamur Caddesi No: 99/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,28 +22,28 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
     "saklama_suresi": "10"
   },
-  "konu": "Atık Konteyneri Talebi",
+  "konu": "Araştırma Talebinin Reddi Hk.",
   "sayi": null,
-  "tarih": "21.01.2026",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Önceki başvuru sureti",
-    "sayfa": 6
+    "aciklama": "Tapu fotokopisi",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Talep": "Atık Konteyneri",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Talep": "Araştırma Talebinin Reddi",
+    "Gerekçe": "gerekli şartları taşıdığım için",
+    "Başvuru şekli": "başvuru kayıt bürosuna teslim edilmiştir",
+    "Bildirim tercihi": "cep telefonuma kısa mesajla"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -53,12 +53,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Atık Konteyneri",
-    "mağduriyetin giderilmesi bakımından",
-    "posta yoluyla adresime"
+    "Araştırma Talebinin Reddi",
+    "gerekli şartları taşıdığım için",
+    "başvuru kayıt bürosuna teslim edilmiştir",
+    "cep telefonuma kısa mesajla"
   ]
 }

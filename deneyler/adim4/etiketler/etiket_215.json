@@ -31,17 +31,17 @@
     "ad": "Hukuki",
     "saklama_suresi": "30"
   },
-  "konu": "İhtilaflı Hususta Değerlendirme Talebi",
-  "sayi": "E-55461037-045.02-1388883",
-  "tarih": "12.01.2026",
+  "konu": "Hukuki Görüş Talebi",
+  "sayi": "E-55461037-045.02-1868616",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "İhtilaflı Hususta Değerlendirme",
-    "Ortak iş": "İhtilaflı Hususta Değerlendirme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
-    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
-    "Talep": "İhtilaflı Hususta Değerlendirme konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Hukuki Görüş",
+    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "işlemin tamamlanması iki kurumun katkısını gerektirmektedir",
+    "Beklenen katkı": "kurumunuzun uygun göreceği takvim beklenmektedir",
+    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -56,6 +56,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İhtilaflı Hususta Değerlendirme"
+    "Hukuki Görüş"
   ]
 }

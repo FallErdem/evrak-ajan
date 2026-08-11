@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,43 +23,42 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Performans Göstergesi Verisi Talebi",
-  "sayi": "E-32625594-602.04-75524310",
-  "tarih": "12.03.2026",
+  "konu": "Kayıt Süresi Uzatım Talebi",
+  "sayi": "E-32625594-302.01-46595175",
+  "tarih": "02.02.2026",
   "ilgi": {
-    "tarih": "11.02.2026",
-    "sayi": "E-39985474-602.04-5027231"
+    "tarih": "25.12.2025",
+    "sayi": "E-17311665-302.01-3807327"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Dayanak": "ilgide kayıtlı yazı",
+    "Dayanak": "ilgide kayıtlı bilgi talebimiz",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
-    "Talep": "ivedilikle gönderilmesi",
-    "Süre": "en geç bir hafta içinde"
+    "Talep": "bir an önce tamamlanması",
+    "Süre": "ay sonuna kadar"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "ilgide kayıtlı yazı",
-    "ivedilikle gönderilmesi",
-    "en geç bir hafta içinde"
+    "ilgide kayıtlı bilgi talebimiz",
+    "bir an önce tamamlanması",
+    "ay sonuna kadar"
   ]
 }

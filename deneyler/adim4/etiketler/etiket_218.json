@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -27,35 +27,32 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Nakil Kaydının e-Okulda Güncellenmesi",
-  "sayi": "E-24316060-210.01-47598048",
-  "tarih": "06.02.2026",
+  "konu": "Kayıt Takviminin Duyurulması",
+  "sayi": "E-10213773-205-15011108",
+  "tarih": "20.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Genelge sureti",
-    "sayfa": 2
+    "aciklama": "Uygulama esasları",
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Nakil Kaydının e-Okulda Güncellenmesi konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "15.02.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "geçici görevle çalışan personel",
-    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
-    "Esas 2": "itirazlar on beş gün içinde sonuçlandırılacaktır",
-    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
-    "İrtibat": "uygulama Bakanlığımızca izlenecektir"
+    "Konu": "Kayıt Takviminin Duyurulması konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
+    "Kapsam": "kapsama giren bütün işlemler bu esasa göre yürütülür",
+    "İstenen 1": "konunun bağlı birimlere bildirilmesi",
+    "İstenen 2": "yapılan işlemlere ilişkin bilgi verilmesi",
+    "Yürürlük": "15.01.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
+    "Esas 1": "işlem adımları sistem üzerinden izlenecektir",
+    "İrtibat": "süreç Valiliğimizce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2,
     3,
     3
   ],
@@ -67,12 +64,8 @@
     ],
     [
       "Kapsam",
-      "Kapsam dışı"
-    ],
-    [
-      "Esas 1",
-      "Esas 2",
-      "Geçiş hükmü"
+      "Kapsam dışı",
+      "Esas 1"
     ],
     [
       "İstenen 2",
@@ -87,10 +80,9 @@
     "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "15.02.2026 tarihinde yürürlüğe girmiştir",
-    "geçici görevle çalışan personel",
-    "uygulama Bakanlığımızca izlenecektir"
+    "konunun bağlı birimlere bildirilmesi",
+    "15.01.2026 tarihinde yürürlüğe girmiştir",
+    "sözleşmesi devam eden yükleniciler",
+    "süreç Valiliğimizce takip edilmektedir"
   ]
 }

@@ -32,31 +32,35 @@
     "saklama_suresi": "10"
   },
   "konu": "Başvuru Cevabının Gönderilmesi",
-  "sayi": "E-24316060-622.01-48029241",
-  "tarih": "08.05.2026",
+  "sayi": "E-24316060-622.01-66348872",
+  "tarih": "01.04.2026",
   "ilgi": {
-    "tarih": "26.03.2026",
-    "sayi": "E-55461037-622.01-1448687"
+    "tarih": "18.02.2026",
+    "sayi": "E-55461037-622.01-1839391"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Öğrenci listesi",
-    "sayfa": 6
+    "aciklama": "Liste ve takvim",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
-    "Sayı": "12 kayıt",
-    "Ek 1": "Öğrenci listesi",
-    "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Dayanak": "ilgide kayıtlı bildirim",
+    "Dönem": "bahar dönemi",
+    "Sayı": "47 kayıt",
+    "Ek 1": "Liste ve takvim",
+    "Ek 2": "dağıtım cetveli",
+    "İstenen": "eklerin bağlı birimlere iletilmesi",
+    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
+    "Ek 2 içeriği": "başlangıç ve bitiş tarihlerini göstermektedir",
     "Kapsam": "listede yer alanların tamamı sürece dâhildir",
-    "Süre": "dönem başlamadan önce",
+    "Değişiklik": "güncel liste dönem başında yenilenecektir",
+    "Süre": "on beş gün içinde",
     "İrtibat": "koordinasyon Bakanlığımızca sağlanacaktır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3,
+    4,
+    2,
     3
   ],
   "paragraf_alanlari": [
@@ -67,8 +71,13 @@
     ],
     [
       "Ek 1",
+      "Ek 1 içeriği",
       "Ek 2",
-      "Kapsam"
+      "Ek 2 içeriği"
+    ],
+    [
+      "Kapsam",
+      "Değişiklik"
     ],
     [
       "Süre",
@@ -82,11 +91,11 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "ilgide kayıtlı yazı",
-    "öğretim yılı",
-    "12 kayıt",
-    "Öğrenci listesi",
-    "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması"
+    "ilgide kayıtlı bildirim",
+    "bahar dönemi",
+    "47 kayıt",
+    "Liste ve takvim",
+    "dağıtım cetveli",
+    "eklerin bağlı birimlere iletilmesi"
   ]
 }

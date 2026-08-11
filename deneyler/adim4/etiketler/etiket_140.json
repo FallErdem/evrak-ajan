@@ -27,16 +27,16 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Kararın Uygulanması Hk.",
-  "sayi": "E-32625594-050.04-75742209",
-  "tarih": "18.05.2026",
+  "konu": "Genelge Uygulamasında Karşılaşılan Tereddütler",
+  "sayi": "E-32625594-010.06-46739900",
+  "tarih": "06.03.2026",
   "ilgi": {
-    "tarih": "03.04.2026",
-    "sayi": "E-82642947-050.04-7050821"
+    "tarih": "18.02.2026",
+    "sayi": "E-82642947-010.06-3617083"
   },
   "ek": {
     "adet": 1,
@@ -44,17 +44,20 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Kararın Uygulanması konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "15.03.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
-    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
+    "Konu": "Genelge Uygulamasında Karşılaşılan Tereddütler konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar yapılan değerlendirme sonucunda alınmıştır",
+    "Kapsam": "düzenleme merkez ve taşra birimlerinde geçerlidir",
+    "İstenen 1": "esasların personele tebliğ edilmesi",
+    "Yürürlük": "15.04.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "önceki dönemde onaylanmış projeler",
+    "Esas 1": "onay süreci iki aşamalı yürütülecektir",
+    "Esas 2": "değerlendirme sonucu başvurana yazılı bildirilecektir",
+    "Geçiş hükmü": "geçiş dönemi üç ay olarak belirlenmiştir",
+    "Süre": "dönem sonuna kadar",
     "İrtibat": "süreç Başkanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
     3,
     3
@@ -62,16 +65,20 @@
   "paragraf_alanlari": [
     [
       "Konu",
-      "Kaynak",
-      "Yürürlük"
+      "Kaynak"
     ],
     [
       "Kapsam",
       "Kapsam dışı",
-      "Esas 1"
+      "Yürürlük"
     ],
     [
-      "İstenen 2",
+      "Esas 1",
+      "Esas 2",
+      "Geçiş hükmü"
+    ],
+    [
+      "Süre",
       "İrtibat",
       "İstenen 1"
     ]
@@ -84,10 +91,11 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "15.03.2026 tarihinde yürürlüğe girmiştir",
-    "sözleşmesi devam eden yükleniciler",
-    "süreç Başkanlığımızca takip edilmektedir"
+    "esasların personele tebliğ edilmesi",
+    "15.04.2026 tarihinde yürürlüğe girmiştir",
+    "önceki dönemde onaylanmış projeler",
+    "onay süreci iki aşamalı yürütülecektir",
+    "geçiş dönemi üç ay olarak belirlenmiştir",
+    "dönem sonuna kadar"
   ]
 }

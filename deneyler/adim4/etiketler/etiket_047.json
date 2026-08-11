@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -34,32 +34,32 @@
   },
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
-    "saklama_suresi": "2"
+    "kod": "209",
+    "ad": "Akademik Personel Görevlendirmeleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Tek Ders Sınavı Duyurusu",
-  "sayi": "E-32625594-106-75618719",
-  "tarih": "10.04.2026",
+  "konu": "Ders Görevlendirmesi Hk.",
+  "sayi": "E-32625594-209-46635766",
+  "tarih": "11.02.2026",
   "ilgi": {
-    "tarih": "02.04.2026",
-    "sayi": "E-43123369-106-7397163"
+    "tarih": "22.01.2026",
+    "sayi": "E-42218640-209-3185426"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Genelge sureti",
+    "aciklama": "Uygulama esasları",
     "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Tek Ders Sınavı konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "01.04.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
-    "Esas 1": "her başvuru için ayrı dosya açılacaktır",
-    "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
+    "Konu": "Ders Görevlendirmesi konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama merkez teşkilatınca belirlenmiştir",
+    "Kapsam": "düzenleme merkez ve taşra birimlerinde geçerlidir",
+    "İstenen 1": "düzenlemenin ilgili birimlerde ilan edilmesi",
+    "İstenen 2": "işlem sayısının dönem sonunda gönderilmesi",
+    "Yürürlük": "01.01.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "geçici koruma statüsündeki başvurular",
+    "Esas 1": "onay süreci iki aşamalı yürütülecektir",
+    "İrtibat": "süreç Başkanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -87,14 +87,13 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
+    "Personel Dairesi Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "01.04.2026 tarihinde yürürlüğe girmiştir",
-    "sözleşmesi devam eden yükleniciler",
-    "her başvuru için ayrı dosya açılacaktır"
+    "01.01.2026 tarihinde yürürlüğe girmiştir",
+    "geçici koruma statüsündeki başvurular",
+    "onay süreci iki aşamalı yürütülecektir",
+    "süreç Başkanlığımızca takip edilmektedir"
   ]
 }

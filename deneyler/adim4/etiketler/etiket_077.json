@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Kemal AKTAŞ",
-    "adres": "Çiğdemtepe Mahallesi Nergis Caddesi No: 74/4 Yenimahalle/ANKARA",
+    "ad": "Aslı ÇELIK",
+    "adres": "Kaletepe Mahallesi Zeytin Caddesi No: 63/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,40 +22,40 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.08",
-    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
-    "saklama_suresi": "B"
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
+    "saklama_suresi": "10"
   },
-  "konu": "İrtifak Hakkı Tesisi Talebi",
+  "konu": "Refakatçi Desteği Talebi",
   "sayi": null,
-  "tarih": "25.05.2026",
+  "tarih": "21.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İrtifak Hakkı Tesisi",
-    "Taşınmaz": "27783 ada, 17 parsel",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Talep": "Refakatçi Desteği",
+    "Gerekçe": "gerekli şartları taşıdığım için",
+    "Başvuru şekli": "başvuru posta yoluyla da gönderilmiştir",
+    "Bildirim tercihi": "cep telefonuma kısa mesajla"
   },
   "paragraf_cumle_sayilari": [
-    4
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İrtifak Hakkı Tesisi",
-    "27783 ada, 17 parsel",
-    "posta yoluyla adresime"
+    "Refakatçi Desteği",
+    "gerekli şartları taşıdığım için",
+    "başvuru posta yoluyla da gönderilmiştir",
+    "cep telefonuma kısa mesajla"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
+    "kurum_adi": "Yapı Kontrol Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "26888327",
+    "detsis_no": "53265760",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -32,36 +32,41 @@
     "saklama_suresi": "10"
   },
   "konu": "Çatı Onarımı Hk.",
-  "sayi": "E-26888327-807.01-3528305",
-  "tarih": "19.01.2026",
+  "sayi": "E-53265760-807.01-3865526",
+  "tarih": "29.04.2026",
   "ilgi": {
-    "tarih": "08.01.2026",
-    "sayi": "E-33152401-807.01-1934744"
+    "tarih": "20.04.2026",
+    "sayi": "E-33152401-807.01-3779007"
   },
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Çatı Onarımı",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
-    "Kapsam": "döküm birim bazında hazırlanmıştır",
-    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
-    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "Talebin sonucu": "olumlu, kayıt güncellendi",
+    "Dayanak": "ilgide kayıtlı başvuru",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "bilgiler başvuru türlerine göre gruplandırılmıştır",
+    "Sınırlama": "yalnızca tamamlanmış işlemler dâhil edilmiştir",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
     "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
-    3,
+    2,
     2
   ],
   "paragraf_alanlari": [
     [
       "Talep",
-      "Dayanak",
-      "İnceleme"
+      "Dayanak"
     ],
     [
       "Talebin sonucu",
+      "Gönderilen",
+      "İnceleme"
+    ],
+    [
       "Kapsam",
       "Sınırlama"
     ],
@@ -79,8 +84,9 @@
   ],
   "anahtar_terimler": [
     "Çatı Onarımı",
-    "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı",
-    "döküm birim bazında hazırlanmıştır"
+    "olumlu, kayıt güncellendi",
+    "ilgide kayıtlı başvuru",
+    "talep edilen bilgiler ekte sunulmuştur",
+    "talep ilgili birimce incelenmiştir"
   ]
 }

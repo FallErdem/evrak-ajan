@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -32,22 +32,22 @@
     "saklama_suresi": "15"
   },
   "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
-  "sayi": "E-65859045-355.02-1689027",
-  "tarih": "26.05.2026",
+  "sayi": "E-39985474-355.02-6775620",
+  "tarih": "12.02.2026",
   "ilgi": {
-    "tarih": "15.05.2026",
-    "sayi": "E-55461037-355.02-1489481"
+    "tarih": "04.02.2026",
+    "sayi": "E-55461037-355.02-1831498"
   },
   "ek": null,
   "somut_bilgiler": {
     "Konu": "Uygulama Öğrencisi Yerleştirme",
     "Ortak iş": "Uygulama Öğrencisi Yerleştirme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
-    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
+    "Gerekçe": "uygulamada eşgüdüm ihtiyacı doğmuştur",
+    "Beklenen katkı": "kurumunuzun uygun göreceği takvim beklenmektedir",
     "Talep": "Uygulama Öğrencisi Yerleştirme kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,
@@ -57,6 +57,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Uygulama Öğrencisi Yerleştirme"
+    "Uygulama Öğrencisi Yerleştirme",
+    "uygulamada eşgüdüm ihtiyacı doğmuştur"
   ]
 }

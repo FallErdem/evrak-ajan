@@ -31,30 +31,27 @@
     "ad": "Yatırım Programı",
     "saklama_suresi": "10"
   },
-  "konu": "Yatırım Ödeneği Talebi",
-  "sayi": "E-24316060-602.07-47726039",
-  "tarih": "05.03.2026",
+  "konu": "Ödenek Aktarma Talebi",
+  "sayi": "E-24316060-602.07-66329469",
+  "tarih": "27.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "aciklama": "Genelge sureti",
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Yatırım Ödeneği konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
+    "Konu": "Ödenek Aktarma konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama merkez teşkilatınca belirlenmiştir",
+    "Kapsam": "uygulama bütün birimleri kapsamaktadır",
+    "İstenen 1": "esasların personele tebliğ edilmesi",
+    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
     "Yürürlük": "01.04.2026 tarihinde yürürlüğe girmiştir",
     "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
-    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
-    "Esas 2": "itirazlar on beş gün içinde sonuçlandırılacaktır",
-    "Geçiş hükmü": "geçiş dönemi üç ay olarak belirlenmiştir",
-    "Süre": "on beş gün içinde",
-    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
+    "Esas 1": "onay süreci iki aşamalı yürütülecektir",
+    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
     3,
     3
@@ -62,20 +59,16 @@
   "paragraf_alanlari": [
     [
       "Konu",
-      "Kaynak"
+      "Kaynak",
+      "Yürürlük"
     ],
     [
       "Kapsam",
       "Kapsam dışı",
-      "Yürürlük"
+      "Esas 1"
     ],
     [
-      "Esas 1",
-      "Esas 2",
-      "Geçiş hükmü"
-    ],
-    [
-      "Süre",
+      "İstenen 2",
       "İrtibat",
       "İstenen 1"
     ]
@@ -87,11 +80,10 @@
     "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
+    "uygulama bütün birimleri kapsamaktadır",
+    "esasların personele tebliğ edilmesi",
     "01.04.2026 tarihinde yürürlüğe girmiştir",
     "sözleşmesi devam eden yükleniciler",
-    "geçiş dönemi üç ay olarak belirlenmiştir",
-    "on beş gün içinde"
+    "onay süreci iki aşamalı yürütülecektir"
   ]
 }

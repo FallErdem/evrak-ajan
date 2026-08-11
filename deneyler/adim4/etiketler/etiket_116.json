@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin KILIÇ",
-    "adres": "Gayret Mahallesi Ihlamur Sokağı No: 105/7 Yenimahalle/ANKARA",
+    "ad": "Emine KARA",
+    "adres": "Ostim Mahallesi Erguvan Caddesi No: 23/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,39 +22,42 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
-    "saklama_suresi": "10"
+    "kod": "115.02.01",
+    "ad": "İmar Durumu (Belgesi)",
+    "saklama_suresi": "B"
   },
-  "konu": "Sıfır Atık Belgesi Talebi",
+  "konu": "İmar Durumu Bilgi Talebi",
   "sayi": null,
-  "tarih": "09.04.2026",
+  "tarih": "30.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Sıfır Atık Belgesi",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Talep": "İmar Durumu Bilgi",
+    "Taşınmaz": "70427 ada, 38 parsel",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
+    "Başvuru şekli": "aynı talep geçen ay da iletilmiştir",
+    "Bildirim tercihi": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Sıfır Atık Belgesi",
-    "ilgili kuruma sunulmak üzere",
-    "elektronik posta ile"
+    "İmar Durumu Bilgi",
+    "70427 ada, 38 parsel",
+    "aynı talep geçen ay da iletilmiştir",
+    "kayıtlı elektronik posta adresime"
   ]
 }

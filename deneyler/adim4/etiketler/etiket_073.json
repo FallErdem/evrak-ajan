@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Öz Yapı Denetim A.Ş.",
+    "kurum_adi": "Güven Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Pamuklar Mahallesi Erguvan Sokak No: 33/9 Yenimahalle/ANKARA",
+    "adres": "Kaletepe Mahallesi Erguvan Caddesi No: 2/18 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,39 +23,39 @@
   "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.10",
-    "ad": "Adres ve Numaralandırma",
-    "saklama_suresi": "B"
+    "kod": "180.03",
+    "ad": "İtfaiye Uygunluk Raporları",
+    "saklama_suresi": "15"
   },
-  "konu": "Numarataj Belgesi Talebi",
-  "sayi": "2026/245",
-  "tarih": "24.03.2026",
+  "konu": "Uygunluk Raporu Yenileme Talebi",
+  "sayi": "2026/232",
+  "tarih": "03.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Numarataj Belgesi işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "Talep": "Uygunluk Raporu Yenileme işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
-    4
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "yıllara göre sayısal döküm",
-    "e-Devlet üzerinden"
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

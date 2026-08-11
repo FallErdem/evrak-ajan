@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,31 +23,31 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "755.01",
-    "ad": "Etüd-Proje ve Fizibilite",
-    "saklama_suresi": "30"
+    "kod": "756.02",
+    "ad": "Satış ve Kiralama",
+    "saklama_suresi": "B"
   },
-  "konu": "Mimari Proje Görüşü",
-  "sayi": "E-39985474-755.01-5090162",
-  "tarih": "06.05.2026",
+  "konu": "Kira Bedeli Artışı Hk.",
+  "sayi": "E-39985474-756.02-6835768",
+  "tarih": "30.04.2026",
   "ilgi": {
-    "tarih": "01.04.2026",
-    "sayi": "E-33152401-755.01-1977914"
+    "tarih": "08.04.2026",
+    "sayi": "E-87730597-756.02-1804220"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Mimari Proje Görüşü",
-    "Mevcut uygulama": "benzer taleplerde farklı sonuçlar doğmuştur",
-    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Konu": "Kira Bedeli Artışı",
+    "Mevcut uygulama": "uygulama birimler arasında farklılık göstermektedir",
+    "Sonuç": "aynı konuda tekrar başvuru yapılmaktadır",
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Talep": "uygulanacak usulün bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
+    2,
     3
   ],
   "paragraf_alanlari": null,
@@ -55,12 +55,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Mimari Proje Görüşü",
-    "işlemlerde gecikme yaşanmaktadır",
-    "konu hakkında görüş bildirilmesi"
+    "Kira Bedeli Artışı",
+    "aynı konuda tekrar başvuru yapılmaktadır",
+    "uygulanacak usulün bildirilmesi"
   ]
 }

@@ -5,48 +5,48 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Mali Hizmetler Müdürlüğü",
+    "kurum_adi": "Temizlik İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "43195403",
+    "detsis_no": "83011479",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
     "saklama_suresi": "15"
   },
-  "konu": "Plan Hedeflerinin Güncellenmesi",
-  "sayi": "E-43195403-602.04-3551304",
-  "tarih": "07.01.2026",
+  "konu": "Bütçe Teklifinin Hazırlanması",
+  "sayi": "E-83011479-841.01-2272807",
+  "tarih": "27.01.2026",
   "ilgi": {
-    "tarih": "29.12.2025",
-    "sayi": "E-65859045-602.04-1638105"
+    "tarih": "26.12.2025",
+    "sayi": "E-43195403-841.01-753603"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Plan Hedeflerinin Güncellenmesi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Bütçe Teklifinin Hazırlanması",
+    "Talebin sonucu": "olumlu, talep uygun görüldü",
     "Dayanak": "ilgide kayıtlı yazı",
-    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
-    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
-    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "kayıtlar yıllara göre ayrılmıştır",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
     "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
@@ -74,12 +74,14 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Plan Hedeflerinin Güncellenmesi",
-    "olumlu, talep karşılandı",
+    "Bütçe Teklifinin Hazırlanması",
+    "olumlu, talep uygun görüldü",
     "ilgide kayıtlı yazı",
-    "konu Müdürlüğümüzce değerlendirilmiştir"
+    "talep ilgili birimce incelenmiştir",
+    "kayıtlar yıllara göre ayrılmıştır"
   ]
 }

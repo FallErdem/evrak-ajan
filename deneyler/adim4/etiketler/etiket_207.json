@@ -27,32 +27,35 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Yatırım Programı Revizyon Talebi",
-  "sayi": "E-24316060-602.07-47483457",
-  "tarih": "13.01.2026",
+  "konu": "Teslimat Süresinin Uzatılması",
+  "sayi": "E-24316060-934.01-66090107",
+  "tarih": "23.01.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Genelge sureti",
-    "sayfa": 2
+    "aciklama": "Uygulama esasları",
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Yatırım Programı Revizyon konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
+    "Konu": "Teslimat Süresinin Uzatılması konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar yapılan değerlendirme sonucunda alınmıştır",
+    "Kapsam": "kapsama giren bütün işlemler bu esasa göre yürütülür",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "15.01.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "yürürlük tarihinden önce sonuçlandırılan işlemler",
-    "Esas 1": "işlemler tek merkezden yürütülecektir",
-    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
+    "İstenen 2": "uygulamada karşılaşılan sorunların iletilmesi",
+    "Yürürlük": "01.02.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
+    "Esas 1": "onay süreci iki aşamalı yürütülecektir",
+    "Esas 2": "süre aşımı hâlinde başvuru yenilenecektir",
+    "Geçiş hükmü": "devam eden işlemler için ek süre tanınmıştır",
+    "İrtibat": "uygulama Bakanlığımızca izlenecektir"
   },
   "paragraf_cumle_sayilari": [
     3,
+    2,
     3,
     3
   ],
@@ -64,8 +67,12 @@
     ],
     [
       "Kapsam",
-      "Kapsam dışı",
-      "Esas 1"
+      "Kapsam dışı"
+    ],
+    [
+      "Esas 1",
+      "Esas 2",
+      "Geçiş hükmü"
     ],
     [
       "İstenen 2",
@@ -80,9 +87,10 @@
     "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
     "uygulamanın ilgililere duyurulması",
-    "15.01.2026 tarihinde yürürlüğe girmiştir",
-    "işlemler tek merkezden yürütülecektir"
+    "01.02.2026 tarihinde yürürlüğe girmiştir",
+    "sözleşmesi devam eden yükleniciler",
+    "onay süreci iki aşamalı yürütülecektir",
+    "uygulama Bakanlığımızca izlenecektir"
   ]
 }

@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Esra YILDIRIM",
-    "adres": "Batıkent Mahallesi Manolya Sokağı No: 9/13 Yenimahalle/ANKARA",
+    "ad": "Gamze POLAT",
+    "adres": "Serhat Mahallesi Sümbül Caddesi No: 56/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020945042",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "2"
+    "ogrenci_no": "2024591170",
+    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -33,20 +33,19 @@
     "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Belgenin Islak İmzalı Örneği",
+  "konu": "Öğrenci Belgesi Talebi",
   "sayi": null,
-  "tarih": "07.01.2026",
+  "tarih": "02.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Belgenin Islak İmzalı Örneği",
+    "Şikâyet konusu": "Öğrenci Belgesi",
     "Sorun": "öğrenci belgesi talebime iki haftadır cevap verilmedi",
     "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Önceki başvuru": "konu ilgili birime şahsen de bildirilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
     2,
     3
   ],
@@ -59,7 +58,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Belgenin Islak İmzalı Örneği",
+    "Öğrenci Belgesi",
     "geçtiğimiz aydan bu yana",
     "sorunun giderilmesi"
   ]

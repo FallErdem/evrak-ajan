@@ -5,47 +5,47 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yazı İşleri Müdürlüğü",
+    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "15986609",
+    "detsis_no": "18426575",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
+  "muhatap_makam": "Yazı İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
+    "kod": "105.04",
+    "ad": "Meclis Kararları",
     "saklama_suresi": "15"
   },
-  "konu": "Gelir Gider Tahmin Cetveli",
-  "sayi": "E-15986609-841.01-3261845",
-  "tarih": "18.02.2026",
+  "konu": "Meclis Kararının Gönderilmesi",
+  "sayi": "E-18426575-105.04-1022637",
+  "tarih": "30.03.2026",
   "ilgi": {
-    "tarih": "29.01.2026",
-    "sayi": "E-43195403-841.01-3561973"
+    "tarih": "11.03.2026",
+    "sayi": "E-15986609-105.04-945646"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Gelir Gider Tahmin Cetveli",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Dayanak": "ilgide kayıtlı yazı",
+    "Talep": "Meclis Kararının Gönderilmesi",
+    "Talebin sonucu": "olumlu, talep uygun görüldü",
+    "Dayanak": "ilgide kayıtlı talep",
     "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
-    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "döküm işlem sırasına göre hazırlanmıştır",
     "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
     "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
     "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
@@ -79,13 +79,15 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Gelir Gider Tahmin Cetveli",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "Meclis Kararının Gönderilmesi",
+    "olumlu, talep uygun görüldü",
+    "ilgide kayıtlı talep",
+    "talep edilen bilgiler ekte sunulmuştur",
+    "talep ilgili birimce incelenmiştir",
+    "döküm işlem sırasına göre hazırlanmıştır"
   ]
 }

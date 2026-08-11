@@ -5,48 +5,48 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Nurbahçe Ortaokulu Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10082751",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "93213107",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_makam": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
+    "kod": "135.03",
+    "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Proje Gerçekleşme Oranı Bildirimi",
-  "sayi": "E-10082751-602.07-1165",
-  "tarih": "07.01.2026",
+  "konu": "Kurs Yeri Tahsisi",
+  "sayi": "E-93213107-135.03-2295399",
+  "tarih": "17.04.2026",
   "ilgi": {
-    "tarih": "27.11.2025",
-    "sayi": "E-14588481-602.07-4664464"
+    "tarih": "03.04.2026",
+    "sayi": "E-91571118-135.03-6032890"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Proje Gerçekleşme Oranı",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
-    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Talep": "Kurs Yeri Tahsisi",
+    "Talebin sonucu": "olumlu, dosya sonuçlandırıldı",
+    "Dayanak": "ilgide kayıtlı talep",
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
     "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
     "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
@@ -74,12 +74,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü"
+    "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Proje Gerçekleşme Oranı",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
-    "konu Müdürlüğümüzce değerlendirilmiştir"
+    "Kurs Yeri Tahsisi",
+    "olumlu, dosya sonuçlandırıldı",
+    "ilgide kayıtlı talep",
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

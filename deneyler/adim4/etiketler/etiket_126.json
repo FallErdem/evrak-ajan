@@ -32,52 +32,47 @@
     "saklama_suresi": "15"
   },
   "konu": "Kurul Kararının Gönderilmesi",
-  "sayi": "E-32625594-050.04-75582510",
-  "tarih": "30.03.2026",
+  "sayi": "E-32625594-050.04-46734898",
+  "tarih": "05.03.2026",
   "ilgi": {
-    "tarih": "20.02.2026",
-    "sayi": "E-39985474-050.04-5034066"
+    "tarih": "19.01.2026",
+    "sayi": "E-39985474-050.04-6757079"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Dayanak": "ilgide kayıtlı yazı",
+    "Dayanak": "ilgide kayıtlı bildirim",
     "Dönem": "güz dönemi",
+    "Sayı": "112 kayıt",
     "Ek 1": "Liste ve takvim",
-    "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması",
-    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
-    "Ek 2 içeriği": "başlangıç ve bitiş tarihlerini göstermektedir",
+    "Ek 2": "zaman çizelgesi",
+    "İstenen": "listenin ilgililere duyurulması",
     "Kapsam": "listede yer alanların tamamı sürece dâhildir",
-    "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
-    "Süre": "on beş gün içinde"
+    "Süre": "on beş gün içinde",
+    "İrtibat": "koordinasyon Başkanlığımızca sağlanacaktır"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
     3,
-    2
+    3
   ],
   "paragraf_alanlari": [
     [
       "Dayanak",
-      "Dönem"
+      "Dönem",
+      "Sayı"
     ],
     [
       "Ek 1",
-      "Ek 1 içeriği",
-      "Ek 2"
-    ],
-    [
-      "Ek 2 içeriği",
-      "Kapsam",
-      "Değişiklik"
+      "Ek 2",
+      "Kapsam"
     ],
     [
       "Süre",
+      "İrtibat",
       "İstenen"
     ]
   ],
@@ -89,11 +84,11 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "ilgide kayıtlı yazı",
+    "ilgide kayıtlı bildirim",
     "güz dönemi",
+    "112 kayıt",
     "Liste ve takvim",
-    "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması",
-    "on beş gün içinde"
+    "zaman çizelgesi",
+    "listenin ilgililere duyurulması"
   ]
 }

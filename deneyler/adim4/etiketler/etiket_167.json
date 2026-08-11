@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Elif ASLAN",
-    "adres": "Yeşilevler Mahallesi Ihlamur Caddesi No: 109/6 Yenimahalle/ANKARA",
+    "ad": "İbrahim AYDIN",
+    "adres": "Batıkent Mahallesi Sümbül Caddesi No: 22/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,24 +22,24 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
     "saklama_suresi": "10"
   },
-  "konu": "Araştırma Talebinin Reddi Hk.",
+  "konu": "Engelli Aracı Talebi",
   "sayi": null,
-  "tarih": "26.01.2026",
+  "tarih": "04.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Araştırma Talebinin Reddi",
+    "Talep": "Engelli Aracı",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
     "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Bildirim tercihi": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
     4
@@ -49,12 +49,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Araştırma Talebinin Reddi",
+    "Engelli Aracı",
     "şahsen başvuru yapılmıştır",
-    "elektronik posta ile"
+    "kayıtlı elektronik posta adresime"
   ]
 }

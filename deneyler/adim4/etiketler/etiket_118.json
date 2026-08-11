@@ -12,12 +12,12 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Aslı ASLAN",
-    "adres": "İvedik Mahallesi Lale Sokak No: 83/21 Yenimahalle/ANKARA",
+    "ad": "Meryem YILMAZ",
+    "adres": "Gayret Mahallesi Kestane Sokağı No: 35/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022194452",
-    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "ogrenci_no": "2023261906",
+    "bolum": "Fen Fakültesi Matematik",
     "sinif": "1"
   },
   "belge_turu": "dilekce",
@@ -29,23 +29,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt Dondurma Talebi",
+  "konu": "Katkı Payı Muafiyet Başvurusu",
   "sayi": null,
-  "tarih": "23.03.2026",
+  "tarih": "20.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Dondurma",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Talep": "Katkı Payı Muafiyet",
+    "Gerekçe": "hak kaybına uğramamak için",
+    "Başvuru şekli": "başvuru posta yoluyla da gönderilmiştir",
+    "Bildirim tercihi": "iadeli taahhütlü posta ile"
   },
   "paragraf_cumle_sayilari": [
-    4
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -56,9 +57,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Dondurma",
-    "sürecin tamamlanabilmesi için",
-    "şahsen başvuru yapılmıştır",
-    "posta yoluyla adresime"
+    "Katkı Payı Muafiyet",
+    "hak kaybına uğramamak için",
+    "başvuru posta yoluyla da gönderilmiştir",
+    "iadeli taahhütlü posta ile"
   ]
 }

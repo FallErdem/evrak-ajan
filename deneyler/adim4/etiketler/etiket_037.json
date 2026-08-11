@@ -5,35 +5,35 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "kurum_adi": "Hukuk İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "89052714",
+    "detsis_no": "10578106",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Hukuk İşleri Müdürlüğü",
+  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
   },
-  "konu": "Dava Konusu İşleme İlişkin Bilgi",
-  "sayi": "E-89052714-641.04-2164730",
-  "tarih": "14.04.2026",
+  "konu": "Bütçe Kalemi Değişiklik Teklifi",
+  "sayi": "E-10578106-841.01-2562569",
+  "tarih": "27.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -41,9 +41,9 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Dava Konusu İşleme İlişkin Bilgi",
-    "Gerekçe": "vatandaş memnuniyetinin artırılması",
-    "Mevcut durum": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Konu": "Bütçe Kalemi Değişiklik Teklifi",
+    "Gerekçe": "iş ve işlemlerin zamanında tamamlanması",
+    "Mevcut durum": "hazırlık çalışmaları tamamlanmıştır",
     "Etki": "işlemler daha kısa sürede tamamlanacaktır",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
@@ -56,12 +56,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Dava Konusu İşleme İlişkin Bilgi",
-    "vatandaş memnuniyetinin artırılması",
-    "konu Müdürlüğümüzce değerlendirilmiştir"
+    "Bütçe Kalemi Değişiklik Teklifi",
+    "iş ve işlemlerin zamanında tamamlanması",
+    "hazırlık çalışmaları tamamlanmıştır"
   ]
 }

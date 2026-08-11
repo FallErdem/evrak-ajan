@@ -5,38 +5,37 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ömer KURT",
-    "adres": "Şentepe Mahallesi Papatya Sokak No: 10/5 Yenimahalle/ANKARA",
+    "ad": "İbrahim SARI",
+    "adres": "Uğur Mumcu Mahallesi Akasya Sokağı No: 88/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019668422",
-    "bolum": "Biyoloji (Yüksek Lisans)",
-    "sinif": null,
-    "ogrenim_duzeyi": "yüksek lisans öğrencisi"
+    "ogrenci_no": "2021905405",
+    "bolum": "Matematik Öğretmenliği",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Gazi Eğitim Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.14",
-    "ad": "Tez İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Danışman Değişikliği Talebi",
+  "konu": "Kayıt Dondurma ve İzin Talebi",
   "sayi": null,
-  "tarih": "14.04.2026",
+  "tarih": "13.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
@@ -44,26 +43,24 @@
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Talep": "Danışman Değişikliği",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Talep": "Kayıt Dondurma ve İzin",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
     "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Bildirim tercihi": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Danışman Değişikliği",
-    "mağduriyetin giderilmesi bakımından",
-    "e-Devlet üzerinden"
+    "Kayıt Dondurma ve İzin",
+    "kayıtlı elektronik posta adresime"
   ]
 }

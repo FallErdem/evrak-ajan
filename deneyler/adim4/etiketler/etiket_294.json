@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Kuzey Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Atlas Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Batıkent Mahallesi Manolya Sokağı No: 97/20 Yenimahalle/ANKARA",
+    "adres": "Susuz Mahallesi Akasya Sokak No: 24/23 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,23 +23,23 @@
   "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
-    "saklama_suresi": "10"
+    "kod": "190.01.07",
+    "ad": "Emlak Vergisi",
+    "saklama_suresi": "15"
   },
-  "konu": "Engelli Erişim Düzenlemesi Talebi",
-  "sayi": "2026/802",
-  "tarih": "25.05.2026",
+  "konu": "Emlak Vergisi Muafiyet Başvurusu",
+  "sayi": "2026/37",
+  "tarih": "14.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Engelli Erişim Düzenlemesi işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Talep": "Emlak Vergisi Muafiyet işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
     "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
@@ -50,7 +50,7 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [

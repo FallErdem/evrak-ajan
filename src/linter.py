@@ -474,15 +474,26 @@ söz konusu ayrıca yine ancak fakat ise iken kere defa
 """.split())
 
 
-_ETKISIZ_KOK = frozenset(k[:5] for k in _ETKISIZ)
+_ETKISIZ_KOK = frozenset(k if len(k) <= 5 else k[:5] for k in _ETKISIZ)
 
 
 def _icerik_sozcukleri(metin: str) -> list[str]:
-    """Anlam taşıyan sözcükler. Ek almış biçimler için kök yaklaşımı:
-    ilk 5 harf alınır ("yürürlüğe" ve "yürürlük" aynı sayılır).
+    """Anlam taşıyan sözcükler, ek atılmış hâlde.
+
+    SABİT KESİM YANLIŞ SONUÇ VERİYORDU. 5 harfe kesince "yazı" (4 harf)
+    ile "yazıda" (kesilince "yazıd") eşleşmiyordu — şartnamede "yazı"
+    geçen bir bilgi, metinde "yazıda" olarak geçtiğinde bulunamıyordu.
+
+    Çözüm: kök uzunluğu kelimeye göre. Kısa kelimelerde tamamı, uzun
+    kelimelerde ilk 5 harf.
     """
-    return [k[:5] for k in re.findall(r"\w+", normalize(metin))
-            if len(k) > 3 and k not in _ETKISIZ and k[:5] not in _ETKISIZ_KOK]
+    return [_kok(k) for k in re.findall(r"\w+", normalize(metin))
+            if len(k) > 3 and k not in _ETKISIZ and _kok(k) not in _ETKISIZ_KOK]
+
+
+def _kok(kelime: str) -> str:
+    """Kaba kök: 6 harften kısa kelimeler olduğu gibi, uzunlar ilk 5 harf."""
+    return kelime if len(kelime) <= 5 else kelime[:5]
 
 
 def _kapsama_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
@@ -508,7 +519,11 @@ def _kapsama_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
         sozcukler = _icerik_sozcukleri(terim)
         if not sozcukler:
             continue
-        eslesen = sum(1 for k in sozcukler if k in metin_sozcukleri)
+        # ÖNEK EŞLEŞME: terimdeki "yazı" kökü, metindeki "yazıd" kökünü de
+        # bulmalı. Tam eşitlik aranınca ek almış biçimler kaçıyordu.
+        eslesen = sum(1 for k in sozcukler
+                      if any(m.startswith(k) or k.startswith(m)
+                             for m in metin_sozcukleri))
         if eslesen / len(sozcukler) < 0.6:
             bulgular.append(Bulgu(
                 "KPS-01", Onem.HATA,

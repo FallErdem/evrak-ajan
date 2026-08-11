@@ -31,17 +31,17 @@
     "ad": "Eğitim Fakülteleri İle İlişkiler",
     "saklama_suresi": "15"
   },
-  "konu": "Öğretmenlik Uygulaması Değerlendirme Raporu",
-  "sayi": "E-65859045-355.02-1657716",
-  "tarih": "24.02.2026",
+  "konu": "Uygulama Öğretmeni Görevlendirmesi",
+  "sayi": "E-65859045-355.02-2755383",
+  "tarih": "18.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Öğretmenlik Uygulaması Değerlendirme Raporu",
-    "Ortak iş": "Öğretmenlik Uygulaması Değerlendirme Raporu konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
-    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
-    "Talep": "Öğretmenlik Uygulaması Değerlendirme Raporu kapsamında öğrenci kabul edilmesi"
+    "Konu": "Uygulama Öğretmeni Görevlendirmesi",
+    "Ortak iş": "Uygulama Öğretmeni Görevlendirmesi konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "uygulamada eşgüdüm ihtiyacı doğmuştur",
+    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
+    "Talep": "Uygulama Öğretmeni Görevlendirmesi kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -53,5 +53,8 @@
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
-  "anahtar_terimler": []
+  "anahtar_terimler": [
+    "Uygulama Öğretmeni Görevlendirmesi",
+    "uygulamada eşgüdüm ihtiyacı doğmuştur"
+  ]
 }

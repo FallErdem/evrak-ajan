@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özgüryurt Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Strateji Geliştirme Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10109079",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "14588481",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
@@ -27,26 +27,26 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "saklama_suresi": "10"
   },
-  "konu": "Genelge Uygulamasında Karşılaşılan Tereddütler",
-  "sayi": "E-10109079-010.06-4391",
-  "tarih": "27.02.2026",
+  "konu": "Bilgi Edinme Talebinin Reddi Hk.",
+  "sayi": "E-14588481-622.01-6243808",
+  "tarih": "19.03.2026",
   "ilgi": {
-    "tarih": "14.01.2026",
-    "sayi": "E-55461037-010.06-1390445"
+    "tarih": "03.02.2026",
+    "sayi": "E-55461037-622.01-1830907"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Genelge Uygulamasında Karşılaşılan Tereddütler",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Bilgi Edinme Talebinin Reddi",
+    "Talebin sonucu": "olumlu, gerekli düzeltme yapıldı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
-    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
-    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "bilgiler başvuru türlerine göre gruplandırılmıştır",
+    "Sınırlama": "arşive devredilmiş kayıtlar ayrıca istenmelidir",
+    "Süre": "veriler her dönem başında güncellenmektedir",
     "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
@@ -76,8 +76,8 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı",
-    "konu Müdürlüğümüzce değerlendirilmiştir"
+    "Bilgi Edinme Talebinin Reddi",
+    "olumlu, gerekli düzeltme yapıldı",
+    "ilgide kayıtlı yazı"
   ]
 }

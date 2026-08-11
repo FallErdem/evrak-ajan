@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "İçişleri Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "24312041",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,32 +23,32 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
-    "saklama_suresi": "10"
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
   },
-  "konu": "Engelli Aracı Talebi",
-  "sayi": "E-24304062-120.02-57976424",
-  "tarih": "17.04.2026",
+  "konu": "Bütçe Takviminin Duyurulması",
+  "sayi": "E-24312041-841.01-57088593",
+  "tarih": "04.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Genelge sureti",
-    "sayfa": 2
+    "aciklama": "Uygulama esasları",
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Engelli Aracı konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
+    "Konu": "Bütçe Takviminin Duyurulması konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar yapılan değerlendirme sonucunda alınmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "15.05.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "geçici görevle çalışan personel",
-    "Esas 1": "işlemler tek merkezden yürütülecektir",
+    "İstenen 1": "düzenlemenin ilgili birimlerde ilan edilmesi",
+    "İstenen 2": "uygulamada karşılaşılan sorunların iletilmesi",
+    "Yürürlük": "01.03.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
+    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
     "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
@@ -77,14 +77,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "15.05.2026 tarihinde yürürlüğe girmiştir",
-    "geçici görevle çalışan personel",
-    "işlemler tek merkezden yürütülecektir"
+    "01.03.2026 tarihinde yürürlüğe girmiştir",
+    "sözleşmesi devam eden yükleniciler"
   ]
 }

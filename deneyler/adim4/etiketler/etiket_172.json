@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gülpınar Ortaokulu Müdürlüğü",
+    "kurum_adi": "Aydınyaka Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10084668",
+    "detsis_no": "10107844",
     "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
@@ -31,24 +31,24 @@
     "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Kurs Yeri Tahsisi",
-  "sayi": "E-10084668-135.03-6187",
-  "tarih": "12.01.2026",
+  "konu": "Usta Öğretici Görevlendirmesi",
+  "sayi": "E-10107844-135.03-7628",
+  "tarih": "10.04.2026",
   "ilgi": {
-    "tarih": "11.12.2025",
-    "sayi": "E-91571118-135.03-5294533"
+    "tarih": "27.02.2026",
+    "sayi": "E-91571118-135.03-6002592"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kurs Yeri Tahsisi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
-    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
-    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
-    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
-    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
-    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
+    "Talep": "Usta Öğretici Görevlendirmesi",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Dayanak": "ilgide kayıtlı talep",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "gizlilik dereceli belgeler kapsam dışında bırakılmıştır",
+    "Süre": "ek talepler yazılı olarak iletilmelidir",
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -82,9 +82,10 @@
     "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kurs Yeri Tahsisi",
-    "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı",
-    "konu Müdürlüğümüzce değerlendirilmiştir"
+    "Usta Öğretici Görevlendirmesi",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı talep",
+    "döküm birim bazında hazırlanmıştır",
+    "ek talepler yazılı olarak iletilmelidir"
   ]
 }

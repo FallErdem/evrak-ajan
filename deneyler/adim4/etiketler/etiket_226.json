@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mehmet KARACA",
-    "adres": "Kaletepe Mahallesi Lale Caddesi No: 43/12 Yenimahalle/ANKARA",
+    "ad": "Fatih KOÇ",
+    "adres": "Yakacık Mahallesi Çınar Caddesi No: 29/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,21 +30,20 @@
     "ad": "Uygulama İmar Planı",
     "saklama_suresi": "B"
   },
-  "konu": "Plan Örneği Talebi",
+  "konu": "Plan Tadilatı Başvurusu",
   "sayi": null,
-  "tarih": "21.01.2026",
+  "tarih": "26.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Plan Örneği",
-    "Taşınmaz": "97932 ada, 25 parsel",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Plan Tadilatı",
+    "Taşınmaz": "55250 ada, 38 parsel",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "başvuru kayıt bürosuna teslim edilmiştir",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -55,10 +54,10 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Plan Örneği",
-    "97932 ada, 25 parsel",
-    "ilgili kuruma sunulmak üzere",
-    "şahsen başvuru yapılmıştır",
-    "Kurumunuz kayıt bürosundan elden"
+    "Plan Tadilatı",
+    "55250 ada, 38 parsel",
+    "sürecin tamamlanabilmesi için",
+    "başvuru kayıt bürosuna teslim edilmiştir",
+    "posta yoluyla adresime"
   ]
 }

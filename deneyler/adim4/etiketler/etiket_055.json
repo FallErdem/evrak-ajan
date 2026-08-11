@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Ege Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Yıldız Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Batıkent Mahallesi Sümbül Sokağı No: 55/7 Yenimahalle/ANKARA",
+    "adres": "Kaletepe Mahallesi Çınar Sokak No: 41/4 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,20 +31,19 @@
     "ad": "Disiplin İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Cezanın Sicilden Silinmesi Talebi",
-  "sayi": "2026/76",
-  "tarih": "21.01.2026",
+  "konu": "Savunma Talebi",
+  "sayi": "2026/375",
+  "tarih": "30.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Cezanın Sicilden Silinmesi işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "Talep": "Savunma işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "posta yoluyla adresime"
+    "Bildirim yolu": "iadeli taahhütlü posta ile"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
@@ -55,6 +54,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "posta yoluyla adresime"
+    "iadeli taahhütlü posta ile"
   ]
 }

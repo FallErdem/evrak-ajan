@@ -5,58 +5,59 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Fatma AVCI",
-    "adres": "Emniyet Mahallesi Sümbül Caddesi No: 95/10 Yenimahalle/ANKARA",
+    "ad": "Mehmet KILIÇ",
+    "adres": "Çiğdemtepe Mahallesi Erguvan Caddesi No: 99/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022497454",
-    "bolum": "Tıp Fakültesi",
-    "sinif": "2"
+    "ogrenci_no": "2023380263",
+    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "saklama_suresi": "10"
   },
-  "konu": "Değişim Programı Ders Tanıma Talebi",
+  "konu": "Öğrenci Topluluğu Kurulma Talebi",
   "sayi": null,
-  "tarih": "01.04.2026",
+  "tarih": "20.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Değişim Programı Ders Tanıma",
+    "Talep": "Öğrenci Topluluğu Kurulma",
     "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Başvuru şekli": "başvuru posta yoluyla da gönderilmiştir",
+    "Bildirim tercihi": "cep telefonuma kısa mesajla"
   },
   "paragraf_cumle_sayilari": [
-    4
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Değişim Programı Ders Tanıma",
-    "elektronik posta ile"
+    "Öğrenci Topluluğu Kurulma",
+    "başvuru posta yoluyla da gönderilmiştir",
+    "cep telefonuma kısa mesajla"
   ]
 }

@@ -5,45 +5,44 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Selin TURAN",
-    "adres": "Serhat Mahallesi Ihlamur Sokağı No: 80/20 Yenimahalle/ANKARA",
+    "ad": "Hüseyin GÜLER",
+    "adres": "Emniyet Mahallesi Papatya Caddesi No: 71/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020493879",
-    "bolum": "Kimya (Doktora)",
-    "sinif": null,
-    "ogrenim_duzeyi": "doktora öğrencisi"
+    "ogrenci_no": "2025763612",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.11",
-    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
-    "saklama_suresi": "10"
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Kayıt Yenileme Başvurusu",
+  "konu": "Denklik Belgesi Talebi",
   "sayi": null,
-  "tarih": "20.02.2026",
+  "tarih": "18.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Yenileme",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Talep": "Denklik Belgesi",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
+    "Başvuru şekli": "konu hakkında çağrı merkezi aranmıştır",
+    "Bildirim tercihi": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
     4
@@ -53,11 +52,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Yenileme",
-    "e-Devlet üzerinden"
+    "Denklik Belgesi",
+    "resmî işlemlerde kullanılmak üzere",
+    "konu hakkında çağrı merkezi aranmıştır",
+    "kayıtlı elektronik posta adresime"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Çankaya Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "90226917",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Muayene ve Kabul İşlemleri",
-  "sayi": "E-55461037-934.01-1482068",
-  "tarih": "06.05.2026",
+  "konu": "Stratejik Plan Taslağı Hakkında Görüş",
+  "sayi": "E-90226917-602.04-3756881",
+  "tarih": "05.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Muayene ve Kabul İşlemleri",
-    "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
-    "Sonuç": "başvuranlara tutarlı cevap verilememektedir",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Konu": "Stratejik Plan Taslağı Hakkında Görüş",
+    "Mevcut uygulama": "benzer taleplerde farklı sonuçlar doğmuştur",
+    "Sonuç": "uygulamada birlik sağlanamamaktadır",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Talep": "konunun açıklığa kavuşturulması"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,
@@ -56,7 +56,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Muayene ve Kabul İşlemleri",
-    "konu hakkında görüş bildirilmesi"
+    "Stratejik Plan Taslağı Hakkında Görüş",
+    "uygulamada birlik sağlanamamaktadır",
+    "konunun açıklığa kavuşturulması"
   ]
 }

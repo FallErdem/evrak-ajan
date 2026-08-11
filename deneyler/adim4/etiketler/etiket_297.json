@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,39 +23,39 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Sözleşme Metni Hakkında Görüş",
-  "sayi": "E-65859045-045.02-1689740",
-  "tarih": "28.05.2026",
+  "konu": "Staj Süresinin Sayılması Talebi",
+  "sayi": "E-65859045-304.03-2715981",
+  "tarih": "30.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Sözleşme Metni Hakkında Görüş",
-    "Ortak iş": "Sözleşme Metni Hakkında Görüş konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
-    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
-    "Talep": "Sözleşme Metni Hakkında Görüş konusunda görüş bildirilmesi"
+    "Konu": "Staj Süresinin Sayılması",
+    "Ortak iş": "Staj Süresinin Sayılması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
+    "Beklenen katkı": "kurumunuzun uygun göreceği yöntem beklenmektedir",
+    "Talep": "Staj Süresinin Sayılması konusunda gerekli sürenin tanınması"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    3
+    3,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sözleşme Metni Hakkında Görüş"
+    "Staj Süresinin Sayılması"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,20 +23,20 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Disiplin Dosyasının Gönderilmesi",
-  "sayi": "E-10213773-225.02-14720618",
-  "tarih": "05.02.2026",
+  "konu": "Genelgenin İlgili Birimlere Dağıtımı",
+  "sayi": "E-24316060-010.06-66473254",
+  "tarih": "04.05.2026",
   "ilgi": {
-    "tarih": "26.12.2025",
-    "sayi": "E-63971525-225.02-8535297"
+    "tarih": "10.04.2026",
+    "sayi": "E-55461037-010.06-1868571"
   },
   "ek": {
     "adet": 2,
@@ -45,15 +45,15 @@
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
+    "Dönem": "güz dönemi",
     "Ek 1": "Liste ve takvim",
     "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "İstenen": "gönderilen belgelerin dağıtımının sağlanması",
     "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
-    "Ek 2 içeriği": "aşamalara göre bölümlendirilmiştir",
+    "Ek 2 içeriği": "haftalık zaman çizelgesi biçimindedir",
     "Kapsam": "listede yer alanların tamamı sürece dâhildir",
     "Değişiklik": "güncel liste dönem başında yenilenecektir",
-    "Süre": "dönem başlamadan önce"
+    "Süre": "iki hafta içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -84,15 +84,14 @@
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
-    "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü"
+    "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "öğretim yılı",
+    "güz dönemi",
     "Liste ve takvim",
     "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması",
-    "aşamalara göre bölümlendirilmiştir"
+    "haftalık zaman çizelgesi biçimindedir",
+    "iki hafta içinde"
   ]
 }

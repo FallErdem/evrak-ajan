@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -31,20 +31,20 @@
     "ad": "Stajlar",
     "saklama_suresi": "2"
   },
-  "konu": "Staj Yeri Talebi",
-  "sayi": "E-55461037-304.03-1401997",
-  "tarih": "28.01.2026",
+  "konu": "Staj Süresinin Sayılması Talebi",
+  "sayi": "E-65859045-304.03-2741526",
+  "tarih": "10.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Staj Yeri",
-    "Ortak iş": "Staj Yeri konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
-    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
-    "Talep": "Staj Yeri için kontenjan ayrılması"
+    "Konu": "Staj Süresinin Sayılması",
+    "Ortak iş": "Staj Süresinin Sayılması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
+    "Beklenen katkı": "kurumunuzca ilgili kayıtların paylaşılması gerekmektedir",
+    "Talep": "Staj Süresinin Sayılması konusunda gerekli sürenin tanınması"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,
@@ -56,7 +56,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Yeri",
-    "Staj Yeri için kontenjan ayrılması"
+    "Staj Süresinin Sayılması"
   ]
 }

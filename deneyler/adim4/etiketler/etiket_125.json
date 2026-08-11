@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -31,30 +31,30 @@
     "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Mal Alımı Teknik Şartnamesi",
-  "sayi": "E-10213773-934.01-14857611",
-  "tarih": "13.05.2026",
+  "konu": "Kırtasiye Malzemesi Alımı",
+  "sayi": "E-24316060-934.01-66408683",
+  "tarih": "17.04.2026",
   "ilgi": {
-    "tarih": "09.04.2026",
-    "sayi": "E-14588481-934.01-4762630"
+    "tarih": "27.03.2026",
+    "sayi": "E-14588481-934.01-6250003"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Genelge sureti",
-    "sayfa": 3
+    "aciklama": "Uygulama esasları",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Mal Alımı Teknik Şartnamesi konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "Yürürlük": "01.04.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "yürürlük tarihinden önce sonuçlandırılan işlemler",
-    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
-    "Esas 2": "eksik belgeli başvurular işleme alınmayacaktır",
-    "Geçiş hükmü": "geçiş dönemi üç ay olarak belirlenmiştir",
-    "Süre": "otuz gün içinde",
-    "İrtibat": "uygulama Valiliğimizce izlenecektir"
+    "Konu": "Kırtasiye Malzemesi Alımı konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "esaslar üst yazı ile bildirilmiştir",
+    "Kapsam": "uygulama bütün birimleri kapsamaktadır",
+    "İstenen 1": "esasların personele tebliğ edilmesi",
+    "Yürürlük": "15.01.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "yargı sürecinde bulunan dosyalar",
+    "Esas 1": "işlem adımları sistem üzerinden izlenecektir",
+    "Esas 2": "itirazlar on beş gün içinde sonuçlandırılacaktır",
+    "Geçiş hükmü": "devam eden işlemler için ek süre tanınmıştır",
+    "Süre": "on beş gün içinde",
+    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -90,11 +90,11 @@
     "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "01.04.2026 tarihinde yürürlüğe girmiştir",
-    "geçiş dönemi üç ay olarak belirlenmiştir",
-    "otuz gün içinde",
-    "uygulama Valiliğimizce izlenecektir"
+    "esaslar üst yazı ile bildirilmiştir",
+    "uygulama bütün birimleri kapsamaktadır",
+    "esasların personele tebliğ edilmesi",
+    "15.01.2026 tarihinde yürürlüğe girmiştir",
+    "yargı sürecinde bulunan dosyalar",
+    "on beş gün içinde"
   ]
 }

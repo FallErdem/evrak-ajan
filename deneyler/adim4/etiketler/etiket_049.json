@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Ayşe AVCI",
-    "adres": "Batıkent Mahallesi Kestane Sokağı No: 1/6 Yenimahalle/ANKARA",
+    "ad": "Serkan ÇELIK",
+    "adres": "İvedik Mahallesi Menekşe Sokak No: 50/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,21 +26,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Onaylı Örnek Talebi",
+  "konu": "Şikâyet Başvurusu Hk.",
   "sayi": null,
-  "tarih": "16.02.2026",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Onaylı Örnek",
-    "Sorun": "belge talebime yazılı bir cevap verilmedi",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Şikâyet Başvurusu",
+    "Sorun": "başvurumun hangi birimde beklediğini öğrenemiyorum",
+    "Süre": "yılbaşından bu yana",
+    "Önceki başvuru": "e-Devlet üzerinden yapılan başvuru sonuçsuz kalmıştır",
+    "Talep": "durumun düzeltilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -54,8 +54,8 @@
     "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Onaylı Örnek",
-    "yaklaşık üç haftadır",
-    "sorunun giderilmesi"
+    "Şikâyet Başvurusu",
+    "yılbaşından bu yana",
+    "durumun düzeltilmesi"
   ]
 }

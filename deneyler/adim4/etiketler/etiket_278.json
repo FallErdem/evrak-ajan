@@ -12,39 +12,40 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "93213107",
+    "detsis_no": "87302975",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
+  "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Ortaöğretim Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
+    "saklama_suresi": "B"
   },
-  "konu": "Soruşturmacı Görevlendirmesi",
-  "sayi": "E-93213107-225.02-4005798",
-  "tarih": "30.01.2026",
+  "konu": "Denklik Dosyası Eksik Evrak Bildirimi",
+  "sayi": "E-87302975-215.01-1993118",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Soruşturmacı Görevlendirmesi",
-    "Mevcut uygulama": "benzer taleplerde farklı sonuçlar doğmuştur",
+    "Konu": "Denklik Dosyası Eksik Evrak",
+    "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
     "Sonuç": "işlemlerde gecikme yaşanmaktadır",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Talep": "tereddüdün giderilmesi için görüş verilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
+    2,
+    2,
     3
   ],
   "paragraf_alanlari": null,
@@ -55,8 +56,7 @@
     "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Soruşturmacı Görevlendirmesi",
-    "işlemlerde gecikme yaşanmaktadır",
-    "konu hakkında görüş bildirilmesi"
+    "Denklik Dosyası Eksik Evrak",
+    "işlemlerde gecikme yaşanmaktadır"
   ]
 }

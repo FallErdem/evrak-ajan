@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten SARI",
-    "adres": "Emniyet Mahallesi Ihlamur Sokak No: 95/6 Yenimahalle/ANKARA",
+    "ad": "Şerife KARA",
+    "adres": "Çiğdemtepe Mahallesi Kestane Sokak No: 4/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,30 +22,30 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Ölçü Aleti Tamir İzni",
+  "konu": "İdari Para Cezasına İtiraz",
   "sayi": null,
-  "tarih": "06.04.2026",
+  "tarih": "23.04.2026",
   "ilgi": {
-    "tarih": "04.03.2026",
-    "sayi": "E-59553370-175-3452820"
+    "tarih": "27.03.2026",
+    "sayi": "E-50719027-858-1852852"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "İkametgâh belgesi",
-    "sayfa": 2
+    "aciklama": "Kimlik fotokopisi",
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Ölçü Aleti Tamir İzni",
-    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "İtiraz konusu": "İdari Para Cezasına İtiraz",
+    "Önceki karar": "başvurum reddedilmiştir",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,12 +57,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ölçü Aleti Tamir İzni",
-    "talep olumsuz sonuçlandırılmıştır",
+    "İdari Para Cezasına İtiraz",
+    "başvurum reddedilmiştir",
     "kararın yeniden değerlendirilmesi"
   ]
 }

@@ -32,11 +32,11 @@
     "saklama_suresi": "B"
   },
   "konu": "Okul Yeri Tahsis Talebi",
-  "sayi": "E-90226917-756.01-1951490",
-  "tarih": "20.02.2026",
+  "sayi": "E-90226917-756.01-3771125",
+  "tarih": "11.02.2026",
   "ilgi": {
-    "tarih": "05.02.2026",
-    "sayi": "E-87730597-756.01-3691763"
+    "tarih": "03.02.2026",
+    "sayi": "E-87730597-756.01-1773649"
   },
   "ek": {
     "adet": 1,
@@ -46,8 +46,8 @@
   "somut_bilgiler": {
     "Konu": "Okul Yeri Tahsis",
     "Ortak iş": "Okul Yeri Tahsis konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
-    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
+    "Gerekçe": "işlemin tamamlanması iki kurumun katkısını gerektirmektedir",
+    "Beklenen katkı": "kurumunuzca bir irtibat görevlisi belirlenmesi gerekmektedir",
     "Talep": "gerekli tahsisin yapılması"
   },
   "paragraf_cumle_sayilari": [

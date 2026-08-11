@@ -32,30 +32,27 @@
     "saklama_suresi": "15"
   },
   "konu": "Atama Onayı Hk.",
-  "sayi": "E-32625594-201-75344481",
-  "tarih": "16.01.2026",
+  "sayi": "E-32625594-201-46883440",
+  "tarih": "07.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Genelge sureti",
-    "sayfa": 1
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Konu": "Atama Onayı konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Kapsam": "düzenleme merkez ve taşra birimlerinde geçerlidir",
+    "İstenen 1": "konunun bağlı birimlere bildirilmesi",
+    "İstenen 2": "yapılan işlemlere ilişkin bilgi verilmesi",
     "Yürürlük": "01.02.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "geçici görevle çalışan personel",
-    "Esas 1": "her başvuru için ayrı dosya açılacaktır",
-    "Esas 2": "eksik belgeli başvurular işleme alınmayacaktır",
-    "Geçiş hükmü": "devam eden işlemler için ek süre tanınmıştır",
+    "Kapsam dışı": "geçici koruma statüsündeki başvurular",
+    "Esas 1": "onay süreci iki aşamalı yürütülecektir",
     "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2,
     3,
     3
   ],
@@ -67,12 +64,8 @@
     ],
     [
       "Kapsam",
-      "Kapsam dışı"
-    ],
-    [
-      "Esas 1",
-      "Esas 2",
-      "Geçiş hükmü"
+      "Kapsam dışı",
+      "Esas 1"
     ],
     [
       "İstenen 2",
@@ -88,10 +81,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
+    "konunun bağlı birimlere bildirilmesi",
     "01.02.2026 tarihinde yürürlüğe girmiştir",
-    "geçici görevle çalışan personel",
-    "her başvuru için ayrı dosya açılacaktır"
+    "geçici koruma statüsündeki başvurular",
+    "onay süreci iki aşamalı yürütülecektir"
   ]
 }

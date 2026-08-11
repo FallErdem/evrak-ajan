@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Onur SARI",
-    "adres": "Pamuklar Mahallesi Sümbül Sokağı No: 83/11 Yenimahalle/ANKARA",
+    "ad": "Onur ŞAHIN",
+    "adres": "Demetevler Mahallesi Nergis Caddesi No: 74/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021364782",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "2"
+    "ogrenci_no": "2022961995",
+    "bolum": "Diş Hekimliği Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,24 +29,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Mezuniyet Belgesi Doğrulama Talebi",
+  "konu": "Diploma Talebi",
   "sayi": null,
-  "tarih": "19.05.2026",
+  "tarih": "05.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Mezuniyet Belgesi Doğrulama",
-    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Diploma",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
+    "Başvuru şekli": "aynı talep geçen ay da iletilmiştir",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -57,9 +56,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Mezuniyet Belgesi Doğrulama",
-    "ilgili kuruma sunulmak üzere",
-    "şahsen başvuru yapılmıştır",
-    "Kurumunuz kayıt bürosundan elden"
+    "başvuru dosyasına eklenmek üzere",
+    "aynı talep geçen ay da iletilmiştir",
+    "posta yoluyla adresime"
   ]
 }

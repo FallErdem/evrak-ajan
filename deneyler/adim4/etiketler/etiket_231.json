@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra YILMAZ",
-    "adres": "Beştepe Mahallesi Manolya Caddesi No: 65/18 Yenimahalle/ANKARA",
+    "ad": "Pınar GÜNEŞ",
+    "adres": "Batıkent Mahallesi Ceviz Caddesi No: 50/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,19 +30,20 @@
     "ad": "Kaynaştırma Eğitimi",
     "saklama_suresi": "10"
   },
-  "konu": "Kaynaştırma Uygulaması Bilgi Talebi",
+  "konu": "Sınıf Mevcudunun Düzenlenmesi",
   "sayi": null,
-  "tarih": "10.03.2026",
+  "tarih": "27.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kaynaştırma Uygulaması Bilgi",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Talep": "Sınıf Mevcudunun Düzenlenmesi",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
     "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -52,8 +53,8 @@
     "Özel Eğitim ve Rehberlik Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kaynaştırma Uygulaması Bilgi",
-    "sürecin tamamlanabilmesi için",
-    "e-Devlet üzerinden"
+    "Sınıf Mevcudunun Düzenlenmesi",
+    "mağduriyetin giderilmesi bakımından",
+    "elektronik posta ile"
   ]
 }

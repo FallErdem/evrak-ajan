@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "773",
-    "ad": "Staj İşleri",
-    "saklama_suresi": "10"
+    "kod": "304.03",
+    "ad": "Stajlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Staj Süresinin Uzatılması Talebi",
-  "sayi": "E-65859045-773-1683935",
-  "tarih": "11.05.2026",
+  "konu": "Staj Yeri Talebi",
+  "sayi": "E-55461037-304.03-1887384",
+  "tarih": "13.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Staj Süresinin Uzatılması",
-    "Ortak iş": "Staj Süresinin Uzatılması konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
-    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
-    "Talep": "Staj Süresinin Uzatılması konusunda gerekli sürenin tanınması"
+    "Konu": "Staj Yeri",
+    "Ortak iş": "Staj Yeri konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "aynı hizmetten yararlananlar her iki kuruma başvurmaktadır",
+    "Beklenen katkı": "kurumunuzca bir irtibat görevlisi belirlenmesi gerekmektedir",
+    "Talep": "Staj Yeri için kontenjan ayrılması"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,
@@ -56,6 +56,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Süresinin Uzatılması"
+    "Staj Yeri",
+    "Staj Yeri için kontenjan ayrılması"
   ]
 }

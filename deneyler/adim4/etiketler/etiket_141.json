@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Hüseyin AKSOY",
-    "adres": "Ergazi Mahallesi Lale Sokak No: 1/13 Yenimahalle/ANKARA",
+    "ad": "Meryem KILIÇ",
+    "adres": "Ergazi Mahallesi Menekşe Sokak No: 8/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020637647",
-    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
-    "sinif": "2"
+    "ogrenci_no": "2021887459",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,20 +29,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Denklik Başvurusu",
+  "konu": "Geçici Mezuniyet Belgesi Talebi",
   "sayi": null,
-  "tarih": "20.03.2026",
+  "tarih": "05.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma Denklik",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Talep": "Geçici Mezuniyet Belgesi",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
+    "Başvuru şekli": "e-Devlet üzerinden de başvuru yapılmıştır",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -56,8 +56,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Diploma Denklik",
-    "resmî işlemlerde kullanılmak üzere",
-    "posta yoluyla adresime"
+    "Geçici Mezuniyet Belgesi",
+    "ilgili kuruma sunulmak üzere",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

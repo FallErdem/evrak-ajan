@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -27,16 +27,16 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
+    "kod": "198.02.01",
+    "ad": "Diploma",
     "saklama_suresi": "B"
   },
-  "konu": "Kayıt Takviminin Duyurulması",
-  "sayi": "E-24316060-205-48110229",
-  "tarih": "25.05.2026",
+  "konu": "Diploma Defteri Kaydı",
+  "sayi": "E-10213773-198.02.01-14910868",
+  "tarih": "02.02.2026",
   "ilgi": {
-    "tarih": "21.05.2026",
-    "sayi": "E-21291472-205-6389934"
+    "tarih": "02.01.2026",
+    "sayi": "E-21291472-198.02.01-6332790"
   },
   "ek": {
     "adet": 2,
@@ -44,19 +44,23 @@
     "sayfa": 3
   },
   "somut_bilgiler": {
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "18 kayıt",
+    "Dayanak": "ilgide kayıtlı talimat",
+    "Dönem": "öğretim yılı",
+    "Sayı": "47 kayıt",
     "Ek 1": "Liste ve takvim",
-    "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Ek 2": "dağıtım cetveli",
+    "İstenen": "gönderilen belgelerin dağıtımının sağlanması",
+    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
+    "Ek 2 içeriği": "başlangıç ve bitiş tarihlerini göstermektedir",
     "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
+    "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
     "Süre": "dönem başlamadan önce",
-    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
+    "İrtibat": "koordinasyon Valiliğimizce sağlanacaktır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3,
+    4,
+    2,
     3
   ],
   "paragraf_alanlari": [
@@ -67,8 +71,13 @@
     ],
     [
       "Ek 1",
+      "Ek 1 içeriği",
       "Ek 2",
-      "Kapsam"
+      "Ek 2 içeriği"
+    ],
+    [
+      "Kapsam",
+      "Değişiklik"
     ],
     [
       "Süre",
@@ -83,11 +92,11 @@
     "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
-    "18 kayıt",
+    "ilgide kayıtlı talimat",
+    "öğretim yılı",
+    "47 kayıt",
     "Liste ve takvim",
-    "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması"
+    "dağıtım cetveli",
+    "dönem başlamadan önce"
   ]
 }

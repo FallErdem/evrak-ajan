@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Onur AKTAŞ",
-    "adres": "Çiğdemtepe Mahallesi Ihlamur Caddesi No: 113/5 Yenimahalle/ANKARA",
+    "ad": "Kemal SARI",
+    "adres": "Beştepe Mahallesi Kestane Sokak No: 72/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,39 +22,39 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Öğrenim Belgesi Talebi",
+  "konu": "Cezanın Sicilden Silinmesi Talebi",
   "sayi": null,
-  "tarih": "28.04.2026",
+  "tarih": "20.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenim Belgesi",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Cezanın Sicilden Silinmesi",
+    "Gerekçe": "durumumun uygun olması sebebiyle",
+    "Başvuru şekli": "başvuru kayıt bürosuna teslim edilmiştir",
+    "Bildirim tercihi": "başvuru sırasında bildirdiğim adrese"
   },
   "paragraf_cumle_sayilari": [
-    4
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Öğrenim Belgesi",
-    "başvuru dosyasına eklenmek üzere",
-    "şahsen başvuru yapılmıştır",
-    "Kurumunuz kayıt bürosundan elden"
+    "Cezanın Sicilden Silinmesi",
+    "durumumun uygun olması sebebiyle",
+    "başvuru kayıt bürosuna teslim edilmiştir",
+    "başvuru sırasında bildirdiğim adrese"
   ]
 }

@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "ruhsat_denetim",
-    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
-    "detsis_no": "59553370",
+    "birim_kodu": "gelirler",
+    "birim_adi": "Gelirler Müdürlüğü",
+    "detsis_no": "30032784",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Anadolu Ticaret A.Ş.",
+    "kurum_adi": "Öz Ticaret A.Ş.",
     "ad": null,
-    "adres": "Gayret Mahallesi Lale Sokağı No: 9/23 Yenimahalle/ANKARA",
+    "adres": "Gayret Mahallesi Sümbül Caddesi No: 30/4 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,38 +23,39 @@
   "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
+  "muhatap_parantez": "Gelirler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "175",
-    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
-    "saklama_suresi": "10"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Terazi Damgalama Başvurusu",
-  "sayi": "2026/385",
-  "tarih": "07.04.2026",
+  "konu": "Borç Yapılandırma Talebi",
+  "sayi": "2026/1006",
+  "tarih": "13.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Terazi Damgalama işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "Talep": "Borç Yapılandırma işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "posta yoluyla adresime"
+    "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Ruhsat ve Denetim Müdürlüğü",
+    "Gelirler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "posta yoluyla adresime"
+    "e-Devlet üzerinden"
   ]
 }

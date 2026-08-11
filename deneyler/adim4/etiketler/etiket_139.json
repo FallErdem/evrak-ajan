@@ -5,53 +5,55 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "17311665",
+    "detsis_no": "98244303",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_makam": "Mühendislik Fakültesi Dekanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "104.01",
+    "ad": "Program Açma",
+    "saklama_suresi": "15"
   },
-  "konu": "Etkinlik Bütçe Desteği Talebi",
-  "sayi": "E-17311665-309-4665266",
-  "tarih": "21.04.2026",
+  "konu": "Program Açma Başvurusu Hk.",
+  "sayi": "E-98244303-104.01-5710815",
+  "tarih": "23.01.2026",
   "ilgi": {
-    "tarih": "08.04.2026",
-    "sayi": "E-98244303-309-1915789"
+    "tarih": "10.12.2025",
+    "sayi": "E-43123369-104.01-7774989"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Etkinlik Bütçe Desteği",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talep": "Program Açma Başvurusu",
+    "Talebin sonucu": "olumlu, dosya sonuçlandırıldı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "İnceleme": "konu Başkanlığımızca değerlendirilmiştir",
-    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
-    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
     "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
     "İrtibat": "konuyla ilgili irtibat Başkanlığımızca sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3,
+    2,
+    2,
     2
   ],
   "paragraf_alanlari": [
@@ -62,6 +64,9 @@
     ],
     [
       "Talebin sonucu",
+      "Gönderilen"
+    ],
+    [
       "Kapsam",
       "Sınırlama"
     ],
@@ -74,13 +79,14 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Etkinlik Bütçe Desteği",
-    "olumlu, işlem tamamlandı",
+    "Program Açma Başvurusu",
+    "olumlu, dosya sonuçlandırıldı",
     "ilgide kayıtlı yazı",
-    "konu Başkanlığımızca değerlendirilmiştir"
+    "talep ilgili birimce incelenmiştir",
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

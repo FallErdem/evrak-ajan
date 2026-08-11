@@ -5,49 +5,49 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "makine_ikmal",
-    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
-    "detsis_no": "89052714",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gelirler Müdürlüğü",
+    "kurum_adi": "Fen İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "30032784",
+    "detsis_no": "33152401",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+  "muhatap_makam": "Yazı İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "801",
-    "ad": "Taşıt ve İş Makineleri İşleri",
-    "saklama_suresi": "10"
+    "kod": "110.04",
+    "ad": "Encümen Kararları",
+    "saklama_suresi": "B"
   },
-  "konu": "İş Makinesi Kiralama Talebi",
-  "sayi": "E-30032784-801-2481379",
-  "tarih": "03.03.2026",
+  "konu": "Para Cezası Kararı Hk.",
+  "sayi": "E-33152401-110.04-3794025",
+  "tarih": "19.05.2026",
   "ilgi": {
-    "tarih": "27.02.2026",
-    "sayi": "E-89052714-801-2138286"
+    "tarih": "17.04.2026",
+    "sayi": "E-15986609-110.04-958356"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İş Makinesi Kiralama",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Para Cezası Kararı",
+    "Talebin sonucu": "olumlu, başvuru işleme alındı",
     "Dayanak": "ilgide kayıtlı yazı",
     "İnceleme": "talep ilgili birimce incelenmiştir",
-    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
-    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
-    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
-    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
+    "Kapsam": "bilgiler başvuru türlerine göre gruplandırılmıştır",
+    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Süre": "ek talepler yazılı olarak iletilmelidir",
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -74,13 +74,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İş Makinesi Kiralama",
-    "olumlu, talep karşılandı",
+    "Para Cezası Kararı",
+    "olumlu, başvuru işleme alındı",
     "ilgide kayıtlı yazı",
-    "talep ilgili birimce incelenmiştir"
+    "talep ilgili birimce incelenmiştir",
+    "ek talepler yazılı olarak iletilmelidir"
   ]
 }

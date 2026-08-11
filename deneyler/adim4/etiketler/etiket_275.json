@@ -5,63 +5,68 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Temizlik İşleri Müdürlüğü",
+    "kurum_adi": "Emlak ve İstimlak Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "83011479",
+    "detsis_no": "87730597",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
+  "muhatap_makam": "Fen İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
-    "saklama_suresi": "15"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "Bütçe Teklifinin Hazırlanması",
-  "sayi": "E-83011479-841.01-1452286",
-  "tarih": "05.03.2026",
+  "konu": "Zemin Etüdü Raporunun Gönderilmesi",
+  "sayi": "E-87730597-755.01-1777492",
+  "tarih": "11.02.2026",
   "ilgi": {
-    "tarih": "21.01.2026",
-    "sayi": "E-43195403-841.01-3558099"
+    "tarih": "05.02.2026",
+    "sayi": "E-33152401-755.01-3740661"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bütçe Teklifinin Hazırlanması",
+    "Talep": "Zemin Etüdü Raporunun Gönderilmesi",
     "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "İnceleme": "talep ilgili birimce incelenmiştir",
-    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Dayanak": "ilgide kayıtlı talep",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
     "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
     "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
     "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
-    3,
+    2,
     2
   ],
   "paragraf_alanlari": [
     [
       "Talep",
-      "Dayanak",
-      "İnceleme"
+      "Dayanak"
     ],
     [
       "Talebin sonucu",
+      "Gönderilen",
+      "İnceleme"
+    ],
+    [
       "Kapsam",
       "Sınırlama"
     ],
@@ -74,13 +79,13 @@
   "kusur": "konu_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bütçe Teklifinin Hazırlanması",
+    "Zemin Etüdü Raporunun Gönderilmesi",
     "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
-    "talep ilgili birimce incelenmiştir"
+    "ilgide kayıtlı talep",
+    "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

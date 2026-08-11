@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatma KORKMAZ",
-    "adres": "Serhat Mahallesi Sümbül Caddesi No: 117/23 Yenimahalle/ANKARA",
+    "ad": "Nurten AKTAŞ",
+    "adres": "İvedik Mahallesi Çınar Sokak No: 7/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,27 +30,26 @@
     "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "Yangın Merdiveni Uygunluğu",
+  "konu": "Eksikliklerin Giderilmesi Hk.",
   "sayi": null,
-  "tarih": "05.03.2026",
+  "tarih": "21.01.2026",
   "ilgi": {
-    "tarih": "29.01.2026",
-    "sayi": "E-59553370-180.03-3441963"
+    "tarih": "26.12.2025",
+    "sayi": "E-59553370-180.03-1779266"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Önceki başvuru sureti",
+    "aciklama": "Dilekçe eki belge",
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Yangın Merdiveni Uygunluğu",
-    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
-    "Talep": "kararın yeniden değerlendirilmesi"
+    "İtiraz konusu": "Eksikliklerin Giderilmesi",
+    "Önceki karar": "talebim uygun görülmemiştir",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "Talep": "kararın gözden geçirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,
@@ -62,8 +61,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yangın Merdiveni Uygunluğu",
-    "talep olumsuz sonuçlandırılmıştır",
-    "kararın yeniden değerlendirilmesi"
+    "Eksikliklerin Giderilmesi",
+    "talebim uygun görülmemiştir",
+    "kararın gözden geçirilmesi"
   ]
 }

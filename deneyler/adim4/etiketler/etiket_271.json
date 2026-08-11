@@ -31,21 +31,21 @@
     "ad": "Tahsis, Devir ve Takas",
     "saklama_suresi": "B"
   },
-  "konu": "Bedelsiz Devir Talebi",
-  "sayi": "E-90226917-756.01-1974088",
+  "konu": "Okul Yeri Tahsis Talebi",
+  "sayi": "E-90226917-756.01-3801407",
   "tarih": "01.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Bedelsiz Devir",
-    "Ortak iş": "Bedelsiz Devir konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
-    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
-    "Talep": "Bedelsiz Devir konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Okul Yeri Tahsis",
+    "Ortak iş": "Okul Yeri Tahsis konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "konu her iki kurumun sorumluluk alanına girmektedir",
+    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
+    "Talep": "gerekli tahsisin yapılması"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
@@ -56,6 +56,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bedelsiz Devir"
+    "Okul Yeri Tahsis",
+    "gerekli tahsisin yapılması"
   ]
 }

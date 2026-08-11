@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatma UÇAR",
-    "adres": "Batıkent Mahallesi Nergis Caddesi No: 66/22 Yenimahalle/ANKARA",
+    "ad": "Ramazan KORKMAZ",
+    "adres": "Gayret Mahallesi Yasemin Sokağı No: 73/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,38 +22,40 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
     "saklama_suresi": "10"
   },
-  "konu": "Evde Bakım Hizmeti Başvurusu",
+  "konu": "Atık Konteyneri Talebi",
   "sayi": null,
-  "tarih": "14.01.2026",
+  "tarih": "27.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Evde Bakım Hizmeti",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
+    "Talep": "Atık Konteyneri",
+    "Gerekçe": "durumumun uygun olması sebebiyle",
     "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    4
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Evde Bakım Hizmeti",
-    "elektronik posta ile"
+    "Atık Konteyneri",
+    "durumumun uygun olması sebebiyle",
+    "e-Devlet üzerinden"
   ]
 }

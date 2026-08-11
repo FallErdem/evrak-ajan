@@ -5,66 +5,66 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
+    "kurum_adi": "İmar ve Şehircilik Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "26888327",
+    "detsis_no": "18426575",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Temizlik İşleri Müdürlüğü",
+  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
-    "saklama_suresi": "10"
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Tıbbi Atık Bertarafı Hk.",
-  "sayi": "E-26888327-155.01-3597290",
-  "tarih": "22.05.2026",
+  "konu": "Alacağın Tahsili Hk.",
+  "sayi": "E-18426575-855-1038982",
+  "tarih": "19.05.2026",
   "ilgi": {
-    "tarih": "30.04.2026",
-    "sayi": "E-83011479-155.01-1473691"
+    "tarih": "07.04.2026",
+    "sayi": "E-43195403-855-792994"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Tıbbi Atık Bertarafı",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
-    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
-    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
-    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
+    "Talep": "Alacağın Tahsili",
+    "Talebin sonucu": "olumlu, başvuru işleme alındı",
+    "Dayanak": "ilgide kayıtlı başvuru",
+    "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "veriler talep edilen ölçütlere göre süzülmüştür",
+    "Sınırlama": "üçüncü kişilere ait bilgiler çıkarılmıştır",
     "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
-    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
+    2,
     2,
     2
   ],
   "paragraf_alanlari": [
     [
       "Talep",
-      "Dayanak"
+      "Dayanak",
+      "İnceleme"
     ],
     [
       "Talebin sonucu",
-      "Gönderilen",
-      "İnceleme"
+      "Gönderilen"
     ],
     [
       "Kapsam",
@@ -79,13 +79,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Tıbbi Atık Bertarafı",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "Alacağın Tahsili",
+    "olumlu, başvuru işleme alındı",
+    "ilgide kayıtlı başvuru",
+    "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

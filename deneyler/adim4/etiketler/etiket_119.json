@@ -34,23 +34,23 @@
   },
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "104.01",
-    "ad": "Program Açma",
-    "saklama_suresi": "15"
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Program Açma Başvurusu Hk.",
-  "sayi": "E-32625594-104.01-75335194",
-  "tarih": "13.01.2026",
+  "konu": "Sınav Gözetmeni Görevlendirmesi",
+  "sayi": "E-32625594-106-46564496",
+  "tarih": "26.01.2026",
   "ilgi": {
-    "tarih": "26.12.2025",
-    "sayi": "E-43123369-104.01-7307403"
+    "tarih": "16.12.2025",
+    "sayi": "E-43123369-106-7779409"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Durum": "talep edilen bilgi henüz gönderilmemiştir",
     "Talep": "ivedilikle gönderilmesi",
-    "Süre": "en geç bir hafta içinde"
+    "Süre": "beş iş günü içinde"
   },
   "paragraf_cumle_sayilari": [
     4
@@ -66,6 +66,6 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi",
-    "en geç bir hafta içinde"
+    "beş iş günü içinde"
   ]
 }

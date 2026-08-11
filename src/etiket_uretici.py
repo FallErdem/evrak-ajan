@@ -915,22 +915,36 @@ class EtiketUretici:
                 b["Gerekçe"] = h.sec([
                     "mağduriyetin giderilmesi bakımından",
                     "sürecin tamamlanabilmesi için",
-                    "mevzuatta öngörülen şartların sağlanması nedeniyle"])
+                    "mevzuatta öngörülen şartların sağlanması nedeniyle",
+                    "işlemin süresi içinde tamamlanabilmesi amacıyla",
+                    "hak kaybına uğramamak için",
+                    "başvuru süresinin dolmak üzere olması nedeniyle",
+                    "gerekli şartları taşıdığım için",
+                    "durumumun uygun olması sebebiyle"])
             # 3 cümlelik bir dilekçe iki alanla yazılamaz; model malzeme
             # bitince uyduruyor (ADIM 1'de ölçüldü). Başvuru yolu ve
             # bildirim tercihi ekleniyor.
             b["Başvuru şekli"] = h.sec([
                 "şahsen başvuru yapılmıştır",
                 "başvuru elektronik ortamda da iletilmiştir",
-                "konu daha önce sözlü olarak da bildirilmiştir"])
+                "konu daha önce sözlü olarak da bildirilmiştir",
+                "başvuru posta yoluyla da gönderilmiştir",
+                "aynı talep geçen ay da iletilmiştir",
+                "başvuru kayıt bürosuna teslim edilmiştir",
+                "konu hakkında çağrı merkezi aranmıştır",
+                "e-Devlet üzerinden de başvuru yapılmıştır"])
             b["Bildirim tercihi"] = h.bildirim_yolu()
             return b
 
         if aile == "belge_cevabi":
             b = {"Talep": _talep_ifadesi(konu, kod.ad),
-                 "Talebin sonucu": h.sec(["olumlu, işlem tamamlandı",
-                                          "olumlu, talep karşılandı",
-                                          "olumlu, belge düzenlendi"])}
+                 "Talebin sonucu": h.sec([
+                     "olumlu, işlem tamamlandı", "olumlu, talep karşılandı",
+                     "olumlu, belge düzenlendi", "olumlu, kayıt güncellendi",
+                     "olumlu, gerekli düzeltme yapıldı",
+                     "olumlu, başvuru işleme alındı",
+                     "olumlu, talep uygun görüldü",
+                     "olumlu, dosya sonuçlandırıldı"])}
             if _tasinmaz_konusu_mu(kod.kod):
                 ada, parsel = h.ada_parsel()
                 b["Taşınmaz"] = f"{ada} ada, {parsel} parsel"
@@ -958,7 +972,13 @@ class EtiketUretici:
                         "yeniden değerlendirme talebinde bulunulabilir"])
                     b["İrtibat"] = f"{kurum_soz} kayıt bürosundan bilgi alınabilir"
             else:
-                b["Dayanak"] = "ilgide kayıtlı yazı"
+                # Varyantlar KISA ve DOĞAL tutuluyor. "ilgide kayıtlı yazı
+                # ekindeki liste" gibi uzun ifadeler modelin kendi cümlesini
+                # kurmasına yol açıyor ve kapsama kontrolü yanlış alarm
+                # veriyordu — üstelik cevap yazısında ek listesi de yok.
+                b["Dayanak"] = h.sec(["ilgide kayıtlı yazı",
+                                      "ilgide kayıtlı başvuru",
+                                      "ilgide kayıtlı talep"])
                 b["Gönderilen"] = h.sec([
                     "talep edilen bilgiler ekte sunulmuştur",
                     "konuya ilişkin değerlendirme aşağıda yer almaktadır",
@@ -981,14 +1001,28 @@ class EtiketUretici:
                     b["Kapsam"] = h.sec([
                         "bildirilen bilgiler ilgili dönemi kapsamaktadır",
                         "veriler kayıt tarihine göre düzenlenmiştir",
-                        "döküm birim bazında hazırlanmıştır"])
+                        "döküm birim bazında hazırlanmıştır",
+                        "bilgiler başvuru türlerine göre gruplandırılmıştır",
+                        "kayıtlar yıllara göre ayrılmıştır",
+                        "veriler talep edilen ölçütlere göre süzülmüştür",
+                        "liste sonuçlanma durumuna göre düzenlenmiştir",
+                        "döküm işlem sırasına göre hazırlanmıştır"])
                     b["Sınırlama"] = h.sec([
                         "kişisel veri içeren kayıtlar paylaşılmamıştır",
                         "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
-                        "yalnızca tamamlanmış işlemler dâhil edilmiştir"])
+                        "yalnızca tamamlanmış işlemler dâhil edilmiştir",
+                        "gizlilik dereceli belgeler kapsam dışında bırakılmıştır",
+                        "arşive devredilmiş kayıtlar ayrıca istenmelidir",
+                        "yalnızca talep edilen döneme ait veriler yer almaktadır",
+                        "sayısal ortama aktarılmamış kayıtlar bulunmamaktadır",
+                        "üçüncü kişilere ait bilgiler çıkarılmıştır"])
                     b["Süre"] = h.sec([
                         "ilave bilgi talebi on beş gün içinde iletilebilir",
-                        "güncel döküm dönem sonunda ayrıca gönderilecektir"])
+                        "güncel döküm dönem sonunda ayrıca gönderilecektir",
+                        "eksik görülen hususlar bir ay içinde bildirilebilir",
+                        "sonraki döküm üç ayda bir gönderilecektir",
+                        "ek talepler yazılı olarak iletilmelidir",
+                        "veriler her dönem başında güncellenmektedir"])
                     g = _gonderen_sozu(gonderen_adi)
                     ca, e = _ek_ca(g), _ek_e(g)
                     b["İrtibat"] = h.sec([
@@ -998,12 +1032,20 @@ class EtiketUretici:
 
         if aile == "itiraz":
             return {"İtiraz konusu": _talep_ifadesi(konu, kod.ad),
-                    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
+                    "Önceki karar": h.sec([
+                        "talep olumsuz sonuçlandırılmıştır",
+                        "başvurum reddedilmiştir",
+                        "talebim uygun görülmemiştir",
+                        "başvuru işleme alınmamıştır"]),
                     "İtiraz gerekçesi": h.sec([
                         "değerlendirmede eksik belge dikkate alınmıştır",
                         "başvuru dosyasındaki bilgiler güncellenmiştir",
                         "benzer başvurular olumlu sonuçlandırılmıştır"]),
-                    "Talep": "kararın yeniden değerlendirilmesi"}
+                    "Talep": h.sec([
+                        "kararın yeniden değerlendirilmesi",
+                        "başvurumun tekrar incelenmesi",
+                        "kararın gözden geçirilmesi",
+                        "dosyamın yeniden ele alınması"])}
 
         if aile == "sikayet":
             # Şikâyet konusu ALICI KURUMUN görev alanından olmalı. Ölçülen
@@ -1013,7 +1055,12 @@ class EtiketUretici:
                     "Sorun": h.sec(_sikayet_sorunu(kod, kurum.kurum_tipi)),
                     "Süre": h.sikayet_suresi(),
                     "Önceki başvuru": h.onceki_basvuru(),
-                    "Talep": "sorunun giderilmesi",
+                    "Talep": h.sec([
+                        "sorunun giderilmesi",
+                        "gerekli incelemenin yapılması",
+                        "durumun düzeltilmesi",
+                        "konunun ilgili birimce ele alınması",
+                        "mağduriyetin giderilmesi"]),
                     # Yer alanı YALNIZCA fiziksel mekân şikâyetlerinde.
                     # Katkı payı veya belge talebi bir idari işlemdir;
                     # fiziksel bir mekânda geçmez.
@@ -1051,12 +1098,30 @@ class EtiketUretici:
             # bulduğu desenin aynısı, bilgilendirme'de kalmıştı (42 belge).
             b = {"Konu": f"{_talep_ifadesi(konu, kod.ad)} konusunda yeni "
                          f"bir uygulama yürürlüğe girmiştir",
-                 "Kaynak": h.sec(["uygulama Bakanlıkça yürürlüğe konulmuştur",
-                                  "karar Makam onayı ile yürürlüğe girmiştir",
-                                  "düzenleme Makam onayına istinaden yapılmıştır"]),
-                 "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-                 "İstenen 1": "uygulamanın ilgililere duyurulması",
-                 "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi"}
+                 "Kaynak": h.sec([
+                     "uygulama Bakanlıkça yürürlüğe konulmuştur",
+                     "karar Makam onayı ile yürürlüğe girmiştir",
+                     "düzenleme Makam onayına istinaden yapılmıştır",
+                     "esaslar üst yazı ile bildirilmiştir",
+                     "uygulama merkez teşkilatınca belirlenmiştir",
+                     "karar yapılan değerlendirme sonucunda alınmıştır",
+                     "düzenleme kurul kararına dayanmaktadır",
+                     "uygulama koordinasyon toplantısında kararlaştırılmıştır"]),
+                 "Kapsam": h.sec([
+                     "bağlı tüm birimler uygulamaya tabidir",
+                     "uygulama bütün birimleri kapsamaktadır",
+                     "düzenleme merkez ve taşra birimlerinde geçerlidir",
+                     "kapsama giren bütün işlemler bu esasa göre yürütülür"]),
+                 "İstenen 1": h.sec([
+                     "uygulamanın ilgililere duyurulması",
+                     "konunun bağlı birimlere bildirilmesi",
+                     "esasların personele tebliğ edilmesi",
+                     "düzenlemenin ilgili birimlerde ilan edilmesi"]),
+                 "İstenen 2": h.sec([
+                     "uygulama sonuçlarının Kurumumuza bildirilmesi",
+                     "yapılan işlemlere ilişkin bilgi verilmesi",
+                     "uygulamada karşılaşılan sorunların iletilmesi",
+                     "işlem sayısının dönem sonunda gönderilmesi"])}
             if uzun:
                 # HER ALAN AYRI BİR OLGU. Aynı bilgiyi başka kelimelerle
                 # tekrarlayan alan eklenmiyor: dolgu metin, uydurmadan daha
@@ -1071,12 +1136,20 @@ class EtiketUretici:
                     "hâlihazırda işleme alınmış başvurular",
                     "yürürlük tarihinden önce sonuçlandırılan işlemler",
                     "geçici görevle çalışan personel",
-                    "sözleşmesi devam eden yükleniciler"])
+                    "sözleşmesi devam eden yükleniciler",
+                    "yargı sürecinde bulunan dosyalar",
+                    "önceki dönemde onaylanmış projeler",
+                    "geçici koruma statüsündeki başvurular",
+                    "ihalesi tamamlanmış işler"])
                 b["Esas 1"] = h.sec([
                     "başvurular elektronik ortamda kayda alınacaktır",
                     "işlemler tek merkezden yürütülecektir",
                     "her başvuru için ayrı dosya açılacaktır",
-                    "belgelerin asılları birim arşivinde tutulacaktır"])
+                    "belgelerin asılları birim arşivinde tutulacaktır",
+                    "başvurular geliş sırasına göre değerlendirilecektir",
+                    "her dosya için sorumlu personel belirlenecektir",
+                    "işlem adımları sistem üzerinden izlenecektir",
+                    "onay süreci iki aşamalı yürütülecektir"])
                 b["Esas 2"] = h.sec([
                     "eksik belgeli başvurular işleme alınmayacaktır",
                     "süre aşımı hâlinde başvuru yenilenecektir",
@@ -1108,11 +1181,21 @@ class EtiketUretici:
                     "Gerekçe": h.sec([
                         "iki kurumun görev alanı bu konuda kesişmektedir",
                         "hizmetin kesintisiz yürütülmesi gerekmektedir",
-                        "ortak çalışma önceki dönemde de sürdürülmüştür"]),
+                        "ortak çalışma önceki dönemde de sürdürülmüştür",
+                        "aynı hizmetten yararlananlar her iki kuruma başvurmaktadır",
+                        "işlemin tamamlanması iki kurumun katkısını gerektirmektedir",
+                        "konu her iki kurumun sorumluluk alanına girmektedir",
+                        "önceki protokol süresi dolmuştur",
+                        "uygulamada eşgüdüm ihtiyacı doğmuştur"]),
                     "Beklenen katkı": h.sec([
                         "kurumunuzdan teknik destek beklenmektedir",
                         "kurumunuzun görevlendireceği personel gerekmektedir",
-                        "kurumunuzca yer ve donanım sağlanması beklenmektedir"]),
+                        "kurumunuzca yer ve donanım sağlanması beklenmektedir",
+                        "kurumunuzun uygun göreceği takvim beklenmektedir",
+                        "kurumunuzca ilgili kayıtların paylaşılması gerekmektedir",
+                        "kurumunuzun onayı beklenmektedir",
+                        "kurumunuzca bir irtibat görevlisi belirlenmesi gerekmektedir",
+                        "kurumunuzun uygun göreceği yöntem beklenmektedir"]),
                     "Talep": _isbirligi_talebi(konu, iş)}
 
         if aile == "gorus_talebi":
@@ -1123,12 +1206,20 @@ class EtiketUretici:
                         "benzer taleplerde farklı sonuçlar doğmuştur"]),
                     "Sonuç": h.sec([
                         "işlemlerde gecikme yaşanmaktadır",
-                        "başvuranlara tutarlı cevap verilememektedir"]),
+                        "başvuranlara tutarlı cevap verilememektedir",
+                        "uygulamada birlik sağlanamamaktadır",
+                        "benzer dosyalar farklı sonuçlanmaktadır",
+                        "personel arasında tereddüt oluşmaktadır",
+                        "aynı konuda tekrar başvuru yapılmaktadır"]),
                     "Tereddüt": h.sec([
                         "uygulamada hangi usulün izleneceği açık değildir",
                         "iki farklı düzenleme arasında tereddüt oluşmuştur",
                         "istisna hükmünün kapsamı netleştirilememiştir"]),
-                    "Talep": "konu hakkında görüş bildirilmesi"}
+                    "Talep": h.sec([
+                        "konu hakkında görüş bildirilmesi",
+                        "uygulanacak usulün bildirilmesi",
+                        "tereddüdün giderilmesi için görüş verilmesi",
+                        "konunun açıklığa kavuşturulması"])}
 
         if aile == "ust_yazi":
             n = h.kisi_sayisi()
@@ -1136,7 +1227,10 @@ class EtiketUretici:
             # başlıkta İlgi: yok, gövdede "ilgide kayıtlı yazı", paragraf
             # planında "ilgiye atıf". Model ya ilgiyi uyduracak ya paragrafı
             # eksik yazacaktı.
-            b = {"Dayanak": ("ilgide kayıtlı yazı" if s.ilgi_var
+            b = {"Dayanak": (h.sec(["ilgide kayıtlı yazı",
+                                    "ilgide kayıtlı talimat",
+                                    "ilgide kayıtlı bildirim"])
+                             if s.ilgi_var
                              else h.sec(["yürütülen çalışma",
                                          "Müdürlüğümüzce yapılan planlama",
                                          "dönem başında belirlenen program"])),
@@ -1146,8 +1240,13 @@ class EtiketUretici:
                  # havuzlardan çekilince başlık "Öğrenci listesi" derken
                  # gövde "Proje Gerçekleşme Oranı listesi" diyordu.
                  "Ek 1": _ek_adi,
-                 "Ek 2": "uygulama takvimi",
-                 "İstenen": "listenin ilgili birimlere dağıtılması"}
+                 "Ek 2": h.sec(["uygulama takvimi", "zaman çizelgesi",
+                                "iş programı", "dağıtım cetveli"]),
+                 "İstenen": h.sec([
+                     "listenin ilgili birimlere dağıtılması",
+                     "eklerin bağlı birimlere iletilmesi",
+                     "listenin ilgililere duyurulması",
+                     "gönderilen belgelerin dağıtımının sağlanması"])}
             if uzun:
                 b["Ek 1 içeriği"] = h.sec([
                     "ad soyad, birim ve tarih bilgilerini içermektedir",
@@ -1173,9 +1272,19 @@ class EtiketUretici:
             return b
 
         if aile == "tekit":
-            return {"Dayanak": "ilgide kayıtlı yazı",
-                    "Durum": "talep edilen bilgi henüz gönderilmemiştir",
-                    "Talep": "ivedilikle gönderilmesi",
+            return {"Dayanak": h.sec(["ilgide kayıtlı yazı",
+                                     "ilgide kayıtlı talebimiz",
+                                     "ilgide kayıtlı bilgi talebimiz"]),
+                    "Durum": h.sec([
+                        "talep edilen bilgi henüz gönderilmemiştir",
+                        "konuya ilişkin cevap alınamamıştır",
+                        "istenen belgeler tarafımıza ulaşmamıştır",
+                        "süre dolmasına rağmen bildirim yapılmamıştır"]),
+                    "Talep": h.sec([
+                        "ivedilikle gönderilmesi",
+                        "gecikmeksizin iletilmesi",
+                        "bir an önce tamamlanması",
+                        "öncelikle sonuçlandırılması"]),
                     "Süre": h.sec(["beş iş günü içinde", "en geç bir hafta içinde",
                                    "ay sonuna kadar"])}
 

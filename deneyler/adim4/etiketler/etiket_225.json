@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Burak ÇELIK",
-    "adres": "Pamuklar Mahallesi Ihlamur Sokağı No: 93/11 Yenimahalle/ANKARA",
+    "ad": "Kemal ÖZKAN",
+    "adres": "İvedik Mahallesi Lale Sokağı No: 111/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,38 +22,39 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "235",
+    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "saklama_suresi": "B"
   },
-  "konu": "Gelir Belgesi Talebi",
+  "konu": "Uyum Sınıfı Açılması Talebi",
   "sayi": null,
-  "tarih": "29.01.2026",
+  "tarih": "14.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Gelir Belgesi",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Uyum Sınıfı Açılması",
+    "Gerekçe": "durumumun uygun olması sebebiyle",
+    "Başvuru şekli": "aynı talep geçen ay da iletilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    4
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Gelir Belgesi",
-    "resmî işlemlerde kullanılmak üzere",
-    "Kurumunuz kayıt bürosundan elden"
+    "Uyum Sınıfı Açılması",
+    "durumumun uygun olması sebebiyle",
+    "aynı talep geçen ay da iletilmiştir",
+    "elektronik posta ile"
   ]
 }

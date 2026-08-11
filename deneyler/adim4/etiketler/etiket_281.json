@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,37 +23,37 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "muhatap_parantez": "Hukuk İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
-    "saklama_suresi": "15"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "İhaleye İtiraz Başvurusu",
-  "sayi": "E-24312041-755.02-88057626",
-  "tarih": "27.05.2026",
+  "konu": "Karar Örneğinin Gönderilmesi",
+  "sayi": "E-24312041-641.04-57521134",
+  "tarih": "04.05.2026",
   "ilgi": {
-    "tarih": "22.04.2026",
-    "sayi": "E-33152401-755.02-1988809"
+    "tarih": "20.04.2026",
+    "sayi": "E-10578106-641.04-2580826"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Öğrenci listesi",
+    "aciklama": "Liste ve takvim",
     "sayfa": 1
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "mali yıl",
-    "Ek 1": "Öğrenci listesi",
-    "Ek 2": "uygulama takvimi",
+    "Dönem": "üçüncü çeyrek",
+    "Ek 1": "Liste ve takvim",
+    "Ek 2": "zaman çizelgesi",
     "İstenen": "listenin ilgili birimlere dağıtılması",
-    "Ek 1 içeriği": "alfabetik olarak sıralanmıştır",
+    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
     "Ek 2 içeriği": "aşamalara göre bölümlendirilmiştir",
     "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
     "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
-    "Süre": "dönem başlamadan önce"
+    "Süre": "iki hafta içinde"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -85,15 +85,15 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "mali yıl",
-    "Öğrenci listesi",
-    "uygulama takvimi",
+    "üçüncü çeyrek",
+    "Liste ve takvim",
+    "zaman çizelgesi",
     "listenin ilgili birimlere dağıtılması",
-    "alfabetik olarak sıralanmıştır"
+    "aşamalara göre bölümlendirilmiştir"
   ]
 }

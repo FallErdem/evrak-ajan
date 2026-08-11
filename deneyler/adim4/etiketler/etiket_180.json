@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "muhendislik_fak",
-    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
-    "detsis_no": "43123369",
-    "imza_unvani": "Dekan"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -23,43 +23,44 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "104.01",
-    "ad": "Program Açma",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Kontenjan Talebi",
-  "sayi": "E-10213773-104.01-14806835",
-  "tarih": "07.04.2026",
+  "konu": "Karar Düzeltme Talebi",
+  "sayi": "E-55461037-050.04-1850886",
+  "tarih": "10.03.2026",
   "ilgi": {
-    "tarih": "12.03.2026",
-    "sayi": "E-43123369-104.01-7377767"
+    "tarih": "29.01.2026",
+    "sayi": "E-39985474-050.04-6764710"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Kontenjan",
+    "Konu": "Karar Düzeltme",
     "Mevcut uygulama": "uygulama birimler arasında farklılık göstermektedir",
     "Sonuç": "işlemlerde gecikme yaşanmaktadır",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Talep": "konunun açıklığa kavuşturulması"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    3
+    3,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Mühendislik Fakültesi Dekanlığı",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
+    "Karar Düzeltme",
     "işlemlerde gecikme yaşanmaktadır",
-    "konu hakkında görüş bildirilmesi"
+    "konunun açıklığa kavuşturulması"
   ]
 }

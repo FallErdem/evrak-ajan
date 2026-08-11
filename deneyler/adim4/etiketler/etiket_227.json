@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,61 +23,65 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Kayıt Takviminin Duyurulması",
-  "sayi": "E-10213773-205-14837906",
-  "tarih": "29.04.2026",
+  "konu": "Burs Ödemesi Hk.",
+  "sayi": "E-24316060-245.04-66401586",
+  "tarih": "15.04.2026",
   "ilgi": {
-    "tarih": "22.04.2026",
-    "sayi": "E-21291472-205-6368845"
+    "tarih": "31.03.2026",
+    "sayi": "E-63971525-245.04-3813740"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Öğrenci listesi",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
+    "Dönem": "bahar dönemi",
+    "Sayı": "68 kayıt",
     "Ek 1": "Öğrenci listesi",
-    "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması",
-    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
-    "Ek 2 içeriği": "haftalık zaman çizelgesi biçimindedir",
-    "Kapsam": "listede yer alanların tamamı sürece dâhildir",
-    "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
-    "Süre": "on beş gün içinde"
+    "Ek 2": "dağıtım cetveli",
+    "İstenen": "listenin ilgililere duyurulması",
+    "Ek 1 içeriği": "alfabetik olarak sıralanmıştır",
+    "Ek 2 içeriği": "aşamalara göre bölümlendirilmiştir",
+    "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
+    "Değişiklik": "güncel liste dönem başında yenilenecektir",
+    "Süre": "iki hafta içinde",
+    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
+    3,
+    4,
     2,
-    3,
-    3,
-    2
+    3
   ],
   "paragraf_alanlari": [
     [
       "Dayanak",
-      "Dönem"
+      "Dönem",
+      "Sayı"
     ],
     [
       "Ek 1",
       "Ek 1 içeriği",
-      "Ek 2"
+      "Ek 2",
+      "Ek 2 içeriği"
     ],
     [
-      "Ek 2 içeriği",
       "Kapsam",
       "Değişiklik"
     ],
     [
       "Süre",
+      "İrtibat",
       "İstenen"
     ]
   ],
@@ -85,14 +89,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
+    "bahar dönemi",
+    "68 kayıt",
     "Öğrenci listesi",
-    "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması",
-    "haftalık zaman çizelgesi biçimindedir"
+    "dağıtım cetveli",
+    "listenin ilgililere duyurulması"
   ]
 }

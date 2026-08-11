@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Yusuf TEKIN",
-    "adres": "Serhat Mahallesi Kestane Sokağı No: 2/17 Yenimahalle/ANKARA",
+    "ad": "Selin ÇAKIR",
+    "adres": "Karşıyaka Mahallesi Papatya Sokak No: 55/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,22 +26,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Yerinde İnceleme Randevusu",
+  "konu": "Muayene Ücreti Hk.",
   "sayi": null,
-  "tarih": "19.02.2026",
+  "tarih": "27.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Önceki başvuru sureti",
-    "sayfa": 4
+    "aciklama": "Dilekçe eki belge",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Yerinde İnceleme Randevusu",
-    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
+    "İtiraz konusu": "Muayene Ücreti",
+    "Önceki karar": "başvuru işleme alınmamıştır",
     "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
@@ -58,8 +58,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yerinde İnceleme Randevusu",
-    "talep olumsuz sonuçlandırılmıştır",
+    "Muayene Ücreti",
+    "başvuru işleme alınmamıştır",
     "kararın yeniden değerlendirilmesi"
   ]
 }

@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Merkez Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Barıştepe Mahallesi Akasya Sokağı No: 98/6 Yenimahalle/ANKARA",
+    "adres": "Barıştepe Mahallesi Kestane Caddesi No: 107/12 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,19 +27,19 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Gelir Belgesi Talebi",
-  "sayi": "2026/97",
-  "tarih": "22.01.2026",
+  "konu": "Savunma Talebi",
+  "sayi": "2026/343",
+  "tarih": "26.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Gelir Belgesi işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Talep": "Savunma işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
     "Bildirim yolu": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
@@ -54,7 +54,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
     "posta yoluyla adresime"
   ]
 }

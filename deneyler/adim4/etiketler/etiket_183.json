@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "kurum_adi": "Genel Sekreterlik",
     "ad": null,
     "adres": null,
-    "detsis_no": "86488853",
+    "detsis_no": "82642947",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,46 +27,41 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "903.02",
-    "ad": "Atama İşleri",
-    "saklama_suresi": "B"
+    "kod": "204.01",
+    "ad": "Doçentlik",
+    "saklama_suresi": "15"
   },
-  "konu": "Atama Kararının İptali Hk.",
-  "sayi": "E-86488853-903.02-8936437",
-  "tarih": "24.02.2026",
+  "konu": "Başvuru Dosyasının Gönderilmesi",
+  "sayi": "E-82642947-204.01-3578623",
+  "tarih": "07.01.2026",
   "ilgi": {
-    "tarih": "20.01.2026",
-    "sayi": "E-42218640-903.02-1180099"
+    "tarih": "04.12.2025",
+    "sayi": "E-42218640-204.01-3141787"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Atama Kararının İptali",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "İnceleme": "talep ilgili birimce incelenmiştir",
-    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
-    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "Talep": "Başvuru Dosyasının Gönderilmesi",
+    "Talebin sonucu": "olumlu, talep uygun görüldü",
+    "Dayanak": "ilgide kayıtlı başvuru",
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "döküm işlem sırasına göre hazırlanmıştır",
+    "Sınırlama": "arşive devredilmiş kayıtlar ayrıca istenmelidir",
+    "Süre": "veriler her dönem başında güncellenmektedir",
     "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
-    2,
+    3,
     2
   ],
   "paragraf_alanlari": [
     [
       "Talep",
-      "Dayanak"
-    ],
-    [
-      "Talebin sonucu",
-      "Gönderilen",
+      "Dayanak",
       "İnceleme"
     ],
     [
+      "Talebin sonucu",
       "Kapsam",
       "Sınırlama"
     ],
@@ -83,9 +78,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Atama Kararının İptali",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
-    "talep ilgili birimce incelenmiştir"
+    "Başvuru Dosyasının Gönderilmesi",
+    "olumlu, talep uygun görüldü",
+    "ilgide kayıtlı başvuru",
+    "döküm işlem sırasına göre hazırlanmıştır"
   ]
 }

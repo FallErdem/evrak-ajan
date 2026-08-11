@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sevgi ŞAHIN",
-    "adres": "Pamuklar Mahallesi Ceviz Sokağı No: 37/22 Yenimahalle/ANKARA",
+    "ad": "Şerife KESKIN",
+    "adres": "Beştepe Mahallesi Akasya Caddesi No: 81/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,16 +30,16 @@
     "ad": "Yurtdışı Eğitim Denkliği",
     "saklama_suresi": "B"
   },
-  "konu": "Geçici Kayıt Talebi",
+  "konu": "Yurtdışı Öğrenim Denklik Başvurusu",
   "sayi": null,
-  "tarih": "10.04.2026",
+  "tarih": "07.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Geçici Kayıt",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Talep": "Yurtdışı Öğrenim Denklik",
+    "Gerekçe": "durumumun uygun olması sebebiyle",
+    "Başvuru şekli": "konu hakkında çağrı merkezi aranmıştır",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -53,9 +53,9 @@
     "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Geçici Kayıt",
-    "mağduriyetin giderilmesi bakımından",
-    "şahsen başvuru yapılmıştır",
-    "elektronik posta ile"
+    "Yurtdışı Öğrenim Denklik",
+    "durumumun uygun olması sebebiyle",
+    "konu hakkında çağrı merkezi aranmıştır",
+    "posta yoluyla adresime"
   ]
 }

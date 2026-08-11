@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -26,40 +26,41 @@
   "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
+      "İlçe Kaymakamlıklarına",
       "İlçe Belediye Başkanlıklarına"
     ],
     "bilgi": [
-      "Ankara Valiliğine"
+      "İçişleri Bakanlığına"
     ]
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "kod": "755.02",
+    "ad": "İhale",
     "saklama_suresi": "15"
   },
-  "konu": "İtirazın Değerlendirilmesi",
-  "sayi": "E-24432702-858-7242430",
-  "tarih": "03.04.2026",
+  "konu": "İhale Dokümanı Talebi",
+  "sayi": "E-10213773-755.02-14957763",
+  "tarih": "10.03.2026",
   "ilgi": {
-    "tarih": "27.02.2026",
-    "sayi": "E-10578106-858-1510478"
+    "tarih": "27.01.2026",
+    "sayi": "E-33152401-755.02-3735941"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Öğrenci listesi",
-    "sayfa": 2
+    "aciklama": "Liste ve takvim",
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan yıl",
-    "Sayı": "47 kayıt",
-    "Ek 1": "Öğrenci listesi",
-    "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Dönem": "mali yıl",
+    "Sayı": "18 kayıt",
+    "Ek 1": "Liste ve takvim",
+    "Ek 2": "iş programı",
+    "İstenen": "gönderilen belgelerin dağıtımının sağlanması",
     "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
     "Süre": "iki hafta içinde",
-    "İrtibat": "koordinasyon Başkanlığımızca sağlanacaktır"
+    "İrtibat": "süreç Valiliğimizce takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -87,15 +88,15 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
-    "içinde bulunulan yıl",
-    "47 kayıt",
-    "Öğrenci listesi",
-    "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması"
+    "mali yıl",
+    "18 kayıt",
+    "Liste ve takvim",
+    "iş programı",
+    "iki hafta içinde"
   ]
 }

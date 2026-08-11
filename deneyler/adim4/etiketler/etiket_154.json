@@ -5,53 +5,55 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
-    "imza_unvani": "Şube Müdürü"
+    "birim_kodu": "ankara_il_mem",
+    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "detsis_no": "55461037",
+    "imza_unvani": "İl Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Özgüryurt Anadolu Lisesi Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "93213107",
-    "detsis_kaynagi": "detsis"
+    "detsis_no": "10109079",
+    "detsis_kaynagi": "sentetik"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "010.06",
+    "ad": "Genelgeler",
+    "saklama_suresi": "15"
   },
-  "konu": "Diploma Defteri Kaydı",
-  "sayi": "E-93213107-198.02.01-4000380",
-  "tarih": "21.01.2026",
+  "konu": "Genelgenin Yürürlükten Kaldırılması",
+  "sayi": "E-10109079-010.06-6418",
+  "tarih": "04.05.2026",
   "ilgi": {
-    "tarih": "30.12.2025",
-    "sayi": "E-21291472-198.02.01-6287493"
+    "tarih": "06.04.2026",
+    "sayi": "E-55461037-010.06-1866329"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Diploma Defteri Kaydı",
+    "Talep": "Genelgenin Yürürlükten Kaldırılması",
     "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
-    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "bilgiler başvuru türlerine göre gruplandırılmıştır",
     "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
-    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "Süre": "ek talepler yazılı olarak iletilmelidir",
     "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3,
+    2,
+    2,
     2
   ],
   "paragraf_alanlari": [
@@ -62,6 +64,9 @@
     ],
     [
       "Talebin sonucu",
+      "Gönderilen"
+    ],
+    [
       "Kapsam",
       "Sınırlama"
     ],
@@ -73,13 +78,13 @@
   "pdf_bicimi": "metin_katmanli",
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
-    "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü"
+    "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Diploma Defteri Kaydı",
+    "Genelgenin Yürürlükten Kaldırılması",
     "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
-    "döküm birim bazında hazırlanmıştır"
+    "talep ilgili birimce incelenmiştir",
+    "ek talepler yazılı olarak iletilmelidir"
   ]
 }

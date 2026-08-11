@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "hukuk_isleri",
+    "birim_adi": "Hukuk İşleri Müdürlüğü",
+    "detsis_no": "10578106",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,33 +23,33 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "muhatap_parantez": "Hukuk İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "855",
-    "ad": "Borç ve Alacak İşleri",
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Alacağın Tahsili Hk.",
-  "sayi": "E-24432702-855-7143325",
-  "tarih": "09.01.2026",
+  "konu": "Tutanağın Tebliği Hk.",
+  "sayi": "E-10213773-858-14915894",
+  "tarih": "06.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Alacağın Tahsili konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Tutanağın Tebliği konusunda yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
+    "Kapsam": "uygulama bütün birimleri kapsamaktadır",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "15.03.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "yürürlük tarihinden önce sonuçlandırılan işlemler",
-    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
-    "İrtibat": "uygulama Başkanlığımızca izlenecektir"
+    "İstenen 2": "işlem sayısının dönem sonunda gönderilmesi",
+    "Yürürlük": "01.05.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "geçici koruma statüsündeki başvurular",
+    "Esas 1": "her dosya için sorumlu personel belirlenecektir",
+    "İrtibat": "uygulama Valiliğimizce izlenecektir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -77,13 +77,14 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Hukuk İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
+    "uygulama bütün birimleri kapsamaktadır",
     "uygulamanın ilgililere duyurulması",
-    "15.03.2026 tarihinde yürürlüğe girmiştir",
-    "uygulama Başkanlığımızca izlenecektir"
+    "01.05.2026 tarihinde yürürlüğe girmiştir",
+    "geçici koruma statüsündeki başvurular",
+    "uygulama Valiliğimizce izlenecektir"
   ]
 }

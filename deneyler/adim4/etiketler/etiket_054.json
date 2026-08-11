@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Salih YAVUZ",
-    "adres": "Yeşilevler Mahallesi Papatya Caddesi No: 38/11 Yenimahalle/ANKARA",
+    "ad": "İbrahim ÇELIK",
+    "adres": "Susuz Mahallesi Sümbül Sokak No: 41/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,15 +32,15 @@
   },
   "konu": "Ruhsat Yenileme Talebi",
   "sayi": null,
-  "tarih": "08.04.2026",
+  "tarih": "24.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Ruhsat Yenileme",
-    "Taşınmaz": "38241 ada, 31 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Taşınmaz": "84912 ada, 32 parsel",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "aynı talep geçen ay da iletilmiştir",
+    "Bildirim tercihi": "başvuru sırasında bildirdiğim adrese"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -56,8 +56,9 @@
   ],
   "anahtar_terimler": [
     "Ruhsat Yenileme",
-    "38241 ada, 31 parsel",
-    "sürecin tamamlanabilmesi için",
-    "e-Devlet üzerinden"
+    "84912 ada, 32 parsel",
+    "mağduriyetin giderilmesi bakımından",
+    "aynı talep geçen ay da iletilmiştir",
+    "başvuru sırasında bildirdiğim adrese"
   ]
 }

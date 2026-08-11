@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin KAYA",
-    "adres": "Gayret Mahallesi Ceviz Sokağı No: 48/15 Yenimahalle/ANKARA",
+    "ad": "Şaban AVCI",
+    "adres": "Serhat Mahallesi Nergis Sokak No: 60/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,17 +32,18 @@
   },
   "konu": "Güzergâh Değişikliği Talebi",
   "sayi": null,
-  "tarih": "05.01.2026",
+  "tarih": "23.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Güzergâh Değişikliği",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Gerekçe": "durumumun uygun olması sebebiyle",
+    "Başvuru şekli": "aynı talep geçen ay da iletilmiştir",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
-    4
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -53,7 +54,8 @@
   ],
   "anahtar_terimler": [
     "Güzergâh Değişikliği",
-    "şahsen başvuru yapılmıştır",
-    "Kurumunuz kayıt bürosundan elden"
+    "durumumun uygun olması sebebiyle",
+    "aynı talep geçen ay da iletilmiştir",
+    "posta yoluyla adresime"
   ]
 }

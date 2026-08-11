@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep KORKMAZ",
-    "adres": "Yakacık Mahallesi Papatya Sokağı No: 80/13 Yenimahalle/ANKARA",
+    "ad": "Ramazan KOÇ",
+    "adres": "Barıştepe Mahallesi Ceviz Sokağı No: 76/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,24 +26,25 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Halk Eğitim Kursu Açılması Talebi",
+  "konu": "Suret Onay Ücreti Hk.",
   "sayi": null,
-  "tarih": "02.03.2026",
+  "tarih": "18.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Halk Eğitim Kursu Açılması",
-    "Sorun": "kurs bitirme belgem altı aydır düzenlenmedi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Suret Onay Ücreti",
+    "Sorun": "istediğim evrakın sureti eksik sayfayla gönderildi",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "e-Devlet üzerinden yapılan başvuru sonuçsuz kalmıştır",
+    "Talep": "durumun düzeltilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
+    2,
+    2,
     3
   ],
   "paragraf_alanlari": null,
@@ -54,8 +55,8 @@
     "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Halk Eğitim Kursu Açılması",
-    "yaklaşık kırk gündür",
-    "sorunun giderilmesi"
+    "Suret Onay Ücreti",
+    "yaklaşık iki aydır",
+    "durumun düzeltilmesi"
   ]
 }

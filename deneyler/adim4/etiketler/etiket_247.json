@@ -27,47 +27,47 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Kantin İhalesi Duyurusu",
-  "sayi": "E-65859045-165.01-1652539",
-  "tarih": "09.02.2026",
+  "konu": "Öğrenci Taşıma Güzergâhı Hk.",
+  "sayi": "E-65859045-140-2735334",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Genelge sureti",
-    "sayfa": 6
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Kantin İhalesi konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "01.05.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
-    "Esas 1": "her başvuru için ayrı dosya açılacaktır",
+    "Konu": "Öğrenci Taşıma Güzergâhı konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama merkez teşkilatınca belirlenmiştir",
+    "Kapsam": "düzenleme merkez ve taşra birimlerinde geçerlidir",
+    "İstenen 1": "esasların personele tebliğ edilmesi",
+    "Yürürlük": "01.04.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "önceki dönemde onaylanmış projeler",
+    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
     "Esas 2": "itirazlar on beş gün içinde sonuçlandırılacaktır",
-    "Geçiş hükmü": "geçiş dönemi üç ay olarak belirlenmiştir",
+    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
+    "Süre": "otuz gün içinde",
     "İrtibat": "uygulama Başkanlığımızca izlenecektir"
   },
   "paragraf_cumle_sayilari": [
-    3,
     2,
+    3,
     3,
     3
   ],
   "paragraf_alanlari": [
     [
       "Konu",
-      "Kaynak",
-      "Yürürlük"
+      "Kaynak"
     ],
     [
       "Kapsam",
-      "Kapsam dışı"
+      "Kapsam dışı",
+      "Yürürlük"
     ],
     [
       "Esas 1",
@@ -75,7 +75,7 @@
       "Geçiş hükmü"
     ],
     [
-      "İstenen 2",
+      "Süre",
       "İrtibat",
       "İstenen 1"
     ]
@@ -87,11 +87,10 @@
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "01.05.2026 tarihinde yürürlüğe girmiştir",
-    "sözleşmesi devam eden yükleniciler",
-    "her başvuru için ayrı dosya açılacaktır",
-    "geçiş dönemi üç ay olarak belirlenmiştir"
+    "esasların personele tebliğ edilmesi",
+    "01.04.2026 tarihinde yürürlüğe girmiştir",
+    "önceki dönemde onaylanmış projeler",
+    "otuz gün içinde",
+    "uygulama Başkanlığımızca izlenecektir"
   ]
 }

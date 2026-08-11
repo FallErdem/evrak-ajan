@@ -12,14 +12,14 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "İbrahim ÖZTÜRK",
-    "adres": "Batıkent Mahallesi Papatya Caddesi No: 53/13 Yenimahalle/ANKARA",
+    "ad": "İbrahim ÇAKIR",
+    "adres": "Kaletepe Mahallesi Yasemin Caddesi No: 111/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022285135",
-    "bolum": "Matematik (Yüksek Lisans)",
+    "ogrenci_no": "2020927005",
+    "bolum": "Kimya (Doktora)",
     "sinif": null,
-    "ogrenim_duzeyi": "yüksek lisans öğrencisi"
+    "ogrenim_duzeyi": "doktora öğrencisi"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -30,23 +30,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
     "saklama_suresi": "10"
   },
-  "konu": "Kesin Kayıt Başvurusu",
+  "konu": "Kayıt Yenileme Başvurusu",
   "sayi": null,
-  "tarih": "17.03.2026",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kesin Kayıt",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Kayıt Yenileme",
+    "Gerekçe": "gerekli şartları taşıdığım için",
+    "Başvuru şekli": "aynı talep geçen ay da iletilmiştir",
+    "Bildirim tercihi": "iadeli taahhütlü posta ile"
   },
   "paragraf_cumle_sayilari": [
-    4
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -57,8 +57,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kesin Kayıt",
-    "şahsen başvuru yapılmıştır",
-    "Kurumunuz kayıt bürosundan elden"
+    "Kayıt Yenileme",
+    "gerekli şartları taşıdığım için",
+    "aynı talep geçen ay da iletilmiştir",
+    "iadeli taahhütlü posta ile"
   ]
 }

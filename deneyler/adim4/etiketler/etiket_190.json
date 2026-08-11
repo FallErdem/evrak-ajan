@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Burak KILIÇ",
-    "adres": "Susuz Mahallesi Nergis Caddesi No: 120/7 Yenimahalle/ANKARA",
+    "ad": "Emre ÇETIN",
+    "adres": "Emniyet Mahallesi Sümbül Caddesi No: 103/24 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,28 +22,29 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "135.03",
+    "ad": "Yaygın Eğitim Kursları",
+    "saklama_suresi": "10"
   },
-  "konu": "Yabancı Uyruklu Öğrenci Kayıt Talebi",
+  "konu": "Kursa Kayıt Başvurusu",
   "sayi": null,
-  "tarih": "26.02.2026",
+  "tarih": "15.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yabancı Uyruklu Öğrenci Kayıt",
-    "Sorun": "çocuğumun kaydı kimlik numarası olmadığı gerekçesiyle yapılmadı",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Kursa Kayıt",
+    "Sorun": "kayıt olduğum kurs yeterli kursiyer yok denilerek iptal edildi",
+    "Süre": "yaklaşık on gündür",
+    "Önceki başvuru": "daha önce yapılan başvuruya cevap verilmemiştir",
+    "Talep": "durumun düzeltilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
+    2,
+    2,
     3
   ],
   "paragraf_alanlari": null,
@@ -51,11 +52,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü"
+    "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yabancı Uyruklu Öğrenci Kayıt",
-    "bir aydan uzun süredir",
-    "sorunun giderilmesi"
+    "Kursa Kayıt",
+    "yaklaşık on gündür",
+    "durumun düzeltilmesi"
   ]
 }

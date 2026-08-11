@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Gamze GÜLER",
-    "adres": "Ragıpbey Mahallesi Akasya Sokak No: 76/3 Yenimahalle/ANKARA",
+    "ad": "Zeynep TEKIN",
+    "adres": "Gayret Mahallesi Nergis Caddesi No: 86/14 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,20 +30,20 @@
     "ad": "Bursluluk",
     "saklama_suresi": "10"
   },
-  "konu": "Kontenjan Sonuçlarının Açıklanması",
+  "konu": "Bursluluk Sonucuna İtiraz",
   "sayi": null,
-  "tarih": "14.01.2026",
+  "tarih": "22.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kontenjan Sonuçlarının Açıklanması",
-    "Sorun": "bursluluk sonucuna itirazım cevapsız kaldı",
-    "Süre": "yaklaşık kırk gündür",
+    "Şikâyet konusu": "Bursluluk Sonucuna İtiraz",
+    "Sorun": "gelir belgesi sunduğum hâlde başvurum değerlendirmeye alınmadı",
+    "Süre": "iki haftadan fazladır",
     "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Talep": "konunun ilgili birimce ele alınması"
   },
   "paragraf_cumle_sayilari": [
-    3,
+    2,
     3
   ],
   "paragraf_alanlari": null,
@@ -54,8 +54,8 @@
     "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kontenjan Sonuçlarının Açıklanması",
-    "yaklaşık kırk gündür",
-    "sorunun giderilmesi"
+    "Bursluluk Sonucuna İtiraz",
+    "iki haftadan fazladır",
+    "konunun ilgili birimce ele alınması"
   ]
 }

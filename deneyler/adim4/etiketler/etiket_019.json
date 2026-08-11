@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -32,22 +32,22 @@
     "saklama_suresi": "15"
   },
   "konu": "Genelge Taslağı Hakkında Görüş",
-  "sayi": "E-55461037-010.06-1448602",
-  "tarih": "26.03.2026",
+  "sayi": "E-39985474-010.06-6754010",
+  "tarih": "15.01.2026",
   "ilgi": {
-    "tarih": "12.02.2026",
-    "sayi": "E-65859045-010.06-1653625"
+    "tarih": "10.12.2025",
+    "sayi": "E-65859045-010.06-2697375"
   },
   "ek": null,
   "somut_bilgiler": {
     "Konu": "Genelge Taslağı Hakkında Görüş",
-    "Mevcut uygulama": "uygulama birimler arasında farklılık göstermektedir",
+    "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
     "Sonuç": "işlemlerde gecikme yaşanmaktadır",
-    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Talep": "tereddüdün giderilmesi için görüş verilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
+    2,
     3
   ],
   "paragraf_alanlari": null,
@@ -59,7 +59,6 @@
   ],
   "anahtar_terimler": [
     "Genelge Taslağı Hakkında Görüş",
-    "işlemlerde gecikme yaşanmaktadır",
-    "konu hakkında görüş bildirilmesi"
+    "işlemlerde gecikme yaşanmaktadır"
   ]
 }

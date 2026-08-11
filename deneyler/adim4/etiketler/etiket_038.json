@@ -5,19 +5,19 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Merve ÖZKAN",
-    "adres": "Yeşilevler Mahallesi Zeytin Sokak No: 5/23 Yenimahalle/ANKARA",
+    "ad": "Nurten YILDIRIM",
+    "adres": "Ostim Mahallesi Lale Caddesi No: 66/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023872747",
-    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
+    "ogrenci_no": "2024547022",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
     "sinif": "1"
   },
   "belge_turu": "dilekce",
@@ -25,42 +25,43 @@
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Kayıt İptali Talebi",
+  "konu": "Salon Tahsis Talebi",
   "sayi": null,
-  "tarih": "06.04.2026",
+  "tarih": "13.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Dilekçe eki belge",
-    "sayfa": 6
+    "aciklama": "Önceki başvuru sureti",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Talep": "Kayıt İptali",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Talep": "Salon Tahsis",
+    "Gerekçe": "gerekli şartları taşıdığım için",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt İptali",
-    "posta yoluyla adresime"
+    "Salon Tahsis",
+    "gerekli şartları taşıdığım için",
+    "e-Devlet üzerinden"
   ]
 }

@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ayşe YILMAZ",
-    "adres": "Serhat Mahallesi Nergis Caddesi No: 12/21 Yenimahalle/ANKARA",
+    "ad": "Osman ARSLAN",
+    "adres": "Gayret Mahallesi Papatya Sokak No: 116/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020549919",
-    "bolum": "Tıp Fakültesi",
-    "sinif": "1"
+    "ogrenci_no": "2025181512",
+    "bolum": "Fen Fakültesi Matematik",
+    "sinif": "3"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,23 +29,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.10",
-    "ad": "Belge İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "102.03",
+    "ad": "Denklik İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "İngilizce Transkript Talebi",
+  "konu": "Mezuniyet Belgesi Doğrulama Talebi",
   "sayi": null,
-  "tarih": "20.05.2026",
+  "tarih": "16.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İngilizce Transkript",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Talep": "Mezuniyet Belgesi Doğrulama",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
+    "Başvuru şekli": "başvuru kayıt bürosuna teslim edilmiştir",
+    "Bildirim tercihi": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
-    4
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -56,9 +57,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "İngilizce Transkript",
-    "başvuru dosyasına eklenmek üzere",
-    "şahsen başvuru yapılmıştır",
-    "posta yoluyla adresime"
+    "Mezuniyet Belgesi Doğrulama",
+    "resmî işlemlerde kullanılmak üzere",
+    "başvuru kayıt bürosuna teslim edilmiştir",
+    "kayıtlı elektronik posta adresime"
   ]
 }

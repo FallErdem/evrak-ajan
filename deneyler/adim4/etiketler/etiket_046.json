@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yapi_kontrol",
-    "birim_adi": "Yapı Kontrol Müdürlüğü",
-    "detsis_no": "53265760",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Havva ŞIMŞEK",
-    "adres": "Şentepe Mahallesi Menekşe Sokağı No: 62/1 Yenimahalle/ANKARA",
+    "ad": "Ahmet AKSOY",
+    "adres": "Barıştepe Mahallesi Sümbül Sokak No: 34/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,42 +22,43 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Cezanın Kaldırılması Talebi",
+  "konu": "Ölçü Aleti Beyannamesi",
   "sayi": null,
-  "tarih": "09.02.2026",
+  "tarih": "26.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Cezanın Kaldırılması",
-    "Sorun": "aynı fiil için iki kez ceza kesildi",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Ölçü Aleti Beyannamesi",
+    "Sorun": "terazi damgalama başvurum sezon boyunca sıraya alınmadı",
+    "Süre": "yılbaşından bu yana",
+    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "Talep": "gerekli incelemenin yapılması",
+    "Yer": "Ragıpbey Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yapı Kontrol Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Cezanın Kaldırılması",
-    "aynı fiil için iki kez ceza kesildi",
-    "bir aydan uzun süredir",
-    "sorunun giderilmesi"
+    "Ölçü Aleti Beyannamesi",
+    "yılbaşından bu yana",
+    "gerekli incelemenin yapılması",
+    "Ragıpbey Mahallesi"
   ]
 }

@@ -5,55 +5,53 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Zabıta Müdürlüğü",
+    "kurum_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "50719027",
+    "detsis_no": "85330682",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Temizlik İşleri Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
+    "saklama_suresi": "10"
   },
-  "konu": "Genelgenin İlgili Birimlere Dağıtımı",
-  "sayi": "E-50719027-010.06-1515855",
-  "tarih": "19.01.2026",
+  "konu": "Tıbbi Atık Bertarafı Hk.",
+  "sayi": "E-85330682-155.01-3768394",
+  "tarih": "06.01.2026",
   "ilgi": {
-    "tarih": "01.01.2026",
-    "sayi": "E-65859045-010.06-1639201"
+    "tarih": "25.11.2025",
+    "sayi": "E-83011479-155.01-2237374"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Genelgenin İlgili Birimlere Dağıtımı",
-    "Talebin sonucu": "olumlu, talep karşılandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "İnceleme": "talep ilgili birimce incelenmiştir",
-    "Kapsam": "döküm birim bazında hazırlanmıştır",
-    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
-    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
+    "Talep": "Tıbbi Atık Bertarafı",
+    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Dayanak": "ilgide kayıtlı başvuru",
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "bilgiler başvuru türlerine göre gruplandırılmıştır",
+    "Sınırlama": "gizlilik dereceli belgeler kapsam dışında bırakılmıştır",
+    "Süre": "ek talepler yazılı olarak iletilmelidir",
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2,
-    2,
+    3,
     2
   ],
   "paragraf_alanlari": [
@@ -64,9 +62,6 @@
     ],
     [
       "Talebin sonucu",
-      "Gönderilen"
-    ],
-    [
       "Kapsam",
       "Sınırlama"
     ],
@@ -79,13 +74,14 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Genelgenin İlgili Birimlere Dağıtımı",
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı",
-    "talep ilgili birimce incelenmiştir",
-    "döküm birim bazında hazırlanmıştır"
+    "Tıbbi Atık Bertarafı",
+    "olumlu, işlem tamamlandı",
+    "ilgide kayıtlı başvuru",
+    "konu Müdürlüğümüzce değerlendirilmiştir",
+    "ek talepler yazılı olarak iletilmelidir"
   ]
 }

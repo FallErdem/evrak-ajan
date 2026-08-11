@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "yapi_kontrol",
+    "birim_adi": "Yapı Kontrol Müdürlüğü",
+    "detsis_no": "53265760",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Nurten YAVUZ",
-    "adres": "Batıkent Mahallesi Ihlamur Caddesi No: 31/6 Yenimahalle/ANKARA",
+    "ad": "Büşra DUMAN",
+    "adres": "Serhat Mahallesi Sümbül Caddesi No: 3/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,30 +22,28 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "İşyeri Açma ve Çalışma Ruhsatı Başvurusu",
+  "konu": "İdari Para Cezasına İtiraz",
   "sayi": null,
-  "tarih": "25.05.2026",
+  "tarih": "09.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "İşyeri Açma ve Çalışma Ruhsatı",
-    "Sorun": "komşumdaki işyeri ruhsatsız çalıştığı hâlde denetlenmiyor",
-    "Süre": "yaklaşık iki aydır",
+    "Şikâyet konusu": "İdari Para Cezasına İtiraz",
+    "Sorun": "kesilen para cezasının tebligatı tarafıma hiç ulaşmadı",
+    "Süre": "iki haftadan fazladır",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
-    "Talep": "sorunun giderilmesi",
-    "Yer": "Kaletepe Mahallesi"
+    "Talep": "mağduriyetin giderilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,
@@ -53,13 +51,12 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Yapı Kontrol Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İşyeri Açma ve Çalışma Ruhsatı",
-    "yaklaşık iki aydır",
-    "sorunun giderilmesi",
-    "Kaletepe Mahallesi"
+    "İdari Para Cezasına İtiraz",
+    "iki haftadan fazladır",
+    "mağduriyetin giderilmesi"
   ]
 }

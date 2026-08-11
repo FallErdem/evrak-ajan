@@ -12,12 +12,12 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Emine YILMAZ",
-    "adres": "Gayret Mahallesi Akasya Sokak No: 78/21 Yenimahalle/ANKARA",
+    "ad": "Salih TURAN",
+    "adres": "Barıştepe Mahallesi Ceviz Sokağı No: 68/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025414656",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "ogrenci_no": "2023337225",
+    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
     "sinif": "4"
   },
   "belge_turu": "itiraz",
@@ -29,31 +29,32 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
     "saklama_suresi": "B"
   },
-  "konu": "Diploma Teslim Randevusu",
+  "konu": "Değişim Programı Ders Tanıma Talebi",
   "sayi": null,
-  "tarih": "16.04.2026",
+  "tarih": "10.04.2026",
   "ilgi": {
-    "tarih": "04.03.2026",
-    "sayi": "E-17311665-302.15-4627816"
+    "tarih": "24.03.2026",
+    "sayi": "E-17311665-310-3872418"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Tapu fotokopisi",
+    "aciklama": "Vekâletname",
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Diploma Teslim Randevusu",
-    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
+    "İtiraz konusu": "Değişim Programı Ders Tanıma",
+    "Önceki karar": "başvurum reddedilmiştir",
     "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
-    "Talep": "kararın yeniden değerlendirilmesi"
+    "Talep": "kararın gözden geçirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
@@ -64,8 +65,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Diploma Teslim Randevusu",
-    "talep olumsuz sonuçlandırılmıştır",
-    "kararın yeniden değerlendirilmesi"
+    "Değişim Programı Ders Tanıma",
+    "başvurum reddedilmiştir",
+    "kararın gözden geçirilmesi"
   ]
 }

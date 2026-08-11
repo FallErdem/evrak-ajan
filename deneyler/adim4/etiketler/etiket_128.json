@@ -27,32 +27,32 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "215.01",
-    "ad": "Yurtdışı Eğitim Denkliği",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Denklik Kararına İtiraz",
-  "sayi": "E-24316060-215.01-47544785",
-  "tarih": "26.01.2026",
+  "konu": "Nakil Belgelerinin Gönderilmesi",
+  "sayi": "E-24316060-210.01-66511075",
+  "tarih": "14.05.2026",
   "ilgi": {
-    "tarih": "13.01.2026",
-    "sayi": "E-63971525-215.01-8547310"
+    "tarih": "31.03.2026",
+    "sayi": "E-63971525-210.01-3813625"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Genelge sureti",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Denklik Kararına İtiraz konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "15.03.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "hâlihazırda işleme alınmış başvurular",
-    "Esas 1": "her başvuru için ayrı dosya açılacaktır",
-    "İrtibat": "uygulama Bakanlığımızca izlenecektir"
+    "Konu": "Nakil Belgelerinin Gönderilmesi konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar yapılan değerlendirme sonucunda alınmıştır",
+    "Kapsam": "düzenleme merkez ve taşra birimlerinde geçerlidir",
+    "İstenen 1": "konunun bağlı birimlere bildirilmesi",
+    "İstenen 2": "yapılan işlemlere ilişkin bilgi verilmesi",
+    "Yürürlük": "15.04.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "geçici koruma statüsündeki başvurular",
+    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
+    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -83,11 +83,8 @@
     "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "15.03.2026 tarihinde yürürlüğe girmiştir",
-    "hâlihazırda işleme alınmış başvurular",
-    "her başvuru için ayrı dosya açılacaktır",
-    "uygulama Bakanlığımızca izlenecektir"
+    "konunun bağlı birimlere bildirilmesi",
+    "15.04.2026 tarihinde yürürlüğe girmiştir",
+    "geçici koruma statüsündeki başvurular"
   ]
 }

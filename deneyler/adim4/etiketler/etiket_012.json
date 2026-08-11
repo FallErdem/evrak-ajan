@@ -27,38 +27,35 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Yeni Proje Teklifi",
-  "sayi": "E-24316060-602.07-48080747",
+  "konu": "Stratejik Plan Taslağı Hakkında Görüş",
+  "sayi": "E-24316060-602.04-66529738",
   "tarih": "19.05.2026",
   "ilgi": {
-    "tarih": "11.05.2026",
-    "sayi": "E-14588481-602.07-4786387"
+    "tarih": "01.05.2026",
+    "sayi": "E-14588481-602.04-6277219"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Genelge sureti",
-    "sayfa": 3
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Yeni Proje Teklifi konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Stratejik Plan Taslağı Hakkında Görüş konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama merkez teşkilatınca belirlenmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
+    "İstenen 1": "esasların personele tebliğ edilmesi",
     "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "15.01.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
+    "Yürürlük": "01.03.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "yürürlük tarihinden önce sonuçlandırılan işlemler",
     "Esas 1": "her başvuru için ayrı dosya açılacaktır",
-    "Esas 2": "değerlendirme sonucu başvurana yazılı bildirilecektir",
-    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
-    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
+    "İrtibat": "uygulama Bakanlığımızca izlenecektir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2,
     3,
     3
   ],
@@ -70,12 +67,8 @@
     ],
     [
       "Kapsam",
-      "Kapsam dışı"
-    ],
-    [
-      "Esas 1",
-      "Esas 2",
-      "Geçiş hükmü"
+      "Kapsam dışı",
+      "Esas 1"
     ],
     [
       "İstenen 2",
@@ -91,9 +84,9 @@
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "15.01.2026 tarihinde yürürlüğe girmiştir",
-    "sözleşmesi devam eden yükleniciler",
-    "her başvuru için ayrı dosya açılacaktır"
+    "esasların personele tebliğ edilmesi",
+    "01.03.2026 tarihinde yürürlüğe girmiştir",
+    "her başvuru için ayrı dosya açılacaktır",
+    "uygulama Bakanlığımızca izlenecektir"
   ]
 }

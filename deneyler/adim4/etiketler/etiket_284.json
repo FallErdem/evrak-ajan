@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Emine ŞAHIN",
-    "adres": "Karşıyaka Mahallesi Lale Caddesi No: 31/11 Yenimahalle/ANKARA",
+    "ad": "Sultan AKTAŞ",
+    "adres": "Barıştepe Mahallesi Lale Sokak No: 29/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,31 +22,31 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
     "saklama_suresi": "10"
   },
-  "konu": "Dilekçe Cevabı",
+  "konu": "Muayene Randevusu Hk.",
   "sayi": null,
-  "tarih": "26.03.2026",
+  "tarih": "01.05.2026",
   "ilgi": {
-    "tarih": "16.02.2026",
-    "sayi": "E-50719027-622.01-1526818"
+    "tarih": "24.03.2026",
+    "sayi": "E-59553370-175-1828403"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Kimlik fotokopisi",
-    "sayfa": 2
+    "aciklama": "Vekâletname",
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Dilekçe Cevabı",
-    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
-    "Talep": "kararın yeniden değerlendirilmesi"
+    "İtiraz konusu": "Muayene Randevusu",
+    "Önceki karar": "başvuru işleme alınmamıştır",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "Talep": "dosyamın yeniden ele alınması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -58,12 +58,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Dilekçe Cevabı",
-    "talep olumsuz sonuçlandırılmıştır",
-    "kararın yeniden değerlendirilmesi"
+    "Muayene Randevusu",
+    "başvuru işleme alınmamıştır",
+    "dosyamın yeniden ele alınması"
   ]
 }

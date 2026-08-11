@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -31,20 +31,20 @@
     "ad": "Hukuki",
     "saklama_suresi": "30"
   },
-  "konu": "Mahkeme Kararının Uygulanması Hakkında Görüş",
-  "sayi": "E-55461037-045.02-1441980",
-  "tarih": "18.03.2026",
+  "konu": "Hukuki Görüş Talebi",
+  "sayi": "E-10213773-045.02-14902996",
+  "tarih": "27.01.2026",
   "ilgi": {
-    "tarih": "09.03.2026",
-    "sayi": "E-82642947-045.02-7027452"
+    "tarih": "15.12.2025",
+    "sayi": "E-82642947-045.02-3557734"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Mahkeme Kararının Uygulanması Hakkında Görüş",
-    "Ortak iş": "Mahkeme Kararının Uygulanması Hakkında Görüş konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
-    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
-    "Talep": "Mahkeme Kararının Uygulanması Hakkında Görüş konusunda görüş bildirilmesi"
+    "Konu": "Hukuki Görüş",
+    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "aynı hizmetten yararlananlar her iki kuruma başvurmaktadır",
+    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
+    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -58,5 +58,7 @@
     "Genel Sekreterlik",
     "Gazi"
   ],
-  "anahtar_terimler": []
+  "anahtar_terimler": [
+    "Hukuki Görüş"
+  ]
 }

@@ -31,20 +31,19 @@
     "ad": "Stajlar",
     "saklama_suresi": "2"
   },
-  "konu": "Staj Süresinin Sayılması Talebi",
-  "sayi": "E-65859045-304.03-1646409",
-  "tarih": "22.01.2026",
+  "konu": "Staj Yeri Talebi",
+  "sayi": "E-65859045-304.03-2755739",
+  "tarih": "19.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Staj Süresinin Sayılması",
-    "Ortak iş": "Staj Süresinin Sayılması konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
-    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
-    "Talep": "Staj Süresinin Sayılması konusunda gerekli sürenin tanınması"
+    "Konu": "Staj Yeri",
+    "Ortak iş": "Staj Yeri konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
+    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
+    "Talep": "Staj Yeri için kontenjan ayrılması"
   },
   "paragraf_cumle_sayilari": [
-    2,
     2,
     3
   ],
@@ -57,6 +56,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Süresinin Sayılması"
+    "Staj Yeri",
+    "Staj Yeri için kontenjan ayrılması"
   ]
 }

@@ -31,24 +31,24 @@
     "ad": "Staj İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Staj Kabul Yazısı Talebi",
-  "sayi": "E-90226917-773-1947988",
-  "tarih": "09.02.2026",
+  "konu": "Staj Süresinin Uzatılması Talebi",
+  "sayi": "E-90226917-773-3774584",
+  "tarih": "20.02.2026",
   "ilgi": {
-    "tarih": "09.01.2026",
-    "sayi": "E-85330682-773-1207138"
+    "tarih": "06.02.2026",
+    "sayi": "E-85330682-773-3779278"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Staj Kabul Yazısı",
-    "Ortak iş": "Staj Kabul Yazısı konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
-    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
-    "Talep": "Staj Kabul Yazısı kapsamında öğrenci kabul edilmesi"
+    "Konu": "Staj Süresinin Uzatılması",
+    "Ortak iş": "Staj Süresinin Uzatılması konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
+    "Beklenen katkı": "kurumunuzca ilgili kayıtların paylaşılması gerekmektedir",
+    "Talep": "Staj Süresinin Uzatılması konusunda gerekli sürenin tanınması"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    3
+    3,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -59,6 +59,6 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Staj Kabul Yazısı"
+    "Staj Süresinin Uzatılması"
   ]
 }

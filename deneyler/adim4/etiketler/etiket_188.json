@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Şerife AKSOY",
-    "adres": "Ragıpbey Mahallesi Zeytin Sokak No: 95/9 Yenimahalle/ANKARA",
+    "ad": "Fatma KARA",
+    "adres": "Ergazi Mahallesi Zeytin Sokağı No: 62/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,41 +22,42 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "115.02.10",
+    "ad": "Adres ve Numaralandırma",
+    "saklama_suresi": "B"
   },
-  "konu": "Bilgi Edinme Başvurusu",
+  "konu": "Numarataj Belgesi Talebi",
   "sayi": null,
-  "tarih": "06.05.2026",
+  "tarih": "30.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bilgi Edinme",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Talep": "Numarataj Belgesi",
+    "Taşınmaz": "34667 ada, 4 parsel",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
+    "Başvuru şekli": "başvuru kayıt bürosuna teslim edilmiştir",
+    "Bildirim tercihi": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Bilgi Edinme",
-    "mağduriyetin giderilmesi bakımından",
-    "şahsen başvuru yapılmıştır",
-    "posta yoluyla adresime"
+    "Numarataj Belgesi",
+    "34667 ada, 4 parsel",
+    "ilgili kuruma sunulmak üzere",
+    "başvuru kayıt bürosuna teslim edilmiştir",
+    "kayıtlı elektronik posta adresime"
   ]
 }

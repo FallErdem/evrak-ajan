@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin GÜLER",
-    "adres": "Serhat Mahallesi Nergis Sokak No: 68/16 Yenimahalle/ANKARA",
+    "ad": "Serkan UÇAR",
+    "adres": "Karşıyaka Mahallesi Yasemin Sokak No: 59/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,22 +26,22 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "180.03",
-    "ad": "İtfaiye Uygunluk Raporları",
-    "saklama_suresi": "15"
+    "kod": "170.01",
+    "ad": "Ruhsat",
+    "saklama_suresi": "B"
   },
-  "konu": "Rapor Sureti Talebi",
+  "konu": "Ruhsat Devir Talebi",
   "sayi": null,
-  "tarih": "22.01.2026",
+  "tarih": "17.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Rapor Sureti",
-    "Sorun": "yerinde inceleme için gelmesi gereken ekip iki kez randevuya gelmedi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
-    "Talep": "sorunun giderilmesi",
-    "Yer": "Susuz Mahallesi"
+    "Şikâyet konusu": "Ruhsat Devir",
+    "Sorun": "komşumdaki işyeri ruhsatsız çalıştığı hâlde denetlenmiyor",
+    "Süre": "iki haftadan fazladır",
+    "Önceki başvuru": "geçen dönem aynı konuda dilekçe verilmiştir",
+    "Talep": "mağduriyetin giderilmesi",
+    "Yer": "İvedik Mahallesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -57,9 +57,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Rapor Sureti",
-    "yaklaşık kırk gündür",
-    "sorunun giderilmesi",
-    "Susuz Mahallesi"
+    "Ruhsat Devir",
+    "iki haftadan fazladır",
+    "mağduriyetin giderilmesi",
+    "İvedik Mahallesi"
   ]
 }

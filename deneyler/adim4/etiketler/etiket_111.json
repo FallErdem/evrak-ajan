@@ -5,61 +5,60 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "sks_db",
+    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "detsis_no": "98244303",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Nurten YILDIZ",
-    "adres": "Serhat Mahallesi Manolya Sokağı No: 47/9 Yenimahalle/ANKARA",
+    "ad": "Mehmet YILMAZ",
+    "adres": "Şentepe Mahallesi Ihlamur Sokak No: 98/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2023265460",
-    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
-    "sinif": "4"
+    "ogrenci_no": "2020488807",
+    "bolum": "Hukuk Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "kod": "309",
+    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Katkı Payı İade Talebi",
+  "konu": "Topluluk Etkinlik İzni Talebi",
   "sayi": null,
-  "tarih": "08.01.2026",
+  "tarih": "13.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Katkı Payı İade",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Talep": "Topluluk Etkinlik İzni",
+    "Gerekçe": "durumumun uygun olması sebebiyle",
+    "Başvuru şekli": "konu hakkında çağrı merkezi aranmıştır",
+    "Bildirim tercihi": "cep telefonuma kısa mesajla"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Sağlık Kültür ve Spor Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı İade",
-    "sürecin tamamlanabilmesi için",
-    "şahsen başvuru yapılmıştır",
-    "e-Devlet üzerinden"
+    "Topluluk Etkinlik İzni",
+    "durumumun uygun olması sebebiyle",
+    "konu hakkında çağrı merkezi aranmıştır",
+    "cep telefonuma kısa mesajla"
   ]
 }

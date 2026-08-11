@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Onur ŞAHIN",
-    "adres": "Demetevler Mahallesi Nergis Caddesi No: 74/10 Yenimahalle/ANKARA",
+    "ad": "Fatma ÇETIN",
+    "adres": "İvedik Mahallesi Ceviz Caddesi No: 62/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,24 +26,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Yurtdışı Kullanım İçin Onay Talebi",
+  "konu": "Zorunlu Nakil Talebi",
   "sayi": null,
-  "tarih": "30.03.2026",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Yurtdışı Kullanım İçin Onay",
-    "Sorun": "diplomamda adım yanlış yazılmış, düzeltme talebim sonuçlanmadı",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Zorunlu Nakil",
+    "Sorun": "çocuğumun nakil başvurusu üç haftadır sonuçlandırılmadı",
+    "Süre": "yaklaşık on gündür",
+    "Önceki başvuru": "durum yerinde de bildirilmiş ancak sonuç alınamamıştır",
+    "Talep": "gerekli incelemenin yapılması"
   },
   "paragraf_cumle_sayilari": [
-    2,
     2,
     3
   ],
@@ -55,8 +54,8 @@
     "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yurtdışı Kullanım İçin Onay",
-    "bir aydan uzun süredir",
-    "sorunun giderilmesi"
+    "Zorunlu Nakil",
+    "yaklaşık on gündür",
+    "gerekli incelemenin yapılması"
   ]
 }

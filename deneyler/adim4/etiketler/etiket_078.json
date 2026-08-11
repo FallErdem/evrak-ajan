@@ -5,59 +5,60 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "kurum_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "47014261",
+    "detsis_no": "98244303",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Personel Dairesi Başkanlığı",
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Gazi Üniversitesi Rektörlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "201",
-    "ad": "Seçim ve Atama İşleri",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Anabilim Dalı Başkanı Ataması",
-  "sayi": "E-47014261-201-3166662",
-  "tarih": "29.04.2026",
+  "konu": "Alınan Kararların Özeti",
+  "sayi": "E-98244303-050.04-5821612",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Anabilim Dalı Başkanı Ataması",
-    "Mevcut uygulama": "benzer taleplerde farklı sonuçlar doğmuştur",
-    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
+    "Konu": "Alınan Kararların Özeti",
+    "Mevcut uygulama": "uygulama birimler arasında farklılık göstermektedir",
+    "Sonuç": "aynı konuda tekrar başvuru yapılmaktadır",
     "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Talep": "konunun açıklığa kavuşturulması"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Anabilim Dalı Başkanı Ataması",
-    "işlemlerde gecikme yaşanmaktadır",
-    "konu hakkında görüş bildirilmesi"
+    "Alınan Kararların Özeti",
+    "aynı konuda tekrar başvuru yapılmaktadır",
+    "konunun açıklığa kavuşturulması"
   ]
 }

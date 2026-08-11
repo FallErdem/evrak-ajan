@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ali GÜNEŞ",
-    "adres": "Çiğdemtepe Mahallesi Menekşe Sokak No: 81/13 Yenimahalle/ANKARA",
+    "ad": "Sevgi GÜLER",
+    "adres": "Emniyet Mahallesi Erguvan Sokağı No: 2/16 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024891189",
-    "bolum": "Diş Hekimliği Fakültesi",
-    "sinif": "3"
+    "ogrenci_no": "2025761143",
+    "bolum": "Mimarlık Fakültesi",
+    "sinif": "2"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,23 +29,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "102.03",
-    "ad": "Denklik İşleri",
+    "kod": "310",
+    "ad": "Öğrenci Değişim Programları",
     "saklama_suresi": "B"
   },
-  "konu": "Denklik Başvurusunun Sonuçlandırılması",
+  "konu": "Farabi Başvuru Sonuçları",
   "sayi": null,
-  "tarih": "27.03.2026",
+  "tarih": "16.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Denklik Başvurusunun Sonuçlandırılması",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Talep": "Farabi Başvuru Sonuçları",
+    "Gerekçe": "başvuru süresinin dolmak üzere olması nedeniyle",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
     "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -56,9 +56,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Denklik Başvurusunun Sonuçlandırılması",
-    "sürecin tamamlanabilmesi için",
-    "şahsen başvuru yapılmıştır",
+    "Farabi Başvuru Sonuçları",
     "posta yoluyla adresime"
   ]
 }

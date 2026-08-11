@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Aslı POLAT",
-    "adres": "İvedik Mahallesi Manolya Sokak No: 54/1 Yenimahalle/ANKARA",
+    "ad": "Şaban AKTAŞ",
+    "adres": "Ergazi Mahallesi Papatya Caddesi No: 87/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,17 +32,18 @@
   },
   "konu": "Tahsilat Makbuzu Talebi",
   "sayi": null,
-  "tarih": "01.05.2026",
+  "tarih": "17.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Tahsilat Makbuzu",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Gerekçe": "gerekli şartları taşıdığım için",
+    "Başvuru şekli": "başvuru kayıt bürosuna teslim edilmiştir",
+    "Bildirim tercihi": "iadeli taahhütlü posta ile"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -54,7 +55,8 @@
   ],
   "anahtar_terimler": [
     "Tahsilat Makbuzu",
-    "mağduriyetin giderilmesi bakımından",
-    "e-Devlet üzerinden"
+    "gerekli şartları taşıdığım için",
+    "başvuru kayıt bürosuna teslim edilmiştir",
+    "iadeli taahhütlü posta ile"
   ]
 }

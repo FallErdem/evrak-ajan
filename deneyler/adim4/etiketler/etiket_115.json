@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sevgi YILDIRIM",
-    "adres": "Çiğdemtepe Mahallesi Menekşe Sokak No: 25/23 Yenimahalle/ANKARA",
+    "ad": "Sultan GÜNEŞ",
+    "adres": "Pamuklar Mahallesi Yasemin Caddesi No: 40/13 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,42 +22,39 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
-    "saklama_suresi": "B"
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
+    "saklama_suresi": "10"
   },
-  "konu": "İskan Ruhsatı Başvurusu",
+  "konu": "Engelli Erişim Düzenlemesi Talebi",
   "sayi": null,
-  "tarih": "20.03.2026",
+  "tarih": "25.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "İskan Ruhsatı",
-    "Taşınmaz": "22838 ada, 12 parsel",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Talep": "Engelli Erişim Düzenlemesi",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "İskan Ruhsatı",
-    "22838 ada, 12 parsel",
-    "şahsen başvuru yapılmıştır",
-    "posta yoluyla adresime"
+    "Engelli Erişim Düzenlemesi",
+    "mağduriyetin giderilmesi bakımından",
+    "elektronik posta ile"
   ]
 }

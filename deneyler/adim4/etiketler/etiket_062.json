@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Şafak Eğitim Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Batıkent Mahallesi Erguvan Sokağı No: 14/21 Yenimahalle/ANKARA",
+    "adres": "Emniyet Mahallesi Yasemin Sokağı No: 35/7 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,27 +31,26 @@
     "ad": "İzin İşleri",
     "saklama_suresi": "10"
   },
-  "konu": "Mazeret Belgesi Talebi",
-  "sayi": "2026/473",
-  "tarih": "28.05.2026",
+  "konu": "Sağlık Sebebiyle İzin Talebi",
+  "sayi": "2026/173",
+  "tarih": "28.01.2026",
   "ilgi": {
-    "tarih": "01.05.2026",
-    "sayi": "E-43123369-302.08-7424107"
+    "tarih": "23.12.2025",
+    "sayi": "E-43123369-302.08-7784707"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Dilekçe eki belge",
+    "aciklama": "İkametgâh belgesi",
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Mazeret Belgesi",
-    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "İtiraz konusu": "Sağlık Sebebiyle İzin",
+    "Önceki karar": "talebim uygun görülmemiştir",
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
     "Talep": "kararın yeniden değerlendirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,
@@ -63,8 +62,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Mazeret Belgesi",
-    "talep olumsuz sonuçlandırılmıştır",
+    "Sağlık Sebebiyle İzin",
+    "talebim uygun görülmemiştir",
     "kararın yeniden değerlendirilmesi"
   ]
 }

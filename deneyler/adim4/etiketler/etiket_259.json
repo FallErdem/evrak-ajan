@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çankaya Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "90226917",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -27,21 +27,21 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "051",
-    "ad": "Toplantı ve Etkinlik İşleri",
-    "saklama_suresi": "15"
+    "kod": "815",
+    "ad": "Sosyal Yardım İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Etkinlik Salonu Tahsis Talebi",
-  "sayi": "E-90226917-051-1946683",
-  "tarih": "05.02.2026",
+  "konu": "Sosyal İnceleme Raporu Talebi",
+  "sayi": "E-39985474-815-6752213",
+  "tarih": "13.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Etkinlik Salonu Tahsis",
-    "Ortak iş": "Etkinlik Salonu Tahsis konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
-    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
-    "Talep": "gerekli tahsisin yapılması"
+    "Konu": "Sosyal İnceleme Raporu",
+    "Ortak iş": "Sosyal İnceleme Raporu konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "uygulamada eşgüdüm ihtiyacı doğmuştur",
+    "Beklenen katkı": "kurumunuzca ilgili kayıtların paylaşılması gerekmektedir",
+    "Talep": "Sosyal İnceleme Raporu konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -56,7 +56,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Etkinlik Salonu Tahsis",
-    "gerekli tahsisin yapılması"
+    "Sosyal İnceleme Raporu",
+    "uygulamada eşgüdüm ihtiyacı doğmuştur"
   ]
 }

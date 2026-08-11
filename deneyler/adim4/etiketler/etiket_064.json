@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_ogretim_sb",
-    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
-    "detsis_no": "91571118",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin KOÇ",
-    "adres": "Kaletepe Mahallesi Kestane Caddesi No: 44/9 Yenimahalle/ANKARA",
+    "ad": "Emine ÖZTÜRK",
+    "adres": "Barıştepe Mahallesi Ceviz Caddesi No: 2/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,24 +22,24 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "135.03",
-    "ad": "Yaygın Eğitim Kursları",
+    "kod": "245.04",
+    "ad": "Bursluluk",
     "saklama_suresi": "10"
   },
-  "konu": "Kursa Kayıt Başvurusu",
+  "konu": "Bursluluk Başvurusu",
   "sayi": null,
-  "tarih": "02.04.2026",
+  "tarih": "23.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kursa Kayıt",
+    "Talep": "Bursluluk",
     "Gerekçe": "mağduriyetin giderilmesi bakımından",
     "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Bildirim tercihi": "iadeli taahhütlü posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -49,11 +49,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Öğretim Kurumları Şube Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kursa Kayıt",
     "mağduriyetin giderilmesi bakımından",
-    "e-Devlet üzerinden"
+    "iadeli taahhütlü posta ile"
   ]
 }

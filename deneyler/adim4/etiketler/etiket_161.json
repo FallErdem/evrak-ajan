@@ -27,24 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "205",
-    "ad": "Kayıt-Kabul",
-    "saklama_suresi": "B"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Kayıt Takviminin Duyurulması",
-  "sayi": "E-65859045-205-1669465",
-  "tarih": "30.03.2026",
+  "konu": "Nakil Kaydının e-Okulda Güncellenmesi",
+  "sayi": "E-65859045-210.01-2745100",
+  "tarih": "20.04.2026",
   "ilgi": {
-    "tarih": "20.03.2026",
-    "sayi": "E-93213107-205-4036131"
+    "tarih": "16.03.2026",
+    "sayi": "E-93213107-210.01-2272576"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Kayıt Takviminin Duyurulması",
-    "Mevcut uygulama": "uygulama birimler arasında farklılık göstermektedir",
-    "Sonuç": "başvuranlara tutarlı cevap verilememektedir",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Konu": "Nakil Kaydının e-Okulda Güncellenmesi",
+    "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
+    "Sonuç": "uygulamada birlik sağlanamamaktadır",
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Talep": "konunun açıklığa kavuşturulması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -59,7 +59,8 @@
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kayıt Takviminin Duyurulması",
-    "konu hakkında görüş bildirilmesi"
+    "Nakil Kaydının e-Okulda Güncellenmesi",
+    "uygulamada birlik sağlanamamaktadır",
+    "konunun açıklığa kavuşturulması"
   ]
 }

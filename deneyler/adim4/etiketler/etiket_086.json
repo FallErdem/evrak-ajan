@@ -27,25 +27,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "045.02",
-    "ad": "Hukuki",
-    "saklama_suresi": "30"
+    "kod": "355.02",
+    "ad": "Eğitim Fakülteleri İle İlişkiler",
+    "saklama_suresi": "15"
   },
-  "konu": "İhtilaflı Hususta Değerlendirme Talebi",
-  "sayi": "E-39985474-045.02-5073620",
-  "tarih": "14.04.2026",
+  "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
+  "sayi": "E-39985474-355.02-6857396",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "İhtilaflı Hususta Değerlendirme",
-    "Ortak iş": "İhtilaflı Hususta Değerlendirme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
-    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
-    "Talep": "İhtilaflı Hususta Değerlendirme konusunda gerekli koordinasyonun sağlanması"
+    "Konu": "Uygulama Öğrencisi Yerleştirme",
+    "Ortak iş": "Uygulama Öğrencisi Yerleştirme konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "aynı hizmetten yararlananlar her iki kuruma başvurmaktadır",
+    "Beklenen katkı": "kurumunuzun onayı beklenmektedir",
+    "Talep": "Uygulama Öğrencisi Yerleştirme kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,
@@ -55,6 +54,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "İhtilaflı Hususta Değerlendirme"
+    "Uygulama Öğrencisi Yerleştirme",
+    "kurumunuzun onayı beklenmektedir"
   ]
 }

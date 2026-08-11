@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24312041",
+    "detsis_no": "24432702",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,36 +23,36 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "125",
-    "ad": "Evlendirme İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "Evlenme Başvurusu Hk.",
-  "sayi": "E-24312041-125-87701113",
-  "tarih": "12.03.2026",
+  "konu": "Performans Göstergesi Verisi Talebi",
+  "sayi": "E-24432702-602.04-11675389",
+  "tarih": "22.05.2026",
   "ilgi": {
-    "tarih": "27.02.2026",
-    "sayi": "E-15986609-125-3267088"
+    "tarih": "08.05.2026",
+    "sayi": "E-65859045-602.04-2751737"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "aciklama": "Genelge sureti",
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Evlenme Başvurusu konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
+    "Konu": "Performans Göstergesi Verisi konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme kurul kararına dayanmaktadır",
+    "Kapsam": "uygulama bütün birimleri kapsamaktadır",
     "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "15.05.2026 tarihinde yürürlüğe girmiştir",
+    "İstenen 2": "yapılan işlemlere ilişkin bilgi verilmesi",
+    "Yürürlük": "01.05.2026 tarihinde yürürlüğe girmiştir",
     "Kapsam dışı": "hâlihazırda işleme alınmış başvurular",
-    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
-    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
+    "Esas 1": "her dosya için sorumlu personel belirlenecektir",
+    "İrtibat": "süreç Başkanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -80,13 +80,14 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
+    "düzenleme kurul kararına dayanmaktadır",
+    "uygulama bütün birimleri kapsamaktadır",
     "uygulamanın ilgililere duyurulması",
-    "15.05.2026 tarihinde yürürlüğe girmiştir",
-    "hâlihazırda işleme alınmış başvurular"
+    "01.05.2026 tarihinde yürürlüğe girmiştir",
+    "hâlihazırda işleme alınmış başvurular",
+    "süreç Başkanlığımızca takip edilmektedir"
   ]
 }

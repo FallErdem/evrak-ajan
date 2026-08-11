@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatma GÜNEŞ",
-    "adres": "Serhat Mahallesi Menekşe Sokağı No: 5/6 Yenimahalle/ANKARA",
+    "ad": "Salih ATEŞ",
+    "adres": "Susuz Mahallesi Zeytin Sokak No: 32/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,24 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
-    "saklama_suresi": "10"
+    "kod": "115.01.08",
+    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
+    "saklama_suresi": "B"
   },
-  "konu": "Refakatçi Desteği Talebi",
+  "konu": "İhdas Talebi",
   "sayi": null,
-  "tarih": "08.04.2026",
+  "tarih": "12.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Refakatçi Desteği",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Talep": "İhdas",
+    "Taşınmaz": "58189 ada, 14 parsel",
+    "Gerekçe": "hak kaybına uğramamak için",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     4
@@ -49,12 +50,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Refakatçi Desteği",
-    "sürecin tamamlanabilmesi için",
-    "elektronik posta ile"
+    "58189 ada, 14 parsel",
+    "hak kaybına uğramamak için",
+    "şahsen başvuru yapılmıştır",
+    "posta yoluyla adresime"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -31,23 +31,23 @@
     "ad": "Kayıt-Kabul",
     "saklama_suresi": "B"
   },
-  "konu": "Kayıt İşlemleri Hk.",
-  "sayi": "E-39985474-205-5048328",
-  "tarih": "11.03.2026",
+  "konu": "Şube Oluşturma Talebi",
+  "sayi": "E-65859045-205-2707551",
+  "tarih": "07.01.2026",
   "ilgi": {
-    "tarih": "04.02.2026",
-    "sayi": "E-93213107-205-4008946"
+    "tarih": "11.12.2025",
+    "sayi": "E-93213107-205-2204603"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Kayıt İşlemleri",
+    "Konu": "Şube Oluşturma",
     "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
-    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
+    "Sonuç": "aynı konuda tekrar başvuru yapılmaktadır",
     "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Talep": "uygulanacak usulün bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
+    2,
     3
   ],
   "paragraf_alanlari": null,
@@ -58,8 +58,8 @@
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Kayıt İşlemleri",
-    "işlemlerde gecikme yaşanmaktadır",
-    "konu hakkında görüş bildirilmesi"
+    "Şube Oluşturma",
+    "aynı konuda tekrar başvuru yapılmaktadır",
+    "uygulanacak usulün bildirilmesi"
   ]
 }

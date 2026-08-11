@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "ozel_ogretim_sb",
+    "birim_adi": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "detsis_no": "91571118",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Elif SARI",
-    "adres": "Serhat Mahallesi Menekşe Sokak No: 32/21 Yenimahalle/ANKARA",
+    "ad": "Hasan ÇETIN",
+    "adres": "Gayret Mahallesi Sümbül Caddesi No: 16/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -21,39 +21,39 @@
   "aile": "belge_talebi",
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
-  "muhatap_makam": "Yenimahalle Kaymakamlığı",
-  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Özel Öğretim Kurumları Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
+  "konu": "Onaylı Örnek Talebi",
   "sayi": null,
-  "tarih": "14.01.2026",
+  "tarih": "29.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Taşımalı Eğitim Kapsamına Alınma",
-    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Onaylı Örnek",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
+    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
+    "Bildirim tercihi": "cep telefonuma kısa mesajla"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
+    "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim Kapsamına Alınma",
-    "Kurumunuz kayıt bürosundan elden"
+    "Onaylı Örnek",
+    "ilgili kuruma sunulmak üzere",
+    "cep telefonuma kısa mesajla"
   ]
 }

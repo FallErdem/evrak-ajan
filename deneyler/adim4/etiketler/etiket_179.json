@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ankara_il_mem",
-    "birim_adi": "Ankara İl Millî Eğitim Müdürlüğü",
-    "detsis_no": "55461037",
-    "imza_unvani": "İl Millî Eğitim Müdürü"
+    "birim_kodu": "yenimahalle_ilce_mem",
+    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "detsis_no": "93213107",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,40 +22,41 @@
   "aile": "gorus_talebi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": null,
+  "muhatap_makam": "Yenimahalle Kaymakamlığı",
+  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Genelge Taslağı Hakkında Görüş",
-  "sayi": "E-65859045-010.06-1656053",
-  "tarih": "19.02.2026",
+  "konu": "Kantin İhalesi Duyurusu",
+  "sayi": "E-65859045-165.01-2752771",
+  "tarih": "11.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Genelge Taslağı Hakkında Görüş",
-    "Mevcut uygulama": "uygulama birimler arasında farklılık göstermektedir",
-    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Konu": "Kantin İhalesi",
+    "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
+    "Sonuç": "personel arasında tereddüt oluşmaktadır",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
+    "Talep": "uygulanacak usulün bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
+    2,
     3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
-    "Ankara İl Millî Eğitim Müdürlüğü"
+    "Ankara İl Millî Eğitim Müdürlüğü",
+    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Genelge Taslağı Hakkında Görüş",
-    "işlemlerde gecikme yaşanmaktadır",
-    "konu hakkında görüş bildirilmesi"
+    "Kantin İhalesi",
+    "personel arasında tereddüt oluşmaktadır",
+    "uygulanacak usulün bildirilmesi"
   ]
 }

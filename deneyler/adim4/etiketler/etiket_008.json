@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ozel_egitim_rehberlik_sb",
+    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "detsis_no": "87302975",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -35,34 +35,31 @@
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "198.02.01",
-    "ad": "Diploma",
-    "saklama_suresi": "B"
+    "kod": "160.01.02",
+    "ad": "Kaynaştırma Eğitimi",
+    "saklama_suresi": "10"
   },
-  "konu": "Diploma Teslimi Talebi",
-  "sayi": "E-24316060-198.02.01-47797123",
-  "tarih": "20.03.2026",
+  "konu": "Kaynaştırma Uygulaması Bilgi Talebi",
+  "sayi": "E-24316060-160.01.02-66154998",
+  "tarih": "09.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 6
   },
   "somut_bilgiler": {
-    "Konu": "Diploma Teslimi konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Kaynaştırma Uygulaması Bilgi konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama merkez teşkilatınca belirlenmiştir",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "Yürürlük": "15.01.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "geçici görevle çalışan personel",
-    "Esas 1": "işlemler tek merkezden yürütülecektir",
-    "Esas 2": "itirazlar on beş gün içinde sonuçlandırılacaktır",
-    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
-    "Süre": "dönem sonuna kadar",
+    "İstenen 1": "düzenlemenin ilgili birimlerde ilan edilmesi",
+    "İstenen 2": "uygulamada karşılaşılan sorunların iletilmesi",
+    "Yürürlük": "01.03.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "önceki dönemde onaylanmış projeler",
+    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
     "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
     3,
     3
@@ -70,20 +67,16 @@
   "paragraf_alanlari": [
     [
       "Konu",
-      "Kaynak"
+      "Kaynak",
+      "Yürürlük"
     ],
     [
       "Kapsam",
       "Kapsam dışı",
-      "Yürürlük"
+      "Esas 1"
     ],
     [
-      "Esas 1",
-      "Esas 2",
-      "Geçiş hükmü"
-    ],
-    [
-      "Süre",
+      "İstenen 2",
       "İrtibat",
       "İstenen 1"
     ]
@@ -92,14 +85,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü"
+    "Özel Eğitim ve Rehberlik Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "15.01.2026 tarihinde yürürlüğe girmiştir",
-    "geçici görevle çalışan personel",
-    "işlemler tek merkezden yürütülecektir",
-    "dönem sonuna kadar"
+    "01.03.2026 tarihinde yürürlüğe girmiştir",
+    "önceki dönemde onaylanmış projeler"
   ]
 }

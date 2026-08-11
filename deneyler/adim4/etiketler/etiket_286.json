@@ -27,44 +27,44 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "104.01",
-    "ad": "Program Açma",
-    "saklama_suresi": "15"
+    "kod": "302.08",
+    "ad": "İzin İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Program Açma Başvurusu Hk.",
-  "sayi": "E-32625594-104.01-75354455",
-  "tarih": "19.01.2026",
+  "konu": "İzin Dönüşü Kayıt Yenileme",
+  "sayi": "E-32625594-302.08-47046109",
+  "tarih": "13.05.2026",
   "ilgi": {
-    "tarih": "29.12.2025",
-    "sayi": "E-43123369-104.01-7310064"
+    "tarih": "15.04.2026",
+    "sayi": "E-43123369-302.08-7869516"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Program Açma Başvurusu",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Talep": "İzin Dönüşü Kayıt Yenileme",
+    "Talebin sonucu": "olumlu, gerekli düzeltme yapıldı",
+    "Dayanak": "ilgide kayıtlı talep",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "İnceleme": "konu Başkanlığımızca değerlendirilmiştir",
-    "Kapsam": "döküm birim bazında hazırlanmıştır",
-    "Sınırlama": "yalnızca tamamlanmış işlemler dâhil edilmiştir",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
-    "İrtibat": "konuyla ilgili irtibat Başkanlığımızca sağlanmaktadır"
+    "Kapsam": "liste sonuçlanma durumuna göre düzenlenmiştir",
+    "Sınırlama": "sayısal ortama aktarılmamış kayıtlar bulunmamaktadır",
+    "Süre": "eksik görülen hususlar bir ay içinde bildirilebilir",
+    "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
+    2,
     2,
     2
   ],
   "paragraf_alanlari": [
     [
       "Talep",
-      "Dayanak"
+      "Dayanak",
+      "İnceleme"
     ],
     [
       "Talebin sonucu",
-      "Gönderilen",
-      "İnceleme"
+      "Gönderilen"
     ],
     [
       "Kapsam",
@@ -83,11 +83,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Program Açma Başvurusu",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur",
-    "konu Başkanlığımızca değerlendirilmiştir",
-    "döküm birim bazında hazırlanmıştır"
+    "İzin Dönüşü Kayıt Yenileme",
+    "olumlu, gerekli düzeltme yapıldı",
+    "ilgide kayıtlı talep",
+    "konu Başkanlığımızca değerlendirilmiştir"
   ]
 }

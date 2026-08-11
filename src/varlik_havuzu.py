@@ -80,6 +80,9 @@ _TESLIM_SARTLARI = [
     "kimlik ibrazı ile şahsen veya vekâletname ile",
     "kimlik belgesi ibraz edilerek şahsen",
     "noter onaylı vekâletname ile veya bizzat",
+    "başvuru sahibi ya da yasal temsilcisi tarafından",
+    "kimlik ve başvuru evrakı ile birlikte",
+    "randevu alınarak şahsen",
 ]
 
 _GECERLILIK_SURELERI = [
@@ -93,17 +96,28 @@ _BILDIRIM_YOLLARI = [
     "posta yoluyla adresime",
     "e-Devlet üzerinden",
     "Kurumunuz kayıt bürosundan elden",
+    "kayıtlı elektronik posta adresime",
+    "cep telefonuma kısa mesajla",
+    "başvuru sırasında bildirdiğim adrese",
+    "iadeli taahhütlü posta ile",
 ]
 
 _SIKAYET_SURELERI = [
     "yaklaşık üç haftadır", "yaklaşık iki aydır", "bir aydan uzun süredir",
     "geçtiğimiz aydan bu yana", "yaklaşık kırk gündür",
+    "dönem başından beri", "yaklaşık on gündür", "iki haftadan fazladır",
+    "yılbaşından bu yana", "birkaç aydır",
 ]
 
 _ONCEKI_BASVURU = [
     "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
     "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
     "aynı husus geçen ay yazılı olarak da iletilmiştir",
+    "konu ilgili birime şahsen de bildirilmiştir",
+    "e-Devlet üzerinden yapılan başvuru sonuçsuz kalmıştır",
+    "geçen dönem aynı konuda dilekçe verilmiştir",
+    "daha önce yapılan başvuruya cevap verilmemiştir",
+    "durum yerinde de bildirilmiş ancak sonuç alınamamıştır",
 ]
 
 _DONEMLER = [
@@ -117,6 +131,10 @@ _GEREKCELER = [
     "vatandaş memnuniyetinin artırılması",
     "mevzuatın öngördüğü sürelere uyulması",
     "kaynakların etkin kullanılması",
+    "birimler arası eşgüdümün sağlanması",
+    "iş yükünün dengeli dağıtılması",
+    "hizmet kalitesinin korunması",
+    "başvuruların tek elden yürütülmesi",
 ]
 
 

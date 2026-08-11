@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "gelirler",
-    "birim_adi": "Gelirler Müdürlüğü",
-    "detsis_no": "30032784",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sultan KARACA",
-    "adres": "Pamuklar Mahallesi Yasemin Sokağı No: 104/21 Yenimahalle/ANKARA",
+    "ad": "Sevgi UÇAR",
+    "adres": "Pamuklar Mahallesi Çınar Sokak No: 61/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,39 +22,40 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Gelirler Müdürlüğü",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "855",
-    "ad": "Borç ve Alacak İşleri",
-    "saklama_suresi": "15"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Borç Bilgisi Talebi",
+  "konu": "Arşiv Belgesi Araştırma Talebi",
   "sayi": null,
-  "tarih": "20.02.2026",
+  "tarih": "14.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Borç Bilgisi",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Talep": "Arşiv Belgesi Araştırma",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "cep telefonuma kısa mesajla"
   },
   "paragraf_cumle_sayilari": [
-    4
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Gelirler Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Borç Bilgisi",
-    "sürecin tamamlanabilmesi için",
-    "Kurumunuz kayıt bürosundan elden"
+    "Arşiv Belgesi Araştırma",
+    "resmî işlemlerde kullanılmak üzere",
+    "şahsen başvuru yapılmıştır",
+    "cep telefonuma kısa mesajla"
   ]
 }

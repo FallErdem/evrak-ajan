@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Pınar DOĞAN",
-    "adres": "Yakacık Mahallesi Yasemin Caddesi No: 39/1 Yenimahalle/ANKARA",
+    "ad": "Hüseyin KAYA",
+    "adres": "Şentepe Mahallesi Papatya Sokağı No: 16/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,23 +26,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Arşivden Belge Çıkarılması Talebi",
+  "konu": "Bilgi Edinme Başvurusu",
   "sayi": null,
-  "tarih": "25.03.2026",
+  "tarih": "09.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Arşivden Belge Çıkarılması",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Talep": "Bilgi Edinme",
+    "Gerekçe": "işlemin süresi içinde tamamlanabilmesi amacıyla",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -53,8 +53,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşivden Belge Çıkarılması",
-    "resmî işlemlerde kullanılmak üzere",
-    "posta yoluyla adresime"
+    "Bilgi Edinme",
+    "şahsen başvuru yapılmıştır",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

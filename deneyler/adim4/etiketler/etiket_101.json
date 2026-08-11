@@ -5,45 +5,44 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Fatma ÇAKIR",
-    "adres": "Yeşilevler Mahallesi Ihlamur Caddesi No: 48/23 Yenimahalle/ANKARA",
+    "ad": "Sevgi ÇELIK",
+    "adres": "Karşıyaka Mahallesi Ihlamur Sokak No: 52/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2021357711",
-    "bolum": "Matematik (Yüksek Lisans)",
-    "sinif": null,
-    "ogrenim_duzeyi": "yüksek lisans öğrencisi"
+    "ogrenci_no": "2019567917",
+    "bolum": "İktisadi ve İdari Bilimler Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.01",
-    "ad": "Yeni Kayıt İşlemleri",
-    "saklama_suresi": "10"
+    "kod": "302.15",
+    "ad": "Mezuniyet İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Kayıt Süresi Uzatım Talebi",
+  "konu": "Diploma Eki Talebi",
   "sayi": null,
-  "tarih": "10.03.2026",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kayıt Süresi Uzatım",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Talep": "Diploma Eki",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
+    "Başvuru şekli": "başvuru posta yoluyla da gönderilmiştir",
+    "Bildirim tercihi": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -53,13 +52,13 @@
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kayıt Süresi Uzatım",
-    "mağduriyetin giderilmesi bakımından",
-    "şahsen başvuru yapılmıştır",
-    "posta yoluyla adresime"
+    "Diploma Eki",
+    "ilgili kuruma sunulmak üzere",
+    "başvuru posta yoluyla da gönderilmiştir",
+    "kayıtlı elektronik posta adresime"
   ]
 }

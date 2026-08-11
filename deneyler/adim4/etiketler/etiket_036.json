@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "muhendislik_fak",
+    "birim_adi": "Mühendislik Fakültesi Dekanlığı",
+    "detsis_no": "43123369",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,41 +23,43 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Mühendislik Fakültesi Dekanlığı",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
-    "saklama_suresi": "10"
+    "kod": "104.01",
+    "ad": "Program Açma",
+    "saklama_suresi": "15"
   },
-  "konu": "Topluluk Etkinlik İzni Talebi",
-  "sayi": "E-32625594-309-75478507",
-  "tarih": "26.02.2026",
+  "konu": "Kontenjan Talebi",
+  "sayi": "E-32625594-104.01-46956056",
+  "tarih": "23.04.2026",
   "ilgi": {
-    "tarih": "05.02.2026",
-    "sayi": "E-98244303-309-1869920"
+    "tarih": "08.04.2026",
+    "sayi": "E-43123369-104.01-7864488"
   },
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
-    "Durum": "talep edilen bilgi henüz gönderilmemiştir",
+    "Durum": "istenen belgeler tarafımıza ulaşmamıştır",
     "Talep": "ivedilikle gönderilmesi",
     "Süre": "ay sonuna kadar"
   },
   "paragraf_cumle_sayilari": [
-    4
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Mühendislik Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
+    "istenen belgeler tarafımıza ulaşmamıştır",
     "ivedilikle gönderilmesi",
     "ay sonuna kadar"
   ]

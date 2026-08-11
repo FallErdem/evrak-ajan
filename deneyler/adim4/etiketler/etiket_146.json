@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "makine_ikmal",
+    "birim_adi": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "detsis_no": "89052714",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
@@ -23,27 +23,27 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Fen İşleri Müdürlüğü",
+  "muhatap_parantez": "Makine İkmal Bakım ve Onarım Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "755.02",
-    "ad": "İhale",
-    "saklama_suresi": "15"
+    "kod": "801",
+    "ad": "Taşıt ve İş Makineleri İşleri",
+    "saklama_suresi": "10"
   },
-  "konu": "İhale İlanı Hk.",
-  "sayi": "E-24432702-755.02-7138880",
-  "tarih": "05.01.2026",
+  "konu": "İş Makinesi Kiralama Talebi",
+  "sayi": "E-56248377-801-413687",
+  "tarih": "11.05.2026",
   "ilgi": {
-    "tarih": "19.12.2025",
-    "sayi": "E-33152401-755.02-1924191"
+    "tarih": "08.05.2026",
+    "sayi": "E-89052714-801-3923723"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Durum": "talep edilen bilgi henüz gönderilmemiştir",
-    "Talep": "ivedilikle gönderilmesi",
-    "Süre": "ay sonuna kadar"
+    "Dayanak": "ilgide kayıtlı talebimiz",
+    "Durum": "konuya ilişkin cevap alınamamıştır",
+    "Talep": "bir an önce tamamlanması",
+    "Süre": "en geç bir hafta içinde"
   },
   "paragraf_cumle_sayilari": [
     4
@@ -53,12 +53,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Makine İkmal Bakım ve Onarım Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "ilgide kayıtlı yazı",
-    "ivedilikle gönderilmesi",
-    "ay sonuna kadar"
+    "ilgide kayıtlı talebimiz",
+    "konuya ilişkin cevap alınamamıştır",
+    "bir an önce tamamlanması",
+    "en geç bir hafta içinde"
   ]
 }

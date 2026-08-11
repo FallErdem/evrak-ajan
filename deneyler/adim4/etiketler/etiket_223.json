@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -31,36 +31,32 @@
     "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "Alım Miktarının Artırılması",
-  "sayi": "E-24316060-934.01-47526655",
-  "tarih": "22.01.2026",
+  "konu": "Muayene ve Kabul İşlemleri",
+  "sayi": "E-10213773-934.01-14940529",
+  "tarih": "25.02.2026",
   "ilgi": {
-    "tarih": "13.01.2026",
-    "sayi": "E-14588481-934.01-4699145"
+    "tarih": "17.02.2026",
+    "sayi": "E-14588481-934.01-6220547"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 1
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "94 kayıt",
+    "Dayanak": "ilgide kayıtlı bildirim",
+    "Dönem": "bahar dönemi",
+    "Sayı": "142 kayıt",
     "Ek 1": "Liste ve takvim",
-    "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması",
-    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
-    "Ek 2 içeriği": "aşamalara göre bölümlendirilmiştir",
+    "Ek 2": "iş programı",
+    "İstenen": "eklerin bağlı birimlere iletilmesi",
     "Kapsam": "listede yer alanların tamamı sürece dâhildir",
-    "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
-    "Süre": "dönem başlamadan önce",
-    "İrtibat": "koordinasyon Bakanlığımızca sağlanacaktır"
+    "Süre": "on beş gün içinde",
+    "İrtibat": "koordinasyon Valiliğimizce sağlanacaktır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    4,
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": [
@@ -71,13 +67,8 @@
     ],
     [
       "Ek 1",
-      "Ek 1 içeriği",
       "Ek 2",
-      "Ek 2 içeriği"
-    ],
-    [
-      "Kapsam",
-      "Değişiklik"
+      "Kapsam"
     ],
     [
       "Süre",
@@ -92,11 +83,11 @@
     "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
-    "94 kayıt",
+    "ilgide kayıtlı bildirim",
+    "bahar dönemi",
+    "142 kayıt",
     "Liste ve takvim",
-    "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması"
+    "iş programı",
+    "eklerin bağlı birimlere iletilmesi"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24312041",
+    "detsis_no": "24432702",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -26,36 +26,35 @@
   "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
-      "Belediye Başkanlıklarına",
-      "İl Özel İdarelerine"
+      "İlçe Belediye Başkanlıklarına"
     ],
     "bilgi": [
-      "Emniyet Genel Müdürlüğüne"
+      "Ankara Valiliğine"
     ]
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "752.01",
-    "ad": "Kamulaştırma",
-    "saklama_suresi": "B"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "Kamu Yararı Kararı Hk.",
-  "sayi": "E-24312041-752.01-87433136",
-  "tarih": "14.01.2026",
+  "konu": "Zemin Etüdü Raporunun Gönderilmesi",
+  "sayi": "E-24432702-755.01-11678014",
+  "tarih": "25.05.2026",
   "ilgi": {
-    "tarih": "12.12.2025",
-    "sayi": "E-87730597-752.01-3667103"
+    "tarih": "27.04.2026",
+    "sayi": "E-33152401-755.01-3782546"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Kamu Yararı Kararı",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Zemin Etüdü Raporunun Gönderilmesi",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "İnceleme": "talep ilgili birimce incelenmiştir",
-    "Kapsam": "döküm birim bazında hazırlanmıştır",
-    "Sınırlama": "yalnızca tamamlanmış işlemler dâhil edilmiştir",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
-    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Sınırlama": "sayısal ortama aktarılmamış kayıtlar bulunmamaktadır",
+    "Süre": "ek talepler yazılı olarak iletilmelidir",
+    "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -82,14 +81,13 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Kamu Yararı Kararı",
-    "olumlu, belge düzenlendi",
+    "Zemin Etüdü Raporunun Gönderilmesi",
+    "olumlu, talep karşılandı",
     "ilgide kayıtlı yazı",
-    "talep ilgili birimce incelenmiştir",
-    "döküm birim bazında hazırlanmıştır"
+    "ek talepler yazılı olarak iletilmelidir"
   ]
 }

@@ -12,11 +12,11 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Bereketli Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10105885",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "93213107",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
@@ -27,29 +27,28 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Yönetim Kurulu Seçimi Hk.",
-  "sayi": "E-10105885-165.01-9374",
-  "tarih": "14.05.2026",
+  "konu": "Yemek Hizmeti Bildirimi",
+  "sayi": "E-93213107-140-2273245",
+  "tarih": "17.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Gerekçe raporu",
-    "sayfa": 2
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Yönetim Kurulu Seçimi",
-    "Gerekçe": "kaynakların etkin kullanılması",
+    "Konu": "Yemek Hizmeti",
+    "Gerekçe": "iş yükünün dengeli dağıtılması",
     "Mevcut durum": "konu Müdürlüğümüzce değerlendirilmiştir",
     "Etki": "işlemler daha kısa sürede tamamlanacaktır",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,
@@ -60,8 +59,8 @@
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Yönetim Kurulu Seçimi",
-    "kaynakların etkin kullanılması",
+    "Yemek Hizmeti",
+    "iş yükünün dengeli dağıtılması",
     "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yapi_kontrol",
-    "birim_adi": "Yapı Kontrol Müdürlüğü",
-    "detsis_no": "53265760",
-    "imza_unvani": "Müdür"
+    "birim_kodu": "yenimahalle_belediyesi",
+    "birim_adi": "Yenimahalle Belediye Başkanlığı",
+    "detsis_no": "65859045",
+    "imza_unvani": "Belediye Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Kaymakamlığı",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "56248377",
+    "detsis_no": "24432702",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,33 +23,33 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "602.04",
+    "ad": "Stratejik Plan",
+    "saklama_suresi": "15"
   },
-  "konu": "İstinaf Başvurusu Hk.",
-  "sayi": "E-56248377-641.04-795875",
-  "tarih": "27.01.2026",
+  "konu": "Altı Aylık Değerlendirme Raporu",
+  "sayi": "E-24432702-602.04-11672223",
+  "tarih": "18.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "İstinaf Başvurusu konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "01.03.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "geçici görevle çalışan personel",
+    "Konu": "Altı Aylık Değerlendirme Raporu konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "esaslar üst yazı ile bildirilmiştir",
+    "Kapsam": "uygulama bütün birimleri kapsamaktadır",
+    "İstenen 1": "konunun bağlı birimlere bildirilmesi",
+    "İstenen 2": "işlem sayısının dönem sonunda gönderilmesi",
+    "Yürürlük": "01.05.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "hâlihazırda işleme alınmış başvurular",
     "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
-    "İrtibat": "uygulama Kaymakamlığımızca izlenecektir"
+    "İrtibat": "uygulama Başkanlığımızca izlenecektir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -77,14 +77,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yapı Kontrol Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "01.03.2026 tarihinde yürürlüğe girmiştir",
-    "geçici görevle çalışan personel",
-    "uygulama Kaymakamlığımızca izlenecektir"
+    "esaslar üst yazı ile bildirilmiştir",
+    "uygulama bütün birimleri kapsamaktadır",
+    "konunun bağlı birimlere bildirilmesi",
+    "01.05.2026 tarihinde yürürlüğe girmiştir",
+    "hâlihazırda işleme alınmış başvurular",
+    "uygulama Başkanlığımızca izlenecektir"
   ]
 }

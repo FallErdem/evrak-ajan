@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -31,23 +31,22 @@
     "ad": "Hukuki",
     "saklama_suresi": "30"
   },
-  "konu": "Hukuki Görüş Talebi",
-  "sayi": "E-55461037-045.02-1500105",
-  "tarih": "28.05.2026",
+  "konu": "İhtilaflı Hususta Değerlendirme Talebi",
+  "sayi": "E-10213773-045.02-15052913",
+  "tarih": "22.05.2026",
   "ilgi": {
-    "tarih": "18.05.2026",
-    "sayi": "E-82642947-045.02-7092463"
+    "tarih": "05.05.2026",
+    "sayi": "E-82642947-045.02-3686976"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Hukuki Görüş",
-    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
+    "Konu": "İhtilaflı Hususta Değerlendirme",
+    "Ortak iş": "İhtilaflı Hususta Değerlendirme konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
     "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
-    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
+    "Talep": "İhtilaflı Hususta Değerlendirme konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
-    2,
     2,
     3
   ],
@@ -60,6 +59,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Hukuki Görüş"
+    "İhtilaflı Hususta Değerlendirme"
   ]
 }

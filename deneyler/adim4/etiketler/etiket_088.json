@@ -5,53 +5,55 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ozel_egitim_rehberlik_sb",
-    "birim_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
-    "detsis_no": "87302975",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Aydınyaka Mesleki ve Teknik Anadolu Lisesi Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "10204788",
-    "detsis_kaynagi": "sentetik"
+    "detsis_no": "93213107",
+    "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+  "muhatap_makam": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "160.01.02",
-    "ad": "Kaynaştırma Eğitimi",
+    "kod": "934.01",
+    "ad": "Mal Alım İşi",
     "saklama_suresi": "10"
   },
-  "konu": "BEP Hazırlanması Hk.",
-  "sayi": "E-10204788-160.01.02-2335",
-  "tarih": "12.02.2026",
+  "konu": "Alım Miktarının Artırılması",
+  "sayi": "E-93213107-934.01-2264490",
+  "tarih": "05.03.2026",
   "ilgi": {
-    "tarih": "29.12.2025",
-    "sayi": "E-87302975-160.01.02-8694386"
+    "tarih": "27.01.2026",
+    "sayi": "E-14588481-934.01-6204386"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "BEP Hazırlanması",
-    "Talebin sonucu": "olumlu, talep karşılandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "İnceleme": "talep ilgili birimce incelenmiştir",
-    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
-    "Sınırlama": "yalnızca tamamlanmış işlemler dâhil edilmiştir",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
-    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
+    "Talep": "Alım Miktarının Artırılması",
+    "Talebin sonucu": "olumlu, talep uygun görüldü",
+    "Dayanak": "ilgide kayıtlı başvuru",
+    "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "bilgiler başvuru türlerine göre gruplandırılmıştır",
+    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
+    "Süre": "sonraki döküm üç ayda bir gönderilecektir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3,
+    2,
+    2,
     2
   ],
   "paragraf_alanlari": [
@@ -62,6 +64,9 @@
     ],
     [
       "Talebin sonucu",
+      "Gönderilen"
+    ],
+    [
       "Kapsam",
       "Sınırlama"
     ],
@@ -74,12 +79,12 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Özel Eğitim ve Rehberlik Şube Müdürlüğü"
+    "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "BEP Hazırlanması",
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı",
-    "talep ilgili birimce incelenmiştir"
+    "Alım Miktarının Artırılması",
+    "olumlu, talep uygun görüldü",
+    "ilgide kayıtlı başvuru",
+    "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

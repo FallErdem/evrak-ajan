@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24312041",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -23,61 +23,56 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Hukuk İşleri Müdürlüğü",
+  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "125",
+    "ad": "Evlendirme İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Karar Örneğinin Gönderilmesi",
-  "sayi": "E-24312041-641.04-87803208",
-  "tarih": "03.04.2026",
+  "konu": "Evlenme Dosyasının İncelenmesi",
+  "sayi": "E-56248377-125-410123",
+  "tarih": "24.04.2026",
   "ilgi": {
-    "tarih": "24.02.2026",
-    "sayi": "E-10578106-641.04-1508865"
+    "tarih": "17.04.2026",
+    "sayi": "E-15986609-125-958307"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Liste ve takvim",
+    "aciklama": "Öğrenci listesi",
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "mali yıl",
-    "Ek 1": "Liste ve takvim",
-    "Ek 2": "uygulama takvimi",
+    "Dayanak": "ilgide kayıtlı talimat",
+    "Dönem": "üçüncü çeyrek",
+    "Sayı": "112 kayıt",
+    "Ek 1": "Öğrenci listesi",
+    "Ek 2": "zaman çizelgesi",
     "İstenen": "listenin ilgili birimlere dağıtılması",
-    "Ek 1 içeriği": "alfabetik olarak sıralanmıştır",
-    "Ek 2 içeriği": "haftalık zaman çizelgesi biçimindedir",
     "Kapsam": "listede yer alanların tamamı sürece dâhildir",
-    "Değişiklik": "güncel liste dönem başında yenilenecektir",
-    "Süre": "dönem başlamadan önce"
+    "Süre": "on beş gün içinde",
+    "İrtibat": "süreç Kaymakamlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
     3,
-    2
+    3
   ],
   "paragraf_alanlari": [
     [
       "Dayanak",
-      "Dönem"
+      "Dönem",
+      "Sayı"
     ],
     [
       "Ek 1",
-      "Ek 1 içeriği",
-      "Ek 2"
-    ],
-    [
-      "Ek 2 içeriği",
-      "Kapsam",
-      "Değişiklik"
+      "Ek 2",
+      "Kapsam"
     ],
     [
       "Süre",
+      "İrtibat",
       "İstenen"
     ]
   ],
@@ -85,15 +80,15 @@
   "kusur": "sayi_eksik",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "ilgide kayıtlı yazı",
-    "mali yıl",
-    "Liste ve takvim",
-    "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması",
-    "alfabetik olarak sıralanmıştır"
+    "ilgide kayıtlı talimat",
+    "üçüncü çeyrek",
+    "112 kayıt",
+    "Öğrenci listesi",
+    "zaman çizelgesi",
+    "listenin ilgili birimlere dağıtılması"
   ]
 }

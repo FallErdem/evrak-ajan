@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "zabita",
-    "birim_adi": "Zabıta Müdürlüğü",
-    "detsis_no": "50719027",
+    "birim_kodu": "ruhsat_denetim",
+    "birim_adi": "Ruhsat ve Denetim Müdürlüğü",
+    "detsis_no": "59553370",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Merve TEKIN",
-    "adres": "Susuz Mahallesi Sümbül Sokak No: 70/4 Yenimahalle/ANKARA",
+    "ad": "Şaban TEKIN",
+    "adres": "Uğur Mumcu Mahallesi Kestane Sokağı No: 21/20 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,28 +22,28 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Zabıta Müdürlüğü",
+  "muhatap_parantez": "Ruhsat ve Denetim Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "175",
+    "ad": "Ölçü ve Ölçü Aletleri ile İlgili İşler",
+    "saklama_suresi": "10"
   },
-  "konu": "Ceza Tutarının Yeniden Hesaplanması",
+  "konu": "Damga Süresi Dolan Aletler",
   "sayi": null,
-  "tarih": "16.03.2026",
+  "tarih": "24.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ceza Tutarının Yeniden Hesaplanması",
-    "Sorun": "kesilen para cezasının tebligatı tarafıma hiç ulaşmadı",
-    "Süre": "yaklaşık üç haftadır",
+    "Şikâyet konusu": "Damga Süresi Dolan Aletler",
+    "Sorun": "terazi damgalama başvurum sezon boyunca sıraya alınmadı",
+    "Süre": "bir aydan uzun süredir",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
-    "Talep": "sorunun giderilmesi"
+    "Talep": "konunun ilgili birimce ele alınması",
+    "Yer": "Yeşilevler Mahallesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
     2,
     3
   ],
@@ -52,12 +52,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Zabıta Müdürlüğü",
+    "Ruhsat ve Denetim Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ceza Tutarının Yeniden Hesaplanması",
-    "yaklaşık üç haftadır",
-    "sorunun giderilmesi"
+    "Damga Süresi Dolan Aletler",
+    "bir aydan uzun süredir",
+    "konunun ilgili birimce ele alınması",
+    "Yeşilevler Mahallesi"
   ]
 }

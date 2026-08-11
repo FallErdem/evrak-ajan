@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hasan ÖZTÜRK",
-    "adres": "Çiğdemtepe Mahallesi Zeytin Caddesi No: 113/10 Yenimahalle/ANKARA",
+    "ad": "Salih KARA",
+    "adres": "Yakacık Mahallesi Papatya Sokağı No: 112/9 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,28 +22,28 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "198.02.01",
+    "ad": "Diploma",
+    "saklama_suresi": "B"
   },
-  "konu": "Disiplin Cezasına İtiraz",
+  "konu": "Diploma Kayıt Numarası Sorgusu",
   "sayi": null,
-  "tarih": "16.02.2026",
+  "tarih": "17.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Fotoğraf",
+    "aciklama": "Vekâletname",
     "sayfa": 2
   },
   "somut_bilgiler": {
-    "İtiraz konusu": "Disiplin Cezasına İtiraz",
+    "İtiraz konusu": "Diploma Kayıt Numarası Sorgusu",
     "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "benzer başvurular olumlu sonuçlandırılmıştır",
-    "Talep": "kararın yeniden değerlendirilmesi"
+    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
+    "Talep": "dosyamın yeniden ele alınması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -55,11 +55,11 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Disiplin Cezasına İtiraz",
+    "Diploma Kayıt Numarası Sorgusu",
     "talep olumsuz sonuçlandırılmıştır",
-    "kararın yeniden değerlendirilmesi"
+    "dosyamın yeniden ele alınması"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin POLAT",
-    "adres": "Emniyet Mahallesi Nergis Caddesi No: 21/23 Yenimahalle/ANKARA",
+    "ad": "Mustafa ARSLAN",
+    "adres": "Susuz Mahallesi Papatya Caddesi No: 55/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,14 +32,14 @@
   },
   "konu": "Bağış Makbuzu Talebi",
   "sayi": null,
-  "tarih": "22.05.2026",
+  "tarih": "27.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Bağış Makbuzu",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Gerekçe": "başvuru süresinin dolmak üzere olması nedeniyle",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "iadeli taahhütlü posta ile"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -53,7 +53,7 @@
   ],
   "anahtar_terimler": [
     "Bağış Makbuzu",
-    "mağduriyetin giderilmesi bakımından",
-    "elektronik posta ile"
+    "şahsen başvuru yapılmıştır",
+    "iadeli taahhütlü posta ile"
   ]
 }

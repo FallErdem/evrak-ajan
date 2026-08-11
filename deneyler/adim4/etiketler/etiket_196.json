@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Merkez Eğitim Hizmetleri Ltd. Şti.",
+    "kurum_adi": "Anadolu Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Susuz Mahallesi Papatya Caddesi No: 104/9 Yenimahalle/ANKARA",
+    "adres": "Ostim Mahallesi Sümbül Sokak No: 20/20 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,20 +31,19 @@
     "ad": "Yurtdışı Eğitim Denkliği",
     "saklama_suresi": "B"
   },
-  "konu": "Yurtdışı Öğrenim Denklik Başvurusu",
-  "sayi": "2026/637",
-  "tarih": "30.04.2026",
+  "konu": "Geçici Kayıt Talebi",
+  "sayi": "2026/433",
+  "tarih": "10.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Yurtdışı Öğrenim Denklik işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Talep": "Geçici Kayıt işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "yıllara göre sayısal döküm",
+    "Bildirim yolu": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -55,6 +54,7 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "e-Devlet üzerinden"
+    "yıllara göre sayısal döküm",
+    "elektronik posta ile"
   ]
 }

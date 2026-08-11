@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24312041",
+    "detsis_no": "24432702",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -31,28 +31,28 @@
     "ad": "Stratejik Plan",
     "saklama_suresi": "15"
   },
-  "konu": "Stratejik Plan Taslağı Hakkında Görüş",
-  "sayi": "E-24312041-602.04-87756296",
-  "tarih": "24.03.2026",
+  "konu": "Stratejik Plan İzleme Raporu",
+  "sayi": "E-24432702-602.04-11584320",
+  "tarih": "02.02.2026",
   "ilgi": {
-    "tarih": "16.03.2026",
-    "sayi": "E-65859045-602.04-1664602"
+    "tarih": "30.01.2026",
+    "sayi": "E-65859045-602.04-2715919"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Stratejik Plan Taslağı Hakkında Görüş konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "01.02.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "geçici görevle çalışan personel",
+    "Konu": "Stratejik Plan İzleme Raporu konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "esaslar üst yazı ile bildirilmiştir",
+    "Kapsam": "düzenleme merkez ve taşra birimlerinde geçerlidir",
+    "İstenen 1": "konunun bağlı birimlere bildirilmesi",
+    "İstenen 2": "işlem sayısının dönem sonunda gönderilmesi",
+    "Yürürlük": "15.03.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "geçici koruma statüsündeki başvurular",
     "Esas 1": "işlemler tek merkezden yürütülecektir",
-    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
+    "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -83,10 +83,10 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "01.02.2026 tarihinde yürürlüğe girmiştir",
-    "geçici görevle çalışan personel",
+    "esaslar üst yazı ile bildirilmiştir",
+    "konunun bağlı birimlere bildirilmesi",
+    "15.03.2026 tarihinde yürürlüğe girmiştir",
+    "geçici koruma statüsündeki başvurular",
     "işlemler tek merkezden yürütülecektir"
   ]
 }

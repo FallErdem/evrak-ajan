@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "temizlik_isleri",
-    "birim_adi": "Temizlik İşleri Müdürlüğü",
-    "detsis_no": "83011479",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_adi": "Çankaya Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "55461037",
+    "detsis_no": "90226917",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -23,41 +23,40 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
+  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "155.01",
-    "ad": "Atık Yönetimi",
-    "saklama_suresi": "10"
+    "kod": "105.04",
+    "ad": "Meclis Kararları",
+    "saklama_suresi": "15"
   },
-  "konu": "Çöp Toplama Talebi",
-  "sayi": "E-55461037-155.01-1391351",
-  "tarih": "15.01.2026",
+  "konu": "Kararın Kesinleşmesi Hk.",
+  "sayi": "E-90226917-105.04-3758437",
+  "tarih": "09.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Çöp Toplama",
-    "Mevcut uygulama": "benzer taleplerde farklı sonuçlar doğmuştur",
-    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
+    "Konu": "Kararın Kesinleşmesi",
+    "Mevcut uygulama": "uygulama birimler arasında farklılık göstermektedir",
+    "Sonuç": "personel arasında tereddüt oluşmaktadır",
     "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Talep": "tereddüdün giderilmesi için görüş verilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Temizlik İşleri Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Çöp Toplama",
-    "işlemlerde gecikme yaşanmaktadır",
-    "konu hakkında görüş bildirilmesi"
+    "Kararın Kesinleşmesi",
+    "personel arasında tereddüt oluşmaktadır"
   ]
 }

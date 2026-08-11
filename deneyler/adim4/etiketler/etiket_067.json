@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Mali Hizmetler Müdürlüğü",
+    "kurum_adi": "Temizlik İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "43195403",
+    "detsis_no": "83011479",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,27 +27,27 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "858",
-    "ad": "İdari Yaptırım/Para Cezası İşleri",
-    "saklama_suresi": "15"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "Para Cezası Tahsilatı Hk.",
-  "sayi": "E-43195403-858-3599417",
-  "tarih": "17.04.2026",
+  "konu": "Yürütmeyi Durdurma Kararı Hk.",
+  "sayi": "E-83011479-641.04-2293638",
+  "tarih": "05.03.2026",
   "ilgi": {
-    "tarih": "30.03.2026",
-    "sayi": "E-10578106-858-1526553"
+    "tarih": "27.01.2026",
+    "sayi": "E-10578106-641.04-2551533"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Para Cezası Tahsilatı",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
-    "Kapsam": "döküm birim bazında hazırlanmıştır",
-    "Sınırlama": "yalnızca tamamlanmış işlemler dâhil edilmiştir",
+    "Talep": "Yürütmeyi Durdurma Kararı",
+    "Talebin sonucu": "olumlu, kayıt güncellendi",
+    "Dayanak": "ilgide kayıtlı başvuru",
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "bilgiler başvuru türlerine göre gruplandırılmıştır",
+    "Sınırlama": "arşive devredilmiş kayıtlar ayrıca istenmelidir",
     "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
-    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -78,10 +78,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Para Cezası Tahsilatı",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
-    "konu Müdürlüğümüzce değerlendirilmiştir",
-    "döküm birim bazında hazırlanmıştır"
+    "Yürütmeyi Durdurma Kararı",
+    "olumlu, kayıt güncellendi",
+    "ilgide kayıtlı başvuru",
+    "talep ilgili birimce incelenmiştir"
   ]
 }

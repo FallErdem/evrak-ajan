@@ -5,10 +5,10 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "yenimahalle_ilce_mem",
-    "birim_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
-    "detsis_no": "93213107",
-    "imza_unvani": "İlçe Millî Eğitim Müdürü"
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
+    "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
@@ -22,42 +22,39 @@
   "aile": "bilgilendirme",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
-  "muhatap_makam": "Yenimahalle Kaymakamlığı",
-  "muhatap_parantez": "İlçe Millî Eğitim Müdürlüğü",
+  "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
-    "saklama_suresi": "10"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Öğrenci Taşıma Güzergâhı Hk.",
-  "sayi": "E-24316060-140-47625752",
-  "tarih": "12.02.2026",
+  "konu": "Nakil Başvurusunun Değerlendirilmesi",
+  "sayi": "E-24316060-210.01-66526426",
+  "tarih": "18.05.2026",
   "ilgi": {
-    "tarih": "20.01.2026",
-    "sayi": "E-93213107-140-3999738"
+    "tarih": "20.04.2026",
+    "sayi": "E-21291472-210.01-6423847"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 1
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Konu": "Öğrenci Taşıma Güzergâhı konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Nakil Başvurusunun Değerlendirilmesi konusunda yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "Yürürlük": "01.03.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "yürürlük tarihinden önce sonuçlandırılan işlemler",
-    "Esas 1": "işlemler tek merkezden yürütülecektir",
-    "Esas 2": "değerlendirme sonucu başvurana yazılı bildirilecektir",
-    "Geçiş hükmü": "geçiş dönemi üç ay olarak belirlenmiştir",
-    "Süre": "ay sonuna kadar",
-    "İrtibat": "uygulama Bakanlığımızca izlenecektir"
+    "Kapsam": "kapsama giren bütün işlemler bu esasa göre yürütülür",
+    "İstenen 1": "düzenlemenin ilgili birimlerde ilan edilmesi",
+    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Yürürlük": "15.01.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "hâlihazırda işleme alınmış başvurular",
+    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
+    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
     3,
     3
@@ -65,20 +62,16 @@
   "paragraf_alanlari": [
     [
       "Konu",
-      "Kaynak"
+      "Kaynak",
+      "Yürürlük"
     ],
     [
       "Kapsam",
       "Kapsam dışı",
-      "Yürürlük"
+      "Esas 1"
     ],
     [
-      "Esas 1",
-      "Esas 2",
-      "Geçiş hükmü"
-    ],
-    [
-      "Süre",
+      "İstenen 2",
       "İrtibat",
       "İstenen 1"
     ]
@@ -87,14 +80,10 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "01.03.2026 tarihinde yürürlüğe girmiştir",
-    "işlemler tek merkezden yürütülecektir",
-    "geçiş dönemi üç ay olarak belirlenmiştir",
-    "ay sonuna kadar"
+    "15.01.2026 tarihinde yürürlüğe girmiştir",
+    "hâlihazırda işleme alınmış başvurular"
   ]
 }

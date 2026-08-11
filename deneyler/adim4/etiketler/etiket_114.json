@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Şafak Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Merkez Danışmanlık Ltd. Şti.",
     "ad": null,
-    "adres": "Emniyet Mahallesi Erguvan Caddesi No: 39/10 Yenimahalle/ANKARA",
+    "adres": "Demetevler Mahallesi Menekşe Caddesi No: 75/18 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,19 +31,19 @@
     "ad": "Emlak Vergisi",
     "saklama_suresi": "15"
   },
-  "konu": "Emlak Vergisi Borç Sorgulama Talebi",
-  "sayi": "2026/29",
-  "tarih": "06.01.2026",
+  "konu": "Taksit Ödeme Bilgisi",
+  "sayi": "2026/117",
+  "tarih": "22.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Emlak Vergisi Borç Sorgulama işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "Talep": "Taksit Ödeme Bilgisi işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Bildirim yolu": "cep telefonuma kısa mesajla"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -55,6 +55,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "cep telefonuma kısa mesajla"
   ]
 }

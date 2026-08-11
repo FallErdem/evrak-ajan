@@ -32,24 +32,24 @@
     "saklama_suresi": "30"
   },
   "konu": "Hukuki Görüş Talebi",
-  "sayi": "E-65859045-045.02-1675647",
-  "tarih": "17.04.2026",
+  "sayi": "E-65859045-045.02-2759431",
+  "tarih": "29.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Protokol taslağı",
-    "sayfa": 4
+    "aciklama": "Çalışma programı",
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Konu": "Hukuki Görüş",
     "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
     "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
-    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
+    "Beklenen katkı": "kurumunuzun onayı beklenmektedir",
     "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -60,6 +60,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Hukuki Görüş"
+    "Hukuki Görüş",
+    "kurumunuzun onayı beklenmektedir"
   ]
 }

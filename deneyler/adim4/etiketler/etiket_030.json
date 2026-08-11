@@ -5,53 +5,55 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "kurum_adi": "Genel Sekreterlik",
     "ad": null,
     "adres": null,
-    "detsis_no": "86488853",
+    "detsis_no": "82642947",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Personel Dairesi Başkanlığı",
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Gazi Üniversitesi Rektörlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "209",
-    "ad": "Akademik Personel Görevlendirmeleri",
+    "kod": "050.04",
+    "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Ders Görevlendirmesi Hk.",
-  "sayi": "E-86488853-209-8899797",
-  "tarih": "12.01.2026",
+  "konu": "Kurul Kararının Gönderilmesi",
+  "sayi": "E-82642947-050.04-3667775",
+  "tarih": "14.04.2026",
   "ilgi": {
-    "tarih": "01.12.2025",
-    "sayi": "E-42218640-209-1133001"
+    "tarih": "05.03.2026",
+    "sayi": "E-39985474-050.04-6792158"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Ders Görevlendirmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Dayanak": "ilgide kayıtlı yazı",
+    "Talep": "Kurul Kararının Gönderilmesi",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Dayanak": "ilgide kayıtlı başvuru",
+    "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
     "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
-    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
-    "Sınırlama": "yalnızca tamamlanmış işlemler dâhil edilmiştir",
-    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
-    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
+    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Sınırlama": "yalnızca talep edilen döneme ait veriler yer almaktadır",
+    "Süre": "veriler her dönem başında güncellenmektedir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3,
+    2,
+    2,
     2
   ],
   "paragraf_alanlari": [
@@ -62,6 +64,9 @@
     ],
     [
       "Talebin sonucu",
+      "Gönderilen"
+    ],
+    [
       "Kapsam",
       "Sınırlama"
     ],
@@ -74,13 +79,13 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Ders Görevlendirmesi",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
+    "Kurul Kararının Gönderilmesi",
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı başvuru",
     "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -32,20 +32,20 @@
     "saklama_suresi": "10"
   },
   "konu": "Staj Kabul Yazısı Talebi",
-  "sayi": "E-65859045-773-1689067",
-  "tarih": "26.05.2026",
+  "sayi": "E-55461037-773-1876571",
+  "tarih": "24.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Konu": "Staj Kabul Yazısı",
     "Ortak iş": "Staj Kabul Yazısı konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
-    "Beklenen katkı": "kurumunuzdan teknik destek beklenmektedir",
+    "Gerekçe": "konu her iki kurumun sorumluluk alanına girmektedir",
+    "Beklenen katkı": "kurumunuzun onayı beklenmektedir",
     "Talep": "Staj Kabul Yazısı kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
@@ -56,6 +56,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Staj Kabul Yazısı"
+    "Staj Kabul Yazısı",
+    "kurumunuzun onayı beklenmektedir"
   ]
 }

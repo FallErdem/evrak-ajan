@@ -5,48 +5,49 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Selin POLAT",
-    "adres": "Pamuklar Mahallesi Erguvan Caddesi No: 2/18 Yenimahalle/ANKARA",
+    "ad": "Sultan AVCI",
+    "adres": "Barıştepe Mahallesi Sümbül Sokağı No: 120/1 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020757564",
-    "bolum": "Fen Fakültesi Matematik",
-    "sinif": "4"
+    "ogrenci_no": "2021452403",
+    "bolum": "Matematik (Yüksek Lisans)",
+    "sinif": null,
+    "ogrenim_duzeyi": "yüksek lisans öğrencisi"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Genel Sekreterlik",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "302.14",
+    "ad": "Tez İşleri",
+    "saklama_suresi": "B"
   },
-  "konu": "Arşiv Belgesi Araştırma Talebi",
+  "konu": "Tez Konusu Değişikliği Talebi",
   "sayi": null,
-  "tarih": "26.01.2026",
+  "tarih": "26.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Vekâletname",
-    "sayfa": 2
+    "aciklama": "Önceki başvuru sureti",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Talep": "Arşiv Belgesi Araştırma",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Talep": "Tez Konusu Değişikliği",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
+    "Bildirim tercihi": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
     4
@@ -56,12 +57,12 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Arşiv Belgesi Araştırma",
-    "resmî işlemlerde kullanılmak üzere",
-    "elektronik posta ile"
+    "Tez Konusu Değişikliği",
+    "mağduriyetin giderilmesi bakımından",
+    "e-Devlet üzerinden"
   ]
 }

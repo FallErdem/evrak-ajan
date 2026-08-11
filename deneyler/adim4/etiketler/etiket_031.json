@@ -5,66 +5,66 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Genel Sekreterlik",
+    "kurum_adi": "Mühendislik Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "82642947",
+    "detsis_no": "43123369",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_makam": "Personel Dairesi Başkanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "201",
+    "ad": "Seçim ve Atama İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Hibe Ödemesi Hk.",
-  "sayi": "E-82642947-310-7021759",
-  "tarih": "03.03.2026",
+  "konu": "Atama Onayı Hk.",
+  "sayi": "E-43123369-201-7826865",
+  "tarih": "17.02.2026",
   "ilgi": {
-    "tarih": "20.01.2026",
-    "sayi": "E-17311665-310-4594185"
+    "tarih": "13.01.2026",
+    "sayi": "E-42218640-201-3177370"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Hibe Ödemesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Atama Onayı",
+    "Talebin sonucu": "olumlu, dosya sonuçlandırıldı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
     "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
-    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
-    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
-    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "arşive devredilmiş kayıtlar ayrıca istenmelidir",
+    "Süre": "eksik görülen hususlar bir ay içinde bildirilebilir",
     "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
+    2,
     2,
     2
   ],
   "paragraf_alanlari": [
     [
       "Talep",
-      "Dayanak"
+      "Dayanak",
+      "İnceleme"
     ],
     [
       "Talebin sonucu",
-      "Gönderilen",
-      "İnceleme"
+      "Gönderilen"
     ],
     [
       "Kapsam",
@@ -79,13 +79,13 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Personel Dairesi Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Hibe Ödemesi",
-    "olumlu, belge düzenlendi",
+    "Atama Onayı",
+    "olumlu, dosya sonuçlandırıldı",
     "ilgide kayıtlı yazı",
-    "talep edilen bilgiler ekte sunulmuştur"
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

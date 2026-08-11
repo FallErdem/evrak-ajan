@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -26,61 +26,65 @@
   "muhatap_parantez": null,
   "dagitim": {
     "geregi": [
-      "Valilik Makamlarına",
-      "İl Millî Eğitim Müdürlüklerine"
+      "İl Müdürlüklerine"
     ],
     "bilgi": [
-      "Cumhurbaşkanlığına"
+      "İçişleri Bakanlığına"
     ]
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
+    "saklama_suresi": "10"
   },
-  "konu": "Stratejik Plan İzleme Raporu",
-  "sayi": "E-24316060-602.04-47924772",
-  "tarih": "16.04.2026",
+  "konu": "Yatırım Programı Teklifi",
+  "sayi": "E-10213773-602.07-14996928",
+  "tarih": "09.04.2026",
   "ilgi": {
-    "tarih": "08.04.2026",
-    "sayi": "E-14588481-602.04-4761881"
+    "tarih": "26.02.2026",
+    "sayi": "E-14588481-602.07-6227540"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Liste ve takvim",
-    "sayfa": 6
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan öğretim yılı",
-    "Sayı": "112 kayıt",
+    "Dayanak": "ilgide kayıtlı talimat",
+    "Dönem": "öğretim yılı",
     "Ek 1": "Liste ve takvim",
-    "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Ek 2": "zaman çizelgesi",
+    "İstenen": "gönderilen belgelerin dağıtımının sağlanması",
+    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
+    "Ek 2 içeriği": "haftalık zaman çizelgesi biçimindedir",
     "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
-    "Süre": "dönem başlamadan önce",
-    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
+    "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
+    "Süre": "on beş gün içinde"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
     3,
-    3
+    2
   ],
   "paragraf_alanlari": [
     [
       "Dayanak",
-      "Dönem",
-      "Sayı"
+      "Dönem"
     ],
     [
       "Ek 1",
-      "Ek 2",
-      "Kapsam"
+      "Ek 1 içeriği",
+      "Ek 2"
+    ],
+    [
+      "Ek 2 içeriği",
+      "Kapsam",
+      "Değişiklik"
     ],
     [
       "Süre",
-      "İrtibat",
       "İstenen"
     ]
   ],
@@ -91,11 +95,11 @@
     "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "ilgide kayıtlı yazı",
-    "içinde bulunulan öğretim yılı",
-    "112 kayıt",
+    "ilgide kayıtlı talimat",
+    "öğretim yılı",
     "Liste ve takvim",
-    "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması"
+    "zaman çizelgesi",
+    "haftalık zaman çizelgesi biçimindedir",
+    "on beş gün içinde"
   ]
 }

@@ -32,25 +32,25 @@
     "saklama_suresi": "15"
   },
   "konu": "Kararın Kesinleşmesi Hk.",
-  "sayi": "E-90226917-105.04-1948885",
-  "tarih": "12.02.2026",
+  "sayi": "E-90226917-105.04-3774167",
+  "tarih": "19.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
-    "sayfa": 6
+    "aciklama": "Genelge sureti",
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Konu": "Kararın Kesinleşmesi konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "Yürürlük": "01.01.2026 tarihinde yürürlüğe girmiştir",
+    "Kaynak": "karar yapılan değerlendirme sonucunda alınmıştır",
+    "Kapsam": "uygulama bütün birimleri kapsamaktadır",
+    "İstenen 1": "esasların personele tebliğ edilmesi",
+    "Yürürlük": "01.02.2026 tarihinde yürürlüğe girmiştir",
     "Kapsam dışı": "geçici görevle çalışan personel",
-    "Esas 1": "her başvuru için ayrı dosya açılacaktır",
+    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
     "Esas 2": "itirazlar on beş gün içinde sonuçlandırılacaktır",
-    "Geçiş hükmü": "geçiş dönemi üç ay olarak belirlenmiştir",
-    "Süre": "ay sonuna kadar",
+    "Geçiş hükmü": "devam eden işlemler için ek süre tanınmıştır",
+    "Süre": "dönem sonuna kadar",
     "İrtibat": "süreç Başkanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
@@ -88,11 +88,11 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "01.01.2026 tarihinde yürürlüğe girmiştir",
+    "uygulama bütün birimleri kapsamaktadır",
+    "esasların personele tebliğ edilmesi",
+    "01.02.2026 tarihinde yürürlüğe girmiştir",
     "geçici görevle çalışan personel",
-    "her başvuru için ayrı dosya açılacaktır",
-    "geçiş dönemi üç ay olarak belirlenmiştir"
+    "dönem sonuna kadar",
+    "süreç Başkanlığımızca takip edilmektedir"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yenimahalle_belediyesi",
-    "birim_adi": "Yenimahalle Belediye Başkanlığı",
-    "detsis_no": "65859045",
-    "imza_unvani": "Belediye Başkanı"
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
+    "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "İçişleri Bakanlığı",
+    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24312041",
+    "detsis_no": "24304062",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -30,49 +30,49 @@
       "İl Özel İdarelerine"
     ],
     "bilgi": [
-      "Emniyet Genel Müdürlüğüne"
+      "81 İl Valiliğine"
     ]
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
-    "saklama_suresi": "15"
+    "kod": "155.01",
+    "ad": "Atık Yönetimi",
+    "saklama_suresi": "10"
   },
-  "konu": "Stratejik Plan Hazırlık Çalışmaları",
-  "sayi": "E-24312041-602.04-87761726",
-  "tarih": "25.03.2026",
+  "konu": "Tıbbi Atık Bertarafı Hk.",
+  "sayi": "E-24304062-155.01-57640878",
+  "tarih": "05.02.2026",
   "ilgi": {
-    "tarih": "10.02.2026",
-    "sayi": "E-65859045-602.04-1652910"
+    "tarih": "20.01.2026",
+    "sayi": "E-83011479-155.01-2268925"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Stratejik Plan Hazırlık Çalışmaları",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "İnceleme": "talep ilgili birimce incelenmiştir",
-    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
-    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
+    "Talep": "Tıbbi Atık Bertarafı",
+    "Talebin sonucu": "olumlu, gerekli düzeltme yapıldı",
+    "Dayanak": "ilgide kayıtlı başvuru",
+    "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
+    "İnceleme": "konu Bakanlığımızca değerlendirilmiştir",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "arşive devredilmiş kayıtlar ayrıca istenmelidir",
     "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
-    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
+    "İrtibat": "konuyla ilgili irtibat Bakanlığımızca sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
-    3,
     2,
+    3,
     2,
     2
   ],
   "paragraf_alanlari": [
     [
       "Talep",
-      "Dayanak",
-      "İnceleme"
+      "Dayanak"
     ],
     [
       "Talebin sonucu",
-      "Gönderilen"
+      "Gönderilen",
+      "İnceleme"
     ],
     [
       "Kapsam",
@@ -87,12 +87,15 @@
   "kusur": "sdp_uyumsuz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Stratejik Plan Hazırlık Çalışmaları",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
-    "talep ilgili birimce incelenmiştir"
+    "Tıbbi Atık Bertarafı",
+    "olumlu, gerekli düzeltme yapıldı",
+    "ilgide kayıtlı başvuru",
+    "talep edilen bilgiler ekte sunulmuştur",
+    "konu Bakanlığımızca değerlendirilmiştir",
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

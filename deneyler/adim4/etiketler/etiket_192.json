@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ahmet YAVUZ",
-    "adres": "İvedik Mahallesi Yasemin Sokağı No: 120/24 Yenimahalle/ANKARA",
+    "ad": "Elif KAYA",
+    "adres": "Ragıpbey Mahallesi Nergis Caddesi No: 111/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2022595940",
-    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
-    "sinif": "4"
+    "ogrenci_no": "2024734721",
+    "bolum": "Teknoloji Fakültesi Elektrik-Elektronik",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
@@ -29,23 +29,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Taksitlendirme Talebi",
+  "konu": "Kesin Kayıt Başvurusu",
   "sayi": null,
-  "tarih": "26.01.2026",
+  "tarih": "14.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Taksitlendirme",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Talep": "Kesin Kayıt",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -56,7 +56,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "mağduriyetin giderilmesi bakımından",
-    "e-Devlet üzerinden"
+    "Kesin Kayıt",
+    "sürecin tamamlanabilmesi için",
+    "şahsen başvuru yapılmıştır",
+    "kayıtlı elektronik posta adresime"
   ]
 }

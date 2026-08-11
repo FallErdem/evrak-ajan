@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "muhtarlik_isleri",
+    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
+    "detsis_no": "26888327",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Meryem KESKIN",
-    "adres": "Kaletepe Mahallesi Papatya Sokağı No: 13/8 Yenimahalle/ANKARA",
+    "ad": "Elif KURT",
+    "adres": "Demetevler Mahallesi Kestane Caddesi No: 97/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,41 +22,40 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.08",
-    "ad": "Yapı Kullanma İzni (İskan Ruhsatı)",
-    "saklama_suresi": "B"
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Yapı Kullanma İzin Belgesi Talebi",
+  "konu": "Arşivden Belge Çıkarılması Talebi",
   "sayi": null,
-  "tarih": "12.02.2026",
+  "tarih": "07.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yapı Kullanma İzin Belgesi",
-    "Taşınmaz": "31332 ada, 45 parsel",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Talep": "Arşivden Belge Çıkarılması",
+    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
+    "Başvuru şekli": "şahsen başvuru yapılmıştır",
+    "Bildirim tercihi": "başvuru sırasında bildirdiğim adrese"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Muhtarlık İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yapı Kullanma İzin Belgesi",
-    "31332 ada, 45 parsel",
-    "başvuru dosyasına eklenmek üzere",
-    "posta yoluyla adresime"
+    "Arşivden Belge Çıkarılması",
+    "resmî işlemlerde kullanılmak üzere",
+    "şahsen başvuru yapılmıştır",
+    "başvuru sırasında bildirdiğim adrese"
   ]
 }

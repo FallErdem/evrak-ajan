@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "hukuk_isleri",
-    "birim_adi": "Hukuk İşleri Müdürlüğü",
-    "detsis_no": "10578106",
+    "birim_kodu": "emlak_istimlak",
+    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
+    "detsis_no": "87730597",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,38 +23,35 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Hukuk İşleri Müdürlüğü",
+  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "641.04",
-    "ad": "İdari Davalar",
-    "saklama_suresi": "40"
+    "kod": "752.01",
+    "ad": "Kamulaştırma",
+    "saklama_suresi": "B"
   },
-  "konu": "İstinaf Başvurusu Hk.",
-  "sayi": "E-24432702-641.04-7296502",
-  "tarih": "19.05.2026",
+  "konu": "Kamu Yararı Kararı Hk.",
+  "sayi": "E-56248377-752.01-413076",
+  "tarih": "08.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
+    "aciklama": "Genelge sureti",
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "İstinaf Başvurusu konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
+    "Konu": "Kamu Yararı Kararı konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Kapsam": "kapsama giren bütün işlemler bu esasa göre yürütülür",
+    "İstenen 1": "esasların personele tebliğ edilmesi",
+    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
     "Yürürlük": "01.03.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "hâlihazırda işleme alınmış başvurular",
+    "Kapsam dışı": "geçici görevle çalışan personel",
     "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
-    "Esas 2": "eksik belgeli başvurular işleme alınmayacaktır",
-    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
-    "Süre": "ay sonuna kadar",
-    "İrtibat": "süreç Başkanlığımızca takip edilmektedir"
+    "İrtibat": "uygulama Kaymakamlığımızca izlenecektir"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
     3,
     3
@@ -62,20 +59,16 @@
   "paragraf_alanlari": [
     [
       "Konu",
-      "Kaynak"
+      "Kaynak",
+      "Yürürlük"
     ],
     [
       "Kapsam",
       "Kapsam dışı",
-      "Yürürlük"
+      "Esas 1"
     ],
     [
-      "Esas 1",
-      "Esas 2",
-      "Geçiş hükmü"
-    ],
-    [
-      "Süre",
+      "İstenen 2",
       "İrtibat",
       "İstenen 1"
     ]
@@ -84,15 +77,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Hukuk İşleri Müdürlüğü",
+    "Emlak ve İstimlak Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
+    "esasların personele tebliğ edilmesi",
     "01.03.2026 tarihinde yürürlüğe girmiştir",
-    "hâlihazırda işleme alınmış başvurular",
-    "ay sonuna kadar",
-    "süreç Başkanlığımızca takip edilmektedir"
+    "geçici görevle çalışan personel",
+    "uygulama Kaymakamlığımızca izlenecektir"
   ]
 }

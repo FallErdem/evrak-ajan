@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Sevgi YILDIRIM",
-    "adres": "Uğur Mumcu Mahallesi Akasya Sokağı No: 59/9 Yenimahalle/ANKARA",
+    "ad": "Murat KORKMAZ",
+    "adres": "Gayret Mahallesi Ceviz Sokağı No: 16/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,25 +26,25 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "215.01",
+    "ad": "Yurtdışı Eğitim Denkliği",
+    "saklama_suresi": "B"
   },
-  "konu": "Öğrenci Nakil Talebi",
+  "konu": "Apostil Şerhli Belge Talebi",
   "sayi": null,
-  "tarih": "27.03.2026",
+  "tarih": "28.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Öğrenci Nakil",
-    "Sorun": "çocuğumun nakil başvurusu üç haftadır sonuçlandırılmadı",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Apostil Şerhli Belge",
+    "Sorun": "çocuğum denklik çıkmadığı için okula başlayamadı",
+    "Süre": "dönem başından beri",
+    "Önceki başvuru": "e-Devlet üzerinden yapılan başvuru sonuçsuz kalmıştır",
+    "Talep": "gerekli incelemenin yapılması"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -54,8 +54,8 @@
     "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Öğrenci Nakil",
-    "yaklaşık üç haftadır",
-    "sorunun giderilmesi"
+    "Apostil Şerhli Belge",
+    "dönem başından beri",
+    "gerekli incelemenin yapılması"
   ]
 }

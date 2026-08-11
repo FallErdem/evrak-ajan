@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin ÇAKIR",
-    "adres": "Serhat Mahallesi Papatya Caddesi No: 41/6 Yenimahalle/ANKARA",
+    "ad": "Gamze TEKIN",
+    "adres": "Ergazi Mahallesi Nergis Sokağı No: 35/11 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,18 +32,19 @@
   },
   "konu": "Vergi Değeri Düzeltme Talebi",
   "sayi": null,
-  "tarih": "08.01.2026",
+  "tarih": "12.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Vergi Değeri Düzeltme",
-    "Taşınmaz": "99801 ada, 13 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
+    "Taşınmaz": "23468 ada, 17 parsel",
+    "Gerekçe": "başvuru süresinin dolmak üzere olması nedeniyle",
+    "Başvuru şekli": "başvuru posta yoluyla da gönderilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    4
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -55,8 +56,8 @@
   ],
   "anahtar_terimler": [
     "Vergi Değeri Düzeltme",
-    "99801 ada, 13 parsel",
-    "sürecin tamamlanabilmesi için",
-    "Kurumunuz kayıt bürosundan elden"
+    "23468 ada, 17 parsel",
+    "başvuru posta yoluyla da gönderilmiştir",
+    "elektronik posta ile"
   ]
 }

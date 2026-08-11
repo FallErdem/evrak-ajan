@@ -5,15 +5,15 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Murat ATEŞ",
-    "adres": "Yeşilevler Mahallesi Manolya Sokağı No: 118/16 Yenimahalle/ANKARA",
+    "ad": "Ali GÜNEŞ",
+    "adres": "Ragıpbey Mahallesi Kestane Sokağı No: 102/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,25 +22,26 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
+  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "225.02",
-    "ad": "Disiplin İşleri",
-    "saklama_suresi": "15"
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
+    "saklama_suresi": "B"
   },
-  "konu": "Savunma Talebi",
+  "konu": "Kayıt Belgelerinin Tamamlanması",
   "sayi": null,
-  "tarih": "14.04.2026",
+  "tarih": "10.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Savunma",
-    "Sorun": "olayla ilgisi olmadığı hâlde çocuğum soruşturmaya dâhil edildi",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "aynı husus geçen ay yazılı olarak da iletilmiştir",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Kayıt Belgelerinin Tamamlanması",
+    "Sorun": "sınıf mevcudu ilan edilen sayının çok üzerinde",
+    "Süre": "iki haftadan fazladır",
+    "Önceki başvuru": "durum yerinde de bildirilmiş ancak sonuç alınamamıştır",
+    "Talep": "konunun ilgili birimce ele alınması",
+    "Yer": "okul servis güzergâhı"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -51,10 +52,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "yaklaşık iki aydır",
-    "sorunun giderilmesi"
+    "Kayıt Belgelerinin Tamamlanması",
+    "iki haftadan fazladır",
+    "konunun ilgili birimce ele alınması",
+    "okul servis güzergâhı"
   ]
 }

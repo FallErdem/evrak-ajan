@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum_adi": "Mühendislik Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "17311665",
+    "detsis_no": "43123369",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
@@ -27,30 +27,29 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
+    "kod": "622.02",
+    "ad": "Belge Talepleri",
     "saklama_suresi": "10"
   },
-  "konu": "Belgenin Dijital Kopyasının Gönderilmesi",
-  "sayi": "E-17311665-805.02.05-4610614",
-  "tarih": "10.02.2026",
+  "konu": "Onaylı Örnek Talebi",
+  "sayi": "E-43123369-622.02-7874912",
+  "tarih": "22.04.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Gerekçe raporu",
-    "sayfa": 2
+    "aciklama": "Taslak metin",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Belgenin Dijital Kopyasının Gönderilmesi",
-    "Gerekçe": "hizmetlerin aksamadan yürütülmesi",
-    "Mevcut durum": "hazırlık çalışmaları tamamlanmıştır",
-    "Etki": "hizmet kalitesinde iyileşme beklenmektedir",
+    "Konu": "Onaylı Örnek",
+    "Gerekçe": "hizmet kalitesinin korunması",
+    "Mevcut durum": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Etki": "işlemler daha kısa sürede tamamlanacaktır",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
-    3
+    3,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -61,8 +60,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Belgenin Dijital Kopyasının Gönderilmesi",
-    "hizmetlerin aksamadan yürütülmesi",
-    "hazırlık çalışmaları tamamlanmıştır"
+    "Onaylı Örnek",
+    "hizmet kalitesinin korunması",
+    "konu Müdürlüğümüzce değerlendirilmiştir"
   ]
 }

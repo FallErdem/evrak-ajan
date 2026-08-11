@@ -27,50 +27,50 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Kararın Uygulanması Hk.",
-  "sayi": "E-32625594-050.04-75468949",
-  "tarih": "23.02.2026",
+  "konu": "Genelge Görüşü Talebi",
+  "sayi": "E-32625594-010.06-46752899",
+  "tarih": "09.03.2026",
   "ilgi": {
-    "tarih": "30.01.2026",
-    "sayi": "E-39985474-050.04-5018184"
+    "tarih": "13.02.2026",
+    "sayi": "E-39985474-010.06-6776420"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Uygulama esasları",
-    "sayfa": 3
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Kararın Uygulanması konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
+    "Konu": "Genelge Görüşü konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar yapılan değerlendirme sonucunda alınmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "01.05.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "yürürlük tarihinden önce sonuçlandırılan işlemler",
-    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
+    "İstenen 1": "düzenlemenin ilgili birimlerde ilan edilmesi",
+    "Yürürlük": "15.02.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "geçici koruma statüsündeki başvurular",
+    "Esas 1": "işlem adımları sistem üzerinden izlenecektir",
     "Esas 2": "değerlendirme sonucu başvurana yazılı bildirilecektir",
-    "Geçiş hükmü": "devam eden işlemler için ek süre tanınmıştır",
-    "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
+    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
+    "Süre": "dönem sonuna kadar",
+    "İrtibat": "süreç Başkanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
-    3,
     2,
+    3,
     3,
     3
   ],
   "paragraf_alanlari": [
     [
       "Konu",
-      "Kaynak",
-      "Yürürlük"
+      "Kaynak"
     ],
     [
       "Kapsam",
-      "Kapsam dışı"
+      "Kapsam dışı",
+      "Yürürlük"
     ],
     [
       "Esas 1",
@@ -78,7 +78,7 @@
       "Geçiş hükmü"
     ],
     [
-      "İstenen 2",
+      "Süre",
       "İrtibat",
       "İstenen 1"
     ]
@@ -92,7 +92,9 @@
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "01.05.2026 tarihinde yürürlüğe girmiştir"
+    "15.02.2026 tarihinde yürürlüğe girmiştir",
+    "geçici koruma statüsündeki başvurular",
+    "dönem sonuna kadar",
+    "süreç Başkanlığımızca takip edilmektedir"
   ]
 }

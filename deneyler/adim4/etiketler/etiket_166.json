@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Öz Ticaret A.Ş.",
+    "kurum_adi": "Anadolu Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Emniyet Mahallesi Lale Caddesi No: 37/2 Yenimahalle/ANKARA",
+    "adres": "Demetevler Mahallesi Sümbül Sokağı No: 47/10 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -27,23 +27,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "190.01.07",
-    "ad": "Emlak Vergisi",
+    "kod": "855",
+    "ad": "Borç ve Alacak İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Emlak Vergisi Muafiyet Başvurusu",
-  "sayi": "2026/153",
-  "tarih": "04.03.2026",
+  "konu": "Borç Bilgisi Talebi",
+  "sayi": "2026/41",
+  "tarih": "12.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Emlak Vergisi Muafiyet işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "Talep": "Borç Bilgisi işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "konuya ilişkin yürürlükteki uygulama esasları",
     "Bildirim yolu": "e-Devlet üzerinden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Büşra TURAN",
-    "adres": "Yakacık Mahallesi Ceviz Sokak No: 5/22 Yenimahalle/ANKARA",
+    "ad": "Esra YILMAZ",
+    "adres": "Serhat Mahallesi Papatya Sokağı No: 95/5 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,24 +26,25 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.01.06",
-    "ad": "Uygulama İmar Planı",
+    "kod": "115.01.08",
+    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
     "saklama_suresi": "B"
   },
-  "konu": "Yoğunluk Artışı Talebi",
+  "konu": "İfraz ve Tevhid Talebi",
   "sayi": null,
-  "tarih": "01.05.2026",
+  "tarih": "20.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yoğunluk Artışı",
-    "Taşınmaz": "81790 ada, 21 parsel",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Talep": "İfraz ve Tevhid",
+    "Taşınmaz": "21601 ada, 41 parsel",
+    "Gerekçe": "mevzuatta öngörülen şartların sağlanması nedeniyle",
+    "Başvuru şekli": "başvuru kayıt bürosuna teslim edilmiştir",
+    "Bildirim tercihi": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
-    4
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -54,9 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yoğunluk Artışı",
-    "81790 ada, 21 parsel",
-    "sürecin tamamlanabilmesi için",
-    "e-Devlet üzerinden"
+    "İfraz ve Tevhid",
+    "21601 ada, 41 parsel",
+    "başvuru kayıt bürosuna teslim edilmiştir",
+    "kayıtlı elektronik posta adresime"
   ]
 }

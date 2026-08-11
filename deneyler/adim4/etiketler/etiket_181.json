@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -27,32 +27,35 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "934.01",
-    "ad": "Mal Alım İşi",
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
     "saklama_suresi": "10"
   },
-  "konu": "Kırtasiye Malzemesi Alımı",
-  "sayi": "E-10213773-934.01-14779788",
-  "tarih": "19.03.2026",
+  "konu": "Proje Gerçekleşme Oranı Bildirimi",
+  "sayi": "E-24316060-602.07-66541763",
+  "tarih": "22.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
-    "sayfa": 2
+    "aciklama": "Genelge sureti",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Kırtasiye Malzemesi Alımı konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "01.05.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "geçici görevle çalışan personel",
-    "Esas 1": "işlemler tek merkezden yürütülecektir",
-    "İrtibat": "uygulama Valiliğimizce izlenecektir"
+    "Konu": "Proje Gerçekleşme Oranı konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar yapılan değerlendirme sonucunda alınmıştır",
+    "Kapsam": "kapsama giren bütün işlemler bu esasa göre yürütülür",
+    "İstenen 1": "konunun bağlı birimlere bildirilmesi",
+    "İstenen 2": "işlem sayısının dönem sonunda gönderilmesi",
+    "Yürürlük": "01.03.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "önceki dönemde onaylanmış projeler",
+    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
+    "Esas 2": "eksik belgeli başvurular işleme alınmayacaktır",
+    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
+    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
+    2,
     3,
     3
   ],
@@ -64,8 +67,12 @@
     ],
     [
       "Kapsam",
-      "Kapsam dışı",
-      "Esas 1"
+      "Kapsam dışı"
+    ],
+    [
+      "Esas 1",
+      "Esas 2",
+      "Geçiş hükmü"
     ],
     [
       "İstenen 2",
@@ -80,11 +87,9 @@
     "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "01.05.2026 tarihinde yürürlüğe girmiştir",
-    "geçici görevle çalışan personel",
-    "işlemler tek merkezden yürütülecektir",
-    "uygulama Valiliğimizce izlenecektir"
+    "konunun bağlı birimlere bildirilmesi",
+    "01.03.2026 tarihinde yürürlüğe girmiştir",
+    "önceki dönemde onaylanmış projeler",
+    "süreç Bakanlığımızca takip edilmektedir"
   ]
 }

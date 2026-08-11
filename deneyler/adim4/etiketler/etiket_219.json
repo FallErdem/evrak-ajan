@@ -5,61 +5,64 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "ortaogretim_sb",
-    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
-    "detsis_no": "63971525",
+    "birim_kodu": "temel_egitim_sb",
+    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
+    "detsis_no": "21291472",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "kurum_adi": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "87302975",
+    "detsis_no": "93213107",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "olur_yazisi",
   "aile": "olur",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Ortaöğretim Şube Müdürlüğü",
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Temel Eğitim Şube Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "245.04",
-    "ad": "Bursluluk",
-    "saklama_suresi": "10"
+    "kod": "210.01",
+    "ad": "Nakiller",
+    "saklama_suresi": "5"
   },
-  "konu": "Bursluluk Başvurusu",
-  "sayi": "E-87302975-245.04-8756485",
-  "tarih": "11.03.2026",
+  "konu": "Öğrenci Nakil Talebi",
+  "sayi": "E-93213107-210.01-2278874",
+  "tarih": "25.03.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Gerekçe raporu",
-    "sayfa": 1
+    "aciklama": "Taslak metin",
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Bursluluk",
+    "Konu": "Öğrenci Nakil",
     "Gerekçe": "mevzuatın öngördüğü sürelere uyulması",
     "Mevcut durum": "gerekli inceleme yapılmıştır",
-    "Etki": "işlemler daha kısa sürede tamamlanacaktır",
+    "Etki": "kaynak kullanımı verimli hâle gelecektir",
     "Talep": "konunun uygun görülmesi hâlinde olur verilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Ortaöğretim Şube Müdürlüğü"
+    "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
+    "Öğrenci Nakil",
     "mevzuatın öngördüğü sürelere uyulması",
-    "gerekli inceleme yapılmıştır"
+    "gerekli inceleme yapılmıştır",
+    "kaynak kullanımı verimli hâle gelecektir"
   ]
 }

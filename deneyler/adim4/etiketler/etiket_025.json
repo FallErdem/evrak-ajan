@@ -12,9 +12,9 @@
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Başkent Danışmanlık Ltd. Şti.",
+    "kurum_adi": "Ege Eğitim Hizmetleri Ltd. Şti.",
     "ad": null,
-    "adres": "Beştepe Mahallesi Lale Caddesi No: 56/18 Yenimahalle/ANKARA",
+    "adres": "Ergazi Mahallesi Zeytin Sokağı No: 112/8 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -31,16 +31,16 @@
     "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Kurs Bitirme Belgesi Talebi",
-  "sayi": "2026/759",
-  "tarih": "13.04.2026",
+  "konu": "Halk Eğitim Kursu Açılması Talebi",
+  "sayi": "2026/103",
+  "tarih": "26.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Kurs Bitirme Belgesi işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "Talep": "Halk Eğitim Kursu Açılması işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
-    "Bildirim yolu": "Kurumunuz kayıt bürosundan elden"
+    "Bildirim yolu": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -54,6 +54,6 @@
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Kurumunuz kayıt bürosundan elden"
+    "kayıtlı elektronik posta adresime"
   ]
 }

@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "emlak_istimlak",
-    "birim_adi": "Emlak ve İstimlak Müdürlüğü",
-    "detsis_no": "87730597",
+    "birim_kodu": "yapi_kontrol",
+    "birim_adi": "Yapı Kontrol Müdürlüğü",
+    "detsis_no": "53265760",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -23,54 +23,54 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Emlak ve İstimlak Müdürlüğü",
+  "muhatap_parantez": "Yapı Kontrol Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "756.02",
-    "ad": "Satış ve Kiralama",
-    "saklama_suresi": "B"
+    "kod": "641.04",
+    "ad": "İdari Davalar",
+    "saklama_suresi": "40"
   },
-  "konu": "Kira Bedeli Artışı Hk.",
-  "sayi": "E-24432702-756.02-7281020",
-  "tarih": "06.05.2026",
+  "konu": "Yürütmeyi Durdurma Kararı Hk.",
+  "sayi": "E-24432702-641.04-11574171",
+  "tarih": "21.01.2026",
   "ilgi": {
-    "tarih": "30.03.2026",
-    "sayi": "E-87730597-756.02-3715593"
+    "tarih": "10.12.2025",
+    "sayi": "E-53265760-641.04-3790246"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Genelge sureti",
-    "sayfa": 4
+    "sayfa": 2
   },
   "somut_bilgiler": {
-    "Konu": "Kira Bedeli Artışı konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "15.03.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "geçici görevle çalışan personel",
-    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
-    "Esas 2": "değerlendirme sonucu başvurana yazılı bildirilecektir",
-    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
+    "Konu": "Yürütmeyi Durdurma Kararı konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme kurul kararına dayanmaktadır",
+    "Kapsam": "kapsama giren bütün işlemler bu esasa göre yürütülür",
+    "İstenen 1": "konunun bağlı birimlere bildirilmesi",
+    "Yürürlük": "15.05.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "yürürlük tarihinden önce sonuçlandırılan işlemler",
+    "Esas 1": "onay süreci iki aşamalı yürütülecektir",
+    "Esas 2": "itirazlar on beş gün içinde sonuçlandırılacaktır",
+    "Geçiş hükmü": "devam eden işlemler için ek süre tanınmıştır",
+    "Süre": "dönem sonuna kadar",
     "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
-    3,
     2,
+    3,
     3,
     3
   ],
   "paragraf_alanlari": [
     [
       "Konu",
-      "Kaynak",
-      "Yürürlük"
+      "Kaynak"
     ],
     [
       "Kapsam",
-      "Kapsam dışı"
+      "Kapsam dışı",
+      "Yürürlük"
     ],
     [
       "Esas 1",
@@ -78,7 +78,7 @@
       "Geçiş hükmü"
     ],
     [
-      "İstenen 2",
+      "Süre",
       "İrtibat",
       "İstenen 1"
     ]
@@ -87,13 +87,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Emlak ve İstimlak Müdürlüğü",
+    "Yapı Kontrol Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "15.03.2026 tarihinde yürürlüğe girmiştir",
-    "geçici görevle çalışan personel"
+    "düzenleme kurul kararına dayanmaktadır",
+    "konunun bağlı birimlere bildirilmesi",
+    "15.05.2026 tarihinde yürürlüğe girmiştir",
+    "onay süreci iki aşamalı yürütülecektir",
+    "dönem sonuna kadar"
   ]
 }

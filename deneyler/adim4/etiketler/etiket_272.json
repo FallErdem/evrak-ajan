@@ -5,45 +5,46 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "ogrenci_isleri_db",
-    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
-    "detsis_no": "17311665",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "fen_bilimleri_ens",
+    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "detsis_no": "47014261",
+    "imza_unvani": "Enstitü Müdürü"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Meryem UÇAR",
-    "adres": "Yakacık Mahallesi Erguvan Caddesi No: 86/16 Yenimahalle/ANKARA",
+    "ad": "Ahmet ERDOĞAN",
+    "adres": "Ergazi Mahallesi Zeytin Sokak No: 34/8 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020751614",
-    "bolum": "Tıp Fakültesi",
-    "sinif": "4"
+    "ogrenci_no": "2025802861",
+    "bolum": "Biyoloji (Yüksek Lisans)",
+    "sinif": null,
+    "ogrenim_duzeyi": "yüksek lisans öğrencisi"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
+  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.15",
-    "ad": "Mezuniyet İşleri",
-    "saklama_suresi": "B"
+    "kod": "302.01",
+    "ad": "Yeni Kayıt İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Mezuniyet Töreni Duyurusu",
+  "konu": "Kayıt İptali Talebi",
   "sayi": null,
-  "tarih": "13.01.2026",
+  "tarih": "17.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Mezuniyet Töreni",
-    "Sorun": "diplomam mezun olalı altı ay geçmesine rağmen düzenlenmedi",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Kayıt İptali",
+    "Sorun": "kesin kaydım yapıldığı hâlde sistemde görünmüyor",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "e-Devlet üzerinden yapılan başvuru sonuçsuz kalmıştır",
+    "Talep": "gerekli incelemenin yapılması"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -54,12 +55,12 @@
   "kusur": "tarih_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Öğrenci İşleri Daire Başkanlığı",
+    "Fen Bilimleri Enstitüsü Müdürlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Mezuniyet Töreni",
-    "yaklaşık iki aydır",
-    "sorunun giderilmesi"
+    "Kayıt İptali",
+    "geçtiğimiz aydan bu yana",
+    "gerekli incelemenin yapılması"
   ]
 }

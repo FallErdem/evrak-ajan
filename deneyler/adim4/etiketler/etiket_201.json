@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Derya AVCI",
-    "adres": "Uğur Mumcu Mahallesi Çınar Sokağı No: 95/19 Yenimahalle/ANKARA",
+    "ad": "Büşra KORKMAZ",
+    "adres": "Ragıpbey Mahallesi Manolya Caddesi No: 53/10 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,21 +30,22 @@
     "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "Faaliyet Konusu Değişikliği",
+  "konu": "Hafta Tatili Ruhsatı Talebi",
   "sayi": null,
-  "tarih": "16.04.2026",
+  "tarih": "22.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Faaliyet Konusu Değişikliği",
-    "Sorun": "komşumdaki işyeri ruhsatsız çalıştığı hâlde denetlenmiyor",
-    "Süre": "yaklaşık kırk gündür",
+    "Şikâyet konusu": "Hafta Tatili Ruhsatı",
+    "Sorun": "devir talebim eksik evrak denilerek iade edildi ancak eksik belirtilmedi",
+    "Süre": "yılbaşından bu yana",
     "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
-    "Talep": "sorunun giderilmesi",
-    "Yer": "Ergazi Mahallesi"
+    "Talep": "mağduriyetin giderilmesi",
+    "Yer": "Yeşilevler Mahallesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
+    2,
+    2,
     3
   ],
   "paragraf_alanlari": null,
@@ -56,9 +57,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Faaliyet Konusu Değişikliği",
-    "yaklaşık kırk gündür",
-    "sorunun giderilmesi",
-    "Ergazi Mahallesi"
+    "Hafta Tatili Ruhsatı",
+    "yılbaşından bu yana",
+    "mağduriyetin giderilmesi",
+    "Yeşilevler Mahallesi"
   ]
 }

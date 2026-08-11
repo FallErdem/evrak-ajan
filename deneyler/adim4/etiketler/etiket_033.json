@@ -5,9 +5,9 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "kultur_sanat_sosyal",
-    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
-    "detsis_no": "85330682",
+    "birim_kodu": "yazi_isleri",
+    "birim_adi": "Yazı İşleri Müdürlüğü",
+    "detsis_no": "15986609",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
@@ -35,35 +35,35 @@
   },
   "beklenen_kapanis": "karma",
   "sdp": {
-    "kod": "120.02",
-    "ad": "Engellilere Yönelik Hizmetler",
-    "saklama_suresi": "10"
+    "kod": "110.04",
+    "ad": "Encümen Kararları",
+    "saklama_suresi": "B"
   },
-  "konu": "Rampa Yapılması Talebi",
-  "sayi": "E-24304062-120.02-57711129",
-  "tarih": "20.02.2026",
+  "konu": "Encümen Kararının Gönderilmesi",
+  "sayi": "E-24304062-110.04-58072676",
+  "tarih": "07.05.2026",
   "ilgi": {
-    "tarih": "21.01.2026",
-    "sayi": "E-85330682-120.02-1210801"
+    "tarih": "16.04.2026",
+    "sayi": "E-15986609-110.04-958001"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Öğrenci listesi",
-    "sayfa": 6
+    "aciklama": "Liste ve takvim",
+    "sayfa": 4
   },
   "somut_bilgiler": {
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "içinde bulunulan yıl",
-    "Sayı": "18 kayıt",
-    "Ek 1": "Öğrenci listesi",
-    "Ek 2": "uygulama takvimi",
+    "Dayanak": "ilgide kayıtlı bildirim",
+    "Dönem": "üçüncü çeyrek",
+    "Sayı": "12 kayıt",
+    "Ek 1": "Liste ve takvim",
+    "Ek 2": "iş programı",
     "İstenen": "listenin ilgili birimlere dağıtılması",
     "Ek 1 içeriği": "sıra numarası ve durum bilgisiyle düzenlenmiştir",
     "Ek 2 içeriği": "haftalık zaman çizelgesi biçimindedir",
-    "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
+    "Kapsam": "listede yer alanların tamamı sürece dâhildir",
     "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
-    "Süre": "dönem başlamadan önce",
-    "İrtibat": "koordinasyon Bakanlığımızca sağlanacaktır"
+    "Süre": "iki hafta içinde",
+    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -97,15 +97,15 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "Yazı İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "ilgide kayıtlı yazı",
-    "içinde bulunulan yıl",
-    "18 kayıt",
-    "Öğrenci listesi",
-    "uygulama takvimi",
+    "ilgide kayıtlı bildirim",
+    "üçüncü çeyrek",
+    "12 kayıt",
+    "Liste ve takvim",
+    "iş programı",
     "listenin ilgili birimlere dağıtılması"
   ]
 }

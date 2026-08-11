@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Ahmet TURAN",
-    "adres": "İvedik Mahallesi Çınar Sokak No: 119/24 Yenimahalle/ANKARA",
+    "ad": "Hasan AKTAŞ",
+    "adres": "Demetevler Mahallesi Yasemin Sokak No: 101/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025134621",
-    "bolum": "Hukuk Fakültesi",
-    "sinif": "1"
+    "ogrenci_no": "2019164135",
+    "bolum": "Mimarlık Fakültesi",
+    "sinif": "4"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -29,20 +29,20 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "302.03",
-    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "kod": "302.11",
+    "ad": "Nakil, Kayıt Dondurma ve Kayıt Silme",
     "saklama_suresi": "10"
   },
-  "konu": "Katkı Payı Muafiyet Başvurusu",
+  "konu": "Kayıt Dondurma Süresinin Uzatılması",
   "sayi": null,
-  "tarih": "18.03.2026",
+  "tarih": "11.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Katkı Payı Muafiyet",
-    "Sorun": "fazla yatırdığım katkı payı iki dönemdir iade edilmedi",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Şikâyet konusu": "Kayıt Dondurma Süresinin Uzatılması",
+    "Sorun": "kayıt dondurma başvurum otuz gündür sonuçlandırılmadı",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "geçen dönem aynı konuda dilekçe verilmiştir",
     "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -58,8 +58,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Katkı Payı Muafiyet",
-    "yaklaşık kırk gündür",
+    "Kayıt Dondurma Süresinin Uzatılması",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi"
   ]
 }

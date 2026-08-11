@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Osman BOZKURT",
-    "adres": "Ragıpbey Mahallesi Sümbül Sokak No: 54/16 Yenimahalle/ANKARA",
+    "ad": "Onur ÖZKAN",
+    "adres": "Yakacık Mahallesi Manolya Caddesi No: 106/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,26 +26,26 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "170.01",
-    "ad": "Ruhsat",
-    "saklama_suresi": "B"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Hafta Tatili Ruhsatı Talebi",
+  "konu": "Para Cezası Tahsilatı Hk.",
   "sayi": null,
-  "tarih": "27.04.2026",
+  "tarih": "26.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Hafta Tatili Ruhsatı",
-    "Sorun": "komşumdaki işyeri ruhsatsız çalıştığı hâlde denetlenmiyor",
-    "Süre": "bir aydan uzun süredir",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi",
-    "Yer": "Serhat Mahallesi"
+    "Şikâyet konusu": "Para Cezası Tahsilatı",
+    "Sorun": "itirazım otuz gün içinde cevaplanmadı",
+    "Süre": "dönem başından beri",
+    "Önceki başvuru": "daha önce yapılan başvuruya cevap verilmemiştir",
+    "Talep": "sorunun giderilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
@@ -56,9 +56,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Hafta Tatili Ruhsatı",
-    "bir aydan uzun süredir",
-    "sorunun giderilmesi",
-    "Serhat Mahallesi"
+    "Para Cezası Tahsilatı",
+    "itirazım otuz gün içinde cevaplanmadı",
+    "dönem başından beri",
+    "sorunun giderilmesi"
   ]
 }

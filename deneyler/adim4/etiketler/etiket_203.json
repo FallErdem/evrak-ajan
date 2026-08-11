@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -27,25 +27,25 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "140",
-    "ad": "Taşımalı Eğitim",
+    "kod": "165.01",
+    "ad": "Okul Aile Birlikleri",
     "saklama_suresi": "10"
   },
-  "konu": "Taşımalı Eğitim Kapsamına Alınma Talebi",
-  "sayi": "E-65859045-140-1680450",
-  "tarih": "01.05.2026",
+  "konu": "Yönetim Kurulu Seçimi Hk.",
+  "sayi": "E-39985474-165.01-6776517",
+  "tarih": "13.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Taşımalı Eğitim Kapsamına Alınma",
+    "Konu": "Yönetim Kurulu Seçimi",
     "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
     "Sonuç": "işlemlerde gecikme yaşanmaktadır",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Talep": "konunun açıklığa kavuşturulması"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    3
+    3,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
@@ -55,8 +55,8 @@
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Taşımalı Eğitim Kapsamına Alınma",
+    "Yönetim Kurulu Seçimi",
     "işlemlerde gecikme yaşanmaktadır",
-    "konu hakkında görüş bildirilmesi"
+    "konunun açıklığa kavuşturulması"
   ]
 }

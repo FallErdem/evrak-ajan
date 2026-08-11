@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "strateji_gelistirme_sb",
-    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
-    "detsis_no": "14588481",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,54 +23,54 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "602.04",
-    "ad": "Stratejik Plan",
+    "kod": "225.02",
+    "ad": "Disiplin İşleri",
     "saklama_suresi": "15"
   },
-  "konu": "Altı Aylık Değerlendirme Raporu",
-  "sayi": "E-10213773-602.04-14819694",
-  "tarih": "16.04.2026",
+  "konu": "Disiplin Kurulu Kararının Tebliği",
+  "sayi": "E-24316060-225.02-66026080",
+  "tarih": "06.01.2026",
   "ilgi": {
-    "tarih": "10.03.2026",
-    "sayi": "E-14588481-602.04-4740548"
+    "tarih": "19.12.2025",
+    "sayi": "E-63971525-225.02-3738678"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Genelge sureti",
-    "sayfa": 4
+    "aciklama": "Uygulama esasları",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Altı Aylık Değerlendirme Raporu konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Konu": "Disiplin Kurulu Kararının Tebliği konusunda yeni bir uygulama yürürlüğe girmiştir",
     "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "Yürürlük": "01.02.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "geçici görevle çalışan personel",
-    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
-    "Esas 2": "eksik belgeli başvurular işleme alınmayacaktır",
-    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
-    "Süre": "ay sonuna kadar",
-    "İrtibat": "tereddüt hâlinde Valiliğimize başvurulabilir"
+    "Kapsam": "kapsama giren bütün işlemler bu esasa göre yürütülür",
+    "İstenen 1": "konunun bağlı birimlere bildirilmesi",
+    "İstenen 2": "yapılan işlemlere ilişkin bilgi verilmesi",
+    "Yürürlük": "15.05.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "geçici koruma statüsündeki başvurular",
+    "Esas 1": "onay süreci iki aşamalı yürütülecektir",
+    "Esas 2": "değerlendirme sonucu başvurana yazılı bildirilecektir",
+    "Geçiş hükmü": "devam eden işlemler için ek süre tanınmıştır",
+    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
+    2,
     3,
     3
   ],
   "paragraf_alanlari": [
     [
       "Konu",
-      "Kaynak"
+      "Kaynak",
+      "Yürürlük"
     ],
     [
       "Kapsam",
-      "Kapsam dışı",
-      "Yürürlük"
+      "Kapsam dışı"
     ],
     [
       "Esas 1",
@@ -78,7 +78,7 @@
       "Geçiş hükmü"
     ],
     [
-      "Süre",
+      "İstenen 2",
       "İrtibat",
       "İstenen 1"
     ]
@@ -87,13 +87,13 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Strateji Geliştirme Şube Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "01.02.2026 tarihinde yürürlüğe girmiştir",
-    "geçici görevle çalışan personel",
-    "ay sonuna kadar"
+    "konunun bağlı birimlere bildirilmesi",
+    "15.05.2026 tarihinde yürürlüğe girmiştir",
+    "geçici koruma statüsündeki başvurular",
+    "onay süreci iki aşamalı yürütülecektir",
+    "süreç Bakanlığımızca takip edilmektedir"
   ]
 }

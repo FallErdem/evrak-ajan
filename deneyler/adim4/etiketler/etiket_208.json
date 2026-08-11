@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "yazi_isleri",
-    "birim_adi": "Yazı İşleri Müdürlüğü",
-    "detsis_no": "15986609",
+    "birim_kodu": "kultur_sanat_sosyal",
+    "birim_adi": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "detsis_no": "85330682",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Büyükşehir Belediye Başkanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24432702",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,35 +23,38 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Yazı İşleri Müdürlüğü",
+  "muhatap_parantez": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "125",
-    "ad": "Evlendirme İşlemleri",
+    "kod": "120.02",
+    "ad": "Engellilere Yönelik Hizmetler",
     "saklama_suresi": "10"
   },
-  "konu": "Nikâh Ücreti Hk.",
-  "sayi": "E-24432702-125-7304663",
-  "tarih": "26.05.2026",
+  "konu": "Evde Bakım Hizmeti Başvurusu",
+  "sayi": "E-10213773-120.02-15060727",
+  "tarih": "28.05.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
-    "sayfa": 6
+    "aciklama": "Genelge sureti",
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Nikâh Ücreti konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
+    "Konu": "Evde Bakım Hizmeti konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "uygulama koordinasyon toplantısında kararlaştırılmıştır",
     "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "01.02.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
+    "İstenen 1": "düzenlemenin ilgili birimlerde ilan edilmesi",
+    "Yürürlük": "01.01.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "ihalesi tamamlanmış işler",
     "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
-    "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
+    "Esas 2": "eksik belgeli başvurular işleme alınmayacaktır",
+    "Geçiş hükmü": "mevcut başvurular eski usule göre sonuçlandırılacaktır",
+    "Süre": "dönem sonuna kadar",
+    "İrtibat": "uygulama Valiliğimizce izlenecektir"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
     3,
     3
@@ -59,16 +62,20 @@
   "paragraf_alanlari": [
     [
       "Konu",
-      "Kaynak",
-      "Yürürlük"
+      "Kaynak"
     ],
     [
       "Kapsam",
       "Kapsam dışı",
-      "Esas 1"
+      "Yürürlük"
     ],
     [
-      "İstenen 2",
+      "Esas 1",
+      "Esas 2",
+      "Geçiş hükmü"
+    ],
+    [
+      "Süre",
       "İrtibat",
       "İstenen 1"
     ]
@@ -77,13 +84,14 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Yazı İşleri Müdürlüğü",
+    "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "01.02.2026 tarihinde yürürlüğe girmiştir",
-    "sözleşmesi devam eden yükleniciler"
+    "01.01.2026 tarihinde yürürlüğe girmiştir",
+    "ihalesi tamamlanmış işler",
+    "dönem sonuna kadar",
+    "uygulama Valiliğimizce izlenecektir"
   ]
 }

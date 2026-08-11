@@ -27,32 +27,32 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "355.02",
-    "ad": "Eğitim Fakülteleri İle İlişkiler",
-    "saklama_suresi": "15"
+    "kod": "045.02",
+    "ad": "Hukuki",
+    "saklama_suresi": "30"
   },
-  "konu": "Uygulama Öğrencisi Yerleştirme Talebi",
-  "sayi": "E-65859045-355.02-1652633",
-  "tarih": "09.02.2026",
+  "konu": "İhtilaflı Hususta Değerlendirme Talebi",
+  "sayi": "E-65859045-045.02-2730910",
+  "tarih": "12.03.2026",
   "ilgi": {
-    "tarih": "21.01.2026",
-    "sayi": "E-55461037-355.02-1396201"
+    "tarih": "11.02.2026",
+    "sayi": "E-55461037-045.02-1835504"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Çalışma programı",
-    "sayfa": 1
+    "aciklama": "Protokol taslağı",
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Uygulama Öğrencisi Yerleştirme",
-    "Ortak iş": "Uygulama Öğrencisi Yerleştirme konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
-    "Beklenen katkı": "kurumunuzca yer ve donanım sağlanması beklenmektedir",
-    "Talep": "Uygulama Öğrencisi Yerleştirme kapsamında öğrenci kabul edilmesi"
+    "Konu": "İhtilaflı Hususta Değerlendirme",
+    "Ortak iş": "İhtilaflı Hususta Değerlendirme konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "önceki protokol süresi dolmuştur",
+    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
+    "Talep": "İhtilaflı Hususta Değerlendirme konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
@@ -61,6 +61,7 @@
     "Ankara İl Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Uygulama Öğrencisi Yerleştirme"
+    "İhtilaflı Hususta Değerlendirme",
+    "önceki protokol süresi dolmuştur"
   ]
 }

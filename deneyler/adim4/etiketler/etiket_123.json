@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin KORKMAZ",
-    "adres": "Uğur Mumcu Mahallesi Yasemin Caddesi No: 2/19 Yenimahalle/ANKARA",
+    "ad": "Hatice TEKIN",
+    "adres": "Yakacık Mahallesi Sümbül Sokağı No: 55/3 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,24 +22,25 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "115.02.04",
+    "ad": "Yapı Ruhsatı",
+    "saklama_suresi": "B"
   },
-  "konu": "Arşivden Suret Talebi",
+  "konu": "Yapı Ruhsatı Başvurusu",
   "sayi": null,
-  "tarih": "10.03.2026",
+  "tarih": "21.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Arşivden Suret",
-    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Talep": "Yapı Ruhsatı",
+    "Taşınmaz": "29428 ada, 22 parsel",
+    "Gerekçe": "mağduriyetin giderilmesi bakımından",
+    "Başvuru şekli": "başvuru posta yoluyla da gönderilmiştir",
+    "Bildirim tercihi": "posta yoluyla adresime"
   },
   "paragraf_cumle_sayilari": [
     4
@@ -49,13 +50,14 @@
   "kusur": "muhatap_belirsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Arşivden Suret",
-    "başvuru dosyasına eklenmek üzere",
-    "şahsen başvuru yapılmıştır",
-    "e-Devlet üzerinden"
+    "Yapı Ruhsatı",
+    "29428 ada, 22 parsel",
+    "mağduriyetin giderilmesi bakımından",
+    "başvuru posta yoluyla da gönderilmiştir",
+    "posta yoluyla adresime"
   ]
 }

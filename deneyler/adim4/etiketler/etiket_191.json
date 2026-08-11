@@ -27,32 +27,32 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "805.02.05",
+    "ad": "Arşivlerden Yararlanma",
+    "saklama_suresi": "10"
   },
-  "konu": "Kurul Kararının Gönderilmesi",
-  "sayi": "E-32625594-050.04-75449310",
-  "tarih": "17.02.2026",
+  "konu": "Belgenin Dijital Kopyasının Gönderilmesi",
+  "sayi": "E-32625594-805.02.05-46920616",
+  "tarih": "15.04.2026",
   "ilgi": {
-    "tarih": "03.02.2026",
-    "sayi": "E-82642947-050.04-6995937"
+    "tarih": "25.03.2026",
+    "sayi": "E-82642947-805.02.05-3649250"
   },
   "ek": {
     "adet": 2,
     "aciklama": "Öğrenci listesi",
-    "sayfa": 2
+    "sayfa": 3
   },
   "somut_bilgiler": {
     "Dayanak": "ilgide kayıtlı yazı",
     "Dönem": "güz dönemi",
-    "Sayı": "24 kayıt",
+    "Sayı": "35 kayıt",
     "Ek 1": "Öğrenci listesi",
-    "Ek 2": "uygulama takvimi",
+    "Ek 2": "zaman çizelgesi",
     "İstenen": "listenin ilgili birimlere dağıtılması",
     "Kapsam": "yalnızca listede adı geçenler için geçerlidir",
-    "Süre": "on beş gün içinde",
-    "İrtibat": "koordinasyon Başkanlığımızca sağlanacaktır"
+    "Süre": "dönem başlamadan önce",
+    "İrtibat": "süreç Başkanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -86,9 +86,9 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "güz dönemi",
-    "24 kayıt",
+    "35 kayıt",
     "Öğrenci listesi",
-    "uygulama takvimi",
+    "zaman çizelgesi",
     "listenin ilgili birimlere dağıtılması"
   ]
 }

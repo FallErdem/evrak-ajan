@@ -5,16 +5,16 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "imar_sehircilik",
-    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
-    "detsis_no": "18426575",
+    "birim_kodu": "zabita",
+    "birim_adi": "Zabıta Müdürlüğü",
+    "detsis_no": "50719027",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "ozel_tuzel_kisi",
-    "kurum_adi": "Atlas Yapı Denetim A.Ş.",
+    "kurum_adi": "Şafak Gıda Sanayi Ltd. Şti.",
     "ad": null,
-    "adres": "Beştepe Mahallesi Akasya Caddesi No: 117/21 Yenimahalle/ANKARA",
+    "adres": "Batıkent Mahallesi Ihlamur Caddesi No: 28/10 Yenimahalle/ANKARA",
     "detsis_no": null,
     "detsis_kaynagi": "yok"
   },
@@ -23,39 +23,38 @@
   "yazan_tipi": "ozel_tuzel",
   "hiyerarsi_yonu": "ozel_tuzel",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
+  "muhatap_parantez": "Zabıta Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "115.02.04",
-    "ad": "Yapı Ruhsatı",
+    "kod": "170.01",
+    "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "Yapı Ruhsatı Başvurusu",
-  "sayi": "2026/308",
-  "tarih": "07.04.2026",
+  "konu": "Ruhsat Sureti Talebi",
+  "sayi": "2026/534",
+  "tarih": "08.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Dayanak": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "Talep": "Yapı Ruhsatı işlemlerine ilişkin güncel bilgilerin paylaşılması",
-    "İstenen ayrıntı": "yıllara göre sayısal döküm",
-    "Bildirim yolu": "e-Devlet üzerinden"
+    "Talep": "Ruhsat Sureti işlemlerine ilişkin güncel bilgilerin paylaşılması",
+    "İstenen ayrıntı": "işlem sayısı ve ortalama sonuçlanma süresi",
+    "Bildirim yolu": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
-    4
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "İmar ve Şehircilik Müdürlüğü",
+    "Zabıta Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
-    "yıllara göre sayısal döküm",
-    "e-Devlet üzerinden"
+    "kayıtlı elektronik posta adresime"
   ]
 }

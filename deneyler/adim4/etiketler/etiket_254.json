@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Fatih KESKIN",
-    "adres": "Pamuklar Mahallesi Papatya Caddesi No: 109/9 Yenimahalle/ANKARA",
+    "ad": "Onur KARA",
+    "adres": "Pamuklar Mahallesi Erguvan Sokağı No: 2/18 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,14 +32,14 @@
   },
   "konu": "Arşivden Suret Talebi",
   "sayi": null,
-  "tarih": "13.04.2026",
+  "tarih": "06.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Arşivden Suret",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
+    "Kullanım amacı": "ilgili kuruma sunulmak üzere",
     "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "posta yoluyla adresime"
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
     3
@@ -54,7 +54,7 @@
   ],
   "anahtar_terimler": [
     "Arşivden Suret",
-    "resmî işlemlerde kullanılmak üzere",
-    "posta yoluyla adresime"
+    "ilgili kuruma sunulmak üzere",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Mustafa YILDIZ",
-    "adres": "Gayret Mahallesi Papatya Caddesi No: 116/18 Yenimahalle/ANKARA",
+    "ad": "Osman YAVUZ",
+    "adres": "Ostim Mahallesi Ihlamur Sokağı No: 65/7 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,23 +26,23 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "165.01",
-    "ad": "Okul Aile Birlikleri",
+    "kod": "140",
+    "ad": "Taşımalı Eğitim",
     "saklama_suresi": "10"
   },
-  "konu": "Bağış Makbuzu Talebi",
+  "konu": "Güzergâh Değişikliği Talebi",
   "sayi": null,
-  "tarih": "05.05.2026",
+  "tarih": "18.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Bağış Makbuzu",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Talep": "Güzergâh Değişikliği",
+    "Gerekçe": "başvuru süresinin dolmak üzere olması nedeniyle",
+    "Başvuru şekli": "başvuru kayıt bürosuna teslim edilmiştir",
+    "Bildirim tercihi": "Kurumunuz kayıt bürosundan elden"
   },
   "paragraf_cumle_sayilari": [
-    3
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -52,9 +52,8 @@
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Bağış Makbuzu",
-    "sürecin tamamlanabilmesi için",
-    "şahsen başvuru yapılmıştır",
-    "elektronik posta ile"
+    "Güzergâh Değişikliği",
+    "başvuru kayıt bürosuna teslim edilmiştir",
+    "Kurumunuz kayıt bürosundan elden"
   ]
 }

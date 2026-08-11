@@ -5,10 +5,10 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
@@ -23,36 +23,36 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": null,
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "050.04",
-    "ad": "Kararlar",
-    "saklama_suresi": "15"
+    "kod": "302.03",
+    "ad": "Katkı Payları / Öğrenim Ücretleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Kararın Uygulanması Hk.",
-  "sayi": "E-32625594-050.04-75452827",
-  "tarih": "18.02.2026",
+  "konu": "Öğrenim Ücreti Ödemesi Hk.",
+  "sayi": "E-32625594-302.03-46635632",
+  "tarih": "11.02.2026",
   "ilgi": {
-    "tarih": "12.02.2026",
-    "sayi": "E-39985474-050.04-5027942"
+    "tarih": "28.01.2026",
+    "sayi": "E-17311665-302.03-3832237"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Genelge sureti",
-    "sayfa": 2
+    "aciklama": "Uygulama esasları",
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Kararın Uygulanması konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "15.05.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "hâlihazırda işleme alınmış başvurular",
-    "Esas 1": "belgelerin asılları birim arşivinde tutulacaktır",
-    "İrtibat": "uygulama Başkanlığımızca izlenecektir"
+    "Konu": "Öğrenim Ücreti Ödemesi konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar yapılan değerlendirme sonucunda alınmıştır",
+    "Kapsam": "kapsama giren bütün işlemler bu esasa göre yürütülür",
+    "İstenen 1": "düzenlemenin ilgili birimlerde ilan edilmesi",
+    "İstenen 2": "yapılan işlemlere ilişkin bilgi verilmesi",
+    "Yürürlük": "15.04.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "ihalesi tamamlanmış işler",
+    "Esas 1": "başvurular geliş sırasına göre değerlendirilecektir",
+    "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -80,14 +80,11 @@
   "kusur": "kapanis_yanlis",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "15.05.2026 tarihinde yürürlüğe girmiştir",
-    "hâlihazırda işleme alınmış başvurular",
-    "uygulama Başkanlığımızca izlenecektir"
+    "15.04.2026 tarihinde yürürlüğe girmiştir",
+    "ihalesi tamamlanmış işler"
   ]
 }

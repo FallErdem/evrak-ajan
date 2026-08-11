@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Onur BULUT",
-    "adres": "Pamuklar Mahallesi Lale Sokak No: 40/17 Yenimahalle/ANKARA",
+    "ad": "Murat KOÇ",
+    "adres": "Barıştepe Mahallesi Manolya Sokak No: 118/14 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,17 +30,17 @@
     "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
     "saklama_suresi": "B"
   },
-  "konu": "Uyum Sınıfı Açılması Talebi",
+  "konu": "Öğrenim Belgesi Talebi",
   "sayi": null,
-  "tarih": "27.05.2026",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Uyum Sınıfı Açılması",
-    "Sorun": "uyum sınıfı açılmadığı için çocuğum dersleri takip edemiyor",
-    "Süre": "yaklaşık iki aydır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Öğrenim Belgesi",
+    "Sorun": "çocuğumun kaydı kimlik numarası olmadığı gerekçesiyle yapılmadı",
+    "Süre": "geçtiğimiz aydan bu yana",
+    "Önceki başvuru": "e-Devlet üzerinden yapılan başvuru sonuçsuz kalmıştır",
+    "Talep": "durumun düzeltilmesi"
   },
   "paragraf_cumle_sayilari": [
     2,
@@ -54,8 +54,8 @@
     "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Uyum Sınıfı Açılması",
-    "yaklaşık iki aydır",
-    "sorunun giderilmesi"
+    "Öğrenim Belgesi",
+    "geçtiğimiz aydan bu yana",
+    "durumun düzeltilmesi"
   ]
 }

@@ -31,21 +31,21 @@
     "ad": "Hukuki",
     "saklama_suresi": "30"
   },
-  "konu": "Hukuki Görüş Talebi",
-  "sayi": "E-10213773-045.02-14707769",
-  "tarih": "27.01.2026",
+  "konu": "İhtilaflı Hususta Değerlendirme Talebi",
+  "sayi": "E-10213773-045.02-14916021",
+  "tarih": "06.02.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Hukuki Görüş",
-    "Ortak iş": "Hukuki Görüş konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "ortak çalışma önceki dönemde de sürdürülmüştür",
-    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
-    "Talep": "Hukuki Görüş konusunda görüş bildirilmesi"
+    "Konu": "İhtilaflı Hususta Değerlendirme",
+    "Ortak iş": "İhtilaflı Hususta Değerlendirme konusunda iki kurumun ortak yürüttüğü işlem",
+    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
+    "Beklenen katkı": "kurumunuzun uygun göreceği takvim beklenmektedir",
+    "Talep": "İhtilaflı Hususta Değerlendirme konusunda gerekli koordinasyonun sağlanması"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    3
+    3,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -56,6 +56,6 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Hukuki Görüş"
+    "İhtilaflı Hususta Değerlendirme"
   ]
 }

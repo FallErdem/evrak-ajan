@@ -5,17 +5,17 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "fen_bilimleri_ens",
-    "birim_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
-    "detsis_no": "47014261",
-    "imza_unvani": "Enstitü Müdürü"
+    "birim_kodu": "personel_db",
+    "birim_adi": "Personel Dairesi Başkanlığı",
+    "detsis_no": "42218640",
+    "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "55461037",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -23,31 +23,31 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Fen Bilimleri Enstitüsü Müdürlüğü",
+  "muhatap_parantez": "Personel Dairesi Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "106",
-    "ad": "Sınav Programları ve Sınavlar",
-    "saklama_suresi": "2"
+    "kod": "209",
+    "ad": "Akademik Personel Görevlendirmeleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Sınav Gözetmeni Görevlendirmesi",
-  "sayi": "E-65859045-106-1680127",
-  "tarih": "30.04.2026",
+  "konu": "35. Madde Kapsamında Görevlendirme",
+  "sayi": "E-55461037-209-1831496",
+  "tarih": "04.02.2026",
   "ilgi": {
-    "tarih": "13.04.2026",
-    "sayi": "E-47014261-106-3155128"
+    "tarih": "29.12.2025",
+    "sayi": "E-42218640-209-3164004"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Sınav Gözetmeni Görevlendirmesi",
-    "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
+    "Konu": "35. Madde Kapsamında Görevlendirme",
+    "Mevcut uygulama": "benzer taleplerde farklı sonuçlar doğmuştur",
     "Sonuç": "işlemlerde gecikme yaşanmaktadır",
-    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Talep": "konunun açıklığa kavuşturulması"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,
@@ -55,12 +55,12 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "Personel Dairesi Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Sınav Gözetmeni Görevlendirmesi",
+    "35. Madde Kapsamında Görevlendirme",
     "işlemlerde gecikme yaşanmaktadır",
-    "konu hakkında görüş bildirilmesi"
+    "konunun açıklığa kavuşturulması"
   ]
 }

@@ -12,13 +12,13 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Havva AKSOY",
-    "adres": "Karşıyaka Mahallesi Nergis Sokağı No: 118/22 Yenimahalle/ANKARA",
+    "ad": "Emine KILIÇ",
+    "adres": "Karşıyaka Mahallesi Akasya Sokak No: 107/4 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2024560657",
-    "bolum": "Mühendislik Fakültesi Bilgisayar Mühendisliği",
-    "sinif": "3"
+    "ogrenci_no": "2024423565",
+    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
+    "sinif": "4"
   },
   "belge_turu": "sikayet",
   "aile": "sikayet",
@@ -29,25 +29,26 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "310",
-    "ad": "Öğrenci Değişim Programları",
-    "saklama_suresi": "B"
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
+    "saklama_suresi": "10"
   },
-  "konu": "Kabul Mektubu Talebi",
+  "konu": "Askerlik Durum Belgesi Talebi",
   "sayi": null,
-  "tarih": "16.02.2026",
+  "tarih": "04.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Kabul Mektubu",
-    "Sorun": "yurtdışında aldığım dersler transkriptime işlenmedi",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Askerlik Durum Belgesi",
+    "Sorun": "transkriptimde geçen dönemin notları görünmüyor",
+    "Süre": "yaklaşık kırk gündür",
+    "Önceki başvuru": "konu ilgili birime şahsen de bildirilmiştir",
+    "Talep": "durumun düzeltilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
-    2
+    2,
+    2,
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -58,8 +59,8 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Kabul Mektubu",
-    "geçtiğimiz aydan bu yana",
-    "sorunun giderilmesi"
+    "Askerlik Durum Belgesi",
+    "yaklaşık kırk gündür",
+    "durumun düzeltilmesi"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "mali_hizmetler",
-    "birim_adi": "Mali Hizmetler Müdürlüğü",
-    "detsis_no": "43195403",
+    "birim_kodu": "fen_isleri",
+    "birim_adi": "Fen İşleri Müdürlüğü",
+    "detsis_no": "33152401",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "tekit_yazisi",
@@ -23,42 +23,41 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Mali Hizmetler Müdürlüğü",
+  "muhatap_parantez": "Fen İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "841.01",
-    "ad": "Bütçe Çalışmaları",
-    "saklama_suresi": "15"
+    "kod": "755.01",
+    "ad": "Etüd-Proje ve Fizibilite",
+    "saklama_suresi": "30"
   },
-  "konu": "Ödenek Talebi",
-  "sayi": "E-24304062-841.01-57511422",
-  "tarih": "09.01.2026",
+  "konu": "Fizibilite Raporu Talebi",
+  "sayi": "E-56248377-755.01-400647",
+  "tarih": "10.03.2026",
   "ilgi": {
-    "tarih": "30.12.2025",
-    "sayi": "E-43195403-841.01-3547577"
+    "tarih": "30.01.2026",
+    "sayi": "E-33152401-755.01-3737528"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Durum": "talep edilen bilgi henüz gönderilmemiştir",
+    "Dayanak": "ilgide kayıtlı bilgi talebimiz",
+    "Durum": "süre dolmasına rağmen bildirim yapılmamıştır",
     "Talep": "ivedilikle gönderilmesi",
     "Süre": "beş iş günü içinde"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Mali Hizmetler Müdürlüğü",
+    "Fen İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "ilgide kayıtlı yazı",
+    "ilgide kayıtlı bilgi talebimiz",
     "ivedilikle gönderilmesi",
     "beş iş günü içinde"
   ]

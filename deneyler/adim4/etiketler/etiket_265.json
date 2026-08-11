@@ -5,66 +5,66 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "genel_sekreterlik",
-    "birim_adi": "Genel Sekreterlik",
-    "detsis_no": "82642947",
-    "imza_unvani": "Genel Sekreter"
+    "birim_kodu": "gazi_rektorlugu",
+    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
+    "detsis_no": "39985474",
+    "imza_unvani": "Rektör"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum_adi": "Genel Sekreterlik",
     "ad": null,
     "adres": null,
-    "detsis_no": "17311665",
+    "detsis_no": "82642947",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Genel Sekreterlik",
+  "hiyerarsi_yonu": "ust",
+  "muhatap_makam": "Gazi Üniversitesi Rektörlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "805.02.05",
-    "ad": "Arşivlerden Yararlanma",
-    "saklama_suresi": "10"
+    "kod": "050.04",
+    "ad": "Kararlar",
+    "saklama_suresi": "15"
   },
-  "konu": "Araştırma İzni Hk.",
-  "sayi": "E-17311665-805.02.05-4590323",
-  "tarih": "15.01.2026",
+  "konu": "Kararın Uygulanması Hk.",
+  "sayi": "E-82642947-050.04-3681294",
+  "tarih": "29.04.2026",
   "ilgi": {
-    "tarih": "09.01.2026",
-    "sayi": "E-82642947-805.02.05-6972693"
+    "tarih": "08.04.2026",
+    "sayi": "E-39985474-050.04-6818638"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Araştırma İzni",
+    "Talep": "Kararın Uygulanması",
     "Talebin sonucu": "olumlu, belge düzenlendi",
-    "Dayanak": "ilgide kayıtlı yazı",
+    "Dayanak": "ilgide kayıtlı talep",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "İnceleme": "konu Başkanlığımızca değerlendirilmiştir",
-    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Kapsam": "kayıtlar yıllara göre ayrılmıştır",
     "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
-    "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
+    "Süre": "ek talepler yazılı olarak iletilmelidir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
+    2,
     2,
     2
   ],
   "paragraf_alanlari": [
     [
       "Talep",
-      "Dayanak"
+      "Dayanak",
+      "İnceleme"
     ],
     [
       "Talebin sonucu",
-      "Gönderilen",
-      "İnceleme"
+      "Gönderilen"
     ],
     [
       "Kapsam",
@@ -79,13 +79,14 @@
   "kusur": "tarama_bozuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Genel Sekreterlik",
+    "Gazi Üniversitesi Rektörlüğü",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Araştırma İzni",
+    "Kararın Uygulanması",
     "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı",
-    "konu Başkanlığımızca değerlendirilmiştir"
+    "ilgide kayıtlı talep",
+    "kayıtlar yıllara göre ayrılmıştır",
+    "ek talepler yazılı olarak iletilmelidir"
   ]
 }

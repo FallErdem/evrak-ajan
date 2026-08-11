@@ -5,17 +5,17 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "temizlik_isleri",
+    "birim_adi": "Temizlik İşleri Müdürlüğü",
+    "detsis_no": "83011479",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+    "kurum_adi": "Yenimahalle Kaymakamlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "24304062",
+    "detsis_no": "56248377",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -23,48 +23,48 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "Temizlik İşleri Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "622.01",
+    "ad": "Bilgi Edinme, Talep ve Şikayetler",
     "saklama_suresi": "10"
   },
-  "konu": "Talep Edilen Belgenin Gönderilmesi",
-  "sayi": "E-24304062-622.02-57512278",
-  "tarih": "09.01.2026",
+  "konu": "Başvuru Cevabının Gönderilmesi",
+  "sayi": "E-56248377-622.01-410965",
+  "tarih": "28.04.2026",
   "ilgi": {
-    "tarih": "06.01.2026",
-    "sayi": "E-26888327-622.02-3521049"
+    "tarih": "09.04.2026",
+    "sayi": "E-83011479-622.01-2313306"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Talep Edilen Belgenin Gönderilmesi",
+    "Talep": "Başvuru Cevabının Gönderilmesi",
     "Talebin sonucu": "olumlu, talep karşılandı",
-    "Dayanak": "ilgide kayıtlı yazı",
+    "Dayanak": "ilgide kayıtlı talep",
     "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
-    "İnceleme": "konu Bakanlığımızca değerlendirilmiştir",
-    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
-    "Sınırlama": "yalnızca tamamlanmış işlemler dâhil edilmiştir",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
-    "İrtibat": "konuyla ilgili irtibat Bakanlığımızca sağlanmaktadır"
+    "İnceleme": "konu Kaymakamlığımızca değerlendirilmiştir",
+    "Kapsam": "veriler talep edilen ölçütlere göre süzülmüştür",
+    "Sınırlama": "arşive devredilmiş kayıtlar ayrıca istenmelidir",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
+    "İrtibat": "konuyla ilgili irtibat Kaymakamlığımızca sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
+    2,
     2,
     2
   ],
   "paragraf_alanlari": [
     [
       "Talep",
-      "Dayanak"
+      "Dayanak",
+      "İnceleme"
     ],
     [
       "Talebin sonucu",
-      "Gönderilen",
-      "İnceleme"
+      "Gönderilen"
     ],
     [
       "Kapsam",
@@ -79,13 +79,12 @@
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "Temizlik İşleri Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Talep Edilen Belgenin Gönderilmesi",
+    "Başvuru Cevabının Gönderilmesi",
     "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı",
-    "konu Bakanlığımızca değerlendirilmiştir"
+    "ilgide kayıtlı talep"
   ]
 }

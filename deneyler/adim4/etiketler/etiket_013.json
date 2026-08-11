@@ -12,12 +12,12 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Fatma YILDIZ",
-    "adres": "Şentepe Mahallesi Akasya Sokak No: 80/11 Yenimahalle/ANKARA",
+    "ad": "Salih GÜLER",
+    "adres": "Emniyet Mahallesi Ihlamur Sokak No: 34/22 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2025536381",
-    "bolum": "Fen Fakültesi Matematik",
+    "ogrenci_no": "2023643478",
+    "bolum": "Hukuk Fakültesi",
     "sinif": "4"
   },
   "belge_turu": "dilekce",
@@ -33,24 +33,23 @@
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Salon Tahsis Talebi",
+  "konu": "Etkinlik Bütçe Desteği Talebi",
   "sayi": null,
-  "tarih": "23.02.2026",
+  "tarih": "06.02.2026",
   "ilgi": null,
   "ek": {
     "adet": 1,
-    "aciklama": "Kimlik fotokopisi",
-    "sayfa": 2
+    "aciklama": "Tapu fotokopisi",
+    "sayfa": 1
   },
   "somut_bilgiler": {
-    "Talep": "Salon Tahsis",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "başvuru elektronik ortamda da iletilmiştir",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Talep": "Etkinlik Bütçe Desteği",
+    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Başvuru şekli": "başvuru kayıt bürosuna teslim edilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    4
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -61,8 +60,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Salon Tahsis",
-    "mağduriyetin giderilmesi bakımından",
-    "e-Devlet üzerinden"
+    "Etkinlik Bütçe Desteği",
+    "sürecin tamamlanabilmesi için",
+    "başvuru kayıt bürosuna teslim edilmiştir",
+    "elektronik posta ile"
   ]
 }

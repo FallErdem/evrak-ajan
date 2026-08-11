@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "39985474",
+    "detsis_no": "65859045",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "talep_yazisi",
@@ -32,22 +32,22 @@
     "saklama_suresi": "15"
   },
   "konu": "Uygulama Okulunun Belirlenmesi",
-  "sayi": "E-39985474-355.02-5054956",
-  "tarih": "20.03.2026",
+  "sayi": "E-65859045-355.02-2725061",
+  "tarih": "24.02.2026",
   "ilgi": {
-    "tarih": "20.02.2026",
-    "sayi": "E-55461037-355.02-1420732"
+    "tarih": "15.01.2026",
+    "sayi": "E-55461037-355.02-1820101"
   },
   "ek": null,
   "somut_bilgiler": {
     "Konu": "Uygulama Okulunun Belirlenmesi",
     "Ortak iş": "Uygulama Okulunun Belirlenmesi konusunda iki kurumun ortak yürüttüğü işlem",
-    "Gerekçe": "hizmetin kesintisiz yürütülmesi gerekmektedir",
-    "Beklenen katkı": "kurumunuzun görevlendireceği personel gerekmektedir",
+    "Gerekçe": "iki kurumun görev alanı bu konuda kesişmektedir",
+    "Beklenen katkı": "kurumunuzun uygun göreceği yöntem beklenmektedir",
     "Talep": "Uygulama Okulunun Belirlenmesi kapsamında öğrenci kabul edilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,

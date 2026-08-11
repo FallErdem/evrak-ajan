@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Yenimahalle Belediye Başkanlığı",
+    "kurum_adi": "Gazi Üniversitesi Rektörlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "65859045",
+    "detsis_no": "39985474",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "gorus_talebi",
@@ -31,21 +31,21 @@
     "ad": "Okul Aile Birlikleri",
     "saklama_suresi": "10"
   },
-  "konu": "Okul Aile Birliği Gelir Gider Bildirimi",
-  "sayi": "E-65859045-165.01-1648776",
-  "tarih": "29.01.2026",
+  "konu": "Okul Aile Birliği Kira İşlemleri",
+  "sayi": "E-39985474-165.01-6753915",
+  "tarih": "15.01.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Okul Aile Birliği Gelir Gider",
-    "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
+    "Konu": "Okul Aile Birliği Kira İşlemleri",
+    "Mevcut uygulama": "uygulama birimler arasında farklılık göstermektedir",
     "Sonuç": "işlemlerde gecikme yaşanmaktadır",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
-    "Talep": "konu hakkında görüş bildirilmesi"
+    "Tereddüt": "istisna hükmünün kapsamı netleştirilememiştir",
+    "Talep": "uygulanacak usulün bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -55,8 +55,8 @@
     "Yenimahalle İlçe Millî Eğitim Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Okul Aile Birliği Gelir Gider",
+    "Okul Aile Birliği Kira İşlemleri",
     "işlemlerde gecikme yaşanmaktadır",
-    "konu hakkında görüş bildirilmesi"
+    "uygulanacak usulün bildirilmesi"
   ]
 }

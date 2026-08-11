@@ -5,9 +5,9 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "ortaogretim_sb",
+    "birim_adi": "Ortaöğretim Şube Müdürlüğü",
+    "detsis_no": "63971525",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
@@ -23,37 +23,35 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Ortaöğretim Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
-    "saklama_suresi": "B"
+    "kod": "245.04",
+    "ad": "Bursluluk",
+    "saklama_suresi": "10"
   },
-  "konu": "Öğrenci Bilgi Formunun Gönderilmesi",
-  "sayi": "E-10213773-235-14731659",
-  "tarih": "13.02.2026",
+  "konu": "Burs Kesilmesi Hk.",
+  "sayi": "E-10213773-245.04-14879267",
+  "tarih": "09.01.2026",
   "ilgi": {
-    "tarih": "26.01.2026",
-    "sayi": "E-21291472-235-6307082"
+    "tarih": "06.01.2026",
+    "sayi": "E-63971525-245.04-3752084"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Öğrenci Bilgi Formunun Gönderilmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
-    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
+    "Talep": "Burs Kesilmesi",
+    "Talebin sonucu": "olumlu, kayıt güncellendi",
+    "Dayanak": "ilgide kayıtlı başvuru",
+    "İnceleme": "talep ilgili birimce incelenmiştir",
     "Kapsam": "döküm birim bazında hazırlanmıştır",
-    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "Sınırlama": "gizlilik dereceli belgeler kapsam dışında bırakılmıştır",
+    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
     "İrtibat": "konuyla ilgili irtibat Valiliğimizce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2,
-    2,
+    3,
     2
   ],
   "paragraf_alanlari": [
@@ -64,9 +62,6 @@
     ],
     [
       "Talebin sonucu",
-      "Gönderilen"
-    ],
-    [
       "Kapsam",
       "Sınırlama"
     ],
@@ -79,12 +74,13 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü"
+    "Ortaöğretim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "Öğrenci Bilgi Formunun Gönderilmesi",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı",
+    "Burs Kesilmesi",
+    "olumlu, kayıt güncellendi",
+    "ilgide kayıtlı başvuru",
+    "talep ilgili birimce incelenmiştir",
     "döküm birim bazında hazırlanmıştır"
   ]
 }

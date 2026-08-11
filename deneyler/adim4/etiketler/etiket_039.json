@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Millî Eğitim Bakanlığı",
+    "kurum_adi": "Ankara Valiliği",
     "ad": null,
     "adres": null,
-    "detsis_no": "24316060",
+    "detsis_no": "10213773",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -27,38 +27,35 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "235",
-    "ad": "Yabancı Uyruklu Öğrenciler (İlk ve Orta Öğretim)",
+    "kod": "205",
+    "ad": "Kayıt-Kabul",
     "saklama_suresi": "B"
   },
-  "konu": "Kimlik Numarası Kaydı Hk.",
-  "sayi": "E-24316060-235-47677387",
-  "tarih": "23.02.2026",
+  "konu": "Kayıt İşlemleri Hk.",
+  "sayi": "E-10213773-205-14966609",
+  "tarih": "17.03.2026",
   "ilgi": {
     "tarih": "03.02.2026",
-    "sayi": "E-21291472-235-6312748"
+    "sayi": "E-21291472-205-6359740"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "Uygulama esasları",
+    "aciklama": "Genelge sureti",
     "sayfa": 1
   },
   "somut_bilgiler": {
-    "Konu": "Kimlik Numarası Kaydı konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
+    "Konu": "Kayıt İşlemleri konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "karar Makam onayı ile yürürlüğe girmiştir",
+    "Kapsam": "uygulama bütün birimleri kapsamaktadır",
+    "İstenen 1": "esasların personele tebliğ edilmesi",
     "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
-    "Yürürlük": "15.03.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "sözleşmesi devam eden yükleniciler",
-    "Esas 1": "her başvuru için ayrı dosya açılacaktır",
-    "Esas 2": "eksik belgeli başvurular işleme alınmayacaktır",
-    "Geçiş hükmü": "geçiş dönemi üç ay olarak belirlenmiştir",
-    "İrtibat": "tereddüt hâlinde Bakanlığımıza başvurulabilir"
+    "Yürürlük": "15.04.2026 tarihinde yürürlüğe girmiştir",
+    "Kapsam dışı": "hâlihazırda işleme alınmış başvurular",
+    "Esas 1": "başvurular geliş sırasına göre değerlendirilecektir",
+    "İrtibat": "tereddüt hâlinde Valiliğimize başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2,
     3,
     3
   ],
@@ -70,12 +67,8 @@
     ],
     [
       "Kapsam",
-      "Kapsam dışı"
-    ],
-    [
-      "Esas 1",
-      "Esas 2",
-      "Geçiş hükmü"
+      "Kapsam dışı",
+      "Esas 1"
     ],
     [
       "İstenen 2",
@@ -90,11 +83,9 @@
     "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
-    "15.03.2026 tarihinde yürürlüğe girmiştir",
-    "sözleşmesi devam eden yükleniciler",
-    "her başvuru için ayrı dosya açılacaktır",
-    "geçiş dönemi üç ay olarak belirlenmiştir"
+    "uygulama bütün birimleri kapsamaktadır",
+    "esasların personele tebliğ edilmesi",
+    "15.04.2026 tarihinde yürürlüğe girmiştir",
+    "hâlihazırda işleme alınmış başvurular"
   ]
 }

@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Derya POLAT",
-    "adres": "Ostim Mahallesi Ceviz Sokağı No: 88/19 Yenimahalle/ANKARA",
+    "ad": "Osman ÇELIK",
+    "adres": "Susuz Mahallesi Papatya Caddesi No: 43/2 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,23 +30,22 @@
     "ad": "Ruhsat",
     "saklama_suresi": "B"
   },
-  "konu": "Ruhsatın Askıya Alınması Hk.",
+  "konu": "İşyeri Açma ve Çalışma Ruhsatı Başvurusu",
   "sayi": null,
-  "tarih": "18.03.2026",
+  "tarih": "17.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Ruhsatın Askıya Alınması",
-    "Sorun": "ruhsat başvurum iki aydır sonuçlandırılmadı",
-    "Süre": "yaklaşık kırk gündür",
-    "Önceki başvuru": "konu hakkında daha önce çağrı merkezine başvuru yapılmıştır",
+    "Şikâyet konusu": "İşyeri Açma ve Çalışma Ruhsatı",
+    "Sorun": "devir talebim eksik evrak denilerek iade edildi ancak eksik belirtilmedi",
+    "Süre": "iki haftadan fazladır",
+    "Önceki başvuru": "geçen dönem aynı konuda dilekçe verilmiştir",
     "Talep": "sorunun giderilmesi",
     "Yer": "Karşıyaka Mahallesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2,
-    3
+    3,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "taranmis",
@@ -57,8 +56,8 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Ruhsatın Askıya Alınması",
-    "yaklaşık kırk gündür",
+    "İşyeri Açma ve Çalışma Ruhsatı",
+    "iki haftadan fazladır",
     "sorunun giderilmesi",
     "Karşıyaka Mahallesi"
   ]

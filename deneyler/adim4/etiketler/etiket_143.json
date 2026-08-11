@@ -5,55 +5,53 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "gazi_rektorlugu",
-    "birim_adi": "Gazi Üniversitesi Rektörlüğü",
-    "detsis_no": "39985474",
-    "imza_unvani": "Rektör"
+    "birim_kodu": "gazi_egitim_fak",
+    "birim_adi": "Gazi Eğitim Fakültesi Dekanlığı",
+    "detsis_no": "86488853",
+    "imza_unvani": "Dekan"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "kurum_adi": "Personel Dairesi Başkanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "47014261",
+    "detsis_no": "42218640",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
-  "hiyerarsi_yonu": "ust",
-  "muhatap_makam": "Gazi Üniversitesi Rektörlüğü",
+  "hiyerarsi_yonu": "ayni",
+  "muhatap_makam": "Gazi Eğitim Fakültesi Dekanlığı",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "010.06",
-    "ad": "Genelgeler",
-    "saklama_suresi": "15"
+    "kod": "106",
+    "ad": "Sınav Programları ve Sınavlar",
+    "saklama_suresi": "2"
   },
-  "konu": "Genelge Kapsamındaki İşlemlerin Raporlanması",
-  "sayi": "E-47014261-010.06-3104694",
-  "tarih": "03.02.2026",
+  "konu": "Mazeret Sınavı Takvimi",
+  "sayi": "E-42218640-106-3291579",
+  "tarih": "21.05.2026",
   "ilgi": {
-    "tarih": "29.12.2025",
-    "sayi": "E-39985474-010.06-4994310"
+    "tarih": "10.04.2026",
+    "sayi": "E-86488853-106-1348780"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Genelge Kapsamındaki İşlemlerin Raporlanması",
-    "Talebin sonucu": "olumlu, talep karşılandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "İnceleme": "talep ilgili birimce incelenmiştir",
-    "Kapsam": "döküm birim bazında hazırlanmıştır",
-    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
-    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
+    "Talep": "Mazeret Sınavı Takvimi",
+    "Talebin sonucu": "olumlu, talep uygun görüldü",
+    "Dayanak": "ilgide kayıtlı talep",
+    "İnceleme": "konu Başkanlığımızca değerlendirilmiştir",
+    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
+    "Sınırlama": "sayısal ortama aktarılmamış kayıtlar bulunmamaktadır",
+    "Süre": "ek talepler yazılı olarak iletilmelidir",
+    "İrtibat": "tereddüt hâlinde Başkanlığımıza başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    2,
-    2,
+    3,
     2
   ],
   "paragraf_alanlari": [
@@ -64,9 +62,6 @@
     ],
     [
       "Talebin sonucu",
-      "Gönderilen"
-    ],
-    [
       "Kapsam",
       "Sınırlama"
     ],
@@ -79,13 +74,14 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Gazi Üniversitesi Rektörlüğü",
+    "Gazi Eğitim Fakültesi Dekanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "olumlu, talep karşılandı",
-    "ilgide kayıtlı yazı",
-    "talep ilgili birimce incelenmiştir",
-    "döküm birim bazında hazırlanmıştır"
+    "Mazeret Sınavı Takvimi",
+    "olumlu, talep uygun görüldü",
+    "ilgide kayıtlı talep",
+    "konu Başkanlığımızca değerlendirilmiştir",
+    "ek talepler yazılı olarak iletilmelidir"
   ]
 }

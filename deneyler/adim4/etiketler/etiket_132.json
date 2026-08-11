@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Hatice TEKIN",
-    "adres": "Yakacık Mahallesi Sümbül Sokağı No: 55/3 Yenimahalle/ANKARA",
+    "ad": "Murat ÖZTÜRK",
+    "adres": "Şentepe Mahallesi Ceviz Sokak No: 5/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -26,24 +26,24 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.01",
-    "ad": "Bilgi Edinme, Talep ve Şikayetler",
-    "saklama_suresi": "10"
+    "kod": "858",
+    "ad": "İdari Yaptırım/Para Cezası İşleri",
+    "saklama_suresi": "15"
   },
-  "konu": "Şikâyet Başvurusu Hk.",
+  "konu": "Tutanağın Tebliği Hk.",
   "sayi": null,
-  "tarih": "21.05.2026",
+  "tarih": "26.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Şikâyet Başvurusu",
-    "Sorun": "başvurumun hangi birimde beklediğini öğrenemiyorum",
-    "Süre": "yaklaşık üç haftadır",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
-    "Talep": "sorunun giderilmesi"
+    "Şikâyet konusu": "Tutanağın Tebliği",
+    "Sorun": "aynı fiil için iki kez ceza kesildi",
+    "Süre": "iki haftadan fazladır",
+    "Önceki başvuru": "daha önce yapılan başvuruya cevap verilmemiştir",
+    "Talep": "durumun düzeltilmesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
+    3,
     3
   ],
   "paragraf_alanlari": null,
@@ -55,8 +55,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Şikâyet Başvurusu",
-    "yaklaşık üç haftadır",
-    "sorunun giderilmesi"
+    "Tutanağın Tebliği",
+    "aynı fiil için iki kez ceza kesildi",
+    "iki haftadan fazladır",
+    "durumun düzeltilmesi"
   ]
 }

@@ -5,17 +5,17 @@
     "kurum_kodu": "ankara_il_mem",
     "kurum_adi": "Ankara İl Millî Eğitim Müdürlüğü",
     "kurum_tipi": "il_mudurlugu",
-    "birim_kodu": "temel_egitim_sb",
-    "birim_adi": "Temel Eğitim Şube Müdürlüğü",
-    "detsis_no": "21291472",
+    "birim_kodu": "strateji_gelistirme_sb",
+    "birim_adi": "Strateji Geliştirme Şube Müdürlüğü",
+    "detsis_no": "14588481",
     "imza_unvani": "Şube Müdürü"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "bilgilendirme",
@@ -23,54 +23,54 @@
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "alt",
   "muhatap_makam": "Ankara İl Millî Eğitim Müdürlüğü",
-  "muhatap_parantez": "Temel Eğitim Şube Müdürlüğü",
+  "muhatap_parantez": "Strateji Geliştirme Şube Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "210.01",
-    "ad": "Nakiller",
-    "saklama_suresi": "5"
+    "kod": "602.07",
+    "ad": "Yatırım Programı",
+    "saklama_suresi": "10"
   },
-  "konu": "Nakil İptali Bildirimi",
-  "sayi": "E-10213773-210.01-14731998",
-  "tarih": "13.02.2026",
+  "konu": "Yeni Proje Teklifi",
+  "sayi": "E-24316060-602.07-66325035",
+  "tarih": "26.03.2026",
   "ilgi": {
-    "tarih": "16.01.2026",
-    "sayi": "E-21291472-210.01-6299772"
+    "tarih": "20.02.2026",
+    "sayi": "E-14588481-602.07-6222913"
   },
   "ek": {
     "adet": 1,
     "aciklama": "Genelge sureti",
-    "sayfa": 1
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Konu": "Nakil İptali konusunda yeni bir uygulama yürürlüğe girmiştir",
-    "Kaynak": "uygulama Bakanlıkça yürürlüğe konulmuştur",
-    "Kapsam": "bağlı tüm birimler uygulamaya tabidir",
-    "İstenen 1": "uygulamanın ilgililere duyurulması",
-    "İstenen 2": "uygulama sonuçlarının Kurumumuza bildirilmesi",
+    "Konu": "Yeni Proje Teklifi konusunda yeni bir uygulama yürürlüğe girmiştir",
+    "Kaynak": "düzenleme Makam onayına istinaden yapılmıştır",
+    "Kapsam": "uygulama bütün birimleri kapsamaktadır",
+    "İstenen 1": "esasların personele tebliğ edilmesi",
     "Yürürlük": "15.03.2026 tarihinde yürürlüğe girmiştir",
-    "Kapsam dışı": "hâlihazırda işleme alınmış başvurular",
-    "Esas 1": "başvurular elektronik ortamda kayda alınacaktır",
-    "Esas 2": "süre aşımı hâlinde başvuru yenilenecektir",
-    "Geçiş hükmü": "geçiş dönemi üç ay olarak belirlenmiştir",
-    "İrtibat": "uygulama Valiliğimizce izlenecektir"
+    "Kapsam dışı": "önceki dönemde onaylanmış projeler",
+    "Esas 1": "her başvuru için ayrı dosya açılacaktır",
+    "Esas 2": "eksik belgeli başvurular işleme alınmayacaktır",
+    "Geçiş hükmü": "devam eden işlemler için ek süre tanınmıştır",
+    "Süre": "otuz gün içinde",
+    "İrtibat": "uygulama Bakanlığımızca izlenecektir"
   },
   "paragraf_cumle_sayilari": [
-    3,
     2,
+    3,
     3,
     3
   ],
   "paragraf_alanlari": [
     [
       "Konu",
-      "Kaynak",
-      "Yürürlük"
+      "Kaynak"
     ],
     [
       "Kapsam",
-      "Kapsam dışı"
+      "Kapsam dışı",
+      "Yürürlük"
     ],
     [
       "Esas 1",
@@ -78,7 +78,7 @@
       "Geçiş hükmü"
     ],
     [
-      "İstenen 2",
+      "Süre",
       "İrtibat",
       "İstenen 1"
     ]
@@ -87,14 +87,14 @@
   "kusur": null,
   "yasakli_adlar": [
     "Ankara İl Millî Eğitim Müdürlüğü",
-    "Temel Eğitim Şube Müdürlüğü"
+    "Strateji Geliştirme Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "bağlı tüm birimler uygulamaya tabidir",
-    "uygulamanın ilgililere duyurulması",
+    "uygulama bütün birimleri kapsamaktadır",
+    "esasların personele tebliğ edilmesi",
     "15.03.2026 tarihinde yürürlüğe girmiştir",
-    "hâlihazırda işleme alınmış başvurular",
-    "geçiş dönemi üç ay olarak belirlenmiştir",
-    "uygulama Valiliğimizce izlenecektir"
+    "önceki dönemde onaylanmış projeler",
+    "her başvuru için ayrı dosya açılacaktır",
+    "otuz gün içinde"
   ]
 }

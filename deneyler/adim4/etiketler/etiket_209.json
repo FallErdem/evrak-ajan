@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Fen İşleri Müdürlüğü",
+    "kurum_adi": "Yazı İşleri Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "33152401",
+    "detsis_no": "15986609",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
@@ -27,27 +27,27 @@
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "602.07",
-    "ad": "Yatırım Programı",
-    "saklama_suresi": "10"
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
   },
-  "konu": "Yatırım Programı Teklifi",
-  "sayi": "E-33152401-602.07-1966880",
-  "tarih": "11.03.2026",
+  "konu": "Gelir Gider Tahmin Cetveli",
+  "sayi": "E-15986609-841.01-967166",
+  "tarih": "13.05.2026",
   "ilgi": {
-    "tarih": "04.02.2026",
-    "sayi": "E-43195403-602.07-3564779"
+    "tarih": "28.04.2026",
+    "sayi": "E-43195403-841.01-801085"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Yatırım Programı Teklifi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talep": "Gelir Gider Tahmin Cetveli",
+    "Talebin sonucu": "olumlu, talep karşılandı",
     "Dayanak": "ilgide kayıtlı yazı",
-    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
-    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
-    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
-    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
-    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
+    "İnceleme": "talep ilgili birimce incelenmiştir",
+    "Kapsam": "döküm birim bazında hazırlanmıştır",
+    "Sınırlama": "arşive devredilmiş kayıtlar ayrıca istenmelidir",
+    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
     3,
@@ -78,8 +78,10 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Yatırım Programı Teklifi",
-    "olumlu, belge düzenlendi",
-    "ilgide kayıtlı yazı"
+    "Gelir Gider Tahmin Cetveli",
+    "olumlu, talep karşılandı",
+    "ilgide kayıtlı yazı",
+    "talep ilgili birimce incelenmiştir",
+    "döküm birim bazında hazırlanmıştır"
   ]
 }

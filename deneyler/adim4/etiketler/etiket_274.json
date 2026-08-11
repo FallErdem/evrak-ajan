@@ -5,68 +5,63 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "personel_db",
-    "birim_adi": "Personel Dairesi Başkanlığı",
-    "detsis_no": "42218640",
-    "imza_unvani": "Daire Başkanı"
+    "birim_kodu": "genel_sekreterlik",
+    "birim_adi": "Genel Sekreterlik",
+    "detsis_no": "82642947",
+    "imza_unvani": "Genel Sekreter"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Genel Sekreterlik",
+    "kurum_adi": "Gazi Eğitim Fakültesi Dekanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "82642947",
+    "detsis_no": "86488853",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Personel Dairesi Başkanlığı",
+  "muhatap_makam": "Genel Sekreterlik",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "209",
-    "ad": "Akademik Personel Görevlendirmeleri",
+    "kod": "010.06",
+    "ad": "Genelgeler",
     "saklama_suresi": "15"
   },
-  "konu": "Ders Görevlendirmesi Hk.",
-  "sayi": "E-82642947-209-7035886",
-  "tarih": "18.03.2026",
+  "konu": "Genelge Kapsamındaki İşlemlerin Raporlanması",
+  "sayi": "E-86488853-010.06-1328844",
+  "tarih": "17.03.2026",
   "ilgi": {
-    "tarih": "03.03.2026",
-    "sayi": "E-42218640-209-1219657"
+    "tarih": "17.02.2026",
+    "sayi": "E-82642947-010.06-3616273"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Ders Görevlendirmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
-    "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
-    "Kapsam": "bildirilen bilgiler ilgili dönemi kapsamaktadır",
-    "Sınırlama": "devam eden işlemlere ait kayıtlar hariç tutulmuştur",
-    "Süre": "ilave bilgi talebi on beş gün içinde iletilebilir",
-    "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
+    "Talep": "Genelge Kapsamındaki İşlemlerin Raporlanması",
+    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Dayanak": "ilgide kayıtlı başvuru",
+    "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
+    "Kapsam": "liste sonuçlanma durumuna göre düzenlenmiştir",
+    "Sınırlama": "yalnızca talep edilen döneme ait veriler yer almaktadır",
+    "Süre": "ek talepler yazılı olarak iletilmelidir",
+    "İrtibat": "tereddüt hâlinde Müdürlüğümüze başvurulabilir"
   },
   "paragraf_cumle_sayilari": [
-    2,
     3,
-    2,
+    3,
     2
   ],
   "paragraf_alanlari": [
     [
       "Talep",
-      "Dayanak"
-    ],
-    [
-      "Talebin sonucu",
-      "Gönderilen",
+      "Dayanak",
       "İnceleme"
     ],
     [
+      "Talebin sonucu",
       "Kapsam",
       "Sınırlama"
     ],
@@ -79,12 +74,13 @@
   "kusur": "ilgi_kopuk",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Personel Dairesi Başkanlığı",
+    "Genel Sekreterlik",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Ders Görevlendirmesi",
-    "olumlu, işlem tamamlandı",
-    "ilgide kayıtlı yazı"
+    "olumlu, belge düzenlendi",
+    "ilgide kayıtlı başvuru",
+    "konu Müdürlüğümüzce değerlendirilmiştir",
+    "ek talepler yazılı olarak iletilmelidir"
   ]
 }

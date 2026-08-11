@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Zeynep YILMAZ",
-    "adres": "Emniyet Mahallesi Ceviz Sokağı No: 62/10 Yenimahalle/ANKARA",
+    "ad": "Salih TURAN",
+    "adres": "Çiğdemtepe Mahallesi Menekşe Sokağı No: 34/6 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -30,22 +30,22 @@
     "ad": "İtfaiye Uygunluk Raporları",
     "saklama_suresi": "15"
   },
-  "konu": "Eksikliklerin Giderilmesi Hk.",
+  "konu": "Yangın Güvenliği Raporu Başvurusu",
   "sayi": null,
-  "tarih": "14.01.2026",
+  "tarih": "27.05.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Şikâyet konusu": "Eksikliklerin Giderilmesi",
+    "Şikâyet konusu": "Yangın Güvenliği Raporu",
     "Sorun": "uygunluk raporu talebim geciktiği için ruhsat sürem doldu",
-    "Süre": "geçtiğimiz aydan bu yana",
-    "Önceki başvuru": "durum daha önce telefonla bildirilmiş, sonuç alınamamıştır",
+    "Süre": "yaklaşık iki aydır",
+    "Önceki başvuru": "durum yerinde de bildirilmiş ancak sonuç alınamamıştır",
     "Talep": "sorunun giderilmesi",
-    "Yer": "Şentepe Mahallesi"
+    "Yer": "Serhat Mahallesi"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    3
+    3,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -56,9 +56,9 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Eksikliklerin Giderilmesi",
-    "geçtiğimiz aydan bu yana",
+    "Yangın Güvenliği Raporu",
+    "yaklaşık iki aydır",
     "sorunun giderilmesi",
-    "Şentepe Mahallesi"
+    "Serhat Mahallesi"
   ]
 }

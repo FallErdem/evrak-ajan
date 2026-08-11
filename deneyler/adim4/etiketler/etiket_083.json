@@ -31,16 +31,16 @@
     "ad": "Kararlar",
     "saklama_suresi": "15"
   },
-  "konu": "Alınan Kararların Özeti",
-  "sayi": "E-65859045-050.04-1657385",
-  "tarih": "23.02.2026",
+  "konu": "Karar Örneği Talebi",
+  "sayi": "E-65859045-050.04-2727671",
+  "tarih": "03.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Konu": "Alınan Kararların Özeti",
+    "Konu": "Karar Örneği",
     "Mevcut uygulama": "konu bugüne kadar birim takdiriyle yürütülmüştür",
-    "Sonuç": "işlemlerde gecikme yaşanmaktadır",
-    "Tereddüt": "uygulamada hangi usulün izleneceği açık değildir",
+    "Sonuç": "başvuranlara tutarlı cevap verilememektedir",
+    "Tereddüt": "iki farklı düzenleme arasında tereddüt oluşmuştur",
     "Talep": "konu hakkında görüş bildirilmesi"
   },
   "paragraf_cumle_sayilari": [
@@ -57,8 +57,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Alınan Kararların Özeti",
-    "işlemlerde gecikme yaşanmaktadır",
+    "Karar Örneği",
     "konu hakkında görüş bildirilmesi"
   ]
 }

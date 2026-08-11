@@ -5,61 +5,60 @@
     "kurum_kodu": "gazi_rektorlugu",
     "kurum_adi": "Gazi Üniversitesi",
     "kurum_tipi": "universite",
-    "birim_kodu": "sks_db",
-    "birim_adi": "Sağlık Kültür ve Spor Daire Başkanlığı",
-    "detsis_no": "98244303",
+    "birim_kodu": "ogrenci_isleri_db",
+    "birim_adi": "Öğrenci İşleri Daire Başkanlığı",
+    "detsis_no": "17311665",
     "imza_unvani": "Daire Başkanı"
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Murat BULUT",
-    "adres": "Şentepe Mahallesi Erguvan Sokağı No: 77/19 Yenimahalle/ANKARA",
+    "ad": "Sultan DUMAN",
+    "adres": "Yeşilevler Mahallesi Çınar Sokak No: 78/23 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2019779753",
-    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
-    "sinif": "2"
+    "ogrenci_no": "2020452782",
+    "bolum": "Tıp Fakültesi",
+    "sinif": "1"
   },
   "belge_turu": "dilekce",
   "aile": "belge_talebi",
   "yazan_tipi": "ogrenci",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Gazi Üniversitesi",
-  "muhatap_parantez": "Sağlık Kültür ve Spor Daire Başkanlığı",
+  "muhatap_parantez": "Öğrenci İşleri Daire Başkanlığı",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "309",
-    "ad": "Öğrenci Toplulukları, Birlikleri vb.",
+    "kod": "302.10",
+    "ad": "Belge İşlemleri",
     "saklama_suresi": "10"
   },
-  "konu": "Topluluk Etkinlik İzni Talebi",
+  "konu": "İngilizce Transkript Talebi",
   "sayi": null,
-  "tarih": "30.01.2026",
+  "tarih": "17.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Topluluk Etkinlik İzni",
-    "Gerekçe": "sürecin tamamlanabilmesi için",
+    "Talep": "İngilizce Transkript",
+    "Kullanım amacı": "başvuru dosyasına eklenmek üzere",
     "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Bildirim tercihi": "cep telefonuma kısa mesajla"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": "imza_eksik",
   "yasakli_adlar": [
     "Gazi Üniversitesi",
-    "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "Öğrenci İşleri Daire Başkanlığı",
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Topluluk Etkinlik İzni",
-    "sürecin tamamlanabilmesi için",
+    "İngilizce Transkript",
+    "başvuru dosyasına eklenmek üzere",
     "şahsen başvuru yapılmıştır",
-    "e-Devlet üzerinden"
+    "cep telefonuma kısa mesajla"
   ]
 }

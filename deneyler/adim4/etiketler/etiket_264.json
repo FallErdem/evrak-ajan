@@ -12,10 +12,10 @@
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Ankara Valiliği",
+    "kurum_adi": "Millî Eğitim Bakanlığı",
     "ad": null,
     "adres": null,
-    "detsis_no": "10213773",
+    "detsis_no": "24316060",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "ust_yazi",
@@ -27,36 +27,40 @@
   "dagitim": null,
   "beklenen_kapanis": "rica",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
+    "kod": "135.03",
+    "ad": "Yaygın Eğitim Kursları",
     "saklama_suresi": "10"
   },
-  "konu": "Evrak Örneğinin Gönderilmesi",
-  "sayi": "E-10213773-622.02-14737384",
-  "tarih": "17.02.2026",
+  "konu": "Kurs Programı Değişikliği",
+  "sayi": "E-24316060-135.03-66117031",
+  "tarih": "30.01.2026",
   "ilgi": {
-    "tarih": "13.02.2026",
-    "sayi": "E-91571118-622.02-5343692"
+    "tarih": "31.12.2025",
+    "sayi": "E-91571118-135.03-5952676"
   },
   "ek": {
     "adet": 2,
-    "aciklama": "Öğrenci listesi",
-    "sayfa": 2
+    "aciklama": "Liste ve takvim",
+    "sayfa": 3
   },
   "somut_bilgiler": {
-    "Dayanak": "ilgide kayıtlı yazı",
-    "Dönem": "öğretim yılı",
-    "Sayı": "186 kayıt",
-    "Ek 1": "Öğrenci listesi",
-    "Ek 2": "uygulama takvimi",
-    "İstenen": "listenin ilgili birimlere dağıtılması",
+    "Dayanak": "ilgide kayıtlı bildirim",
+    "Dönem": "güz dönemi",
+    "Sayı": "68 kayıt",
+    "Ek 1": "Liste ve takvim",
+    "Ek 2": "zaman çizelgesi",
+    "İstenen": "eklerin bağlı birimlere iletilmesi",
+    "Ek 1 içeriği": "ad soyad, birim ve tarih bilgilerini içermektedir",
+    "Ek 2 içeriği": "aşamalara göre bölümlendirilmiştir",
     "Kapsam": "listede yer alanların tamamı sürece dâhildir",
-    "Süre": "iki hafta içinde",
-    "İrtibat": "süreç Valiliğimizce takip edilmektedir"
+    "Değişiklik": "listede değişiklik olması hâlinde ayrıca bildirilecektir",
+    "Süre": "dönem başlamadan önce",
+    "İrtibat": "süreç Bakanlığımızca takip edilmektedir"
   },
   "paragraf_cumle_sayilari": [
     3,
-    3,
+    4,
+    2,
     3
   ],
   "paragraf_alanlari": [
@@ -67,8 +71,13 @@
     ],
     [
       "Ek 1",
+      "Ek 1 içeriği",
       "Ek 2",
-      "Kapsam"
+      "Ek 2 içeriği"
+    ],
+    [
+      "Kapsam",
+      "Değişiklik"
     ],
     [
       "Süre",
@@ -83,11 +92,11 @@
     "Özel Öğretim Kurumları Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "ilgide kayıtlı yazı",
-    "öğretim yılı",
-    "186 kayıt",
-    "Öğrenci listesi",
-    "uygulama takvimi",
-    "listenin ilgili birimlere dağıtılması"
+    "ilgide kayıtlı bildirim",
+    "güz dönemi",
+    "68 kayıt",
+    "Liste ve takvim",
+    "zaman çizelgesi",
+    "eklerin bağlı birimlere iletilmesi"
   ]
 }

@@ -5,15 +5,15 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "muhtarlik_isleri",
-    "birim_adi": "Muhtarlık İşleri Müdürlüğü",
-    "detsis_no": "26888327",
+    "birim_kodu": "imar_sehircilik",
+    "birim_adi": "İmar ve Şehircilik Müdürlüğü",
+    "detsis_no": "18426575",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "İbrahim GÜLER",
-    "adres": "Ragıpbey Mahallesi Sümbül Sokak No: 48/22 Yenimahalle/ANKARA",
+    "ad": "Nurten KILIÇ",
+    "adres": "Ergazi Mahallesi Menekşe Sokağı No: 22/21 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -22,41 +22,42 @@
   "yazan_tipi": "vatandas",
   "hiyerarsi_yonu": "gercek_kisi_yazari",
   "muhatap_makam": "Yenimahalle Belediye Başkanlığı",
-  "muhatap_parantez": "Muhtarlık İşleri Müdürlüğü",
+  "muhatap_parantez": "İmar ve Şehircilik Müdürlüğü",
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "622.02",
-    "ad": "Belge Talepleri",
-    "saklama_suresi": "10"
+    "kod": "115.01.08",
+    "ad": "İfraz ve Tevhid / Yola Terk / İrtifak Hakkı vb.",
+    "saklama_suresi": "B"
   },
-  "konu": "Belge Talebinin Karşılanamaması Hk.",
+  "konu": "İrtifak Hakkı Tesisi Talebi",
   "sayi": null,
-  "tarih": "10.02.2026",
+  "tarih": "02.04.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Belge Talebinin Karşılanamaması",
-    "Kullanım amacı": "resmî işlemlerde kullanılmak üzere",
-    "Başvuru şekli": "şahsen başvuru yapılmıştır",
-    "Bildirim tercihi": "e-Devlet üzerinden"
+    "Talep": "İrtifak Hakkı Tesisi",
+    "Taşınmaz": "66909 ada, 37 parsel",
+    "Gerekçe": "gerekli şartları taşıdığım için",
+    "Başvuru şekli": "aynı talep geçen ay da iletilmiştir",
+    "Bildirim tercihi": "elektronik posta ile"
   },
   "paragraf_cumle_sayilari": [
-    2,
-    2
+    3
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
   "kusur": null,
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Muhtarlık İşleri Müdürlüğü",
+    "İmar ve Şehircilik Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Belge Talebinin Karşılanamaması",
-    "resmî işlemlerde kullanılmak üzere",
-    "şahsen başvuru yapılmıştır",
-    "e-Devlet üzerinden"
+    "İrtifak Hakkı Tesisi",
+    "66909 ada, 37 parsel",
+    "gerekli şartları taşıdığım için",
+    "aynı talep geçen ay da iletilmiştir",
+    "elektronik posta ile"
   ]
 }

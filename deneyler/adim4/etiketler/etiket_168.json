@@ -5,63 +5,68 @@
     "kurum_kodu": "yenimahalle_belediyesi",
     "kurum_adi": "Yenimahalle Belediye Başkanlığı",
     "kurum_tipi": "belediye",
-    "birim_kodu": "fen_isleri",
-    "birim_adi": "Fen İşleri Müdürlüğü",
-    "detsis_no": "33152401",
+    "birim_kodu": "mali_hizmetler",
+    "birim_adi": "Mali Hizmetler Müdürlüğü",
+    "detsis_no": "43195403",
     "imza_unvani": "Müdür"
   },
   "gonderen": {
     "tip": "kurum",
-    "kurum_adi": "Muhtarlık İşleri Müdürlüğü",
+    "kurum_adi": "Zabıta Müdürlüğü",
     "ad": null,
     "adres": null,
-    "detsis_no": "26888327",
+    "detsis_no": "50719027",
     "detsis_kaynagi": "detsis"
   },
   "belge_turu": "cevap_yazisi",
   "aile": "belge_cevabi",
   "yazan_tipi": "kurum",
   "hiyerarsi_yonu": "ayni",
-  "muhatap_makam": "Fen İşleri Müdürlüğü",
+  "muhatap_makam": "Mali Hizmetler Müdürlüğü",
   "muhatap_parantez": null,
   "dagitim": null,
   "beklenen_kapanis": "arz",
   "sdp": {
-    "kod": "807.01",
-    "ad": "Bina ve Tesisler",
-    "saklama_suresi": "10"
+    "kod": "841.01",
+    "ad": "Bütçe Çalışmaları",
+    "saklama_suresi": "15"
   },
-  "konu": "Çatı Onarımı Hk.",
-  "sayi": "E-26888327-807.01-3587230",
-  "tarih": "04.05.2026",
+  "konu": "Ödenek Talebi",
+  "sayi": "E-50719027-841.01-1816265",
+  "tarih": "16.01.2026",
   "ilgi": {
-    "tarih": "23.03.2026",
-    "sayi": "E-33152401-807.01-1973213"
+    "tarih": "25.12.2025",
+    "sayi": "E-43195403-841.01-753321"
   },
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Çatı Onarımı",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talep": "Ödenek",
+    "Talebin sonucu": "olumlu, başvuru işleme alındı",
     "Dayanak": "ilgide kayıtlı yazı",
+    "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
-    "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
-    "Sınırlama": "kişisel veri içeren kayıtlar paylaşılmamıştır",
-    "Süre": "güncel döküm dönem sonunda ayrıca gönderilecektir",
+    "Kapsam": "veriler talep edilen ölçütlere göre süzülmüştür",
+    "Sınırlama": "gizlilik dereceli belgeler kapsam dışında bırakılmıştır",
+    "Süre": "ek talepler yazılı olarak iletilmelidir",
     "İrtibat": "konuyla ilgili irtibat Müdürlüğümüzce sağlanmaktadır"
   },
   "paragraf_cumle_sayilari": [
+    2,
     3,
-    3,
+    2,
     2
   ],
   "paragraf_alanlari": [
     [
       "Talep",
-      "Dayanak",
-      "İnceleme"
+      "Dayanak"
     ],
     [
       "Talebin sonucu",
+      "Gönderilen",
+      "İnceleme"
+    ],
+    [
       "Kapsam",
       "Sınırlama"
     ],
@@ -74,13 +79,13 @@
   "kusur": "tarih_tutarsiz",
   "yasakli_adlar": [
     "Yenimahalle Belediye Başkanlığı",
-    "Fen İşleri Müdürlüğü",
+    "Mali Hizmetler Müdürlüğü",
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "Çatı Onarımı",
-    "olumlu, talep karşılandı",
+    "olumlu, başvuru işleme alındı",
     "ilgide kayıtlı yazı",
-    "konu Müdürlüğümüzce değerlendirilmiştir"
+    "konu Müdürlüğümüzce değerlendirilmiştir",
+    "ek talepler yazılı olarak iletilmelidir"
   ]
 }

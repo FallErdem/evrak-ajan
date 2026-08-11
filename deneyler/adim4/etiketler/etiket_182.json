@@ -12,12 +12,12 @@
   },
   "gonderen": {
     "tip": "ogrenci",
-    "ad": "Hüseyin ŞAHIN",
-    "adres": "İvedik Mahallesi Papatya Sokağı No: 74/14 Yenimahalle/ANKARA",
+    "ad": "Ömer BULUT",
+    "adres": "Barıştepe Mahallesi Menekşe Sokak No: 117/12 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null,
-    "ogrenci_no": "2020436678",
-    "bolum": "Mimarlık Fakültesi",
+    "ogrenci_no": "2021887040",
+    "bolum": "Gazi Eğitim Fakültesi Sınıf Öğretmenliği",
     "sinif": "3"
   },
   "belge_turu": "dilekce",
@@ -33,19 +33,20 @@
     "ad": "Öğrenci Toplulukları, Birlikleri vb.",
     "saklama_suresi": "10"
   },
-  "konu": "Salon Tahsis Talebi",
+  "konu": "Etkinlik Bütçe Desteği Talebi",
   "sayi": null,
-  "tarih": "28.01.2026",
+  "tarih": "13.03.2026",
   "ilgi": null,
   "ek": null,
   "somut_bilgiler": {
-    "Talep": "Salon Tahsis",
-    "Gerekçe": "mağduriyetin giderilmesi bakımından",
-    "Başvuru şekli": "konu daha önce sözlü olarak da bildirilmiştir",
-    "Bildirim tercihi": "elektronik posta ile"
+    "Talep": "Etkinlik Bütçe Desteği",
+    "Gerekçe": "gerekli şartları taşıdığım için",
+    "Başvuru şekli": "aynı talep geçen ay da iletilmiştir",
+    "Bildirim tercihi": "kayıtlı elektronik posta adresime"
   },
   "paragraf_cumle_sayilari": [
-    3
+    2,
+    2
   ],
   "paragraf_alanlari": null,
   "pdf_bicimi": "metin_katmanli",
@@ -56,8 +57,9 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "Salon Tahsis",
-    "mağduriyetin giderilmesi bakımından",
-    "elektronik posta ile"
+    "Etkinlik Bütçe Desteği",
+    "gerekli şartları taşıdığım için",
+    "aynı talep geçen ay da iletilmiştir",
+    "kayıtlı elektronik posta adresime"
   ]
 }

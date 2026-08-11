@@ -12,8 +12,8 @@
   },
   "gonderen": {
     "tip": "gercek_kisi",
-    "ad": "Selin ÖZDEMIR",
-    "adres": "Yeşilevler Mahallesi Papatya Sokağı No: 113/8 Yenimahalle/ANKARA",
+    "ad": "Şaban ASLAN",
+    "adres": "Demetevler Mahallesi Zeytin Sokak No: 11/19 Yenimahalle/ANKARA",
     "kurum_adi": null,
     "detsis_no": null
   },
@@ -32,24 +32,24 @@
   },
   "konu": "İdari Para Cezasına İtiraz",
   "sayi": null,
-  "tarih": "13.04.2026",
+  "tarih": "03.04.2026",
   "ilgi": {
-    "tarih": "08.04.2026",
-    "sayi": "E-53265760-858-3848059"
+    "tarih": "09.03.2026",
+    "sayi": "E-53265760-858-3838091"
   },
   "ek": {
     "adet": 1,
-    "aciklama": "İkametgâh belgesi",
-    "sayfa": 2
+    "aciklama": "Fotoğraf",
+    "sayfa": 1
   },
   "somut_bilgiler": {
     "İtiraz konusu": "İdari Para Cezasına İtiraz",
-    "Önceki karar": "talep olumsuz sonuçlandırılmıştır",
-    "İtiraz gerekçesi": "değerlendirmede eksik belge dikkate alınmıştır",
-    "Talep": "kararın yeniden değerlendirilmesi"
+    "Önceki karar": "başvurum reddedilmiştir",
+    "İtiraz gerekçesi": "başvuru dosyasındaki bilgiler güncellenmiştir",
+    "Talep": "kararın gözden geçirilmesi"
   },
   "paragraf_cumle_sayilari": [
-    3,
+    2,
     3
   ],
   "paragraf_alanlari": null,
@@ -62,7 +62,7 @@
   ],
   "anahtar_terimler": [
     "İdari Para Cezasına İtiraz",
-    "talep olumsuz sonuçlandırılmıştır",
-    "kararın yeniden değerlendirilmesi"
+    "başvurum reddedilmiştir",
+    "kararın gözden geçirilmesi"
   ]
 }
