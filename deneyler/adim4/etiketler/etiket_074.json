@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Genelgenin Duyurulması",
-    "Talebin sonucu": "olumlu, talep uygun görüldü",
+    "Talebin sonucu": "başvuru kabul",
     "Dayanak": "ilgide kayıtlı yazı",
     "İnceleme": "talep ilgili birimce incelenmiştir",
     "Kapsam": "veriler talep edilen ölçütlere göre süzülmüştür",
@@ -77,7 +77,7 @@
   ],
   "anahtar_terimler": [
     "Genelgenin Duyurulması",
-    "olumlu, talep uygun görüldü",
+    "başvuru kabul",
     "ilgide kayıtlı yazı",
     "talep ilgili birimce incelenmiştir"
   ]

@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Mazeret Sınavı Takvimi",
-    "Talebin sonucu": "olumlu, talep uygun görüldü",
+    "Talebin sonucu": "başvuru kabul",
     "Dayanak": "ilgide kayıtlı talep",
     "İnceleme": "konu Başkanlığımızca değerlendirilmiştir",
     "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
@@ -79,7 +79,7 @@
   ],
   "anahtar_terimler": [
     "Mazeret Sınavı Takvimi",
-    "olumlu, talep uygun görüldü",
+    "başvuru kabul",
     "ilgide kayıtlı talep",
     "konu Başkanlığımızca değerlendirilmiştir",
     "ek talepler yazılı olarak iletilmelidir"

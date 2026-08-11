@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Kararın Uygulanması",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talebin sonucu": "talep karşılandı",
     "Dayanak": "ilgide kayıtlı talep",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
@@ -84,7 +84,7 @@
   ],
   "anahtar_terimler": [
     "Kararın Uygulanması",
-    "olumlu, belge düzenlendi",
+    "talep karşılandı",
     "ilgide kayıtlı talep",
     "kayıtlar yıllara göre ayrılmıştır",
     "ek talepler yazılı olarak iletilmelidir"

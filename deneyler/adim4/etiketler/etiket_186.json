@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Para Cezası Kararı",
-    "Talebin sonucu": "olumlu, başvuru işleme alındı",
+    "Talebin sonucu": "düzeltme yapıldı",
     "Dayanak": "ilgide kayıtlı yazı",
     "İnceleme": "talep ilgili birimce incelenmiştir",
     "Kapsam": "bilgiler başvuru türlerine göre gruplandırılmıştır",
@@ -79,7 +79,7 @@
   ],
   "anahtar_terimler": [
     "Para Cezası Kararı",
-    "olumlu, başvuru işleme alındı",
+    "düzeltme yapıldı",
     "ilgide kayıtlı yazı",
     "talep ilgili birimce incelenmiştir",
     "ek talepler yazılı olarak iletilmelidir"

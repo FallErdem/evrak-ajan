@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Çatı Onarımı",
-    "Talebin sonucu": "olumlu, kayıt güncellendi",
+    "Talebin sonucu": "belge hazır",
     "Dayanak": "ilgide kayıtlı başvuru",
     "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
     "İnceleme": "talep ilgili birimce incelenmiştir",
@@ -84,7 +84,7 @@
   ],
   "anahtar_terimler": [
     "Çatı Onarımı",
-    "olumlu, kayıt güncellendi",
+    "belge hazır",
     "ilgide kayıtlı başvuru",
     "talep edilen bilgiler ekte sunulmuştur",
     "talep ilgili birimce incelenmiştir"

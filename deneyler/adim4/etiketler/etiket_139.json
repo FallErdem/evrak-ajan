@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Program Açma Başvurusu",
-    "Talebin sonucu": "olumlu, dosya sonuçlandırıldı",
+    "Talebin sonucu": "talep uygun",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
     "İnceleme": "talep ilgili birimce incelenmiştir",
@@ -84,7 +84,7 @@
   ],
   "anahtar_terimler": [
     "Program Açma Başvurusu",
-    "olumlu, dosya sonuçlandırıldı",
+    "talep uygun",
     "ilgide kayıtlı yazı",
     "talep ilgili birimce incelenmiştir",
     "döküm birim bazında hazırlanmıştır"

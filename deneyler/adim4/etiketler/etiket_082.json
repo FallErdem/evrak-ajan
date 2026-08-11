@@ -49,7 +49,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Tıbbi Atık Bertarafı",
-    "Talebin sonucu": "olumlu, gerekli düzeltme yapıldı",
+    "Talebin sonucu": "kayıt güncel",
     "Dayanak": "ilgide kayıtlı başvuru",
     "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
     "İnceleme": "konu Bakanlığımızca değerlendirilmiştir",
@@ -92,7 +92,7 @@
   ],
   "anahtar_terimler": [
     "Tıbbi Atık Bertarafı",
-    "olumlu, gerekli düzeltme yapıldı",
+    "kayıt güncel",
     "ilgide kayıtlı başvuru",
     "talep edilen bilgiler ekte sunulmuştur",
     "konu Bakanlığımızca değerlendirilmiştir",

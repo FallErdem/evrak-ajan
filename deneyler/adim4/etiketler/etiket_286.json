@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "İzin Dönüşü Kayıt Yenileme",
-    "Talebin sonucu": "olumlu, gerekli düzeltme yapıldı",
+    "Talebin sonucu": "kayıt güncel",
     "Dayanak": "ilgide kayıtlı talep",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "İnceleme": "konu Başkanlığımızca değerlendirilmiştir",
@@ -84,7 +84,7 @@
   ],
   "anahtar_terimler": [
     "İzin Dönüşü Kayıt Yenileme",
-    "olumlu, gerekli düzeltme yapıldı",
+    "kayıt güncel",
     "ilgide kayıtlı talep",
     "konu Başkanlığımızca değerlendirilmiştir"
   ]

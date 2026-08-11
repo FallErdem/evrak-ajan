@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Tıbbi Atık Bertarafı",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talebin sonucu": "talep olumlu",
     "Dayanak": "ilgide kayıtlı başvuru",
     "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
     "Kapsam": "bilgiler başvuru türlerine göre gruplandırılmıştır",
@@ -79,7 +79,7 @@
   ],
   "anahtar_terimler": [
     "Tıbbi Atık Bertarafı",
-    "olumlu, işlem tamamlandı",
+    "talep olumlu",
     "ilgide kayıtlı başvuru",
     "konu Müdürlüğümüzce değerlendirilmiştir",
     "ek talepler yazılı olarak iletilmelidir"

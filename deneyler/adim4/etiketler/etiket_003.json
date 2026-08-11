@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Başvuru Cevabının Gönderilmesi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talebin sonucu": "işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı talep",
     "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
     "İnceleme": "konu Kaymakamlığımızca değerlendirilmiştir",
@@ -84,7 +84,7 @@
   ],
   "anahtar_terimler": [
     "Başvuru Cevabının Gönderilmesi",
-    "olumlu, talep karşılandı",
+    "işlem tamamlandı",
     "ilgide kayıtlı talep"
   ]
 }

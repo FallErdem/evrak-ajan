@@ -100,10 +100,23 @@ def cesitlilik(metinler: dict[str, str]) -> None:
     print(f"  kelime sayısı     : {min(kel)}-{max(kel)} "
           f"(ortalama {sum(kel)/len(kel):.0f})")
 
-    if oran > 0.10:
-        print("\n  ! Cümle tekrarı %10'un üzerinde. Model kendi önceki")
-        print("    metinlerine benzetiyor olabilir — parti boyunu düşürmeyi")
-        print("    veya daha sık yeni sohbet açmayı düşünün.")
+    # EŞİK %10 DEĞİL %30. İlk sürümde %10 yazmıştım ama bu bir ölçüme
+    # dayanmıyordu, tahmindi. Resmî yazışma tanımı gereği kalıplıdır: bir
+    # bakanlığın kırk genelgesinde "bağlı tüm birimler uygulamaya tabidir"
+    # cümlesi kırk kez geçer. Kaçınmak gerçekçiliği bozar.
+    #
+    # Şartname 6.5'in ölçtüğü çeşitlilik konu, kurum, belge türü ve senaryo
+    # çeşitliliğidir — kapanış kalıbının kaç kez tekrarlandığı değil. Asıl
+    # bakılacak satır "farklı ilk cümle": aynı kalıpla başlayan belgeler
+    # gerçekten tekdüzeliktir.
+    if oran > 0.30:
+        print("\n  ! Cümle tekrarı %30'un üzerinde — kalıp cümlelerin ötesinde")
+        print("    bir tekdüzelik var. Tekrarlayan cümlelere bakın: kapanış")
+        print("    ve kapsam kalıpları normaldir, ama gövde cümleleri")
+        print("    tekrarlıyorsa parti boyunu düşürün.")
+    elif len(set(ilk)) < len(G) * 0.9:
+        print("\n  ! Farklı ilk cümle oranı düşük. Model belgeleri aynı")
+        print("    kalıpla açıyor — çeşitlilik açısından asıl sorun budur.")
 
 
 def main() -> int:

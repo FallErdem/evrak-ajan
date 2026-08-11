@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Atama Onayı",
-    "Talebin sonucu": "olumlu, dosya sonuçlandırıldı",
+    "Talebin sonucu": "talep uygun",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
     "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
@@ -84,7 +84,7 @@
   ],
   "anahtar_terimler": [
     "Atama Onayı",
-    "olumlu, dosya sonuçlandırıldı",
+    "talep uygun",
     "ilgide kayıtlı yazı",
     "döküm birim bazında hazırlanmıştır"
   ]

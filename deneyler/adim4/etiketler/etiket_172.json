@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Usta Öğretici Görevlendirmesi",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talebin sonucu": "talep olumlu",
     "Dayanak": "ilgide kayıtlı talep",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
@@ -83,7 +83,7 @@
   ],
   "anahtar_terimler": [
     "Usta Öğretici Görevlendirmesi",
-    "olumlu, işlem tamamlandı",
+    "talep olumlu",
     "ilgide kayıtlı talep",
     "döküm birim bazında hazırlanmıştır",
     "ek talepler yazılı olarak iletilmelidir"

@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Topluluk Tüzüğünün Onayı",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talebin sonucu": "talep olumlu",
     "Dayanak": "ilgide kayıtlı talep",
     "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
     "İnceleme": "konu Başkanlığımızca değerlendirilmiştir",
@@ -84,7 +84,7 @@
   ],
   "anahtar_terimler": [
     "Topluluk Tüzüğünün Onayı",
-    "olumlu, işlem tamamlandı",
+    "talep olumlu",
     "ilgide kayıtlı talep",
     "konu Başkanlığımızca değerlendirilmiştir",
     "döküm birim bazında hazırlanmıştır"

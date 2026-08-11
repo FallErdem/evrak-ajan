@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Ödenek",
-    "Talebin sonucu": "olumlu, başvuru işleme alındı",
+    "Talebin sonucu": "düzeltme yapıldı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
@@ -83,7 +83,7 @@
     "Yenimahalle"
   ],
   "anahtar_terimler": [
-    "olumlu, başvuru işleme alındı",
+    "düzeltme yapıldı",
     "ilgide kayıtlı yazı",
     "konu Müdürlüğümüzce değerlendirilmiştir",
     "ek talepler yazılı olarak iletilmelidir"

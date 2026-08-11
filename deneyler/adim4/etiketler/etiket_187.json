@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Diploma Bilgilerindeki Hatanın Düzeltilmesi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talebin sonucu": "işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
     "Kapsam": "bilgiler başvuru türlerine göre gruplandırılmıştır",
@@ -77,7 +77,7 @@
     "Temel Eğitim Şube Müdürlüğü"
   ],
   "anahtar_terimler": [
-    "olumlu, talep karşılandı",
+    "işlem tamamlandı",
     "ilgide kayıtlı yazı"
   ]
 }

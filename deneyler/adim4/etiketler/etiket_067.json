@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Yürütmeyi Durdurma Kararı",
-    "Talebin sonucu": "olumlu, kayıt güncellendi",
+    "Talebin sonucu": "belge hazır",
     "Dayanak": "ilgide kayıtlı başvuru",
     "İnceleme": "talep ilgili birimce incelenmiştir",
     "Kapsam": "bilgiler başvuru türlerine göre gruplandırılmıştır",
@@ -79,7 +79,7 @@
   ],
   "anahtar_terimler": [
     "Yürütmeyi Durdurma Kararı",
-    "olumlu, kayıt güncellendi",
+    "belge hazır",
     "ilgide kayıtlı başvuru",
     "talep ilgili birimce incelenmiştir"
   ]

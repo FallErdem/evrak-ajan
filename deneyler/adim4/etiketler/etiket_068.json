@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Kayıt İşlemleri",
-    "Talebin sonucu": "olumlu, işlem tamamlandı",
+    "Talebin sonucu": "talep olumlu",
     "Dayanak": "ilgide kayıtlı yazı",
     "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
     "Kapsam": "döküm birim bazında hazırlanmıştır",
@@ -78,7 +78,7 @@
   ],
   "anahtar_terimler": [
     "Kayıt İşlemleri",
-    "olumlu, işlem tamamlandı",
+    "talep olumlu",
     "ilgide kayıtlı yazı",
     "döküm birim bazında hazırlanmıştır"
   ]

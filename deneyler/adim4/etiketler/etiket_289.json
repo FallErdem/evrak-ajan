@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Burs Kesilmesi",
-    "Talebin sonucu": "olumlu, kayıt güncellendi",
+    "Talebin sonucu": "belge hazır",
     "Dayanak": "ilgide kayıtlı başvuru",
     "İnceleme": "talep ilgili birimce incelenmiştir",
     "Kapsam": "döküm birim bazında hazırlanmıştır",
@@ -78,7 +78,7 @@
   ],
   "anahtar_terimler": [
     "Burs Kesilmesi",
-    "olumlu, kayıt güncellendi",
+    "belge hazır",
     "ilgide kayıtlı başvuru",
     "talep ilgili birimce incelenmiştir",
     "döküm birim bazında hazırlanmıştır"

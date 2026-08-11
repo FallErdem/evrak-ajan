@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Gelir Gider Tahmin Cetveli",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talebin sonucu": "işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "İnceleme": "talep ilgili birimce incelenmiştir",
     "Kapsam": "döküm birim bazında hazırlanmıştır",
@@ -79,7 +79,7 @@
   ],
   "anahtar_terimler": [
     "Gelir Gider Tahmin Cetveli",
-    "olumlu, talep karşılandı",
+    "işlem tamamlandı",
     "ilgide kayıtlı yazı",
     "talep ilgili birimce incelenmiştir",
     "döküm birim bazında hazırlanmıştır"

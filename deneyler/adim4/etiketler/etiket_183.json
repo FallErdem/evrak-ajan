@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Başvuru Dosyasının Gönderilmesi",
-    "Talebin sonucu": "olumlu, talep uygun görüldü",
+    "Talebin sonucu": "başvuru kabul",
     "Dayanak": "ilgide kayıtlı başvuru",
     "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
     "Kapsam": "döküm işlem sırasına göre hazırlanmıştır",
@@ -79,7 +79,7 @@
   ],
   "anahtar_terimler": [
     "Başvuru Dosyasının Gönderilmesi",
-    "olumlu, talep uygun görüldü",
+    "başvuru kabul",
     "ilgide kayıtlı başvuru",
     "döküm işlem sırasına göre hazırlanmıştır"
   ]

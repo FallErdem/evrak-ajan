@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Kurs Yeri Tahsisi",
-    "Talebin sonucu": "olumlu, dosya sonuçlandırıldı",
+    "Talebin sonucu": "talep uygun",
     "Dayanak": "ilgide kayıtlı talep",
     "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
     "Kapsam": "döküm birim bazında hazırlanmıştır",
@@ -78,7 +78,7 @@
   ],
   "anahtar_terimler": [
     "Kurs Yeri Tahsisi",
-    "olumlu, dosya sonuçlandırıldı",
+    "talep uygun",
     "ilgide kayıtlı talep",
     "döküm birim bazında hazırlanmıştır"
   ]

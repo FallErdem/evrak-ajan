@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Meclis Kararının Gönderilmesi",
-    "Talebin sonucu": "olumlu, talep uygun görüldü",
+    "Talebin sonucu": "başvuru kabul",
     "Dayanak": "ilgide kayıtlı talep",
     "Gönderilen": "talep edilen bilgiler ekte sunulmuştur",
     "İnceleme": "talep ilgili birimce incelenmiştir",
@@ -84,7 +84,7 @@
   ],
   "anahtar_terimler": [
     "Meclis Kararının Gönderilmesi",
-    "olumlu, talep uygun görüldü",
+    "başvuru kabul",
     "ilgide kayıtlı talep",
     "talep edilen bilgiler ekte sunulmuştur",
     "talep ilgili birimce incelenmiştir",

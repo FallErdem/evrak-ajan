@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Genelge Kapsamındaki İşlemlerin Raporlanması",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talebin sonucu": "talep karşılandı",
     "Dayanak": "ilgide kayıtlı başvuru",
     "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
     "Kapsam": "liste sonuçlanma durumuna göre düzenlenmiştir",
@@ -78,7 +78,7 @@
     "Gazi"
   ],
   "anahtar_terimler": [
-    "olumlu, belge düzenlendi",
+    "talep karşılandı",
     "ilgide kayıtlı başvuru",
     "konu Müdürlüğümüzce değerlendirilmiştir",
     "ek talepler yazılı olarak iletilmelidir"

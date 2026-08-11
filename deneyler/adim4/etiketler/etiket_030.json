@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Kurul Kararının Gönderilmesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talebin sonucu": "talep karşılandı",
     "Dayanak": "ilgide kayıtlı başvuru",
     "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
     "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
@@ -84,7 +84,7 @@
   ],
   "anahtar_terimler": [
     "Kurul Kararının Gönderilmesi",
-    "olumlu, belge düzenlendi",
+    "talep karşılandı",
     "ilgide kayıtlı başvuru",
     "konu Müdürlüğümüzce değerlendirilmiştir"
   ]

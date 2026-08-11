@@ -48,7 +48,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Zemin Etüdü Raporunun Gönderilmesi",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talebin sonucu": "işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
     "Kapsam": "veriler kayıt tarihine göre düzenlenmiştir",
@@ -86,7 +86,7 @@
   ],
   "anahtar_terimler": [
     "Zemin Etüdü Raporunun Gönderilmesi",
-    "olumlu, talep karşılandı",
+    "işlem tamamlandı",
     "ilgide kayıtlı yazı",
     "ek talepler yazılı olarak iletilmelidir"
   ]

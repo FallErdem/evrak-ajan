@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Bilgi Edinme Talebinin Reddi",
-    "Talebin sonucu": "olumlu, gerekli düzeltme yapıldı",
+    "Talebin sonucu": "kayıt güncel",
     "Dayanak": "ilgide kayıtlı yazı",
     "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
     "Kapsam": "bilgiler başvuru türlerine göre gruplandırılmıştır",
@@ -77,7 +77,7 @@
   ],
   "anahtar_terimler": [
     "Bilgi Edinme Talebinin Reddi",
-    "olumlu, gerekli düzeltme yapıldı",
+    "kayıt güncel",
     "ilgide kayıtlı yazı"
   ]
 }

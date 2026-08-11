@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Bütçe Teklifinin Hazırlanması",
-    "Talebin sonucu": "olumlu, talep uygun görüldü",
+    "Talebin sonucu": "başvuru kabul",
     "Dayanak": "ilgide kayıtlı yazı",
     "İnceleme": "talep ilgili birimce incelenmiştir",
     "Kapsam": "kayıtlar yıllara göre ayrılmıştır",
@@ -79,7 +79,7 @@
   ],
   "anahtar_terimler": [
     "Bütçe Teklifinin Hazırlanması",
-    "olumlu, talep uygun görüldü",
+    "başvuru kabul",
     "ilgide kayıtlı yazı",
     "talep ilgili birimce incelenmiştir",
     "kayıtlar yıllara göre ayrılmıştır"

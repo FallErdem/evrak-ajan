@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Atama Onayının Gönderilmesi",
-    "Talebin sonucu": "olumlu, belge düzenlendi",
+    "Talebin sonucu": "talep karşılandı",
     "Dayanak": "ilgide kayıtlı talep",
     "İnceleme": "kayıtlar üzerinde gerekli araştırma yapılmıştır",
     "Kapsam": "veriler talep edilen ölçütlere göre süzülmüştür",
@@ -79,7 +79,7 @@
   ],
   "anahtar_terimler": [
     "Atama Onayının Gönderilmesi",
-    "olumlu, belge düzenlendi",
+    "talep karşılandı",
     "ilgide kayıtlı talep"
   ]
 }

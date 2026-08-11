@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Genelgenin Yürürlükten Kaldırılması",
-    "Talebin sonucu": "olumlu, talep karşılandı",
+    "Talebin sonucu": "işlem tamamlandı",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
     "İnceleme": "talep ilgili birimce incelenmiştir",
@@ -82,7 +82,7 @@
   ],
   "anahtar_terimler": [
     "Genelgenin Yürürlükten Kaldırılması",
-    "olumlu, talep karşılandı",
+    "işlem tamamlandı",
     "ilgide kayıtlı yazı",
     "talep ilgili birimce incelenmiştir",
     "ek talepler yazılı olarak iletilmelidir"

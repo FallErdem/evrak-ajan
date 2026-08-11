@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Alacağın Tahsili",
-    "Talebin sonucu": "olumlu, başvuru işleme alındı",
+    "Talebin sonucu": "düzeltme yapıldı",
     "Dayanak": "ilgide kayıtlı başvuru",
     "Gönderilen": "istenen kayıtlar derlenerek hazırlanmıştır",
     "İnceleme": "konu Müdürlüğümüzce değerlendirilmiştir",
@@ -84,7 +84,7 @@
   ],
   "anahtar_terimler": [
     "Alacağın Tahsili",
-    "olumlu, başvuru işleme alındı",
+    "düzeltme yapıldı",
     "ilgide kayıtlı başvuru",
     "konu Müdürlüğümüzce değerlendirilmiştir"
   ]

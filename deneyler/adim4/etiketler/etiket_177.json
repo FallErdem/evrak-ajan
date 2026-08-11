@@ -41,7 +41,7 @@
   "ek": null,
   "somut_bilgiler": {
     "Talep": "Stratejik Plan Çalıştayı Daveti",
-    "Talebin sonucu": "olumlu, dosya sonuçlandırıldı",
+    "Talebin sonucu": "talep uygun",
     "Dayanak": "ilgide kayıtlı yazı",
     "Gönderilen": "konuya ilişkin değerlendirme aşağıda yer almaktadır",
     "İnceleme": "konu Bakanlığımızca değerlendirilmiştir",
@@ -83,7 +83,7 @@
   ],
   "anahtar_terimler": [
     "Stratejik Plan Çalıştayı Daveti",
-    "olumlu, dosya sonuçlandırıldı",
+    "talep uygun",
     "ilgide kayıtlı yazı",
     "konu Bakanlığımızca değerlendirilmiştir"
   ]
