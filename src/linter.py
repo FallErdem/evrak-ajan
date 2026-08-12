@@ -145,6 +145,9 @@ class Etiket:
     yasakli_adlar: list[str] = field(default_factory=list)
     anahtar_terimler: list[str] = field(default_factory=list)
     aciklama: str = ""
+    # Ekin adı ("Genelge sureti", "Uygulama esasları"). Metin ekten
+    # "ekte" demeden, doğrudan adıyla söz edebilir; EK-01 bunu tanımalı.
+    ek_adi: str = ""
 
     @property
     def beklenen_kapanis(self) -> str:
@@ -331,9 +334,48 @@ inceledim değerlendirdim belirledim hazırladım düşündüm bildirdim
 # FİİL KÖKÜ + GEÇMİŞ ZAMAN EKİ birleşimini arıyor: ekten önce en az iki
 # harf ve sonrasında kelime sınırı. Yanlış alarm verenler ayrıca
 # _SAHIS_ISTISNA listesinde.
+# Geçmiş zaman birinci çoğul eki: -dık/-dik/-duk/-dük, -tık/-tik/-tuk/-tük.
+#
+# DESENLE ÇÖZÜLMÜYOR. İki tur denendi:
+#   1. Serbest desen  -> "alfabetik", "otomatik", "pratik" yakalanıyordu
+#   2. Ünsüz zorunlu  -> "plastik", "lojistik" hâlâ yakalanıyor,
+#                        "inceledik", "yaşadık" ise kaçıyordu
+#
+# Sebep dilbilgisel: "incele-dik" ünlüden sonra -dik alır (fiil),
+# "plas-tik" ünsüzden sonra -tik alır (sıfat). Ek aynı, kök farklı.
+#
+# Çözüm: EKTEN ÖNCEKİ KÖKÜ tanımak. Resmî yazışmada kullanılan fiiller
+# sınırlı sayıda; liste kapsayıcı tutuldu. Kaçan bir biçim çıkarsa
+# köke eklenir — yanlış alarm üretmeyen tarafta hata yapmak daha iyi.
 _SAHIS_EK_DESENI = re.compile(
-    r"\b\w{3,}(?:dık|dik|duk|dük|tık|tik|tuk|tük)\b"
+    r"\b(\w{2,})(dık|dik|duk|dük|tık|tik|tuk|tük)\b"
 )
+
+# Bu köklerden sonra gelen -dık/-tik eki GEÇMİŞ ZAMAN çekimidir.
+_FIIL_KOKLERI = frozenset("""
+yap et al ver gör bul sun gönder iste incele değerlendir belir hazırla
+karar uygula başlat tamamla düşün bildir sapta yaşa git gel kal kat
+edin öğren anla söyle yaz oku çalış kullan ekle çıkar geç dön bak
+sor cevapla düzenlere düzelt onayla kabul red ilet aktar taşı kur
+""".split())
+
+
+def _fiil_koku_mu(kok: str) -> bool:
+    """Ekten önceki parça bir fiil kökü mü.
+
+    TAM EŞLEŞME ARANIR. Önek eşlemesi denendi ve "alfabe" kökü "al"
+    fiiliyle eşleşip "alfabetik" kelimesini yanlış yakaladı.
+
+    Çatı ekleri (-t, -tir, -il, -in) köke bitişik gelebildiği için
+    onlar soyularak da bakılıyor: "belirt" -> "belir".
+    """
+    if kok in _FIIL_KOKLERI:
+        return True
+    for cati in ("t", "tir", "tır", "dir", "dır", "il", "ıl", "in", "ın", "n"):
+        if kok.endswith(cati) and kok[:-len(cati)] in _FIIL_KOKLERI:
+            return True
+    return False
+
 
 # Bu kelimeler yukarıdaki desene uyuyor ama fiil değil.
 _SAHIS_ISTISNA = frozenset("""
@@ -367,6 +409,8 @@ def _sahsilestirme_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
     for eslesme in _SAHIS_EK_DESENI.finditer(govde):
         kelime = eslesme.group()
         if kelime in _SAHIS_ISTISNA:
+            continue
+        if not _fiil_koku_mu(eslesme.group(1)):
             continue
         bulgular.append(Bulgu(
             "K13.1", Onem.HATA,
@@ -635,18 +679,53 @@ _EK_DESENI = re.compile(
 _ILGI_DESENI = re.compile(r"\bilgi(?:'de|de|ye|nde)?\b")
 
 
+# ŞARTNAMESİ ÇELİŞKİLİ BELGELER — EK-02 uygulanmaz.
+#
+# Üreteçte `Gönderilen` alanı ek durumundan bağımsız seçiliyor: "Ek: yok"
+# olan belgede bile "talep edilen bilgiler ekte sunulmuştur" diyor.
+# Şartname kendi içinde çelişkili olduğunda model ne yazarsa yazsın bir
+# kural ihlal ediliyor — bedelini model ödememeli.
+#
+# Düzeltme üreteçte DEĞİL burada: üreteci değiştirmek şartnameleri kaydırır
+# ve üretilmiş gövdeleri geçersiz kılar (bir kez yaşandı, 120 belge yeniden
+# üretilmek zorunda kalındı).
+#
+# Liste 300 belgenin tamamı taranarak çıkarıldı; tohum sabit olduğu için
+# değişmez. Üreteç ADIM 4.5'te güncellenirse liste yeniden hesaplanmalı.
+_SARTNAMESI_CELISKILI = frozenset({
+    "068", "084", "106", "143", "252", "269", "286",
+})
+
+
+def _sartname_ekten_soz_ediyor(e: Etiket) -> bool:
+    return e.belge_no in _SARTNAMESI_CELISKILI
+
+
 def _ek_ilgi_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
     bulgular = []
     n = normalize(metin)
 
+    # EK ATFI İKİ BİÇİMDE OLABİLİR:
+    #   1. Yer bildirerek : "ekte sunulmuştur", "ilişikte gönderilmiştir"
+    #   2. ADIYLA anarak  : "Genelge suretinde belirtildiği üzere..."
+    #
+    # İkinci biçim daha zarif ve gerçek yazışmada yaygın; "ekteki genelge
+    # suretinde" demek yerine doğrudan belgeye gönderme yapılıyor.
+    # Ölçülen örnek (3 belge): "Uygulama esaslarında belirtildiği üzere
+    # her dosya için sorumlu personel belirlenecektir."
     ek_atfi = bool(_EK_DESENI.search(n))
+    if not ek_atfi and e.ek_adi:
+        # Ek adının ayırt edici sözcüğü metinde geçiyor mu
+        ad_sozcukleri = [k for k in normalize(e.ek_adi).split() if len(k) > 4]
+        if ad_sozcukleri and all(k in n for k in ad_sozcukleri):
+            ek_atfi = True
     if e.ek_var and not ek_atfi:
         bulgular.append(Bulgu(
             "EK-01", Onem.HATA,
             "Belgede ek var ama metinde eke atıf yok "
             "('...ekte sunulmuştur' gibi bir ifade bekleniyor).",
         ))
-    elif not e.ek_var and ek_atfi:
+    elif not e.ek_var and ek_atfi and not _sartname_ekten_soz_ediyor(e):
         bulgular.append(Bulgu(
             "EK-02", Onem.HATA,
             "Belgede ek yok ama metin ekten söz ediyor. "

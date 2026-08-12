@@ -60,6 +60,7 @@ def etiket_kur(d: dict) -> Etiket:
         paragraf_cumle_sayilari=d["paragraf_cumle_sayilari"],
         yasakli_adlar=d["yasakli_adlar"],
         anahtar_terimler=d["anahtar_terimler"],
+        ek_adi=(d["ek"]["aciklama"] if d.get("ek") else ""),
     )
 
 
