@@ -85,5 +85,11 @@
   "anahtar_terimler": [
     "Kurul Kararının Gönderilmesi",
     "ilgide kayıtlı başvuru"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "kapanis_ters_cevrildi",
+    "dogru_deger": "arz",
+    "enjekte_edilen": "rica",
+    "beklenen_kapanis": "arz"
+  }
 }

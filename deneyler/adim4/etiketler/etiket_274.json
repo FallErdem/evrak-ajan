@@ -80,5 +80,10 @@
   "anahtar_terimler": [
     "Genelge Kapsamındaki İşlemlerin Raporlanması",
     "ilgide kayıtlı başvuru"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "ilgi_atiflari_kaldirildi",
+    "dogru_deger": "İlgi'de kayıtlı başvuru Genelge Kapsamındaki İşlemlerin Raporlanması talebine ilişkindir. Başvuru incelemeye alınmıştır.",
+    "enjekte_edilen": "Daha önce başvuru Genelge Kapsamındaki İşlemlerin Raporlanması talebine ilişkindir. Başvuru incelemeye alınmıştır. Konu "
+  }
 }

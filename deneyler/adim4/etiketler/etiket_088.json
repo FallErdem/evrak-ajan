@@ -84,5 +84,10 @@
   "anahtar_terimler": [
     "Alım Miktarının Artırılması",
     "ilgide kayıtlı başvuru"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "ilgi_atiflari_kaldirildi",
+    "dogru_deger": "İlgi'de kayıtlı başvuruda Alım Miktarının Artırılması talebi iletilmiştir. Söz konusu başvuru kayıtlar üzerinden ele alı",
+    "enjekte_edilen": "Daha önce başvuruda Alım Miktarının Artırılması talebi iletilmiştir. Söz konusu başvuru kayıtlar üzerinden ele alınmıştı"
+  }
 }

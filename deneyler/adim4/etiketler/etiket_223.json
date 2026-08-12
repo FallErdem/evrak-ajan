@@ -89,5 +89,11 @@
     "Liste ve takvim",
     "iş programı",
     "eklerin bağlı birimlere iletilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "kapanis_ters_cevrildi",
+    "dogru_deger": "rica",
+    "enjekte_edilen": "arz",
+    "beklenen_kapanis": "rica"
+  }
 }

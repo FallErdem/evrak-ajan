@@ -58,5 +58,11 @@
   "anahtar_terimler": [
     "Kararın Kesinleşmesi",
     "tereddüdün giderilmesi için görüş verilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "kapanis_ters_cevrildi",
+    "dogru_deger": "arz",
+    "enjekte_edilen": "rica",
+    "beklenen_kapanis": "arz"
+  }
 }

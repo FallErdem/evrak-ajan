@@ -61,5 +61,10 @@
   "anahtar_terimler": [
     "İhtilaflı Hususta Değerlendirme",
     "İhtilaflı Hususta Değerlendirme konusunda gerekli koordinasyonun sağlanması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "ilgi_atiflari_kaldirildi",
+    "dogru_deger": "İlgi'de kayıtlı yazıda İhtilaflı Hususta Değerlendirme konusu ele alınmıştır. Bu konu, iki kurumun ortak yürüttüğü bir i",
+    "enjekte_edilen": "Söz konusu yazı İhtilaflı Hususta Değerlendirme konusu ele alınmıştır. Bu konu, iki kurumun ortak yürüttüğü bir işleme d"
+  }
 }

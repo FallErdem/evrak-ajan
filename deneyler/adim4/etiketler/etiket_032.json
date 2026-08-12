@@ -94,5 +94,11 @@
     "15.04.2026 tarihinde yürürlüğe girmiştir",
     "geçici koruma statüsündeki başvurular",
     "her başvuru için ayrı dosya açılacaktır"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "kapanis_ters_cevrildi",
+    "dogru_deger": "rica",
+    "enjekte_edilen": "arz",
+    "beklenen_kapanis": "rica"
+  }
 }

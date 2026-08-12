@@ -87,5 +87,10 @@
   "anahtar_terimler": [
     "Zemin Etüdü Raporunun Gönderilmesi",
     "ilgide kayıtlı yazı"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "ilgi_atiflari_kaldirildi",
+    "dogru_deger": "İlgi'de kayıtlı yazı ile Zemin Etüdü Raporunun Gönderilmesi talep edilmiştir. Söz konusu yazı dayanak alınarak işlem baş",
+    "enjekte_edilen": "Söz konusu yazı ile Zemin Etüdü Raporunun Gönderilmesi talep edilmiştir. Söz konusu yazı dayanak alınarak işlem başlatıl"
+  }
 }

@@ -85,5 +85,10 @@
   "anahtar_terimler": [
     "Atama Onayı",
     "ilgide kayıtlı yazı"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "ilgi_atiflari_kaldirildi",
+    "dogru_deger": "İlgide kayıtlı yazı ile Atama Onayı talebinde bulunulmuştur. Talep, anılan yazıda belirtilen hususlar çerçevesinde ele a",
+    "enjekte_edilen": "Söz konusu yazı ile Atama Onayı talebinde bulunulmuştur. Talep, anılan yazıda belirtilen hususlar çerçevesinde ele alınm"
+  }
 }

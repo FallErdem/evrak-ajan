@@ -84,5 +84,10 @@
   "anahtar_terimler": [
     "Stratejik Plan Çalıştayı Daveti",
     "ilgide kayıtlı yazı"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "ilgi_atiflari_kaldirildi",
+    "dogru_deger": "İlgi'de kayıtlı yazı Bakanlığımıza ulaşmıştır. Anılan yazı Stratejik Plan Çalıştayı Daveti konusunu içermektedir.",
+    "enjekte_edilen": "Söz konusu yazı Bakanlığımıza ulaşmıştır. Anılan yazı Stratejik Plan Çalıştayı Daveti konusunu içermektedir."
+  }
 }

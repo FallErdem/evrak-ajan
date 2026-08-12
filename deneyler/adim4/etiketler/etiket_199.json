@@ -96,5 +96,10 @@
     "uygulamanın ilgililere duyurulması",
     "01.03.2026 tarihinde yürürlüğe girmiştir",
     "ihalesi tamamlanmış işler"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "ilgi_atiflari_kaldirildi",
+    "dogru_deger": "İlgi'de kayıtlı yazı ile Taşıt Kayıt ve Sigorta İşlemleri konusunda yeni bir uygulama yürürlüğe girmiştir. Uygulama Baka",
+    "enjekte_edilen": "Söz konusu yazı ile Taşıt Kayıt ve Sigorta İşlemleri konusunda yeni bir uygulama yürürlüğe girmiştir. Uygulama Bakanlıkç"
+  }
 }

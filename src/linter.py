@@ -353,10 +353,11 @@ _SAHIS_EK_DESENI = re.compile(
 
 # Bu köklerden sonra gelen -dık/-tik eki GEÇMİŞ ZAMAN çekimidir.
 _FIIL_KOKLERI = frozenset("""
-yap et al ver gör bul sun gönder iste incele değerlendir belir hazırla
-karar uygula başlat tamamla düşün bildir sapta yaşa git gel kal kat
-edin öğren anla söyle yaz oku çalış kullan ekle çıkar geç dön bak
-sor cevapla düzenlere düzelt onayla kabul red ilet aktar taşı kur
+yap et al ver gör bul sun gönder iste incele değerlendir belirle belirt
+hazırla karar uygula başlat tamamla düşün bildir sapta yaşa git gel kal
+kat edin öğren anla söyle yaz oku çalış kullan ekle çıkar geç dön bak
+sor cevapla düzenle düzelt onayla kabul et ilet aktar taşı kur gerçekleş
+sürdür yürüt izle denetle ölç hesapla planla teklif sağla üret sun
 """.split())
 
 
@@ -616,6 +617,13 @@ def _kok(kelime: str) -> str:
 # Cümleler ve küçük harfle başlayan olgular bu desene uymaz.
 _BASLIK_BICIMI = re.compile(r"^(?:[A-ZÇĞİÖŞÜ][\wçğıöşüâîû]*(?:\s+|$)){1,4}$")
 
+# Yalnızca ilgi atfından ibaret terimler: "ilgide kayıtlı yazı",
+# "ilgide kayıtlı başvuru", "ilgi yazı". Bunlar ayırt edici olgu değil.
+_ILGI_TERIMI = re.compile(
+    r"^\s*i̇?lgi(?:'?de)?\s+(?:kayıtlı\s+)?"
+    r"(?:yazı|başvuru|talep|talebimiz|talimat|bildirim|"
+    r"bilgi talebimiz|yazıdaki husus|yazı ekindeki liste)\s*$")
+
 
 def _kapsama_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
     """Şartnamedeki somut bilgilerin hepsi metne girmiş mi.
@@ -639,6 +647,13 @@ def _kapsama_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
         # Bu kural ÜRETEÇTE değil BURADA duruyor: üreteci değiştirmek
         # şartnameleri kaydırır ve üretilmiş gövdeleri geçersiz kılar.
         if _BASLIK_BICIMI.match(terim):
+            continue
+        # İLGİ ATFI ANAHTAR TERİM DEĞİLDİR. "ilgide kayıtlı başvuru"
+        # ifadesi ayırt edici bir olgu taşımıyor; belgenin ne hakkında
+        # olduğunu söylemiyor. Üstelik ilgi_kopuk kusuru bu ifadeyi
+        # kaldırmak zorunda ve terim listesinde kalırsa kusur
+        # uygulanamaz hâle geliyor (ölçüldü: belge 274).
+        if _ILGI_TERIMI.match(normalize(terim)):
             continue
         if normalize(terim) in n:
             continue
@@ -737,11 +752,25 @@ def _ek_ilgi_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
     ilgi_atfi = bool(_ILGI_DESENI.search(ilk_cumle))
 
     if e.ilgi_var and not ilgi_atfi:
-        bulgular.append(Bulgu(
-            "ILG-01", Onem.UYARI,
-            "İlgi var ama ilk cümle ilgiye atıfla başlamıyor.",
-            ilk_cumle[:70],
-        ))
+        # METNİN TAMAMINA BAKILIR, yalnızca ilk cümleye değil. Atıf ikinci
+        # cümlede de olabilir ("Söz konusu talep, ilgi yazı çerçevesinde
+        # ele alınmıştır") ve bu geçerli bir yazımdır.
+        her_yerde = bool(_ILGI_DESENI.search(n))
+        if her_yerde:
+            bulgular.append(Bulgu(
+                "ILG-01", Onem.UYARI,
+                "İlgi atfı ilk cümlede değil.", ilk_cumle[:70],
+            ))
+        else:
+            # HATA, uyarı değil: ilgi satırı var ama metin ona hiç
+            # değinmiyor — belge kendi içinde kopuk. `ilgi_kopuk` kusuru
+            # tam olarak bu; UYARI kalsaydı ölçülemezdi.
+            bulgular.append(Bulgu(
+                "ILG-03", Onem.HATA,
+                "İlgi var ama metin ilgiye hiç atıf yapmıyor. "
+                "Belge kendi içinde kopuk.",
+                ilk_cumle[:70],
+            ))
     elif not e.ilgi_var and _ILGI_DESENI.search(n):
         bulgular.append(Bulgu(
             "ILG-02", Onem.HATA,

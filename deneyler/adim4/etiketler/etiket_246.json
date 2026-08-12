@@ -61,5 +61,11 @@
   "anahtar_terimler": [
     "Hukuki Görüş",
     "Hukuki Görüş konusunda görüş bildirilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "kapanis_ters_cevrildi",
+    "dogru_deger": "arz",
+    "enjekte_edilen": "rica",
+    "beklenen_kapanis": "arz"
+  }
 }

@@ -87,5 +87,11 @@
     "esasların personele tebliğ edilmesi",
     "15.04.2026 tarihinde yürürlüğe girmiştir",
     "hâlihazırda işleme alınmış başvurular"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "kapanis_ters_cevrildi",
+    "dogru_deger": "rica",
+    "enjekte_edilen": "arz",
+    "beklenen_kapanis": "rica"
+  }
 }

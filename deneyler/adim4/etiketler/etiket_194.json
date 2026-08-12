@@ -97,5 +97,11 @@
     "18 kayıt",
     "Liste ve takvim",
     "iş programı"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "kapanis_ters_cevrildi",
+    "dogru_deger": "arz/rica",
+    "enjekte_edilen": "arz",
+    "beklenen_kapanis": "karma"
+  }
 }

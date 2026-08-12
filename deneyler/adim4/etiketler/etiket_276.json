@@ -61,5 +61,10 @@
   "anahtar_terimler": [
     "35. Madde Kapsamında Görevlendirme",
     "konunun açıklığa kavuşturulması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "yontem": "ilgi_atiflari_kaldirildi",
+    "dogru_deger": "İlgi'de kayıtlı yazı 35. Madde Kapsamında Görevlendirme konusuna ilişkindir. Benzer taleplerde farklı sonuçlar doğmuştur",
+    "enjekte_edilen": "Söz konusu yazı 35. Madde Kapsamında Görevlendirme konusuna ilişkindir. Benzer taleplerde farklı sonuçlar doğmuştur. Bu "
+  }
 }
