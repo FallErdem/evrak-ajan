@@ -938,13 +938,21 @@ class EtiketUretici:
 
         if aile == "belge_cevabi":
             b = {"Talep": _talep_ifadesi(konu, kod.ad),
+                 # BU ALAN İKİ KEZ YANLIŞ TASARLANDI, ders kayda değer:
+                 #
+                 #   1. "olumlu, belge düzenlendi"  -> "olumlu" bir etiket
+                 #      değeriydi, model gövdeye yazmıyordu
+                 #   2. "belge düzenlenmiştir"      -> edilgen fiil, model
+                 #      kendi cümlesine gömüyor ("belge düzenlenerek
+                 #      gönderilmiştir") ve birebir eşleşme kaybolıyor
+                 #
+                 # Şartnamedeki somut bilgiler CÜMLE DEĞİL, MALZEME olmalı.
+                 # Kısa isim öbekleri metne doğal olarak giriyor çünkü model
+                 # onları çekimlemek yerine aktarıyor.
                  "Talebin sonucu": h.sec([
-                     "olumlu, işlem tamamlandı", "olumlu, talep karşılandı",
-                     "olumlu, belge düzenlendi", "olumlu, kayıt güncellendi",
-                     "olumlu, gerekli düzeltme yapıldı",
-                     "olumlu, başvuru işleme alındı",
-                     "olumlu, talep uygun görüldü",
-                     "olumlu, dosya sonuçlandırıldı"])}
+                     "talep olumlu", "işlem tamamlandı", "talep karşılandı",
+                     "belge hazır", "kayıt güncel", "düzeltme yapıldı",
+                     "başvuru kabul", "talep uygun"])}
             if _tasinmaz_konusu_mu(kod.kod):
                 ada, parsel = h.ada_parsel()
                 b["Taşınmaz"] = f"{ada} ada, {parsel} parsel"
@@ -1576,24 +1584,61 @@ _EK_ACIKLAMA = {
 }
 
 
-def _anahtar_terimler(somut: dict) -> list[str]:
-    """Linter'ın 'bu bilgi metne girmiş mi' kontrolü için.
+# Kapsama kontrolünde ARANMAYACAK alanlar.
+#
+# DÖRT TUR BOYUNCA YANLIŞ YERDE ARADIM. Sorunun "Talebin sonucu" alanının
+# değerlerinde olduğunu sandım ve dört kez yeniden yazdım:
+#   "olumlu, belge düzenlendi" -> "belge düzenlenmiştir" -> "belge hazır"
+# Her seferinde başka bir kılıkta geri döndü.
+#
+# Asıl sorun anahtar terim SEÇİMİNDE. Bu alanlar bir DURUM bildiriyor,
+# ayırt edici bir OLGU değil. Model bunları kendi cümlesine gömer:
+#   şartname: "belge hazır"
+#   metin   : "Talep edilen belge düzenlenerek teslime hazır hâle
+#              getirilmiştir."
+# Bilgi metinde var ama kelimeler farklı — ve olması gereken de bu.
+#
+# Kapsama kontrolü ancak AYIRT EDİCİ bilgide anlamlı: ada/parsel numarası,
+# tarih, kod adı, kişi adı. "talep olumlu" ifadesinin metinde birebir
+# geçmesini beklemek modeli kopyalamaya zorlar.
+_KAPSAMA_DISI_ALANLAR = frozenset({
+    "Talebin sonucu", "İnceleme", "Ek işlem", "Kapsam", "Sınırlama",
+    "Süre", "İrtibat", "Başvuru şekli", "Gerekçe", "Sonuç", "Etki",
+    "Mevcut durum", "Kaynak", "Geçiş hükmü", "Değişiklik", "Ortak iş",
+    "Beklenen katkı", "Ek bilgi", "Ek 1 içeriği", "Ek 2 içeriği",
+    "Bildirim tercihi", "Önceki başvuru", "Kullanım amacı",
+})
 
-    Uzun cümleler değil, AYIRT EDİCİ parçalar alınır: sayı, özel ad, kısa
-    isim tamlaması. Uzun bir cümlenin tamamını aramak yanlış alarm verir —
-    model aynı bilgiyi başka kelimelerle yazabilir.
+# Konu ve talep alanları HER ZAMAN ayırt edicidir, tek kelime olsalar bile:
+# "Bursluluk", "Diploma", "Kamulaştırma" — bunlar metnin ne hakkında olduğunu
+# belirler ve kaybolmaları gerçek bir hatadır.
+_HER_ZAMAN_ARANAN = frozenset({"Talep", "Konu", "Şikâyet konusu",
+                               "İtiraz konusu", "Talep edilen belge",
+                               "Taşınmaz", "Öğrenim bilgisi", "Yürürlük"})
+
+
+def _anahtar_terimler(somut: dict) -> list[str]:
+    """Linter'ın "bu bilgi metne girmiş mi" kontrolü için AYIRT EDİCİ terimler.
+
+    Alınanlar : ada/parsel, tarih, sayı, konu, talep, taşınmaz
+    Alınmayan : durum bildiren genel ifadeler (_KAPSAMA_DISI_ALANLAR)
+
+    Model bilgiyi kopyalamaz, kendi cümlesini kurar — doğrusu da budur.
+    Kapsama kontrolü yalnızca kaybolması ölçülebilir bilgide anlamlı.
     """
     terimler = []
-    for deger in somut.values():
+    for anahtar, deger in somut.items():
+        if anahtar in _KAPSAMA_DISI_ALANLAR:
+            continue
         d = str(deger)
-        if len(d) <= 40 and " " in d:
+        # Sayı içeren parçalar her zaman ayırt edici
+        sayili = [x.strip() for x in d.split(",")
+                  if any(c.isdigit() for c in x) and len(x.strip()) <= 30]
+        if sayili:
+            terimler += sayili
+            continue
+        if anahtar in _HER_ZAMAN_ARANAN or (len(d) <= 40 and len(d.split()) >= 2):
             terimler.append(d)
-        else:
-            # Sayı içeren parçaları çek (ada/parsel, yıl, kayıt sayısı)
-            for parca in d.split(","):
-                p = parca.strip()
-                if any(c.isdigit() for c in p) and len(p) <= 30:
-                    terimler.append(p)
     return terimler[:6]
 
 

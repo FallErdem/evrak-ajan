@@ -314,12 +314,31 @@ _SAHIS_DESENI = re.compile(
     r"|acağız|eceğiz|acağım|eceğim)\b"
 )
 
+# Sabit liste kaçırıyordu ("yaşadık" listede yoktu). Artık liste YEDEK;
+# asıl yakalama _SAHIS_EK_DESENI ile yapılıyor.
 _SAHIS_KELIMELERI = frozenset("""
 ettik yaptık aldık verdik gördük bulduk sunduk gönderdik istedik
 inceledik değerlendirdik belirledik hazırladık kararlaştırdık
-uyguladık başlattık tamamladık düşündük bildirdik saptadık
+uyguladık başlattık tamamladık düşündük bildirdik saptadık yaşadık
 ettim yaptım aldım verdim gördüm buldum sundum gönderdim istedim
 inceledim değerlendirdim belirledim hazırladım düşündüm bildirdim
+""".split())
+
+# Geçmiş zaman birinci çoğul/tekil eki: -dık/-dik/-duk/-dük ve -tık/-tik...
+#
+# TEHLİKE: Türkçede iyelik ve isim kökleri de bu harflerle bitebilir
+# ("artık", "açık", "yazdık" değil "yazık"). Bu yüzden desen yalnızca
+# FİİL KÖKÜ + GEÇMİŞ ZAMAN EKİ birleşimini arıyor: ekten önce en az iki
+# harf ve sonrasında kelime sınırı. Yanlış alarm verenler ayrıca
+# _SAHIS_ISTISNA listesinde.
+_SAHIS_EK_DESENI = re.compile(
+    r"\b\w{3,}(?:dık|dik|duk|dük|tık|tik|tuk|tük)\b"
+)
+
+# Bu kelimeler yukarıdaki desene uyuyor ama fiil değil.
+_SAHIS_ISTISNA = frozenset("""
+artık açık ilgili yazık karışık kapalı aralık sıklık yaklaşık
+katılık darlık varlık birlik dirlik açıklık sağlık yatık
 """.split())
 
 
@@ -345,8 +364,19 @@ def _sahsilestirme_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
             eslesme.group(),
         ))
 
+    for eslesme in _SAHIS_EK_DESENI.finditer(govde):
+        kelime = eslesme.group()
+        if kelime in _SAHIS_ISTISNA:
+            continue
+        bulgular.append(Bulgu(
+            "K13.1", Onem.HATA,
+            "Şahsileştirilmiş fiil. Edilgen biçim kullanılmalı.",
+            kelime,
+        ))
+
+    # Yedek: desene uymayan biçimler için sabit liste
     for kelime in re.findall(r"\b\w+\b", govde):
-        if kelime in _SAHIS_KELIMELERI:
+        if kelime in _SAHIS_KELIMELERI and not _SAHIS_EK_DESENI.fullmatch(kelime):
             bulgular.append(Bulgu(
                 "K13.1", Onem.HATA,
                 "Şahsileştirilmiş fiil. Edilgen biçim kullanılmalı.",
@@ -471,6 +501,9 @@ olmuştur olmuş olacak olup bulunmaktadır bulunan gerekmektedir
 tarihinden itibaren sonra önce hâlinde halinde
 içinde içerisinde üzerine doğrultusunda gereği gereğince nedeniyle
 söz konusu ayrıca yine ancak fakat ise iken kere defa
+sonuçlandırılmıştır sonuçlanmıştır tamamlanmıştır karşılanmıştır
+düzenlenmiştir güncellenmiştir alınmıştır görülmüştür verilmiştir
+gönderilmiştir bildirilmiştir iletilmiştir hazırlanmıştır
 """.split())
 
 
