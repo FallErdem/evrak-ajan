@@ -529,6 +529,12 @@ def _kok(kelime: str) -> str:
     return kelime if len(kelime) <= 5 else kelime[:5]
 
 
+# Konu başlığı biçimi: her kelimesi büyük harfle başlayan, en çok dört
+# kelimelik ifade ("Belge Sureti", "Diploma Eki", "Servis Güzergâhı").
+# Cümleler ve küçük harfle başlayan olgular bu desene uymaz.
+_BASLIK_BICIMI = re.compile(r"^(?:[A-ZÇĞİÖŞÜ][\wçğıöşüâîû]*(?:\s+|$)){1,4}$")
+
+
 def _kapsama_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
     """Şartnamedeki somut bilgilerin hepsi metne girmiş mi.
 
@@ -541,6 +547,17 @@ def _kapsama_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
     metin_sozcukleri = set(_icerik_sozcukleri(metin))
     bulgular = []
     for terim in e.anahtar_terimler:
+        # KONU BAŞLIĞI ARANMAZ. Vatandaş dilekçesinde başlık kelimesi
+        # kelimesine tekrarlanmaz; doğal karşılığı yazılır:
+        #   şartname: "Belge Sureti"
+        #   metin   : "İstediğim evrakın sureti eksik gönderildi"
+        # Bilgi metinde var. Asıl olgu Sorun/Talep alanlarında ve onlar
+        # zaten kontrol ediliyor.
+        #
+        # Bu kural ÜRETEÇTE değil BURADA duruyor: üreteci değiştirmek
+        # şartnameleri kaydırır ve üretilmiş gövdeleri geçersiz kılar.
+        if _BASLIK_BICIMI.match(terim):
+            continue
         if normalize(terim) in n:
             continue
         # TAM EŞLEŞME ARAMAK YANLIŞ ALARM ÜRETİYOR. Model bilgiyi doğru
