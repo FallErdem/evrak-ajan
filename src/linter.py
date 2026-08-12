@@ -478,12 +478,50 @@ def _ad_sizintisi_kontrol(metin: str, e: Etiket) -> list[Bulgu]:
     Kurum kendinden "Müdürlüğümüz" diye söz eder.
     """
     n = normalize(metin)
-    return [
-        Bulgu("ATF-01", Onem.HATA,
-              f"Kurum adı gövdede geçiyor: '{ad}'. "
-              f"'Müdürlüğümüz' gibi bir ifade kullanılmalı.", ad)
-        for ad in e.yasakli_adlar if normalize(ad) in n
-    ]
+    bulgular = []
+    for ad in e.yasakli_adlar:
+        na = normalize(ad)
+        if na not in n:
+            continue
+        # ÖĞRENCİ KENDİ BÖLÜMÜNÜ SÖYLEMEK ZORUNDA. Şartname bunu istiyor:
+        # "... Bölümü 4. sınıf öğrencisiyim". "Gazi Eğitim Fakültesi"
+        # ifadesindeki "Gazi" kurum adı sızıntısı değil, bölüm adının
+        # parçasıdır. Aynı durum "Gazi Üniversitesi Hastanesi" gibi
+        # kuruluş adlarında da geçerli.
+        # HER GEÇİŞ AYRI DEĞERLENDİRİLİR. Önce metinde tek bir bölüm
+        # bağlamı varsa bütün geçişler bağışlanıyordu: "Gazi Eğitim
+        # Fakültesi ... Gazi tarafından" cümlesinde ikinci geçiş kaçıyordu.
+        if e.yazan_tipi == "ogrenci" and _tum_gecisler_bolum(n, na):
+            continue
+        bulgular.append(Bulgu(
+            "ATF-01", Onem.HATA,
+            f"Kurum adı gövdede geçiyor: '{ad}'. "
+            f"'Müdürlüğümüz' gibi bir ifade kullanılmalı.", ad))
+    return bulgular
+
+
+# Bir kurum adının ardından gelirse o ad bölüm/birim adının parçasıdır.
+# NORMALIZE EDİLEREK saklanır: normalize() Türkçe harfleri korur (ğ, ü, ı).
+# Liste ASCII yazılınca "fakültesi" ile "fakultesi" eşleşmiyordu — aynı
+# hatayı _ETKISIZ listesinde de yapmıştım.
+_BOLUM_SONRASI = tuple(normalize(k) for k in (
+    "Eğitim Fakültesi", "Fakültesi", "Enstitüsü", "Yüksekokulu",
+    "Meslek Yüksekokulu", "Hastanesi", "Konservatuvarı", "Bölümü"))
+
+
+def _tum_gecisler_bolum(metin: str, ad: str) -> bool:
+    """Kurum adının BÜTÜN geçişleri bölüm/fakülte adının parçası mı.
+
+    Biri bile serbest geçişse kural ihlal edilmiş sayılır: öğrenci
+    bölümünü söyleyebilir ama kurumdan "Gazi" diye söz edemez.
+    """
+    i = metin.find(ad)
+    while i != -1:
+        kuyruk = metin[i + len(ad):i + len(ad) + 40].lstrip()
+        if not any(kuyruk.startswith(k) for k in _BOLUM_SONRASI):
+            return False
+        i = metin.find(ad, i + 1)
+    return True
 
 
 # --- bilgi kapsama -----------------------------------------------------------
