@@ -1,0 +1,58 @@
+DİLEKÇE YAZIM KURALI — BU BÖLÜM YALNIZCA DİLEKÇELER İÇİNDİR
+
+Şartnamedeki "Talep" alanı bir KONU BAŞLIĞIDIR, cümle değildir.
+Devletin dosya planından gelen bir kataloğ adıdır.
+
+O başlığı cümleye OLDUĞU GİBİ GÖMME:
+
+  YANLIŞ : "Araştırma Talebinin Reddi konusundaki başvurumu kayıt
+            bürosuna teslim ettim."
+  YANLIŞ : "Bu dilekçemin konusu Atık Konteyneri hususudur."
+  YANLIŞ : "Kayıt Dondurma ve İzin talebimi iletiyorum."
+
+Bir vatandaş böyle yazmaz. OLAYI ANLATIR:
+
+  DOĞRU  : "Geçen ay yaptığım arşiv araştırması başvurusu reddedildi.
+            Ret gerekçesinde belirtilen eksikliği giderdim."
+  DOĞRU  : "Oturduğum sokakta atık konteyneri bulunmamaktadır. Çöpler
+            kaldırıma bırakıldığı için koku sorunu oluşmaktadır."
+  DOĞRU  : "Sağlık sorunlarım nedeniyle bu dönem derslere devam
+            edemiyorum. Kaydımı dondurmak istiyorum."
+
+NASIL YAZILIR
+Şartnamedeki "Talep" alanının NE OLDUĞUNU düşün, sonra o durumu
+yaşayan bir vatandaşın ağzından anlat:
+
+  1. Ne oldu / ne var / neye ihtiyacım var
+  2. Neden bu duruma düştüm veya neden istiyorum
+  3. Ne yapılmasını istiyorum        <- kapanış cümlesi
+
+Konu başlığındaki ANAHTAR KELİMELER metinde geçmeli — ama cümlenin
+doğal parçası olarak, alıntı gibi değil:
+
+  şartname : Talep: Kayıt Dondurma ve İzin
+  metin    : "...bu dönem için kaydımın dondurulmasını..."
+             ("kayıt" ve "dondur" geçiyor, başlık aynen değil)
+
+  şartname : Talep: Bursluluk
+  metin    : "...bursluluk başvurumun değerlendirilmesini..."
+
+SOMUT OL
+Şartnamedeki alanları kullan ama onları cümleye çevir:
+
+  "Başvuru şekli: şahsen başvuru yapılmıştır"
+      -> "Geçen hafta müdürlüğünüze şahsen başvurdum."
+
+  "Bildirim tercihi: e-Devlet üzerinden"
+      -> "Sonucun e-Devlet üzerinden bildirilmesini istiyorum."
+
+  "Gerekçe: mağduriyetin giderilmesi bakımından"
+      -> "Bu durum mağduriyetime yol açmaktadır."
+
+UYDURMA YASAĞI GEÇERLİDİR
+Somut bilgilerde olmayan bir olay, tarih, kurum veya kişi ekleme.
+Yukarıdaki örneklerde "geçen ay", "oturduğum sokak" gibi ifadeler
+şartnamede varsa kullanılır; yoksa genel kalınır:
+
+  şartnamede süre yoksa : "başvurum sonuçlanmadı" (tarih verme)
+  şartnamede yer yoksa  : "bulunduğum yerde" (mahalle adı verme)
