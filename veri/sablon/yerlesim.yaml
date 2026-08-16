@@ -265,6 +265,76 @@ dipnot:
     madde: "Y m.27/1"
 
 # =============================================================================
+# BELGE DOĞRULAMA KODU
+# =============================================================================
+# Yönetmelik m.23/1 yalnızca KONUMU düzenliyor; biçim EBYS üreticisine
+# bırakılmış ve KURUMA GÖRE DEĞİŞİYOR.
+dogrulama_kodu:
+  norm_durumu:
+    kaynak: norm
+    madde: "Y m.23/1"
+    not: "Yalnızca konum norm: doğrulama kodu, iletişim bilgileri
+      alanının üst çizgisinin üzerindeki iki satırın ikincisinde.
+      BİÇİM NORM DEĞİL."
+
+  ilk_surum_hatasi:
+    not: "'BS' + 3 harf + 4 rakam = 9 karakter üretiliyordu (BSHPD8641).
+      Gerçek Gazi kodları 10 karakter ve harf/rakam bloklanmış değil,
+      iç içe. İl MEM ise tamamen farklı biçim (UUIDv4) kullanıyor."
+
+  bicimler:
+    universite:
+      bicim: "BS + 8 alfanümerik = 10 karakter"
+      ornek: [BSESL46AB3, BSDM31AZAZ, BSF1RM05Y3]
+      kaynak: gozlem
+      dayanak: "3 gerçek Gazi Üniversitesi belgesi"
+      not: "Rakam oranı ~%40. Gözlenen harflerde I, O, Q hiç yok —
+        küçük örneklem, kanıt değil ama dışlamak zararsız."
+    il_mudurlugu:
+      bicim: "UUIDv4, BÜYÜK harf, tireli"
+      ornek: ["317348F7-1C4A-4709-A4AF-F598A237EDDB"]
+      kaynak: gozlem
+      dayanak: "Ankara İl MEM, 11.08.2025 tarihli gerçek belge"
+      not: "Sürüm nibble'ı 4, varyant nibble'ı A — RFC 4122 uyumlu."
+    belediye:
+      bicim: "UUIDv4 (VARSAYIM)"
+      kaynak: belirsiz
+      not: "Yenimahalle Belediyesi kod biçimi DOĞRULANAMADI. UUIDv4 en
+        yaygın doğrulanmış biçim (İl MEM, İŞKUR) olduğu için seçildi.
+        Doğrulama adresi e-Devlet'te mevcut ve teyit edildi."
+
+  etiketler:
+    universite:
+      kod: "Belge Doğrulama Kodu :"
+      adres: "Belge Takip Adresi :"
+      dogrulama_adresi: "https://www.turkiye.gov.tr/gazi-universitesi-ebys"
+      eimza_satiri_rengi: kirmizi
+    il_mudurlugu:
+      kod: "Doğrulama Kodu:"
+      adres: "Doğrulama Adresi:"
+      dogrulama_adresi: "https://www.turkiye.gov.tr/meb-ebys"
+      eimza_satiri_rengi: kirmizi
+    belediye:
+      kod: "Belge Doğrulama Kodu :"
+      adres: "Belge Takip Adresi :"
+      dogrulama_adresi:
+        "https://www.turkiye.gov.tr/yenimahalle-belediyesi-ebys"
+      eimza_satiri_rengi: kirmizi
+
+  eimza_satiri_rengi_notu:
+    deger: kirmizi
+    kaynak: gozlem
+    not: "HER KURUMDA KIRMIZI. Bir ara kuruma göre değişken yapılmıştı —
+      bir gözlemde Gazi belgelerinde siyah göründüğü bildirilmişti. Ama
+      elimizdeki gerçek belgelerde istisnasız kırmızı; siyah görünen
+      tarama siyah-beyaz olmalı."
+
+  anakronizm_uyarisi:
+    not: "MEB, DYS'den EBYS'ye 05.07.2024'te geçti. 2026 tarihli
+      belgelerde eski DYS biçimi (4-4-4-4-4 küçük harf hex,
+      evraksorgu.meb.gov.tr) KULLANILMAZ."
+
+# =============================================================================
 # KAREKOD (QR)
 # =============================================================================
 karekod:

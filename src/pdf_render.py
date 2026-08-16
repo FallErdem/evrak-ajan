@@ -154,6 +154,22 @@ AMBLEM_UST = 5 * mm
 DIPNOT_CIZGI_ALTTAN = 33 * mm
 QR_BOY = 13 * mm
 
+# GÖVDE METNİNİN İNEBİLECEĞİ EN ALT NOKTA.
+#
+# Dipnot alanı sayfa altından 33 mm'de başlıyor ve üstünde iki satır
+# daha var (e-imza notu, doğrulama kodu). Gövde + imza + ek + dağıtım
+# bu sınırı geçerse metin dipnotun ÜSTÜNE BİNER ve alt kısım sayfadan
+# taşar.
+#
+# ÖLÇÜLDÜ: 40 cümlelik bir genelgede imza dipnot yazısının üstüne bindi,
+# DAĞITIM listesi sayfa dışına çıktı. Metin katmanında görünüyorlar ama
+# basılı hâlde okunamıyorlar — sessiz bir bozulma.
+#
+# Şu anki 300 belgede en uzun metin 12 cümle, sınıra uzak. Ama ADIM 7'de
+# uzun belge üretilirse fark edilmeden bozulur; bu yüzden çizim sırasında
+# denetleniyor.
+GOVDE_ALT_SINIR = DIPNOT_CIZGI_ALTTAN + 4 * SATIR
+
 # =============================================================================
 # SAYFA ÖLÇÜLERİ — DİLEKÇE
 # =============================================================================
@@ -396,19 +412,81 @@ def _govde_ciz(c, govde: str, y: float, sol: float, genislik: float) -> float:
     return y
 
 
-def _dogrulama_kodu(belge_no: str) -> str:
-    """Kurgusal belge doğrulama kodu.
+# =============================================================================
+# BELGE DOĞRULAMA KODU VE DİPNOT ETİKETLERİ
+# =============================================================================
+# Yönetmelik m.23/1 yalnızca KONUMU düzenliyor; biçim EBYS üreticisine
+# bırakılmış ve KURUMA GÖRE DEĞİŞİYOR.
+#
+# İlk sürümde "BS" + 3 harf + 4 rakam = 9 karakter üretiyordum
+# (BSHPD8641). Gerçek belgelerde doğrulanan biçimler:
+#
+#   Gazi Üniversitesi   BSESL46AB3, BSDM31AZAZ  -> "BS" + 8 alfanümerik
+#                       = 10 KARAKTER, harf/rakam iç içe (bloklanmış değil)
+#   Ankara İl MEM       317348F7-1C4A-4709-A4AF-F598A237EDDB -> UUIDv4
+#   İŞKUR               UUIDv4 büyük harf
+#
+# Gözlenen harflerde I, O, Q hiç görülmedi — küçük örneklem, kanıt değil
+# ama dışlamak zararsız ve okunabilirliği artırıyor.
+#
+# Etiket metni ve doğrulama adresi de kurumdan kuruma değişiyor.
+# RENK DEĞİŞMİYOR: e-imza satırı her kurumda kırmızı.
 
-    Gerçek örnekler: BSDSHHL742, BS5SZNT943. Belge numarasından
-    türetilir; aynı belge her zaman aynı kodu alır.
+_KOD_ALFABE = "ABCDEFGHJKLMNPRSTUVYZ"      # I, O, Q dışlandı
+
+
+def _dogrulama_kodu(belge_no: str, kurum_tipi: str) -> str:
+    """Kuruma göre belge doğrulama kodu.
+
+    Belge numarasından tohumlanır — aynı belge her zaman aynı kodu alır.
     """
-    harfler = "ABCDEFGHJKLMNPRSTUVYZ"
-    n = int(belge_no)
-    return ("BS"
-            + harfler[(n * 7) % len(harfler)]
-            + harfler[(n * 13) % len(harfler)]
-            + harfler[(n * 3) % len(harfler)]
-            + f"{(n * 8641) % 10000:04d}")
+    import random as _random
+    import uuid as _uuid
+
+    rng = _random.Random(int(belge_no) * 104729)
+
+    if kurum_tipi == "universite":
+        # DOĞRULANDI — 3 gerçek Gazi belgesi. Rakam oranı ~%40.
+        govde = "".join(
+            rng.choice("0123456789") if rng.random() < 0.40
+            else rng.choice(_KOD_ALFABE) for _ in range(8))
+        return "BS" + govde
+
+    # İl MEM ve İŞKUR'da doğrulandı; bakanlık/valilik/belediye için
+    # BELİRSİZ ama UUIDv4 en yaygın doğrulanmış biçim.
+    return str(_uuid.UUID(int=rng.getrandbits(128), version=4)).upper()
+
+
+# Dipnot etiketleri ve doğrulama adresi de kuruma göre değişiyor.
+# `[GÖZLEM]` — gerçek belgelerden.
+_DIPNOT_BICIMI = {
+    "universite": {
+        "kod_etiketi": "Belge Doğrulama Kodu :",
+        "adres_etiketi": "Belge Takip Adresi :",
+        "dogrulama_adresi":
+            "https://www.turkiye.gov.tr/gazi-universitesi-ebys",
+    },
+    "il_mudurlugu": {
+        "kod_etiketi": "Doğrulama Kodu:",
+        "adres_etiketi": "Doğrulama Adresi:",
+        "dogrulama_adresi": "https://www.turkiye.gov.tr/meb-ebys",
+    },
+    "belediye": {
+        "kod_etiketi": "Belge Doğrulama Kodu :",
+        "adres_etiketi": "Belge Takip Adresi :",
+        "dogrulama_adresi":
+            "https://www.turkiye.gov.tr/yenimahalle-belediyesi-ebys",
+    },
+}
+_DIPNOT_VARSAYILAN = {
+    "kod_etiketi": "Belge Doğrulama Kodu :",
+    "adres_etiketi": "Belge Takip Adresi :",
+    "dogrulama_adresi": "https://www.turkiye.gov.tr/ebys",
+}
+
+
+def _dipnot_bicimi(kurum_tipi: str) -> dict:
+    return _DIPNOT_BICIMI.get(kurum_tipi, _DIPNOT_VARSAYILAN)
 
 
 # =============================================================================
@@ -488,7 +566,11 @@ _GONDEREN_UNVAN = {
     "Ankara Büyükşehir Belediye Başkanlığı": "Başkan a. / Daire Başkanı",
     "Çankaya Belediye Başkanlığı": "Başkan a. / Daire Başkanı",
     "Yenimahalle Belediye Başkanlığı": "Başkan a. / Müdür",
-    "Ankara İl Millî Eğitim Müdürlüğü": "Müdür a. / Şube Müdürü",
+    # GERÇEK BELGEDEN: "Murat KÜÇÜKALİ / Vali a. / İl Millî Eğitim Müdürü"
+    # İl müdürlüğü taşra teşkilatıdır; müdür valilik adına imzalar
+    # (Yönetmelik m.17/9 yetki devri). Önceki "Müdür a. / Şube Müdürü"
+    # bir şube müdürünün imzası olurdu, kurum düzeyinde yanlış.
+    "Ankara İl Millî Eğitim Müdürlüğü": "Vali a. / İl Millî Eğitim Müdürü",
     "Gazi Üniversitesi Rektörlüğü": "Rektör a. / Genel Sekreter",
     "Gazi Üniversitesi": "Rektör a. / Genel Sekreter",
 }
@@ -677,6 +759,24 @@ def kurum_yazisi_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
     # --- gövde --------------------------------------------------------------
     y = _govde_ciz(c, govde, y, SOL, YAZI_G)
 
+    # --- taşma denetimi -----------------------------------------------------
+    # Gövde bittiğinde imza, ek ve dağıtım için yer kaldı mı?
+    gereken = 4 * SATIR                                   # imza bloğu
+    if e.get("ek"):
+        gereken += 3 * SATIR
+    if e.get("dagitim"):
+        # "DAĞITIM:" başlığı + gereği listesi + varsa "Bilgi:" başlığı
+        # ve bilgi listesi + öncesinde bir satır boşluk
+        d = e["dagitim"]
+        gereken += (2 + len(d.get("geregi", []))
+                    + (1 + len(d["bilgi"]) if d.get("bilgi") else 0)) * SATIR
+    if y - gereken < GOVDE_ALT_SINIR:
+        raise SayfaTasmasi(
+            f"belge_{e['belge_no']}: içerik bir sayfaya sığmıyor. "
+            f"Gövde {y / mm:.0f} mm'de bitti, imza/ek/dağıtım için "
+            f"{gereken / mm:.0f} mm gerekiyor, alt sınır "
+            f"{GOVDE_ALT_SINIR / mm:.0f} mm. Çok sayfalı belge desteği yok.")
+
     # --- imza ---------------------------------------------------------------
     if not kusur.var_mi("imza_eksik"):
         # m.17/1: "Metnin bitiminden itibaren İKİ İLÂ DÖRT SATIR boşluk
@@ -706,8 +806,10 @@ def kurum_yazisi_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
         if kusur.var_mi("ek_beyani_yanlis") and kusur.ayrinti:
             sayfa = kusur.ayrinti.get("enjekte_edilen", sayfa)
         # m.18/2: adet/sayfa parantez içinde
+        # m.18/2: adet/sayfa parantez içinde. Gerçek belgede "(12 Sayfa)"
+        # — Sayfa BÜYÜK harfle. Tek ek numaralandırılmaz.
         y = _yaz(c, f"Ek: {e['ek'].get('aciklama') or 'İlgili belge'} "
-                    f"({sayfa} sayfa)", SOL, y)
+                    f"({sayfa} Sayfa)", SOL, y)
 
     # --- dağıtım ------------------------------------------------------------
     if e.get("dagitim"):
@@ -738,17 +840,28 @@ def _dipnot_ciz(c, e: dict) -> None:
     Sayfa numarası iletişim bilgilerinin ALTINDA ve sayfa ORTASINDA
     (Y m.27/1).
     """
-    kod = _dogrulama_kodu(e["belge_no"])
+    # Dipnot GÖNDERENE ait: kod biçimi, etiket metni ve renk gönderen
+    # kurumun EBYS'sine göre değişiyor.
+    kt = _amblem_tipi(e)
+    bicim = _dipnot_bicimi(kt)
+    kod = _dogrulama_kodu(e["belge_no"], kt)
     cizgi_y = DIPNOT_CIZGI_ALTTAN
     c.setFont(NORMAL, PUNTO_KUCUK)
-    c.setFillColorRGB(0.25, 0.25, 0.3)
 
     # --- çizginin üstü ------------------------------------------------------
+    # E-imza satırı HER KURUMDA KIRMIZI. Bir ara kuruma göre değişken
+    # yapılmıştı (bir gözlemde Gazi'de siyah görünmüştü) ama elimizdeki
+    # gerçek belgelerde istisnasız kırmızı — siyah görünen tarama
+    # siyah-beyaz olmalı.
+    c.setFillColorRGB(0.75, 0.1, 0.1)
     c.drawCentredString(SAYFA_G / 2, cizgi_y + 2.2 * SATIR,
                         "Bu belge, güvenli elektronik imza ile imzalanmıştır.")
-    c.drawString(SOL, cizgi_y + 1.2 * SATIR, f"Belge Doğrulama Kodu: {kod}")
+
+    c.setFillColorRGB(0.25, 0.25, 0.3)
+    c.drawString(SOL, cizgi_y + 1.2 * SATIR,
+                 f"{bicim['kod_etiketi']} {kod}")
     c.drawRightString(SOL + YAZI_G, cizgi_y + 1.2 * SATIR,
-                      "Belge Takip Adresi: https://www.turkiye.gov.tr/ebys")
+                      f"{bicim['adres_etiketi']} {bicim['dogrulama_adresi']}")
 
     # --- ayırıcı çizgi (Y m.23/1) -------------------------------------------
     c.setStrokeColorRGB(0.45, 0.45, 0.5)
@@ -781,8 +894,8 @@ def _dipnot_ciz(c, e: dict) -> None:
     # --- karekod (Y m.24/1): iletişim alanının EN SAĞI ----------------------
     try:
         w = qr.QrCodeWidget(
-            f"{e['gonderen'].get('kurum_adi', '')}|{e.get('sayi', '')}|"
-            f"https://www.turkiye.gov.tr/ebys|{kod}")
+            f"{e['gonderen'].get('kurum_adi') or ''}|{e.get('sayi') or ''}|"
+            f"{bicim['dogrulama_adresi']}|{kod}")
         b = w.getBounds()
         d = Drawing(QR_BOY, QR_BOY,
                     transform=[QR_BOY / (b[2] - b[0]), 0, 0,
@@ -855,6 +968,12 @@ def dilekce_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
 
     # --- gövde --------------------------------------------------------------
     y = _govde_ciz(c, govde, y, D_SOL, D_YAZI_G)
+
+    # --- taşma denetimi -----------------------------------------------------
+    if y - 8 * SATIR < D_ALT:
+        raise SayfaTasmasi(
+            f"belge_{e['belge_no']}: dilekçe bir sayfaya sığmıyor. "
+            f"Gövde {y / mm:.0f} mm'de bitti.")
 
     # --- alt blok: İKİ SÜTUN, aynı hizadan başlar --------------------------
     #
@@ -934,6 +1053,19 @@ def dilekce_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
 # =============================================================================
 # GİRİŞ NOKTASI
 # =============================================================================
+
+
+class SayfaTasmasi(Exception):
+    """Belge içeriği bir sayfaya sığmadı.
+
+    Çok sayfalı belge desteği HENÜZ YOK (Yönetmelik m.16/5: sayı/tarih/
+    konu/muhatap/ilgi yalnızca ilk sayfada, imza/ek/dağıtım yalnızca son
+    sayfada, iletişim+doğrulama her sayfada). ADIM 7'de uzun belgeler
+    üretilecekse önce bu destek yazılmalı.
+
+    Sessizce taşmaktansa hata vermek tercih edildi: taşan belge metin
+    katmanında doğru görünür ama basılı hâlde okunmaz.
+    """
 
 
 def belge_ciz(yol: Path, e: dict, govde: str,

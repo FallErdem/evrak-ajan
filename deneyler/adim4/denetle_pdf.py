@@ -111,9 +111,13 @@ def denetle(e: dict, metin: str) -> list[str]:
             sorunlar.append("imza_eksik: imza bloğu hâlâ görünüyor")
 
     if tur == "ek_beyani_yanlis" and ay:
+        # BÜYÜK/KÜÇÜK HARF DUYARSIZ. Render "(3 Sayfa)" yazıyor (gerçek
+        # belgedeki gibi büyük S), doğrulayıcı "(3 sayfa)" arıyordu ve
+        # 8 belgede yanlış alarm veriyordu.
         yanlis = str(ay.get("enjekte_edilen"))
-        if yanlis and f"({yanlis} sayfa)" not in n and \
-                f"{yanlis} Adet" not in n:
+        kucuk = n.lower()
+        if yanlis and f"({yanlis} sayfa)" not in kucuk and \
+                f"{yanlis} adet" not in kucuk:
             sorunlar.append(f"ek_beyani_yanlis: yanlış beyan görünmüyor "
                             f"({yanlis})")
 
