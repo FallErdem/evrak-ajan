@@ -62,5 +62,11 @@
   "anahtar_terimler": [
     "Onaylı Örnek",
     "konunun uygun görülmesi hâlinde olur verilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ek_sayfa",
+    "dogru_deger": 1,
+    "enjekte_edilen": 4,
+    "kusur": "ek_beyani_yanlis"
+  }
 }

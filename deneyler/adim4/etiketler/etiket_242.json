@@ -86,5 +86,11 @@
   "anahtar_terimler": [
     "Şikâyet Başvurusu konusunda yeni bir uygulama yürürlüğe girmiştir",
     "01.01.2026 tarihinde yürürlüğe girmiştir"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "konu",
+    "dogru_deger": "Şikâyet Başvurusu Hk.",
+    "enjekte_edilen": "",
+    "kusur": "konu_eksik"
+  }
 }

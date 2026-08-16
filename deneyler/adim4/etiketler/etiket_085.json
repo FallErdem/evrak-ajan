@@ -87,5 +87,13 @@
     "uygulamanın ilgililere duyurulması",
     "01.05.2026 tarihinde yürürlüğe girmiştir",
     "hâlihazırda işleme alınmış başvurular"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi_sdp_kodu",
+    "dogru_deger": "E-24432702-602.04-11675389",
+    "enjekte_edilen": "E-24432702-641.04-11675389",
+    "dogru_kod": "602.04",
+    "enjekte_edilen_kod": "641.04",
+    "kusur": "sdp_uyumsuz"
+  }
 }

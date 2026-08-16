@@ -61,5 +61,11 @@
   "anahtar_terimler": [
     "Kayıt İptali",
     "gerekli incelemenin yapılması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "tarih",
+    "dogru_deger": "17.03.2026",
+    "enjekte_edilen": "",
+    "kusur": "tarih_eksik"
+  }
 }

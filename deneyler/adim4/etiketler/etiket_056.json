@@ -58,5 +58,11 @@
   "anahtar_terimler": [
     "Yabancı Uyruklu Eş İçin Belge",
     "uygulanacak usulün bildirilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi",
+    "dogru_deger": "E-39985474-125-6762518",
+    "enjekte_edilen": "",
+    "kusur": "sayi_eksik"
+  }
 }

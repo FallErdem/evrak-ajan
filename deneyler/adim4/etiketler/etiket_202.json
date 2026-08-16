@@ -57,5 +57,11 @@
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Periyodik Muayene işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "cep telefonuma kısa mesajla"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "tarih",
+    "dogru_deger": "16.03.2026",
+    "enjekte_edilen": "",
+    "kusur": "tarih_eksik"
+  }
 }

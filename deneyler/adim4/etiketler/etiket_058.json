@@ -56,5 +56,11 @@
   "anahtar_terimler": [
     "Diploma İkinci Nüsha",
     "mağduriyetin giderilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "tarih",
+    "dogru_deger": "28.04.2026",
+    "enjekte_edilen": "",
+    "kusur": "tarih_eksik"
+  }
 }

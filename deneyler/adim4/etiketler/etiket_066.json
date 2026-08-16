@@ -78,5 +78,12 @@
   "anahtar_terimler": [
     "Bilgi Edinme Talebinin Reddi",
     "ilgide kayıtlı yazı"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ilgi_tarihi",
+    "dogru_deger": "03.02.2026",
+    "enjekte_edilen": "04.05.2026",
+    "belge_tarihi": "19.03.2026",
+    "kusur": "tarih_tutarsiz"
+  }
 }

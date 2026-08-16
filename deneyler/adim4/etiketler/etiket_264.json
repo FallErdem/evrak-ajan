@@ -98,5 +98,11 @@
     "Liste ve takvim",
     "zaman çizelgesi",
     "eklerin bağlı birimlere iletilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi",
+    "dogru_deger": "E-24316060-135.03-66117031",
+    "enjekte_edilen": "",
+    "kusur": "sayi_eksik"
+  }
 }

@@ -58,5 +58,13 @@
   "anahtar_terimler": [
     "Sosyal İnceleme Raporu",
     "Sosyal İnceleme Raporu konusunda gerekli koordinasyonun sağlanması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi_sdp_kodu",
+    "dogru_deger": "E-39985474-815-6752213",
+    "enjekte_edilen": "E-39985474-858-6752213",
+    "dogru_kod": "815",
+    "enjekte_edilen_kod": "858",
+    "kusur": "sdp_uyumsuz"
+  }
 }

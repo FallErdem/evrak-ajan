@@ -57,5 +57,11 @@
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Kısmi İskan işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "elektronik posta ile"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "tarih",
+    "dogru_deger": "15.01.2026",
+    "enjekte_edilen": "",
+    "kusur": "tarih_eksik"
+  }
 }

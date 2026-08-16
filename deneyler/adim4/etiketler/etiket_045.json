@@ -59,5 +59,13 @@
   "anahtar_terimler": [
     "Uygulama Öğrencisi Yerleştirme",
     "Uygulama Öğrencisi Yerleştirme kapsamında öğrenci kabul edilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi_sdp_kodu",
+    "dogru_deger": "E-65859045-355.02-2727253",
+    "enjekte_edilen": "E-65859045-641.04-2727253",
+    "dogru_kod": "355.02",
+    "enjekte_edilen_kod": "641.04",
+    "kusur": "sdp_uyumsuz"
+  }
 }

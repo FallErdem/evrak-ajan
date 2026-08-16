@@ -59,5 +59,11 @@
     "Yerinde İnceleme Randevusu",
     "sorunun giderilmesi",
     "İvedik Mahallesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "tarih",
+    "dogru_deger": "07.05.2026",
+    "enjekte_edilen": "",
+    "kusur": "tarih_eksik"
+  }
 }

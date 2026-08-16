@@ -53,5 +53,11 @@
   ],
   "anahtar_terimler": [
     "Cezanın Sicilden Silinmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "muhatap",
+    "dogru_deger": "Ankara İl Millî Eğitim Müdürlüğü",
+    "enjekte_edilen": "İLGİLİ MAKAMA",
+    "kusur": "muhatap_belirsiz"
+  }
 }

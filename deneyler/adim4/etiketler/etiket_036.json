@@ -61,5 +61,12 @@
     "ilgide kayıtlı yazı",
     "istenen belgeler tarafımıza ulaşmamıştır",
     "ivedilikle gönderilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ilgi_tarihi",
+    "dogru_deger": "08.04.2026",
+    "enjekte_edilen": "18.06.2026",
+    "belge_tarihi": "23.04.2026",
+    "kusur": "tarih_tutarsiz"
+  }
 }

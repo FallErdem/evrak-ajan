@@ -84,5 +84,11 @@
     "konunun bağlı birimlere bildirilmesi",
     "15.01.2026 tarihinde yürürlüğe girmiştir",
     "sözleşmesi devam eden yükleniciler"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ek_sayfa",
+    "dogru_deger": 4,
+    "enjekte_edilen": 7,
+    "kusur": "ek_beyani_yanlis"
+  }
 }

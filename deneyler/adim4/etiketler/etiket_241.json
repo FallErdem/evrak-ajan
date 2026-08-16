@@ -97,5 +97,12 @@
     "47 kayıt",
     "Liste ve takvim",
     "dağıtım cetveli"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ilgi_tarihi",
+    "dogru_deger": "02.01.2026",
+    "enjekte_edilen": "23.02.2026",
+    "belge_tarihi": "02.02.2026",
+    "kusur": "tarih_tutarsiz"
+  }
 }

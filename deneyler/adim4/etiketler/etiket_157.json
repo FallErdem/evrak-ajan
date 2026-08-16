@@ -57,5 +57,11 @@
   "anahtar_terimler": [
     "Öğrenci Taşıma Güzergâhı",
     "konunun açıklığa kavuşturulması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi",
+    "dogru_deger": "E-65859045-140-2729820",
+    "enjekte_edilen": "",
+    "kusur": "sayi_eksik"
+  }
 }

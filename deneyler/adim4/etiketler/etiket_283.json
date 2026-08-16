@@ -90,5 +90,11 @@
     "Öğrenci listesi",
     "zaman çizelgesi",
     "listenin ilgili birimlere dağıtılması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi",
+    "dogru_deger": "E-56248377-125-410123",
+    "enjekte_edilen": "",
+    "kusur": "sayi_eksik"
+  }
 }

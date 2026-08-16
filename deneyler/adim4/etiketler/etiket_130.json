@@ -61,5 +61,11 @@
     "Kurs Kontenjanının Artırılması",
     "başvuru işleme alınmamıştır",
     "başvurumun tekrar incelenmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "muhatap",
+    "dogru_deger": "Ankara İl Millî Eğitim Müdürlüğü",
+    "enjekte_edilen": "İLGİLİ MAKAMA",
+    "kusur": "muhatap_belirsiz"
+  }
 }

@@ -86,5 +86,11 @@
     "Çatı Onarımı",
     "ilgide kayıtlı başvuru",
     "talep edilen bilgiler ekte sunulmuştur"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "konu",
+    "dogru_deger": "Çatı Onarımı Hk.",
+    "enjekte_edilen": "",
+    "kusur": "konu_eksik"
+  }
 }

@@ -87,5 +87,13 @@
     "esasların personele tebliğ edilmesi",
     "01.03.2026 tarihinde yürürlüğe girmiştir",
     "her başvuru için ayrı dosya açılacaktır"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi_sdp_kodu",
+    "dogru_deger": "E-24316060-602.04-66529738",
+    "enjekte_edilen": "E-24316060-841.01-66529738",
+    "dogru_kod": "602.04",
+    "enjekte_edilen_kod": "841.01",
+    "kusur": "sdp_uyumsuz"
+  }
 }

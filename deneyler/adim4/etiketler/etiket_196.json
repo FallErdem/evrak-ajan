@@ -57,5 +57,11 @@
     "Geçici Kayıt işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "yıllara göre sayısal döküm",
     "elektronik posta ile"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "tarih",
+    "dogru_deger": "10.03.2026",
+    "enjekte_edilen": "",
+    "kusur": "tarih_eksik"
+  }
 }

@@ -86,5 +86,11 @@
     "15.02.2026 tarihinde yürürlüğe girmiştir",
     "ihalesi tamamlanmış işler",
     "onay süreci iki aşamalı yürütülecektir"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ek_sayfa",
+    "dogru_deger": 2,
+    "enjekte_edilen": 3,
+    "kusur": "ek_beyani_yanlis"
+  }
 }

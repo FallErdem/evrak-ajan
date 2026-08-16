@@ -80,5 +80,12 @@
   "anahtar_terimler": [
     "Bütçe Teklifinin Hazırlanması",
     "ilgide kayıtlı yazı"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ilgi_tarihi",
+    "dogru_deger": "26.12.2025",
+    "enjekte_edilen": "25.03.2026",
+    "belge_tarihi": "27.01.2026",
+    "kusur": "tarih_tutarsiz"
+  }
 }

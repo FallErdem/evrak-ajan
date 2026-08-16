@@ -61,5 +61,11 @@
     "Muayene Ücreti",
     "başvuru işleme alınmamıştır",
     "kararın yeniden değerlendirilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "muhatap",
+    "dogru_deger": "Yenimahalle Belediye Başkanlığı",
+    "enjekte_edilen": "İLGİLİ MAKAMA",
+    "kusur": "muhatap_belirsiz"
+  }
 }

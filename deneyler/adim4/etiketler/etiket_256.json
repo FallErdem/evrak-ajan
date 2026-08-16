@@ -95,5 +95,11 @@
     "konunun bağlı birimlere bildirilmesi",
     "01.03.2026 tarihinde yürürlüğe girmiştir",
     "önceki dönemde onaylanmış projeler"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ek_sayfa",
+    "dogru_deger": 6,
+    "enjekte_edilen": 8,
+    "kusur": "ek_beyani_yanlis"
+  }
 }

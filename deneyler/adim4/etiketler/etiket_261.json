@@ -57,5 +57,11 @@
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Terazi Damgalama işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "kayıtlı elektronik posta adresime"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "imza",
+    "dogru_deger": "imza bloğu",
+    "enjekte_edilen": "",
+    "kusur": "imza_eksik"
+  }
 }

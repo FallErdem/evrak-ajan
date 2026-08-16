@@ -88,5 +88,11 @@
     "15.03.2026 tarihinde yürürlüğe girmiştir",
     "geçici koruma statüsündeki başvurular",
     "işlemler tek merkezden yürütülecektir"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ek_sayfa",
+    "dogru_deger": 3,
+    "enjekte_edilen": 6,
+    "kusur": "ek_beyani_yanlis"
+  }
 }

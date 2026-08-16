@@ -59,5 +59,11 @@
   "anahtar_terimler": [
     "Alınan Kararların Özeti",
     "konunun açıklığa kavuşturulması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi",
+    "dogru_deger": "E-98244303-050.04-5821612",
+    "enjekte_edilen": "",
+    "kusur": "sayi_eksik"
+  }
 }

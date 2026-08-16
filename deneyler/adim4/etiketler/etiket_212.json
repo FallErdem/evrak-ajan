@@ -59,5 +59,11 @@
   "anahtar_terimler": [
     "Uygulama Kontenjanı",
     "Uygulama Kontenjanı için kontenjan ayrılması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "konu",
+    "dogru_deger": "Uygulama Kontenjanı Bildirimi",
+    "enjekte_edilen": "",
+    "kusur": "konu_eksik"
+  }
 }

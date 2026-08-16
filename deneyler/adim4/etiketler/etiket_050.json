@@ -57,5 +57,11 @@
     "4982 sayılı Bilgi Edinme Hakkı Kanunu",
     "Öğrenci Topluluğu Kurulma işlemlerine ilişkin güncel bilgilerin paylaşılması",
     "Kurumunuz kayıt bürosundan elden"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "muhatap",
+    "dogru_deger": "Gazi Üniversitesi",
+    "enjekte_edilen": "İLGİLİ MAKAMA",
+    "kusur": "muhatap_belirsiz"
+  }
 }

@@ -85,5 +85,12 @@
   "anahtar_terimler": [
     "Ödenek",
     "ilgide kayıtlı yazı"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ilgi_tarihi",
+    "dogru_deger": "25.12.2025",
+    "enjekte_edilen": "13.02.2026",
+    "belge_tarihi": "16.01.2026",
+    "kusur": "tarih_tutarsiz"
+  }
 }

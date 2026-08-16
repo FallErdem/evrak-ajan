@@ -57,5 +57,11 @@
     "Yapı Ruhsatı",
     "29428 ada",
     "22 parsel"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "muhatap",
+    "dogru_deger": "Yenimahalle Belediye Başkanlığı",
+    "enjekte_edilen": "İLGİLİ MAKAMA",
+    "kusur": "muhatap_belirsiz"
+  }
 }

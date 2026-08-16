@@ -58,5 +58,11 @@
   "anahtar_terimler": [
     "Staj Yeri",
     "Staj Yeri için kontenjan ayrılması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi",
+    "dogru_deger": "E-55461037-304.03-1887384",
+    "enjekte_edilen": "",
+    "kusur": "sayi_eksik"
+  }
 }

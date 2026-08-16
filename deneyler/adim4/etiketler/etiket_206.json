@@ -89,5 +89,12 @@
     "94 kayıt",
     "Liste ve takvim",
     "iş programı"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ilgi_tarihi",
+    "dogru_deger": "25.03.2026",
+    "enjekte_edilen": "23.05.2026",
+    "belge_tarihi": "27.04.2026",
+    "kusur": "tarih_tutarsiz"
+  }
 }

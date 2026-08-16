@@ -59,5 +59,11 @@
   "anahtar_terimler": [
     "İhtilaflı Hususta Değerlendirme",
     "İhtilaflı Hususta Değerlendirme konusunda gerekli koordinasyonun sağlanması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi",
+    "dogru_deger": "E-65859045-045.02-2728744",
+    "enjekte_edilen": "",
+    "kusur": "sayi_eksik"
+  }
 }

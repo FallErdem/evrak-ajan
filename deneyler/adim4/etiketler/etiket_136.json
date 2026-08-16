@@ -85,5 +85,11 @@
   "anahtar_terimler": [
     "Topluluk Tüzüğünün Onayı",
     "ilgide kayıtlı talep"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi",
+    "dogru_deger": "E-42218640-309-3273739",
+    "enjekte_edilen": "",
+    "kusur": "sayi_eksik"
+  }
 }

@@ -82,15 +82,17 @@ def denetle(e: dict, metin: str) -> list[str]:
         sorunlar.append("Türkçe karakter yok — font sorunu")
 
     # --- kusur enjeksiyonu --------------------------------------------------
+    sikisik_metin = re.sub(r"\s+", "", metin)
+
     if tur in GORUNMEMELI and ay:
-        deger = str(ay.get(GORUNMEMELI[tur]) or "")
-        if deger and deger in n:
+        deger = re.sub(r"\s+", "", str(ay.get(GORUNMEMELI[tur]) or ""))
+        if deger and deger in sikisik_metin:
             sorunlar.append(f"{tur}: doğru değer HÂLÂ görünüyor "
                             f"({deger[:44]}) — kusur uygulanmamış")
 
     if tur in GORUNMELI and ay:
-        deger = str(ay.get(GORUNMELI[tur]) or "")
-        if deger and deger not in n:
+        deger = re.sub(r"\s+", "", str(ay.get(GORUNMELI[tur]) or ""))
+        if deger and deger not in sikisik_metin:
             sorunlar.append(f"{tur}: enjekte edilen değer görünmüyor "
                             f"({deger[:44]})")
 
@@ -116,13 +118,27 @@ def denetle(e: dict, metin: str) -> list[str]:
                             f"({yanlis})")
 
     # --- kusursuz belgede alanlar yerinde mi -------------------------------
-    if not tur:
-        if e.get("sayi") and e["sayi"] not in n:
+    #
+    # YALNIZCA KURUM YAZISINDA. Dilekçede başlık bloğu, SAYI ve KONU
+    # satırı YOKTUR (belge_sablonu.json). Etikette konu vardır — o cevap
+    # anahtarıdır — ama belgeye basılmaz. Doğrulayıcı bunu bilmediği için
+    # 81 dilekçede yanlış alarm veriyordu.
+    if not tur and e.get("yazan_tipi") == "kurum":
+        # BOŞLUK DUYARSIZ karşılaştırma. pypdf uzun sayıyı çıkarırken
+        # araya boşluk koyabiliyor:
+        #   belgede : E-18426575-115.02.01-4471829
+        #   çıkarım : E-18426575- 115.02.01-4471829
+        sikisik = re.sub(r"\s+", "", metin)
+        if e.get("sayi") and re.sub(r"\s+", "", e["sayi"]) not in sikisik:
             sorunlar.append("kusursuz ama SAYI görünmüyor")
-        if e.get("tarih") and e["tarih"] not in n:
+        if e.get("tarih") and re.sub(r"\s+", "", e["tarih"]) not in sikisik:
             sorunlar.append("kusursuz ama TARİH görünmüyor")
-        if e.get("konu") and e["konu"][:24] not in n:
-            sorunlar.append("kusursuz ama KONU görünmüyor")
+        # KONU SATIRI aranır, konu DEĞERİ değil. Değer gövdede de geçer
+        # ("İmar Durum Belgesi Talebi konusunda...") ve silinmiş bir konu
+        # satırı fark edilmezdi — test edildi, kaçıyordu.
+        if e.get("konu") and "Konu" not in [x.strip() for x in
+                                            metin.split("\n")]:
+            sorunlar.append("kusursuz ama KONU SATIRI yok")
 
     return sorunlar
 

@@ -85,5 +85,11 @@
     "uygulamanın ilgililere duyurulması",
     "01.05.2026 tarihinde yürürlüğe girmiştir",
     "geçici koruma statüsündeki başvurular"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi",
+    "dogru_deger": "E-10213773-858-14915894",
+    "enjekte_edilen": "",
+    "kusur": "sayi_eksik"
+  }
 }

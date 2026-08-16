@@ -85,5 +85,11 @@
   "anahtar_terimler": [
     "İzin Dönüşü Kayıt Yenileme",
     "ilgide kayıtlı talep"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "konu",
+    "dogru_deger": "İzin Dönüşü Kayıt Yenileme",
+    "enjekte_edilen": "",
+    "kusur": "konu_eksik"
+  }
 }

@@ -79,5 +79,12 @@
   "anahtar_terimler": [
     "Burs Kesilmesi",
     "ilgide kayıtlı başvuru"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ilgi_tarihi",
+    "dogru_deger": "06.01.2026",
+    "enjekte_edilen": "07.02.2026",
+    "belge_tarihi": "09.01.2026",
+    "kusur": "tarih_tutarsiz"
+  }
 }

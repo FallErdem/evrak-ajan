@@ -57,5 +57,11 @@
   ],
   "anahtar_terimler": [
     "Tercüman Desteği"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ek_sayfa",
+    "dogru_deger": 2,
+    "enjekte_edilen": 3,
+    "kusur": "ek_beyani_yanlis"
+  }
 }

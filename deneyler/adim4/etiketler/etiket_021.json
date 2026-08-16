@@ -60,5 +60,11 @@
   "anahtar_terimler": [
     "Suret Onay Ücreti",
     "sorunun giderilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "tarih",
+    "dogru_deger": "04.03.2026",
+    "enjekte_edilen": "",
+    "kusur": "tarih_eksik"
+  }
 }

@@ -95,5 +95,12 @@
     "01.01.2026 tarihinde yürürlüğe girmiştir",
     "geçici koruma statüsündeki başvurular",
     "onay süreci iki aşamalı yürütülecektir"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ilgi_tarihi",
+    "dogru_deger": "22.01.2026",
+    "enjekte_edilen": "10.03.2026",
+    "belge_tarihi": "11.02.2026",
+    "kusur": "tarih_tutarsiz"
+  }
 }

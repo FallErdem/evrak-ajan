@@ -58,5 +58,11 @@
     "Ruhsat Yenileme",
     "84912 ada",
     "32 parsel"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "muhatap",
+    "dogru_deger": "Yenimahalle Belediye Başkanlığı",
+    "enjekte_edilen": "İLGİLİ MAKAMA",
+    "kusur": "muhatap_belirsiz"
+  }
 }

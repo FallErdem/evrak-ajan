@@ -59,5 +59,11 @@
   "anahtar_terimler": [
     "Uygulama Öğrencisi Yerleştirme",
     "Uygulama Öğrencisi Yerleştirme kapsamında öğrenci kabul edilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "konu",
+    "dogru_deger": "Uygulama Öğrencisi Yerleştirme Talebi",
+    "enjekte_edilen": "",
+    "kusur": "konu_eksik"
+  }
 }

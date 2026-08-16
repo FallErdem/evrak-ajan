@@ -98,5 +98,13 @@
     "Liste ve takvim",
     "dağıtım cetveli",
     "eklerin bağlı birimlere iletilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi_sdp_kodu",
+    "dogru_deger": "E-24316060-160.01.02-66423507",
+    "enjekte_edilen": "E-24316060-858-66423507",
+    "dogru_kod": "160.01.02",
+    "enjekte_edilen_kod": "858",
+    "kusur": "sdp_uyumsuz"
+  }
 }

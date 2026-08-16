@@ -94,5 +94,12 @@
     "esasların personele tebliğ edilmesi",
     "15.01.2026 tarihinde yürürlüğe girmiştir",
     "yargı sürecinde bulunan dosyalar"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ilgi_tarihi",
+    "dogru_deger": "27.03.2026",
+    "enjekte_edilen": "12.05.2026",
+    "belge_tarihi": "17.04.2026",
+    "kusur": "tarih_tutarsiz"
+  }
 }

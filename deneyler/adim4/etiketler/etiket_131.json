@@ -54,5 +54,11 @@
   ],
   "anahtar_terimler": [
     "Arşiv Belgesi Araştırma"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "tarih",
+    "dogru_deger": "14.05.2026",
+    "enjekte_edilen": "",
+    "kusur": "tarih_eksik"
+  }
 }

@@ -53,5 +53,11 @@
   ],
   "anahtar_terimler": [
     "Yurtdışı Öğrenim Denklik"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "imza",
+    "dogru_deger": "imza bloğu",
+    "enjekte_edilen": "",
+    "kusur": "imza_eksik"
+  }
 }

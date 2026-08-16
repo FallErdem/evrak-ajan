@@ -80,5 +80,12 @@
   "anahtar_terimler": [
     "Mazeret Sınavı Takvimi",
     "ilgide kayıtlı talep"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ilgi_tarihi",
+    "dogru_deger": "10.04.2026",
+    "enjekte_edilen": "03.07.2026",
+    "belge_tarihi": "21.05.2026",
+    "kusur": "tarih_tutarsiz"
+  }
 }

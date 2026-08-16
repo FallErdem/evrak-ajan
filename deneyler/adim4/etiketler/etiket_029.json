@@ -62,5 +62,11 @@
   "anahtar_terimler": [
     "Hukuki Görüş",
     "Hukuki Görüş konusunda görüş bildirilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi",
+    "dogru_deger": "E-65859045-045.02-2759431",
+    "enjekte_edilen": "",
+    "kusur": "sayi_eksik"
+  }
 }

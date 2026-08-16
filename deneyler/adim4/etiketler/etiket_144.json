@@ -53,5 +53,11 @@
   ],
   "anahtar_terimler": [
     "Bağış Makbuzu"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "tarih",
+    "dogru_deger": "27.05.2026",
+    "enjekte_edilen": "",
+    "kusur": "tarih_eksik"
+  }
 }

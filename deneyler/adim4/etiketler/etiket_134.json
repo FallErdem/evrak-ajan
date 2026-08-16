@@ -85,5 +85,11 @@
     "01.04.2026 tarihinde yürürlüğe girmiştir",
     "sözleşmesi devam eden yükleniciler",
     "onay süreci iki aşamalı yürütülecektir"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "konu",
+    "dogru_deger": "Ödenek Aktarma Talebi",
+    "enjekte_edilen": "",
+    "kusur": "konu_eksik"
+  }
 }

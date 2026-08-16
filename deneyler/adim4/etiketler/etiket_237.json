@@ -53,5 +53,11 @@
   ],
   "anahtar_terimler": [
     "Güzergâh Değişikliği"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "muhatap",
+    "dogru_deger": "Yenimahalle Kaymakamlığı",
+    "enjekte_edilen": "İLGİLİ MAKAMA",
+    "kusur": "muhatap_belirsiz"
+  }
 }

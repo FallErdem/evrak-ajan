@@ -50,26 +50,41 @@ from reportlab.pdfgen import canvas as rl_canvas
 # reportlab'ın gömülü Times-Roman'ı Türkçe karakterleri DESTEKLEMİYOR.
 # Üç aday sınandı, üçünde de ĞÜŞİÖÇ ğüşıöç âîû eksiksiz:
 #
-#   LiberationSerif  -> Times New Roman ile METRİK UYUMLU. Norma en yakın.
+#   Times New Roman  -> NORMUN KENDİSİ. Windows'ta hazır kurulu gelir;
+#                       reportlab'ın gömülü sürümü değil, sistemdeki
+#                       .ttf dosyası kullanılınca Türkçe sorunu yok.
+#   LiberationSerif  -> Times ile METRİK UYUMLU açık kaynak karşılık
 #   DejaVuSerif      -> serif ama TNR'den geniş
 #   Vera             -> sans-serif, reportlab ile GÖMÜLÜ gelir
 #
-# Sıra: önce LiberationSerif (çoğu Linux'ta var), sonra DejaVuSerif,
-# son çare Vera. Vera her ortamda çalışır çünkü reportlab ile birlikte
-# gelir — Windows'ta da.
+# Sıra yukarıdan aşağı denenir. Vera her ortamda çalışır çünkü reportlab
+# ile birlikte gelir.
 
 _RL_FONT = Path(reportlab.__file__).parent / "fonts"
 
+# Aday yollar hem LINUX hem WINDOWS için. Aynı font farklı yerlerde
+# durabiliyor; bulunan ilki kullanılır.
+_WIN_FONT = Path("C:/Windows/Fonts")
+
 _FONT_ADAYLARI = [
+    # Times New Roman — Windows'ta zaten var, norma en yakın (m.7/1)
+    ("TimesNewRoman",
+     str(_WIN_FONT / "times.ttf"), str(_WIN_FONT / "timesbd.ttf")),
+    # Times ile metrik uyumlu açık kaynak karşılık
     ("LiberationSerif",
      "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf",
      "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"),
+    ("LiberationSerif",
+     str(_WIN_FONT / "LiberationSerif-Regular.ttf"),
+     str(_WIN_FONT / "LiberationSerif-Bold.ttf")),
     ("DejaVuSerif",
      "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
      "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"),
-    ("Vera",
-     str(_RL_FONT / "Vera.ttf"),
-     str(_RL_FONT / "VeraBd.ttf")),
+    ("DejaVuSerif",
+     str(_WIN_FONT / "DejaVuSerif.ttf"),
+     str(_WIN_FONT / "DejaVuSerif-Bold.ttf")),
+    # Son çare: reportlab ile GÖMÜLÜ gelir, her ortamda çalışır
+    ("Vera", str(_RL_FONT / "Vera.ttf"), str(_RL_FONT / "VeraBd.ttf")),
 ]
 
 NORMAL, KALIN = "BelgeNormal", "BelgeKalin"
@@ -617,7 +632,7 @@ def kurum_yazisi_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
     c.drawString(DEGER_X, y, sayi_metni)
     # m.12/1: tarih sayı ile AYNI SATIRDA, yazı alanının en sağında
     if not kusur.var_mi("tarih_eksik"):
-        c.drawRightString(SOL + YAZI_G, y, e["tarih"])
+        c.drawRightString(SOL + YAZI_G, y, e.get("tarih") or "")
     y -= SATIR
 
     # --- konu ---------------------------------------------------------------
@@ -625,14 +640,15 @@ def kurum_yazisi_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
     if not kusur.var_mi("konu_eksik"):
         c.drawString(SOL, y, "Konu")
         c.drawString(IKI_NOKTA_X, y, ":")
-        y = _yaz_sarmali(c, e["konu"], DEGER_X, y, KONU_AZAMI_G)
+        y = _yaz_sarmali(c, e.get("konu") or "", DEGER_X, y, KONU_AZAMI_G)
 
     # --- ilgi ---------------------------------------------------------------
     if e.get("ilgi"):
         tarih = e["ilgi"]["tarih"]
         if kusur.var_mi("tarih_tutarsiz") and kusur.ayrinti:
             tarih = kusur.ayrinti.get("enjekte_edilen", tarih)
-        metin = f"{tarih} tarihli ve {e['ilgi']['sayi']} sayılı yazı."
+        metin = (f"{tarih} tarihli ve "
+                 f"{e['ilgi'].get('sayi') or ''} sayılı yazı.")
         c.setFont(NORMAL, PUNTO)
         c.drawString(SOL, y, "İlgi")
         c.drawString(IKI_NOKTA_X, y, ":")
@@ -671,7 +687,8 @@ def kurum_yazisi_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
         # unvan satırlarının merkezleri 1 mm içinde çakışıyor.
         y -= 3 * SATIR
         c.setFont(NORMAL, PUNTO)
-        c.drawCentredString(IMZA_MERKEZ_X, y, e.get("imzalayan_ad", "Ad SOYAD"))
+        c.drawCentredString(IMZA_MERKEZ_X, y,
+                            e.get("imzalayan_ad") or "Ad SOYAD")
         y -= SATIR
         unvan = e.get("imzalayan_unvan") or _gonderen_unvani(e)
         # m.17/9: yetki devri ibaresi ("Bakan a.") ikinci satırda
@@ -689,7 +706,8 @@ def kurum_yazisi_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
         if kusur.var_mi("ek_beyani_yanlis") and kusur.ayrinti:
             sayfa = kusur.ayrinti.get("enjekte_edilen", sayfa)
         # m.18/2: adet/sayfa parantez içinde
-        y = _yaz(c, f"Ek: {e['ek']['aciklama']} ({sayfa} sayfa)", SOL, y)
+        y = _yaz(c, f"Ek: {e['ek'].get('aciklama') or 'İlgili belge'} "
+                    f"({sayfa} sayfa)", SOL, y)
 
     # --- dağıtım ------------------------------------------------------------
     if e.get("dagitim"):
@@ -742,7 +760,7 @@ def _dipnot_ciz(c, e: dict) -> None:
     # belediyenin adresi olamaz.
     ile = e.get("gonderen_iletisim") or {}
     y = cizgi_y - SATIR * 0.85
-    adres = ile.get("adres") or e["gonderen"].get("kurum_adi", "")
+    adres = ile.get("adres") or e["gonderen"].get("kurum_adi") or ""
     if adres:
         c.drawString(SOL, y, adres[:88])
         y -= SATIR * 0.85
@@ -784,6 +802,22 @@ def _dipnot_ciz(c, e: dict) -> None:
 # =============================================================================
 # VATANDAŞ DİLEKÇESİ
 # =============================================================================
+
+
+def _yazan_adi(e: dict) -> str:
+    """Dilekçeyi imzalayan kişi/kurum adı.
+
+    ÜÇ GÖNDEREN TİPİ VAR ve alanları farklı:
+        gercek_kisi     -> `ad`
+        ogrenci         -> `ad`
+        ozel_tuzel_kisi -> `ad` YOK, `kurum_adi` var
+
+    Ölçülen çökme: `.get("ad", "")` kullanılıyordu ama anahtar VAR ve
+    değeri None; varsayılan devreye girmiyor ve reportlab None'ı
+    çizmeye çalışıp patlıyordu.
+    """
+    g = e.get("gonderen") or {}
+    return (g.get("ad") or g.get("kurum_adi") or "").strip()
 
 
 def dilekce_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
@@ -841,11 +875,11 @@ def dilekce_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
     # SAĞ SÜTUN — tarih, ad, imza (sağa dayalı)
     sag_y = ust_y
     if not kusur.var_mi("tarih_eksik"):
-        c.drawRightString(sag_kenar, sag_y, e["tarih"])
+        c.drawRightString(sag_kenar, sag_y, e.get("tarih") or "")
         sag_y -= SATIR
     if not kusur.var_mi("imza_eksik"):
         sag_y -= SATIR * 0.4
-        ad = g.get("ad", "")
+        ad = _yazan_adi(e)
         c.drawRightString(sag_kenar, sag_y, ad)
         sag_y -= SATIR
         # "İmza" ADIN ORTASINA hizalanır: blok sağa dayalı ama içindeki
@@ -867,7 +901,7 @@ def dilekce_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
     if g.get("ogrenci_no"):
         c.drawString(D_SOL, sol_y, f"Öğrenci No: {g['ogrenci_no']}")
         sol_y -= SATIR
-    adres = g.get("adres", "")
+    adres = g.get("adres") or ""
     if adres:
         # Adres sağ sütuna taşmamalı
         etiket_g = c.stringWidth("Adres: ", NORMAL, PUNTO)
@@ -893,7 +927,8 @@ def dilekce_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
             adet = kusur.ayrinti.get("enjekte_edilen", adet)
         c.setFillColorRGB(0, 0, 0)
         y = _yaz(c, "EKLER:", D_SOL, y)
-        _yaz(c, f"{adet} Adet {e['ek']['aciklama']}", D_SOL, y)
+        _yaz(c, f"{adet} Adet {e['ek'].get('aciklama') or 'İlgili belge'}",
+             D_SOL, y)
 
 
 # =============================================================================
@@ -923,8 +958,9 @@ def belge_ciz(yol: Path, e: dict, govde: str,
 
     c = rl_canvas.Canvas(str(yol), pagesize=A4)
     c.setTitle(f"Belge {e['belge_no']}")
-    c.setAuthor(e["gonderen"].get("kurum_adi") or e["gonderen"].get("ad", ""))
-    c.setSubject(e.get("konu", ""))
+    c.setAuthor(e["gonderen"].get("kurum_adi")
+                or e["gonderen"].get("ad") or "")
+    c.setSubject(e.get("konu") or "")
 
     if e["yazan_tipi"] == "kurum":
         kurum_yazisi_ciz(c, e, govde, kusur)

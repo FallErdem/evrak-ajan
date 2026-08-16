@@ -85,5 +85,11 @@
   "anahtar_terimler": [
     "Program Açma Başvurusu",
     "ilgide kayıtlı yazı"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "konu",
+    "dogru_deger": "Program Açma Başvurusu Hk.",
+    "enjekte_edilen": "",
+    "kusur": "konu_eksik"
+  }
 }

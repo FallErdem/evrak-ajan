@@ -90,5 +90,11 @@
     "Liste ve takvim",
     "zaman çizelgesi",
     "listenin ilgililere duyurulması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "konu",
+    "dogru_deger": "Kurul Kararının Gönderilmesi",
+    "enjekte_edilen": "",
+    "kusur": "konu_eksik"
+  }
 }

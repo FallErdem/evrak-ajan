@@ -56,5 +56,11 @@
   "anahtar_terimler": [
     "Belge Sureti",
     "gerekli incelemenin yapılması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "tarih",
+    "dogru_deger": "20.01.2026",
+    "enjekte_edilen": "",
+    "kusur": "tarih_eksik"
+  }
 }

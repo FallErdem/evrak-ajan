@@ -85,5 +85,11 @@
   "anahtar_terimler": [
     "Zemin Etüdü Raporunun Gönderilmesi",
     "ilgide kayıtlı talep"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "konu",
+    "dogru_deger": "Zemin Etüdü Raporunun Gönderilmesi",
+    "enjekte_edilen": "",
+    "kusur": "konu_eksik"
+  }
 }

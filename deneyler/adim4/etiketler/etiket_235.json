@@ -60,5 +60,11 @@
   "anahtar_terimler": [
     "Kayıt Dondurma Süresinin Uzatılması",
     "sorunun giderilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "muhatap",
+    "dogru_deger": "Gazi Üniversitesi",
+    "enjekte_edilen": "İLGİLİ MAKAMA",
+    "kusur": "muhatap_belirsiz"
+  }
 }

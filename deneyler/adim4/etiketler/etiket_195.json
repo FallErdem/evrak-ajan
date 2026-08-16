@@ -87,5 +87,13 @@
     "Program Açma Başvurusu konusunda yeni bir uygulama yürürlüğe girmiştir",
     "01.05.2026 tarihinde yürürlüğe girmiştir",
     "geçici koruma statüsündeki başvurular"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi_sdp_kodu",
+    "dogru_deger": "E-32625594-104.01-46505137",
+    "enjekte_edilen": "E-32625594-641.04-46505137",
+    "dogru_kod": "104.01",
+    "enjekte_edilen_kod": "641.04",
+    "kusur": "sdp_uyumsuz"
+  }
 }

@@ -57,5 +57,11 @@
   ],
   "anahtar_terimler": [
     "Topluluk Etkinlik İzni"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "tarih",
+    "dogru_deger": "13.02.2026",
+    "enjekte_edilen": "",
+    "kusur": "tarih_eksik"
+  }
 }

@@ -61,5 +61,11 @@
   "anahtar_terimler": [
     "Yemek Hizmeti",
     "konunun uygun görülmesi hâlinde olur verilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ek_sayfa",
+    "dogru_deger": 1,
+    "enjekte_edilen": 3,
+    "kusur": "ek_beyani_yanlis"
+  }
 }

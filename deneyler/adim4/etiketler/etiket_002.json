@@ -62,5 +62,11 @@
   "anahtar_terimler": [
     "Çalıştay Katılım",
     "Çalıştay Katılım konusunda gerekli koordinasyonun sağlanması"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "sayi",
+    "dogru_deger": "E-55461037-051-1878359",
+    "enjekte_edilen": "",
+    "kusur": "sayi_eksik"
+  }
 }

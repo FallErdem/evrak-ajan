@@ -67,5 +67,12 @@
   "anahtar_terimler": [
     "ilgide kayıtlı yazı",
     "ivedilikle gönderilmesi"
-  ]
+  ],
+  "kusur_ayrinti": {
+    "alan": "ilgi_tarihi",
+    "dogru_deger": "31.03.2026",
+    "enjekte_edilen": "14.05.2026",
+    "belge_tarihi": "07.04.2026",
+    "kusur": "tarih_tutarsiz"
+  }
 }
