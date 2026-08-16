@@ -63,9 +63,9 @@
   "kusur_ayrinti": {
     "alan": "sayi_sdp_kodu",
     "dogru_deger": "E-32625594-302.01-46595175",
-    "enjekte_edilen": "E-32625594-934.01-46595175",
+    "enjekte_edilen": "E-32625594-209-46595175",
     "dogru_kod": "302.01",
-    "enjekte_edilen_kod": "934.01",
+    "enjekte_edilen_kod": "209",
     "kusur": "sdp_uyumsuz"
   }
 }

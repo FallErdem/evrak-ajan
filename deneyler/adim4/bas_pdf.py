@@ -67,6 +67,9 @@ HEDEF_TEMIZ = BURASI / "belgeler_pdf_temiz"
 KURUMLAR = DEPO_KOKU / "veri" / "kurumlar"
 
 # Bu adımda uygulanan kusurlar. Diğerleri 4.5'te (gövde) ve 5b'de (görüntü).
+SDP_KODLARI: list = []
+KARA_LISTE: dict = {}
+
 BU_ADIM = ("sayi_eksik", "tarih_eksik", "konu_eksik", "imza_eksik",
            "muhatap_belirsiz", "ek_beyani_yanlis", "sdp_uyumsuz",
            "tarih_tutarsiz")
@@ -111,12 +114,144 @@ def _bilgi_icin(belge_no: str) -> str:
 # Her kusur için `kusur_ayrinti` üretilir: doğru değer ve enjekte edilen
 # değer birlikte kaydedilir.
 
-# SDP uyumsuzluğu için kullanılacak alakasız kodlar. Belgenin gerçek
-# konusuyla ilgisi olmayan, ama var olan kodlar seçilir — uydurma bir kod
-# "geçersiz kod" kusuruyla karışırdı, oysa ölçmek istediğimiz
-# "kod konuyla uyumsuz" durumu.
-_ALAKASIZ_KODLAR = ["934.01", "801", "841.01", "903.02", "602.07",
-                    "641.04", "755.02", "175", "125", "858"]
+# =============================================================================
+# SDP UYUMSUZLUĞU — HAVUZ SEÇİMİ
+# =============================================================================
+# İlk sürümde 10 kodluk SABİT bir liste vardı. Dış denetim iki ciddi
+# sorun buldu:
+#
+# 1. KURUMLAR ARASI ANLAM ÇAKIŞMASI (kritik)
+#    Standart Dosya Planı üç banda ayrılır:
+#        000-099  genel konular          -> her kurumda AYNI
+#        100-599  ana hizmet faaliyetleri -> her kurumda FARKLI
+#        600-999  yardımcı hizmetler      -> her kurumda AYNI
+#
+#    Sabit listedeki 125 belediyede "Evlendirme İşlemleri", MEB planında
+#    "Sınav Komisyonları". Bir İl MEM belgesine 125 enjekte edilir ve
+#    konu sınavla ilgiliyse KOD DOĞRU OLUR — etiket "kusurlu" der, sistem
+#    doğru cevap verir, biz hata sayarız.
+#
+#    75 kuruma özel kodun 32'sinde bu risk var
+#    (`sdp_kurumlar_arasi_anlam_cakismasi.csv`).
+#
+#    ÇÖZÜM: enjeksiyon havuzu yalnızca ORTAK kodlar ve BELGENİN KENDİ
+#    KURUMUNUN kodlarından oluşur. Başka kurumun kodu asla enjekte
+#    edilmez.
+#
+# 2. ATA-ALT İLİŞKİSİ
+#    Gerçek kod 934.01.02 iken 934.01 enjekte edilirse string farklıdır
+#    ama SEMANTİK OLARAK DOĞRUDUR — sadece daha genel. Önek kontrolü şart.
+#
+# 3. KELİME ÇAKIŞMASI
+#    Bazı kodlar belirli konularla örtüşüyor. `sdp_enjeksiyon_havuzu.csv`
+#    her kod-kurum çifti için hangi konularla çarpıştığını listeliyor;
+#    çarpışan konudaki belgeye o kod enjekte edilmez.
+
+TAKSONOMI = DEPO_KOKU / "veri" / "taksonomi"
+
+
+def _sdp_havuzu() -> tuple[list[dict], dict]:
+    """Enjeksiyon havuzu ve çarpışma kara listesi.
+
+    Dönen: (kodlar, kara_liste)
+        kodlar     : sdp_kodlari.csv satırları
+        kara_liste : (kurum, kod) -> çarpışan konu başlıkları kümesi
+    """
+    import csv as _csv
+
+    kod_yolu = TAKSONOMI / "sdp_kodlari.csv"
+    if not kod_yolu.exists():
+        raise SystemExit(f"HATA: {kod_yolu} yok.")
+    kodlar = list(_csv.DictReader(kod_yolu.open(encoding="utf-8")))
+
+    kara: dict[tuple[str, str], set[str]] = {}
+    havuz_yolu = TAKSONOMI / "sdp_enjeksiyon_havuzu.csv"
+    if havuz_yolu.exists():
+        for r in _csv.DictReader(havuz_yolu.open(encoding="utf-8")):
+            konular = set()
+            for parca in (r.get("carpisan_konular") or "").split("|"):
+                if "::" in parca:
+                    konular.add(parca.split("::", 1)[1].strip())
+            if konular:
+                kara[(r["kurum"], r["kod"])] = konular
+    return kodlar, kara
+
+
+# GENEL AMAÇLI KODLAR — enjekte edilmez.
+#
+# Bu kodlar hemen hemen her konuya "aslında bu da olurdu" dedirtir:
+#   010    Mevzuat İşleri     -> her konu bir GENELGE olabilir
+#   050    Kurul/Komisyon     -> her konu bir KOMİSYON KARARI olabilir
+#   622    Bilgi Edinme/Talep -> her vatandaş başvurusu buraya girebilir
+#   805    Arşiv İşleri       -> "imha, bertaraf, ayıklama" pek çok konuyla
+#                                kelime düzeyinde örtüşür
+#
+# Ölçülen örnek: "Tıbbi Atık Bertarafı Hk." belgesine 805 enjekte edildi.
+# 805.02 = Ayıklama ve İmha. Kelime örtüşmesi var, kusur tartışmalı.
+_GENEL_AMACLI = {"010", "050", "622", "805"}
+
+
+def _yaprak_mi(kod: str, tum_kodlar: set[str]) -> bool:
+    """Kod bir GRUP DÜĞÜMÜ mü, yoksa yaprak mı.
+
+    Gerçek belgelerde yaprak kod kullanılır: 190.01.07 (Emlak Vergisi),
+    190 (Vergi ve Harç İşleri) değil. Grup düğümü enjekte edilirse kusur
+    "kod konuyla uyumsuz" değil "kod geçersiz düzeyde" olur — farklı bir
+    kusur sınıfı, sistem ikisini ayırt edemez.
+    """
+    return not any(k.startswith(kod + ".") for k in tum_kodlar)
+
+
+def _ata_alt_mi(a: str, b: str) -> bool:
+    """İki kod ata-alt ilişkisinde mi (biri diğerinin öneki mi)."""
+    return a == b or a.startswith(b + ".") or b.startswith(a + ".")
+
+
+def enjekte_edilecek_kod(e: dict, kodlar: list[dict],
+                         kara: dict) -> str | None:
+    """Belgeye enjekte edilecek uyumsuz SDP kodunu seçer.
+
+    Yedi kısıt:
+      1. Kod belgenin kurumunda GEÇERLİ olmalı (ortak veya kendi kurumu)
+      2. Gerçek kodla ata-alt ilişkisi OLMAMALI
+      3. Farklı ANA GRUP olmalı
+      4. GENEL AMAÇLI kod olmamalı (010, 050, 622, 805)
+      5. YAPRAK kod olmalı — grup düğümü değil
+      6. Belgenin konusuyla çarpışmamalı (kara liste)
+      7. RASTGELE seçilmeli — sabit sıra, kusur sinyalini tek bir
+         string'e indirger ve sistem "şu kodu görürsen kusurlu de"
+         kısayolunu öğrenebilir
+    """
+    kurum = e["alici"]["kurum_tipi"]
+    dogru = e["sdp"]["kod"]
+    dogru_ana = dogru.split(".")[0]
+    konu = (e.get("konu") or "").strip()
+    tum = {k["kod"] for k in kodlar}
+
+    havuz = []
+    for k in kodlar:
+        kod = k["kod"]
+        if k["kurum_tipi"] not in ("hepsi", kurum):
+            continue                                   # 1
+        if _ata_alt_mi(kod, dogru):
+            continue                                   # 2
+        if k["ana_grup"] == dogru_ana:
+            continue                                   # 3
+        if kod.split(".")[0] in _GENEL_AMACLI:
+            continue                                   # 4
+        if not _yaprak_mi(kod, tum):
+            continue                                   # 5
+        carpisan = kara.get((kurum, kod))
+        if carpisan and any(konu.startswith(c[:20]) or c.startswith(konu[:20])
+                            for c in carpisan):
+            continue                                   # 6
+        havuz.append(kod)
+
+    if not havuz:
+        return None
+    # 7 — belge numarasından tohumlanır: rastgele ama TEKRARLANABİLİR
+    import random as _random
+    return _random.Random(int(e["belge_no"]) * 7919).choice(havuz)
 
 
 def _tarih_kaydir(tarih_metni: str, gun: int) -> str:
@@ -125,7 +260,8 @@ def _tarih_kaydir(tarih_metni: str, gun: int) -> str:
     return (t + timedelta(days=gun)).strftime("%d.%m.%Y")
 
 
-def alan_kusuru_kur(e: dict) -> tuple[Kusur, dict | None]:
+def alan_kusuru_kur(e: dict, kodlar: list[dict],
+                    kara: dict) -> tuple[Kusur, dict | None]:
     """Etiketteki kusura göre Kusur nesnesi ve ayrıntı sözlüğü üretir.
 
     Bazı kusurlar etiketin kendisini de değiştirir (sdp_uyumsuz sayıyı
@@ -171,9 +307,9 @@ def alan_kusuru_kur(e: dict) -> tuple[Kusur, dict | None]:
         # anahtarıdır; belgede görünen kod yanlıştır.
         dogru_sayi = e.get("sayi") or ""
         dogru_kod = e["sdp"]["kod"]
-        yanlis_kod = next(
-            k for k in _ALAKASIZ_KODLAR[no % len(_ALAKASIZ_KODLAR):]
-            + _ALAKASIZ_KODLAR if k != dogru_kod)
+        yanlis_kod = enjekte_edilecek_kod(e, kodlar, kara)
+        if not yanlis_kod:
+            return Kusur(), None
         yanlis_sayi = dogru_sayi.replace(f"-{dogru_kod}-", f"-{yanlis_kod}-")
         if yanlis_sayi == dogru_sayi:
             # Kod sayıda bulunamadı — enjeksiyon uygulanamaz
@@ -233,6 +369,8 @@ def main() -> int:
         yollar = [y for y in yollar if y.stem.split("_")[-1] in istenen]
 
     KJ = kurum_jsonlari()
+    global SDP_KODLARI, KARA_LISTE
+    SDP_KODLARI, KARA_LISTE = _sdp_havuzu()
 
     print(f"Etiket   : {len(yollar)} adet")
     print(f"Bu adim  : {len(BU_ADIM)} alan kusuru")
@@ -272,7 +410,7 @@ def main() -> int:
         govde = govde_yolu.read_text(encoding="utf-8")
 
         # --- alan kusuru ----------------------------------------------------
-        kusur, ayrinti = alan_kusuru_kur(e)
+        kusur, ayrinti = alan_kusuru_kur(e, SDP_KODLARI, KARA_LISTE)
         if tur in BU_ADIM and ayrinti is None:
             atlanan.append((no, f"{tur}: uygulanacak yer bulunamadi"))
             continue

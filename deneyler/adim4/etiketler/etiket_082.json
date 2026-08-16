@@ -98,9 +98,9 @@
   "kusur_ayrinti": {
     "alan": "sayi_sdp_kodu",
     "dogru_deger": "E-24304062-155.01-57640878",
-    "enjekte_edilen": "E-24304062-841.01-57640878",
+    "enjekte_edilen": "E-24304062-045.02-57640878",
     "dogru_kod": "155.01",
-    "enjekte_edilen_kod": "841.01",
+    "enjekte_edilen_kod": "045.02",
     "kusur": "sdp_uyumsuz"
   }
 }

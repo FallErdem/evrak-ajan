@@ -65,9 +65,9 @@
   "kusur_ayrinti": {
     "alan": "sayi_sdp_kodu",
     "dogru_deger": "E-65859045-773-2707575",
-    "enjekte_edilen": "E-65859045-755.02-2707575",
+    "enjekte_edilen": "E-65859045-903.02-2707575",
     "dogru_kod": "773",
-    "enjekte_edilen_kod": "755.02",
+    "enjekte_edilen_kod": "903.02",
     "kusur": "sdp_uyumsuz"
   }
 }

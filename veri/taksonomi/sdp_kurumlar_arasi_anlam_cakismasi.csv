@@ -1,0 +1,36 @@
+kod,csv_adi,csv_sahibi,diger_plan,diger_plandaki_adi
+105,Meclis İşleri,belediye,yok,Ders Programları
+105,Meclis İşleri,belediye,meb,"Okul, Kurum Açma, Kapatma, Devir, Ad Verme İşleri"
+105.04,Meclis Kararları,belediye,meb,Pansiyon Açma/Kapatma/Kapasite Belirleme İşlemleri
+110,Encümen İşleri,belediye,meb,Kontenjanların Belirlenmesi
+110.04,Encümen Kararları,belediye,meb,Yatılı Öğrenci
+115,İmar ve Şehircilik İşleri,belediye,meb,Yazılı ve Görsel Eğitim Materyali (Modül)/Ders Kitapları
+115.01,Planlama ve Uygulama,belediye,meb,Yazılı ve Görsel Eğitim Materyali (Modül)
+115.02,Yapı İşleri,belediye,meb,Temel Ders Kitapları
+120,Kültürel ve Sosyal İşler,belediye,meb,Ders Planları
+120.02,Engellilere Yönelik Hizmetler,belediye,meb,Günlük Plan
+125,Evlendirme İşlemleri,belediye,meb,Sınav Komisyonları/Sınavlar
+155,Çevre Koruma ve Kontrol İşleri,belediye,meb,Yurt Dışı Eğitim-Öğretim İşleri
+155.01,Atık Yönetimi,belediye,meb,TCS (Türk Cumhuriyetleri Sınavı) İşleri
+170,İşyeri Açma ve Çalışma Ruhsatı İşlemleri,belediye,meb,Yerel Yönetimlerdeki Eğitimle İlgili  Kararlar
+170.01,Ruhsat,belediye,meb,İdare Meclisi
+175,Ölçü ve Ölçü Aletleri ile İlgili İşler,belediye,meb,Meslek Standartları ve Tanımları
+190,"Gelir (Tarh, Tahakkuk ve Tahsilat) İşleri",belediye,meb,İzleme ve Değerlendirme İşleri
+102,Tanıma ve Denklik İşleri,universite,meb,Eğitim-Öğretim Yılı Çalışma Takvimi
+310,Öğrenci Değişim Programları,universite,meb,"Müsamereler, Yarışmalar"
+135,Eğitim Kurumlarında Açılan Kurslar,il_mudurlugu,belediye,Cenaze Hizmetleri
+135.03,Yaygın Eğitim Kursları,il_mudurlugu,belediye,Morg Hizmetleri
+140,Taşımalı Eğitim,il_mudurlugu,belediye,Hayvan Sağlığı ve Veterinerlik İşleri
+160,"Özel Eğitim, Rehberlik ve Danışma Hizmetleri",il_mudurlugu,belediye,Yapım ve Bakım Onarım İşleri
+160.01,Özel Eğitim Hizmetleri,il_mudurlugu,belediye,Çalışma Programları
+160.02,Rehberlik ve Danışma Hizmetleri,il_mudurlugu,belediye,Yapım
+165,Eğitime Yardımcı Dernek ve Kurumlar,il_mudurlugu,belediye,Zabıta İş ve İşlemleri
+165.01,Okul Aile Birlikleri,il_mudurlugu,belediye,Çalışma Programları
+205,Kayıt-Kabul,il_mudurlugu,yok,Akademik Denklik İşleri
+210,Nakil ve Geçişler,il_mudurlugu,belediye,Ulaşım İşleri
+210,Nakil ve Geçişler,il_mudurlugu,yok,Yabancı Uyruklu Akademik Personel İstihdamı
+210.01,Nakiller,il_mudurlugu,belediye,Ulaşım Ana Planı
+210.01,Nakiller,il_mudurlugu,yok,Çalışma İzni Verilmesi
+215,Denklik İşleri,il_mudurlugu,yok,Mecburi Hizmet Devri
+225,Ödül ve Disiplin İşleri,il_mudurlugu,belediye,Doğalgaz İşleri
+225.02,Disiplin İşleri,il_mudurlugu,belediye,Tahakkuk ve Tahsilat
