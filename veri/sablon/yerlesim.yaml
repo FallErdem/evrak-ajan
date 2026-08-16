@@ -1,0 +1,415 @@
+# Belge yerleşim ölçüleri
+#
+# NEDEN AYRI DOSYA
+# `rules.yaml` 104 İÇERİK kuralı taşır ve her birinin bir madde dayanağı
+# vardır. Buradaki değerlerin bir kısmının dayanağı YOKTUR — gerçek
+# belgelerden ölçülmüştür. İkisini karıştırmak, jüri "bu ölçü nereden?"
+# diye sorduğunda madde numarası veremeyeceğimiz bir değeri kural gibi
+# göstermek olurdu.
+#
+# Her değerin `kaynak` alanı var:
+#   norm    -> Yönetmelik veya Kılavuz maddesi, madde numarası yazılı
+#   gozlem  -> gerçek belgelerden ölçüldü, norm yok
+#
+# Birim: milimetre (aksi belirtilmedikçe)
+
+meta:
+  surum: "1.0"
+  tarih: "2026-08-13"
+  dayanak_mevzuat:
+    Y: "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik
+        (9/6/2020-2646, RG 31151)"
+    K: "Cumhurbaşkanlığı Resmî Yazışma Kılavuzu (2025)"
+  olcum_notu: "Gözlem değerleri fotoğraftan perspektif düzeltmeyle
+    alındı; mutlak değerlerde ±3 mm hata payı var. docx kaynaklı
+    değerler (twip) tamdır."
+  kod: "src/pdf_render.py — ölçüler orada sabit olarak tanımlı;
+    bu dosya dayanak kaydıdır."
+
+# =============================================================================
+# SAYFA — KURUM YAZISI
+# =============================================================================
+sayfa:
+  boy: A4
+  genislik: 210
+  yukseklik: 297
+
+  ust: { deger: 15, kaynak: norm, madde: "Y m.8/1" }
+  sol: { deger: 15, kaynak: norm, madde: "Y m.8/1" }
+  sag: { deger: 15, kaynak: norm, madde: "Y m.8/1" }
+  alt:
+    deger: 5
+    kaynak: gozlem
+    not: "Yönetmelik alt kenarı DÜZENLEMİYOR. Kılavuz s.10 'azami 0,5 cm
+      bırakılması uygun olur' diyor — tavsiye, kural değil."
+
+  yazi_alani_genislik:
+    deger: 180
+    kaynak: norm
+    madde: "Y m.6/1 + m.8/1 (türetilmiş)"
+  dikey_orta_hiza:
+    deger: 105
+    kaynak: norm
+    madde: "Y m.13/1"
+    not: "Sayfa sol kenarından. Konu metni bu x'i geçemez."
+
+# =============================================================================
+# YAZI TİPİ
+# =============================================================================
+yazi:
+  tip:
+    deger: "Times New Roman 12 veya Arial 11"
+    kaynak: norm
+    madde: "Y m.7/1, K s.9"
+    uygulama: "reportlab'ın gömülü Times-Roman'ı Türkçe DESTEKLEMİYOR.
+      LiberationSerif kullanılıyor: Times New Roman ile METRİK UYUMLU ve
+      Türkçe karakterlerin tamamını taşıyor (ĞÜŞİÖÇ ğüşıöç âîû sınandı).
+      Bulunamazsa sırayla DejaVuSerif, sonra Vera (reportlab ile gömülü
+      gelir, her ortamda çalışır)."
+  punto: { deger: 12, kaynak: norm, madde: "Y m.7/1" }
+  asgari_punto:
+    deger: 9
+    kaynak: norm
+    madde: "Y m.7/1"
+    not: "Yazı alanı sığmazsa 9 puntoya kadar düşülebilir."
+  dipnot_punto:
+    deger: 8
+    kaynak: norm
+    madde: "Y m.7/1"
+    not: "İletişim bilgilerinde 8 puntoya kadar."
+  satir_araligi:
+    deger: 14.6
+    birim: punto
+    kaynak: gozlem
+    not: "NORM YOK. Ne Yönetmelik'te ne Kılavuz'da satır aralığı geçiyor.
+      Gerçek belgelerde ölçülen satır adımı 4,6-5,0 mm (Word'ün TNR 12
+      'tek' aralığı ≈13,8 pt). 13,8 sıkışık durduğu için okunabilirlik
+      adına 14,6'ya çıkarıldı — norm olmadığı için serbest."
+  hizalama: { deger: iki_yana, kaynak: norm, madde: "Y m.16/4" }
+
+# =============================================================================
+# LOGO / AMBLEM
+# =============================================================================
+logo:
+  azami_adet: { deger: 2, kaynak: norm, madde: "Y m.9/1, K s.11" }
+  ust:
+    deger: 5
+    kaynak: norm
+    madde: "K s.11"
+    not: "Logo kullanılırsa üst kenar boşluğu 0,5 cm'e iner; BAŞLIK yine
+      1,5 cm'den başlar — logo başlığı aşağı itmez."
+  sol: { deger: 15, kaynak: norm, madde: "K s.11" }
+  boyut:
+    deger: 20
+    kaynak: gozlem
+    not: "NORM YOK. Gerçek belgelerde 19-22 mm kare ölçüldü."
+  icerik:
+    not: "KURGUSAL ve METİNSİZ. Gerçek kurum logoları telif kapsamında;
+      depoya konamaz. Amblem içine drawString ile harf yazılınca metin
+      çıkarımında ikinci bir 'T.C.' görünüyordu — gerçek bir armada
+      metin katmanı yoktur. Harf yerine geometrik işaret çizilir."
+  sahiplik:
+    not: "Amblem GÖNDERENE aittir. İlk sürümde alıcıya göre seçiliyordu
+      ve bakanlık yazısının üstünde belediye amblemi çıkıyordu."
+
+# =============================================================================
+# BAŞLIK BLOĞU
+# =============================================================================
+baslik:
+  ust: { deger: 15, kaynak: norm, madde: "Y m.8/1 + m.10/2" }
+  azami_satir: { deger: 4, kaynak: norm, madde: "K s.13" }
+  hizalama: { deger: ortalanmis, kaynak: norm, madde: "Y m.10/2" }
+  sonrasi_bosluk:
+    deger: 2
+    birim: satir
+    kaynak: norm
+    madde: "Y m.11/2, K s.10"
+  sahiplik:
+    kaynak: norm
+    madde: "Y m.10"
+    not: "Başlık bloğu GÖNDERENE aittir: 1. satır T.C., 2. satır İDARENİN
+      adı, 3. satır BİRİMİN adı. İlk sürümde alıcıya göre kuruluyordu ve
+      belge kendi kendine gönderilmiş görünüyordu."
+
+# =============================================================================
+# ALANLAR (Sayı, Konu, İlgi)
+# =============================================================================
+alanlar:
+  iki_nokta_hizasi:
+    deger: 11
+    kaynak: gozlem
+    madde_hiza_kurali: "Y m.15/3"
+    not: "HİZA KURALI NORM: 'Sayı', 'Konu' ve 'İlgi' yan başlıklarından
+      sonraki iki nokta AYNI HİZADA yazılır. 11 mm değeri gözlem
+      (yazı alanı solundan)."
+  deger_hizasi:
+    deger: 18
+    kaynak: gozlem
+    not: "Değer metni ve çok satırlı devam satırları buradan başlar."
+  konu_azami_genislik:
+    deger: 72
+    kaynak: norm
+    madde: "Y m.13/1 (türetilmiş: 105 - 18 - 15)"
+  cok_satirli_devam:
+    kaynak: norm
+    madde: "Y m.15/4, m.13/1"
+    not: "Devam satırları yan başlığın altı boş bırakılarak değer
+      sütunundan hizalanır, sola dayanmaz."
+  tarih_konumu:
+    kaynak: norm
+    madde: "Y m.12/1"
+    not: "Tarih sayı ile AYNI SATIRDA, yazı alanının en sağında."
+
+# =============================================================================
+# BOŞLUKLAR (satır cinsinden)
+# =============================================================================
+bosluklar:
+  konu_muhatap: { deger: 2, kaynak: norm, madde: "Y m.14/1, K s.10" }
+  muhatap_ilgi: { deger: 2, kaynak: norm, madde: "Y m.15/2, K s.10" }
+  ilgi_metin: { deger: 1, kaynak: norm, madde: "Y m.16/2, K s.10" }
+  muhatap_metin:
+    deger: 2
+    kaynak: norm
+    madde: "Y m.16/2"
+    not: "İlgi yoksa."
+  metin_imza:
+    deger: 3
+    aralik: [2, 4]
+    kaynak: norm
+    madde: "Y m.17/1"
+    not: "Norm 2-4 satır. 3 güvenli varsayılan."
+  imza_ek:
+    deger: 2
+    kaynak: gozlem
+    madde_ifadesi: "Y m.18/1 'uygun satır boşluğu'"
+    not: "Yönetmelik sayı vermiyor. Gerçek belgelerde 1-5 satır arası."
+
+# =============================================================================
+# İMZA
+# =============================================================================
+imza:
+  merkez_x:
+    deger: 150
+    kaynak: gozlem
+    madde_kurali: "Y m.17/1"
+    not: "KURAL NORM: 'yazı alanının en sağında ORTALANARAK'. Bu, blok
+      sağ yarıya yerleşir ve satırlar BLOĞUN İÇİNDE ortalanır demektir —
+      sağa dayalı DEĞİL. Gerçek belgelerde ad ve unvan satırlarının
+      merkezleri 1 mm içinde çakışıyor (154,0 ve 154,1 mm ölçüldü).
+      150 mm temiz uygulama: yazı alanının sağ yarısının ortası."
+  islak_imza_boslugu:
+    deger: 0
+    kaynak: norm
+    madde: "Y m.17/3, m.17/6"
+    not: "E-imzalı belgede ad-soyadın ÜZERİNDE hiçbir boşluk, ibare veya
+      imza alanı bulunmaz."
+  sahiplik:
+    not: "İmza GÖNDERENE aittir. İlk sürümde alıcının imza unvanı
+      kullanılıyordu ve bakanlık yazısının altına 'Müdür' yazıyordu."
+  yetki_devri:
+    kaynak: norm
+    madde: "Y m.17/9"
+    not: "'Bakan a.' gibi yetki devri ibaresi ikinci satırda."
+
+# =============================================================================
+# EK VE DAĞITIM
+# =============================================================================
+ek:
+  baslik:
+    deger: "Ek:"
+    kaynak: norm
+    madde: "Y m.18/1"
+    not: "'EKLER:' resmî yazı biçimi DEĞİLDİR — dilekçe işaretidir."
+  konum: { deger: sol, kaynak: norm, madde: "Y m.18/1" }
+  aciklama_bicimi:
+    deger: parantez
+    kaynak: norm
+    madde: "Y m.18/2"
+    not: "Sayfa/adet parantez içinde: 'Ek: İlgi Yazı (5 Sayfa)'"
+
+# =============================================================================
+# DİPNOT (iletişim bilgileri)
+# =============================================================================
+dipnot:
+  cizgi_alttan:
+    deger: 33
+    kaynak: gozlem
+    not: "NORM YOK. Yönetmelik yalnızca 'sayfa sonuna yazılır' diyor.
+      Gerçek belgelerde ayırıcı çizgi alt kenardan 32-34 mm ölçüldü."
+  cizgi_zorunlu:
+    deger: true
+    kaynak: norm
+    madde: "Y m.23/1"
+    not: "'İletişim bilgilerinin üst sınırı bir çizgi ile ayrılır.'"
+  cizgi_genislik: { deger: 180, kaynak: norm, not: "Yazı alanı genişliğince." }
+  cizgi_ustu:
+    kaynak: norm
+    madde: "K s.79"
+    yapi:
+      - "1. satır ORTALANMIŞ: 'Bu belge, güvenli elektronik imza ile
+         imzalanmıştır.'"
+      - "2. satır SOLDA: Belge Doğrulama Kodu — SAĞDA: Belge Takip Adresi"
+  cizgi_alti:
+    kaynak: norm
+    madde: "K s.79"
+    yapi:
+      - "SOLDA: adres, telefon, faks, e-posta, KEP"
+      - "SAĞDA: 'Bilgi için: ad-soyad, unvan, telefon'"
+  sahiplik:
+    not: "İletişim bilgisi GÖNDERENE aittir. İlk sürümde alıcının adresi
+      basılıyordu."
+  sayfa_numarasi:
+    konum: "iletişim bilgilerinin ALTINDA ve sayfa ORTASINDA"
+    bicim: "1/1"
+    kaynak: norm
+    madde: "Y m.27/1"
+
+# =============================================================================
+# KAREKOD (QR)
+# =============================================================================
+karekod:
+  konum:
+    deger: "iletişim bilgileri alanının en sağı"
+    kaynak: norm
+    madde: "Y m.24/1"
+  boyut:
+    deger: 13
+    kaynak: gozlem
+    not: "NORM YOK. Gerçek belgelerde 12-14 mm kare ölçüldü."
+  icerik:
+    kaynak: norm
+    madde: "Y m.24/1"
+    alanlar: [idare, belge_sayisi, dogrulama_adresi, dogrulama_kodu]
+
+# =============================================================================
+# GÖVDE
+# =============================================================================
+govde:
+  paragraf_girintisi:
+    deger: 12.5
+    kaynak: norm
+    madde: "Y m.16/4, K s.34"
+    not: "Gerçek belgede 12,4 mm ölçüldü — birebir tutuyor."
+  paragraf_arasi_bosluk:
+    deger: 0
+    kaynak: norm
+    madde: "Y m.16/4"
+    not: "NORM: paragraflar arasında satır boşluğu BIRAKILMAZ; ayrım
+      yalnızca girintiyle yapılır."
+  hizalama_uygulamasi:
+    not: "İki yana hizalama setWordSpace ile yapılır. Kelime kelime
+      drawString denendi ve METİN ÇIKARIMINI BOZDU: her kelime ayrı bir
+      metin nesnesi olduğu için pypdf ve Docling her kelimeyi ayrı satır
+      okuyor. setWordSpace canvas durumunu değiştirdiği için
+      saveState/restoreState ile sınırlandırıldı — yoksa imza ve
+      dipnotta da kelime araları genişliyor."
+
+# =============================================================================
+# DİLEKÇE
+# =============================================================================
+# ÖNEMLİ ÇERÇEVE: Resmî Yazışma Yönetmeliği DİLEKÇEYİ KAPSAMAZ.
+# Vatandaş dilekçesinin tek bağlayıcı normu 3071 sayılı Kanun m.4'tür ve
+# o da yalnızca İÇERİK zorunluluğu koyar, biçim/ölçü koymaz.
+dilekce:
+  kenar_bosluklari:
+    ust: 20
+    sol: 25
+    sag: 25
+    alt: 25
+    kaynak: gozlem
+    not: "NORM YOK. Gerçek dilekçe formundan (docx XML, tam değer).
+      Resmî yazıdan FARKLI — Word varsayılanına yakın."
+  yapi:
+    not: "BAŞLIK BLOĞU, SAYI VE KONU SATIRI YOKTUR. Belge doğrudan
+      muhatap makamla başlar."
+  alt_blok:
+    deger: iki_sutun
+    kaynak: gozlem
+    not: "SOLDA kimlik/adres/telefon (sola dayalı), SAĞDA tarih ve imza
+      (sağa dayalı). İkisi aynı hizadan başlar, bağımsız ilerler.
+      'İmza' satırı adın ortasına hizalanır — blok sağa dayalı ama
+      içindeki satırlar birbirine göre ortalı."
+  islak_imza:
+    not: "'İmza' satırının ALTINDA boşluk bırakılır; dilekçe e-imzalı
+      değildir."
+  zorunlu_alanlar:
+    deger: [ad_soyad, imza, adres]
+    kaynak: norm
+    madde: "3071 sayılı Kanun m.4"
+    not: "T.C. kimlik no, telefon ve e-posta KANUNEN ZORUNLU DEĞİL.
+      Ancak kurum formları çoğunlukla istiyor."
+  ek_listesi:
+    baslik: "EKLER:"
+    konum: sol
+    bicim: "{adet} Adet {belge}"
+    kaynak: gozlem
+    not: "NORM YOK. Resmî yazıdaki 'Ek:' biçiminden farklı."
+  kapanis:
+    kaynak: norm
+    madde: "Y m.31/7"
+    not: "Dilekçenin 'arz ederim' ile bitmemesi işleme almaya ENGEL
+      DEĞİLDİR."
+
+# =============================================================================
+# KİMLİK VE TELEFON NUMARALARI
+# =============================================================================
+# src/kimlik_uretici.py — algoritmaya uyar, gerçekte var olmaz.
+kimlik:
+  kaynak_notu: "İlk sürümde bu bölümdeki değerler HAFIZADAN yazılmış,
+    doğrulanmamıştı. Üç telefon kodu (537, 540, 547) gerçekte Turkcell
+    ve Vodafone'a tahsisliydi. Aşağıdakiler BTK ve NVİ kaynaklarından
+    teyit edildi."
+
+  tckn:
+    onek: 9
+    ykn_haric: true
+    kaynak: gozlem
+    dayanak: "NVİ / TCKN algoritması; YKN 99 bloğu"
+    not: "Türkiye'de TEST İÇİN AYRILMIŞ resmî bir TCKN aralığı YOKTUR.
+      Algoritmaya uyan hiçbir numara için 'kesinlikle kimseye ait değil'
+      denemez.
+
+      İlk sürümde '9 ile başlayanlar hiç tahsis edilmedi' yazılmıştı —
+      DOĞRULANMAMIŞ varsayım. YKN (Yabancı Kimlik Numarası) 11 hanelidir,
+      TCKN ile aynı kontrol hanesi algoritmasını kullanır ve 99 İLE
+      BAŞLAYAN blokta tahsis edilir.
+
+      Alınan önlem: ilk hane 9, ikinci hane 9 DEĞİL. Kontrol basamakları
+      gerçek algoritmayla hesaplanır — sistem 'geçerli mi' diye kontrol
+      ederse doğru sonuç verir.
+
+      Kalan risk kabul ediliyor: numaralar kurgusal ad ve kurgusal
+      adresle eşleşir; tek başına bir numara kimseyi tanımlamaz. Teknik
+      raporda 'sentetiktir, gerçek kişilerle eşleşme garantisi yoktur'
+      diye belirtilecek."
+
+  telefon:
+    kullanilan_kodlar: [500, 502, 503, 504, 508, 509, 550, 556, 557, 558]
+    kaynak: norm
+    dayanak: "BTK Genel Numaralandırma Planı (btk.gov.tr, 20 Ocak 2026)"
+    tahsisli_kodlar:
+      "50X (X:1,5,6,7)": "TT Mobil — 501, 505, 506, 507"
+      "510, 516, 561": "SMŞH"
+      "512": "Türk Telekomünikasyon (çağrı hizmeti)"
+      "53X (X:0-9)": "Turkcell — 530-539 TAMAMI"
+      "54X (X:0-9)": "Vodafone — 540-549 TAMAMI"
+      "55X (X:1,2,3,4,5,9)": "TT Mobil — 551-555, 559"
+      "57X (X:0-5)": "M2M — 570-575"
+      "592": "Globalstar (GMPCS)"
+      "594": "TCDD (GSM-R)"
+    not: "Kullanılan kodlar KISMEN tahsisli aralıklardaki BOŞLUKLARDIR —
+      BTK bunları bilinçli olarak dışarıda bırakmış. Hiç adı geçmeyen
+      aralıklar (52X, 58X) yerine bunlar tercih edildi: adı geçmeyen bir
+      aralık ileride tahsis edilebilir, boşluk ise kasıtlıdır."
+
+  turetme:
+    not: "Numaralar BELGE NUMARASINDAN türetilir, rastgele üretilmez.
+      varlik_havuzu.py'ye eklenseydi rastgele seçim sırası kayar ve 300
+      etiketin tamamı değişirdi."
+
+  dogrulama:
+    not: "src/kimlik_uretici.py içinde tckn_gecerli_mi(),
+      ykn_blogunda_mi() ve telefon_tahsisli_mi() fonksiyonları var.
+      300 belge için ölçüm: 300/300 algoritmaya uyuyor, 300/300
+      benzersiz, 0 tanesi YKN bloğunda, 0 tanesi tahsisli telefon
+      kodunda."
