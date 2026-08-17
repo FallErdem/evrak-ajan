@@ -642,19 +642,54 @@ def gonderen_iletisimi(e: dict, kurum_json: dict | None = None) -> dict:
     return {}
 
 
+# Türkçe ünlü uyumu. Yönelme eki (-a/-e) son ünlüye göre seçilir.
+_KALIN_UNLU = "aıouâû"          # kalın (art) ünlüler  -> -a
+_INCE_UNLU = "eiöüî"            # ince (ön) ünlüler    -> -e
+
+
+def yonelme_eki(kelime: str) -> str:
+    """Yönelme hâli eki: -a / -e, ünlüyle bitiyorsa -na / -ne.
+
+    ÖNCEKİ SÜRÜMDE ÜNLÜ UYUMU YOKTU. Kod "ğı, ği, ğu, ğü" ile bitenlere
+    ayrımsız "na" ekliyordu:
+
+        Başkanlığı  -> BAŞKANLIĞINA   doğru (ı kalın)
+        Müdürlüğü   -> MÜDÜRLÜĞÜNA    YANLIŞ (ü ince, "ne" olmalı)
+
+    Aynı hata etiket üretecinde de vardı ve orada düzeltilmişti; burada
+    tekrarlanmış.
+    """
+    kucuk = kelime.lower()
+    son_unlu = next((h for h in reversed(kucuk)
+                     if h in _KALIN_UNLU or h in _INCE_UNLU), "")
+    ek = "a" if son_unlu in _KALIN_UNLU else "e"
+    # Ünlüyle bitiyorsa araya kaynaştırma ünsüzü "n" girer
+    if kucuk and kucuk[-1] in _KALIN_UNLU + _INCE_UNLU:
+        return "n" + ek
+    return ek
+
+
 def _hitap_kur(e: dict) -> str:
-    """Muhatap adını yönelme hâline çevirir (Yönetmelik m.14)."""
+    """Muhatap adını yönelme hâline çevirir (Yönetmelik m.14).
+
+    Örnekler:
+        Yenimahalle Belediye Başkanlığı  -> ... BAŞKANLIĞINA
+        Ankara İl Millî Eğitim Müdürlüğü -> ... MÜDÜRLÜĞÜNE
+        Gazi Üniversitesi Rektörlüğü     -> ... REKTÖRLÜĞÜNE
+        Ankara Valiliği                  -> ANKARA VALİLİĞİNE
+        Yenimahalle Kaymakamlığı         -> ... KAYMAKAMLIĞINA
+    """
     m = e.get("muhatap_makam") or e["alici"]["kurum_adi"]
     if m == "DAĞITIM YERLERİNE":
         return m
     son = m.strip()
-    if son.endswith(("ğı", "ği", "ğu", "ğü")):
-        return tr_buyut(son + "na")
-    if son.endswith(("lık", "lik", "luk", "lük")):
-        return tr_buyut(son + "a")
-    if son.endswith(("i", "ı", "u", "ü", "e", "a")):
-        return tr_buyut(son + "ne")
-    return tr_buyut(son + "e")
+
+    # Ünsüzle biten ve "k" ile kapanan sözcüklerde yumuşama: k -> ğ
+    #   Kaymakamlık + a  ->  Kaymakamlığa
+    if son.lower().endswith(("lık", "lik", "luk", "lük")):
+        son = son[:-1] + "ğ"
+
+    return tr_buyut(son + yonelme_eki(son))
 
 
 # =============================================================================
