@@ -97,9 +97,10 @@
     "önceki dönemde onaylanmış projeler"
   ],
   "kusur_ayrinti": {
-    "alan": "ek_sayfa",
-    "dogru_deger": 6,
-    "enjekte_edilen": 8,
+    "alan": "ek_adedi",
+    "dogru_deger": 1,
+    "enjekte_edilen": 3,
+    "aciklama": "Beyanda 3 adet yazıyor, listede 1 ek var.",
     "kusur": "ek_beyani_yanlis"
   }
 }

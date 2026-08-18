@@ -800,11 +800,11 @@ def kurum_yazisi_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
     if e.get("ek"):
         gereken += 3 * SATIR
     if e.get("dagitim"):
-        # "DAĞITIM:" başlığı + gereği listesi + varsa "Bilgi:" başlığı
-        # ve bilgi listesi + öncesinde bir satır boşluk
+        # "Dağıtım:" başlığı + gereği listesi + varsa "Gereği:" ve
+        # "Bilgi:" başlıkları ve bilgi listesi + öncesinde bir satır
         d = e["dagitim"]
         gereken += (2 + len(d.get("geregi", []))
-                    + (1 + len(d["bilgi"]) if d.get("bilgi") else 0)) * SATIR
+                    + (2 + len(d["bilgi"]) if d.get("bilgi") else 0)) * SATIR
     if y - gereken < GOVDE_ALT_SINIR:
         raise SayfaTasmasi(
             f"belge_{e['belge_no']}: içerik bir sayfaya sığmıyor. "
@@ -837,27 +837,86 @@ def kurum_yazisi_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
         # yazı alanının SOLUNDAN". Yönetmelik sayı vermiyor; gerçek
         # belgelerde 1-5 satır arası, 2 varsayılan.
         y -= 2 * SATIR
-        sayfa = e["ek"].get("sayfa", 1)
-        if kusur.var_mi("ek_beyani_yanlis") and kusur.ayrinti:
-            sayfa = kusur.ayrinti.get("enjekte_edilen", sayfa)
-        # m.18/2: adet/sayfa parantez içinde
-        # m.18/2: adet/sayfa parantez içinde. Gerçek belgede "(12 Sayfa)"
-        # — Sayfa BÜYÜK harfle. Tek ek numaralandırılmaz.
-        y = _yaz(c, f"Ek: {e['ek'].get('aciklama') or 'İlgili belge'} "
-                    f"({sayfa} Sayfa)", SOL, y)
+        y = _ek_blogu_ciz(c, e, kusur, SOL, y)
 
     # --- dağıtım ------------------------------------------------------------
     if e.get("dagitim"):
         y -= SATIR
-        y = _yaz(c, "DAĞITIM:", SOL, y)
-        for m in e["dagitim"].get("geregi", []):
+        # Yönetmelik m.19: dağıtım "Gereği" ve "Bilgi" olarak İKİYE
+        # AYRILIR. Önceki sürümde "Bilgi:" başlığı vardı ama "Gereği:"
+        # yoktu; ilk liste başlıksız kalıyordu.
+        #
+        # Yalnızca gereği varsa başlık gerekmez — gerçek İl MEM
+        # belgesinde de "Dağıtım:" altında doğrudan "A Planına,
+        # B Planına" yazıyor.
+        #
+        # Başlık "Dağıtım:" biçiminde; büyük harf yalnızca muhatap
+        # satırında kullanılır (DAĞITIM YERLERİNE).
+        d = e["dagitim"]
+        y = _yaz(c, "Dağıtım:", SOL, y)
+        if d.get("bilgi"):
+            y = _yaz(c, "Gereği:", SOL, y)
+        for m in d.get("geregi", []):
             y = _yaz(c, m, SOL, y)
-        if e["dagitim"].get("bilgi"):
+        if d.get("bilgi"):
             y = _yaz(c, "Bilgi:", SOL, y)
-            for m in e["dagitim"]["bilgi"]:
+            for m in d["bilgi"]:
                 y = _yaz(c, m, SOL, y)
 
     _dipnot_ciz(c, e)
+
+
+def _ek_blogu_ciz(c, e: dict, kusur: Kusur, sol: float, y: float) -> float:
+    """Ek bölümü: BEYAN + LİSTE (Yönetmelik m.18).
+
+    NEDEN İKİ PARÇA
+    Önceki sürüm tek satır yazıyordu:
+
+        Ek: Gerekçe raporu (3 Sayfa)
+
+    `ek_beyani_yanlis` kusuru bu satırdaki sayfa sayısını bozuyordu. Ama
+    KARŞILAŞTIRILACAK BİR ŞEY YOKTU — ortada gerçek bir ek dosyası yok,
+    sistem "beyan 3 diyor ama ek 2 sayfa" diyemiyordu. Kusur ölçülemezdi:
+    10 belge her zaman "sistem kaçırdı" sayılacaktı, oysa kaçıracak bir
+    şey yoktu.
+
+    Gerçek belgelerde ek bölümü şöyle:
+
+        Ek:
+        1 - İlgi (a) Yazı (12 Sayfa)
+        2 - İlgi (b) Yazı (5 Sayfa)
+        3 - İlgi (c) Yazı (14 Sayfa)
+
+    m.18/2: birden çok ek varsa numaralandırılır, tek ek "Ek:" başlığının
+    SAĞINDA yazılır ve numaralandırılmaz.
+
+    KUSUR ARTIK BELGEDEN OKUNABİLİYOR: beyan edilen adet ile listelenen
+    satır sayısı çelişiyor.
+
+        Ek: 3 adet
+        1 - Gerekçe raporu (3 Sayfa)
+              ^ 3 adet deniyor, 1 tane listelenmiş
+    """
+    ek = e["ek"]
+    aciklama = ek.get("aciklama") or "İlgili belge"
+    sayfa = ek.get("sayfa", 1)
+    gercek_adet = ek.get("adet", 1)
+
+    beyan_adet = gercek_adet
+    if kusur.var_mi("ek_beyani_yanlis") and kusur.ayrinti:
+        beyan_adet = kusur.ayrinti.get("enjekte_edilen", gercek_adet)
+
+    # Tek ek ve beyan doğruysa: "Ek:" başlığının sağında, numarasız
+    if gercek_adet == 1 and beyan_adet == gercek_adet:
+        return _yaz(c, f"Ek: {aciklama} ({sayfa} Sayfa)", sol, y)
+
+    # Beyan satırı — kusurlu belgede burası yalan söyler
+    y = _yaz(c, f"Ek: {beyan_adet} adet", sol, y)
+    # Liste — GERÇEK ekler. Sayı beyanla çelişirse kusur budur.
+    for i in range(1, gercek_adet + 1):
+        etiket = aciklama if gercek_adet == 1 else f"{aciklama} ({i})"
+        y = _yaz(c, f"{i} - {etiket} ({sayfa} Sayfa)", sol, y)
+    return y
 
 
 def _dipnot_ciz(c, e: dict) -> None:
@@ -1074,15 +1133,22 @@ def dilekce_ciz(c, e: dict, govde: str, kusur: Kusur) -> None:
     # --- ek listesi (SOL kenar, "EKLER:") ----------------------------------
     # Dilekçede "EKLER:" kullanılıyor — resmî yazının "Ek:" biçiminden
     # farklı. Norm yok, gerçek formlardan gözlem.
+    #
+    # Kurum yazısındaki gibi BEYAN + LİSTE: beyan edilen adet ile
+    # listelenen satır sayısı çelişirse `ek_beyani_yanlis` kusuru
+    # belgeden okunabilir olur.
     if e.get("ek"):
         y -= 2 * SATIR
-        adet = e["ek"].get("adet", 1)
+        gercek_adet = e["ek"].get("adet", 1)
+        aciklama = e["ek"].get("aciklama") or "İlgili belge"
+        beyan_adet = gercek_adet
         if kusur.var_mi("ek_beyani_yanlis") and kusur.ayrinti:
-            adet = kusur.ayrinti.get("enjekte_edilen", adet)
+            beyan_adet = kusur.ayrinti.get("enjekte_edilen", gercek_adet)
         c.setFillColorRGB(0, 0, 0)
-        y = _yaz(c, "EKLER:", D_SOL, y)
-        _yaz(c, f"{adet} Adet {e['ek'].get('aciklama') or 'İlgili belge'}",
-             D_SOL, y)
+        y = _yaz(c, f"EKLER: {beyan_adet} adet", D_SOL, y)
+        for i in range(1, gercek_adet + 1):
+            etiket = aciklama if gercek_adet == 1 else f"{aciklama} ({i})"
+            y = _yaz(c, f"{i} - {etiket}", D_SOL, y)
 
 
 # =============================================================================

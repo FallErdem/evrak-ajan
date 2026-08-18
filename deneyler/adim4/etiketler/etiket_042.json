@@ -59,9 +59,10 @@
     "Tercüman Desteği"
   ],
   "kusur_ayrinti": {
-    "alan": "ek_sayfa",
-    "dogru_deger": 2,
-    "enjekte_edilen": 3,
+    "alan": "ek_adedi",
+    "dogru_deger": 1,
+    "enjekte_edilen": 2,
+    "aciklama": "Beyanda 2 adet yazıyor, listede 1 ek var.",
     "kusur": "ek_beyani_yanlis"
   }
 }

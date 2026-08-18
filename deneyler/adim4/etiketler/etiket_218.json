@@ -86,9 +86,10 @@
     "sözleşmesi devam eden yükleniciler"
   ],
   "kusur_ayrinti": {
-    "alan": "ek_sayfa",
-    "dogru_deger": 4,
-    "enjekte_edilen": 7,
+    "alan": "ek_adedi",
+    "dogru_deger": 1,
+    "enjekte_edilen": 4,
+    "aciklama": "Beyanda 4 adet yazıyor, listede 1 ek var.",
     "kusur": "ek_beyani_yanlis"
   }
 }

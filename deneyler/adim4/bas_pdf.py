@@ -294,12 +294,23 @@ def alan_kusuru_kur(e: dict, kodlar: list[dict],
               "enjekte_edilen": "İLGİLİ MAKAMA"}
 
     elif tur == "ek_beyani_yanlis":
-        # "Ek: 2 sayfa" yazar ama 1 sayfa vardır. Beyan ile gerçek
-        # arasındaki fark ölçülebilir olmalı.
-        gercek = (e.get("ek") or {}).get("sayfa", 1)
+        # BEYAN EDİLEN ADET ile LİSTELENEN satır sayısı çelişir.
+        #
+        # Önceki sürüm sayfa sayısını bozuyordu ("(3 Sayfa)" yazıp
+        # gerçekte 2 sayfa olması). Ama ortada gerçek bir ek dosyası
+        # yok — sistem karşılaştıracak bir şey bulamıyordu ve kusur
+        # ÖLÇÜLEMEZ kalıyordu.
+        #
+        # Şimdi belgeden okunabiliyor:
+        #     Ek: 3 adet
+        #     1 - Gerekçe raporu (3 Sayfa)
+        #           ^ beyan 3 diyor, liste 1 satır
+        gercek = (e.get("ek") or {}).get("adet", 1)
         yanlis = gercek + 1 + (no % 3)
-        ay = {"alan": "ek_sayfa", "dogru_deger": gercek,
-              "enjekte_edilen": yanlis}
+        ay = {"alan": "ek_adedi", "dogru_deger": gercek,
+              "enjekte_edilen": yanlis,
+              "aciklama": f"Beyanda {yanlis} adet yazıyor, "
+                          f"listede {gercek} ek var."}
 
     elif tur == "sdp_uyumsuz":
         # Sayının ortasındaki SDP kodu konuyla ilgisiz bir kodla

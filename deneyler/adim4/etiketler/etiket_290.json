@@ -64,9 +64,10 @@
     "konunun uygun görülmesi hâlinde olur verilmesi"
   ],
   "kusur_ayrinti": {
-    "alan": "ek_sayfa",
+    "alan": "ek_adedi",
     "dogru_deger": 1,
     "enjekte_edilen": 4,
+    "aciklama": "Beyanda 4 adet yazıyor, listede 1 ek var.",
     "kusur": "ek_beyani_yanlis"
   }
 }

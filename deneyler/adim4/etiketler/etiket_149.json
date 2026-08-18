@@ -90,9 +90,10 @@
     "işlemler tek merkezden yürütülecektir"
   ],
   "kusur_ayrinti": {
-    "alan": "ek_sayfa",
-    "dogru_deger": 3,
-    "enjekte_edilen": 6,
+    "alan": "ek_adedi",
+    "dogru_deger": 1,
+    "enjekte_edilen": 4,
+    "aciklama": "Beyanda 4 adet yazıyor, listede 1 ek var.",
     "kusur": "ek_beyani_yanlis"
   }
 }

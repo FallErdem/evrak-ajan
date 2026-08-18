@@ -111,15 +111,26 @@ def denetle(e: dict, metin: str) -> list[str]:
             sorunlar.append("imza_eksik: imza bloğu hâlâ görünüyor")
 
     if tur == "ek_beyani_yanlis" and ay:
-        # BÜYÜK/KÜÇÜK HARF DUYARSIZ. Render "(3 Sayfa)" yazıyor (gerçek
-        # belgedeki gibi büyük S), doğrulayıcı "(3 sayfa)" arıyordu ve
-        # 8 belgede yanlış alarm veriyordu.
-        yanlis = str(ay.get("enjekte_edilen"))
+        # İKİ ŞEY BİRDEN kontrol edilir:
+        #   1. Yanlış BEYAN belgede görünüyor mu   ("Ek: 3 adet")
+        #   2. Gerçek ek sayısı kadar SATIR var mı ("1 - ...")
+        # İkisi çelişmiyorsa kusur ölçülemez — sistem karşılaştıracak
+        # bir şey bulamaz.
         kucuk = n.lower()
-        if yanlis and f"({yanlis} sayfa)" not in kucuk and \
-                f"{yanlis} adet" not in kucuk:
+        yanlis = str(ay.get("enjekte_edilen"))
+        gercek = int(ay.get("dogru_deger") or 1)
+
+        if yanlis and f"{yanlis} adet" not in kucuk:
             sorunlar.append(f"ek_beyani_yanlis: yanlış beyan görünmüyor "
-                            f"({yanlis})")
+                            f"(Ek: {yanlis} adet)")
+        # Liste satırları: "1 - ", "2 - " ...
+        listelenen = sum(1 for i in range(1, 20) if f"{i} - " in n)
+        if listelenen != gercek:
+            sorunlar.append(f"ek_beyani_yanlis: listede {listelenen} satır "
+                            f"var, {gercek} olmalıydı")
+        if yanlis and str(gercek) == yanlis:
+            sorunlar.append("ek_beyani_yanlis: beyan ile liste ÇELİŞMİYOR "
+                            "— kusur ölçülemez")
 
     # --- kusursuz belgede alanlar yerinde mi -------------------------------
     #
