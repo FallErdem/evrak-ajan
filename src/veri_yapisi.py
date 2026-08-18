@@ -53,7 +53,7 @@ from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 # Veri yapısının sürümü. Alan eklendikçe küçük numara artar.
 # Üretilen her dosyaya yazılır; eski çıktıların hangi sürümle üretildiği belli olur.
-SURUM = "1.0.0"
+SURUM = "1.1.0"
 
 
 # =============================================================================
@@ -297,6 +297,86 @@ class HiyerarsiYonu(StrEnum):
     KURUM_DISI = "kurum_disi"     # ME-06 kamu dışı  -> "Rica ederim."
     GERCEK_KISI = "gercek_kisi"   # ME-05            -> "Saygılarımla." vb.
     BILINMIYOR = "bilinmiyor"     # K 13.1 kestirme  -> "Arz ederim."
+
+
+# -----------------------------------------------------------------------------
+# 4.1 İş akışı sözlükleri — 1.1.0'da eklendi
+# -----------------------------------------------------------------------------
+#
+# Bu dördü belgenin kendi anatomisine değil, belgenin SİSTEM İÇİNDEKİ
+# yolculuğuna ait. Kaynakları Yönetmelik değil, docs/api_sozlesmesi.md.
+# Arayüzün beklediği değerlerle birebir aynı tutulmuştur; birinde değişiklik
+# diğerini kırar.
+
+
+class EvrakDurumu(StrEnum):
+    """Evrağın boru hattındaki konumu — api_sozlesmesi.md 3.1.
+
+    Belgenin içeriğiyle ilgisi yok; işin nerede olduğunu söyler.
+    """
+
+    ALINDI = "ALINDI"                                # yüklendi, henüz koşmadı
+    ISLENIYOR = "ISLENIYOR"
+    INSAN_ONAYI_BEKLIYOR = "INSAN_ONAYI_BEKLIYOR"
+    EKSIK_BILGI_BEKLIYOR = "EKSIK_BILGI_BEKLIYOR"    # karşı taraftan bilgi istendi
+    OTOMATIK_ONAYLANDI = "OTOMATIK_ONAYLANDI"        # güven kapısı geçirdi
+    ONAYLANDI = "ONAYLANDI"                          # insan onayladı
+    REDDEDILDI = "REDDEDILDI"
+    HATA = "HATA"
+
+
+class Motor(StrEnum):
+    """Bir adımı ne çalıştırıyor.
+
+    İstatistikteki "zamanın nereye gittiği" çubuğu bu dörtlüyü ayrı gösterir.
+    ARAC ve KURAL payı, "her şeyi modele sormadık" iddiasının rakamıdır.
+    """
+
+    ARAC = "arac"        # model çağırmayan dış araç: Docling, OCR, eşik hesabı
+    KURAL = "kural"      # deterministik kural motoru (rules.yaml)
+    LLM = "llm"          # dil modeli çağrısı
+    KARMA = "karma"      # kural ve model birlikte
+
+
+class InsanKarari(StrEnum):
+    """İnsanın evrak hakkında verdiği karar.
+
+    Karar.insan_onayi_gerekli "insana sorulmalı mı" der; bu alan "insan ne
+    dedi" sorusunu cevaplar. İkisi ayrı sorudur ve ikisi de kayda değer:
+    Ş 6.4.2 (5) eksik bilgi talebini zorunlu yetenek sayıyor, yani iade
+    akışının izi kalmalı.
+    """
+
+    YOK = "yok"                          # henüz karar verilmedi
+    ONAYLANDI = "onaylandi"
+    REDDEDILDI = "reddedildi"
+    BIRIM_DEGISTIRILDI = "birim_degistirildi"
+    EKSIK_BILGI_ISTENDI = "eksik_bilgi_istendi"
+    GERI_ALINDI = "geri_alindi"
+
+
+class EksikKatman(StrEnum):
+    """Eksikliğin hangi katmanda tespit edildiği — Denetçi'nin üç katmanı.
+
+    Ajan bu üçünü sırayla değerlendirip hangisinin uygulanacağına karar
+    veriyor. Katmanı kaydetmek iki işe yarıyor: kullanıcıya dayanağı
+    göstermek, ve Parça 6'da "hangi katman ne kadar iş görüyor" ölçümü.
+    """
+
+    SEMA = "sema"            # zorunlu alan boş — deterministik
+    KURAL = "kural"          # rules.yaml kuralı ihlal edilmiş — araç
+    MEVZUAT = "mevzuat"      # mevzuat bir belge/bilgi istiyor
+    CIKARIM = "cikarim"      # kural dışı, model çıkarımı
+
+
+class DugumDurumu(StrEnum):
+    """Tek bir adımın o andaki hâli — api_sozlesmesi.md 5.6.2."""
+
+    BEKLIYOR = "bekliyor"
+    CALISIYOR = "calisiyor"
+    TAMAM = "tamam"
+    HATA = "hata"
+    ATLANDI = "atlandi"
 
 
 # =============================================================================
@@ -1210,6 +1290,22 @@ class EksikAlan(BaseModel):
         description="Ş 6.4.2 (5): sistem bu eksiği karşı taraftan isteyebilir mi",
     )
 
+    # -- 1.1.0'da eklendi ---------------------------------------------------
+    katman: EksikKatman = Field(
+        default=EksikKatman.CIKARIM,
+        description="Denetçi'nin hangi katmanında bulundu",
+    )
+    soru: str | None = Field(
+        default=None, max_length=300,
+        description="Eksiği karşı taraftan istemek için kurulmuş cümle. "
+                    "`aciklama` sistemin kendine notu, `soru` vatandaşa "
+                    "sorulacak hâli — ikisi aynı şey değil.",
+    )
+    giderildi: bool = Field(
+        default=False, description="Karşı taraftan cevap geldi ve eksik kapandı"
+    )
+    cevap: str | None = Field(default=None, max_length=1000)
+
 
 class Icerik(BaseModel):
     """Belgenin ne dediği — Ş 6.4.1 (2), (3) ve (5)."""
@@ -1338,6 +1434,57 @@ class CiktiYazi(BaseModel):
     )
     linter_raporu: LinterRaporu = Field(default_factory=LinterRaporu)
 
+    # -- 1.1.0'da eklendi ---------------------------------------------------
+    #
+    # Sınıfın docstring'i taslağın sayı, tarih ve imzasının burada OLMADIĞINI
+    # söylüyor ve bu hâlâ geçerli — o üçü EBYS'de kayıt ve imza anında atanır.
+    # Aşağıdaki üçü farklı: taslak yazılırken BİLİNİYORLAR.
+    #
+    #   baslik       gönderen idarenin başlık bloğu, kurum profilinden gelir
+    #   muhatap      gelen evrağın göndereni, zaten elimizde
+    #   imza_unvan   birimler.csv'deki imza_unvani sütunu
+    #
+    # İmzanın unvanı ile imzalayanın adı ayrı tutuluyor: unvan taslak anında
+    # bilinir ve yazının altında görünmelidir, ad imza anında atanır. Bu
+    # yüzden imza_ad diye bir alan YOK ve eklenmeyecek.
+
+    baslik: str | None = Field(
+        default=None, max_length=500,
+        description="ör. 'T.C.\\nANKARA VALİLİĞİ\\nİl Millî Eğitim Müdürlüğü'",
+    )
+    muhatap: str | None = Field(default=None, max_length=300)
+    imza_unvan: str | None = Field(
+        default=None, max_length=100, description="ör. 'Şube Müdürü'"
+    )
+
+
+class YonlendirmeAdayi(BaseModel):
+    """Aday birim ve skoru — 1.1.0'da eklendi."""
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    birim: str = Field(max_length=100, description="birim_kodu, ör. 'ortaogretim_sb'")
+    birim_adi: str | None = Field(default=None, max_length=200)
+    skor: float = Field(default=0.0, ge=0.0, le=1.0)
+
+
+class YonlendirmeKaynagi(StrEnum):
+    """Hedef birim nasıl bulundu — 1.1.0'da eklendi.
+
+    SDP kodu sayının üçüncü bölümünden OKUNUR, tahmin edilmez. Kod okunduysa
+    birimler.csv'nin sdp_kodlari sütunundan hedef doğrudan bulunur ve bu
+    deterministik bir sonuçtur. Tahmin yalnızca sayısı olmayan belgelerde
+    (vatandaş dilekçesi) gerekir.
+
+    Ayrımı tutmak Parça 6'da ablasyon satırı üretiyor: iki yolun isabeti
+    ayrı ölçülebilir.
+    """
+
+    SDP_TABLOSU = "sdp_tablosu"   # deterministik
+    LLM = "llm"                   # tahmin
+    INSAN = "insan"               # kullanıcı birimi değiştirdi
+    BILINMIYOR = "bilinmiyor"
+
 
 class Yonlendirme(BaseModel):
     """Evrağın hangi birime gideceği — Ş 6.4.2 (3)."""
@@ -1349,11 +1496,29 @@ class Yonlendirme(BaseModel):
     gerekce: str | None = Field(default=None, max_length=500)
     alternatifler: list[str] = Field(
         default_factory=list,
-        description="İkinci ve üçüncü aday birimler. Yönlendirme hatası pahalı "
-                    "olduğu için kullanıcıya seçenek sunulur.",
+        description="KULLANILMIYOR. 1.1.0'da yerini alternatif_adaylar aldı; "
+                    "tipini değiştirmek alan silmekle eş değer olduğu için "
+                    "burada bırakıldı. Yeni kod alternatif_adaylar kullanır.",
     )
     kurum_disinda: bool = Field(
         default=False, description="Evrak yanlış kuruma gelmişse True"
+    )
+
+    # -- 1.1.0'da eklendi ---------------------------------------------------
+    skor: float = Field(
+        default=0.0, ge=0.0, le=1.0,
+        description="Seçilen birimin skoru. Güven kapısının baktığı değer",
+    )
+    kanit_cumle: str | None = Field(
+        default=None, max_length=500,
+        description="Belgede yönlendirmeyi gerektiren cümle. Birebir alıntı; "
+                    "bulunamadıysa None — uydurulmaz.",
+    )
+    kaynak: YonlendirmeKaynagi = YonlendirmeKaynagi.BILINMIYOR
+    alternatif_adaylar: list[YonlendirmeAdayi] = Field(
+        default_factory=list,
+        description="İkinci ve üçüncü aday birimler skorlarıyla. Yönlendirme "
+                    "hatası pahalı olduğu için kullanıcıya seçenek sunulur.",
     )
 
 
@@ -1374,6 +1539,25 @@ class Karar(BaseModel):
     )
     toplam_guven: float = Field(default=0.0, ge=0.0, le=1.0)
     toplam_sure_ms: float = Field(default=0.0, ge=0.0)
+
+    # -- 1.1.0'da eklendi ---------------------------------------------------
+    esik: float = Field(
+        default=0.85, ge=0.0, le=1.0,
+        description="Güven kapısının eşiği. Kayıtla birlikte tutulur çünkü "
+                    "eşik sonradan değişirse eski kararlar hangi eşikle "
+                    "verildiği bilinmeden yorumlanamaz.",
+    )
+
+    # İnsanın ne dediği. insan_onayi_gerekli "sorulmalı mı", bunlar "ne dedi".
+    insan_karari: InsanKarari = InsanKarari.YOK
+    karar_veren_rol: str | None = Field(
+        default=None, max_length=50, description="ör. 'birim_sorumlusu'"
+    )
+    karar_zamani: datetime | None = None
+    karar_gerekcesi: str | None = Field(
+        default=None, max_length=1000,
+        description="reddet, birim_degistir ve karari_geri_al için zorunlu",
+    )
 
 
 class IzKaydi(BaseModel):
@@ -1396,10 +1580,112 @@ class IzKaydi(BaseModel):
     uretilen_token: int | None = Field(default=None, ge=0)
     zaman: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
+    # -- 1.1.0'da eklendi ---------------------------------------------------
+    #
+    # Bu altı alan arayüzün akış ekranını besliyor. Bitmiş bir koşu SSE
+    # olmadan yeniden çizilebilmeli: kullanıcı sayfayı yenilediğinde veya
+    # kuyruktan eski bir evrağa tıkladığında ekran boş kalmamalı.
+    # api_sozlesmesi.md 5.6.2 (dugum_kayitlari) buradan üretiliyor.
+
+    adim_no: int | None = Field(
+        default=None, ge=1, le=99,
+        description="Düğüm tablosundaki sıra, 1-11. Tablo /api/dugumler'den "
+                    "geldiği ve Parça 4'te değişebileceği için üst sınır geniş.",
+    )
+    durum: DugumDurumu = DugumDurumu.TAMAM
+    tur_no: int = Field(
+        default=1, ge=1,
+        description="Kaçıncı tur. Üslup döngüsü taslağı geri gönderirse artar; "
+                    "döngü yaşanmayan adımlarda daima 1. Her tur AYRI kayıttır.",
+    )
+    guven: float | None = Field(default=None, ge=0.0, le=1.0)
+    gerekce: str | None = Field(default=None, max_length=500)
+    cikti: dict[str, str | int | float | bool | None] = Field(
+        default_factory=dict,
+        description="Adımın kısa çıktı özeti, ör. {'sayfa_sayisi': 1}. "
+                    "Yan panelde gösterilir; büyük veri buraya konmaz.",
+    )
+    ozet: str | None = Field(
+        default=None, max_length=200,
+        description="İnsan okuyacak tek satır, ör. '9 alan bulundu, 1 eksik'",
+    )
+
 
 # -----------------------------------------------------------------------------
 # 4.7 Kök nesne
 # -----------------------------------------------------------------------------
+
+
+class Duzeltme(BaseModel):
+    """İnsanın sistem çıktısına yaptığı bir müdahale — 1.1.0'da eklendi.
+
+    Ş 9'un puanladığı ölçütlerden biri insan müdahale oranı. Müdahaleyi
+    saymak için önce kaydetmek gerekiyor. Hangi alanların değiştiği de
+    tutuluyor: Parça 6'da "model en çok neyi yanlış yapıyor" sorusunun
+    cevabı buradan çıkar.
+    """
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    tur: str = Field(
+        max_length=30, description="taslak | birim | red | geri_alma"
+    )
+    rol: str = Field(max_length=50, description="ör. 'birim_sorumlusu'")
+    zaman: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    alanlar: list[str] = Field(
+        default_factory=list, description="değiştirilen alan adları, ör. ['govde']"
+    )
+    gerekce: str | None = Field(default=None, max_length=1000)
+
+
+class EksikBilgiTalebi(BaseModel):
+    """Karşı taraftan eksik bilgi isteme yazısı — 1.1.0'da eklendi.
+
+    Ş 6.4.2 (5) bunu zorunlu yetenek sayıyor: sistem eksik bilgi talep
+    edebilmeli. Talebin kendisi de resmî bir yazıdır, bu yüzden yazi alanı
+    CiktiYazi tipindedir ve linter'dan geçer.
+    """
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    zaman: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    muhatap_ad: str | None = Field(default=None, max_length=200)
+    muhatap_turu: MuhatapTuru = MuhatapTuru.BILINMIYOR
+    kanal: str | None = Field(
+        default=None, max_length=100, description="ör. 'Resmî yazı (posta / e-Devlet)'"
+    )
+    sure_gun: int | None = Field(default=None, ge=1, le=365)
+    son_tarih: date | None = Field(
+        default=None,
+        description="ISO tarih. Sunucu asla gg.aa.yyyy göndermez; "
+                    "biçimlendirme arayüzün işi.",
+    )
+    dayanak: str | None = Field(
+        default=None, max_length=300,
+        description="Süreyi veren mevzuat, ör. '3071 s.K. m.7 (30 gün)'",
+    )
+    sorular: list[str] = Field(default_factory=list)
+    yazi: CiktiYazi | None = None
+    elle_duzenlendi: bool = False
+
+
+class EksikBilgiCevabi(BaseModel):
+    """Karşı taraftan gelen cevap — 1.1.0'da eklendi.
+
+    Gerçekte bu ayrı bir evraktır ve ilgi ile bağlanır. Parça 5'te
+    ilgi_evrak_id alanı eklenecek; şimdilik aynı dosya üzerinde tutuluyor.
+    """
+
+    model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+    zaman: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    gonderen: str | None = Field(default=None, max_length=200)
+    ilgi: str | None = Field(
+        default=None, max_length=100, description="cevabın atıf yaptığı sayı"
+    )
+    cevaplar: list[dict[str, str]] = Field(
+        default_factory=list, description="[{'soru': ..., 'cevap': ...}]"
+    )
 
 
 class Dosya(BaseModel):
@@ -1438,6 +1724,23 @@ class Dosya(BaseModel):
     # 12-13 · Karar ve iz
     karar: Karar = Field(default_factory=Karar)
     iz: list[IzKaydi] = Field(default_factory=list)
+
+    # 14 · İş akışı — 1.1.0'da eklendi
+    #
+    # Buraya kadarki her şey BELGENİN anatomisi. Aşağıdakiler belgenin sistem
+    # içindeki yolculuğu ve insanın ona dokunuşları. Ayrı tutuluyorlar çünkü
+    # kural motoru bunlara bakmaz; arayüz ve rapor bakar.
+    durum: EvrakDurumu = EvrakDurumu.ALINDI
+    dosya_adi: str | None = Field(
+        default=None, max_length=255, description="ör. 'belge_099.pdf'"
+    )
+    duzeltmeler: list[Duzeltme] = Field(
+        default_factory=list,
+        description="İnsanın yaptığı her düzeltme. Ş 9 'insan müdahale oranı' "
+                    "ölçümü ve Parça 6'daki hata analizi buradan çıkar.",
+    )
+    eksik_bilgi_talebi: EksikBilgiTalebi | None = None
+    eksik_bilgi_cevabi: EksikBilgiCevabi | None = None
 
     # Kanıt haritası — anahtarlar rules.yaml'ın yol dizeleriyle aynı
     kanit: dict[str, Kanit] = Field(default_factory=dict)
