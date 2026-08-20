@@ -54,6 +54,7 @@ Docling'de alttan 61,6 -> 842 - 61,6 = 780,4. İki ayrı araç, aynı yer.
 from __future__ import annotations
 
 import logging
+import math
 import os
 import time
 import warnings
@@ -81,6 +82,27 @@ METIN_KATMANI_ESIGI = 120
 SATIR_TOLERANSI = 6.0
 
 VARSAYILAN_SAYFA_YUKSEKLIGI = 842.0   # A4
+
+# Eğim düzeltme. Taranmış belge kâğıda robotik hassasiyetle konmaz; birkaç
+# derece yatık gelir ve satırın solu ile sağı farklı y'ye düşer.
+#
+# ÖLÇÜLDÜ (belge_012, 145 kelime, 24 gerçek satır, yapay eğiklik):
+#
+#     eğim   düzeltmesiz            düzeltmeli
+#       0°   24 grup,  0 karışık    24 grup, 0 karışık
+#       1°   31 grup,  1 karışık    24 grup, 0 karışık
+#       2°   34 grup,  6 karışık    24 grup, 0 karışık
+#       5°   44 grup, 21 karışık    24 grup, 0 karışık
+#
+# Denenen bir alternatif: kelimeyi grubun İLKİ yerine SONUNCUSU ile
+# karşılaştırmak (zincirleme). 1°'de iyi çalışıyor ama 2°'den sonra ÇÖKÜYOR:
+# 24 satır 15 gruba iniyor, yani ayrı satırlar birbirine yapışıyor. Bölünmüş
+# satır sonradan birleştirilebilir, yapışmış satır geri ayrılamaz. Bu yüzden
+# zincirleme değil, eğim düzeltme seçildi.
+EGIM_ARAMA_SINIRI = 6.0    # derece, iki yöne
+EGIM_ADIMI = 0.25
+EGIM_ASGARI_PARCA = 30     # bundan az parçada açı güvenilir kestirilemez
+EGIM_ASGARI_KAZANC = 0.10  # grup sayısı en az %10 azalmazsa dokunma
 
 
 @dataclass
@@ -123,6 +145,54 @@ class OkumaSonucu:
 # -----------------------------------------------------------------------------
 
 
+def _dondur(parcalar, derece, cx, cy):
+    """Parçaları sayfa merkezinde `derece` kadar döndürür."""
+    a = math.radians(derece)
+    sin_a, cos_a = math.sin(a), math.cos(a)
+    return [
+        (cy + (x - cx) * sin_a + (y - cy) * cos_a,
+         cx + (x - cx) * cos_a - (y - cy) * sin_a,
+         metin)
+        for y, x, metin in parcalar
+    ]
+
+
+def _grup_sayisi(parcalar) -> int:
+    sirali = sorted(parcalar, key=lambda p: (p[0], p[1]))
+    n, son = 1, sirali[0][0]
+    for p in sirali[1:]:
+        if abs(p[0] - son) > SATIR_TOLERANSI:
+            n += 1
+            son = p[0]
+    return n
+
+
+def _egimi_duzelt(parcalar: list[tuple[float, float, str]]):
+    """Sayfa eğikse düzeltir. Doğru açı satırları toplar, yanlış açı dağıtır.
+
+    Ölçüt kendi kendini bulur: grup sayısını en aza indiren açı doğru açıdır.
+    Kazanç küçükse dokunulmaz — sayfa zaten düzdür.
+    """
+    if len(parcalar) < EGIM_ASGARI_PARCA:
+        return parcalar, 0.0
+    cx = sum(p[1] for p in parcalar) / len(parcalar)
+    cy = sum(p[0] for p in parcalar) / len(parcalar)
+
+    taban = _grup_sayisi(parcalar)
+    en_iyi_sayi, en_iyi_aci = taban, 0.0
+    aci = -EGIM_ARAMA_SINIRI
+    while aci <= EGIM_ARAMA_SINIRI:
+        if aci:
+            n = _grup_sayisi(_dondur(parcalar, aci, cx, cy))
+            if n < en_iyi_sayi:
+                en_iyi_sayi, en_iyi_aci = n, aci
+        aci += EGIM_ADIMI
+
+    if not en_iyi_aci or (taban - en_iyi_sayi) < taban * EGIM_ASGARI_KAZANC:
+        return parcalar, 0.0
+    return _dondur(parcalar, en_iyi_aci, cx, cy), en_iyi_aci
+
+
 def _satirlari_kur(parcalar: list[tuple[float, float, str]]) -> list[Satir]:
     """(y_ust, x_sol, metin) üçlülerini sıralı satırlara çevirir.
 
@@ -131,6 +201,7 @@ def _satirlari_kur(parcalar: list[tuple[float, float, str]]) -> list[Satir]:
     """
     if not parcalar:
         return []
+    parcalar, _aci = _egimi_duzelt(parcalar)
     parcalar = sorted(parcalar, key=lambda p: (p[0], p[1]))
 
     satirlar: list[Satir] = []
