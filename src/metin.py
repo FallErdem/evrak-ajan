@@ -134,25 +134,36 @@ def en_iyi_eslesme(
     (20) uzun; uzunluk kurumu seçiyor ve isabet %47'de kalıyor.
 
     Doğru ölçüt HİYERARŞİ SEVİYESİ: seviye 2 (şube/müdürlük) seviye 0
-    (kurum) üstünde. Bu ölçütle isabet %90.
+    (kurum) üstünde.
+
+    Ama seviye TEK BAŞINA da yetmiyor. Muhatap doğrudan kurumun kendisiyse:
+
+        "Ankara İl Millî Eğitim Müdürlüğü"        <- seviye 0, TAM eşleşme
+        "Yenimahalle İlçe Millî Eğitim Müdürlüğü" <- seviye 2, bulanık
+
+    Seviye önce gelirse bulanık aday kazanır ve 18 belge yanlış birime
+    gider. Sıra şu olmalı: ÖNCE tam eşleşme, SONRA seviye, sonra oran.
+
+    Ölçüldü (300 belge, muhatap satırından): uzunluk ölçütü %47,
+    seviye ölçütü %90, tam eşleşme + seviye %100.
     """
     m = katla(metin)
     if not m:
         return None, 0.0, None
 
-    bulunanlar: list[tuple[int, float, int, str, str]] = []
+    bulunanlar: list[tuple[int, int, float, int, str, str]] = []
     for kod, ad, seviye in adaylar:
         a = katla(ad)
         if not a:
             continue
         if a in m:
-            bulunanlar.append((seviye, 1.0, len(a), kod, ad))
+            bulunanlar.append((1, seviye, 1.0, len(a), kod, ad))
             continue
         oran = SequenceMatcher(None, a, m).ratio()
         if oran >= esik:
-            bulunanlar.append((seviye, oran, len(a), kod, ad))
+            bulunanlar.append((0, seviye, oran, len(a), kod, ad))
 
     if not bulunanlar:
         return None, 0.0, None
-    _, oran, _, kod, ad = max(bulunanlar)
+    _, _, oran, _, kod, ad = max(bulunanlar)
     return kod, oran, ad
