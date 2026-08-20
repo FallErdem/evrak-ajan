@@ -1,0 +1,25 @@
+klasor: C:\Users\iremy\evrak-ajan\deneyler\adim4\belgeler_pdf   belge: 30
+etiket: C:\Users\iremy\evrak-ajan\deneyler\adim4\etiketler
+
+======================================================================
+SONUC
+======================================================================
+
+1. YOL SECIMI
+   ✓ tum belgelerde dogru yol secildi
+
+2. SIRALAMA  (Sayi etiketi degeriyle ayni satirda mi)
+   16/16 = 100%
+
+3. DIPNOT
+   sizinti : 0  —
+   kayip   : 0  —
+
+4. SURE
+   metin_katmanli    25 belge   ortalama      266 ms   en yavas      699 ms
+   taranmis           5 belge   ortalama    21040 ms   en yavas    47599 ms
+   toplam 112 sn
+
+TEMIZ
+
+Tam cikti: C:\Users\iremy\evrak-ajan\okuyucu_dogrula_sonuc.txt
