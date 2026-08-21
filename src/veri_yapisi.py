@@ -53,7 +53,7 @@ from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 # Veri yapısının sürümü. Alan eklendikçe küçük numara artar.
 # Üretilen her dosyaya yazılır; eski çıktıların hangi sürümle üretildiği belli olur.
-SURUM = "1.1.0"
+SURUM = "1.2.0"
 
 
 # =============================================================================
@@ -91,6 +91,23 @@ class GelenTur(StrEnum):
     BILGI_EDINME_BASVURUSU = "bilgi_edinme_basvurusu"
     SIKAYET = "sikayet"
 
+    # 1.2.0'da eklendi — veri setinde var, şemada yoktu.
+    #
+    # Ölçüldü (300 etiket): itiraz 11, gorus_talebi 20 belge. Bu iki değer
+    # olmadan 31 belgede DOĞRU cevap fiziksel olarak verilemiyordu: Anlama'nın
+    # şeması bu enum'dan üretiliyor ve model enum dışına çıkamıyor.
+    #
+    # ADIM 4 kapısı belge türü macro-F1 >= 0.85 istiyor. İki sınıf sıfır
+    # kalırsa 11 sınıflı ortalamanın tavanı 9/11 = 0.818'dir; eşik
+    # matematiksel olarak geçilemezdi.
+    #
+    # Değer EKLENDİ, hiçbiri yeniden adlandırılmadı. Veri setindeki adlar
+    # (dilekce, bilgi_edinme, bilgilendirme) farklı; eşleme src/taksonomi.py
+    # içindedir. Yeniden adlandırma rules.yaml'daki 104 kuralı sessizce
+    # kırabilirdi — donma kuralı: alan silinmez, eklenir.
+    ITIRAZ = "itiraz"
+    GORUS_TALEBI = "gorus_talebi"
+
     # Model emin olamadığında. Bu değerin varlığı bir tasarım tercihidir:
     # emin olmadığında tahmin eden bir sistem, sessizce yanlış karar üretir.
     BILINMIYOR = "bilinmiyor"
@@ -126,11 +143,17 @@ KATEGORILER: dict[str, frozenset[GelenTur]] = {
         GelenTur.OLUR_YAZISI,
         GelenTur.DUYURU,
         GelenTur.GENELGE,
+        # 1.2.0: gorus_talebi 20/20 belgede KURUMDAN geliyor, hepsinin
+        # sayısı var. Ölçüldü, atanmadı.
+        GelenTur.GORUS_TALEBI,
     }),
     "kisi_belgesi": frozenset({
         GelenTur.VATANDAS_DILEKCESI,
         GelenTur.BILGI_EDINME_BASVURUSU,
         GelenTur.SIKAYET,
+        # 1.2.0: itiraz 11 belgede gerçek kişi (8), şirket (2), öğrenci (1)
+        # tarafından yazılmış; 9'unun sayısı yok. Kişi belgesi.
+        GelenTur.ITIRAZ,
     }),
 }
 
