@@ -244,6 +244,7 @@ class LLMIstemci:
         istem: str,
         sistem_istemi: str | None = None,
         sicaklik: float | None = None,
+        ek: dict | None = None,          # <-- YENİ,
     ) -> Cevap:
         """İstemi gönderir, üretilen metni döndürür.
 
@@ -258,6 +259,8 @@ class LLMIstemci:
         if sicaklik is not None:
             govde["temperature"] = sicaklik
         govde.update(self.y.ek_parametreler)
+        if ek:                            # <-- YENİ
+            govde.update(ek)              # çağrı, yapılandırmayı ezer
 
         baslangic = time.perf_counter()
         veri, deneme = self._gonder(govde)

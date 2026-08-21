@@ -41,4 +41,13 @@ deneyler/adim4/cevaplar/
 deneyler/adim4/belgeler_pdf_temiz/
 deneyler/adim4/etiketler_yedek_*/
 deneyler/adim4/belgeler_pdf_metinli_*/
-deneyler/adim4/etiketler_yedek_*/
+deneyler/adim4/etiketler_yedek_*/"test_sira.py
+deneyler/adim4/okuma_ornegi/ 
+
+src/test_sira.py
+test_*.py
+deneyler/adim4/okuma_ornegi/ayristirici_dogrula_sonuc.txt
+tani_sonuc.txt
+ayristirici_dogrula_sonuc.txt
+sonda_llm_sonuc.txt
+tani_sonuc.txt

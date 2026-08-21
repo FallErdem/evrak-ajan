@@ -83,7 +83,15 @@ URETEN = "ayristirici"
 
 _ETIKET_SAYI = re.compile(r"^\s*Say[ıi1l|]\s*[:：]?\s*", re.IGNORECASE)
 _ETIKET_KONU = re.compile(r"^\s*Konu\s*[:：]?\s*", re.IGNORECASE)
-_ETIKET_ILGI = re.compile(r"^\s*[İIi]lg[ıi1l|]\s*[:：]\s*", re.IGNORECASE)
+# İki nokta OCR'da düşüyor (ölçüldü, tani.py belge_020/032/035:
+# "İlgi 03.02.2026 tarihli ve E-... sayılı yazı."). Zorunlu tutulursa
+# taranmış belgede ilgi hiç bulunamıyor; isteğe bağlı yapılırsa gövdedeki
+# "İlgide kayıtlı..." atfı da eşleşir. Çözüm: iki noktayı gevşet, yerine
+# DEĞERİN TARİHLE BAŞLAMASINI zorunlu tut. 120 ilgi satırının tamamı
+# "gg.aa.yyyy tarihli ve ... sayılı yazı." biçiminde (kota.json ilgi).
+_ETIKET_ILGI = re.compile(
+    r"^\s*[İIi]lg[ıi1l|]\s*[:：]?\s+(?=\d{2}\.\d{2}\.\d{4})", re.IGNORECASE
+)
 
 # İki sayı biçimi var, ikisi de geçerli:
 #
@@ -111,8 +119,11 @@ _EK_KURUM = re.compile(r"^\s*Ek\s*[:：]\s*(.+?)\s*\((\d+)\s*Sayfa\)", re.IGNORE
 # aynı satırda, çok ekte alta numaralı liste geliyor.
 _EK_SAYILI = re.compile(r"^\s*(?:EKLER|Ek)\s*[:：]\s*(\d+)\s*adet", re.IGNORECASE)
 # "1 - Tapu fotokopisi"  /  "1 - Liste ve takvim (1) (2 Sayfa)"
+# Tire OCR'da düşüyor (ölçüldü, belge_017: "1 Önceki basvuru sureti").
+# İsteğe bağlı yapıldı; kalıp yalnızca "N adet" satırının ALTINDA veya
+# ONUN KALANINDA kullanıldığı için serbest metinle karışmıyor.
 _EK_MADDE = re.compile(
-    r"^\s*(\d+)\s*[-–.]\s*(.+?)(?:\s*\((\d+)\s*Sayfa\))?\s*$", re.IGNORECASE
+    r"^\s*(\d+)\s*[-–.]?\s*(.+?)(?:\s*\((\d+)\s*Sayfa\))?\s*$", re.IGNORECASE
 )
 
 _DAGITIM_BASLIK = re.compile(r"^\s*(DAĞITIM|DAGITIM)\s*[:：]?\s*$", re.IGNORECASE)
@@ -121,7 +132,32 @@ _BILGI = re.compile(r"^\s*Bilgi\s*[:：]?\s*$", re.IGNORECASE)
 
 # Muhatap: büyük harfli, yönelme hâlinde biten satır.
 # "ANKARA İL MİLLÎ EĞİTİM MÜDÜRLÜĞÜNE", "DAĞITIM YERLERİNE"
-_MUHATAP = re.compile(r"^[^a-zçğıöşü]{8,}(NE|NA|ne|na)\s*$")
+# OCR muhatap satırını ALTINDAKİ parantezli birim satırıyla BİRLEŞTİRİYOR
+# (ölçüldü, tani.py — 6 taranmış belgenin 6'sında):
+#
+#     'YENİMAHALLE BELEDİYE BAŞKANLIĞINA (Fen İşleri Müdürlüğü)'
+#
+# Parantezin içi küçük harfli olduğu için "satırın tamamı büyük harf" kuralı
+# çöküyor ve muhatap bulunamıyor. Muhatap bulunamayınca başlık/gövde sınırı
+# da yok oluyor; aile, ilgi, tarih ve imza birlikte düşüyor. Tek kırık halka,
+# dört kayıp.
+#
+# belge_009 taranmışlar içinde muhatabı yakalanan tek belgeydi. Sebebi şans
+# değil: o belgede parantez satırı hiç yok.
+#
+# Çözüm: parantezli kuyruğu kalıbın DIŞINDA tut, ikinci gruba al.
+_MUHATAP = re.compile(
+    r"^([^a-zçğıöşü]{8,}(?:NE|NA|ne|na))\s*(?:\(([^)]*)\))?\s*$"
+)
+
+# Muhatabı belirsiz bırakılmış yazı. Gerçek yazışmada kullanılan bir kalıptır
+# ve veri setinde muhatap_belirsiz kusurunun enjekte ettiği değerdir (10 belge,
+# etiket kusur_ayrinti.enjekte_edilen = "İLGİLİ MAKAMA").
+#
+# Ayrı kalıp olarak tutuluyor çünkü iki şey aynı anda doğru olmalı:
+# satır BULUNMUŞ sayılmalı ki aile/tarih/imza çağlayanı kopmasın, ama
+# muhatap BELİRSİZ işaretlenmeli ki Denetçi bunu eksiklik olarak görsün.
+_MUHATAP_BELIRSIZ = re.compile(r"^\s*[İIi]LG[İIi]L[İIi]\s+MAKAM(?:A|LARA)\s*$")
 _PARANTEZ = re.compile(r"^\s*\((.+)\)\s*$")
 
 # İmza bloğu: "Zeynep YILDIRIM Vali a. İl Millî Eğitim Müdürü"
@@ -129,12 +165,31 @@ _PARANTEZ = re.compile(r"^\s*\((.+)\)\s*$")
 _YETKI_DEVRI = re.compile(r"^(Vali|Bakan|Rektör|Başkan|Müdür|Kaymakam)\s*a\.\s*$")
 
 # Kapanış: "...arz ederim." / "...rica ederim." / "...arz ve talep ederim."
-_KAPANIS = re.compile(r"\bederim\s*[.:]?\s*$", re.IGNORECASE)
+#
+# SATIR SONUNA ÇIPALANMIYOR. İki gerçek vaka çıpayı kırdı (ölçüldü, tani.py):
+#
+#     belge_009  '...gereğini arz ederim:.'      iki noktalama üst üste
+#     belge_035  '...gereğini rica ederim. beş'  OCR "beş"i cümle sonuna atmış
+#
+# İkincisi okuyucu.py'nin dürüstçe kaydettiği sınır: bir OCR öğesinin
+# İÇİNDEKİ kelime karışıklığı düzeltilemiyor. Çıpa bu karışıklığa dayanamaz.
+#
+# Çıpasız kalmak güvenli, çünkü _imza döngüsü "ederim" geçen SON satırı
+# seçiyor ve kapanış cümlesi belgenin son cümlesidir.
+_KAPANIS = re.compile(r"\bederim\b", re.IGNORECASE)
 
 # "Zeynep YILDIRIM" — ad büyük harfle başlar, SOYAD tamamen büyük
 _AD = r"[A-ZÇĞİÖŞÜ][a-zçğıöşüâî]+(?:\s+[A-ZÇĞİÖŞÜ][a-zçğıöşüâî]+)*\s+[A-ZÇĞİÖŞÜ]{2,}"
 _AD_SOYAD = re.compile(rf"^{_AD}$")
 _AD_SATIR_SONU = re.compile(rf"({_AD})\s*$")
+
+# OCR imza bloğunun üç satırını tek satıra sıkıştırıyor (ölçüldü, tani.py):
+#     'Osman ASLAN Bakan a Genel Müdür'   (nokta da düşmüş: "Bakan a")
+# _AD_SOYAD satırın TAMAMININ ad-soyad olmasını istediği için tutmuyor ve
+# imza taranmış belgelerde 0/6 kalıyordu.
+_IMZA_TEK_SATIR = re.compile(
+    rf"^({_AD})\s+((?:Vali|Bakan|Rektör|Başkan|Müdür|Kaymakam)\s*a\.?)?\s*(.*)$"
+)
 
 
 # Belge ailesi — başlık bloğundan tespit edilir.
@@ -145,7 +200,12 @@ _AD_SATIR_SONU = re.compile(rf"({_AD})\s*$")
 #
 # Ayrım sonraki adımlara gerekiyor: şirket yazısında doğrulama kodu ve QR
 # aranmamalı, yokluğu eksiklik sayılmamalıdır.
-_TC_BASLIK = re.compile(r"^\s*T\.?\s*C\.?\s*$", re.IGNORECASE)
+# OCR başlık bloğunu tek satıra sıkıştırıyor (ölçüldü, tani.py):
+#     'T.C. ÇANKAYA BELEDİYE BAŞKANLIĞI T.C. ÇANKAYA BELEDİYE BAŞKANLIĞI'
+# Bu yüzden satırın TAMAMI değil, İÇİNDE aranıyor (search).
+# "T.C. Kimlik No" dışarıda bırakıldı: dilekçe gövdesinde geçiyor,
+# başlık sanılmamalı.
+_TC_BASLIK = re.compile(r"\bT\.?\s*C\b\.?(?![\s.]*Kimlik)")
 _SIRKET_EKI = re.compile(r"\b(Ltd\.?\s*Şti\.?|A\.?\s*Ş\.?|Limited|Anonim)\b",
                          re.IGNORECASE)
 
@@ -199,7 +259,7 @@ def _aile_tespit(satirlar: list[Satir], muhatap_indeksi: int | None) -> str:
     if not baslik:
         return "dilekce"
     for s in baslik:
-        if _TC_BASLIK.match(s.metin.strip()):
+        if _TC_BASLIK.search(s.metin):
             return "kurum"
     for s in baslik:
         if _SIRKET_EKI.search(s.metin):
@@ -221,6 +281,11 @@ def _muhatap_satirini_bul(satirlar: list[Satir]) -> int | None:
     """
     for i, s in enumerate(satirlar):
         if _MUHATAP.match(s.metin.strip()):
+            return i
+    # Belirsiz muhatap ikinci turda aranır: gerçek bir makam adı varsa
+    # o kazanmalı, "İLGİLİ MAKAMA" ancak başka aday yoksa kabul edilir.
+    for i, s in enumerate(satirlar):
+        if _MUHATAP_BELIRSIZ.match(s.metin.strip()):
             return i
     return None
 
@@ -314,6 +379,17 @@ def _ekler(satirlar: list[Satir], sonuc: AyristirmaSonucu) -> None:
         m = _EK_SAYILI.match(s.metin)
         if m:
             adet = int(m.group(1))
+            # OCR "EKLER: 1 adet" ile madde satırını birleştirebiliyor
+            # (ölçüldü, belge_007: "EKLER: 1 adet 1 Başvuru formu").
+            kalan = s.metin[m.end():].strip()
+            if kalan:
+                mk = _EK_MADDE.match(kalan)
+                if mk:
+                    sonuc.ustveri.ekler.append(
+                        Ek(ham=kalan, sira=int(mk.group(1)),
+                           aciklama=mk.group(2).strip(),
+                           sayfa_sayisi=int(mk.group(3)) if mk.group(3) else None)
+                    )
             for j in range(i + 1, min(i + 1 + adet + 2, len(satirlar))):
                 mm = _EK_MADDE.match(satirlar[j].metin)
                 if not mm:
@@ -363,8 +439,25 @@ def _dagitim(satirlar: list[Satir], sonuc: AyristirmaSonucu) -> None:
 
 def _muhatap(satirlar: list[Satir], sonuc: AyristirmaSonucu, indeks: int) -> None:
     ham = satirlar[indeks].metin.strip()
+
+    # Belirsiz muhatap: satır var, makam adı yok. Uydurulmaz, işaretlenir.
+    if _MUHATAP_BELIRSIZ.match(ham):
+        sonuc.ustveri.muhatap.ham = ham
+        sonuc.ustveri.muhatap.tur = MuhatapTuru.KAMU_IDARESI
+        sonuc.uyarilar.append("Muhatap belirsiz: makam adı yazılmamış")
+        sonuc.kanit["ustveri.muhatap"] = _kanit(
+            ham, indeks, guven=0.30,
+            aciklama="Belgede makam adı yerine genel ifade var",
+        )
+        return
+
+    # Parantezli birim aynı satıra yapışmış olabilir (OCR).
+    m = _MUHATAP.match(ham)
+    makam = m.group(1).strip() if m else ham
+    yapisik_birim = m.group(2).strip() if m and m.group(2) else None
+
     sonuc.ustveri.muhatap.ham = ham
-    sonuc.ustveri.muhatap.idare = ham
+    sonuc.ustveri.muhatap.idare = makam
     # "DAĞITIM YERLERİNE" özel bir muhatap türü — tek bir idare değil.
     sonuc.ustveri.muhatap.tur = (
         MuhatapTuru.DAGITIM_YERLERI
@@ -372,6 +465,14 @@ def _muhatap(satirlar: list[Satir], sonuc: AyristirmaSonucu, indeks: int) -> Non
         else MuhatapTuru.KAMU_IDARESI
     )
     sonuc.kanit["ustveri.muhatap"] = _kanit(ham, indeks)
+
+    if yapisik_birim:
+        sonuc.ustveri.muhatap.birim = yapisik_birim
+        sonuc.kanit["ustveri.muhatap.birim"] = _kanit(
+            ham, indeks, guven=0.90,
+            aciklama="OCR muhatap ve birim satırlarını birleştirmiş",
+        )
+        return
 
     # Alt birim bir sonraki satırda, parantez içinde
     if indeks + 1 < len(satirlar):
@@ -454,8 +555,24 @@ def _imza(satirlar: list[Satir], sonuc: AyristirmaSonucu, sinir: int) -> None:
         if ad is None and _AD_SOYAD.match(metin):
             ad, ad_satiri = metin, i
             continue
-        if unvan is None:
+        if unvan is None and metin.strip().casefold() not in ("imza", "i̇mza"):
             unvan, unvan_satiri = metin, i
+
+    if ad is None:
+        # Üç satır tek satıra sıkışmış olabilir (OCR).
+        for i in range(kapanis + 1, min(kapanis + 5, len(satirlar))):
+            metin = satirlar[i].metin.strip()
+            if not metin or metin.lower().startswith("ek"):
+                break
+            m = _IMZA_TEK_SATIR.match(metin)
+            if m:
+                ad, ad_satiri = m.group(1).strip(), i
+                yetki = (m.group(2) or "").strip() or None
+                unvan = (m.group(3) or "").strip() or None
+                if unvan and unvan.casefold() in ("imza", "i̇mza"):
+                    unvan = None
+                unvan_satiri = i
+                break
 
     if ad is None:
         _dilekce_imzasi(satirlar, sonuc, sinir)
