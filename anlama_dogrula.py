@@ -174,6 +174,7 @@ def dili_kostur(ornekler, istemci, dil: str, yaz) -> dict:
     #   llm     modele soruldu            -> ASIL GENELLEME OLCUSU BU
     sdp_yol = {"regex": [0, 0], "sozluk": [0, 0], "llm": [0, 0]}
     sdp_muaf = 0
+    sdp_hatalari: list[tuple[str, str, str, str, list[str]]] = []
     sureler: list[float] = []
     tokenlar: list[int] = []
     aday_sayilari: list[int] = []
@@ -219,7 +220,16 @@ def dili_kostur(ornekler, istemci, dil: str, yaz) -> dict:
         # okumali. Etiketle karsilastirmak dogru davranisa ceza yazar.
         # (Ayni muafiyet ayristirici_dogrula.py'de de var.)
         beklenen_sdp = (e.get("sdp") or {}).get("kod")
-        if e.get("kusur") == "sdp_uyumsuz":
+        # İKİ MUAFİYET, ikisi de enjekte edilmiş kusurdan:
+        #
+        #   sdp_uyumsuz      etiket DÜZELTİLMİŞ kodu, belge BOZUK kodu tutar
+        #   muhatap_belirsiz muhatap KASTEN okunamaz; SDP adayları muhatabın
+        #                    biriminden türediği için aday listesi boş kalır
+        #
+        # İkincisi ölçümde 4 belgeyi haksız yere düşürüyordu. Boş aday
+        # listesi arıza değil, kusurun DOĞRU tespitidir — Denetçi'nin
+        # (Parça 4) yakalayacağı eksiklik tam olarak budur.
+        if e.get("kusur") in ("sdp_uyumsuz", "muhatap_belirsiz"):
             sdp_muaf += 1
         elif beklenen_sdp:
             kanit = s.kanit.get("siniflandirma.sdp")
@@ -228,6 +238,13 @@ def dili_kostur(ornekler, istemci, dil: str, yaz) -> dict:
             hedef[1] += 1
             bulunan_sdp = s.siniflandirma.sdp.kod if s.siniflandirma.sdp else None
             hedef[0] += bulunan_sdp == beklenen_sdp
+            if bulunan_sdp != beklenen_sdp and len(sdp_hatalari) < 12:
+                # Hangi adaylar sunulmustu — hata modelde mi daraltmada mi?
+                from anlama import sdp_adaylari
+                adaylar = sdp_adaylari(a.ustveri.muhatap.ham,
+                                       a.ustveri.muhatap.birim)
+                sdp_hatalari.append((no, yol, beklenen_sdp,
+                                     str(bulunan_sdp), [x[0] for x in adaylar]))
 
         varlik_sayisi.append(len(s.icerik.varliklar))
         if not s.icerik.talep:
@@ -264,9 +281,15 @@ def dili_kostur(ornekler, istemci, dil: str, yaz) -> dict:
     tumu_t = sum(v[1] for v in sdp_yol.values())
     yaz(f"   {'TOPLAM':8s} {'':20s} {tumu_d:3d}/{tumu_t:3d}  "
         f"{(tumu_d / tumu_t if tumu_t else 0):.0%}")
+    if sdp_hatalari:
+        yaz("\n   HATALAR (beklenen -> bulunan | sunulan adaylar)")
+        for no, yol, bek, bul, adaylar in sdp_hatalari:
+            icinde = "dogru cevap adaylarda" if bek in adaylar else "DOGRU CEVAP ADAYLARDA YOK"
+            yaz(f"      {no} [{yol}] {bek} -> {bul}")
+            yaz(f"          adaylar: {adaylar}  ({icinde})")
     if sdp_muaf:
-        yaz(f"   {'muaf (sdp_uyumsuz)':18s} {sdp_muaf:3d}      "
-            f"etiket duzeltilmis kodu tutuyor, belge bozugu")
+        yaz(f"   {'muaf':18s} {sdp_muaf:3d}      "
+            f"sdp_uyumsuz veya muhatap_belirsiz kusurlu")
 
     yaz("\nDARALTMA")
     if aday_sayilari:

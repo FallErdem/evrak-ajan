@@ -686,6 +686,15 @@ def anla(govde: str, ayristirma: AyristirmaSonucu, istemci,
     # Her adım bir öncekinden zayıf, o yüzden sona bırakılıyor.
     sdp_aday = (sdp_adaylari(u.muhatap.ham, u.muhatap.birim)
                 if sdp_kodu is None else [])
+    if sdp_kodu is None and not sdp_aday:
+        # Aday listesi boşsa muhatap bir birime çözülemedi. Bu bir arıza
+        # değil, KUSUR TESPİTİDİR: veri setindeki `muhatap_belirsiz`
+        # kusuru tam olarak bu durumu üretiyor (ölçüldü, 4/4).
+        # Denetçi (Parça 4) bu uyarıyı eksiklik olarak ele alacak.
+        sonuc.uyarilar.append(
+            "Muhatap bir birime çözülemedi; SDP adayı daraltılamadı "
+            "(muhatap belirsiz olabilir)"
+        )
     if sdp_kodu is None and sdp_aday:
         from sdp_katalog import konudan_kod_bul
 
