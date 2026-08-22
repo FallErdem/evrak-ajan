@@ -1,0 +1,292 @@
+{
+  "_aciklama": "kural_listesi.md'den TURETILEMEYEN insan kararlari. Donusturucu bu dosyayi kural_listesi.md ile birlestirip veri/kurallar.json uretir. Ayri durmasinin sebebi: kural_listesi.md duzeltilirse (35 kuralin aciklamasi kesik) bu kararlar kaybolmasin.",
+  "_surum": "1.1.0",
+  "_tarih": "2026-08-22",
+  "_alanlar": {
+    "yol": "Motorun okuyacagi nokta yolu. DIZE ya da SOZLUK olabilir. Sozlukse anahtarlar gelen/giden. ALAN_YOLLARI'na karsi dogrulanir.",
+    "denetim": "kural_listesi.md'den cikarilan turu EZER. Yalnizca B-01 kullaniyor (regex -> dogru_olmali).",
+    "liste_alani": "yol bir nesne listesine isaret ediyorsa, her elemanin hangi alanina bakilacagi.",
+    "yol_bolum": "alan_esitligi kurallarinda sol yolun kacinci bolumu alinacak (sayi_bolumleri).",
+    "karsi_yol": "alan_esitligi kurallarinda karsilastirilacak ikinci yol.",
+    "hedef": "gelen | giden. Varsayilan [gelen].",
+    "kapsam": "kapsama_girer_mi() icin kategori ya da tur adi. null ise her ture uygulanir.",
+    "uygulanir": "false ise motor kurali hic yuklemez, atlanan listesinde raporlar.",
+    "not": "uygulanir=false ise SEBEBI. Bos birakilamaz.",
+    "yontem_adi": "Ozel fonksiyon adi. kural_listesi.md'de yazmiyorsa buradan verilir (ornek: S-07)."
+  },
+  "kurallar": {
+    "B-01": {
+      "denetim": "dogru_olmali",
+      "yol": "baslik.tc_var",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": "kurum_yazisi",
+      "uygulanir": false,
+      "not": "OLCULDU 2026-08-22: ayristirici.py baslik blogunu hic uretmiyor (grep 'tc_var' -> 0 sonuc, ayristirici_dogrula.py ALANLAR 7 alan sayiyor, baslik yok). Alan daima None kalir, motor degismezi geregi atlanir. Yanlis alarm riski yok, ama kural da hicbir sey bulmaz. Ayristiriciya baslik cikarimi eklenirse true yapilacak."
+    },
+    "S-01": {
+      "yol": "ustveri.sayi",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": "kurum_yazisi",
+      "uygulanir": true,
+      "not": "sayi_eksik kusuru (12 belge). kota.json on kosul: kurum_yazisi. Taslakta sayi daima null -> hedef yalnizca gelen."
+    },
+    "S-02": {
+      "yol": "ustveri.sayi",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": null
+    },
+    "S-03": {
+      "yol": "ustveri.sayi",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": null
+    },
+    "S-04": {
+      "yol": "ustveri.sayi",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": null
+    },
+    "S-05": {
+      "yol": "ustveri.sayi",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": "'Sayi:' etiketi alana sizmis mi. Ayristirici etiketi ayikliyor, bu kural onun kacirdigini yakalar."
+    },
+    "S-06": {
+      "yol": "ustveri.sayi",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": null
+    },
+    "S-07": {
+      "denetim": "ozel_fonksiyon",
+      "yontem_adi": "sdp_kod_celiskisi",
+      "yol": null,
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": "kurum_yazisi",
+      "uygulanir": false,
+      "not": "Asama B: sdp_uyumsuz kusuru (12 belge). DUZELTILDI 2026-08-22: onceki tanim alan_esitligi(ustveri.sayi[bolum:3], siniflandirma.sdp.kod) idi ve HIC TETIKLENMEZDI - anlama.py sdp_sayidan_oku() o alani zaten sayinin 3. bolumunden dolduruyor, yani X ile X karsilastiriliyordu. Dogru tanim IKI BAGIMSIZ KAYNAK ister: (1) sayinin 3. bolumu, (2) sdp_katalog.konudan_kod_bul() ile govdeden bulunan kod. Olculdu: 83 temiz kurum yazisinda 82 uyum (1 yanlis alarm), 12 kusurlu belgede 11 yakalama. Fonksiyon Asama B'de yazilacak, o zaman uygulanir=true olacak."
+    },
+    "T-01": {
+      "yol": "ustveri.tarih",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": "tarih_eksik kusuru (12 belge). kota.json on kosul null -> her ture uygulanir. Taslakta tarih daima null -> hedef yalnizca gelen."
+    },
+    "T-04": {
+      "yol": "ustveri.tarih",
+      "karsi_yol": "kaynak.ham_metin",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": false,
+      "not": "Kural ham metnin BASLIK BLOGU bolgesinden tarih cikarmayi gerektiriyor ('kaynak.ham_metin[baslik_bloku_tarih]'). Bolge cikarma jenerik alan_esitligi isleyicisinin isi degil; Asama A kapsami disi."
+    },
+    "K-01": {
+      "yol": "ustveri.konu",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": "kurum_yazisi",
+      "uygulanir": true,
+      "not": "konu_eksik kusuru (10 belge). kota.json on kosul: kurum_yazisi."
+    },
+    "K-02": {
+      "yol": {
+        "gelen": "ustveri.konu",
+        "giden": "cikti_yazi.konu"
+      },
+      "hedef": [
+        "gelen",
+        "giden"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": "DEVIR_EK2 §5.3 bu kurali [gelen,giden] ornegi olarak veriyor."
+    },
+    "M-08": {
+      "yol": "ustveri.muhatap.birim",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": "OLCULDU: ayristirici.py satir 659 ve 671 bu alani dolduruyor ve kanit uretiyor. Taslakta muhatap alani ALAN_YOLLARI'nda yok -> giden uygulanamaz."
+    },
+    "I-04": {
+      "yol": "ustveri.ilgi",
+      "liste_alani": "ham",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": "OLCULDU: ayristirici.py satir 536 Ilgi(ham=kalan) uretiyor, alan dolu. liste_alani altyapisi ustveri.ekler ve ustveri.dagitim icin de kullanilacak."
+    },
+    "ME-01": {
+      "yol": "cikti_yazi.metin",
+      "hedef": [
+        "giden"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": "Yolu taslaga isaret ediyor. Varsayilan [gelen] birakilirsa gelen evrakta cikti_yazi.metin daima None olur ve kural her belgede tetiklenir. hedef [giden] ZORUNLU."
+    },
+    "ME-02": {
+      "yol": {
+        "gelen": "metin",
+        "giden": "cikti_yazi.metin"
+      },
+      "hedef": [
+        "gelen",
+        "giden"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": "kapanis_yanlis kusuru (10 belge, gelen evrakta). gelen yolu kaynak.ham_metin DEGIL: regex'in $ cipasi dizenin sonunu istiyor, ham metin imza+dipnot+altbilgi tasiyor, kapanis orada asla son olmaz."
+    },
+    "ME-10": {
+      "yol": {
+        "gelen": "metin",
+        "giden": "cikti_yazi.metin"
+      },
+      "hedef": [
+        "gelen",
+        "giden"
+      ],
+      "kapsam": null,
+      "uygulanir": false,
+      "not": "OLCULDU 2026-08-22: dayanak K 13.6 Kilavuz'da VAR (s.45, 'Metin Icinde Dikkat Edilmesi Gereken Yazim Kurallari') ama kural satirindaki tarif yanlis - 'Siklikla Yanlis Kullanilan Kelimeler tablosu' diye bir tablo yok. Sozluk cikarilmadi, kural kosturulamaz."
+    },
+    "ME-15": {
+      "yol": {
+        "gelen": "metin",
+        "giden": "cikti_yazi.metin"
+      },
+      "hedef": [
+        "gelen",
+        "giden"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": null
+    },
+    "ME-18": {
+      "yol": {
+        "gelen": "metin",
+        "giden": "cikti_yazi.metin"
+      },
+      "hedef": [
+        "gelen",
+        "giden"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": null
+    },
+    "ME-19": {
+      "yol": {
+        "gelen": "metin",
+        "giden": "cikti_yazi.metin"
+      },
+      "hedef": [
+        "gelen",
+        "giden"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": null
+    },
+    "IM-01": {
+      "yol": "ustveri.imza",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "not": "DUZELTILDI: kural_listesi.md 'ustveri.imza_sahibi_unvan' diyor, semada YOK. Blogun varligi denetleniyor (etiket_025 kusur_ayrinti: enjekte_edilen='' -> blogun tamami silinmis). Taslakta imza_ad daima null ama imza_unvan dolu -> alt alana baglanamaz, hedef [gelen]."
+    },
+    "G-01": {
+      "yol": "ustveri.gizlilik_derecesi",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": false,
+      "not": "OLCULDU 2026-08-22: ayristirici.py 'gizlilik' terimini hic kullanmiyor (grep -> 0). Alan daima None, kural atlanir."
+    },
+    "G-02": {
+      "yol": "ustveri.gizlilik_ham",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": false,
+      "not": "OLCULDU 2026-08-22: ayristirici gizlilik_ham alanini doldurmuyor. Ayrica kota.json'da gizlilik ile ilgili kusur profili yok, olculebilir kayip yok."
+    },
+    "G-03": {
+      "yol": "ustveri.ivedilik",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": false,
+      "not": "OLCULDU 2026-08-22: ayristirici 'ivedilik' terimini hic kullanmiyor (grep -> 0). Alan daima None."
+    },
+    "G-04": {
+      "yol": "ustveri.ivedilik_ham",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": false,
+      "not": "OLCULDU 2026-08-22: ayristirici ivedilik_ham doldurmuyor. Yol metin OLARAK SECILMEDI: 300 belgenin govdesinde 'ivedilikle' 6 kez mesru (tekit yazisi, Y 21) ve 'Ivedik' 2 kez semt adi olarak geciyor - metne bakan kural 8 yanlis alarm verirdi."
+    },
+    "TK-01": {
+      "yol": "ustveri.ilgi",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": "tekit_yazisi",
+      "uygulanir": true,
+      "not": "bos_liste_olmamali; motor degismezinin istisnasi, bos listede ATLANMAZ. kapsam zorunlu: tekit disindaki turlerde ilgi olmamasi normal."
+    },
+    "GN-01": {
+      "yol": "ustveri.konu",
+      "karsi_yol": "kaynak.ham_metin",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": false,
+      "not": "Kural ham metnin KONU bolgesini cikarmayi gerektiriyor ('kaynak.ham_metin[konu]'). Bolge cikarma Asama A kapsami disi; T-04 ile ayni sebep."
+    }
+  }
+}
