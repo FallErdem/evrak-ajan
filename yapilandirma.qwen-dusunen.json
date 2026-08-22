@@ -1,0 +1,23 @@
+{
+  "_aciklama": [
+    "OpenRouter uzerinden Qwen 3.8 27B — ACIK AGIRLIKLI model, DUSUNME ACIK.",
+    "",
+    "Ikizi yapilandirma.qwen.json dusunme KAPALI. Ikisini de kosun:",
+    "dusunme kaliteyi artirabilir ama gecikmeyi ve token maliyetini buyutur.",
+    "Hangisinin secilecegi olcumle belirlenir, tahminle degil.",
+    "",
+    "Anahtar: .gizli/api_anahtari.openrouter.txt (nemotron ile ayni)."
+  ],
+  "base_url": "https://openrouter.ai/api/v1",
+  "model": "qwen/qwen3.8-27b",
+  "anahtar_dosyasi": ".gizli/api_anahtari.openrouter.txt",
+  "zaman_asimi_sn": 120,
+  "azami_deneme": 3,
+  "ilk_bekleme_sn": 1.0,
+  "ek_parametreler": {
+    "max_tokens": 4096,
+    "reasoning": {
+      "enabled": true
+    }
+  }
+}

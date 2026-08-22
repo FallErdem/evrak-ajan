@@ -1,8 +1,13 @@
 """LLM sağlayıcı sondası — Anlama'yı yazmadan önce dört şeyi ölçer.
 
 NEREYE:  depo kökü
-NASIL:   python sonda_llm.py
-ÇIKTI:   ekrana + sonda_llm_sonuc.txt
+NASIL:   python sonda_llm.py                             -> yapilandirma.json
+         python sonda_llm.py yapilandirma.openrouter.json -> belirtilen dosya
+ÇIKTI:   ekrana + sonda_llm_sonuc_<yapilandirma adi>.txt
+
+Yapilandirma komut satirindan verilebiliyor; saglayici karsilastirmasi icin
+DOSYA TAKASI GEREKMEZ. Iki sondayi ard arda kosarsiniz, iki ayri cikti
+dosyasi olusur, yapilandirma.json'a ve anahtar dosyalarina hic dokunulmaz.
 
 NEDEN VAR
 ---------
@@ -20,8 +25,9 @@ NE ÖLÇER
 --------
 1  Düz çağrı çalışıyor mu           anahtar, adres, model doğru mu
 2  response_format geçiyor mu       şema zorlaması destekleniyor mu
-3  Enum kısıtı tutuyor mu           11 belge türü dışına çıkıyor mu
-4  Gecikme ve maliyet               300 belgelik koşu kaça mal olur
+3  Enum kısıtı VE DOĞRULUK          listede mi, VE doğru mu
+4  İstem dili                       İngilizce istem daha mı iyi
+5  Gecikme ve maliyet               300 belgelik koşu kaça mal olur
 
 HİÇBİR ŞEY VARSAYILMAZ. Her testin çıktısı ham hâliyle basılır; başarısız
 olan test için ne yapılacağı da yazılır.
@@ -41,8 +47,6 @@ from pathlib import Path
 
 KOK = Path(__file__).resolve().parent
 sys.path.insert(0, str(KOK / "src"))
-
-YAPILANDIRMA = KOK / "yapilandirma.json"
 
 ARAMA_YERLERI = (
     ("deneyler", "adim4", "belgeler_pdf"),
@@ -102,6 +106,26 @@ def belge_turleri() -> list[str]:
     sys.exit("Belge türleri bulunamadı. veri_yapisi.py veya kota.json gerekli.")
 
 
+def dogru_tur(no: str) -> str | None:
+    """Sonda belgesinin cevap anahtarındaki belge türü.
+
+    NEDEN VAR: ilk sürüm yalnızca "dönen değer listede mi" diye bakıyordu.
+    Bu yanıltıcı. Ölçüldü (2026-08-21, nemotron-3.5-lightning:free):
+
+        belge_003 -> 'sikayet'      LISTEDE ama YANLIŞ (cevap_yazisi olmalı)
+        belge_006 -> 'bilinmiyor'   LISTEDE ama YANLIŞ (ust_yazi olmalı)
+
+    Sonda "enum kisiti GECTI" dedi ve iki cevabın ikisi de yanlıştı. Şema
+    uyumu ile doğruluk ayrı şeylerdir; ikisi ayrı raporlanmalı.
+    """
+    for aday in KOK.rglob(f"etiket_{no}.json"):
+        try:
+            return json.loads(aday.read_text(encoding="utf-8")).get("belge_turu")
+        except Exception:  # noqa: BLE001
+            return None
+    return None
+
+
 def govde_al(klasor: Path | None, no: str) -> str | None:
     if klasor is None:
         return None
@@ -121,8 +145,15 @@ def kisalt(s: str, n: int = 400) -> str:
     return s if len(s) <= n else s[:n] + " …"
 
 
-def main() -> int:
+def main(argv: list[str]) -> int:
     from llm_istemci import istemci_olustur
+
+    yol = Path(argv[0]) if argv else KOK / "yapilandirma.json"
+    if not yol.is_absolute():
+        yol = KOK / yol
+    if not yol.exists():
+        sys.exit(f"yapilandirma bulunamadi: {yol}")
+    cikti_yolu = KOK / f"sonda_llm_sonuc_{yol.stem}.txt"
 
     satirlar: list[str] = []
 
@@ -134,18 +165,20 @@ def main() -> int:
     yaz("LLM SAGLAYICI SONDASI")
     yaz("=" * 72)
 
-    y = json.loads(YAPILANDIRMA.read_text(encoding="utf-8"))
+    y = json.loads(yol.read_text(encoding="utf-8"))
+    yaz(f"  yapilandirma     : {yol.name}")
     yaz(f"  base_url         : {y.get('base_url')}")
+    yaz(f"  anahtar dosyasi  : {y.get('anahtar_dosyasi')}")
     yaz(f"  model            : {y.get('model')}")
     yaz(f"  ek_parametreler  : {json.dumps(y.get('ek_parametreler'), ensure_ascii=False)}")
     yaz()
 
     try:
-        istemci = istemci_olustur(YAPILANDIRMA)
+        istemci = istemci_olustur(yol)
     except Exception as hata:  # noqa: BLE001
         yaz(f"ISTEMCI KURULAMADI: {type(hata).__name__}: {hata}")
         yaz("\nMuhtemel sebep: .gizli/api_anahtari.txt yok veya bos.")
-        (KOK / "sonda_llm_sonuc.txt").write_text("\n".join(satirlar), encoding="utf-8")
+        cikti_yolu.write_text("\n".join(satirlar), encoding="utf-8")
         return 1
 
     turler = belge_turleri()
@@ -216,7 +249,7 @@ def main() -> int:
     except Exception as hata:  # noqa: BLE001
         yaz(f"  BASARISIZ: {type(hata).__name__}: {hata}")
         yaz("  -> Adres, model adi veya anahtar yanlis. Devami anlamsiz.")
-        (KOK / "sonda_llm_sonuc.txt").write_text("\n".join(satirlar), encoding="utf-8")
+        cikti_yolu.write_text("\n".join(satirlar), encoding="utf-8")
         return 1
     yaz()
 
@@ -278,11 +311,14 @@ def main() -> int:
 
     # -- 3 -------------------------------------------------------------------
     yaz("-" * 72)
-    yaz("3  ENUM KISITI  (K-06 yeniden olcumu)")
+    yaz("3  ENUM KISITI VE DOGRULUK  (K-06 yeniden olcumu)")
     yaz("-" * 72)
-    yaz("  Her belge icin donen belge_turu listede mi.")
+    yaz("  LISTEDE = sema uyumu.  DOGRU = cevap anahtariyla ayni.")
+    yaz("  Ikisi AYRI seydir: liste disina cikmayan yanlis cevap da yanlistir.")
     disari_cikan = 0
     denenen = 0
+    dogru_sayisi = 0
+    olculebilen = 0
     for no, metin in metinler.items():
         try:
             if sema_calisiyor:
@@ -302,16 +338,96 @@ def main() -> int:
             icinde = tur in turler or tur == "bilinmiyor"
             if not icinde:
                 disari_cikan += 1
-            yaz(f"  belge_{no}: {str(tur):20s} {'LISTEDE' if icinde else 'LISTE DISI'}"
-                f"   {c.sure_ms:.0f} ms")
+            beklenen = dogru_tur(no)
+            if beklenen:
+                olculebilen += 1
+                dogru_mu = tur == beklenen
+                dogru_sayisi += int(dogru_mu)
+                not_ = ("DOGRU" if dogru_mu
+                        else f"YANLIS (beklenen: {beklenen})")
+            else:
+                not_ = "cevap anahtari yok"
+            yaz(f"  belge_{no}: {str(tur):16s} "
+                f"{'LISTEDE' if icinde else 'LISTE DISI':10s} {not_:34s}"
+                f" {c.sure_ms:>6.0f} ms")
         except Exception as hata:  # noqa: BLE001
             yaz(f"  belge_{no}: HATA {type(hata).__name__}: {hata}")
     sonuclar["enum kisiti"] = denenen > 0 and disari_cikan == 0
+    if olculebilen:
+        yaz(f"\n  dogruluk: {dogru_sayisi}/{olculebilen}")
+        sonuclar["dogruluk"] = dogru_sayisi == olculebilen
+        if dogru_sayisi < olculebilen:
+            yaz("  -> Sema uyumlu ama yanlis cevap veren model KULLANILAMAZ.")
+            yaz("     Ornek sayisi 2; kesin hukum degil, kirmizi bayrak.")
     yaz()
 
     # -- 4 -------------------------------------------------------------------
     yaz("-" * 72)
-    yaz("4  GECIKME VE MALIYET")
+    yaz("4  ISTEM DILI  (Turkce istem vs Ingilizce istem, her ikisinde TR cikti)")
+    yaz("-" * 72)
+    yaz("  Iddia: Turkce-merkezli olmayan modeller Ingilizce TALIMATI daha iyi")
+    yaz("  izler; CIKTI yine Turkce istenir. Inanmak yerine olculuyor.")
+    yaz("  UYARI: ornek sayisi 2. Bu bir duman testi, kanit degil.")
+
+    sistem_en = (
+        "You classify official correspondence of Turkish public institutions. "
+        "Use only information present in the document. If you are not sure, "
+        "answer 'bilinmiyor'; never guess. "
+        "IMPORTANT: write the 'gerekce' field in TURKISH."
+    )
+    istem_en = "Classify this document.\n\n"
+
+    tr_dogru = en_dogru = olculebilen_dil = 0
+    for no, metin in metinler.items():
+        beklenen = dogru_tur(no)
+        if not beklenen:
+            continue
+        olculebilen_dil += 1
+        for etiket, sis, on in (("TR", sistem, "Bu belgeyi sınıflandır:\n\n"),
+                                ("EN", sistem_en, istem_en)):
+            try:
+                if sema_calisiyor:
+                    c = istemci.metin_uret(on + metin[:2000], sistem_istemi=sis,
+                                           ek={"response_format": sema})
+                else:
+                    c = istemci.metin_uret(
+                        on + "YALNIZCA JSON: "
+                        '{"belge_turu": "...", "guven": 0.0, "gerekce": "..."}\n'
+                        f"belge_turu su listeden biri: {', '.join(turler)}, bilinmiyor\n\n"
+                        + metin[:2000], sistem_istemi=sis)
+                temiz = c.metin.strip().removeprefix("```json").removeprefix("```")
+                veri = json.loads(temiz.removesuffix("```").strip())
+                tur = veri.get("belge_turu")
+                ger = str(veri.get("gerekce") or "")
+                dogru = tur == beklenen
+                if etiket == "TR":
+                    tr_dogru += int(dogru)
+                else:
+                    en_dogru += int(dogru)
+                yaz(f"  belge_{no} [{etiket}] {str(tur):16s} "
+                    f"{'DOGRU' if dogru else 'YANLIS':6s} {c.sure_ms:>6.0f} ms")
+                yaz(f"           gerekce: {kisalt(ger, 110)}")
+            except Exception as hata:  # noqa: BLE001
+                yaz(f"  belge_{no} [{etiket}] HATA {type(hata).__name__}: {hata}")
+
+    if olculebilen_dil:
+        yaz(f"\n  Turkce istem : {tr_dogru}/{olculebilen_dil}")
+        yaz(f"  Ingilizce istem: {en_dogru}/{olculebilen_dil}")
+        if en_dogru > tr_dogru:
+            yaz("  -> Ingilizce istem onde. Anlama istemi Ingilizce yazilir,")
+            yaz("     cikti alanlari Turkce istenir. Genis olcum Parca 4'te.")
+        elif tr_dogru > en_dogru:
+            yaz("  -> Turkce istem onde. Istem dili degistirilmez.")
+        else:
+            yaz("  -> Fark yok. Iki ornekte ayrim cikmiyor; Turkce istemle")
+            yaz("     devam, cunku raporun ve jurinin dili Turkce.")
+        yaz("  Gerekce metinlerinin TURKCE geldigini GOZLE dogrulayin —")
+        yaz("  Ingilizce istem cikti dilini de kaydirabilir.")
+    yaz()
+
+    # -- 5 -------------------------------------------------------------------
+    yaz("-" * 72)
+    yaz("5  GECIKME VE MALIYET")
     yaz("-" * 72)
     yaz(f"  {istemci.ozet()}")
     n = istemci.cagri_sayisi or 1
@@ -345,10 +461,10 @@ def main() -> int:
         "kaydina K-06 ve K-07'nin Gemini icin yeniden olculmus hali olarak "
         "islenmelidir.", 72))
 
-    (KOK / "sonda_llm_sonuc.txt").write_text("\n".join(satirlar), encoding="utf-8")
-    print(f"\nTam cikti: {KOK / 'sonda_llm_sonuc.txt'}")
+    cikti_yolu.write_text("\n".join(satirlar), encoding="utf-8")
+    print(f"\nTam cikti: {cikti_yolu}")
     return 0
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(main(sys.argv[1:]))

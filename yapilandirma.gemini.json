@@ -1,0 +1,40 @@
+{
+  "_aciklama": [
+    "Gemini yapilandirmasi. Saglayici TARIFI - dogrudan kullanilmaz,",
+    "yapilandirma.json'un uzerine kopyalanarak etkinlestirilir:",
+    "",
+    "    copy yapilandirma.gemini.json yapilandirma.json",
+    "",
+    "Sonda ise takas gerektirmez, dosyayi dogrudan alir:",
+    "",
+    "    python sonda_llm.py yapilandirma.gemini.json",
+    "",
+    "ANAHTAR: bu tarif KENDI anahtar dosyasini gosterir. Saglayici",
+    "degistirirken anahtar dosyalari yerinden oynamaz, uzerine yazilmaz.",
+    "Dosyaya SADECE anahtar yazilir; 'Bearer ' onEki YAZILMAZ.",
+    "",
+    ".gizli/ klasoru .gitignore'da olmalidir - sartname madde 7 depoyu",
+    "herkese acik yapmayi zorunlu kiliyor, koda gomulu anahtar herkese acilir.",
+    "",
+    "OLCULDU (sonda, 2026-08-21): response_format ile sema zorlamasi GECIYOR",
+    "ve cagriyi 5 kat hizlandiriyor - istem ici semada 9,7-13,6 sn, sema",
+    "zorlamasiyla 2,1-2,5 sn. Sicaklik ayari Gemini 3.6 Flash'ta yok.",
+    "",
+    "reasoning_effort: dusunme butcesi. 'low' maliyeti dusurur. Bu alan",
+    "GEMINI'YE OZGU; OpenRouter dusunmeyi 'reasoning' alaniyla yonetiyor."
+  ],
+
+  "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+  "model": "gemini-3.6-flash",
+
+  "anahtar_dosyasi": ".gizli/api_anahtari.gemini.txt",
+
+  "zaman_asimi_sn": 120,
+  "azami_deneme": 3,
+  "ilk_bekleme_sn": 1.0,
+
+  "ek_parametreler": {
+    "max_tokens": 4096,
+    "reasoning_effort": "low"
+  }
+}

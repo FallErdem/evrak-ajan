@@ -1,0 +1,33 @@
+{
+  "_aciklama": [
+    "OpenRouter uzerinden Qwen 3.8 27B — ACIK AGIRLIKLI model.",
+    "",
+    "Anahtar: nemotron denemesinde kullanilan anahtarin AYNISI.",
+    ".gizli/api_anahtari.openrouter.txt zaten yerinde, dokunmayin.",
+    "",
+    "reasoning KAPALI. Ikizi yapilandirma.qwen-dusunen.json ACIK.",
+    "Ikisini de kosup karsilastirin; sonda ayri cikti dosyasi yazar:",
+    "",
+    "    python sonda_llm.py yapilandirma.qwen.json",
+    "    python sonda_llm.py yapilandirma.qwen-dusunen.json",
+    "",
+    "OLCULDU (nemotron-3.5-lightning:free, 2026-08-21): sema uyumu GECTI",
+    "ama iki siniflandirmanin ikisi de YANLIS, Turkce bozuk. Bir modelin",
+    "semaya uymasi dogru cevap verdigi anlamina GELMIYOR - sonda artik",
+    "ikisini ayri olcuyor."
+  ],
+
+  "base_url": "https://openrouter.ai/api/v1",
+  "model": "qwen/qwen3.8-27b",
+
+  "anahtar_dosyasi": ".gizli/api_anahtari.openrouter.txt",
+
+  "zaman_asimi_sn": 120,
+  "azami_deneme": 3,
+  "ilk_bekleme_sn": 1.0,
+
+  "ek_parametreler": {
+    "max_tokens": 4096,
+    "reasoning": { "enabled": false }
+  }
+}

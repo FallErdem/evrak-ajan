@@ -1,0 +1,41 @@
+{
+  "_aciklama": [
+    "OpenRouter yapilandirmasi. Gemini surumu yapilandirma.gemini.json olarak",
+    "saklanip bu dosya yapilandirma.json'un yerine kopyalanir; boylece iki",
+    "saglayici arasinda tek komutla gidip gelinir ve olcum tekrarlanabilir.",
+    "",
+    "ANAHTAR: .gizli/api_anahtari.openrouter.txt icine SADECE anahtar",
+    "yazilir - her yapilandirma KENDI anahtar dosyasini gosterir, boylece",
+    "saglayici degistirirken anahtar dosyalari yerinden oynamaz.",
+    "'Bearer ' onEki YAZILMAZ - istemci onu kendi ekliyor.",
+    "OpenRouter anahtari 'sk-or-v1-' ile baslar.",
+    "",
+    "reasoning: OpenRouter dusunmeyi bu alanla yonetiyor, Gemini'nin",
+    "reasoning_effort alaniyla ayni sey DEGIL. Kapatmakla basliyoruz:",
+    "sonda 1. cagrida 23,7 sn olctu, sema zorlamasiyla 2,1 sn'ye dustu -",
+    "gecikmenin buyuk kismi dusunme tokenlerinden geliyordu.",
+    "Once KAPALI olcun. Kalite dusukse acip tekrar olcun.",
+    "",
+    "max_tokens: bir hata dongusunde 65536 token uretilmesini engelleyen",
+    "emniyet kemeri. Bizim ciktimiz ~300 token.",
+    "",
+    "DIKKAT - ucretsiz katman: ':free' modellerde istek hizi sinirlidir ve",
+    "yogunlukta 429 doner. Istemcinin azami_deneme/ilk_bekleme ayarlari bunu",
+    "karsilar ama 300 belgelik tam kosu ucretsiz katmanda sarkabilir.",
+    "Once sondayi kosun, sonra karar verin."
+  ],
+
+  "base_url": "https://openrouter.ai/api/v1",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+
+  "anahtar_dosyasi": ".gizli/api_anahtari.openrouter.txt",
+
+  "zaman_asimi_sn": 120,
+  "azami_deneme": 3,
+  "ilk_bekleme_sn": 1.0,
+
+  "ek_parametreler": {
+    "max_tokens": 4096,
+    "reasoning": { "enabled": false }
+  }
+}
