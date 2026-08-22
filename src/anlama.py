@@ -547,11 +547,11 @@ _KALIPLAR = {
 # Sert eleme yapılsaydı jürinin getireceği bir belgede kurtarılamayan
 # hata olurdu.
 YAPISAL_ORUNTU: dict[tuple[bool, bool], str] = {
-    (True, True): "ust_yazi (18/18) veya bilgilendirme (25/42); "
+    (True, True): "ust_yazi (18/18) veya bilgilendirme_yazisi (25/42); "
                   "talep_yazisi nadir (2/38)",
     (True, False): "cevap_yazisi (34/34), tekit_yazisi (10/10), "
                    "talep_yazisi (16/38) veya gorus_talebi (7/20)",
-    (False, True): "bilgilendirme (17/42), olur_yazisi (6/6) veya "
+    (False, True): "bilgilendirme_yazisi (17/42), olur_yazisi (6/6) veya "
                    "talep_yazisi (3/38)",
     (False, False): "talep_yazisi (17/38) veya gorus_talebi (13/20); "
                     "kurum yazısında başka tür bu profilde ölçülmedi",
@@ -581,8 +581,22 @@ def istem_kur(govde: str, ayristirma: AyristirmaSonucu,
         f"{k['muhatap']:22s}: {u.muhatap.ham or '—'}",
     ]
 
+    # İstemdeki ad ile ŞEMADAKİ ad AYNI olmalı.
+    #
+    # HATA — ölçümde yakalandı: istem "dilekce seç" diyordu ama şema enum'u
+    # yalnızca "vatandas_dilekcesi" kabul ediyordu. Model istediği cevabı
+    # VEREMİYOR, en yakınına ya da bilinmiyor'a düşüyordu. Başarısız üç
+    # sınıf tam olarak adı değişen üç sınıftı:
+    #
+    #     istem          şema                        F1
+    #     dilekce        vatandas_dilekcesi          0.00
+    #     bilgi_edinme   bilgi_edinme_basvurusu      0.80
+    #     bilgilendirme  bilgilendirme_yazisi        1.00  (önek eşleşiyor)
+    #
+    # Tanım tablosu etiket adıyla anahtarlı; ETİKET adıyla arayıp ŞEMA
+    # adıyla gösteriyoruz.
     tanimlar = "\n".join(
-        f"  {t:15s} {tanim_tablosu.get(t, '')}"
+        f"  {ETIKETTEN_SEMAYA.get(t, t):24s} {tanim_tablosu.get(t, '')}"
         for t in aday_etiketler + ["bilinmiyor"]
     )
 

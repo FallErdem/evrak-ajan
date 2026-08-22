@@ -8,75 +8,27 @@ diller       : tr, en
 DIL: TR   30 belge
 ==========================================================================
 
-BELGE TURU   macro-F1 0.861   duz dogruluk 26/30 = 87%
+BELGE TURU   macro-F1 0.964   duz dogruluk 29/30 = 97%
 sinif                          F1  kesinlik  duyarlilik  adet
 --------------------------------------------------------------
-bilgi_edinme_basvurusu       0.80      1.00        0.67     3
+bilgi_edinme_basvurusu       1.00      1.00        1.00     3
 bilgilendirme_yazisi         1.00      1.00        1.00     3
 cevap_yazisi                 1.00      1.00        1.00     3
 gorus_talebi                 1.00      1.00        1.00     3
 sikayet                      1.00      1.00        1.00     3
 talep_yazisi                 1.00      1.00        1.00     3
 ust_yazi                     1.00      1.00        1.00     3
-vatandas_dilekcesi           0.00      0.00        0.00     3
-itiraz                       0.67      0.50        1.00     2
-olur_yazisi                  1.00      1.00        1.00     2
-tekit_yazisi                 1.00      1.00        1.00     2
-
-YANLIS SINIFLANDIRMALAR (beklenen -> bulunan)
-   005: vatandas_dilekcesi -> itiraz
-   007: vatandas_dilekcesi -> itiraz
-   011: vatandas_dilekcesi -> bilinmiyor
-   050: bilgi_edinme_basvurusu -> bilinmiyor
-
-SDP
-   okuma (sayidan)     15/ 15  100%
-   tahmin (LLM)         7/ 13  54%
-   muaf (sdp_uyumsuz)   2      etiket duzeltilmis kodu tutuyor, belge bozugu
-
-DARALTMA
-   ortalama aday : 4.40 / 11
-   LLM cagrilmadan cozulen : 0/30
-
-GECIKME VE MALIYET
-   cagri sayisi  : 30
-   p50 / p95     : 11670 / 26936 ms
-   ortalama token: 1428
-   300 belge tahmini: 429k token
-
-DIGER
-   belge basina varlik: 6.8
-   talep bos          : 0/30
-
-==========================================================================
-DIL: EN   30 belge
-==========================================================================
-
-BELGE TURU   macro-F1 0.832   duz dogruluk 25/30 = 83%
-sinif                          F1  kesinlik  duyarlilik  adet
---------------------------------------------------------------
-bilgi_edinme_basvurusu       0.86      0.75        1.00     3
-bilgilendirme_yazisi         1.00      1.00        1.00     3
-cevap_yazisi                 1.00      1.00        1.00     3
-gorus_talebi                 1.00      1.00        1.00     3
-sikayet                      1.00      1.00        1.00     3
-talep_yazisi                 0.50      1.00        0.33     3
-ust_yazi                     1.00      1.00        1.00     3
-vatandas_dilekcesi           0.00      0.00        0.00     3
+vatandas_dilekcesi           0.80      1.00        0.67     3
 itiraz                       0.80      0.67        1.00     2
 olur_yazisi                  1.00      1.00        1.00     2
 tekit_yazisi                 1.00      1.00        1.00     2
 
 YANLIS SINIFLANDIRMALAR (beklenen -> bulunan)
    005: vatandas_dilekcesi -> itiraz
-   007: vatandas_dilekcesi -> bilinmiyor
-   009: talep_yazisi -> bilinmiyor
-   011: vatandas_dilekcesi -> bilgi_edinme_basvurusu
-   016: talep_yazisi -> bilinmiyor
 
 SDP
    okuma (sayidan)     15/ 15  100%
-   tahmin (LLM)        10/ 13  77%
+   tahmin (LLM)         6/ 13  46%
    muaf (sdp_uyumsuz)   2      etiket duzeltilmis kodu tutuyor, belge bozugu
 
 DARALTMA
@@ -85,12 +37,54 @@ DARALTMA
 
 GECIKME VE MALIYET
    cagri sayisi  : 30
-   p50 / p95     : 11147 / 28717 ms
-   ortalama token: 1332
-   300 belge tahmini: 400k token
+   p50 / p95     : 8335 / 21499 ms
+   ortalama token: 1383
+   300 belge tahmini: 415k token
 
 DIGER
-   belge basina varlik: 5.9
+   belge basina varlik: 5.5
+   talep bos          : 0/30
+
+==========================================================================
+DIL: EN   30 belge
+==========================================================================
+
+BELGE TURU   macro-F1 0.945   duz dogruluk 28/30 = 93%
+sinif                          F1  kesinlik  duyarlilik  adet
+--------------------------------------------------------------
+bilgi_edinme_basvurusu       1.00      1.00        1.00     3
+bilgilendirme_yazisi         1.00      1.00        1.00     3
+cevap_yazisi                 0.80      1.00        0.67     3
+gorus_talebi                 1.00      1.00        1.00     3
+sikayet                      1.00      1.00        1.00     3
+talep_yazisi                 1.00      1.00        1.00     3
+ust_yazi                     1.00      1.00        1.00     3
+vatandas_dilekcesi           0.80      1.00        0.67     3
+itiraz                       0.80      0.67        1.00     2
+olur_yazisi                  1.00      1.00        1.00     2
+tekit_yazisi                 1.00      1.00        1.00     2
+
+YANLIS SINIFLANDIRMALAR (beklenen -> bulunan)
+   005: vatandas_dilekcesi -> itiraz
+   031: cevap_yazisi -> bilinmiyor
+
+SDP
+   okuma (sayidan)     15/ 15  100%
+   tahmin (LLM)         6/ 13  46%
+   muaf (sdp_uyumsuz)   2      etiket duzeltilmis kodu tutuyor, belge bozugu
+
+DARALTMA
+   ortalama aday : 4.40 / 11
+   LLM cagrilmadan cozulen : 0/30
+
+GECIKME VE MALIYET
+   cagri sayisi  : 30
+   p50 / p95     : 8511 / 17022 ms
+   ortalama token: 1296
+   300 belge tahmini: 389k token
+
+DIGER
+   belge basina varlik: 5.2
    talep bos          : 0/30
 
 ==========================================================================
@@ -98,15 +92,15 @@ KARSILASTIRMA VE ADIM 4 KAPISI
 ==========================================================================
 olcut                         esik         TR         EN
 --------------------------------------------------------------
-belge turu macro-F1           0.85      0.861      0.832   GECTI
+belge turu macro-F1           0.85      0.964      0.945   GECTI
 SDP okuma                     0.98      1.000      1.000   GECTI
-SDP tahmin                    0.60      0.538      0.769   GECTI
+SDP tahmin                    0.60      0.462      0.462   KALDI
 
-p50 gecikme (ms)                        11670      11147
-toplam token                            42852      39964
+p50 gecikme (ms)                         8335       8511
+toplam token                            41501      38891
 
-istemcinin bildirdigi toplam token: 82816
-sure: 1056 sn
+istemcinin bildirdigi toplam token: 80392
+sure: 762 sn
 
 UYARI: ayri tutulmus degerlendirme seti YOK. Bu olcum gelistirme
 setinde yapildi. Istemi olcume bakarak defalarca elden gecirmeyin;
