@@ -73,6 +73,16 @@ def katalog() -> dict[str, dict]:
     return kayitlar
 
 
+def ornek_konular(kod: str, azami: int = 3) -> list[str]:
+    """Kodun örnek konu başlıkları — LLM istemine konur.
+
+    Model anlamsal eşleştirme yapabilsin diye. Dize benzerliğinin
+    yakalayamadığı parafrazları model yakalar.
+    """
+    kayit = katalog().get((kod or "").strip())
+    return kayit["ornek_konular"][:azami] if kayit else []
+
+
 def kod_adi(kod: str | None) -> str | None:
     """SDP kodunun adı. Bulunamazsa üst kırılıma düşülür.
 
@@ -94,6 +104,111 @@ def saklama_suresi(kod: str | None) -> str | None:
         return None
     kayit = katalog().get(kod.strip())
     return kayit["saklama_suresi"] if kayit else None
+
+
+# -----------------------------------------------------------------------------
+# Konu eşleştirme
+# -----------------------------------------------------------------------------
+
+# YALNIZCA TAM ALT DİZE EŞLEŞMESİ KABUL EDİLİR.
+#
+# İlk sürüm 0.60 bulanık eşiği kullanıyordu ve %95 isabet ölçüyordu. O sayı
+# GEÇERSİZDİ. YONTEM.md `ornek_konular` sütunu için açıkça şunu diyor:
+#
+#     "Bu sütun kaynakta yoktur; kurumsal yazışma pratiğinden yazılmıştır.
+#      Veri setinin en yumuşak kısmı budur — kodlar doğrulanabilir,
+#      konu başlıkları doğrulanamaz."
+#
+# Üreteç belgenin konusunu bu listeden SEÇTİ. Gövdeyi aynı listeye karşı
+# bulanık eşleştirmek "üretecin kullandığı dizeyi bulabildim" demektir;
+# genelleme ölçüsü değildir. Ölçülen dağılım:
+#
+#     tam alt dize      37 belge (%28)  isabet 36/37
+#     bulanık 0.60-0.99 92 belge (%70)  isabet 87/92   <- döngüsel
+#     eşleşme yok        3 belge (%2)
+#
+# Tam alt dize farklıdır: belgede katalogdaki konu başlığı BİREBİR
+# yazıyorsa eşleştirmek her veri setinde meşrudur. Yalnızca bizim
+# setimizde %28 sıklıkla oluyor; gerçekte daha seyrek olur.
+#
+# Bulanık bölge LLM'e devredildi. Maliyeti YOK: SDP zaten belge türüyle
+# aynı çağrıda soruluyor, yalnızca istem biraz uzuyor. Model anlamsal
+# eşleştirme yapar — "yaptığım yardımın belgesi" ile "Bağış Makbuzu"yu
+# bağlayabilir; dize benzerliği bağlayamaz.
+TAM_ESLESME = 1.0
+
+
+def konudan_kod_bul(
+    metin: str, adaylar: list[str], esik: float = TAM_ESLESME
+) -> tuple[str | None, float]:
+    """Belge metnini aday kodların ÖRNEK KONULARIYLA eşleştirir.
+
+    NEDEN — LLM'e aday listesi vermek SDP tahminini %0'dan %46'ya çıkardı
+    ama orada takıldı (5 adaydan seçim, rastgele %20). Katalogda
+    `ornek_konular` sütunu duruyordu ve kullanılmıyordu:
+
+        622.02  Belge Talepleri
+                "Belge Talebinin Karşılanamaması" | "Suret Talebi" | ...
+
+    Gerçek dosya planlarında bu sütun tam da memurun "bu evrak hangi koda
+    girer" diye bakması için vardır. Kullanmak standart arşiv yöntemidir.
+
+    ÖLÇÜLDÜ:
+        LLM tahmini (5 adaydan)         : %46
+        örnek konu eşleştirme           : %95   (132 belge)
+        gerçek gövde metniyle doğrulama : 3/3
+
+    DÜRÜSTLÜK NOTU — RAPORA GİRECEK:
+    Veri setinin `konu` alanları bu `ornek_konular` havuzundan seçilerek
+    üretildi. Dolayısıyla %95 iyimser bir sayıdır; gerçek dünyada konu
+    ifadesi katalogla birebir örtüşmez. Yöntemin kendisi geçerlidir,
+    ölçülen oran bu veri setine özgüdür.
+
+    Döner: (kod, benzerlik). Eşik altında (None, benzerlik) döner ve
+    çağıran taraf LLM'e devreder.
+    """
+    from metin import katla
+
+    m = katla(metin)
+    if not m or not adaylar:
+        return None, 0.0
+
+    k = katalog()
+    en_iyi_oran, en_iyi_kod = 0.0, None
+    for kod in adaylar:
+        kayit = k.get(kod) or {}
+        # Kodun ADI da aday: bazı belgeler kod adını doğrudan kullanıyor.
+        for ornek in [kayit.get("ad", "")] + kayit.get("ornek_konular", []):
+            if not ornek:
+                continue
+            oran = _en_iyi_pencere(katla(ornek), m)
+            if oran > en_iyi_oran:
+                en_iyi_oran, en_iyi_kod = oran, kod
+
+    if en_iyi_oran < esik:
+        return None, en_iyi_oran
+    return en_iyi_kod, en_iyi_oran
+
+
+def _en_iyi_pencere(aranan: str, metin: str) -> float:
+    """Aranan ifadenin metindeki en iyi eşleşme oranı."""
+    from difflib import SequenceMatcher
+
+    if not aranan:
+        return 0.0
+    if aranan in metin:
+        return 1.0
+    if len(metin) <= len(aranan):
+        return SequenceMatcher(None, aranan, metin).ratio()
+    adim = max(1, len(aranan) // 3)
+    en_iyi = 0.0
+    for i in range(0, len(metin) - len(aranan) + 1, adim):
+        oran = SequenceMatcher(None, aranan, metin[i:i + len(aranan) + adim]).ratio()
+        if oran > en_iyi:
+            en_iyi = oran
+        if en_iyi >= 0.95:
+            break
+    return en_iyi
 
 
 if __name__ == "__main__":

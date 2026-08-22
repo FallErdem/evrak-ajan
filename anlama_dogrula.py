@@ -168,8 +168,11 @@ def dili_kostur(ornekler, istemci, dil: str, yaz) -> dict:
     yaz("=" * 74)
 
     ciftler: list[tuple[str | None, str]] = []
-    sdp_okuma = [0, 0]        # dogru, toplam
-    sdp_tahmin = [0, 0]
+    # SDP UC yoldan cozuluyor, ucu de AYRI olculmeli:
+    #   regex   sayidan okundu           -> genellenir
+    #   sozluk  katalogda BIREBIR gecti   -> genellenir ama bizde sik
+    #   llm     modele soruldu            -> ASIL GENELLEME OLCUSU BU
+    sdp_yol = {"regex": [0, 0], "sozluk": [0, 0], "llm": [0, 0]}
     sdp_muaf = 0
     sureler: list[float] = []
     tokenlar: list[int] = []
@@ -219,9 +222,9 @@ def dili_kostur(ornekler, istemci, dil: str, yaz) -> dict:
         if e.get("kusur") == "sdp_uyumsuz":
             sdp_muaf += 1
         elif beklenen_sdp:
-            sayidan = bool(s.siniflandirma.sdp
-                           and s.siniflandirma.sdp.kaynak_sayidan_mi)
-            hedef = sdp_okuma if sayidan else sdp_tahmin
+            kanit = s.kanit.get("siniflandirma.sdp")
+            yol = kanit.yontem.value if kanit else "llm"
+            hedef = sdp_yol.setdefault(yol, [0, 0])
             hedef[1] += 1
             bulunan_sdp = s.siniflandirma.sdp.kod if s.siniflandirma.sdp else None
             hedef[0] += bulunan_sdp == beklenen_sdp
@@ -250,9 +253,17 @@ def dili_kostur(ornekler, istemci, dil: str, yaz) -> dict:
         for no, bek, bul in hatalar:
             yaz(f"   {no}: {bek} -> {bul}")
 
-    yaz("\nSDP")
-    for ad, (d, t) in (("okuma (sayidan)", sdp_okuma), ("tahmin (LLM)", sdp_tahmin)):
-        yaz(f"   {ad:18s} {d:3d}/{t:3d}  {(d / t if t else 0):.0%}")
+    yaz("\nSDP — uc yol ayri")
+    for yol, aciklama in (("regex", "sayidan okundu"),
+                          ("sozluk", "katalogda birebir"),
+                          ("llm", "modele soruldu")):
+        d, tp = sdp_yol.get(yol, [0, 0])
+        yaz(f"   {yol:8s} {aciklama:20s} {d:3d}/{tp:3d}  "
+            f"{(d / tp if tp else 0):.0%}")
+    tumu_d = sum(v[0] for v in sdp_yol.values())
+    tumu_t = sum(v[1] for v in sdp_yol.values())
+    yaz(f"   {'TOPLAM':8s} {'':20s} {tumu_d:3d}/{tumu_t:3d}  "
+        f"{(tumu_d / tumu_t if tumu_t else 0):.0%}")
     if sdp_muaf:
         yaz(f"   {'muaf (sdp_uyumsuz)':18s} {sdp_muaf:3d}      "
             f"etiket duzeltilmis kodu tutuyor, belge bozugu")
@@ -281,7 +292,8 @@ def dili_kostur(ornekler, istemci, dil: str, yaz) -> dict:
             yaz(f"   {u}")
 
     return {"f1": f1, "dogruluk": dogru / len(ciftler) if ciftler else 0.0,
-            "sdp_okuma": sdp_okuma, "sdp_tahmin": sdp_tahmin,
+            "sdp_okuma": sdp_yol["regex"], "sdp_tahmin": sdp_yol["llm"],
+            "sdp_sozluk": sdp_yol["sozluk"],
             "p50": yuzdelik(sureler, 0.5), "token": sum(tokenlar)}
 
 
@@ -337,8 +349,9 @@ def main(argv: list[str]) -> int:
             yaz(f"{ad:26s} {esik:7.2f} {im}   {'GECTI' if gecti else 'KALDI'}")
 
         satir("belge turu macro-F1", 0.85, [sonuclar[d]["f1"] for d in diller])
-        for ad, anahtar, esik in (("SDP okuma", "sdp_okuma", 0.98),
-                                  ("SDP tahmin", "sdp_tahmin", 0.60)):
+        for ad, anahtar, esik in (("SDP okuma (sayidan)", "sdp_okuma", 0.98),
+                                  ("SDP katalog (birebir)", "sdp_sozluk", 0.90),
+                                  ("SDP tahmin (LLM)", "sdp_tahmin", 0.60)):
             degerler = []
             for d in diller:
                 dg, tp = sonuclar[d][anahtar]

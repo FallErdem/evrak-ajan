@@ -354,7 +354,8 @@ _SAYIDAN_SDP = re.compile(r"^E-\d{8}-([\d.]+)-\d+$")
 
 
 def sdp_adaylari(muhatap_ham: str | None,
-                 muhatap_birim: str | None = None) -> list[tuple[str, str]]:
+                 muhatap_birim: str | None = None
+                 ) -> list[tuple[str, str, list[str]]]:
     """Muhataptan birimi bulup O BİRİMİN SDP kodlarını döndürür.
 
     NEDEN — ilk ölçümde SDP tahmini 0/11 = %0 çıktı. Sebep model değil,
@@ -369,8 +370,9 @@ def sdp_adaylari(muhatap_ham: str | None,
     Yani daraltma doğru cevabı ASLA elemiyor ve arama uzayını 140 kat
     küçültüyor. Aynı desen belge türünde de kullanıldı.
 
-    (kod, ad) ikilileri döner; ad modele kodun ne anlama geldiğini
-    söylüyor — çıplak kod listesi seçim için yeterli bilgi taşımaz.
+    (kod, ad, ornek_konular) üçlüleri döner. Ad ve örnek konular modele
+    kodun ne kapsadığını söylüyor; çıplak kod listesi seçim için yeterli
+    bilgi taşımaz.
     """
     if not muhatap_ham and not muhatap_birim:
         return []
@@ -389,7 +391,8 @@ def sdp_adaylari(muhatap_ham: str | None,
     birim = birim_bul(kod) if kod else None
     if not birim:
         return []
-    return [(k, kod_adi(k) or "") for k in birim["sdp_kodlari"]]
+    from sdp_katalog import ornek_konular
+    return [(k, kod_adi(k) or "", ornek_konular(k)) for k in birim["sdp_kodlari"]]
 
 
 def sdp_sayidan_oku(sayi: str | None) -> str | None:
@@ -410,7 +413,7 @@ def sdp_sayidan_oku(sayi: str | None) -> str | None:
 
 
 def sema_kur(aday_etiketler: list[str], sdp_sorulacak: bool,
-             sdp_aday: list[tuple[str, str]] | None = None) -> dict:
+             sdp_aday: list[tuple[str, str, list[str]]] | None = None) -> dict:
     """response_format şemasını kurar; enum daraltılmış hâliyle konur.
 
     Şema `bilinmiyor`u daima içerir. Sayısal kısıt KONMAZ — Ollama'da
@@ -468,7 +471,7 @@ def sema_kur(aday_etiketler: list[str], sdp_sorulacak: bool,
             # Enum: model listenin DIŞINA çıkamaz. Uydurma kod imkânsız.
             ozellikler["sdp_kodu"] = {
                 "type": "string",
-                "enum": [k for k, _ in sdp_aday],
+                "enum": [a[0] for a in sdp_aday],
                 "description": "Muhatap birimin baktığı kodlardan biri.",
             }
         else:
@@ -561,7 +564,7 @@ YAPISAL_ORUNTU: dict[tuple[bool, bool], str] = {
 def istem_kur(govde: str, ayristirma: AyristirmaSonucu,
               aday_etiketler: list[str], sdp_sorulacak: bool,
               dil: str = "tr",
-              sdp_aday: list[tuple[str, str]] | None = None) -> str:
+              sdp_aday: list[tuple[str, str, list[str]]] | None = None) -> str:
     """İstemi kurar. Ayrıştırıcının bildiği her şey HAZIR verilir.
 
     dil: "tr" veya "en". İkisi de aynı bilgiyi taşır; yalnızca yönerge
@@ -614,7 +617,11 @@ def istem_kur(govde: str, ayristirma: AyristirmaSonucu,
             # Kod ADIYLA birlikte veriliyor; çıplak kod listesi seçim için
             # yeterli bilgi taşımaz.
             parcalar += [k["sdp_liste"]]
-            parcalar += [f"  {kod:12s} {ad}" for kod, ad in sdp_aday]
+            for kod, ad, ornekler in sdp_aday:
+                parcalar.append(f"  {kod:12s} {ad}")
+                if ornekler:
+                    parcalar.append(f"               örnek konular: "
+                                    f"{' | '.join(ornekler)}")
             parcalar += [""]
         else:
             parcalar += [k["sdp"], ""]
@@ -673,9 +680,26 @@ def anla(govde: str, ayristirma: AyristirmaSonucu, istemci,
         return sonuc
 
     # --- Katman 2: tek LLM çağrısı ------------------------------------------
-    sdp_sorulacak = sdp_kodu is None
+    # --- SDP 2. hat: örnek konu eşleştirme (deterministik) ------------------
+    #
+    # Sıra önemli: sayıdan OKU -> örnek konuyla EŞLEŞTİR -> modele SOR.
+    # Her adım bir öncekinden zayıf, o yüzden sona bırakılıyor.
     sdp_aday = (sdp_adaylari(u.muhatap.ham, u.muhatap.birim)
-                if sdp_sorulacak else [])
+                if sdp_kodu is None else [])
+    if sdp_kodu is None and sdp_aday:
+        from sdp_katalog import konudan_kod_bul
+
+        eslesen, oran = konudan_kod_bul(govde, [a[0] for a in sdp_aday])
+        if eslesen:
+            sonuc.siniflandirma.sdp = SdpKodu(kod=eslesen, kaynak_sayidan_mi=False)
+            sonuc.kanit["siniflandirma.sdp"] = _kanit(
+                eslesen, KanitYontemi.SOZLUK, min(oran, 0.95),
+                f"Muhatap birimin {len(sdp_aday)} kodundan örnek konu "
+                f"eşleşmesiyle bulundu (benzerlik {oran:.2f})",
+            )
+            sdp_kodu = eslesen
+
+    sdp_sorulacak = sdp_kodu is None
     istem = istem_kur(govde, ayristirma, adaylar, sdp_sorulacak, dil, sdp_aday)
     sema = sema_kur(adaylar, sdp_sorulacak, sdp_aday)
 
