@@ -107,11 +107,22 @@ def beklentiler(e: dict) -> dict[str, object | None]:
     # Dilekçede ikisi de yok (belge_sablonu.json vatandas_dilekcesi).
     baslikli = tip in ("kurum", "ozel_tuzel_kisi")
 
+    # İlgi satırı YALNIZCA kurum yazısı şablonunda basılıyor.
+    #
+    # Ölçüldü (300 etiket): ilgi etiketi taşıyan 120 belgenin 112'si kurum,
+    # 8'i değil — 6 gerçek kişi, 1 özel tüzel kişi, 1 öğrenci, hepsi itiraz.
+    # tani.py belge_062 ve belge_081'de "İlgi :" satırının hiç basılmadığını
+    # gösterdi. O 8 belgede gövde "İlgi'de kayıtlı yazı ile..." diyor ama
+    # cümlede ne tarih ne sayı var; atıf yapılan belge metinden çıkarılamıyor.
+    #
+    # Belgeden çıkarılamayan bir etiket geçerli bir test vakası değildir.
+    ilgili_aile = tip == "kurum"
+
     bek: dict[str, object | None] = {
         "sayi": e.get("sayi"),
         "tarih": e.get("tarih"),
         "konu": e.get("konu") if baslikli else None,
-        "ilgi": e.get("ilgi"),
+        "ilgi": e.get("ilgi") if ilgili_aile else None,
         "ek": e.get("ek"),
         "muhatap": e.get("muhatap_makam"),
         "imza": True if baslikli else None,
@@ -272,7 +283,8 @@ def main(argv: list[str]) -> int:
                 okuma_hatasi.append(f"{no}: {r.hata}")
                 continue
 
-            a = ayristir(r.ayrilmis.govde_satirlari)
+            a = ayristir(r.ayrilmis.govde_satirlari,
+                         dipnot_var=r.ayrilmis.dipnot_bulundu)
             bek = beklentiler(e)
             bul = bulunanlar(a.ustveri)
 

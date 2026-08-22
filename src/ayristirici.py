@@ -146,8 +146,12 @@ _BILGI = re.compile(r"^\s*Bilgi\s*[:：]?\s*$", re.IGNORECASE)
 # değil: o belgede parantez satırı hiç yok.
 #
 # Çözüm: parantezli kuyruğu kalıbın DIŞINDA tut, ikinci gruba al.
+# Acilis parantezi OCR'da dusuyor (olculdu, tani.py belge_089):
+#     'GAZİ ÜNİVERSİTESİNE Öğrenci İşleri Daire Başkanlığı)'
+# Bu yüzden '(' isteğe bağlı, ')' zorunlu. Kapanış parantezi güçlü bir çıpa:
+# gövde cümlesi parantezle bitmez.
 _MUHATAP = re.compile(
-    r"^([^a-zçğıöşü]{8,}(?:NE|NA|ne|na))\s*(?:\(([^)]*)\))?\s*$"
+    r"^([^a-zçğıöşü]{8,}(?:NE|NA|ne|na))\s*(?:\(?([^)]*)\))?\s*$"
 )
 
 # Muhatabı belirsiz bırakılmış yazı. Gerçek yazışmada kullanılan bir kalıptır
@@ -158,6 +162,29 @@ _MUHATAP = re.compile(
 # satır BULUNMUŞ sayılmalı ki aile/tarih/imza çağlayanı kopmasın, ama
 # muhatap BELİRSİZ işaretlenmeli ki Denetçi bunu eksiklik olarak görsün.
 _MUHATAP_BELIRSIZ = re.compile(r"^\s*[İIi]LG[İIi]L[İIi]\s+MAKAM(?:A|LARA)\s*$")
+
+# Geniş muhatap kalıbı — yönelme hâlinin diğer biçimleri.
+#
+# NE/NA yalnızca İYELİK EKİ ALMIŞ adlarda çıkıyor:
+#     Başkanlığı  -> Başkanlığı+NA        Müdürlüğü -> Müdürlüğü+NE
+# İyelik eki almayan birim adı doğrudan yönelme alıyor ve başka harfle bitiyor:
+#     Sekreterlik -> SEKRETERLİĞE         Daire Başkanlığı -> ...
+#
+# Ölçüldü (300 belge): belge_290'da muhatap 'GENEL SEKRETERLİĞE'. Kalıp
+# görmedi, muhatap bulunamadı, ve konu devam satırı muhatabı yuttu:
+#     konu -> 'Onaylı Örnek Talebi GENEL SEKRETERLİĞE'
+#
+# Ölçüt gevşetiliyor ama iki koruma var:
+#   1. Bu kalıp ÜÇÜNCÜ turda deneniyor; NE/NA ve belirsiz kalıplar önce
+#      kazanıyor. Yalnızca hiçbir aday yoksa devreye giriyor.
+#   2. Satırda BOŞLUK zorunlu. Kurum adı çok kelimelidir; bu koşul
+#      'ÇANKAYA/ANKARA' gibi tek parça büyük harfli dizileri eliyor.
+#
+# Nominatif kurum adları -I/-İ/-U/-Ü ile biter (Başkanlığı, Valiliği,
+# Müdürlüğü, Rektörlüğü); yönelme -A/-E ile. Ayrım bu yüzden çalışıyor.
+_MUHATAP_GENIS = re.compile(
+    r"^([^a-zçğıöşü]{3,}\s[^a-zçğıöşü]{2,}[AEae])\s*(?:\(?([^)]*)\))?\s*$"
+)
 _PARANTEZ = re.compile(r"^\s*\((.+)\)\s*$")
 
 # İmza bloğu: "Zeynep YILDIRIM Vali a. İl Millî Eğitim Müdürü"
@@ -247,17 +274,40 @@ def _tarihe_cevir(gun: str, ay: str, yil: str) -> date | None:
 # -----------------------------------------------------------------------------
 
 
-def _aile_tespit(satirlar: list[Satir], muhatap_indeksi: int | None) -> str:
+def _aile_tespit(satirlar: list[Satir], muhatap_indeksi: int | None,
+                 dipnot_var: bool | None = None) -> str:
     """Belge ailesini başlık bloğundan tespit eder.
 
-    Üç ipucu sırayla denenir. Dilekçenin ayırt edici özelliği başlığın
-    HİÇ olmaması: belge doğrudan muhatapla başlıyorsa dilekçedir.
+    Dilekçenin ayırt edici özelliği başlığın HİÇ olmaması: belge doğrudan
+    muhatapla başlıyorsa dilekçedir.
+
+    EN GÜÇLÜ İPUCU DİPNOT — metinsel değil, yapısal
+    -----------------------------------------------
+    EBSY dipnotu (güvenli elektronik imza + doğrulama kodu) yalnızca kamu
+    kurumunun EBYS'sinden çıkan yazıda bulunur. Şirket antetli kâğıdında da,
+    vatandaş dilekçesinde de yoktur — Resmî Yazışma Yönetmeliği özel hukuk
+    tüzel kişilerini kapsamaz, dilekçe de EBYS üretimi değildir.
+
+    Bu ayrım OCR'a bağımlı DEĞİL: dipnot bir metin değil, sayfanın altındaki
+    bir blok. Okuyucu onu zaten ayırıyor.
+
+    NEDEN GEREKLİ (ölçüldü, 300 belge koşusu + tani.py):
+    OCR "T.C." başlığını düşürebiliyor ve 6 kurum yazısı 'sirket' sanıldı:
+
+        belge_053  'ANKARA VALİLİĞİ İl Milli Eğitim Müdürlüğü'   <- T.C. yok
+        belge_084  'YENİMAHALLE KAYMAKAMLIĞI'                    <- T.C. yok
+
+    İkisinde de dipnot_bulundu=True. Yapısal ipucu metinsel ipucunun
+    kaçırdığını yakalıyor. T.C. araması yedek olarak duruyor: dipnot
+    bilgisi geçirilmezse (dipnot_var=None) eski davranış sürer.
     """
     if muhatap_indeksi is None:
         return "bilinmiyor"
     baslik = satirlar[:muhatap_indeksi]
     if not baslik:
         return "dilekce"
+    if dipnot_var is True:
+        return "kurum"
     for s in baslik:
         if _TC_BASLIK.search(s.metin):
             return "kurum"
@@ -287,6 +337,10 @@ def _muhatap_satirini_bul(satirlar: list[Satir]) -> int | None:
     for i, s in enumerate(satirlar):
         if _MUHATAP_BELIRSIZ.match(s.metin.strip()):
             return i
+    # Üçüncü tur: yönelme hâlinin NE/NA dışındaki biçimleri.
+    for i, s in enumerate(satirlar):
+        if _MUHATAP_GENIS.match(s.metin.strip()):
+            return i
     return None
 
 
@@ -295,10 +349,51 @@ def _muhatap_satirini_bul(satirlar: list[Satir]) -> int | None:
 # -----------------------------------------------------------------------------
 
 
+# İlgi satırının değişmez izi. Başlık bloğunda arama yaparken ilgi satırı
+# ELENMELİDİR: içinde de resmî sayı ve tarih var, ama onlar BAŞKA belgenin.
+_ILGI_IZI = re.compile(r"tarihli\s+ve|say[ıi]l[ıi]\s+yaz", re.IGNORECASE)
+
+# Etiket satırının çevresinde kaç satır aranacağı.
+_BASLIK_YARICAPI = 3
+
+
+def _baslik_penceresi(satirlar: list[Satir], i: int):
+    """Sayı etiketinin çevresindeki güvenli satırlar.
+
+    İlgi, konu ve muhatap satırları elenir — oralardaki sayı ve tarih bu
+    belgeye ait değildir.
+    """
+    for j in range(max(0, i - _BASLIK_YARICAPI),
+                   min(len(satirlar), i + _BASLIK_YARICAPI + 1)):
+        if j == i:
+            continue
+        metin = satirlar[j].metin
+        cikti = metin.strip()
+        if _ETIKET_ILGI.match(metin) or _ILGI_IZI.search(metin):
+            continue
+        if _ETIKET_KONU.match(metin):
+            continue
+        if _MUHATAP.match(cikti) or _MUHATAP_GENIS.match(cikti):
+            continue
+        yield j, metin
+
+
 def _sayi_ve_tarih(satirlar: list[Satir], sonuc: AyristirmaSonucu) -> None:
     """Sayı ve tarih aynı satırda durur (yerlesim.yaml alanlar.tarih_konumu).
 
         Sayı : E-24316060-010.06-66473254 04.05.2026
+
+    OCR bu düzeni iki şekilde bozabiliyor (ölçüldü, tani.py):
+
+        belge_100   'Sayı E-32625594-106-46817055'      etiket + sayı
+                    '23.03.2026'                        tarih ALT SATIRDA
+        belge_208   'E-10213773-120.02-15060727 28.05.2026'   değer ÜSTTE
+                    'Sayı'                                    etiket ALTTA
+
+    Bu yüzden etiket satırı boş kalırsa çevresindeki başlık satırlarına
+    bakılıyor. İlgi satırı elenir: oradaki sayı ve tarih BAŞKA belgeye ait.
+    Bu yoldan gelen değerlerin güveni düşük (0.85) ve kanıtı ayrı satırı
+    gösterir.
     """
     for i, s in enumerate(satirlar):
         if not _ETIKET_SAYI.match(s.metin):
@@ -309,9 +404,6 @@ def _sayi_ve_tarih(satirlar: list[Satir], sonuc: AyristirmaSonucu) -> None:
         if m:
             sonuc.ustveri.sayi = m.group(0)
             sonuc.kanit["ustveri.sayi"] = _kanit(m.group(0), i)
-        else:
-            # Etiket var, değer yok -> sayi_eksik kusuru. Uydurma yok.
-            sonuc.uyarilar.append("Sayı satırı var ama resmî sayı bulunamadı")
 
         t = _TARIH.search(kalan)
         if t:
@@ -320,7 +412,64 @@ def _sayi_ve_tarih(satirlar: list[Satir], sonuc: AyristirmaSonucu) -> None:
                 sonuc.ustveri.tarih = d
                 sonuc.ustveri.tarih_metin = t.group(0)
                 sonuc.kanit["ustveri.tarih"] = _kanit(t.group(0), i)
+
+        if sonuc.ustveri.sayi is None:
+            for j, metin in _baslik_penceresi(satirlar, i):
+                m2 = _sayi_ara(metin)
+                if m2:
+                    sonuc.ustveri.sayi = m2.group(0)
+                    sonuc.kanit["ustveri.sayi"] = _kanit(
+                        m2.group(0), j, guven=0.85,
+                        aciklama="OCR sayıyı etiketinden ayırmış",
+                    )
+                    break
+            else:
+                # Etiket var, değer hiçbir yerde yok -> sayi_eksik. Uydurma yok.
+                sonuc.uyarilar.append(
+                    "Sayı satırı var ama resmî sayı bulunamadı")
+
+        if sonuc.ustveri.tarih is None:
+            for j, metin in _baslik_penceresi(satirlar, i):
+                t2 = _TARIH.search(metin)
+                if t2:
+                    d2 = _tarihe_cevir(*t2.groups())
+                    if d2:
+                        sonuc.ustveri.tarih = d2
+                        sonuc.ustveri.tarih_metin = t2.group(0)
+                        sonuc.kanit["ustveri.tarih"] = _kanit(
+                            t2.group(0), j, guven=0.85,
+                            aciklama="OCR tarihi sayı satırından ayırmış",
+                        )
+                        break
         return
+
+
+# Konu satırının sonuna sürüklenmiş tarih. OCR'da görülüyor (ölçüldü):
+#     belge_265  'Kararın Uygulanması Hk. 29.04.2026'
+# Sayı satırındaki tarih konu satırına düşmüş. Konu asla tarihle bitmez,
+# bu yüzden ayıklamak güvenlidir — ve tarih hâlâ boşsa oradan kurtarılır.
+_KONU_SONU_TARIH = re.compile(r"\s+(\d{2}\.\d{2}\.\d{4})\s*$")
+
+# Aynı sürüklenmenin yarım hâli:  'Uygulama Öğretmeni Görevlendirmesi 18.'
+_KONU_SONU_PARCA = re.compile(r"\s+\d{1,2}\.\s*$")
+
+# Konu ikinci satıra taşmışsa devam satırı bunların HİÇBİRİ olmamalı.
+_KONU_SINIRI = (_ETIKET_SAYI, _ETIKET_ILGI, _MUHATAP, _MUHATAP_BELIRSIZ,
+                _MUHATAP_GENIS, _DAGITIM_BASLIK, _EK_KURUM, _EK_SAYILI,
+                _PARANTEZ)
+
+# Devam satırı kısa olur; bu uzunluğu aşan satır gövde metnidir.
+_KONU_DEVAM_AZAMI = 45
+
+
+def _konu_devami_mi(metin: str) -> bool:
+    """Bu satır konunun ikinci satırı olabilir mi."""
+    if not metin or len(metin) > _KONU_DEVAM_AZAMI:
+        return False
+    if any(k.match(metin) for k in _KONU_SINIRI):
+        return False
+    # İçinde resmî sayı varsa bu bir ilgi/sayı satırıdır, konu değil.
+    return not _sayi_ara(metin)
 
 
 def _konu(satirlar: list[Satir], sonuc: AyristirmaSonucu) -> None:
@@ -328,9 +477,42 @@ def _konu(satirlar: list[Satir], sonuc: AyristirmaSonucu) -> None:
         if not _ETIKET_KONU.match(s.metin):
             continue
         deger = _ETIKET_KONU.sub("", s.metin).strip()
+
+        # Uzun konu ikinci satıra taşıyor (ölçüldü, 5 metin katmanlı belge):
+        #     'Konu : Genelge Uygulamasında Karşılaşılan'
+        #     'Tereddütler'
+        # En çok iki devam satırı alınır; sınır kalıpları döngüyü keser.
+        son_satir = i
+        for j in range(i + 1, min(i + 3, len(satirlar))):
+            devam = satirlar[j].metin.strip()
+            if not _konu_devami_mi(devam):
+                break
+            deger = f"{deger} {devam}".strip()
+            son_satir = j
+
+        # Sürüklenmiş tarihi ayıkla, tarih boşsa kurtar.
+        t = _KONU_SONU_TARIH.search(deger)
+        if t:
+            deger = _KONU_SONU_TARIH.sub("", deger).strip()
+            if sonuc.ustveri.tarih is None:
+                g, a, y = t.group(1).split(".")
+                d = _tarihe_cevir(g, a, y)
+                if d:
+                    sonuc.ustveri.tarih = d
+                    sonuc.ustveri.tarih_metin = t.group(1)
+                    sonuc.kanit["ustveri.tarih"] = _kanit(
+                        t.group(1), i, guven=0.70,
+                        aciklama="OCR tarihi konu satırına sürüklemiş",
+                    )
+        deger = _KONU_SONU_PARCA.sub("", deger).strip()
+
         if deger:
             sonuc.ustveri.konu = deger
-            sonuc.kanit["ustveri.konu"] = _kanit(deger, i)
+            sonuc.kanit["ustveri.konu"] = _kanit(
+                deger, i,
+                guven=1.0 if son_satir == i else 0.90,
+                aciklama=None if son_satir == i else "Konu iki satıra taşmış",
+            )
         return
 
 
@@ -453,6 +635,9 @@ def _muhatap(satirlar: list[Satir], sonuc: AyristirmaSonucu, indeks: int) -> Non
 
     # Parantezli birim aynı satıra yapışmış olabilir (OCR).
     m = _MUHATAP.match(ham)
+    genis = m is None
+    if genis:
+        m = _MUHATAP_GENIS.match(ham)
     makam = m.group(1).strip() if m else ham
     yapisik_birim = m.group(2).strip() if m and m.group(2) else None
 
@@ -464,7 +649,11 @@ def _muhatap(satirlar: list[Satir], sonuc: AyristirmaSonucu, indeks: int) -> Non
         if "DAĞITIM" in ham.upper() or "DAGITIM" in ham.upper()
         else MuhatapTuru.KAMU_IDARESI
     )
-    sonuc.kanit["ustveri.muhatap"] = _kanit(ham, indeks)
+    sonuc.kanit["ustveri.muhatap"] = _kanit(
+        ham, indeks,
+        guven=0.85 if genis else 1.0,
+        aciklama="Yönelme eki NE/NA dışı biçimde" if genis else None,
+    )
 
     if yapisik_birim:
         sonuc.ustveri.muhatap.birim = yapisik_birim
@@ -615,8 +804,13 @@ def _dilekce_imzasi(satirlar: list[Satir], sonuc: AyristirmaSonucu,
 # -----------------------------------------------------------------------------
 
 
-def ayristir(satirlar: list[Satir]) -> AyristirmaSonucu:
+def ayristir(satirlar: list[Satir],
+             dipnot_var: bool | None = None) -> AyristirmaSonucu:
     """Satırlardan üstveri alanlarını çeker.
+
+    dipnot_var: okuyucunun `ayrilmis.dipnot_bulundu` değeri. Verilirse
+    kurum/şirket ayrımı bununla yapılır — bkz. _aile_tespit. Verilmezse
+    eski davranış sürer, çağıranların hiçbiri kırılmaz.
 
     Bulunamayan alan None kalır ve kanıt üretilmez. Uydurma yok:
     bir alanın yokluğu, Denetçi'nin yakalayacağı bir bulgudur.
@@ -628,7 +822,7 @@ def ayristir(satirlar: list[Satir]) -> AyristirmaSonucu:
 
     indeks = _muhatap_satirini_bul(satirlar)
     sonuc.muhatap_satiri = indeks
-    sonuc.aile = _aile_tespit(satirlar, indeks)
+    sonuc.aile = _aile_tespit(satirlar, indeks, dipnot_var)
     sinir = indeks if indeks is not None else 0
 
     _sayi_ve_tarih(satirlar, sonuc)
@@ -639,7 +833,13 @@ def ayristir(satirlar: list[Satir]) -> AyristirmaSonucu:
 
     if indeks is not None:
         _muhatap(satirlar, sonuc, indeks)
-        _vatandas_tarihi(satirlar, sonuc, indeks)
+        # Gövdeden tarih çıkarımı YALNIZCA dilekçede meşru. Kurum ve şirket
+        # yazısında tarihin yeri bellidir (sayı satırı); orada yoksa YOKTUR.
+        # Gövdeden tahmin etmek uydurmadır — ölçüldü, belge_100 ve belge_208'de
+        # gövdedeki "01.01.2026 tarihinde yürürlüğe girmiştir" cümlesi belge
+        # tarihi sanılıyordu. Eksik alan sessizdir, yanlış alan değildir.
+        if sonuc.aile == "dilekce":
+            _vatandas_tarihi(satirlar, sonuc, indeks)
         _imza(satirlar, sonuc, indeks)
     else:
         sonuc.uyarilar.append("Muhatap satırı bulunamadı")
