@@ -1,0 +1,86 @@
+========================================================================
+LLM SAGLAYICI SONDASI
+========================================================================
+  yapilandirma     : yapilandirma.qwen.json
+  base_url         : https://openrouter.ai/api/v1
+  anahtar dosyasi  : .gizli/api_anahtari.openrouter.txt
+  model            : qwen/qwen3.8-27b
+  ek_parametreler  : {"max_tokens": 4096, "reasoning": {"enabled": false}}
+
+  11 belge türü: dilekce, sikayet, bilgi_edinme, itiraz, bilgilendirme, talep_yazisi, cevap_yazisi, gorus_talebi, ust_yazi, tekit_yazisi, olur_yazisi
+
+  sonda belgeleri: 003, 006
+
+------------------------------------------------------------------------
+1  DUZ CAGRI
+------------------------------------------------------------------------
+  cevap   : Yenimahalle Kaymakamlığı, Yenimahalle Belediye Başkanlığı Temizlik İşleri Müdürlüğü’nün başvuru cevabının gönderilmesi talebini olumlu karşılayarak istenen kayıtları derlemiş ve hazırlamıştır.
+  sure    : 1955 ms   bitis: stop
+  token   : girdi 413 | metin 59 | düşünme 0 | toplam 472
+
+------------------------------------------------------------------------
+2  SEMA ZORLAMASI  (response_format)
+------------------------------------------------------------------------
+  ham cevap: { "belge_turu": "cevap_yazisi", "guven": 100, "gerekce": "Belgenin konu satırında 'Başvuru Cevabının Gönderilmesi' ifadesi yer almakta, içeriğinde ise 'İlgi'de kayıtlı yazıda... talebine yer verilmiştir' ve 'talep olumlu karşılanmıştır' ibareleri kullanılarak bir başvuruya cevap verildiği açıkça bel …
+  JSON     : GECERLI  {"belge_turu": "cevap_yazisi", "guven": 100, "gerekce": "Belgenin konu satırında 'Başvuru Cevabının Gönderilmesi' ifadesi yer almakta, içeriğinde ise 'İlgi'de kayıtlı yazıda... talebine yer verilmiştir' ve 'talep olumlu karşılanmıştır' ibareleri kullanılarak bir başvuruya cevap verildiği açıkça belirtilmektedir."}
+  alanlar  : TAM
+
+------------------------------------------------------------------------
+3  ENUM KISITI VE DOGRULUK  (K-06 yeniden olcumu)
+------------------------------------------------------------------------
+  LISTEDE = sema uyumu.  DOGRU = cevap anahtariyla ayni.
+  Ikisi AYRI seydir: liste disina cikmayan yanlis cevap da yanlistir.
+  belge_003: cevap_yazisi     LISTEDE    DOGRU                                1803 ms
+  belge_006: talep_yazisi     LISTEDE    YANLIS (beklenen: ust_yazi)          6488 ms
+
+  dogruluk: 1/2
+  -> Sema uyumlu ama yanlis cevap veren model KULLANILAMAZ.
+     Ornek sayisi 2; kesin hukum degil, kirmizi bayrak.
+
+------------------------------------------------------------------------
+4  ISTEM DILI  (Turkce istem vs Ingilizce istem, her ikisinde TR cikti)
+------------------------------------------------------------------------
+  Iddia: Turkce-merkezli olmayan modeller Ingilizce TALIMATI daha iyi
+  izler; CIKTI yine Turkce istenir. Inanmak yerine olculuyor.
+  UYARI: ornek sayisi 2. Bu bir duman testi, kanit degil.
+  belge_003 [TR] cevap_yazisi     DOGRU    1823 ms
+           gerekce: Belgenin konu başlığında 'Başvuru Cevabının Gönderilmesi' ifadesi açıkça yer almaktadır. Ayrıca metin içeriğin …
+  belge_003 [EN] cevap_yazisi     DOGRU    1814 ms
+           gerekce: Belgenin 'Konu' başlığı 'Başvuru Cevabının Gönderilmesi' olarak belirtilmiş, 'İlgi' bölümünde bir başvuru tale …
+  belge_006 [TR] talep_yazisi     YANLIS   1839 ms
+           gerekce: Belge, Millî Eğitim Bakanlığı'ndan Ankara İl Millî Eğitim Müdürlüğü'ne gönderilmiş olup, 'gereğini rica ederim …
+  belge_006 [EN] talep_yazisi     YANLIS   2244 ms
+           gerekce: Belge, Millî Eğitim Bakanlığı tarafından Ankara İl Millî Eğitim Müdürlüğüne gönderilmiştir. Metinde 'Gönderile …
+
+  Turkce istem : 1/2
+  Ingilizce istem: 1/2
+  -> Fark yok. Iki ornekte ayrim cikmiyor; Turkce istemle
+     devam, cunku raporun ve jurinin dili Turkce.
+  Gerekce metinlerinin TURKCE geldigini GOZLE dogrulayin —
+  Ingilizce istem cikti dilini de kaydirabilir.
+
+------------------------------------------------------------------------
+5  GECIKME VE MALIYET
+------------------------------------------------------------------------
+  8 çağrı | girdi 3392 | metin 988 | düşünme 0 | toplam 4380
+           faturalanan çıktı (düşünme dahil): 988
+
+  cagri basi ortalama token : 548
+  tam kosu (1500 cagri) : 0.82 milyon token
+
+  Fiyati saglayicinin sayfasindan bakip carpin. Rakam kabul
+  edilemezse once ek_parametreler.reasoning_effort'u dusurun,
+  sonra istemi kisaltin. Model degistirmek EN SON care.
+
+========================================================================
+OZET
+========================================================================
+  duz cagri            GECTI
+  sema zorlamasi       GECTI
+  enum kisiti          GECTI
+  dogruluk             KALDI
+
+  KARAR: Anlama response_format ile yazilir. Ayristirma gerekmez.
+
+Bu sonda hafizadan degil olcumden karar uretir. Ciktisi karar kaydina
+K-06 ve K-07'nin Gemini icin yeniden olculmus hali olarak islenmelidir.

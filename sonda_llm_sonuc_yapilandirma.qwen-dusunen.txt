@@ -1,0 +1,83 @@
+========================================================================
+LLM SAGLAYICI SONDASI
+========================================================================
+  yapilandirma     : yapilandirma.qwen-dusunen.json
+  base_url         : https://openrouter.ai/api/v1
+  anahtar dosyasi  : .gizli/api_anahtari.openrouter.txt
+  model            : qwen/qwen3.8-27b
+  ek_parametreler  : {"max_tokens": 4096, "reasoning": {"enabled": true}}
+
+  11 belge türü: dilekce, sikayet, bilgi_edinme, itiraz, bilgilendirme, talep_yazisi, cevap_yazisi, gorus_talebi, ust_yazi, tekit_yazisi, olur_yazisi
+
+  sonda belgeleri: 003, 006
+
+------------------------------------------------------------------------
+1  DUZ CAGRI
+------------------------------------------------------------------------
+  cevap   : Bu belgenin konusu, başvuru cevabının gönderilmesidir.
+  sure    : 17640 ms   bitis: stop
+  token   : girdi 449 | metin 214 | düşünme 0 | toplam 663
+
+------------------------------------------------------------------------
+2  SEMA ZORLAMASI  (response_format)
+------------------------------------------------------------------------
+  ham cevap: { "belge_turu": "gorus_talebi", "guven": 0.98 , "gerekce": "Yazı, ilgi yazısında belirtilen başvurunun cevabının gönderilmesi talebine ilişkin olup konunun değerlendirildiği, talebin olumlu karşılandığı, istenilen kayıtların derlenerek hazırlandığı ve alıcıya bilgilendirme yapıldığı görülmektedir."  …
+  JSON     : GECERLI  {"belge_turu": "gorus_talebi", "guven": 0.98, "gerekce": "Yazı, ilgi yazısında belirtilen başvurunun cevabının gönderilmesi talebine ilişkin olup konunun değerlendirildiği, talebin olumlu karşılandığı, istenilen kayıtların derlenerek hazırlandığı ve alıcıya bilgilendirme yapıldığı görülmektedir."}
+  alanlar  : TAM
+
+------------------------------------------------------------------------
+3  ENUM KISITI VE DOGRULUK  (K-06 yeniden olcumu)
+------------------------------------------------------------------------
+  LISTEDE = sema uyumu.  DOGRU = cevap anahtariyla ayni.
+  Ikisi AYRI seydir: liste disina cikmayan yanlis cevap da yanlistir.
+  belge_003: sikayet          LISTEDE    YANLIS (beklenen: cevap_yazisi)    115164 ms
+  belge_006: talep_yazisi     LISTEDE    YANLIS (beklenen: ust_yazi)         62418 ms
+
+  dogruluk: 0/2
+  -> Sema uyumlu ama yanlis cevap veren model KULLANILAMAZ.
+     Ornek sayisi 2; kesin hukum degil, kirmizi bayrak.
+
+------------------------------------------------------------------------
+4  ISTEM DILI  (Turkce istem vs Ingilizce istem, her ikisinde TR cikti)
+------------------------------------------------------------------------
+  Iddia: Turkce-merkezli olmayan modeller Ingilizce TALIMATI daha iyi
+  izler; CIKTI yine Turkce istenir. Inanmak yerine olculuyor.
+  UYARI: ornek sayisi 2. Bu bir duman testi, kanit degil.
+  belge_003 [TR] dilekce          YANLIS  37006 ms
+           gerekce: Belge başında 'T.C. YENİMAHALLE KAYMAKAMLIĞI' ibaresi, altında 'Sayı', 'Konu', 'İlgi' alanları ve '...rica ede …
+  belge_003 [EN] HATA LLMHatasi: Model içerik üretmedi (finish_reason=length). Güvenlik filtresi veya boş cevap olabilir.
+  belge_006 [TR] HATA LLMHatasi: Model içerik üretmedi (finish_reason=length). Güvenlik filtresi veya boş cevap olabilir.
+  belge_006 [EN] HATA LLMHatasi: Model içerik üretmedi (finish_reason=length). Güvenlik filtresi veya boş cevap olabilir.
+
+  Turkce istem : 0/2
+  Ingilizce istem: 0/2
+  -> Fark yok. Iki ornekte ayrim cikmiyor; Turkce istemle
+     devam, cunku raporun ve jurinin dili Turkce.
+  Gerekce metinlerinin TURKCE geldigini GOZLE dogrulayin —
+  Ingilizce istem cikti dilini de kaydirabilir.
+
+------------------------------------------------------------------------
+5  GECIKME VE MALIYET
+------------------------------------------------------------------------
+  5 çağrı | girdi 2269 | metin 7167 | düşünme 4226 | toplam 13662
+           faturalanan çıktı (düşünme dahil): 11393
+
+  cagri basi ortalama token : 2732
+  tam kosu (1500 cagri) : 4.10 milyon token
+
+  Fiyati saglayicinin sayfasindan bakip carpin. Rakam kabul
+  edilemezse once ek_parametreler.reasoning_effort'u dusurun,
+  sonra istemi kisaltin. Model degistirmek EN SON care.
+
+========================================================================
+OZET
+========================================================================
+  duz cagri            GECTI
+  sema zorlamasi       GECTI
+  enum kisiti          GECTI
+  dogruluk             KALDI
+
+  KARAR: Anlama response_format ile yazilir. Ayristirma gerekmez.
+
+Bu sonda hafizadan degil olcumden karar uretir. Ciktisi karar kaydina
+K-06 ve K-07'nin Gemini icin yeniden olculmus hali olarak islenmelidir.
