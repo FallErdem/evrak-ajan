@@ -31,6 +31,12 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from kural_motoru import KuralMotoru, MotorSonucu
+from denetci_araclar import (
+    KATEGORILER,
+    arac_calistir,
+    belgede_cumle_ara,
+    tum_arac_semasi,
+)
 from veri_yapisi import (
     Dosya,
     EksikAlan,
@@ -42,6 +48,16 @@ from veri_yapisi import (
 
 # `aciklama` şemada 300 karakterle sınırlı (veri_yapisi.EksikAlan).
 ACIKLAMA_SINIRI = 300
+
+# ReAct döngüsünün tur sınırı. Model en fazla 3 araç çağırıp 4. turda
+# sonuç bildirebilir. Sınırsız döngü hem krediyi yakar hem sonsuza gider;
+# Yazar'ın üslup döngüsü de aynı gerekçeyle 2 turla sınırlı.
+AZAMI_TUR = 4
+
+# Modele gösterilecek gövde uzunluğu. Belgelerin tamamı tek sayfa
+# (kota.json), bu sınır pratikte hiç devreye girmiyor ama uzun bir belge
+# gelirse istemi şişirmesin.
+GOVDE_SINIRI = 4000
 
 # =============================================================================
 # Mevzuat — dayanak kısaltmalarının karşılığı
@@ -96,6 +112,10 @@ class DenetimSonucu:
     eksikler: list[EksikAlan] = field(default_factory=list)
     mevzuat: list[MevzuatOnerisi] = field(default_factory=list)
     motor: MotorSonucu | None = None
+    # Katman 3 çalıştıysa ajan döngüsünün adım adım izi. Sunumda ve
+    # ölçümde gösterilir; boşsa Katman 3 hiç koşmamıştır.
+    ajan_izi: list[str] = field(default_factory=list)
+    ajan_elenen: list[str] = field(default_factory=list)
 
     @property
     def hata_sayisi(self) -> int:
@@ -125,8 +145,20 @@ class DenetimSonucu:
 class Denetci:
     """AJAN 1 — eksiklik tespiti."""
 
-    def __init__(self, kural_dosyasi: Path | str | None = None) -> None:
+    def __init__(
+        self,
+        kural_dosyasi: Path | str | None = None,
+        istemci=None,
+    ) -> None:
+        """`istemci` verilmezse Katman 3 KOŞMAZ.
+
+        Varsayılan olarak kapalı olmasının sebebi: Katman 1 ve 2 tamamen
+        deterministik ve ölçülmüş durumda. LLM çağrısı krediyi harcar ve
+        ölçüm betiklerinin çoğu ona ihtiyaç duymaz. Katman 3 açıkça
+        istendiğinde devreye girer.
+        """
         self.motor = KuralMotoru(kural_dosyasi)
+        self.istemci = istemci
         # Kural kayıtlarına kimlikten erişim: EksikAlan'ın `talep_edilebilir`
         # ve `soru` alanları kuralın kendisinde yazılı. Motorda gizli eşleme
         # YOK — çeviri kuralın içinde duruyor ve okuyan görüyor.
@@ -227,6 +259,218 @@ class Denetci:
             )
         return list(oneriler.values())
 
+    # -- Katman 3: ajan döngüsü ----------------------------------------------
+
+    def _istem(self, dosya: Dosya) -> list[dict]:
+        """Sistem ve kullanıcı mesajlarını kurar.
+
+        Belge türü ve kategori listesi İSTEME konur, modelin hafızasına
+        değil. Parça 3'te ölçülen ders: istem ile şema farklı ad
+        kullanırsa sınıflar sessizce kaybolur. Buradaki kategori adları
+        `KATEGORILER` sözlüğünden üretiliyor, elle yazılmıyor.
+        """
+        satirlar = [
+            f"- {ad}: {bilgi['modele']}"
+            for ad, bilgi in KATEGORILER.items()
+        ]
+        sistem = (
+            "Sen Türk kamu kurumlarında resmî yazışmaları inceleyen bir "
+            "denetçisin. Görevin, KURAL MOTORUNUN YAKALAYAMADIĞI bir eksik "
+            "olup olmadığını bulmak.\n\n"
+            "Seçebileceğin kategoriler yalnızca şunlar:\n"
+            + "\n".join(satirlar)
+            + "\n\nÇALIŞMA BİÇİMİN:\n"
+            "1. Önce kural_bulgulari aracını çağır, motorun ne bulduğunu gör. "
+            "Onları TEKRAR ETME.\n"
+            "2. Bir eksik olduğunu düşünüyorsan İDDİA ETMEDEN ÖNCE doğrula: "
+            "alan_oku ile alanın gerçekten boş olduğunu, belgede_cumle_ara ile "
+            "kanıtının belgede geçtiğini kontrol et.\n"
+            "3. Araç sana HATA döndürürse iddian yanlıştır. Vazgeç ya da başka "
+            "bir kanıt bul.\n"
+            "4. İncelemeni bitirdiğinde sonuc_bildir'i çağır.\n\n"
+            f"TUR SINIRI: en fazla {AZAMI_TUR} turun var ve her tur bir "
+            "mesajdır. İlk turlarda araştır, EN GEÇ SON TURDA sonuc_bildir'i "
+            "çağır. Sınırsız araştırma yok — bir noktada karar vermek "
+            "zorundasın. Kanıtın doğrulandıysa bekleme, hemen bildir.\n\n"
+            "Emin olmadığın bir eksiği İDDİA ETME. Var olmayan bir eksiği "
+            "göstermek, bulunamayan bir eksikten daha zararlıdır."
+        )
+
+        tur = dosya.deger_al("siniflandirma.belge_turu") or "bilinmiyor"
+        govde = (dosya.metin or "").strip()[:GOVDE_SINIRI]
+        kullanici = (
+            f"Belge türü: {tur}\n"
+            f"Belge tarihi: {dosya.deger_al('ustveri.tarih')}\n"
+            f"Konu: {dosya.deger_al('ustveri.konu')}\n\n"
+            f"GÖVDE:\n{govde or '(gövde okunamadı)'}\n\n"
+            "Bu belgeyi incele."
+        )
+        return [
+            {"role": "system", "content": sistem},
+            {"role": "user", "content": kullanici},
+        ]
+
+    def _katman3(self, dosya: Dosya) -> tuple[list[EksikAlan], list[str], list[str]]:
+        """ReAct döngüsü: model karar verir, araç çağırır, gözlemi görür.
+
+        Döner: (eksikler, iz, elenenler)
+
+        DÖNGÜ NEDEN AJAN
+        ----------------
+        Katman 2'de direksiyon bizim kodumuzda: kuralı biz seçeriz, biz
+        koştururuz. Burada model belgeyi okur, bir eksik olduğuna kanaat
+        getirir, ve iddiasını doğrulamak için HANGİ ARACI ne zaman
+        çağıracağına kendi karar verir. Aracın döndürdüğü gözlemi görüp
+        yanıldığını anlarsa iddiasından vazgeçebilir.
+
+        ELEME — modelin dediği doğrudan kabul edilmez
+        --------------------------------------------
+        Döngü bittikten sonra iddia üç kapıdan geçer:
+            1. kategori tanımlı mı        (enum zaten zorluyor, yine de bakılır)
+            2. alıntı belgede geçiyor mu  (uydurma buradan elenir)
+            3. eksik_yok mu               (bulgu üretilmez)
+        Geçemeyen iddia gösterilmez.
+        """
+        if self.istemci is None:
+            return [], [], []
+
+        mesajlar = self._istem(dosya)
+        araclar = tum_arac_semasi()
+        iz: list[str] = []
+        elenen: list[str] = []
+        iddia: dict | None = None
+
+        for tur_no in range(1, AZAMI_TUR + 1):
+            son_tur = tur_no == AZAMI_TUR
+
+            # SON TURDA KARAR ZORLANIR
+            # ------------------------
+            # ÖLÇÜLDÜ 2026-08-23, belge_081: model 4 tur boyunca 8 araç
+            # çağırdı ve hiç sonuç bildirmedi — araştırmaya devam etti,
+            # karar vermedi. Sınırsız araştırma hem krediyi yakar hem
+            # bulguyu hiç üretmez.
+            #
+            # İLK DENEME BAŞARISIZ OLDU: belirli bir fonksiyonu zorlamak
+            # (tool_choice={"type":"function","function":{"name":...}})
+            # modeli boş cevap verdirdi (content=None, tool_calls yok,
+            # finish_reason=stop). Bu biçim her sağlayıcı/model çiftinde
+            # desteklenmiyor.
+            #
+            # Bunun yerine tool_choice="required" kullanılıyor: model bir
+            # araç çağırmak ZORUNDA ama hangisi olduğu serbest. Hangi aracı
+            # çağırması gerektiği uyarı mesajında yazılı. Model yine de
+            # araştırma aracı çağırırsa döngü sonuçsuz biter — bu da
+            # kaydedilir, uydurulmaz.
+            ek = None
+            if son_tur:
+                mesajlar.append({
+                    "role": "user",
+                    "content": (
+                        "Son turdasın. Araştırmayı bitir ve şimdi "
+                        "sonuc_bildir aracını çağır. Doğrulanmış bir kanıtın "
+                        "yoksa kategori olarak 'eksik_yok' seç."
+                    ),
+                })
+                ek = {"tool_choice": "required"}
+
+            try:
+                cevap = self.istemci.arac_cagir(mesajlar, araclar, ek=ek)
+            except Exception as hata:  # noqa: BLE001
+                # Model boş cevap verdi ya da sağlayıcı hata döndürdü.
+                # DÖNGÜ ÇÖKMEZ: buraya kadarki iz korunur, bulgu üretilmez.
+                # Sessizce bulgu uydurmaktansa hiç bulgu vermemek doğrudur.
+                iz.append(f"tur {tur_no}: LLM HATASI -> {str(hata)[:110]}")
+                if son_tur and ek is not None:
+                    # Zorlama yüzünden olabilir; bir kez de zorlamasız dene.
+                    try:
+                        cevap = self.istemci.arac_cagir(mesajlar, araclar)
+                        iz.append(f"tur {tur_no}: zorlamasiz yeniden denendi")
+                    except Exception as hata2:  # noqa: BLE001
+                        iz.append(f"tur {tur_no}: yeniden deneme de düştü -> "
+                                  f"{str(hata2)[:80]}")
+                        break
+                else:
+                    break
+            mesajlar.append(cevap.ham_mesaj)
+
+            if not cevap.arac_cagirdi_mi:
+                # Model araç çağırmadan düz metin döndürdü. Sonuç bildirmesi
+                # gerekiyordu; iddia yok sayılır. Uydurmaya çevirmiyoruz.
+                iz.append(f"tur {tur_no}: model düz metin döndürdü, sonuç yok")
+                break
+
+            bitti = False
+            for cagri in cevap.arac_cagrilari:
+                if cagri.ad == "sonuc_bildir":
+                    iddia = cagri.argumanlar
+                    iz.append(
+                        f"tur {tur_no}: SONUÇ -> {iddia.get('kategori')} "
+                        f"({iddia.get('gerekce', '')[:70]})"
+                    )
+                    bitti = True
+                    continue
+
+                gozlem = arac_calistir(cagri.ad, cagri.argumanlar, dosya)
+                iz.append(
+                    f"tur {tur_no}: {cagri.ad}({str(cagri.argumanlar)[:60]}) "
+                    f"-> {gozlem[:80]}"
+                )
+                mesajlar.append(
+                    {
+                        "role": "tool",
+                        "tool_call_id": cagri.cagri_id,
+                        "content": gozlem,
+                    }
+                )
+            if bitti:
+                break
+        else:
+            iz.append(f"tur sınırı ({AZAMI_TUR}) doldu, sonuç bildirilmedi")
+
+        if not iddia:
+            return [], iz, elenen
+
+        # -- ELEME --
+        kategori = (iddia.get("kategori") or "").strip()
+        alinti = (iddia.get("alinti") or "").strip()
+        gerekce = (iddia.get("gerekce") or "").strip()
+
+        if kategori not in KATEGORILER:
+            elenen.append(f"{kategori}: tanımsız kategori")
+            return [], iz, elenen
+        if kategori == "eksik_yok":
+            return [], iz, elenen
+
+        dogrulama = belgede_cumle_ara(dosya, alinti=alinti)
+        if not dogrulama.startswith("BULUNDU"):
+            elenen.append(f"{kategori}: alıntı doğrulanamadı — {dogrulama[:90]}")
+            iz.append(f"ELENDİ: {kategori}, alıntı belgede yok")
+            return [], iz, elenen
+
+        bilgi = KATEGORILER[kategori]
+        aciklama = bilgi["aciklama"]
+        if gerekce:
+            aciklama = f"{aciklama} ({gerekce})"
+        if len(aciklama) > ACIKLAMA_SINIRI:
+            aciklama = aciklama[: ACIKLAMA_SINIRI - 1].rstrip() + "…"
+
+        return (
+            [
+                EksikAlan(
+                    alan=bilgi["alan"] or "metin",
+                    aciklama=aciklama,
+                    onem=Onem(bilgi["onem"]),
+                    kural_id=None,          # Katman 3'ün kuralı yok
+                    dayanak=None,           # mevzuat atfı Katman 1'in işi
+                    talep_edilebilir=False,
+                    katman=EksikKatman.CIKARIM,
+                    soru=None,
+                )
+            ],
+            iz,
+            elenen,
+        )
+
     # -- çalıştırma -----------------------------------------------------------
 
     def calistir(self, dosya: Dosya, yaz: bool = True) -> DenetimSonucu:
@@ -259,6 +503,20 @@ class Denetci:
                 if not (m.kural_id and m.kural_id in yeni_kurallar)
             ] + mevzuat
 
+        # KATMAN 3 — Katman 2'den SONRA koşar. Sebep: `kural_bulgulari`
+        # aracı `dosya.icerik.eksik_alanlar`ı okuyor; model motorun ne
+        # bulduğunu görebilsin ve tekrar etmesin.
+        cikarim, iz, elenen = self._katman3(dosya)
+        if cikarim and yaz:
+            dosya.icerik.eksik_alanlar = [
+                e for e in dosya.icerik.eksik_alanlar
+                if e.katman != EksikKatman.CIKARIM
+            ] + cikarim
+
         return DenetimSonucu(
-            eksikler=eksikler, mevzuat=mevzuat, motor=motor_sonucu
+            eksikler=eksikler + cikarim,
+            mevzuat=mevzuat,
+            motor=motor_sonucu,
+            ajan_izi=iz,
+            ajan_elenen=elenen,
         )

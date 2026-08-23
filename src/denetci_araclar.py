@@ -233,6 +233,141 @@ ARAC_SEMASI: list[dict] = [
 ]
 
 
+# =============================================================================
+# Katman 3 kategorileri — modelin seçebileceği TEK küme
+# =============================================================================
+#
+# NEDEN BELGE TÜRÜNE GÖRE DARALTILMADI
+# ------------------------------------
+# Kategorileri belge türüne göre yazmak, onları KENDİ VERİ SETİMİZDEN
+# türetmek olurdu. Sonra "yakaladı" diye ölçtüğümüzde yakaladığı şey bizim
+# koyduğumuz şey olurdu. Bu projede aynı tuzağa iki kez düşüldü:
+# `ornek_konular` bulanık eşleştirmesi döngüseldi ve kaldırıldı; S-07'nin
+# ilk hâli X ile X karşılaştırıyordu ve hiç tetiklenmezdi.
+#
+# Gerçek kullanımda eksiklik sonsuz çeşitliliktedir. Liste, herhangi bir
+# evrakta bir memurun soracağı sorulardan oluşuyor.
+#
+# İLK ÜÇÜ ÖLÇÜLEBİLİR
+# -------------------
+# Bu üçünün veri setinde cevap anahtarı var ve Katman 2 hiçbirini
+# yakalamıyor — Katman 3'ün varlık sebebi tam olarak bu boşluk:
+#
+#     ilgi_tarihi_tutarsiz   12 belge   104 kuralda karşılığı yok
+#     ek_beyani_tutarsiz     10 belge   EK-04 "liste boş olmamalı" der, örtüşmüyor
+#     kapanis_yonu_yanlis    10 belge   ME-03 yazılmadı (gönderen çıkarımı yok)
+#
+# Son ikisi ölçülemez; gerçek dünyada işe yaraması için var. Raporda
+# ayrımı açıkça yazılacak.
+#
+# `alan` değeri EksikAlan.alan'a yazılır ve arayüz o alanı vurgular.
+KATEGORILER: dict[str, dict] = {
+    "ilgi_tarihi_tutarsiz": {
+        "alan": "ustveri.ilgi",
+        "onem": "hata",
+        "aciklama": "İlgi tutulan yazının tarihi, belgenin kendi tarihinden sonra.",
+        "modele": (
+            "İlgi tutulan yazının tarihi, belgenin kendi tarihinden SONRA. "
+            "Bir belge kendisinden sonra yazılmış bir yazıya atıf yapamaz."
+        ),
+    },
+    "ek_beyani_tutarsiz": {
+        "alan": "ustveri.ekler",
+        "onem": "hata",
+        "aciklama": "Beyan edilen ek adedi, ek listesindeki kayıt sayısıyla uyuşmuyor.",
+        "modele": (
+            "Belgede beyan edilen ek adedi ile ek listesindeki kayıt sayısı "
+            "farklı. Örnek: 'EKLER: 3 adet' yazıyor ama altında tek satır var."
+        ),
+    },
+    "kapanis_yonu_yanlis": {
+        "alan": "metin",
+        "onem": "hata",
+        "aciklama": "Kapanış ifadesi gönderenin hiyerarşik konumuna uymuyor.",
+        "modele": (
+            "Kapanış ifadesi yanlış yönde. 'rica ederim' yalnızca ALT makamlara "
+            "yazılır; üst ve aynı düzeydeki makamlara 'arz ederim' kullanılır."
+        ),
+    },
+    "talep_belirsiz": {
+        "alan": "metin",
+        "onem": "uyari",
+        "aciklama": "Belgede tam olarak ne istendiği anlaşılmıyor.",
+        "modele": (
+            "Belgeyi okuyan memur tam olarak ne yapması gerektiğini "
+            "anlayamıyor; talep somut değil."
+        ),
+    },
+    "atif_belirsiz": {
+        "alan": "metin",
+        "onem": "uyari",
+        "aciklama": "Metinde tanımsız bir belgeye atıf yapılıyor.",
+        "modele": (
+            "Metin 'söz konusu yazı', 'anılan belge' gibi bir atıf yapıyor ama "
+            "hangi belge olduğu tarih ve sayı ile belirtilmemiş."
+        ),
+    },
+    "eksik_yok": {
+        "alan": None,
+        "onem": None,
+        "aciklama": None,
+        "modele": "Kuralların yakalayamadığı bir eksik bulamadım.",
+    },
+}
+
+
+def _sonuc_bildir_semasi() -> dict:
+    return {
+        "type": "function",
+        "function": {
+            "name": "sonuc_bildir",
+            "description": (
+                "İncelemeni bitirdiğinde bunu çağır. Bir eksik bulduysan "
+                "kategorisini, gerekçeni ve belgeden birebir alıntını ver. "
+                "Bulamadıysan kategori olarak 'eksik_yok' seç."
+            ),
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "kategori": {
+                        "type": "string",
+                        "enum": list(KATEGORILER),
+                        "description": "Bulduğun eksiğin kategorisi.",
+                    },
+                    "gerekce": {
+                        "type": "string",
+                        "description": (
+                            "Neden bu sonuca vardığın, tek cümle. "
+                            "eksik_yok seçtiysen kısa bir açıklama yeter."
+                        ),
+                    },
+                    "alinti": {
+                        "type": "string",
+                        "description": (
+                            "Belgeden BİREBİR alınmış kanıt cümlesi. Kendi "
+                            "cümlen değil. eksik_yok seçtiysen boş bırak."
+                        ),
+                    },
+                },
+                "required": ["kategori", "gerekce"],
+            },
+        },
+    }
+
+
+def tum_arac_semasi() -> list[dict]:
+    """Modele gönderilecek araç listesi: üç inceleme aracı + sonuç bildirimi.
+
+    `sonuc_bildir` bir "araç" değil, DÖNGÜNÜN ÇIKIŞ KAPISIDIR. Araç
+    biçiminde tanımlanmasının sebebi şemanın sağlayıcı tarafından
+    zorlanması: `kategori` bir enum ve model onun dışına çıkamaz. Serbest
+    metin isteyip sonra ayrıştırmak, Parça 3'te öğrenilen dersin tersi
+    olurdu — orada yalnızca enum kısıtının güvenilir biçimde zorlandığı
+    ölçülmüştü.
+    """
+    return ARAC_SEMASI + [_sonuc_bildir_semasi()]
+
+
 def arac_calistir(ad: str, argumanlar: dict, dosya: Dosya) -> str:
     """Modelin istediği aracı çalıştırır ve gözlemi metin olarak döndürür.
 
