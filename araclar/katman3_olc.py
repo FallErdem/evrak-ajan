@@ -24,7 +24,6 @@ OLCULEN UC SEY
 1  YANLIS ALARM   kusursuz belgelerde kac bulgu uretildi, hangi kategoride
 2  YAKALAMA       Katman 2'nin goremedigi uc kusurda isabet
                      ilgi_tarihi_tutarsiz  <- tarih_tutarsiz      12 belge
-                     ek_beyani_tutarsiz    <- ek_beyani_yanlis    10 belge
                      kapanis_yonu_yanlis   <- kapanis_yanlis      10 belge
 3  ELEME          modelin uydurup elenen iddialari (alinti belgede yok)
 
@@ -51,6 +50,14 @@ from kural_motoru_dogrula import dosya_kur, etiket_klasoru, klasor_bul  # noqa: 
 from llm_istemci import istemci_olustur                               # noqa: E402
 from okuyucu import oku                                               # noqa: E402
 
+# Cevap anahtari OLMAYAN kategoriler. Kusursuz belgede atesledigi zaman
+# "yanlis alarm" saymak yaniltici olur: OLCULDU 2026-08-23, belge_011'de
+# model atif_belirsiz dedi ve HAKLIYDI — vatandas bir bagistan soz ediyor
+# ama tarih, tutar ve makbuz numarasi yok, memur hangi bagisi arayacagini
+# bilemez. Etikette kusur yazmadigi icin olcum onu yanlis alarm sayiyordu.
+# Ayri raporlanir: gizlenmez, sisirilmez.
+OLCULEMEYEN_KATEGORILER = frozenset({"atif_belirsiz"})
+
 VARSAYILAN_N = 20
 VARSAYILAN_YAPILANDIRMA = "yapilandirma.qwen.json"
 
@@ -59,8 +66,11 @@ VARSAYILAN_YAPILANDIRMA = "yapilandirma.qwen.json"
 # motoru zaten yakaliyor ve `kural_bulgulari` araci modele "tekrar etme"
 # diyor.
 KUSUR_KATEGORI = {
+    # ek_beyani_yanlis CIKARILDI 2026-08-23: kategori kaldirildi cunku
+    # "EKLER: 3 adet" beyani modele hic gitmiyor (kaynak.ham_metin'de,
+    # isteme yalnizca govde konuyor). Model goremedigini bulamaz; uc
+    # kusurlu belgede de dogru davranip eksik_yok dedi.
     "tarih_tutarsiz": "ilgi_tarihi_tutarsiz",
-    "ek_beyani_yanlis": "ek_beyani_tutarsiz",
     "kapanis_yanlis": "kapanis_yonu_yanlis",
 }
 
@@ -140,6 +150,7 @@ def main(argv: list[str]) -> int:
         temiz_toplam = 0
         temiz_bulgulu: list[str] = []
         temiz_kategori: Counter = Counter()
+        temiz_olculemeyen: list[str] = []
         yakalama_toplam: Counter = Counter()
         yakalama_gecti: Counter = Counter()
         yakalama_ne_dedi: dict[str, list[str]] = {}
@@ -181,8 +192,11 @@ def main(argv: list[str]) -> int:
             if kusur is None:
                 temiz_toplam += 1
                 if cikarimlar:
-                    temiz_bulgulu.append(no)
-                    temiz_kategori[secilen_kategori or "?"] += 1
+                    if secilen_kategori in OLCULEMEYEN_KATEGORILER:
+                        temiz_olculemeyen.append(f"{no}:{secilen_kategori}")
+                    else:
+                        temiz_bulgulu.append(no)
+                        temiz_kategori[secilen_kategori or "?"] += 1
             elif kusur in KUSUR_KATEGORI:
                 yakalama_toplam[kusur] += 1
                 beklenen = KUSUR_KATEGORI[kusur]
@@ -207,6 +221,12 @@ def main(argv: list[str]) -> int:
             for k, adet in temiz_kategori.most_common():
                 yaz(f"    {k:24} {adet}")
             yaz(f"  bulgu ureten belgeler: {', '.join(temiz_bulgulu)}")
+        if temiz_olculemeyen:
+            yaz("")
+            yaz(f"  OLCULEMEYEN kategoride bulgu   {len(temiz_olculemeyen)}")
+            yaz(f"    {', '.join(temiz_olculemeyen)}")
+            yaz("    Bu kategorilerin cevap anahtari YOK; kusursuz belgede")
+            yaz("    atesledigi zaman yanlis alarm sayilmiyor, ayri veriliyor.")
         yaz("")
 
         yaz("OLCUM 2 - YAKALAMA (Katman 2'nin goremedigi kusurlar)")

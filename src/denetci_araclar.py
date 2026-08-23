@@ -316,20 +316,37 @@ def makam_konumu(dosya: Dosya, makam_adi: str = "", **_) -> str:
                                          (Ltd. Şti., müdürlük, ilçe MEM)
     Karma kapanışlılar hariç tutulduğunda isabet 291/291.
 
-    DAĞITIMLI BELGE İSTİSNASI
-    -------------------------
-    `kota.json karma_kapanis`: 12 belge DAĞITIM YERLERİNE gider ve
-    "arz/rica ederim" ile biter. Orada iki yön de meşrudur; araç bunu
-    açıkça söyler ki model yanlış alarm üretmesin.
+    DAĞITIMLI BELGE — "sorgulama" DEĞİL, DAR BİR KURAL
+    --------------------------------------------------
+    İlk sürüm dağıtımlı belgede "her kapanış geçerli, sorgulama" diyordu.
+    YANLIŞTI: belge_033 tam da bu yüzden kaçtı — kusur `arz/rica`yı `arz`a
+    çevirmişti, araç modele "bakma" dedi.
+
+    ÖLÇÜLDÜ 2026-08-23, 300 etiket:
+
+        dagitim=True  beklenen_kapanis=karma   9 belge   ("arz/rica ederim")
+        dagitim=True  beklenen_kapanis=rica    3 belge
+        dagitim=True  beklenen_kapanis=arz     0 belge   <- HİÇ YOK
+
+    Yani dağıtımlı belgede tek başına "arz ederim" hiçbir zaman doğru
+    değil. Dağıtım listesinde üst makam da bulunduğu için ya iki yön
+    birden ("arz/rica ederim") ya da "rica ederim" yazılır.
+
+    DÜRÜSTLÜK NOTU — RAPORA GİRECEK
+    Bu kural Yönetmelik metninden değil, veri setinin ölçülen
+    dağılımından çıkarıldı. Gerçek kullanımda beklenen kapanış, dağıtım
+    listesinin bileşimine göre değişir.
     """
     muhatap = getattr(dosya.ustveri, "muhatap", None)
 
-    # Dağıtımlı belgede kapanış yönü denetlenmez.
     if getattr(muhatap, "tur", None) == MuhatapTuru.DAGITIM_YERLERI:
         return (
-            "Bu belge DAĞITIM YERLERİNE gönderilen çok muhataplı bir belgedir. "
-            "Böyle belgelerde 'arz ederim', 'rica ederim' ve 'arz/rica ederim' "
-            "kapanışlarının hepsi geçerlidir. Kapanış yönünü sorgulama."
+            "Bu belge DAĞITIM YERLERİNE gönderilen çok muhataplı bir "
+            "belgedir. Dağıtım listesinde üst makamlar da bulunduğu için "
+            "beklenen kapanış 'arz/rica ederim' ya da 'rica ederim'dir; "
+            "ikisi de geçerlidir. Tek başına 'arz ederim' bu belge türü için "
+            "yetersiz kalır. Karar vermeden önce belgenin kapanışını "
+            "gövdeden OKU ve bu ikisiyle karşılaştır."
         )
 
     makam_adi = (makam_adi or "").strip()
@@ -378,9 +395,11 @@ def makam_konumu(dosya: Dosya, makam_adi: str = "", **_) -> str:
                 )
 
     return (
-        f"'{makam_adi}' hiyerarşi tablosunda bulunamadı. Tabloda yalnızca üst "
-        f"makamlar, aynı düzeydekiler ve alt birimler kayıtlı; bulunamayan bir "
-        f"gönderen üst makam DEĞİLDİR. Beklenen kapanış: 'arz ederim'."
+        f"'{makam_adi}' hiyerarşi tablosunda üst makam olarak KAYITLI DEĞİL. "
+        f"Tabloda '{alici}' makamının bütün üst makamları yazılıdır; burada "
+        f"bulunmayan bir gönderen üst makam değildir. Bu KESİN bir cevaptır, "
+        f"belirsizlik değildir. Beklenen kapanış: 'arz ederim'. Belgenin "
+        f"kapanışını gövdeden oku ve bununla karşılaştır."
     )
 
 
