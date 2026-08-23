@@ -1,11 +1,11 @@
 {
   "_ust": {
     "surum": "1.0.0",
-    "uretim_tarihi": "2026-08-22",
+    "uretim_tarihi": "2026-08-23",
     "kaynak": "kural_listesi.md",
     "kaynak_sha256": "b32653a4be29472fe2cc457059a899ac7f793da027dbf5c283aea6e62f839a33",
     "ekler": "kural_ekleri.json",
-    "ekler_surum": "1.1.0",
+    "ekler_surum": "1.2.0",
     "toplam": 104,
     "uygulanir": 18,
     "_uyari": "ELLE DUZENLENMEZ. Kaynak kural_listesi.md + veri/kural_ekleri.json. Degisiklik icin onlari duzenleyip python araclar/kural_donustur.py calistirin."
@@ -214,9 +214,9 @@
       "hedef": [
         "gelen"
       ],
-      "kapsam": null,
+      "kapsam": "kurum_yazisi",
       "uygulanir": true,
-      "not": null,
+      "not": "DUZELTILDI 2026-08-22: kapsam None idi ve belge_025'te (ozel tuzel kisi bilgi edinme basvurusu, sayi '2026/103') YANLIS ALARM verdi. Sirketin kendi belge numarasi EBYS bicimine uymuyor ve uymak zorunda da degil. Bu kurallar Y 11/1 EBYS sayi bicimini denetliyor, yalnizca kurum yazisina uygulanir.",
       "liste_alani": null,
       "yol_bolum": null,
       "karsi_yol": null
@@ -235,9 +235,9 @@
       "hedef": [
         "gelen"
       ],
-      "kapsam": null,
+      "kapsam": "kurum_yazisi",
       "uygulanir": true,
-      "not": null,
+      "not": "DUZELTILDI 2026-08-22: kapsam None idi ve belge_025'te (ozel tuzel kisi bilgi edinme basvurusu, sayi '2026/103') YANLIS ALARM verdi. Sirketin kendi belge numarasi EBYS bicimine uymuyor ve uymak zorunda da degil. Bu kurallar Y 11/1 EBYS sayi bicimini denetliyor, yalnizca kurum yazisina uygulanir.",
       "liste_alani": null,
       "yol_bolum": null,
       "karsi_yol": null
@@ -256,9 +256,9 @@
       "hedef": [
         "gelen"
       ],
-      "kapsam": null,
+      "kapsam": "kurum_yazisi",
       "uygulanir": true,
-      "not": null,
+      "not": "DUZELTILDI 2026-08-22: kapsam None idi ve belge_025'te (ozel tuzel kisi bilgi edinme basvurusu, sayi '2026/103') YANLIS ALARM verdi. Sirketin kendi belge numarasi EBYS bicimine uymuyor ve uymak zorunda da degil. Bu kurallar Y 11/1 EBYS sayi bicimini denetliyor, yalnizca kurum yazisina uygulanir.",
       "liste_alani": null,
       "yol_bolum": null,
       "karsi_yol": null
@@ -277,9 +277,9 @@
       "hedef": [
         "gelen"
       ],
-      "kapsam": null,
+      "kapsam": "kurum_yazisi",
       "uygulanir": true,
-      "not": "'Sayi:' etiketi alana sizmis mi. Ayristirici etiketi ayikliyor, bu kural onun kacirdigini yakalar.",
+      "not": "DUZELTILDI 2026-08-22: kapsam None idi ve belge_025'te (ozel tuzel kisi bilgi edinme basvurusu, sayi '2026/103') YANLIS ALARM verdi. Sirketin kendi belge numarasi EBYS bicimine uymuyor ve uymak zorunda da degil. Bu kurallar Y 11/1 EBYS sayi bicimini denetliyor, yalnizca kurum yazisina uygulanir.",
       "liste_alani": null,
       "yol_bolum": null,
       "karsi_yol": null
@@ -298,9 +298,9 @@
       "hedef": [
         "gelen"
       ],
-      "kapsam": null,
+      "kapsam": "kurum_yazisi",
       "uygulanir": true,
-      "not": null,
+      "not": "DUZELTILDI 2026-08-22: kapsam None idi ve belge_025'te (ozel tuzel kisi bilgi edinme basvurusu, sayi '2026/103') YANLIS ALARM verdi. Sirketin kendi belge numarasi EBYS bicimine uymuyor ve uymak zorunda da degil. Bu kurallar Y 11/1 EBYS sayi bicimini denetliyor, yalnizca kurum yazisina uygulanir.",
       "liste_alani": null,
       "yol_bolum": null,
       "karsi_yol": null
@@ -446,12 +446,11 @@
         "giden": "cikti_yazi.konu"
       },
       "hedef": [
-        "gelen",
         "giden"
       ],
       "kapsam": null,
       "uygulanir": true,
-      "not": "DEVIR_EK2 §5.3 bu kurali [gelen,giden] ornegi olarak veriyor.",
+      "not": "DUZELTILDI 2026-08-22, hedef [gelen,giden] -> [giden]. OLCULDU: veri setindeki 300 konunun 54'u 'Hk.' ile bitiyor, baska noktalama yok. Kilavuz s.22 (Y 13) noktalama yasagini istisnasiz koyuyor ('Konu : Yonetmelik Taslagi.' yanlis ornegi), yani KURAL DOGRU, VERI SETI mevzuata aykiri. Regex'i 'Hk.' haric tutacak sekilde daraltmak mevzuata aykiri bir kural kodlamak olurdu. Gelen evrakta biraktikca 180 kusursuz belgenin 54'unde bulgu uretip yanlis alarm olcumunu kirletiyor ve kota.json'da bu ihlali sinayan kusur profili YOK, yani gelen tarafta olculebilir kayip da yok. Giden tarafta konuyu Yazar uretiyor; kural orada tam islevli ve uslup dongusunun parcasi. Veri seti duzeltilirse hedef [gelen,giden] yapilacak.",
       "liste_alani": null,
       "yol_bolum": null,
       "karsi_yol": null

@@ -243,6 +243,7 @@ class AyristirmaSonucu:
     aile: str = "bilinmiyor"          # kurum | sirket | dilekce
     kanit: dict[str, Kanit] = field(default_factory=dict)
     muhatap_satiri: int | None = None      # gövdenin nerede başladığı
+    kapanis_satiri: int | None = None      # gövdenin nerede bittiği
     uyarilar: list[str] = field(default_factory=list)
 
     @property
@@ -731,6 +732,10 @@ def _imza(satirlar: list[Satir], sonuc: AyristirmaSonucu, sinir: int) -> None:
     if kapanis is None:
         _dilekce_imzasi(satirlar, sonuc, sinir)
         return
+
+    # Gövdenin bittiği satır. Zaten hesaplandı; dışarı vermezsek her
+    # kullanacak olan yeniden hesaplar. Dosya.metin bu sayıdan kurulur.
+    sonuc.kapanis_satiri = kapanis
 
     ad = unvan = yetki = None
     ad_satiri = unvan_satiri = None
