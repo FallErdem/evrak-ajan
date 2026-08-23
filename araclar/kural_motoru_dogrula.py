@@ -82,12 +82,12 @@ KUSUR_KURAL = {
     "imza_eksik": "IM-01",
     "sdp_uyumsuz": "S-07",         # Asama B, 2026-08-23
     "muhatap_belirsiz": "M-01",    # 2026-08-23: ozel fonksiyon degil, jenerik
+    "ilgi_kopuk": "I-09",          # 2026-08-23
 }
 
 # Asama A'da olculemeyen kusurlar ve sebebi. Raporda gorunur.
 OLCULEMEYEN = {
     "kapanis_yanlis": "ME-03 Asama B (ME-02 yalnizca varlik denetler)",
-    "ilgi_kopuk": "I-09 Asama B",
     "ek_beyani_yanlis": "Ek kategorisi, Asama B",
     "tarih_tutarsiz": "Tarih/Ilgi capraz, Asama B",
     "tarama_bozuk": "kural konusu degil, OCR kalitesi",

@@ -1,0 +1,673 @@
+[
+  {
+    "kod": "yenimahalle_belediyesi",
+    "ad": "Yenimahalle Belediye Başkanlığı",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": null,
+    "seviye": 0,
+    "gorev_alani": "Ankara Büyükşehir Belediyesi sınırları içinde yer alan bir ilçe belediyesidir. 5393 sayılı Belediye Kanunu m.14 kapsamında imar, kentsel altyapı, çevre ve çevre sağlığı, temizlik ve katı atık, zabıta, park ve yeşil alanlar, sosyal hizmet ve yardım ile nikâh hizmetlerini yürütür. Karar organları belediye meclisi, belediye encümeni ve belediye başkanıdır.",
+    "sdp_kodlari": [
+      "010.06",
+      "051",
+      "602.04"
+    ],
+    "vatandas_yogunlugu": "dusuk",
+    "imza_unvani": "Belediye Başkanı",
+    "detsis_no": "65859045",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "baskan_yrd_1",
+    "ad": "Belediye Başkan Yardımcılığı 1",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "yenimahalle_belediyesi",
+    "seviye": 1,
+    "gorev_alani": "Başkanlık makamı adına bağlı müdürlüklerin koordinasyonunu sağlar, havale ve olur süreçlerini yürütür. Kendisine bağlı birimlerin yazışmalarını başkanlık adına imzalar.",
+    "sdp_kodlari": [
+      "010.06",
+      "051",
+      "622.01"
+    ],
+    "vatandas_yogunlugu": "dusuk",
+    "imza_unvani": "Belediye Başkan Yardımcısı",
+    "detsis_no": "73293321",
+    "hedef_olabilir": false
+  },
+  {
+    "kod": "baskan_yrd_2",
+    "ad": "Belediye Başkan Yardımcılığı 2",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "yenimahalle_belediyesi",
+    "seviye": 1,
+    "gorev_alani": "Başkanlık makamı adına bağlı müdürlüklerin koordinasyonunu sağlar, havale ve olur süreçlerini yürütür. Kendisine bağlı birimlerin yazışmalarını başkanlık adına imzalar.",
+    "sdp_kodlari": [
+      "010.06",
+      "051",
+      "622.01"
+    ],
+    "vatandas_yogunlugu": "dusuk",
+    "imza_unvani": "Belediye Başkan Yardımcısı",
+    "detsis_no": "15585774",
+    "hedef_olabilir": false
+  },
+  {
+    "kod": "baskan_yrd_3",
+    "ad": "Belediye Başkan Yardımcılığı 3",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "yenimahalle_belediyesi",
+    "seviye": 1,
+    "gorev_alani": "Başkanlık makamı adına bağlı müdürlüklerin koordinasyonunu sağlar, havale ve olur süreçlerini yürütür. Kendisine bağlı birimlerin yazışmalarını başkanlık adına imzalar.",
+    "sdp_kodlari": [
+      "010.06",
+      "051",
+      "622.01"
+    ],
+    "vatandas_yogunlugu": "dusuk",
+    "imza_unvani": "Belediye Başkan Yardımcısı",
+    "detsis_no": "90859947",
+    "hedef_olabilir": false
+  },
+  {
+    "kod": "baskan_yrd_4",
+    "ad": "Belediye Başkan Yardımcılığı 4",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "yenimahalle_belediyesi",
+    "seviye": 1,
+    "gorev_alani": "Başkanlık makamı adına bağlı müdürlüklerin koordinasyonunu sağlar, havale ve olur süreçlerini yürütür. Kendisine bağlı birimlerin yazışmalarını başkanlık adına imzalar.",
+    "sdp_kodlari": [
+      "010.06",
+      "051",
+      "622.01"
+    ],
+    "vatandas_yogunlugu": "dusuk",
+    "imza_unvani": "Belediye Başkan Yardımcısı",
+    "detsis_no": "13025030",
+    "hedef_olabilir": false
+  },
+  {
+    "kod": "baskan_yrd_5",
+    "ad": "Belediye Başkan Yardımcılığı 5",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "yenimahalle_belediyesi",
+    "seviye": 1,
+    "gorev_alani": "Başkanlık makamı adına bağlı müdürlüklerin koordinasyonunu sağlar, havale ve olur süreçlerini yürütür. Kendisine bağlı birimlerin yazışmalarını başkanlık adına imzalar.",
+    "sdp_kodlari": [
+      "010.06",
+      "051",
+      "622.01"
+    ],
+    "vatandas_yogunlugu": "dusuk",
+    "imza_unvani": "Belediye Başkan Yardımcısı",
+    "detsis_no": "66929355",
+    "hedef_olabilir": false
+  },
+  {
+    "kod": "yazi_isleri",
+    "ad": "Yazı İşleri Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_4",
+    "seviye": 2,
+    "gorev_alani": "Belediye meclisi ve encümeninin gündem, karar ve tutanak işlemlerini yürütür. Kurum genel evrak giriş-çıkış kayıtlarını tutar, birim arşivi ve belge talebi işlemlerini yapar. Meclis kararlarının Ankara Büyükşehir Belediyesine ve ilgili birimlere gönderilmesini sağlar.",
+    "sdp_kodlari": [
+      "105.04",
+      "110.04",
+      "010.06",
+      "622.02",
+      "805.02.05",
+      "125"
+    ],
+    "vatandas_yogunlugu": "orta",
+    "imza_unvani": "Müdür",
+    "detsis_no": "15986609",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "mali_hizmetler",
+    "ad": "Mali Hizmetler Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_3",
+    "seviye": 2,
+    "gorev_alani": "Belediye bütçesinin hazırlanması, uygulanması ve kesin hesap işlemlerini yürütür. Muhasebe, ön mali kontrol ve raporlama görevlerini yerine getirir. Stratejik plan, performans programı ve faaliyet raporu çalışmalarını koordine eder.",
+    "sdp_kodlari": [
+      "934.01",
+      "602.04",
+      "602.07",
+      "855",
+      "841.01"
+    ],
+    "vatandas_yogunlugu": "dusuk",
+    "imza_unvani": "Müdür",
+    "detsis_no": "43195403",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "gelirler",
+    "ad": "Gelirler Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_3",
+    "seviye": 2,
+    "gorev_alani": "Emlak vergisi, çevre temizlik vergisi ile belediye harç ve ücretlerinin tarh, tahakkuk ve tahsil işlemlerini yürütür. Mükellef beyanlarını alır, borç sorgulama, muafiyet ve yapılandırma taleplerini karşılar.",
+    "sdp_kodlari": [
+      "190.01.07",
+      "855",
+      "858",
+      "622.01"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Müdür",
+    "detsis_no": "30032784",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "imar_sehircilik",
+    "ad": "İmar ve Şehircilik Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_5",
+    "seviye": 2,
+    "gorev_alani": "1/1000 ölçekli uygulama imar planı ve plan değişikliği işlemlerini yürütür, askı ve itiraz süreçlerini yönetir. İmar durum belgesi düzenler, yapı ruhsatı ve yapı kullanma izin belgesi verir. İfraz, tevhid, yola terk gibi imar uygulamalarını ve numarataj işlemlerini yapar.",
+    "sdp_kodlari": [
+      "115.02.01",
+      "115.02.04",
+      "115.02.08",
+      "115.02.10",
+      "115.01.06",
+      "115.01.08"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Müdür",
+    "detsis_no": "18426575",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "yapi_kontrol",
+    "ad": "Yapı Kontrol Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_4",
+    "seviye": 2,
+    "gorev_alani": "İlçe sınırlarında denetim yaparak ruhsatsız ve ruhsata aykırı yapıları tespit eder, yapı tatil tutanağı düzenleyerek encümene sevk eder. Yapı denetim kuruluşlarının hakediş ve seviye tespit işlemlerini takip eder, kaçak yapı ihbarlarını değerlendirir.",
+    "sdp_kodlari": [
+      "115.02.11",
+      "641.04",
+      "858",
+      "622.01"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Müdür",
+    "detsis_no": "53265760",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "emlak_istimlak",
+    "ad": "Emlak ve İstimlak Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_5",
+    "seviye": 2,
+    "gorev_alani": "Belediye taşınmazlarının envanterini tutar; satış, kiralama, tahsis, devir ve takas işlemlerini 2886 sayılı Kanun hükümlerine göre yürütür. Kamulaştırma ve irtifak hakkı işlemlerini yapar, kira sözleşmelerini ve tahsilatını takip eder.",
+    "sdp_kodlari": [
+      "752.01",
+      "756.01",
+      "756.02",
+      "641.04"
+    ],
+    "vatandas_yogunlugu": "orta",
+    "imza_unvani": "Müdür",
+    "detsis_no": "87730597",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "ruhsat_denetim",
+    "ad": "Ruhsat ve Denetim Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_4",
+    "seviye": 2,
+    "gorev_alani": "Sıhhi, gayrisıhhi ve umuma açık istirahat ve eğlence yerlerine işyeri açma ve çalışma ruhsatı düzenler; ruhsat devir, tadil ve iptal işlemlerini yürütür. Ölçü ve tartı aletlerinin beyan ve periyodik muayene işlemlerini yapar.",
+    "sdp_kodlari": [
+      "170.01",
+      "175",
+      "858",
+      "622.01",
+      "180.03"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Müdür",
+    "detsis_no": "59553370",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "zabita",
+    "ad": "Zabıta Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_5",
+    "seviye": 2,
+    "gorev_alani": "Belde düzeni, esnaf denetimi, pazar yerleri ve seyyar satıcılarla ilgili tedbirleri alır. Belediye yasaklarına aykırılıklarda idari yaptırım karar tutanağı düzenler. Encümen kararlarının tebliğ ve uygulanmasında görev alır.",
+    "sdp_kodlari": [
+      "858",
+      "622.01",
+      "170.01"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Müdür",
+    "detsis_no": "50719027",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "fen_isleri",
+    "ad": "Fen İşleri Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_5",
+    "seviye": 2,
+    "gorev_alani": "Yol, kaldırım ve üstyapı yapım ile bakım-onarım işlerini yürütür. Belediye hizmet binaları ile devlet okulları ve mabetlerin onarımını yapar veya yaptırır. Yapım işlerinin etüt-proje, ihale, uygulama ve hakediş süreçlerini yönetir.",
+    "sdp_kodlari": [
+      "755.01",
+      "755.02",
+      "807.01",
+      "934.01",
+      "602.07"
+    ],
+    "vatandas_yogunlugu": "orta",
+    "imza_unvani": "Müdür",
+    "detsis_no": "33152401",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "temizlik_isleri",
+    "ad": "Temizlik İşleri Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_2",
+    "seviye": 2,
+    "gorev_alani": "Evsel katı atıkların toplanması ve taşınması ile cadde-sokak süpürme ve yıkama hizmetlerini yürütür. Konteyner temini, bakımı ve dezenfeksiyonunu sağlar. Hafriyat ve moloz kaynaklı kirlilik şikayetlerini değerlendirir.",
+    "sdp_kodlari": [
+      "155.01",
+      "934.01",
+      "622.01"
+    ],
+    "vatandas_yogunlugu": "orta",
+    "imza_unvani": "Müdür",
+    "detsis_no": "83011479",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "kultur_sanat_sosyal",
+    "ad": "Kültür, Sanat ve Sosyal İşler Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_2",
+    "seviye": 2,
+    "gorev_alani": "Meslek edindirme ve hobi kursları ile kültür-sanat etkinliklerini düzenler, sosyal tesis ve kültür merkezlerini işletir. İhtiyaç sahibi kişi ve ailelere ayni ve nakdi sosyal yardım sağlar. Engelli ve yaşlı vatandaşlara yönelik destek hizmetlerini yürütür.",
+    "sdp_kodlari": [
+      "815",
+      "120.02",
+      "051",
+      "773",
+      "622.01"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Müdür",
+    "detsis_no": "85330682",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "hukuk_isleri",
+    "ad": "Hukuk İşleri Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_3",
+    "seviye": 2,
+    "gorev_alani": "Belediye birimlerinin hukuki görüş taleplerini karşılar ve mütalaa verir. Kurumun taraf olduğu adli ve idari davalarda belediyeyi temsil eder, dava ve icra takiplerini yürütür. Encümen ve meclis kararlarının hukuka uygunluğunu değerlendirir.",
+    "sdp_kodlari": [
+      "045.02",
+      "641.04",
+      "858",
+      "622.01"
+    ],
+    "vatandas_yogunlugu": "dusuk",
+    "imza_unvani": "Müdür",
+    "detsis_no": "10578106",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "makine_ikmal",
+    "ad": "Makine İkmal Bakım ve Onarım Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_4",
+    "seviye": 2,
+    "gorev_alani": "Belediye hizmet araçları ile iş makinelerinin tahsis, görevlendirme, akaryakıt ve sigorta işlemlerini yürütür. Araç ve iş makinesi bakım-onarımını yapar veya yaptırır, yedek parça ve malzeme alım süreçlerini yönetir.",
+    "sdp_kodlari": [
+      "801",
+      "802",
+      "934.01"
+    ],
+    "vatandas_yogunlugu": "dusuk",
+    "imza_unvani": "Müdür",
+    "detsis_no": "89052714",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "muhtarlik_isleri",
+    "ad": "Muhtarlık İşleri Müdürlüğü",
+    "kurum": "Yenimahalle Belediye Başkanlığı",
+    "kurum_kodu": "yenimahalle_belediyesi",
+    "ust_birim_kodu": "baskan_yrd_1",
+    "seviye": 2,
+    "gorev_alani": "Muhtarlardan ve vatandaşlardan gelen talep, istek ve şikayetleri kayda alır, ilgili müdürlüklere yönlendirir ve sonucunu başvuru sahibine bildirir. CİMER, çağrı merkezi ve bilgi edinme başvurularının takibini yapar.",
+    "sdp_kodlari": [
+      "622.01",
+      "622.02",
+      "805.02.05"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Müdür",
+    "detsis_no": "26888327",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "ankara_il_mem",
+    "ad": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_kodu": "ankara_il_mem",
+    "ust_birim_kodu": null,
+    "seviye": 0,
+    "gorev_alani": "Millî Eğitim Bakanlığının Ankara ilindeki taşra teşkilatıdır. İl genelinde örgün ve yaygın eğitim hizmetlerini planlar, yürütür ve denetler; ilçe millî eğitim müdürlükleri ile okul ve kurumları koordine eder.",
+    "sdp_kodlari": [
+      "355.02",
+      "010.06",
+      "622.01",
+      "045.02"
+    ],
+    "vatandas_yogunlugu": "orta",
+    "imza_unvani": "İl Millî Eğitim Müdürü",
+    "detsis_no": "55461037",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "temel_egitim_sb",
+    "ad": "Temel Eğitim Şube Müdürlüğü",
+    "kurum": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_kodu": "ankara_il_mem",
+    "ust_birim_kodu": "ankara_il_mem",
+    "seviye": 2,
+    "gorev_alani": "İlkokul ve ortaokul düzeyinde kayıt-kabul, nakil ve kayıt alanı işlemlerini yürütür. Yabancı uyruklu öğrencilerin kayıt ve nakil süreçlerini takip eder.",
+    "sdp_kodlari": [
+      "205",
+      "210.01",
+      "235",
+      "198.02.01",
+      "802"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Şube Müdürü",
+    "detsis_no": "21291472",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "ortaogretim_sb",
+    "ad": "Ortaöğretim Şube Müdürlüğü",
+    "kurum": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_kodu": "ankara_il_mem",
+    "ust_birim_kodu": "ankara_il_mem",
+    "seviye": 2,
+    "gorev_alani": "Ortaöğretim kurumlarında nakil ve geçiş, ödül ve disiplin, yatılılık ve bursluluk işlemlerini yürütür. İşletmelerde meslekî eğitim ve staj süreçlerini takip eder.",
+    "sdp_kodlari": [
+      "210.01",
+      "225.02",
+      "245.04",
+      "250",
+      "198.02.01",
+      "215.01"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Şube Müdürü",
+    "detsis_no": "63971525",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "ozel_egitim_rehberlik_sb",
+    "ad": "Özel Eğitim ve Rehberlik Şube Müdürlüğü",
+    "kurum": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_kodu": "ankara_il_mem",
+    "ust_birim_kodu": "ankara_il_mem",
+    "seviye": 2,
+    "gorev_alani": "Özel eğitim hizmetlerini planlar; rehberlik ve araştırma merkezleri aracılığıyla değerlendirme kurulu raporu, kaynaştırma ve destek eğitim odası süreçlerini yürütür.",
+    "sdp_kodlari": [
+      "160.01",
+      "160.01.02",
+      "160.02"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Şube Müdürü",
+    "detsis_no": "87302975",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "ozel_ogretim_sb",
+    "ad": "Özel Öğretim Kurumları Şube Müdürlüğü",
+    "kurum": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_kodu": "ankara_il_mem",
+    "ust_birim_kodu": "ankara_il_mem",
+    "seviye": 2,
+    "gorev_alani": "Özel okul, kurs ve dershane niteliğindeki özel öğretim kurumlarının açılış, devir ve denetim işlemlerini yürütür; kurs açma taleplerini ve şikayet başvurularını değerlendirir.",
+    "sdp_kodlari": [
+      "135.03",
+      "622.01",
+      "622.02"
+    ],
+    "vatandas_yogunlugu": "orta",
+    "imza_unvani": "Şube Müdürü",
+    "detsis_no": "91571118",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "strateji_gelistirme_sb",
+    "ad": "Strateji Geliştirme Şube Müdürlüğü",
+    "kurum": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_kodu": "ankara_il_mem",
+    "ust_birim_kodu": "ankara_il_mem",
+    "seviye": 2,
+    "gorev_alani": "İl millî eğitim müdürlüğünün stratejik plan, performans programı ve faaliyet raporu çalışmalarını yürütür. Yatırım programı ve ödenek taleplerini hazırlar.",
+    "sdp_kodlari": [
+      "602.04",
+      "602.07",
+      "934.01"
+    ],
+    "vatandas_yogunlugu": "dusuk",
+    "imza_unvani": "Şube Müdürü",
+    "detsis_no": "14588481",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "yenimahalle_ilce_mem",
+    "ad": "Yenimahalle İlçe Millî Eğitim Müdürlüğü",
+    "kurum": "Ankara İl Millî Eğitim Müdürlüğü",
+    "kurum_kodu": "ankara_il_mem",
+    "ust_birim_kodu": "ankara_il_mem",
+    "seviye": 2,
+    "gorev_alani": "Yenimahalle ilçesindeki okul ve kurumların iş ve işlemlerini yürütür; kayıt-kabul, nakil, taşımalı eğitim ve okul aile birliği işlemlerini takip eder. Belediye ve kaymakamlık ile ilçe düzeyinde yazışmaları yapar.",
+    "sdp_kodlari": [
+      "205",
+      "210.01",
+      "140",
+      "165.01",
+      "250"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "İlçe Millî Eğitim Müdürü",
+    "detsis_no": "93213107",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "gazi_rektorlugu",
+    "ad": "Gazi Üniversitesi Rektörlüğü",
+    "kurum": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_kodu": "gazi_rektorlugu",
+    "ust_birim_kodu": null,
+    "seviye": 0,
+    "gorev_alani": "2547 sayılı Yükseköğretim Kanunu kapsamında eğitim-öğretim, bilimsel araştırma ve yayın faaliyetlerini yürüten devlet üniversitesidir. Senato ve Üniversite Yönetim Kurulu kararlarını uygular, akademik ve idari teşkilatı sevk ve idare eder.",
+    "sdp_kodlari": [
+      "010.06",
+      "050.04",
+      "602.04"
+    ],
+    "vatandas_yogunlugu": "dusuk",
+    "imza_unvani": "Rektör",
+    "detsis_no": "39985474",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "genel_sekreterlik",
+    "ad": "Genel Sekreterlik",
+    "kurum": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_kodu": "gazi_rektorlugu",
+    "ust_birim_kodu": "gazi_rektorlugu",
+    "seviye": 2,
+    "gorev_alani": "Üniversitenin idari teşkilatının başında yer alır; kurul kararlarının yazılması, duyurulması ve idari birimler arası koordinasyonun sağlanması işlemlerini yürütür. Genel evrak ve arşiv hizmetlerini yönetir.",
+    "sdp_kodlari": [
+      "010.06",
+      "050.04",
+      "622.01",
+      "622.02",
+      "805.02.05",
+      "045.02"
+    ],
+    "vatandas_yogunlugu": "orta",
+    "imza_unvani": "Genel Sekreter",
+    "detsis_no": "82642947",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "ogrenci_isleri_db",
+    "ad": "Öğrenci İşleri Daire Başkanlığı",
+    "kurum": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_kodu": "gazi_rektorlugu",
+    "ust_birim_kodu": "gazi_rektorlugu",
+    "seviye": 2,
+    "gorev_alani": "Öğrenci kayıt, kayıt yenileme, nakil, kayıt dondurma ve mezuniyet işlemlerini yürütür. Öğrenci belgesi, transkript ve askerlik durum belgesi düzenler. Yatay geçiş ve denklik başvurularını işleme alır.",
+    "sdp_kodlari": [
+      "302.01",
+      "302.10",
+      "302.11",
+      "302.15",
+      "301.06",
+      "102.03",
+      "302.03",
+      "310"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Daire Başkanı",
+    "detsis_no": "17311665",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "personel_db",
+    "ad": "Personel Dairesi Başkanlığı",
+    "kurum": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_kodu": "gazi_rektorlugu",
+    "ust_birim_kodu": "gazi_rektorlugu",
+    "seviye": 2,
+    "gorev_alani": "Akademik ve idari personelin atama, görevlendirme ve özlük işlemlerini yürütür. Doçentlik ve unvan sınavlarına ilişkin jüri görevlendirme işlemlerini yapar.",
+    "sdp_kodlari": [
+      "903.02",
+      "201",
+      "209",
+      "204.01"
+    ],
+    "vatandas_yogunlugu": "dusuk",
+    "imza_unvani": "Daire Başkanı",
+    "detsis_no": "42218640",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "muhendislik_fak",
+    "ad": "Mühendislik Fakültesi Dekanlığı",
+    "kurum": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_kodu": "gazi_rektorlugu",
+    "ust_birim_kodu": "gazi_rektorlugu",
+    "seviye": 2,
+    "gorev_alani": "Fakülte düzeyinde eğitim-öğretim programlarını yürütür; ders ve sınav programlarını düzenler, öğrenci izin ve mazeret taleplerini karara bağlar. Zorunlu staj başvuru ve değerlendirme süreçlerini yönetir.",
+    "sdp_kodlari": [
+      "104.01",
+      "106",
+      "302.08",
+      "304.03",
+      "773"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Dekan",
+    "detsis_no": "43123369",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "gazi_egitim_fak",
+    "ad": "Gazi Eğitim Fakültesi Dekanlığı",
+    "kurum": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_kodu": "gazi_rektorlugu",
+    "ust_birim_kodu": "gazi_rektorlugu",
+    "seviye": 2,
+    "gorev_alani": "Öğretmen yetiştirme programlarını yürütür. Öğretmenlik uygulaması kapsamında il ve ilçe millî eğitim müdürlükleri ile uygulama öğrencisi yerleştirme ve protokol yazışmalarını yapar.",
+    "sdp_kodlari": [
+      "773",
+      "304.03",
+      "302.08",
+      "106"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Dekan",
+    "detsis_no": "86488853",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "fen_bilimleri_ens",
+    "ad": "Fen Bilimleri Enstitüsü Müdürlüğü",
+    "kurum": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_kodu": "gazi_rektorlugu",
+    "ust_birim_kodu": "gazi_rektorlugu",
+    "seviye": 2,
+    "gorev_alani": "Lisansüstü programların eğitim-öğretim işlemlerini yürütür. Tez konusu, danışman atama, jüri oluşturma ve tez teslim süreçlerini yönetir; kayıt ve izin taleplerini karara bağlar.",
+    "sdp_kodlari": [
+      "302.14",
+      "302.01",
+      "302.11",
+      "106"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Enstitü Müdürü",
+    "detsis_no": "47014261",
+    "hedef_olabilir": true
+  },
+  {
+    "kod": "sks_db",
+    "ad": "Sağlık Kültür ve Spor Daire Başkanlığı",
+    "kurum": "Gazi Üniversitesi Rektörlüğü",
+    "kurum_kodu": "gazi_rektorlugu",
+    "ust_birim_kodu": "gazi_rektorlugu",
+    "seviye": 2,
+    "gorev_alani": "Öğrencilere yönelik burs, kısmi zamanlı çalışma, beslenme ve sağlık hizmetlerini yürütür. Öğrenci topluluklarının kuruluş ve etkinlik izin işlemlerini yapar, sosyal ve kültürel etkinlikleri düzenler.",
+    "sdp_kodlari": [
+      "304.03",
+      "309",
+      "815",
+      "051",
+      "802"
+    ],
+    "vatandas_yogunlugu": "yuksek",
+    "imza_unvani": "Daire Başkanı",
+    "detsis_no": "98244303",
+    "hedef_olabilir": true
+  }
+]

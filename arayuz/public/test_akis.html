@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Akış Testi</title>
+<style>
+  body { font: 14px ui-monospace, monospace; margin: 24px; background: #0f1115; color: #d6dae0; }
+  h1 { font-size: 16px; color: #7dd3a0; }
+  button { font: inherit; padding: 8px 14px; background: #1f2937; color: #d6dae0;
+           border: 1px solid #374151; border-radius: 6px; cursor: pointer; }
+  button:hover { background: #273244; }
+  #durum { margin: 14px 0; padding: 8px 12px; border-radius: 6px; background: #1a1d24; }
+  .ok { color: #7dd3a0; } .hata { color: #f87171; } .bekle { color: #fbbf24; }
+  #kutular { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; margin: 16px 0; }
+  .kutu { padding: 8px 6px; border-radius: 6px; background: #1a1d24; border: 1px solid #2a2f3a;
+          font-size: 11px; text-align: center; transition: all .2s; }
+  .kutu.calisiyor { background: #78350f; border-color: #fbbf24; }
+  .kutu.bitti { background: #14532d; border-color: #7dd3a0; }
+  .kutu .sure { display: block; color: #9ca3af; font-size: 10px; margin-top: 3px; }
+  #log { white-space: pre-wrap; line-height: 1.5; font-size: 12px;
+         max-height: 50vh; overflow: auto; background: #14161b; padding: 12px; border-radius: 6px; }
+</style>
+</head>
+<body>
+
+<h1>Akış Testi — sahte_sunucu.py</h1>
+<button id="basla">Evrak yükle ve akışı dinle</button>
+<div id="durum">Hazır. Sunucunun 8000 portunda çalıştığından emin olun.</div>
+<div id="kutular"></div>
+<div id="log">—</div>
+
+<script>
+const API = "http://localhost:8000";
+
+const DUGUMLER = [
+  [1,"Okuyucu"], [2,"Ayrıştırıcı"], [3,"Sınıflandırıcı"], [4,"Bilgi Çıkarıcı"],
+  [5,"Eksik Bilgi"], [6,"Mevzuat"], [7,"Özetleyici"], [8,"Karar Verici"],
+  [9,"Taslak"], [10,"Üslup Denetimi"], [11,"Yönlendirici"], [12,"Güven Kapısı"],
+];
+
+const durumEl = document.getElementById("durum");
+const logEl   = document.getElementById("log");
+const kutuEl  = document.getElementById("kutular");
+
+function kutulariKur() {
+  kutuEl.innerHTML = "";
+  for (const [no, ad] of DUGUMLER) {
+    const d = document.createElement("div");
+    d.className = "kutu";
+    d.id = "kutu-" + no;
+    d.innerHTML = `${no} · ${ad}<span class="sure">—</span>`;
+    kutuEl.appendChild(d);
+  }
+}
+
+function yaz(metin, sinif = "") {
+  const t = new Date().toLocaleTimeString("tr-TR");
+  logEl.innerHTML += `\n<span class="${sinif}">[${t}] ${metin}</span>`;
+  logEl.scrollTop = logEl.scrollHeight;
+}
+
+function durum(metin, sinif) {
+  durumEl.innerHTML = `<span class="${sinif}">${metin}</span>`;
+}
+
+document.getElementById("basla").onclick = async () => {
+  logEl.innerHTML = "—";
+  kutulariKur();
+
+  // 1) Sahte bir dosya yükle. Sunucu içeriği okumuyor, adı yeterli.
+  durum("Evrak yükleniyor...", "bekle");
+  let evrakId;
+  try {
+    const fd = new FormData();
+    fd.append("dosya", new Blob(["test"], { type: "application/pdf" }), "test.pdf");
+    const r = await fetch(API + "/api/evrak", { method: "POST", body: fd });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const veri = await r.json();
+    evrakId = veri.evrak_id;
+    yaz("Yüklendi → evrak_id = " + evrakId, "ok");
+  } catch (e) {
+    durum("YÜKLEME BAŞARISIZ: " + e.message, "hata");
+    yaz("Sunucu çalışmıyor ya da CORS engelledi. Konsolu (F12) açın.", "hata");
+    return;
+  }
+
+  // 2) SSE akışına bağlan. React'te yazacağınız kod birebir bu.
+  durum("Akışa bağlanılıyor...", "bekle");
+  const es = new EventSource(`${API}/api/evrak/${evrakId}/akis`);
+  let sayac = 0;
+
+  es.onopen = () => durum("BAĞLANDI — olaylar akıyor", "ok");
+
+  es.onmessage = (e) => {
+    const o = JSON.parse(e.data);
+    sayac++;
+
+    if (o.tur === "dugum_basladi") {
+      document.getElementById("kutu-" + o.dugum).className = "kutu calisiyor";
+      yaz(`▶ ${o.dugum} · ${o.dugum_adi} başladı`);
+    }
+    else if (o.tur === "dugum_bitti") {
+      const k = document.getElementById("kutu-" + o.dugum);
+      k.className = "kutu bitti";
+      k.querySelector(".sure").textContent = o.sure_ms + " ms";
+      const g = o.guven != null ? ` · güven ${o.guven}` : "";
+      yaz(`✓ ${o.dugum} · ${o.dugum_adi} — ${o.sure_ms} ms${g}`, "ok");
+      if (o.gerekce) yaz(`   ↳ ${o.gerekce}`);
+    }
+    else if (o.tur === "dugum_tekrar") {
+      document.getElementById("kutu-" + o.dugum).className = "kutu calisiyor";
+      yaz(`↩ ${o.dugum} · taslak geri gönderildi (tur ${o.tur_no}) — ${o.gerekce}`, "bekle");
+    }
+    else if (o.tur === "durum_degisti") {
+      yaz(`◆ durum → ${o.durum}`, "bekle");
+    }
+    else if (o.tur === "akis_bitti") {
+      yaz(`■ BİTTİ — ${o.durum} · toplam ${o.toplam_ms} ms · ${sayac} olay`, "ok");
+      durum(`TAMAM — ${sayac} olay alındı, akış sağlıklı`, "ok");
+      es.close();
+    }
+    else {
+      yaz(`· ${o.tur}`);
+    }
+  };
+
+  es.onerror = () => {
+    // Akış normal bittiyse burası da tetiklenir; ayırt etmek için sayaca bakıyoruz.
+    if (es.readyState === EventSource.CLOSED && sayac > 0) return;
+    durum("AKIŞ HATASI — bağlantı koptu", "hata");
+    yaz("EventSource hatası. Sunucu ayakta mı, CORS açık mı?", "hata");
+    es.close();
+  };
+};
+
+kutulariKur();
+</script>
+</body>
+</html>

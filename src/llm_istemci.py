@@ -127,6 +127,45 @@ class LLMHatasi(Exception):
     """İstemci kaynaklı hata. Mesajında asla API anahtarı bulunmaz."""
 
 
+@dataclass(frozen=True)
+class AracCagrisi:
+    """Modelin çağırmaya karar verdiği tek bir araç."""
+
+    ad: str
+    argumanlar: dict
+    cagri_id: str
+
+
+@dataclass(frozen=True)
+class AracCevabi:
+    """`arac_cagir()` çıktısı.
+
+    `Cevap` sınıfı frozen ve `anlama.py` tarafından kullanılıyor; ona alan
+    eklemek yerine ayrı bir sınıf yazıldı (donma kuralı: alan silinmez,
+    yeniden adlandırma silme sayılır).
+
+    Model iki şeyden birini yapar:
+      - bir ya da birkaç ARAÇ çağırır   -> arac_cagrilari dolu, metin None
+      - doğrudan CEVAP verir            -> arac_cagrilari boş, metin dolu
+
+    `ham_mesaj` modelin ürettiği asistan mesajının kendisidir. ReAct
+    döngüsünde geçmişe OLDUĞU GİBİ geri konur; yeniden kurulursa
+    `tool_call_id` eşleşmesi bozulur ve sağlayıcı 400 döner.
+    """
+
+    arac_cagrilari: list[AracCagrisi]
+    metin: str | None
+    ham_mesaj: dict
+    token: TokenBilgisi
+    sure_ms: float
+    model: str
+    bitis_sebebi: str | None = None
+
+    @property
+    def arac_cagirdi_mi(self) -> bool:
+        return bool(self.arac_cagrilari)
+
+
 # -----------------------------------------------------------------------------
 # Yapılandırma
 # -----------------------------------------------------------------------------
@@ -277,6 +316,94 @@ class LLMIstemci:
             deneme_sayisi=deneme,
             model=veri.get("model") or self.y.model,
             bitis_sebebi=self._bitis_sebebi(veri),
+        )
+
+    # -- araç çağırma (ReAct döngüsü) -----------------------------------------
+
+    def arac_cagir(
+        self,
+        mesajlar: list[dict],
+        araclar: list[dict],
+        sicaklik: float | None = None,
+        ek: dict | None = None,
+    ) -> AracCevabi:
+        """Modele araç tanımlarıyla birlikte mesaj geçmişini gönderir.
+
+        `metin_uret()`'e DOKUNULMADI. Sebep: o metot `content` boş gelince
+        hata fırlatıyor ve bu doğru davranış — düz metin isteyen bir çağrıda
+        boş içerik sessizce geçilmemeli. Ama model araç çağırdığında
+        sağlayıcı tam olarak şunu döndürür:
+
+            message.content    = null
+            message.tool_calls = [...]
+
+        Yani araç çağıran her cevap `metin_uret()` ile istisna atardı.
+        `anlama.py` mevcut metodu kullanıyor ve Parça 3'te 300 belgede
+        ölçüldü; o yolu değiştirmek ölçümleri riske atar.
+
+        `mesajlar` geçmişin TAMAMIDIR, çağıran taraf yönetir. Döngü şöyle
+        ilerler:
+
+            mesajlar = [sistem, kullanici]
+            cevap = arac_cagir(mesajlar, araclar)
+            mesajlar.append(cevap.ham_mesaj)              # modelin hamlesi
+            mesajlar.append({"role": "tool", ...})        # aracın gözlemi
+            cevap = arac_cagir(mesajlar, araclar)         # model düzeltir
+
+        Sağlayıcı OpenAI istek/cevap biçimini kullanıyor (OpenRouter). Bu
+        bir model tercihi değil, zarf biçimi; Qwen de aynı zarfla döner.
+        """
+        govde: dict = {
+            "model": self.y.model,
+            "messages": mesajlar,
+            "tools": araclar,
+        }
+        if sicaklik is not None:
+            govde["temperature"] = sicaklik
+        govde.update(self.y.ek_parametreler)
+        if ek:
+            govde.update(ek)
+
+        baslangic = time.perf_counter()
+        veri, _deneme = self._gonder(govde)
+        sure_ms = (time.perf_counter() - baslangic) * 1000
+
+        token = self._token_cikar(veri)
+        self._sayaci_guncelle(token)
+
+        secenekler = veri.get("choices") or []
+        if not secenekler:
+            raise LLMHatasi(f"Cevapta 'choices' yok. Ham cevap: {str(veri)[:300]}")
+        mesaj = secenekler[0].get("message") or {}
+
+        cagrilar = [
+            AracCagrisi(
+                ad=(c.get("function") or {}).get("name") or "",
+                argumanlar=_argumanlari_coz(c),
+                cagri_id=c.get("id") or "",
+            )
+            for c in (mesaj.get("tool_calls") or [])
+        ]
+        icerik = mesaj.get("content")
+
+        # Ne araç ne metin: sessizce boş cevap dönmek yerine açık hata.
+        # Sebebi ancak burada anlaşılır; ileride bulgu yokluğu "temiz belge"
+        # gibi okunur ve kimse fark etmez.
+        if not cagrilar and not icerik:
+            raise LLMHatasi(
+                f"Model ne araç çağırdı ne metin üretti "
+                f"(finish_reason={secenekler[0].get('finish_reason')}). "
+                f"Ham mesaj: {str(mesaj)[:300]}"
+            )
+
+        return AracCevabi(
+            arac_cagrilari=cagrilar,
+            metin=icerik.strip() if isinstance(icerik, str) and icerik.strip() else None,
+            ham_mesaj=mesaj,
+            token=token,
+            sure_ms=sure_ms,
+            model=veri.get("model") or self.y.model,
+            bitis_sebebi=secenekler[0].get("finish_reason"),
         )
 
     # -- kümülatif muhasebe ---------------------------------------------------
@@ -471,6 +598,30 @@ class LLMIstemci:
 # -----------------------------------------------------------------------------
 # Kolaylık
 # -----------------------------------------------------------------------------
+
+
+def _argumanlari_coz(cagri: dict) -> dict:
+    """tool_calls[i].function.arguments -> dict.
+
+    Sağlayıcılar bu alanı iki farklı biçimde döndürüyor:
+      - JSON DİZESİ  '{"alinti": "..."}'   (OpenAI ve OpenRouter'ın çoğu)
+      - hazır SÖZLÜK {"alinti": "..."}     (bazı sağlayıcılar)
+
+    İkisi de karşılanıyor. Dize bozuksa istisna atılmıyor: model geçersiz
+    JSON üretebilir ve bu bir MODEL HATASIDIR, istemci hatası değil.
+    Döngüyü çökertmek yerine boş sözlük dönüyor; çağıran taraf aracı
+    çalıştıramaz ve modele "argümanların okunamadı" diye geri bildirir.
+    """
+    ham = (cagri.get("function") or {}).get("arguments")
+    if isinstance(ham, dict):
+        return ham
+    if not isinstance(ham, str) or not ham.strip():
+        return {}
+    try:
+        cozulen = json.loads(ham)
+    except (json.JSONDecodeError, ValueError):
+        return {}
+    return cozulen if isinstance(cozulen, dict) else {}
 
 
 def istemci_olustur(yapilandirma_yolu: str | Path) -> LLMIstemci:

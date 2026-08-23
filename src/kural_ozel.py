@@ -19,6 +19,7 @@ sisteme güveni bitirir.
 
 from __future__ import annotations
 
+import re
 from typing import Any
 
 # =============================================================================
@@ -219,6 +220,67 @@ def _kisalt(metin: str | None, sinir: int = 150) -> str | None:
 
 
 # =============================================================================
+# I-09 · metin_ilgi_atfi
+# =============================================================================
+
+# "ilgi" ve çekim ekli hâlleri EŞLEŞİR:  ilgi · ilgide · İlgi'de · ilginin
+# "ilgili" ve "ilgilen-" EŞLEŞMEZ:        ilgili · ilgililere · ilgilenmek
+#
+# NEDEN BU AYRIM ZORUNLU — ölçüldü 2026-08-23:
+# Naif bir "ilgi" alt dize araması belge_031'in (ilgi_kopuk kusurlu)
+# gövdesinde İKİ eşleşme buluyor, çünkü metin "Konuyla ilgili irtibat"
+# diyor. Kural o desenle yazılsaydı ihlali HİÇBİR ZAMAN yakalayamazdı ve
+# testte de görünmezdi — bulgu yokluğu "temiz belge" gibi okunur.
+#
+#     naif  'ilgi'   belge_048 (temiz)   -> 2 eşleşme
+#                    belge_031 (kusurlu) -> 2 eşleşme   ikisi de sessiz
+#     bu desen       belge_048           -> ["ilgi'de"]
+#                    belge_031           -> []          doğru ayrım
+_ILGI_ATFI = re.compile(r"\bilgi(?!li|len)", re.IGNORECASE)
+
+
+def metin_ilgi_atfi(deger: Any, kural: dict, dosya) -> tuple[bool, str | None] | None:
+    """İlgi tutulan belgeden metin içinde bahsediliyor mu — K 13.2.
+
+    KUSUR NASIL ÇALIŞIYOR
+    ---------------------
+    `ilgi_kopuk` (12 belge) ilgi satırını SİLMİYOR; gövdedeki atfı
+    kaldırıyor. Etiketteki `kusur_ayrinti` bunu birebir gösteriyor:
+
+        dogru_deger    : "İlgide kayıtlı yazı ile Atama Onayı talebinde…"
+        enjekte_edilen : "Söz konusu yazı ile Atama Onayı talebinde…"
+
+    Belgenin üstünde ilgi duruyor, gövde ondan hiç söz etmiyor. Okuyan
+    memur hangi yazıya cevap verildiğini metinden anlayamaz.
+
+    NEDEN "anılan yazı" / "söz konusu yazı" ARANMIYOR
+    -------------------------------------------------
+    Kusurlu belgede bu ifadeler HÂLÂ VAR ("Talep, anılan yazıda belirtilen
+    hususlar çerçevesinde…"). Onları aramak kuralı işlevsiz bırakır.
+    Aranan şey ilgiye yapılan AÇIK atıftır.
+
+    SINIR — RAPORA GİRECEK
+    ----------------------
+    K 13.2 bağın İLK PARAGRAFTA kurulmasını istiyor. Gövde satır satır
+    okunup boşlukla birleştirildiği için paragraf sınırları elimizde yok
+    (`Satir` yalnızca y taşıyor, x taşımıyor). Bu yüzden denetim gövdenin
+    TAMAMINDA yapılıyor — kuraldan daha hoşgörülü. Yanlış alarm üretmeyen
+    tarafa düşüyor.
+    """
+    ilgiler = getattr(dosya.ustveri, "ilgi", None)
+    if not ilgiler:
+        return None                      # ilgi yok, denetlenecek bağ da yok
+
+    govde = dosya.metin
+    if not govde or not govde.strip():
+        return None                      # gövde kurulamadı; ME-01 bunu bildirir
+
+    if _ILGI_ATFI.search(govde):
+        return False, None
+    return True, _kisalt(govde[:120])
+
+
+# =============================================================================
 # Kayıt defteri
 # =============================================================================
 #
@@ -228,4 +290,5 @@ def _kisalt(metin: str | None, sinir: int = 150) -> str | None:
 OZEL_FONKSIYONLAR = {
     "sdp_kod_celiskisi": sdp_kod_celiskisi,
     "muhatap_var_mi": muhatap_var_mi,
+    "metin_ilgi_atfi": metin_ilgi_atfi,
 }

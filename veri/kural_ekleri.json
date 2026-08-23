@@ -1,6 +1,6 @@
 {
   "_aciklama": "kural_listesi.md'den TURETILEMEYEN insan kararlari. Donusturucu bu dosyayi kural_listesi.md ile birlestirip veri/kurallar.json uretir. Ayri durmasinin sebebi: kural_listesi.md duzeltilirse (35 kuralin aciklamasi kesik) bu kararlar kaybolmasin.",
-  "_surum": "1.6.0",
+  "_surum": "1.8.0",
   "_tarih": "2026-08-22",
   "_alanlar": {
     "yol": "Motorun okuyacagi nokta yolu. DIZE ya da SOZLUK olabilir. Sozlukse anahtarlar gelen/giden. ALAN_YOLLARI'na karsi dogrulanir.",
@@ -321,6 +321,35 @@
       "uygulanir": true,
       "talep_edilebilir": false,
       "not": "muhatap_belirsiz kusuru (10 belge). 2026-08-23: once jenerik bos_olmamali yapildi, OLCULDU ve 0/7 cikti - kusur muhatabi silmiyor, muglaklastiriyor (kusur_ayrinti: dogru_deger 'Ankara Il Milli Egitim Mudurlugu' -> enjekte_edilen 'ILGILI MAKAMA', on belgede de ayni). Alan dolu oldugu icin bos_olmamali sessiz kaliyor. kural_listesi.md'nin ozel fonksiyon isaretlemesi DOGRUYMUS, geri alindi. Fonksiyon dizeyi aramaz; muhatabi birimler.csv'deki 30 hedef birime karsi eslestirir (metin.en_iyi_eslesme). yol=ustveri.muhatap: bulgunun 'alan' degeri icin ve motorun kapsam/atlama muhasebesi icin. talep_edilebilir=false: muhatap belgenin ustunde yazilidir, okunamiyorsa sorun okumadadir."
+    },
+    "I-09": {
+      "denetim": "ozel_fonksiyon",
+      "yontem_adi": "metin_ilgi_atfi",
+      "yol": "ustveri.ilgi",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "talep_edilebilir": false,
+      "not": "ilgi_kopuk kusuru (12 belge). Kusur ilgi satirini silmiyor, GOVDEDEKI ATFI kaldiriyor (kusur_ayrinti: 'Ilgide kayitli yazi ile...' -> 'Soz konusu yazi ile...'). yol=ustveri.ilgi: motor degismezi ilgi listesi bosken kurali atlasin diye - ilgi yoksa denetlenecek bag da yok. hedef [gelen]: taslakta ilgi alani ALAN_YOLLARI'nda yok. talep_edilebilir=false: eksik olan bilgi degil, metnin kurgusu."
+    }
+  },
+  "_yazilmayan_denetimler": {
+    "_aciklama": "Veri setinde kusur olarak bulunan ama 104 maddelik kural listesinde karsiligi OLMAYAN denetimler. Buraya yazilmalarinin sebebi kaybolmamalari; kural_ekleri.json motorun okudugu dosya oldugu icin git'te izleniyor ve her donusturucu kosusunda goz onunde. Motor bu blogu OKUMAZ.",
+    "tarih_tutarsiz": {
+      "belge_sayisi": 12,
+      "kusur_nedir": "Ilgi tutulan yazinin tarihi, belgenin kendi tarihinden SONRA. Ornek belge_036: ilgi tarihi 18.06.2026, belge tarihi 23.04.2026. Mantiksal olarak imkansiz.",
+      "kural_karsiligi": "YOK",
+      "neden_yazilmadi": "104 kuralin tamami tarandi. T-01..T-04 tarihin varligi ve bicimi, I-01/I-05 ilginin tarihi ve siralamasi, GN-01..GN-07 sayfa duzeni ile ilgili. Hicbiri 'ilgi tarihi belge tarihinden sonra olamaz' demiyor. KARAR 2026-08-23: kural_listesi.md'ye yeni madde EKLENMEDI. Liste Yonetmelik ve Kilavuz'dan cikarildi; oraya kendi kuralimizi eklemek listenin kaynak butunlugunu bozar. Ayrica bu bir mevzuat ihlali degil, MANTIKSAL TUTARSIZLIK - farkli bir denetim sinifi.",
+      "sonradan_eklenirse": "Ustveri.ilgi[].tarih ile ustveri.tarih karsilastirilir. Iki alan da ayristirici tarafindan dolduruluyor, ek veri gerekmez. Once kural icin bir dayanak bulunmali."
+    },
+    "ek_beyani_yanlis": {
+      "belge_sayisi": 10,
+      "kusur_nedir": "Ek listesinin basligindaki adet beyani, listedeki ek sayisi ile tutmuyor. Ornek belge_013: 'EKLER: 3 adet' yaziyor, altinda tek satir var ('1 - Tapu fotokopisi').",
+      "kural_karsiligi": "EK-04 ORTUSMUYOR",
+      "neden_yazilmadi": "EK-04 'Metinde ekten bahsediliyorsa ek listesi BOS OLMAMALIDIR' diyor. Kusurlu belgede liste bos degil, 1 ek var - EK-04 yazilsa bile atesLEMEZ. EK-01..EK-06'nin hicbiri 'beyan edilen adet ile liste adedi tutmali' demiyor. OLCULDU 2026-08-23: ayristirici ek listesini dogru cikariyor (1 ek) ama 'EKLER: 3 adet' beyani hicbir Ustveri alaninda TUTULMUYOR, yalnizca kaynak.ham_metin'de duruyor. Yakalamak icin ham metinden bolge cikarimi gerekir - T-04 ve GN-01 ayni sebeple kapsam disi birakilmisti.",
+      "sonradan_eklenirse": "kaynak.ham_metin'de 'EK(LER)?:\\s*(\\d+)\\s*adet' deseni aranip len(ustveri.ekler) ile karsilastirilir. Once kural icin bir dayanak bulunmali."
     }
   }
 }

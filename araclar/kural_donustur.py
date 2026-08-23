@@ -203,6 +203,7 @@ def markdown_oku(yol: Path) -> list[dict]:
 BINDIRILEBILIR = (
     "yol", "denetim", "yontem_adi", "liste_alani", "yol_bolum",
     "karsi_yol", "hedef", "kapsam", "uygulanir", "not",
+    "talep_edilebilir", "soru",
 )
 
 
@@ -230,6 +231,8 @@ def bindir(kurallar: list[dict], ekler: dict) -> list[dict]:
         k.setdefault("hedef", ["gelen"])
         k.setdefault("kapsam", None)
         k.setdefault("not", None)
+        k.setdefault("talep_edilebilir", False)
+        k.setdefault("soru", None)
         if "uygulanir" not in k:
             # Ozel fonksiyonlar Asama D; jenerikler ekler dosyasindan gelir.
             k["uygulanir"] = False
@@ -280,6 +283,13 @@ def dogrula(kurallar: list[dict]) -> list[str]:
 
         if not k["dayanak"]:
             ekle(f"{kid}: dayanak bos")
+
+        # soru, karsi tarafa gidecek cumledir. Istenemeyecek bir eksik icin
+        # soru yazmak, arayuzde gosterilemeyecek metin uretmek demektir.
+        if k.get("soru") and not k.get("talep_edilebilir"):
+            ekle(f"{kid}: soru yazilmis ama talep_edilebilir=false")
+        if k.get("talep_edilebilir") and not k.get("soru"):
+            ekle(f"{kid}: talep_edilebilir=true ama soru yazilmamis")
 
         if not k["baslik"]:
             ekle(f"{kid}: baslik bos")

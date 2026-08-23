@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Tasarım tokenları — evrak kayıt defteri
+   Kağıt zemin, mürekkep laciverti, kaşe kırmızısı.
+   Kırmızı yalnızca iki yerde kullanılır: çalışan düğüm ve kritik bulgu.
+   Başka yerde kullanılırsa vurgu ölür.
+--------------------------------------------------------------------------- */
+
+@theme {
+  /* yüzeyler */
+  --color-kagit: #f0f1ec;
+  --color-yaprak: #fbfbf8;
+  --color-tel: #dcddd4;
+  --color-tel-koyu: #c3c5b9;
+
+  /* mürekkep */
+  --color-murekkep: #16202e;
+  --color-murekkep-orta: #46536a;
+  --color-karbon: #7d8378;
+
+  /* vurgular */
+  --color-kase: #b02a22;
+  --color-kase-soluk: #f3e0de;
+  --color-muhur: #2f6b5a;
+  --color-muhur-soluk: #dfeae4;
+  --color-havale: #a86a12;
+  --color-havale-soluk: #f6ebd6;
+
+  /* yazı */
+  --font-display: "Archivo", ui-sans-serif, system-ui, sans-serif;
+  --font-govde: "Source Serif 4", Georgia, serif;
+  --font-veri: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html {
+  background: var(--color-kagit);
+}
+
+body {
+  font-family: var(--font-display);
+  color: var(--color-murekkep);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Çalışan düğümün nabzı. Hareket azaltma açıksa durur. */
+@keyframes nabiz {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+@keyframes kase-bas {
+  0% {
+    opacity: 0;
+    transform: rotate(-14deg) scale(1.6);
+  }
+  60% {
+    opacity: 1;
+    transform: rotate(-3deg) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-4deg) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

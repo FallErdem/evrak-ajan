@@ -5,9 +5,9 @@
     "kaynak": "kural_listesi.md",
     "kaynak_sha256": "7cdd5ee6ff4ae6c7e33f0f6e0a1c21d4474cf3111077e704b7fc293625771ef4",
     "ekler": "kural_ekleri.json",
-    "ekler_surum": "1.6.0",
+    "ekler_surum": "1.8.0",
     "toplam": 104,
-    "uygulanir": 20,
+    "uygulanir": 21,
     "_uyari": "ELLE DUZENLENMEZ. Kaynak kural_listesi.md + veri/kural_ekleri.json. Degisiklik icin onlari duzenleyip python araclar/kural_donustur.py calistirin."
   },
   "kurallar": [
@@ -1036,18 +1036,18 @@
       "yontem_adi": "metin_ilgi_atfi",
       "agirlik": "hata",
       "dayanak": "K 13.2",
-      "yol": null,
-      "liste_alani": null,
-      "yol_bolum": null,
-      "karsi_yol": null,
+      "yol": "ustveri.ilgi",
       "hedef": [
         "gelen"
       ],
       "kapsam": null,
-      "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "uygulanir": true,
+      "not": "ilgi_kopuk kusuru (12 belge). Kusur ilgi satirini silmiyor, GOVDEDEKI ATFI kaldiriyor (kusur_ayrinti: 'Ilgide kayitli yazi ile...' -> 'Soz konusu yazi ile...'). yol=ustveri.ilgi: motor degismezi ilgi listesi bosken kurali atlasin diye - ilgi yoksa denetlenecek bag da yok. hedef [gelen]: taslakta ilgi alani ALAN_YOLLARI'nda yok. talep_edilebilir=false: eksik olan bilgi degil, metnin kurgusu.",
       "talep_edilebilir": false,
-      "soru": null,
-      "uygulanir": false
+      "liste_alani": null,
+      "yol_bolum": null,
+      "karsi_yol": null,
+      "soru": null
     },
     {
       "id": "I-10",
