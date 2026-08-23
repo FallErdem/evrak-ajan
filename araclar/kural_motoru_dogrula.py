@@ -24,6 +24,7 @@ ASAMA A'DA OLCULEBILEN YAKALAMA — dort kusur
     tarih_eksik  12 belge  ->  T-01
     konu_eksik   10 belge  ->  K-01
     imza_eksik   10 belge  ->  IM-01
+    sdp_uyumsuz  12 belge  ->  S-07   (Asama B, ozel fonksiyon)
 
 OLCULEMEYENLER ve SEBEBI
 ------------------------
@@ -78,11 +79,11 @@ KUSUR_KURAL = {
     "tarih_eksik": "T-01",
     "konu_eksik": "K-01",
     "imza_eksik": "IM-01",
+    "sdp_uyumsuz": "S-07",      # Asama B, 2026-08-23
 }
 
 # Asama A'da olculemeyen kusurlar ve sebebi. Raporda gorunur.
 OLCULEMEYEN = {
-    "sdp_uyumsuz": "S-07 Asama B (ozel fonksiyon, katalog eslesmesi)",
     "kapanis_yanlis": "ME-03 Asama B (ME-02 yalnizca varlik denetler)",
     "ilgi_kopuk": "I-09 Asama B",
     "ek_beyani_yanlis": "Ek kategorisi, Asama B",
@@ -122,6 +123,28 @@ def govde_kur(satirlar, a) -> str | None:
     Iki sinir da ayristiricidan gelir; burada YENIDEN HESAPLANMAZ. Sinirlar
     bulunamazsa None doner ve motor degismezi geregi ME kurallari atlanir —
     yanlis bir govde uydurup kurala vermekten iyidir.
+
+    SATIRLAR BOSLUKLA BIRLESTIRILIR, '\\n' ILE DEGIL
+    ------------------------------------------------
+    PDF'teki satir sonu cumlenin parcasi degil, sayfa yerlesiminin
+    artefaktidir. '\\n' ile birlestirildiginde OLCULDU (2026-08-23,
+    153 kusursuz belge): ME-02 16 belgede yanlis alarm verdi, cunku
+    satir sarmasi kapanis ifadesini ikiye boluyordu:
+
+        'hususunda gereğini arz\\nederim.'      <- 'arz ederim' YOK
+        'bilgileri ve gereğini arz/rica\\nederim.'
+
+    Desen literal bosluk ariyor, satir sonu bulamıyor. Duzeltme desende
+    degil BURADA yapildi: desen dogru, govde yanlis kurulmustu. Cok
+    kelimeli her ifade ayni tuzaga duserdi, yalnizca ME-02 degil.
+
+    SINIR — durust kayit
+    --------------------
+    Bu birlestirme paragraf sinirlarini da yok eder. Paragraf tespiti
+    ilk satirin girintisine (x koordinati) bakmayi gerektirir; dipnot.Satir
+    yalnizca y tasiyor, x tasimiyor. Paragraf yapisina bakan bir kural
+    yazilacaksa once Satir'a x eklenmelidir. Asama A kurallarinin hicbiri
+    paragraf sinirina bakmiyor.
     """
     if a.kapanis_satiri is None:
         return None
@@ -129,7 +152,7 @@ def govde_kur(satirlar, a) -> str | None:
     son = a.kapanis_satiri + 1
     if bas >= son:
         return None
-    return "\n".join(s.metin for s in satirlar[bas:son]).strip() or None
+    return " ".join(s.metin.strip() for s in satirlar[bas:son]).strip() or None
 
 
 def dosya_kur(r, a, etiket: dict) -> Dosya:
@@ -190,7 +213,10 @@ def main(argv: list[str]) -> int:
         yaz("")
 
         temiz_belge = 0
+        temiz_bicim: Counter = Counter()           # metin_katmanli / taranmis
         temiz_bulgulu: list[str] = []
+        bulgulu_bicim: Counter = Counter()
+        bulgu_bicim: Counter = Counter()
         yanlis_alarm: Counter = Counter()          # kural -> kac temiz belgede
         yanlis_alarm_ornek: dict[str, list[str]] = defaultdict(list)
 
@@ -238,8 +264,12 @@ def main(argv: list[str]) -> int:
             if kusur is None:
                 # --- OLCUM 1: yanlis alarm ---
                 temiz_belge += 1
+                bicim = e.get("pdf_bicimi") or "bilinmiyor"
+                temiz_bicim[bicim] += 1
                 if bulunan:
                     temiz_bulgulu.append(no)
+                    bulgulu_bicim[bicim] += 1
+                    bulgu_bicim[bicim] += len(s.rapor.bulgular)
                     for b in s.rapor.bulgular:
                         yanlis_alarm[b.kural_id] += 1
                         if len(yanlis_alarm_ornek[b.kural_id]) < 6:
@@ -273,14 +303,31 @@ def main(argv: list[str]) -> int:
         # ------------------------------------------------------------------
         yaz("OLCUM 1 - YANLIS ALARM (kusursuz belgeler)")
         yaz("-" * 72)
-        yaz(f"  kusursuz belge sayisi     {temiz_belge}")
-        yaz(f"  bulgu ureten belge        {len(temiz_bulgulu)}")
-        yaz(f"  toplam yanlis bulgu       {sum(yanlis_alarm.values())}")
-        if not yanlis_alarm:
-            yaz("  SONUC: SIFIR YANLIS ALARM - GECTI")
+        def _kir(c: Counter) -> str:
+            return " · ".join(f"{k} {v}" for k, v in sorted(c.items())) or "-"
+
+        yaz(f"  kusursuz belge sayisi     {temiz_belge}   ({_kir(temiz_bicim)})")
+        yaz(f"  bulgu ureten belge        {len(temiz_bulgulu)}   ({_kir(bulgulu_bicim)})")
+        yaz(f"  toplam yanlis bulgu       {sum(yanlis_alarm.values())}   ({_kir(bulgu_bicim)})")
+        yaz("")
+
+        # KAPI yalnizca METIN KATMANLI nufusta. Taranmis belgede alan
+        # yoklugu kuralin degil OKUMANIN kusuru: EasyOCR anahtar terimlerin
+        # %68'ini koruyor (devir notu §7.3) ve okuyucu.py paragraf ici
+        # kelime karisikligini duzeltemedigini kendi docstring'inde yaziyor.
+        # Iki nufusu tek sayida toplamak, kural motorunun kalitesini OCR
+        # kalitesiyle karistirir ve olcumu okunamaz kilar.
+        mk_bulgu = bulgu_bicim.get("metin_katmanli", 0)
+        if mk_bulgu == 0:
+            yaz("  SONUC (metin katmanli): SIFIR YANLIS ALARM - GECTI")
         else:
-            yaz("  SONUC: KALDI - asagidaki kurallar duzeltilene kadar")
-            yaz("         uygulanir=false yapilmalidir.")
+            yaz(f"  SONUC (metin katmanli): KALDI - {mk_bulgu} bulgu.")
+            yaz("         Bu kurallar duzeltilene kadar uygulanir=false yapilmalidir.")
+        tr_bulgu = bulgu_bicim.get("taranmis", 0)
+        if tr_bulgu:
+            yaz(f"  SONUC (taranmis)      : {tr_bulgu} bulgu - OCR kaybi, kural kusuru DEGIL.")
+            yaz("         Raporda ayri verilir; kural motoru olcumune katilmaz.")
+        if yanlis_alarm:
             yaz("")
             for kid, adet in yanlis_alarm.most_common():
                 oran = adet / temiz_belge if temiz_belge else 0
@@ -328,7 +375,9 @@ def main(argv: list[str]) -> int:
         yaz("")
         yaz(f"sonuc dosyasi: {cikti}")
 
-    return 0 if not yanlis_alarm else 1
+        _kapi = bulgu_bicim.get("metin_katmanli", 0)
+
+    return 0 if _kapi == 0 else 1
 
 
 if __name__ == "__main__":

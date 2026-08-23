@@ -35,6 +35,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+from kural_ozel import OZEL_FONKSIYONLAR
 from veri_yapisi import (
     Dosya,
     LinterBulgusu,
@@ -58,6 +59,7 @@ class AtlamaSebebi:
     KAPSAM_DISI = "kapsam_disi"      # belge turu kuralin kapsaminda degil
     ALAN_BOS = "alan_bos"            # motor degismezi
     YOL_YOK = "yol_yok"              # kuralda yol tanimli degil (hata sayilir)
+    VERI_YOK = "veri_yok"            # ozel fonksiyon denetim icin veri bulamadi
 
 
 @dataclass
@@ -295,6 +297,17 @@ class KuralMotoru:
         """
         for k in self.kurallar:
             denetim = k.get("denetim")
+            if denetim == "ozel_fonksiyon":
+                ad = k.get("yontem_adi")
+                fn = OZEL_FONKSIYONLAR.get(ad)
+                if fn is None:
+                    raise KuralYapilandirmaHatasi(
+                        f"{k['id']}: uygulanir=true ama '{ad}' ozel fonksiyonu "
+                        f"kural_ozel.OZEL_FONKSIYONLAR icinde yok. "
+                        f"Ya fonksiyonu yazin ya kurali uygulanir=false yapin."
+                    )
+                k["_fonksiyon"] = fn
+                continue
             if denetim not in ISLEYICILER:
                 raise KuralYapilandirmaHatasi(
                     f"{k['id']}: bilinmeyen denetim turu {denetim!r}"
@@ -379,7 +392,16 @@ class KuralMotoru:
                 continue
 
             # 5) Denetle
-            ihlal, alinti = ISLEYICILER[denetim](deger, kural, dosya)
+            isleyici = kural.get("_fonksiyon") or ISLEYICILER[denetim]
+            cikti = isleyici(deger, kural, dosya)
+            # Ozel fonksiyon None donerse: denetim icin gereken veriyi
+            # bulamadi. Motor degismezinin uzantisi — atlanir, uydurulmaz.
+            if cikti is None:
+                atlamalar.append(
+                    AtlamaKaydi(kid, AtlamaSebebi.VERI_YOK, kural.get("yontem_adi"))
+                )
+                continue
+            ihlal, alinti = cikti
             rapor.denetlenen_kural_sayisi += 1
             if ihlal:
                 rapor.bulgular.append(self._bulgu(kural, yol, alinti, dosya))

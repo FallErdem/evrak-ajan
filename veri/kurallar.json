@@ -5,9 +5,9 @@
     "kaynak": "kural_listesi.md",
     "kaynak_sha256": "b32653a4be29472fe2cc457059a899ac7f793da027dbf5c283aea6e62f839a33",
     "ekler": "kural_ekleri.json",
-    "ekler_surum": "1.2.0",
+    "ekler_surum": "1.3.0",
     "toplam": 104,
-    "uygulanir": 18,
+    "uygulanir": 19,
     "_uyari": "ELLE DUZENLENMEZ. Kaynak kural_listesi.md + veri/kural_ekleri.json. Degisiklik icin onlari duzenleyip python araclar/kural_donustur.py calistirin."
   },
   "kurallar": [
@@ -315,13 +315,13 @@
       "yontem_adi": "sdp_kod_celiskisi",
       "agirlik": "hata",
       "dayanak": "Y 11/1",
-      "yol": null,
+      "yol": "ustveri.sayi",
       "hedef": [
         "gelen"
       ],
       "kapsam": "kurum_yazisi",
-      "uygulanir": false,
-      "not": "Asama B: sdp_uyumsuz kusuru (12 belge). DUZELTILDI 2026-08-22: onceki tanim alan_esitligi(ustveri.sayi[bolum:3], siniflandirma.sdp.kod) idi ve HIC TETIKLENMEZDI - anlama.py sdp_sayidan_oku() o alani zaten sayinin 3. bolumunden dolduruyor, yani X ile X karsilastiriliyordu. Dogru tanim IKI BAGIMSIZ KAYNAK ister: (1) sayinin 3. bolumu, (2) sdp_katalog.konudan_kod_bul() ile govdeden bulunan kod. Olculdu: 83 temiz kurum yazisinda 82 uyum (1 yanlis alarm), 12 kusurlu belgede 11 yakalama. Fonksiyon Asama B'de yazilacak, o zaman uygulanir=true olacak.",
+      "uygulanir": true,
+      "not": "Asama B, YAZILDI 2026-08-23. sdp_uyumsuz kusuru (12 belge). DUZELTILDI: onceki tanim alan_esitligi(ustveri.sayi[bolum:3], siniflandirma.sdp.kod) idi ve HIC TETIKLENMEZDI - anlama.sdp_sayidan_oku() o alani zaten sayinin 3. bolumunden dolduruyor, X ile X karsilastiriliyordu. Yeni tanim iki BAGIMSIZ kaynak kullaniyor: (1) sayinin 3. bolumu, (2) konu <-> ornek_konular eslesmesi. yol=ustveri.sayi: motor degismezi sayi bos oldugunda kurali atlasin diye. Fonksiyon: kural_ozel.sdp_kod_celiskisi.",
       "liste_alani": null,
       "yol_bolum": null,
       "karsi_yol": null
