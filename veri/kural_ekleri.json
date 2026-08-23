@@ -1,6 +1,6 @@
 {
   "_aciklama": "kural_listesi.md'den TURETILEMEYEN insan kararlari. Donusturucu bu dosyayi kural_listesi.md ile birlestirip veri/kurallar.json uretir. Ayri durmasinin sebebi: kural_listesi.md duzeltilirse (35 kuralin aciklamasi kesik) bu kararlar kaybolmasin.",
-  "_surum": "1.3.0",
+  "_surum": "1.6.0",
   "_tarih": "2026-08-22",
   "_alanlar": {
     "yol": "Motorun okuyacagi nokta yolu. DIZE ya da SOZLUK olabilir. Sozlukse anahtarlar gelen/giden. ALAN_YOLLARI'na karsi dogrulanir.",
@@ -32,7 +32,9 @@
       ],
       "kapsam": "kurum_yazisi",
       "uygulanir": true,
-      "not": "sayi_eksik kusuru (12 belge). kota.json on kosul: kurum_yazisi. Taslakta sayi daima null -> hedef yalnizca gelen."
+      "not": "sayi_eksik kusuru (12 belge). kota.json on kosul: kurum_yazisi. Taslakta sayi daima null -> hedef yalnizca gelen.",
+      "talep_edilebilir": true,
+      "soru": "Belgenin sayısı okunamamıştır. Belgeye ait sayının bildirilmesini rica ederiz."
     },
     "S-02": {
       "yol": "ustveri.sayi",
@@ -97,7 +99,9 @@
       ],
       "kapsam": null,
       "uygulanir": true,
-      "not": "tarih_eksik kusuru (12 belge). kota.json on kosul null -> her ture uygulanir. Taslakta tarih daima null -> hedef yalnizca gelen."
+      "not": "tarih_eksik kusuru (12 belge). kota.json on kosul null -> her ture uygulanir. Taslakta tarih daima null -> hedef yalnizca gelen.",
+      "talep_edilebilir": true,
+      "soru": "Belgenin tarihi okunamamıştır. Belgeye ait tarihin bildirilmesini rica ederiz."
     },
     "T-04": {
       "yol": "ustveri.tarih",
@@ -116,7 +120,8 @@
       ],
       "kapsam": "kurum_yazisi",
       "uygulanir": true,
-      "not": "konu_eksik kusuru (10 belge). kota.json on kosul: kurum_yazisi."
+      "not": "konu_eksik kusuru (10 belge). kota.json on kosul: kurum_yazisi. talep_edilebilir=false: konu bos oldugunda govdeden ve SDP kodundan cikarilabiliyor (sdp_katalog.kod_adi + konudan_kod_bul). Karsi tarafa sormak gereksiz tur.",
+      "talep_edilebilir": false
     },
     "K-02": {
       "yol": {
@@ -150,13 +155,17 @@
       "not": "OLCULDU: ayristirici.py satir 536 Ilgi(ham=kalan) uretiyor, alan dolu. liste_alani altyapisi ustveri.ekler ve ustveri.dagitim icin de kullanilacak."
     },
     "ME-01": {
-      "yol": "cikti_yazi.metin",
+      "yol": {
+        "gelen": "metin",
+        "giden": "cikti_yazi.metin"
+      },
       "hedef": [
+        "gelen",
         "giden"
       ],
       "kapsam": null,
       "uygulanir": true,
-      "not": "Yolu taslaga isaret ediyor. Varsayilan [gelen] birakilirsa gelen evrakta cikti_yazi.metin daima None olur ve kural her belgede tetiklenir. hedef [giden] ZORUNLU."
+      "not": "GENISLETILDI 2026-08-23, hedef [giden] -> [gelen, giden]. Onceki halinde yol yalnizca cikti_yazi.metin idi ve gelen evrakta GOVDE HIC DENETLENMIYORDU: tam kosuda 6 belgede govde kurulamadi ve hicbir sey uyarmadi. Yol artik ME-02 ile ayni deseni izliyor - gelen govde 'metin', giden govde 'cikti_yazi.metin'. Varsayilan [gelen] birakilsaydi gelen evrakta cikti_yazi.metin daima None olur ve kural her belgede tetiklenirdi; sozluk yol bunu onluyor."
     },
     "ME-02": {
       "yol": {
@@ -230,7 +239,9 @@
       ],
       "kapsam": null,
       "uygulanir": true,
-      "not": "DUZELTILDI: kural_listesi.md 'ustveri.imza_sahibi_unvan' diyor, semada YOK. Blogun varligi denetleniyor (etiket_025 kusur_ayrinti: enjekte_edilen='' -> blogun tamami silinmis). Taslakta imza_ad daima null ama imza_unvan dolu -> alt alana baglanamaz, hedef [gelen]."
+      "not": "DUZELTILDI: kural_listesi.md 'ustveri.imza_sahibi_unvan' diyor, semada YOK. Blogun varligi denetleniyor (etiket_025 kusur_ayrinti: enjekte_edilen='' -> blogun tamami silinmis). Taslakta imza_ad daima null ama imza_unvan dolu -> alt alana baglanamaz, hedef [gelen].",
+      "talep_edilebilir": true,
+      "soru": "Belgede imza bulunmamaktadır. İmzalı bir nüshasının gönderilmesini rica ederiz."
     },
     "G-01": {
       "yol": "ustveri.gizlilik_derecesi",
@@ -286,6 +297,30 @@
       "kapsam": null,
       "uygulanir": false,
       "not": "Kural ham metnin KONU bolgesini cikarmayi gerektiriyor ('kaynak.ham_metin[konu]'). Bolge cikarma Asama A kapsami disi; T-04 ile ayni sebep."
+    },
+    "ME-03": {
+      "denetim": "ozel_fonksiyon",
+      "yontem_adi": "metin_arz_rica_hiyerarsi",
+      "yol": null,
+      "hedef": [
+        "gelen",
+        "giden"
+      ],
+      "kapsam": null,
+      "uygulanir": false,
+      "not": "kapanis_yanlis kusuru (10 belge). YAZILMADI - Yazar ile birlikte yazilacak. OLCULDU 2026-08-23: kural her iki yonde de GONDERENIN KIM OLDUGUNU bilmek zorunda. Gelen evrakta gonderen antettedir ve ayristirici onu cikarmiyor (ustveri.gonderen yolu tanimli, hic doldurulmuyor). Giden taslakta alici, gelen belgenin gonderenidir - ayni eksik. Yazar yazilirken 'kime cevap yaziyoruz' sorusu zaten cozulecek; ME-03 o cozumun uzerine bedava gelir. Simdi ayri yapmak ayni isi iki kez yapmak olur. linter._kapanis_kontrol() karsilastirma mantigini zaten tasiyor, yeniden yazilmayacak. cikti_yazi.muhatap semada VAR ama ALAN_YOLLARI'nda YOK; giden tarafa baglanacaksa once o yol eklenmelidir."
+    },
+    "M-01": {
+      "denetim": "ozel_fonksiyon",
+      "yontem_adi": "muhatap_var_mi",
+      "yol": "ustveri.muhatap",
+      "hedef": [
+        "gelen"
+      ],
+      "kapsam": null,
+      "uygulanir": true,
+      "talep_edilebilir": false,
+      "not": "muhatap_belirsiz kusuru (10 belge). 2026-08-23: once jenerik bos_olmamali yapildi, OLCULDU ve 0/7 cikti - kusur muhatabi silmiyor, muglaklastiriyor (kusur_ayrinti: dogru_deger 'Ankara Il Milli Egitim Mudurlugu' -> enjekte_edilen 'ILGILI MAKAMA', on belgede de ayni). Alan dolu oldugu icin bos_olmamali sessiz kaliyor. kural_listesi.md'nin ozel fonksiyon isaretlemesi DOGRUYMUS, geri alindi. Fonksiyon dizeyi aramaz; muhatabi birimler.csv'deki 30 hedef birime karsi eslestirir (metin.en_iyi_eslesme). yol=ustveri.muhatap: bulgunun 'alan' degeri icin ve motorun kapsam/atlama muhasebesi icin. talep_edilebilir=false: muhatap belgenin ustunde yazilidir, okunamiyorsa sorun okumadadir."
     }
   }
 }

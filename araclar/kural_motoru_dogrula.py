@@ -25,6 +25,7 @@ ASAMA A'DA OLCULEBILEN YAKALAMA — dort kusur
     konu_eksik   10 belge  ->  K-01
     imza_eksik   10 belge  ->  IM-01
     sdp_uyumsuz  12 belge  ->  S-07   (Asama B, ozel fonksiyon)
+    muhatap_belirsiz 10 belge -> M-01  (jenerik bos_olmamali)
 
 OLCULEMEYENLER ve SEBEBI
 ------------------------
@@ -79,7 +80,8 @@ KUSUR_KURAL = {
     "tarih_eksik": "T-01",
     "konu_eksik": "K-01",
     "imza_eksik": "IM-01",
-    "sdp_uyumsuz": "S-07",      # Asama B, 2026-08-23
+    "sdp_uyumsuz": "S-07",         # Asama B, 2026-08-23
+    "muhatap_belirsiz": "M-01",    # 2026-08-23: ozel fonksiyon degil, jenerik
 }
 
 # Asama A'da olculemeyen kusurlar ve sebebi. Raporda gorunur.
@@ -88,7 +90,6 @@ OLCULEMEYEN = {
     "ilgi_kopuk": "I-09 Asama B",
     "ek_beyani_yanlis": "Ek kategorisi, Asama B",
     "tarih_tutarsiz": "Tarih/Ilgi capraz, Asama B",
-    "muhatap_belirsiz": "M-01 Asama B",
     "tarama_bozuk": "kural konusu degil, OCR kalitesi",
 }
 

@@ -108,6 +108,117 @@ def sdp_kod_celiskisi(deger: Any, kural: dict, dosya) -> tuple[bool, str | None]
 
 
 # =============================================================================
+# M-01 · muhatap_var_mi
+# =============================================================================
+
+
+def muhatap_var_mi(deger: Any, kural: dict, dosya) -> tuple[bool, str | None] | None:
+    """Belgede TANIMLANABİLİR bir muhatap var mı — Y 14/1.
+
+    İKİ AYRI İHLAL, TEK KURAL
+    -------------------------
+        1  muhatap alanı boş                    -> ihlal
+        2  alan dolu ama bir makama karşılık
+           gelmiyor ("İLGİLİ MAKAMA")           -> ihlal
+
+    İSTİSNA — dağıtımlı belge
+    -------------------------
+    `muhatap.tur == DAGITIM_YERLERI` ise muhatap geçerlidir. M-11 bunu
+    açıkça düzenliyor. Bu istisna konmadan ölçüldüğünde 153 kusursuz
+    belgenin 5'inde yanlış alarm verildi; beşi de dağıtımlı belgeydi.
+
+    NEDEN JENERİK `bos_olmamali` YETMİYOR
+    -------------------------------------
+    ÖLÇÜLDÜ 2026-08-23: `muhatap_belirsiz` kusuru muhatabı SİLMİYOR,
+    muğlaklaştırıyor. Etiketlerdeki `kusur_ayrinti` on belgede de aynı:
+
+        dogru_deger    : "Ankara İl Millî Eğitim Müdürlüğü"
+        enjekte_edilen : "İLGİLİ MAKAMA"
+
+    Alan dolu olduğu için `bos_olmamali` haklı olarak sessiz kalıyor;
+    M-01 jenerik yapıldığında ölçüm 0/7 çıktı. `kural_listesi.md`'nin
+    bu kuralı `özel fonksiyon muhatap_var_mi` diye işaretlemesi doğruymuş.
+
+    NEDEN KELİME LİSTESİ DEĞİL, TABLO EŞLEŞMESİ
+    -------------------------------------------
+    "İLGİLİ MAKAMA" dizesini aramak on belgenin onunu da yakalar ama
+    ölçtüğü şey yöntem değil, üretecin bastığı dizedir. Üreteç yarın
+    "ALAKALI BİRİME" yazsa hiçbir şey bulunmaz.
+
+    Bunun yerine muhatap, `birimler.csv`'den gelen 30 hedef birime karşı
+    eşleştirilir. Tanımlanabilir bir makam bulunamıyorsa muhatap
+    belirsizdir — dizenin ne olduğundan bağımsız olarak.
+
+    ÖLÇÜLDÜ 2026-08-23, `metin.en_iyi_eslesme` ile:
+
+        "İLGİLİ MAKAMA"                                 -> None    0.00
+        "ANKARA İL MİLLÎ EĞİTİM MÜDÜRLÜĞÜNE Ortaöğretim
+         Şube Müdürlüğü"                                -> bulundu 1.00
+        "YENİMAHALLE BELEDİYE BAŞKANLIĞINA Fen İşleri
+         Müdürlüğü"                                     -> bulundu 1.00
+        "GAZİ ÜNİVERSİTESİ REKTÖRLÜĞÜNE"                -> bulundu 1.00
+
+    Aynı arama Anlama'nın `sdp_adaylari()` fonksiyonunda da kullanılıyor;
+    orada 288/288 doğru ölçülmüştü. İkinci bir uygulama yazılmadı.
+
+    SINIR — RAPORA GİRECEK
+    ----------------------
+    Eşleştirme, bu çalışmadaki 3 kurumun 35 birimlik kaydına yapılır.
+    Kayıtta bulunmayan bir idareye yazılmış meşru bir belge, muhatabı
+    belirsiz sayılır. Veri setinin tamamı bu üç kuruma geldiği için burada
+    ölçülemiyor; gerçek kullanımda birim kaydının kapsamı genişletilmelidir.
+    """
+    from birimler import hedef_olabilecekler
+    from metin import en_iyi_eslesme
+    from veri_yapisi import MuhatapTuru
+
+    muhatap = getattr(dosya.ustveri, "muhatap", None)
+    ham = getattr(muhatap, "ham", None) if muhatap else None
+    birim = getattr(muhatap, "birim", None) if muhatap else None
+
+    # 1) Alan tamamen boş mu. Motor değişmezi burada UYGULANMAZ: bu kuralın
+    #    işi zaten yokluğu denetlemek (jenerik `bos_olmamali` ile aynı rol).
+    if not dosya.alan_dolu_mu("ustveri.muhatap"):
+        return True, None
+
+    # 2) Dağıtımlı belge mi. Bu MEŞRU bir muhatap biçimidir, belirsizlik
+    #    değildir — M-11: "Birden fazla muhataba iletilecek dağıtımlı
+    #    belgelerin muhatap bölümüne 'DAĞITIM YERLERİNE' ibaresi yazılır."
+    #
+    #    ÖLÇÜLDÜ 2026-08-23: bu kontrol yokken 153 kusursuz belgenin
+    #    5'inde yanlış alarm verildi; beşi de dağıtımlı belgeydi
+    #    (kota.json karma_kapanis: 12 dağıtımlı belge). Dağıtımlı belgede
+    #    muhatap bir birim DEĞİLDİR, "dağıtım listesine bakınız" demektir;
+    #    birim tablosunda karşılığının bulunmaması beklenen davranıştır.
+    #
+    #    Karşılaştırma ayrıştırıcının çözümlediği enum'a yapılıyor, metne
+    #    değil — "DAĞITIM YERLERİNE" dizesi bu kodda geçmiyor.
+    if getattr(muhatap, "tur", None) == MuhatapTuru.DAGITIM_YERLERI:
+        return False, None
+
+    # 3) Yazılan şey tanımlanabilir bir makam mı.
+    arama = " ".join(x for x in (ham, birim) if x)
+    if not arama.strip():
+        return True, None
+
+    adaylar = [(b["kod"], b["ad"], b["seviye"]) for b in hedef_olabilecekler()]
+    if not adaylar:
+        # Birim kaydı yüklenemedi. Denetim yapılamaz; bulgu UYDURULMAZ.
+        return None
+
+    kod, _oran, _ad = en_iyi_eslesme(arama, adaylar)
+    if kod is None:
+        return True, _kisalt(arama)
+    return False, None
+
+
+def _kisalt(metin: str | None, sinir: int = 150) -> str | None:
+    if not metin:
+        return None
+    return " ".join(metin.split())[:sinir]
+
+
+# =============================================================================
 # Kayıt defteri
 # =============================================================================
 #
@@ -116,4 +227,5 @@ def sdp_kod_celiskisi(deger: Any, kural: dict, dosya) -> tuple[bool, str | None]
 
 OZEL_FONKSIYONLAR = {
     "sdp_kod_celiskisi": sdp_kod_celiskisi,
+    "muhatap_var_mi": muhatap_var_mi,
 }

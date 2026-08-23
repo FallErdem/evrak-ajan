@@ -3,11 +3,11 @@
     "surum": "1.0.0",
     "uretim_tarihi": "2026-08-23",
     "kaynak": "kural_listesi.md",
-    "kaynak_sha256": "b32653a4be29472fe2cc457059a899ac7f793da027dbf5c283aea6e62f839a33",
+    "kaynak_sha256": "7cdd5ee6ff4ae6c7e33f0f6e0a1c21d4474cf3111077e704b7fc293625771ef4",
     "ekler": "kural_ekleri.json",
-    "ekler_surum": "1.3.0",
+    "ekler_surum": "1.6.0",
     "toplam": 104,
-    "uygulanir": 19,
+    "uygulanir": 20,
     "_uyari": "ELLE DUZENLENMEZ. Kaynak kural_listesi.md + veri/kural_ekleri.json. Degisiklik icin onlari duzenleyip python araclar/kural_donustur.py calistirin."
   },
   "kurallar": [
@@ -30,7 +30,9 @@
       "not": "OLCULDU 2026-08-22: ayristirici.py baslik blogunu hic uretmiyor (grep 'tc_var' -> 0 sonuc, ayristirici_dogrula.py ALANLAR 7 alan sayiyor, baslik yok). Alan daima None kalir, motor degismezi geregi atlanir. Yanlis alarm riski yok, ama kural da hicbir sey bulmaz. Ayristiriciya baslik cikarimi eklenirse true yapilacak.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "B-02",
@@ -51,6 +53,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -72,6 +76,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -93,6 +99,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -114,6 +122,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -135,6 +145,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -156,6 +168,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -177,6 +191,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -196,6 +212,8 @@
       "kapsam": "kurum_yazisi",
       "uygulanir": true,
       "not": "sayi_eksik kusuru (12 belge). kota.json on kosul: kurum_yazisi. Taslakta sayi daima null -> hedef yalnizca gelen.",
+      "talep_edilebilir": true,
+      "soru": "Belgenin sayısı okunamamıştır. Belgeye ait sayının bildirilmesini rica ederiz.",
       "liste_alani": null,
       "yol_bolum": null,
       "karsi_yol": null
@@ -219,7 +237,9 @@
       "not": "DUZELTILDI 2026-08-22: kapsam None idi ve belge_025'te (ozel tuzel kisi bilgi edinme basvurusu, sayi '2026/103') YANLIS ALARM verdi. Sirketin kendi belge numarasi EBYS bicimine uymuyor ve uymak zorunda da degil. Bu kurallar Y 11/1 EBYS sayi bicimini denetliyor, yalnizca kurum yazisina uygulanir.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "S-03",
@@ -240,7 +260,9 @@
       "not": "DUZELTILDI 2026-08-22: kapsam None idi ve belge_025'te (ozel tuzel kisi bilgi edinme basvurusu, sayi '2026/103') YANLIS ALARM verdi. Sirketin kendi belge numarasi EBYS bicimine uymuyor ve uymak zorunda da degil. Bu kurallar Y 11/1 EBYS sayi bicimini denetliyor, yalnizca kurum yazisina uygulanir.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "S-04",
@@ -261,7 +283,9 @@
       "not": "DUZELTILDI 2026-08-22: kapsam None idi ve belge_025'te (ozel tuzel kisi bilgi edinme basvurusu, sayi '2026/103') YANLIS ALARM verdi. Sirketin kendi belge numarasi EBYS bicimine uymuyor ve uymak zorunda da degil. Bu kurallar Y 11/1 EBYS sayi bicimini denetliyor, yalnizca kurum yazisina uygulanir.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "S-05",
@@ -282,7 +306,9 @@
       "not": "DUZELTILDI 2026-08-22: kapsam None idi ve belge_025'te (ozel tuzel kisi bilgi edinme basvurusu, sayi '2026/103') YANLIS ALARM verdi. Sirketin kendi belge numarasi EBYS bicimine uymuyor ve uymak zorunda da degil. Bu kurallar Y 11/1 EBYS sayi bicimini denetliyor, yalnizca kurum yazisina uygulanir.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "S-06",
@@ -303,7 +329,9 @@
       "not": "DUZELTILDI 2026-08-22: kapsam None idi ve belge_025'te (ozel tuzel kisi bilgi edinme basvurusu, sayi '2026/103') YANLIS ALARM verdi. Sirketin kendi belge numarasi EBYS bicimine uymuyor ve uymak zorunda da degil. Bu kurallar Y 11/1 EBYS sayi bicimini denetliyor, yalnizca kurum yazisina uygulanir.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "S-07",
@@ -324,7 +352,9 @@
       "not": "Asama B, YAZILDI 2026-08-23. sdp_uyumsuz kusuru (12 belge). DUZELTILDI: onceki tanim alan_esitligi(ustveri.sayi[bolum:3], siniflandirma.sdp.kod) idi ve HIC TETIKLENMEZDI - anlama.sdp_sayidan_oku() o alani zaten sayinin 3. bolumunden dolduruyor, X ile X karsilastiriliyordu. Yeni tanim iki BAGIMSIZ kaynak kullaniyor: (1) sayinin 3. bolumu, (2) konu <-> ornek_konular eslesmesi. yol=ustveri.sayi: motor degismezi sayi bos oldugunda kurali atlasin diye. Fonksiyon: kural_ozel.sdp_kod_celiskisi.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "T-01",
@@ -343,6 +373,8 @@
       "kapsam": null,
       "uygulanir": true,
       "not": "tarih_eksik kusuru (12 belge). kota.json on kosul null -> her ture uygulanir. Taslakta tarih daima null -> hedef yalnizca gelen.",
+      "talep_edilebilir": true,
+      "soru": "Belgenin tarihi okunamamıştır. Belgeye ait tarihin bildirilmesini rica ederiz.",
       "liste_alani": null,
       "yol_bolum": null,
       "karsi_yol": null
@@ -366,6 +398,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -387,6 +421,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -408,7 +444,9 @@
       "uygulanir": false,
       "not": "Kural ham metnin BASLIK BLOGU bolgesinden tarih cikarmayi gerektiriyor ('kaynak.ham_metin[baslik_bloku_tarih]'). Bolge cikarma jenerik alan_esitligi isleyicisinin isi degil; Asama A kapsami disi.",
       "liste_alani": null,
-      "yol_bolum": null
+      "yol_bolum": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "K-01",
@@ -426,10 +464,12 @@
       ],
       "kapsam": "kurum_yazisi",
       "uygulanir": true,
-      "not": "konu_eksik kusuru (10 belge). kota.json on kosul: kurum_yazisi.",
+      "not": "konu_eksik kusuru (10 belge). kota.json on kosul: kurum_yazisi. talep_edilebilir=false: konu bos oldugunda govdeden ve SDP kodundan cikarilabiliyor (sdp_katalog.kod_adi + konudan_kod_bul). Karsi tarafa sormak gereksiz tur.",
+      "talep_edilebilir": false,
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "soru": null
     },
     {
       "id": "K-02",
@@ -453,7 +493,9 @@
       "not": "DUZELTILDI 2026-08-22, hedef [gelen,giden] -> [giden]. OLCULDU: veri setindeki 300 konunun 54'u 'Hk.' ile bitiyor, baska noktalama yok. Kilavuz s.22 (Y 13) noktalama yasagini istisnasiz koyuyor ('Konu : Yonetmelik Taslagi.' yanlis ornegi), yani KURAL DOGRU, VERI SETI mevzuata aykiri. Regex'i 'Hk.' haric tutacak sekilde daraltmak mevzuata aykiri bir kural kodlamak olurdu. Gelen evrakta biraktikca 180 kusursuz belgenin 54'unde bulgu uretip yanlis alarm olcumunu kirletiyor ve kota.json'da bu ihlali sinayan kusur profili YOK, yani gelen tarafta olculebilir kayip da yok. Giden tarafta konuyu Yazar uretiyor; kural orada tam islevli ve uslup dongusunun parcasi. Veri seti duzeltilirse hedef [gelen,giden] yapilacak.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "K-03",
@@ -474,6 +516,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -495,6 +539,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -516,6 +562,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -528,16 +576,18 @@
       "yontem_adi": "muhatap_var_mi",
       "agirlik": "hata",
       "dayanak": "Y 14/1",
-      "yol": null,
-      "liste_alani": null,
-      "yol_bolum": null,
-      "karsi_yol": null,
+      "yol": "ustveri.muhatap",
       "hedef": [
         "gelen"
       ],
       "kapsam": null,
-      "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
-      "uygulanir": false
+      "uygulanir": true,
+      "not": "muhatap_belirsiz kusuru (10 belge). 2026-08-23: once jenerik bos_olmamali yapildi, OLCULDU ve 0/7 cikti - kusur muhatabi silmiyor, muglaklastiriyor (kusur_ayrinti: dogru_deger 'Ankara Il Milli Egitim Mudurlugu' -> enjekte_edilen 'ILGILI MAKAMA', on belgede de ayni). Alan dolu oldugu icin bos_olmamali sessiz kaliyor. kural_listesi.md'nin ozel fonksiyon isaretlemesi DOGRUYMUS, geri alindi. Fonksiyon dizeyi aramaz; muhatabi birimler.csv'deki 30 hedef birime karsi eslestirir (metin.en_iyi_eslesme). yol=ustveri.muhatap: bulgunun 'alan' degeri icin ve motorun kapsam/atlama muhasebesi icin. talep_edilebilir=false: muhatap belgenin ustunde yazilidir, okunamiyorsa sorun okumadadir.",
+      "talep_edilebilir": false,
+      "liste_alani": null,
+      "yol_bolum": null,
+      "karsi_yol": null,
+      "soru": null
     },
     {
       "id": "M-02",
@@ -558,6 +608,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -579,6 +631,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -600,6 +654,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -621,6 +677,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -642,6 +700,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -663,6 +723,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -684,7 +746,9 @@
       "not": "OLCULDU: ayristirici.py satir 659 ve 671 bu alani dolduruyor ve kanit uretiyor. Taslakta muhatap alani ALAN_YOLLARI'nda yok -> giden uygulanamaz.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "M-09",
@@ -705,6 +769,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -726,6 +792,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -747,6 +815,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -768,6 +838,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -789,6 +861,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -810,6 +884,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -831,6 +907,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -852,7 +930,9 @@
       "uygulanir": true,
       "not": "OLCULDU: ayristirici.py satir 536 Ilgi(ham=kalan) uretiyor, alan dolu. liste_alani altyapisi ustveri.ekler ve ustveri.dagitim icin de kullanilacak.",
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "I-05",
@@ -873,6 +953,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -894,6 +976,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -915,6 +999,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -936,6 +1022,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -957,6 +1045,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -978,6 +1068,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -990,16 +1082,22 @@
       "yontem_adi": null,
       "agirlik": "hata",
       "dayanak": "Y 16/1",
-      "yol": "cikti_yazi.metin",
+      "yol": {
+        "gelen": "metin",
+        "giden": "cikti_yazi.metin"
+      },
       "hedef": [
+        "gelen",
         "giden"
       ],
       "kapsam": null,
       "uygulanir": true,
-      "not": "Yolu taslaga isaret ediyor. Varsayilan [gelen] birakilirsa gelen evrakta cikti_yazi.metin daima None olur ve kural her belgede tetiklenir. hedef [giden] ZORUNLU.",
+      "not": "GENISLETILDI 2026-08-23, hedef [giden] -> [gelen, giden]. Onceki halinde yol yalnizca cikti_yazi.metin idi ve gelen evrakta GOVDE HIC DENETLENMIYORDU: tam kosuda 6 belgede govde kurulamadi ve hicbir sey uyarmadi. Yol artik ME-02 ile ayni deseni izliyor - gelen govde 'metin', giden govde 'cikti_yazi.metin'. Varsayilan [gelen] birakilsaydi gelen evrakta cikti_yazi.metin daima None olur ve kural her belgede tetiklenirdi; sozluk yol bunu onluyor.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "ME-02",
@@ -1024,7 +1122,9 @@
       "not": "kapanis_yanlis kusuru (10 belge, gelen evrakta). gelen yolu kaynak.ham_metin DEGIL: regex'in $ cipasi dizenin sonunu istiyor, ham metin imza+dipnot+altbilgi tasiyor, kapanis orada asla son olmaz.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "ME-03",
@@ -1037,15 +1137,18 @@
       "agirlik": "hata",
       "dayanak": "Y 16/12-a",
       "yol": null,
+      "hedef": [
+        "gelen",
+        "giden"
+      ],
+      "kapsam": null,
+      "uygulanir": false,
+      "not": "kapanis_yanlis kusuru (10 belge). YAZILMADI - Yazar ile birlikte yazilacak. OLCULDU 2026-08-23: kural her iki yonde de GONDERENIN KIM OLDUGUNU bilmek zorunda. Gelen evrakta gonderen antettedir ve ayristirici onu cikarmiyor (ustveri.gonderen yolu tanimli, hic doldurulmuyor). Giden taslakta alici, gelen belgenin gonderenidir - ayni eksik. Yazar yazilirken 'kime cevap yaziyoruz' sorusu zaten cozulecek; ME-03 o cozumun uzerine bedava gelir. Simdi ayri yapmak ayni isi iki kez yapmak olur. linter._kapanis_kontrol() karsilastirma mantigini zaten tasiyor, yeniden yazilmayacak. cikti_yazi.muhatap semada VAR ama ALAN_YOLLARI'nda YOK; giden tarafa baglanacaksa once o yol eklenmelidir.",
       "liste_alani": null,
       "yol_bolum": null,
       "karsi_yol": null,
-      "hedef": [
-        "gelen"
-      ],
-      "kapsam": null,
-      "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
-      "uygulanir": false
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "ME-04",
@@ -1066,6 +1169,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1087,6 +1192,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1108,6 +1215,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1129,6 +1238,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1150,6 +1261,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1171,6 +1284,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1196,7 +1311,9 @@
       "not": "OLCULDU 2026-08-22: dayanak K 13.6 Kilavuz'da VAR (s.45, 'Metin Icinde Dikkat Edilmesi Gereken Yazim Kurallari') ama kural satirindaki tarif yanlis - 'Siklikla Yanlis Kullanilan Kelimeler tablosu' diye bir tablo yok. Sozluk cikarilmadi, kural kosturulamaz.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "ME-11",
@@ -1217,6 +1334,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1238,6 +1357,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1259,6 +1380,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1280,6 +1403,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1305,7 +1430,9 @@
       "not": null,
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "ME-16",
@@ -1326,6 +1453,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1347,6 +1476,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1372,7 +1503,9 @@
       "not": null,
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "ME-19",
@@ -1397,7 +1530,9 @@
       "not": null,
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "ME-20",
@@ -1418,6 +1553,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1439,6 +1576,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1460,6 +1599,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1479,6 +1620,8 @@
       "kapsam": null,
       "uygulanir": true,
       "not": "DUZELTILDI: kural_listesi.md 'ustveri.imza_sahibi_unvan' diyor, semada YOK. Blogun varligi denetleniyor (etiket_025 kusur_ayrinti: enjekte_edilen='' -> blogun tamami silinmis). Taslakta imza_ad daima null ama imza_unvan dolu -> alt alana baglanamaz, hedef [gelen].",
+      "talep_edilebilir": true,
+      "soru": "Belgede imza bulunmamaktadır. İmzalı bir nüshasının gönderilmesini rica ederiz.",
       "liste_alani": null,
       "yol_bolum": null,
       "karsi_yol": null
@@ -1502,6 +1645,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1523,6 +1668,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1544,6 +1691,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1565,6 +1714,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1586,6 +1737,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1607,6 +1760,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1628,6 +1783,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1649,6 +1806,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1670,6 +1829,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1691,6 +1852,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1712,6 +1875,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1733,6 +1898,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1754,6 +1921,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1775,6 +1944,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1796,6 +1967,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1817,6 +1990,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1838,6 +2013,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1859,6 +2036,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1880,7 +2059,9 @@
       "not": "OLCULDU 2026-08-22: ayristirici.py 'gizlilik' terimini hic kullanmiyor (grep -> 0). Alan daima None, kural atlanir.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "G-02",
@@ -1901,7 +2082,9 @@
       "not": "OLCULDU 2026-08-22: ayristirici gizlilik_ham alanini doldurmuyor. Ayrica kota.json'da gizlilik ile ilgili kusur profili yok, olculebilir kayip yok.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "G-03",
@@ -1922,7 +2105,9 @@
       "not": "OLCULDU 2026-08-22: ayristirici 'ivedilik' terimini hic kullanmiyor (grep -> 0). Alan daima None.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "G-04",
@@ -1943,7 +2128,9 @@
       "not": "OLCULDU 2026-08-22: ayristirici ivedilik_ham doldurmuyor. Yol metin OLARAK SECILMEDI: 300 belgenin govdesinde 'ivedilikle' 6 kez mesru (tekit yazisi, Y 21) ve 'Ivedik' 2 kez semt adi olarak geciyor - metne bakan kural 8 yanlis alarm verirdi.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "G-05",
@@ -1964,6 +2151,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -1985,6 +2174,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -2006,6 +2197,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -2027,6 +2220,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -2048,7 +2243,9 @@
       "not": "bos_liste_olmamali; motor degismezinin istisnasi, bos listede ATLANMAZ. kapsam zorunlu: tekit disindaki turlerde ilgi olmamasi normal.",
       "liste_alani": null,
       "yol_bolum": null,
-      "karsi_yol": null
+      "karsi_yol": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "TK-02",
@@ -2069,6 +2266,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -2090,7 +2289,9 @@
       "uygulanir": false,
       "not": "Kural ham metnin KONU bolgesini cikarmayi gerektiriyor ('kaynak.ham_metin[konu]'). Bolge cikarma Asama A kapsami disi; T-04 ile ayni sebep.",
       "liste_alani": null,
-      "yol_bolum": null
+      "yol_bolum": null,
+      "talep_edilebilir": false,
+      "soru": null
     },
     {
       "id": "GN-02",
@@ -2111,6 +2312,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -2132,6 +2335,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -2153,6 +2358,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -2174,6 +2381,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -2195,6 +2404,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     },
     {
@@ -2216,6 +2427,8 @@
       ],
       "kapsam": null,
       "not": "Asama D: ozel fonksiyon yazilmadi. Motor kurali atlar ve atladigini raporlar.",
+      "talep_edilebilir": false,
+      "soru": null,
       "uygulanir": false
     }
   ]
