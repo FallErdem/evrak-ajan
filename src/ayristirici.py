@@ -935,13 +935,23 @@ def _gonderen(satirlar: list[Satir], sonuc: AyristirmaSonucu,
 
     # --- H-C: dilekçe. Başlık bloğu YOKTUR, gönderen imza sahibidir. ------
     if sonuc.aile == "dilekce":
+        # TÜR, ADDAN BAĞIMSIZ OLARAK BİLİNİYOR. Belge dilekçeyse yazan bir
+        # gerçek kişidir; adının okunup okunamaması bunu değiştirmez.
+        #
+        # ÖLÇÜLDÜ 2026-08-24 (yon_dogrula, 300 belge): bu satır yokken 16
+        # belgede arz/rica yönü de kayboluyordu. Yazar "Bilgilerinize
+        # sunulur." yerine "Arz ederim." yazıyordu — yani vatandaşa,
+        # üst makama yazar gibi. ME-05 ihlali.
+        #
+        # "Kim olduğunu bilmiyoruz" ile "gerçek kişi olduğunu bilmiyoruz"
+        # ayrı şeyler; ikincisi doğru değil.
+        g.tur = MuhatapTuru.GERCEK_KISI
         ad = sonuc.ustveri.imza.ad
         if not ad:
             sonuc.uyarilar.append("Dilekçede imza sahibi bulunamadı; gönderen belirlenemedi")
             return
         g.ad = ad
         g.ham = g.ham or ad
-        g.tur = MuhatapTuru.GERCEK_KISI
         imza_kaniti = sonuc.kanit.get("ustveri.imza.ad")
         sonuc.kanit["ustveri.gonderen"] = Kanit(
             yontem=KanitYontemi.HESAPLAMA,

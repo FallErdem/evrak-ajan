@@ -1,0 +1,62 @@
+========================================================================
+GÖNDEREN ÇIKARIMI — ÖLÇÜM
+========================================================================
+belge: 300   süre: 825.3 sn   klasör: C:\Users\iremy\evrak-ajan\deneyler\adim4\belgeler_pdf
+
+1  GENEL
+------------------------------------------------------------------------
+  dogru         281   %97.2
+  YANLIS          0   %0.0
+  eksik           8   %2.8
+  olculemez      11   —
+
+  YANLIS bu ölçümün kritik sayısıdır: eksik alanı Denetçi görür,
+  yanlış alanı kimse görmez.
+
+  ölçülemez sebepleri (paydaya girmez — gönderen belgede YOK):
+        8  imza_eksik kusuru: ad belgede yok
+        1  sentetik DETSIS 10196904
+        1  sentetik DETSIS 10109079
+        1  sentetik DETSIS 10107844
+
+2  HANGİ HAT ÇÖZDÜ
+------------------------------------------------------------------------
+    92  H-C dilekce imza
+    82  H-A detsis -> dis makam
+    70  H-A detsis -> ic birim
+    24  H-B antetli kagit (sirket)
+    16  H-B antet tam eslesme
+    16  bulunamadi
+
+3  GÖNDEREN TİPİNE GÖRE
+------------------------------------------------------------------------
+  tip                     dogru  YANLIS  eksik
+  gercek_kisi                66       0      7
+  kurum                     165       0      0
+  ogrenci                    26       0      1
+  ozel_tuzel_kisi            24       0      0
+
+4  PDF BİÇİMİNE GÖRE  (hata OCR'da mı mantıkta mı)
+------------------------------------------------------------------------
+  metin_katmanli     dogru  240  YANLIS   0  eksik   0
+  taranmis           dogru   41  YANLIS   0  eksik   8
+
+5  SAYISI SİLİNMİŞ BELGELER  (H-A ölür, H-B devralır)
+------------------------------------------------------------------------
+  {'dogru': 12}
+
+6  DETSİS ↔ ANTET ÇELİŞKİSİ  (1)
+------------------------------------------------------------------------
+  084  Gönderen çelişkisi: sayıdaki DETSİS 93213107 'Yenimahalle İlçe Millî Eğitim Müdürlüğü' diyor, antet 'Yenimahalle Kaymakamlığı' diyor. DETSİS esas alındı.
+
+8  BULUNAMAYANLAR  (8)
+------------------------------------------------------------------------
+  097  beklenen: Osman ÇELIK
+  099  beklenen: Derya YILDIZ
+  102  beklenen: Selin ÇAKIR
+  116  beklenen: Emine KARA
+  201  beklenen: Büşra KORKMAZ
+  225  beklenen: Kemal ÖZKAN
+  234  beklenen: Ali GÜNEŞ
+  235  beklenen: Hasan AKTAŞ
+
