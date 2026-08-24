@@ -625,7 +625,13 @@ def istem_kur(dosya, isk: Iskelet, bulgular: list | None = None) -> str:
         "yetkin yok. "
         "AMA yer tutucuyu GEREKSİZ YERE KULLANMA: gelen evrak somut veri "
         "istemiyorsa yazı yer tutucusuz tamamlanır.",
-        "7  Kısa ve resmî yaz; iki ile dört paragraf yeterlidir.",
+        "7  GELEN EVRAĞIN CÜMLELERİNİ KOPYALAMA. Sen CEVAP yazıyorsun: "
+        "karşı taraf senden bir şey istedi, sen ne yaptığını ya da ne "
+        "yapacağını bildiriyorsun. Aynı cümleyi 'Müdürlüğünüzce' yerine "
+        "'Müdürlüğümüzce' yazarak geri göndermek cevap DEĞİLDİR; talebi "
+        "tekrar etmiş olursun. Gelen evrağı kendi cümlelerinle özetle, "
+        "sonra senin tarafında ne olduğunu yaz.",
+        "8  Kısa ve resmî yaz; iki ile dört paragraf yeterlidir.",
     ]
 
     if bulgular:

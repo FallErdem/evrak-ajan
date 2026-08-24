@@ -1,0 +1,63 @@
+========================================================================
+YAZAR AJANI — ÖLÇÜM
+========================================================================
+belge: 40   LLM çağrısı: 98   süre: 1198 sn   Anlama: kostu
+
+1  ÜSLUP DÖNGÜSÜ  —  ajanlığın kanıtı
+------------------------------------------------------------------------
+  ilk turda temiz      22   %55.0
+  duzeltildi            4   %10.0
+  pes edildi           14   %35.0
+
+  'duzeltildi' = tek atışlık bir Yazar'ın HATALI çıktı vereceği belge.
+  'pes edildi' = insana tırmandırıldı; hata gizlenmedi.
+
+2  İLK TURDA TETİKLENEN KURALLAR
+------------------------------------------------------------------------
+    14  ME-02
+     4  YZ-01
+     1  K-02
+
+3  KAPANIŞ
+------------------------------------------------------------------------
+  yön dogru      39
+  yön YANLIS      1
+  cümle metinde var      27
+  cümle METINDE YOK      13
+
+  'METINDE YOK' = deterministik katman doğru kapanışı verdi ama
+  model onu metnin sonuna yazmadı. İstem uyumu sorunudur.
+
+4  SEÇİLEN YAZI TÜRÜ
+------------------------------------------------------------------------
+    36  cevap_yazisi
+     2  ust_yazi
+     1  bilgilendirme_yazisi
+     1  olur_yazisi
+
+5  KOPYA ORANI  —  taslak gelen gövdeyi tekrarlıyor mu
+------------------------------------------------------------------------
+  0.30-0.49               1
+  0.15-0.29               1
+  <0.15                  38
+
+  En yüksek 10 belge:
+      belge_025  0.39
+      belge_054  0.20
+      belge_236  0.14
+      belge_271  0.13
+      belge_024  0.13
+      belge_170  0.10
+      belge_261  0.10
+      belge_263  0.09
+      belge_209  0.09
+      belge_266  0.08
+
+  Resmî yazıda kalıp ifadeler ortaktır; bir miktar örtüşme NORMAL.
+  Eşik tek başına hüküm vermez — yüksek çıkanlara gözle bakılmalı.
+
+6  YER TUTUCU KALAN TASLAK: 6
+------------------------------------------------------------------------
+  Bunlar hata değil; memurun dolduracağı alanlar. Sayının yüksek
+  olması modelin veri uydurmak yerine boş bıraktığını gösterir.
+
