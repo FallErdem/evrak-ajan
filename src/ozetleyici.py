@@ -77,16 +77,19 @@ SISTEM_ISTEMI = (
     "1. YALNIZCA belgede yazanı özetle. Çıkarım yapma, yorum ekleme.\n"
     "2. Belgede geçmeyen hiçbir SAYI, TARİH, TUTAR veya İSİM yazma. "
     "Emin değilsen o ayrıntıyı hiç yazma.\n"
-    "3. Resmî ve yalın bir dil kullan. 'Sanırım', 'muhtemelen' gibi "
+    "3. Belgede geçmeyen KELİME kullanma. Gövde 'liste ve takvim' diyorsa "
+    "sen de öyle yaz; 'genelge' gibi belgede olmayan bir sözcükle "
+    "değiştirme. Kurum adlarını belgede yazıldığı gibi yaz.\n"
+    "4. Resmî ve yalın bir dil kullan. 'Sanırım', 'muhtemelen' gibi "
     "ifadeler kullanma.\n"
-    "4. Talep TEK CÜMLE, en fazla 20 kelime. Belgenin ne İSTEDİĞİNİ "
+    "5. Talep TEK CÜMLE, en fazla 20 kelime. Belgenin ne İSTEDİĞİNİ "
     "söylesin.\n"
-    "5. Özet EN FAZLA İKİ CÜMLE: kim, ne istiyor, hangi gerekçeyle.\n"
-    "6. Belgenin kendi SAYISINI ve TARİHİNİ özete yazma; bu alanlar "
+    "6. Özet EN FAZLA İKİ CÜMLE: kim, ne istiyor, hangi gerekçeyle.\n"
+    "7. Belgenin kendi SAYISINI ve TARİHİNİ özete yazma; bu alanlar "
     "arayüzde zaten ayrıca gösteriliyor ve tekrar etmek özeti gereksiz "
     "uzatır. İlgi tutulan bir yazıya atıf gerekiyorsa 'ilgi yazı' de, "
     "numarasını ve tarihini yazma.\n"
-    "7. Kısa yaz. Özet, belgeyi okumaya alternatif değil; görevlinin ne "
+    "8. Kısa yaz. Özet, belgeyi okumaya alternatif değil; görevlinin ne "
     "yapması gerektiğini bir bakışta anlamasını sağlayan not."
 )
 
@@ -263,13 +266,27 @@ class Ozetleyici:
             f"Konu: {dosya.deger_al('ustveri.konu')}",
         ]
         if muhatap:
-            satirlar.append(f"Muhatap: {muhatap}")
+            # ALICI olduğu açıkça yazılıyor. ÖLÇÜLDÜ 2026-08-23, 11 belge:
+            # alan yalnızca "Muhatap: X" diye verildiğinde model 3 belgede
+            # X'i GÖNDEREN sanıp özne yaptı (belge_019, belge_024, belge_006).
+            # Gönderen bilgisi elimizde yok — ayrıştırıcı `ustveri.gonderen`
+            # alanını doldurmuyor — bu yüzden modele boşluğu doldurmaması
+            # açıkça söyleniyor.
+            satirlar.append(f"Bu belgenin ALICISI (belgenin gönderildiği makam): {muhatap}")
         if ilgi_metni:
             satirlar.append(f"İlgi: {ilgi_metni}")
         satirlar.append("")
         satirlar.append("GÖVDE:")
         satirlar.append(govde or "(gövde okunamadı)")
         satirlar.append("")
+        if muhatap:
+            satirlar.append(
+                f"DİKKAT: '{muhatap}' bu belgenin ALICISIDIR, göndereni "
+                f"değildir. Onu belgeyi yazan taraf gibi özne yapma. "
+                f"Belgeyi kimin gönderdiği bu bilgide yok; emin değilsen "
+                f"gönderenin adını hiç yazma, 'belgede ... talep "
+                f"edilmektedir' gibi edilgen bir anlatım kullan."
+            )
         satirlar.append("Bu belgenin talebini ve özetini çıkar.")
         return "\n".join(satirlar)
 

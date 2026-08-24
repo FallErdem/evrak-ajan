@@ -53,6 +53,7 @@ sureti (2 Sayfa)" ile bitiyor, "rica ederim." ile degil.
 from __future__ import annotations
 
 import json
+import re
 import sys
 import time
 from collections import Counter, defaultdict
@@ -72,6 +73,9 @@ ARAMA_YERLERI = (
     ("veri", "belgeler"),
     ("ornek", "okuma_ornegi"),
 )
+
+# Tamami parantez icinde olan satir: muhatabin birimi. Govde degildir.
+_SADECE_PARANTEZ = re.compile(r"^\([^)]{2,}\)$")
 
 # Kusur -> onu yakalamasi BEKLENEN kural. Kaynak: DEVIR_EK2 §2 tablosu,
 # Asama A kapsamina indirgenmis hali.
@@ -125,6 +129,24 @@ def govde_kur(satirlar, a) -> str | None:
     bulunamazsa None doner ve motor degismezi geregi ME kurallari atlanir —
     yanlis bir govde uydurup kurala vermekten iyidir.
 
+    MUHATAP PARANTEZI GOVDEYE GIRMEZ
+    --------------------------------
+    Muhatap satirinin hemen altinda muhatabin BIRIMI parantez icinde
+    yazilir:
+
+        YENIMAHALLE BELEDIYE BASKANLIGINA
+        (Kultur, Sanat ve Sosyal Isler Mudurlugu)     <- govde DEGIL
+
+    `muhatap_satiri + 1`'den baslamak bu satiri govdeye katiyordu.
+    OLCULDU 2026-08-23: 8 belgenin 5'inde govde parantezle basliyordu ve
+    Ozetleyici bunu govdenin parcasi sanip birimi GONDEREN yapiyordu
+    (belge_016: "Muhendislik Fakultesi Dekanligi, ... Gazi Universitesi
+    Dekanligindan onay talep etmektedir" — alici uydurulmus).
+
+    Tamami parantez icinde olan bir satir hicbir zaman govde degildir;
+    atlaniyor. Yalnizca GOVDENIN BASINDAKI satir denetleniyor — metnin
+    icindeki parantezli aciklamalara dokunulmuyor.
+
     SATIRLAR BOSLUKLA BIRLESTIRILIR, '\\n' ILE DEGIL
     ------------------------------------------------
     PDF'teki satir sonu cumlenin parcasi degil, sayfa yerlesiminin
@@ -153,6 +175,14 @@ def govde_kur(satirlar, a) -> str | None:
     son = a.kapanis_satiri + 1
     if bas >= son:
         return None
+
+    # Muhatap parantezi: govdenin ilk satiri tamamen parantez icindeyse
+    # o satir muhatabin birimidir, atlanir.
+    if bas < son and _SADECE_PARANTEZ.match(satirlar[bas].metin.strip()):
+        bas += 1
+    if bas >= son:
+        return None
+
     return " ".join(s.metin.strip() for s in satirlar[bas:son]).strip() or None
 
 
