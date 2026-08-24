@@ -208,7 +208,29 @@ _KAPANIS = re.compile(r"\bederim\b", re.IGNORECASE)
 # "Zeynep YILDIRIM" — ad büyük harfle başlar, SOYAD tamamen büyük
 _AD = r"[A-ZÇĞİÖŞÜ][a-zçğıöşüâî]+(?:\s+[A-ZÇĞİÖŞÜ][a-zçğıöşüâî]+)*\s+[A-ZÇĞİÖŞÜ]{2,}"
 _AD_SOYAD = re.compile(rf"^{_AD}$")
-_AD_SATIR_SONU = re.compile(rf"({_AD})\s*$")
+
+# Ad satırının SONUNDA "İmza" kelimesi durabiliyor — ölçüldü 2026-08-24,
+# gönderen ölçümünün açtığı körlük:
+#
+#     belge_017  'Öğrenci No: 2021452403 26.03.2026 Sultan AVCI İmza'
+#     belge_070  'Adres: ... Telefon: 0558 330 46 50 26.01.2026 Onur ÖZKAN İmza'
+#
+# Özgün belgede "İmza" sağdaki imza kutusunun etiketi; okuyucu satırı
+# soldan sağa birleştirdiği için adın peşine yapışıyor. Eski desen satır
+# sonuna çıpalıydı ve bu satırları HİÇ görmüyordu.
+#
+# NEDEN FARK EDİLMEDİ: `ayristirici_dogrula.py` imza alanında 110 belgeyi
+# muaf tutuyor ve dilekçeler o muafiyetin içinde. `_dilekce_imzasi`
+# bugüne kadar ölçülmemişti; gönderen çıkarımı onu ilk kez bir sayıya
+# bağladı (86/108 = %80).
+#
+# Kelime İSTEĞE BAĞLI ve YAKALANMIYOR: yalnızca çıpanın önünden geçmesine
+# izin veriliyor, ada dahil edilmiyor.
+_AD_SATIR_SONU = re.compile(rf"({_AD})(?:\s+[İIi]mza)?\s*$")
+
+# İkinci geçiş: ad satırın ORTASINDA. Yalnızca `_dilekce_imzasi`'nın birinci
+# geçişi hiçbir satırda tutmazsa kullanılır — bkz. oradaki ölçüm notu.
+_AD_ORTA = re.compile(rf"({_AD})")
 
 # OCR imza bloğunun üç satırını tek satıra sıkıştırıyor (ölçüldü, tani.py):
 #     'Osman ASLAN Bakan a Genel Müdür'   (nokta da düşmüş: "Bakan a")
@@ -252,9 +274,18 @@ class AyristirmaSonucu:
 
 
 def _kanit(alinti: str, satir_no: int, guven: float = 1.0,
-           aciklama: str | None = None) -> Kanit:
+           aciklama: str | None = None,
+           yontem: KanitYontemi = KanitYontemi.REGEX) -> Kanit:
+    """Alan kanıtı üretir.
+
+    `yontem` 1.1.0'da parametre oldu. Varsayılan REGEX; mevcut çağrıların
+    hiçbiri değişmedi. Gönderen çıkarımı SOZLUK kullanıyor: değer metinden
+    desenle değil, birim/kurum KAYDINDAN geliyor. İkisini aynı yöntem adıyla
+    kaydetmek izlenebilirliği bozardı — "bu adı nereden buldun" sorusunun
+    cevabı farklı.
+    """
     return Kanit(
-        yontem=KanitYontemi.REGEX,
+        yontem=yontem,
         ureten=URETEN,
         guven=guven,
         alinti=alinti[:300],
@@ -675,6 +706,386 @@ def _muhatap(satirlar: list[Satir], sonuc: AyristirmaSonucu, indeks: int) -> Non
             )
 
 
+# -----------------------------------------------------------------------------
+# Gönderen — 1.1.0'da eklendi
+# -----------------------------------------------------------------------------
+#
+# NEDEN GEREKLİ
+# -------------
+# Yazar (AJAN 2) cevabı GELEN BELGENİN GÖNDERENİNE yazar. Gönderen
+# bilinmeden taslağın muhatabı yazılamaz, arz/rica yönü de belirlenemez
+# (ME-03). `ustveri.gonderen` yolu ALAN_YOLLARI'nda baştan tanımlıydı ama
+# hiçbir zaman doldurulmuyordu.
+#
+# ÜÇ HAT, GÜÇLÜDEN ZAYIFA
+# -----------------------
+#   H-A  sayının 2. bölümü -> DETSİS -> birim/makam kaydı
+#   H-B  antet bloğu       -> ad eşleştirme -> birim kaydı
+#   H-C  dilekçede imza sahibi (gerçek kişi)
+#
+# NEDEN RAKAM ÖNCE, AD SONRA
+# --------------------------
+# Antetten ad okumak OCR'a açık. Ölçüldü (_aile_tespit notu): 6 kurum
+# yazısında "T.C." satırı düşmüş, iki belgede başlık tek satıra sıkışmış.
+# Sayının içindeki DETSİS numarası bozulmuyor — rakam, harf değil.
+#
+# ÖLÇÜLDÜ (300 etiket, `gonderen.detsis_no` cevap anahtarı):
+#     DETSİS taşıyan belge           168 / 300
+#     birimler.py indeksinde bulunan 165 / 168 = %98,2
+#     bulunamayan                      3        veri setinde üretilmiş
+#                                               liseler (detsis_kaynagi
+#                                               = "sentetik")
+# Kalan 132 belge dilekçe ve şirket yazısı; onlarda DETSİS zaten yok ve
+# H-B/H-C devreye giriyor.
+#
+# İKİ HAT ÇELİŞİRSE
+# -----------------
+# DETSİS kazanır, ama çelişki UYARI olarak kaydedilir ve kanıtın
+# açıklamasına yazılır. Sessizce birini seçmek, `sdp_kod_celiskisi`'nde
+# öğrenilen dersin tekrarı olurdu: iki bağımsız kaynağın ayrışması bir
+# arıza değil, BULGUDUR.
+
+# Antet bloğu bu etiketlerden biriyle biter. Sayı/Konu/İlgi satırları ad
+# eşleştirmesine girmemeli: ilgi satırı BAŞKA bir kurumun adını taşıyabilir.
+_ANTET_BITISI = (_ETIKET_SAYI, _ETIKET_KONU, _ETIKET_ILGI)
+
+# "T.C." tek başına bir idare adı değil; başlığın ilk satırıdır (Y 10/2).
+_SADECE_TC = re.compile(r"^\s*T\.?\s*C\.?\s*$", re.IGNORECASE)
+
+
+def _antet_bloku(satirlar: list[Satir], indeks: int | None) -> list[tuple[int, str]]:
+    """Muhatap satırından önceki SAF başlık satırları.
+
+    Ölçüldü (belge_025/031/048): muhatap satırının üstündeki blok başlığı
+    ve etiketli alanları birlikte taşıyor —
+
+        T.C. · GAZİ ÜNİVERSİTESİ REKTÖRLÜĞÜ · Mühendislik Fakültesi
+        Dekanlığı · 'Sayı : ...' · 'Konu : ...' · 'İlgi : ...'
+
+    İlk etiketli satırdan itibarası kesilir. Kesmezsek ilgi satırındaki
+    üçüncü kurumun adı gönderen sanılabilir.
+
+    MUHATAP SATIRI YOKSA ANTET DE YOKTUR — ölçüldü 2026-08-24
+    ---------------------------------------------------------
+    `indeks is None` iken bloğu belgenin tamamına açmak felakete yol
+    açıyor: dilekçede Sayı/Konu satırı bulunmadığı için hiçbir yerde
+    kesilmiyor ve MUHATAP SATIRI bloğun içine giriyor. belge_225 ve
+    belge_234'te tam bu oldu —
+
+        beklenen  Kemal ÖZKAN  (dilekçeyi yazan vatandaş)
+        bulunan   Temel Eğitim Şube Müdürlüğü  (dilekçenin YAZILDIĞI yer)
+
+    Gönderen ile muhatap birbirine karıştı; üstelik ikisi de tam eşleşme
+    olduğu için güven yüksek göründü. Antetin bittiği yeri söyleyen tek
+    çıpa muhatap satırıdır; çıpa yoksa bu hat KOŞMAZ. Sayısı olan belgede
+    H-A zaten çalışıyor (belge_173 ve belge_181 böyle kurtuldu).
+    """
+    if indeks is None:
+        return []
+    blok: list[tuple[int, str]] = []
+    for i in range(min(indeks, len(satirlar))):
+        metin = satirlar[i].metin.strip()
+        if any(k.match(metin) for k in _ANTET_BITISI):
+            break
+        if metin and not _SADECE_TC.match(metin):
+            blok.append((i, metin))
+    return blok
+
+
+def _gonderen_detsisten(sonuc: AyristirmaSonucu) -> tuple[dict | None, str | None, str | None]:
+    """Sayının 2. bölümünden gönderen kaydını arar.
+
+    Döner: (ic_birim_kaydi, dis_makam_adi, detsis_no)
+    Üçü de None ise sayı yok, biçimi tutmuyor ya da numara kayıtta değil.
+    """
+    from birimler import detsis_ile_birim_bul, dis_makam_bul
+    from veri_yapisi import sayi_bolumleri
+
+    bolumler = sayi_bolumleri(sonuc.ustveri.sayi)
+    if bolumler is None:
+        # Şirket sayısı (2026/103) DETSİS taşımaz; desen zaten tutmaz.
+        return None, None, None
+    no = bolumler.detsis
+    birim = detsis_ile_birim_bul(no)
+    if birim is not None:
+        return birim, None, no
+    return None, dis_makam_bul(no), no
+
+
+# Dış makam adayları bu önekle işaretlenir; iç birim kodlarıyla
+# karışmasınlar diye. Seviyeleri -1: tam eşleşme berabere kalırsa iç kayıt
+# kazanır (modül başlığındaki "iç kayıt önce" kuralıyla aynı yön).
+_DIS_ONEK = "dis:"
+_DIS_SEVIYE = -1
+
+
+def _gonderen_antetten(
+    blok: list[tuple[int, str]]
+) -> tuple[dict | None, str | None, float, int | None]:
+    """Antet satırlarından gönderen kaydı arar. TAM EŞLEŞME ZORUNLU.
+
+    Döner: (ic_birim_kaydi, dis_makam_adi, oran, satir_no)
+
+    NEDEN BULANIK EŞLEŞTİRME YOK — muhataptan farklı bir problem
+    ------------------------------------------------------------
+    `metin.en_iyi_eslesme` muhatap için yazıldı ve orada varsayılan eşik
+    0,75 doğru: 300 belgenin 300'ünde muhatap bu üç kurumun birimlerinden
+    biri, yani DOĞRU CEVAP TABLODA. Gönderende bu geçerli değil —
+    ölçüldü (300 etiket): 86 belge dış makamdan, 24'ü şirketten geliyor
+    ve o adlar birim tablosunda YOK.
+
+    Doğru cevabın tabloda olmadığı bir aramada bulanık eşik yanlış cevap
+    üretir. ÖLÇÜLDÜ 2026-08-24:
+
+        "ÇANKAYA BELEDİYE BAŞKANLIĞI"
+            -> "Yenimahalle Belediye Başkanlığı"   oran 0.759
+
+    Eşik 0,75. Yani sayısı silinmiş (sayi_eksik kusuru, 12 belge) bir
+    Çankaya yazısında gönderen KENDİMİZ sanılırdı ve Yazar kendi kurumuna
+    cevap yazardı. Bulgu değil, sessiz hata.
+
+    Bu yüzden eşik 1,0: yalnızca katlanmış hâliyle BİREBİR geçen ad kabul
+    edilir. Antet, gönderenin kendi EBYS'sinin bastığı kanonik addır;
+    muhatap satırı gibi elle kısaltılmış değildir. Tutmuyorsa boş dönmek,
+    yanlış birim döndürmekten iyidir — eksik alanı Denetçi görür, yanlış
+    alanı kimse görmez.
+
+    SINIR — RAPORA GİRECEK
+    ----------------------
+    İl MEM taşra başlığıdır ve mülki idare satırı taşır:
+
+        T.C. / ANKARA VALİLİĞİ / İl Millî Eğitim Müdürlüğü
+
+    Kurumun KENDİ kök adı ("Ankara İl Millî Eğitim Müdürlüğü") bu blokta
+    birebir GEÇMEZ. Böyle bir yazıda H-B kök birimi bulamaz; tam eşleşen
+    tek ad "Ankara Valiliği" olur ve gönderen valilik sanılır. Bu vaka
+    yalnızca (a) gönderen İl MEM'in kendisiyse ve (b) sayı silinmişse
+    ortaya çıkar; H-A varken hiç tetiklenmez. gonderen_dogrula.py bu
+    durumu ayrı sayıyor.
+    """
+    if not blok:
+        return None, None, 0.0, None
+    from birimler import (
+        _dis_makam_indeksi,
+        antet_birimi,
+        birim_bul,
+        birimleri_yukle,
+    )
+    from metin import en_iyi_eslesme
+
+    arama = " ".join(m for _, m in blok)
+    adaylar = [(b["kod"], b["ad"], b["seviye"]) for b in birimleri_yukle()]
+    adaylar += [(_DIS_ONEK + ad, ad, _DIS_SEVIYE)
+                for ad in _dis_makam_indeksi().values()]
+
+    kod, oran, ad = en_iyi_eslesme(arama, adaylar, esik=1.0)
+    if kod is None:
+        return None, None, oran, None
+
+    if not kod.startswith(_DIS_ONEK):
+        return birim_bul(kod), None, oran, blok[0][0]
+
+    # Eşleşen ad bir DIŞ MAKAM. İki ihtimal var ve ayrılmaları şart:
+    #
+    #   1  gerçekten o makam yazmış      -> gönderen odur
+    #   2  o ad bir kurumun ANTETİ       -> gönderen o kurumun birimi
+    #
+    # Ayrım, kurumun başlık kalıbının TAMAMININ antette bulunmasıdır.
+    # ÖLÇÜLDÜ 2026-08-24: tek satıra bakan sürüm 26 yanlış çelişki ve
+    # 2 yanlış gönderen üretti (belge_204, belge_283 — gerçekten valilik
+    # ve kaymakamlık yazısı oldukları hâlde İl MEM sanıldılar).
+    kurum_birimi = antet_birimi(arama)
+    if kurum_birimi is None:
+        return None, ad, oran, blok[0][0]
+    return kurum_birimi, None, oran, blok[0][0]
+
+
+def _sirket_adi(blok: list[tuple[int, str]]) -> tuple[str | None, int | None]:
+    """Antetli kâğıttan şirket adını çeker.
+
+    Şirket antetinde ad, adres ve telefon alt alta duruyor (ölçüldü,
+    belge_025):
+
+        EGE EĞİTİM HİZMETLERİ LTD. ŞTİ.
+        Ergazi Mahallesi Zeytin Sokağı No: 112/8 Yenimahalle/ANKARA
+        Tel: 0508 511 86 25
+
+    Önce ticaret unvanı ekini (_SIRKET_EKI) taşıyan satır aranıyor; yoksa
+    bloğun ilk satırı alınıyor.
+
+    SINIR — RAPORA GİRECEK: bu kural TEK belgede (belge_025) gözlendi.
+    Veri setinde 24 özel tüzel kişi yazısı var; oran ölçülmeden
+    varsayılmamalı. gonderen_dogrula.py bunları ayrı raporluyor.
+    """
+    for i, metin in blok:
+        if _SIRKET_EKI.search(metin):
+            return metin, i
+    return (blok[0][1], blok[0][0]) if blok else (None, None)
+
+
+def _gonderen(satirlar: list[Satir], sonuc: AyristirmaSonucu,
+              indeks: int | None) -> None:
+    """Gelen belgeyi kimin yazdığını belirler. Bulunamazsa alan boş kalır."""
+    from veri_yapisi import MuhatapTuru, Teskilat
+
+    g = sonuc.ustveri.gonderen
+    blok = _antet_bloku(satirlar, indeks)
+    if blok:
+        g.ham = " / ".join(m for _, m in blok)[:500]
+
+    # --- H-C: dilekçe. Başlık bloğu YOKTUR, gönderen imza sahibidir. ------
+    if sonuc.aile == "dilekce":
+        ad = sonuc.ustveri.imza.ad
+        if not ad:
+            sonuc.uyarilar.append("Dilekçede imza sahibi bulunamadı; gönderen belirlenemedi")
+            return
+        g.ad = ad
+        g.ham = g.ham or ad
+        g.tur = MuhatapTuru.GERCEK_KISI
+        imza_kaniti = sonuc.kanit.get("ustveri.imza.ad")
+        sonuc.kanit["ustveri.gonderen"] = Kanit(
+            yontem=KanitYontemi.HESAPLAMA,
+            ureten=URETEN,
+            # Güven imza kanıtından DEVRALINIYOR, yeniden uydurulmuyor:
+            # gönderen bu belgede imzadan türetilmiş bir değerdir ve
+            # ondan daha güvenilir olamaz.
+            guven=imza_kaniti.guven if imza_kaniti else 0.70,
+            alinti=ad[:300],
+            konum=imza_kaniti.konum if imza_kaniti else None,
+            aciklama="Dilekçede başlık bloğu yoktur; gönderen imza sahibidir",
+        )
+        return
+
+    # --- H-A: DETSİS -------------------------------------------------------
+    birim, dis_makam, detsis_no = _gonderen_detsisten(sonuc)
+
+    # --- H-B: antet. H-A tutsa da koşuyor, çünkü ÇAPRAZ DOĞRULAMA yapıyor.
+    # `sdp_kod_celiskisi`'nde öğrenilen ders: iki bağımsız kaynağın
+    # ayrışması bir arıza değil, bulgudur. Sessizce birini seçmek, çelişkiyi
+    # görünmez kılar.
+    antet_birim, antet_dis, oran, antet_satiri = _gonderen_antetten(blok)
+
+    sayi_kaniti = sonuc.kanit.get("ustveri.sayi")
+    sayi_satiri = (sayi_kaniti.konum.satir - 1
+                   if sayi_kaniti and sayi_kaniti.konum and sayi_kaniti.konum.satir
+                   else 0)
+
+    def _celiski_bildir(detsis_kaydi: dict | None, detsis_adi: str,
+                        antet_kaydi: dict | None, antet_adi: str | None) -> bool:
+        """İki hat gerçekten farklı bir MAKAM mı gösteriyor.
+
+        AYNI KURUMUN İKİ BİRİMİ ÇELİŞKİ DEĞİLDİR. Antet bloğu birden çok
+        satır taşır ve H-B tam eşleşmeyle bunlardan birini seçer; DETSİS
+        daha özgül olanı verir. İkisi aynı kurumdaysa ayrışma değil,
+        çözünürlük farkıdır.
+
+        ÖLÇÜLDÜ 2026-08-24 (300 belge): bu ayrım konmadan 15 belgede
+        yanlış alarm verildi — 14'ü "sayı İl MEM diyor, antet Ankara
+        Valiliği diyor", 1'i Yenimahalle Kaymakamlığı. Üçü de aynı
+        belgenin antet satırları. Yanlış alarm bu projede en tehlikeli
+        hata türü; çelişki uyarısı ancak GERÇEK ayrışmada verilir.
+        """
+        if not antet_adi or antet_adi == detsis_adi:
+            return False
+        if (detsis_kaydi is not None and antet_kaydi is not None
+                and detsis_kaydi["kurum_kodu"] == antet_kaydi["kurum_kodu"]):
+            return False
+        sonuc.uyarilar.append(
+            f"Gönderen çelişkisi: sayıdaki DETSİS {detsis_no} "
+            f"'{detsis_adi}' diyor, antet '{antet_adi}' diyor. DETSİS esas alındı."
+        )
+        return True
+
+    if birim is not None:
+        _birimi_yaz(g, birim, MuhatapTuru.KAMU_IDARESI, Teskilat)
+        g.detsis_no = detsis_no
+        antet_adi = antet_birim["ad"] if antet_birim else antet_dis
+        celiski = _celiski_bildir(birim, birim["ad"], antet_birim, antet_adi)
+        sonuc.kanit["ustveri.gonderen"] = _kanit(
+            sonuc.ustveri.sayi or "", sayi_satiri,
+            guven=0.90 if celiski else 1.0,
+            aciklama=("Sayının ikinci bölümündeki DETSİS numarasından bulundu"
+                      + ("; antet başka bir makam gösteriyor" if celiski else "")),
+            yontem=KanitYontemi.SOZLUK,
+        )
+        return
+
+    if dis_makam is not None:
+        g.idare = dis_makam
+        g.detsis_no = detsis_no
+        g.tur = MuhatapTuru.KAMU_IDARESI
+        antet_adi = antet_birim["ad"] if antet_birim else antet_dis
+        celiski = _celiski_bildir(None, dis_makam, antet_birim, antet_adi)
+        sonuc.kanit["ustveri.gonderen"] = _kanit(
+            sonuc.ustveri.sayi or "", sayi_satiri,
+            guven=0.90 if celiski else 1.0,
+            aciklama=("DETSİS numarası kurum kaydımızda dış makam olarak bulundu"
+                      + ("; antet başka bir makam gösteriyor" if celiski else "")),
+            yontem=KanitYontemi.SOZLUK,
+        )
+        return
+
+    # --- H-B tek başına ----------------------------------------------------
+    if antet_birim is not None or antet_dis is not None:
+        if antet_birim is not None:
+            _birimi_yaz(g, antet_birim, MuhatapTuru.KAMU_IDARESI, Teskilat)
+            gosterilen = antet_birim["ad"]
+        else:
+            g.idare = antet_dis
+            g.tur = MuhatapTuru.KAMU_IDARESI
+            gosterilen = antet_dis
+        sonuc.kanit["ustveri.gonderen"] = _kanit(
+            g.ham or gosterilen, antet_satiri or 0,
+            # Tam eşleşme olsa bile DETSİS hattının 1,0'ına çıkarılmıyor:
+            # eşleşen ad antette OCR'dan geçmiş, numara geçmemişti.
+            guven=0.90,
+            aciklama=("Sayıda kullanılabilir DETSİS yok; gönderen antet "
+                      "bloğundan tam ad eşleşmesiyle bulundu"),
+            yontem=KanitYontemi.SOZLUK,
+        )
+        return
+
+    # --- Şirket: kayıtta olmayan tüzel kişi --------------------------------
+    if sonuc.aile == "sirket":
+        ad, satir = _sirket_adi(blok)
+        if ad:
+            g.idare = ad[:300]
+            g.tur = MuhatapTuru.OZEL_HUKUK_TUZEL_KISI
+            sonuc.kanit["ustveri.gonderen"] = _kanit(
+                ad, satir or 0, guven=0.80,
+                aciklama="Antetli kâğıt; kamu kaydında bulunmayan tüzel kişi",
+            )
+            return
+
+    if detsis_no:
+        sonuc.uyarilar.append(
+            f"Gönderen DETSİS {detsis_no} kurum kaydında yok ve antet "
+            f"eşleşmedi; gönderen belirlenemedi"
+        )
+    else:
+        sonuc.uyarilar.append("Gönderen belirlenemedi")
+
+
+def _birimi_yaz(g, birim: dict, tur, Teskilat) -> None:
+    """Birim kaydını Taraf alanlarına dağıtır.
+
+    `idare` KÖK KURUM, `birim` alt birimdir. Seviye 0 kaydında ikisi aynı
+    şey olurdu; o durumda birim boş bırakılıyor — "Gazi Üniversitesi
+    Rektörlüğü (Gazi Üniversitesi Rektörlüğü)" anlamsız.
+    """
+    from birimler import kurum_profili
+
+    g.idare = birim["kurum"]
+    g.birim = birim["ad"] if birim["seviye"] != 0 else None
+    g.tur = tur
+    profil = kurum_profili(birim["kurum_kodu"])
+    if profil and profil.get("teskilat"):
+        try:
+            g.teskilat = Teskilat(profil["teskilat"])
+        except ValueError:
+            pass
+
+
 def _vatandas_tarihi(satirlar: list[Satir], sonuc: AyristirmaSonucu,
                      sinir: int) -> None:
     """Dilekçede tarih kimlik bloğuna gömülü, etiketi yok.
@@ -784,23 +1195,49 @@ def _imza(satirlar: list[Satir], sonuc: AyristirmaSonucu, sinir: int) -> None:
 
 def _dilekce_imzasi(satirlar: list[Satir], sonuc: AyristirmaSonucu,
                     sinir: int) -> None:
-    """Dilekçede imza sahibinin adını satır SONUNDA arar.
+    """Dilekçede imza sahibinin adını arar. İki geçiş.
 
     Güven 0.75: kurum yazısındakinden düşük, çünkü ad başka metne yapışık
     ve ayrım yalnızca büyük harf kalıbına dayanıyor.
+
+    GEÇİŞ 1 — satır sonu.  Düzgün yerleşimde ad kimlik bloğunun son
+    öğesidir: 'Adres: ... No: 99/20 Hatice KOÇ'.
+
+    GEÇİŞ 2 — satır ortası.  Taranmış belgede OCR kimlik bloğunun üç dört
+    satırını tek satıra sıkıştırıyor ve ad ORTADA kalıyor (ölçüldü
+    2026-08-24, tani_dilekce.py):
+
+        belge_155  '... Öğrenci No: 2023337225 Salih TURAN Adres: Barıştepe
+                    Mahallesi ... İmza Yenimahalle/ANKARA Telefon: ...'
+        belge_299  '... Adres: Yakacık Mahallesi Papatya Sokak No: 119/8
+                    Elif TURAN Yenimahalle/ANKARA İmza Telefon: ...'
+
+    İkinci geçiş yalnızca birincisi hiçbir satırda tutmazsa koşar; düzgün
+    belgelerde davranış değişmez.
+
+    YANLIŞ BULUŞ RİSKİ ÖLÇÜLDÜ — sıfır çıktı ama sıfır değil
+    -------------------------------------------------------
+    Tanı çıktısındaki 33 gerçek kimlik bloğu satırında ikinci geçiş 2 doğru
+    ad kazandırdı, 0 yanlış üretti. Riskli kalıp şudur: OCR "Yenimahalle/
+    ANKARA" içindeki eğik çizgiyi BOŞLUĞA çevirirse 'Yenimahalle ANKARA'
+    ad kalıbına uyar. Bu 300 belgede hiç görülmedi ve BİRİNCİ GEÇİŞ DE aynı
+    tuzağa düşüyor — ikinci geçiş yeni risk eklemiyor, mevcut riski
+    paylaşıyor. Rapora böyle yazılacak.
     """
-    for i in range(len(satirlar) - 1, sinir - 1, -1):
-        m = _AD_SATIR_SONU.search(satirlar[i].metin)
-        if not m:
-            continue
-        ad = m.group(1).strip()
-        sonuc.ustveri.imza.ad = ad
-        sonuc.ustveri.imza.ham = ad
-        sonuc.kanit["ustveri.imza.ad"] = _kanit(
-            ad, i, guven=0.75,
-            aciklama="Dilekçede ad adres satırına yapışık; satır sonundan alındı",
-        )
-        return
+    for desen, nerede in ((_AD_SATIR_SONU, "satır sonundan"),
+                          (_AD_ORTA, "satır içinden")):
+        for i in range(len(satirlar) - 1, sinir - 1, -1):
+            m = desen.search(satirlar[i].metin)
+            if not m:
+                continue
+            ad = m.group(1).strip()
+            sonuc.ustveri.imza.ad = ad
+            sonuc.ustveri.imza.ham = ad
+            sonuc.kanit["ustveri.imza.ad"] = _kanit(
+                ad, i, guven=0.75,
+                aciklama=f"Dilekçede ad adres bloğuna yapışık; {nerede} alındı",
+            )
+            return
 
 
 
@@ -848,5 +1285,16 @@ def ayristir(satirlar: list[Satir],
         _imza(satirlar, sonuc, indeks)
     else:
         sonuc.uyarilar.append("Muhatap satırı bulunamadı")
+
+    # Gönderen EN SONDA: H-A sayıya, H-C imzaya dayanıyor ve ikisi de
+    # yukarıda dolduruluyor. Sıra değiştirilirse hatlar sessizce çalışmaz.
+    #
+    # MUHATAP SATIRI BULUNAMASA DA KOŞUYOR. Ölçüldü 2026-08-24: belge_173 ve
+    # belge_181'de (ikisi de taranmış) muhatap satırı yakalanamadı, ama
+    # SAYI SAĞLAMDI ve DETSİS okunabiliyordu. Bu çağrı `if indeks is not
+    # None` bloğunun içindeyken iki belge sırf muhatap yüzünden gönderensiz
+    # kalıyordu. Gönderen çıkarımının muhatapla bir işi yok; bağımlılık
+    # tesadüfiydi.
+    _gonderen(satirlar, sonuc, indeks)
 
     return sonuc
