@@ -48,6 +48,6 @@ MOTOR ISLEYISI
   atlanan / hedef_disi     250
   atlanan / veri_yok       17
   --metin ile atlanan       50 taranmis belge
-  sure                      69.1 sn
+  sure                      56.5 sn
 
 sonuc dosyasi: C:\Users\erdem\Desktop\evrak-ajan\kural_motoru_dogrula_sonuc.txt

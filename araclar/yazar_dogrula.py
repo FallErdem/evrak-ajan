@@ -170,6 +170,9 @@ def main() -> int:
         cikti.append(s)
 
     dongu = Counter()
+    cakisma = Counter()
+    pes_sebebi = Counter()
+    pes_liste: list[str] = []
     tetiklenen = Counter()
     turler = Counter()
     kapanis = Counter()
@@ -177,6 +180,9 @@ def main() -> int:
     kopya_bant = Counter()
     kopyalar: list[tuple[str, float]] = []
     yer_tutuculu = 0
+    talepli = 0
+    soru_sayisi = 0
+    denetci_eksik = 0
     cagri = 0
     hatalar: list[str] = []
     t0 = time.perf_counter()
@@ -225,6 +231,12 @@ def main() -> int:
             dongu["ilk turda temiz"] += 1
         for b in s.ilk_bulgular:
             tetiklenen[getattr(b, "kural_id", "?")] += 1
+        for b in s.cakisanlar:
+            cakisma[getattr(b, "kural_id", "?")] += 1
+        if s.pes_edildi:
+            kalan = [getattr(b, "kural_id", "?") for b in s.son_bulgular]
+            pes_sebebi[", ".join(sorted(kalan)) or "?"] += 1
+            pes_liste.append(f"belge_{no}  kalan: {kalan}")
 
         c = d.cikti_yazi
         turler[str(c.tur)] += 1
@@ -236,9 +248,15 @@ def main() -> int:
         if bek_kap:
             yon_isabet["dogru" if uretilen == bek_kap else "YANLIS"] += 1
         # Verilen kapanış metnin İÇİNDE gerçekten var mı — istem uyuldu mu.
-        govde_son = (c.metin or "")[-160:]
-        cekirdek = uretilen.rstrip(".").split()[-2:]
-        kapanis["metinde var" if all(k in govde_son for k in cekirdek)
+        # ÖLÇÜM HATASIYDI, DÜZELTİLDİ 2026-08-24: karşılaştırma büyük/küçük
+        # harfe duyarlıydı. Verilen kapanış "Arz ederim.", model ise doğal
+        # olarak "...gereğini arz ederim." yazıyor; "Arz" küçük harfli
+        # metinde bulunamıyor ve 13 belge haksız yere "METINDE YOK"
+        # sayılıyordu. `katla` Türkçe işaretleri de düşürüyor.
+        from metin import katla
+        govde_son = katla((c.metin or "")[-200:])
+        cekirdek = katla(uretilen.rstrip(".")).split()[-2:]
+        kapanis["metinde var" if cekirdek and all(k in govde_son for k in cekirdek)
                 else "METINDE YOK"] += 1
 
         # -- kopya ----------------------------------------------------------
@@ -256,6 +274,11 @@ def main() -> int:
 
         if "[doldurulacak" in (c.metin or ""):
             yer_tutuculu += 1
+        if d.eksik_bilgi_talebi is not None:
+            talepli += 1
+            soru_sayisi += len(d.eksik_bilgi_talebi.sorular)
+        if getattr(d.icerik, "eksik_alanlar", None):
+            denetci_eksik += len(d.icerik.eksik_alanlar)
 
         print(f"    ... {i}/{len(secilen)}  belge_{no}  {s.ozet}",
               file=sys.stderr)
@@ -278,6 +301,13 @@ def main() -> int:
     yaz_()
     yaz_("  'duzeltildi' = tek atışlık bir Yazar'ın HATALI çıktı vereceği belge.")
     yaz_("  'pes edildi' = insana tırmandırıldı; hata gizlenmedi.")
+    if pes_sebebi:
+        yaz_()
+        yaz_("  pes sebebi — 2 tur sonunda kalan ihlal:")
+        for k, v in pes_sebebi.most_common():
+            yaz_(f"      {v:4d}  {k}")
+        for satir in pes_liste[:10]:
+            yaz_(f"      {satir}")
     yaz_()
 
     yaz_("2  İLK TURDA TETİKLENEN KURALLAR")
@@ -288,6 +318,16 @@ def main() -> int:
     else:
         yaz_("  (hiç ihlal bulunmadı)")
     yaz_()
+
+    if cakisma:
+        yaz_("2b  KURAL ÇAKIŞMASI  —  Yazar'ın düzeltemeyeceği bulgular")
+        yaz_("-" * 72)
+        for k, v in cakisma.most_common():
+            yaz_(f"  {v:4d}  {k}")
+        yaz_()
+        yaz_("  Kuralın kapsamı ile taslağın doğru hâli çelişiyor. Döngüye")
+        yaz_("  sokulmuyor, insan onayına düşüyor. Kural düzeltilince biter.")
+        yaz_()
 
     yaz_("3  KAPANIŞ")
     yaz_("-" * 72)
@@ -320,14 +360,24 @@ def main() -> int:
     yaz_("  Eşik tek başına hüküm vermez — yüksek çıkanlara gözle bakılmalı.")
     yaz_()
 
-    yaz_(f"6  YER TUTUCU KALAN TASLAK: {yer_tutuculu}")
+    yaz_("6  EKSİK BİLGİ TALEBİ  —  şartname 6.4.2 son madde")
+    yaz_("-" * 72)
+    yaz_(f"  talep kurulan taslak : {talepli}")
+    yaz_(f"  toplam soru          : {soru_sayisi}")
+    yaz_(f"  Denetçi'nin bulduğu eksik alan: {denetci_eksik}")
+    yaz_()
+    yaz_("  'talep kurulan' = gelen evrakta EKSİK bilgi görülüp karşı tarafa")
+    yaz_("  sorulmak üzere dosya.eksik_bilgi_talebi nesnesi dolduruldu.")
+    yaz_()
+
+    yaz_(f"7  YER TUTUCU KALAN TASLAK: {yer_tutuculu}")
     yaz_("-" * 72)
     yaz_("  Bunlar hata değil; memurun dolduracağı alanlar. Sayının yüksek")
     yaz_("  olması modelin veri uydurmak yerine boş bıraktığını gösterir.")
     yaz_()
 
     if hatalar:
-        yaz_(f"7  HATALAR ({len(hatalar)})")
+        yaz_(f"8  HATALAR ({len(hatalar)})")
         yaz_("-" * 72)
         for h in hatalar[:20]:
             yaz_(f"  {h}")

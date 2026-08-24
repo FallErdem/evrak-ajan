@@ -1,0 +1,57 @@
+KAPANIS YONU - HIYERARSI TABLOSU KAPSAM OLCUMU
+========================================================================
+  kurum dosyasi : C:\Users\erdem\Desktop\evrak-ajan\veri\kurumlar
+  etiket        : 300 belge
+  yuklenen kurum: Yenimahalle Belediye Başkanlığı, Gazi Üniversitesi, Ankara İl Millî Eğitim Müdürlüğü
+
+SONUC
+------------------------------------------------------------------------
+  olculen belge         300
+  DOGRU                 291/300 = 97.0%
+  yanlis                9
+
+KONUM DAGILIMI
+------------------------------------------------------------------------
+  gercek_kisi      108
+  ust_makam        72
+  ayni_duzey       60
+  bulunamadi       60
+
+HATA TURLERI
+------------------------------------------------------------------------
+  UST MAKAM KACIRILDI   0   (etiket rica, biz arz dedik)
+  FAZLADAN UST SANILDI  9   (etiket arz, biz rica dedik)
+    008: etiket=karma biz=rica konum=ust_makam gonderen=Millî Eğitim Bakanlığı
+    028: etiket=karma biz=rica konum=ust_makam gonderen=Yenimahalle Kaymakamlığı
+    033: etiket=karma biz=rica konum=ust_makam gonderen=Çevre, Şehircilik ve İklim Değişikliği Bakanlığı
+    060: etiket=karma biz=rica konum=ust_makam gonderen=Ankara Valiliği
+    082: etiket=karma biz=rica konum=ust_makam gonderen=Çevre, Şehircilik ve İklim Değişikliği Bakanlığı
+    135: etiket=karma biz=rica konum=ust_makam gonderen=Ankara Büyükşehir Belediye Başkanlığı
+    162: etiket=karma biz=rica konum=ust_makam gonderen=Yenimahalle Kaymakamlığı
+    194: etiket=karma biz=rica konum=ust_makam gonderen=Ankara Valiliği
+    199: etiket=karma biz=rica konum=ust_makam gonderen=Çevre, Şehircilik ve İklim Değişikliği Bakanlığı
+
+HIYERARSI TABLOSUNDA BULUNAMAYAN GONDERENLER
+------------------------------------------------------------------------
+     5  Yenimahalle İlçe Millî Eğitim Müdürlüğü
+     3  Genel Sekreterlik
+     3  Merkez Danışmanlık Ltd. Şti.
+     2  Anadolu Hizmetleri Ltd. Şti.
+     2  Mühendislik Fakültesi Dekanlığı
+     2  Temizlik İşleri Müdürlüğü
+     2  Sağlık Kültür ve Spor Daire Başkanlığı
+     2  Personel Dairesi Başkanlığı
+     2  İmar ve Şehircilik Müdürlüğü
+     2  Öz Hizmetleri Ltd. Şti.
+     2  Atlas Hizmetleri Ltd. Şti.
+     1  Ege Eğitim Hizmetleri Ltd. Şti.
+     1  Hukuk İşleri Müdürlüğü
+     1  Merkez Eğitim Hizmetleri Ltd. Şti.
+     1  Yıldız Hizmetleri Ltd. Şti.
+     1  Şafak Eğitim Hizmetleri Ltd. Şti.
+     1  Strateji Geliştirme Şube Müdürlüğü
+     1  Temel Eğitim Şube Müdürlüğü
+     1  Güven Hizmetleri Ltd. Şti.
+     1  Umutkent Mesleki ve Teknik Anadolu Lisesi Müdürlüğü
+
+sonuc dosyasi: C:\Users\erdem\Desktop\evrak-ajan\kapanis_kapsam_sonuc.txt

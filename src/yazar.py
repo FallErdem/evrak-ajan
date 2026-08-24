@@ -529,11 +529,12 @@ def sema_kur() -> dict:
                     },
                     "eksik_bilgiler": {
                         "type": "array",
-                        "description": "Taslağın tamamlanabilmesi için "
-                                       "GEREKEN ama sana verilmeyen bilgiler. "
-                                       "Metinde [doldurulacak: ...] olarak "
-                                       "bıraktığın her şey buraya da yazılır. "
-                                       "Yoksa boş dizi.",
+                        "description": "BİZDE olmayan bilgiler: kurumun "
+                                       "kayıtlarından gelmesi gereken ama "
+                                       "sana verilmeyen veriler. Metinde "
+                                       "[doldurulacak: ...] olarak bıraktığın "
+                                       "her şey buraya yazılır. Memur "
+                                       "doldurur. Yoksa boş dizi.",
                         "items": {"type": "string", "maxLength": 200},
                     },
                 },
@@ -725,17 +726,84 @@ def taslak_uret(dosya, istemci, isk: Iskelet | None = None,
     c.konu = _kirp(veri.get("konu"), 120)
     c.metin = _kirp(veri.get("metin"), 2000)
 
-    eksikler = [s for s in (veri.get("eksik_bilgiler") or []) if str(s).strip()]
-    if eksikler:
-        # Şartname 6.4.2 son madde: "gerekli durumlarda eksik bilgi talep
-        # edebilmesi". Talep nesnesini KURMUYORUZ — muhatap kanalı, süre ve
-        # dayanak burada bilinmiyor. Sorular kaydediliyor, gerisi akış
-        # katmanının işi.
-        dosya.eksik_bilgi_talebi = dosya.eksik_bilgi_talebi or None
-        uyarilar.extend(f"Eksik bilgi: {s}" for s in eksikler[:5])
+    # BİZDE olmayan veriler — metinde yer tutucu olarak duruyor, memur
+    # doldurur. Yazının türünü etkilemez.
+    eksikler = [x for x in (veri.get("eksik_bilgiler") or []) if str(x).strip()]
+    uyarilar.extend(f"Doldurulacak: {x}" for x in eksikler[:5])
+
+    # Şartname 6.4.2 son madde: "Gerekli durumlarda eksik bilgi talep
+    # edebilmesi." Eksikleri Yazar TESPİT ETMEZ, Denetçi'den devralır.
+    _talep_kur(dosya, isk, uyarilar)
 
     return uyarilar
 
+
+def _talep_kur(dosya, isk: Iskelet, uyarilar: list[str]) -> None:
+    """`dosya.eksik_bilgi_talebi`'ni Denetçi'nin bulduğu eksiklerden kurar.
+
+    YAZAR EKSİK TESPİT ETMEZ — DEVRALIR
+    -----------------------------------
+    Eksikleri bulan Denetçi'dir: kendi katmanlarında bakar, karar verir,
+    gerekirse LLM'e doğrulatır ve sonucu `icerik.eksik_alanlar`a yazar.
+    Yazar aynı işi ikinci kez yaparsa iki uygulama zamanla ayrışır ve
+    hangisinin doğru olduğu belirsizleşir — `birimler.py`'nin baştan beri
+    uyguladığı "hesabı tek yerde yap" kuralı.
+
+    Bu yüzden Yazar burada ne kural motoru koşturuyor ne modele "eksik var
+    mı" diye soruyor. `EksikAlan` şeması işi zaten çözmüş:
+
+        talep_edilebilir   Ş 6.4.2(5): bu eksik karşı taraftan istenebilir mi
+        soru               vatandaşa SORULACAK hâli
+        aciklama           sistemin KENDİNE notu — ikisi aynı şey değil
+        dayanak            mevzuat alıntısı
+        giderildi          cevap geldi mi
+
+    SORULAR UYDURULMUYOR
+    --------------------
+    `soru` metni `kurallar.json`da yazılı (S-01 sayı, T-01 tarih, IM-01
+    imza) ve mevzuat diliyle kurulmuş. Model bu cümleleri ne üretiyor ne
+    görüyor. `dayanak` da aynı yerden geliyor; Yazar'ın mevzuat üretme
+    yasağı (§5.1) böylece kendiliğinden korunuyor.
+
+    TASLAK NORMAL TASLAK KALIR
+    --------------------------
+    Eksiklik varlığı yazının TÜRÜNÜ değiştirmiyor ve metnine girmiyor.
+    Eksikler ayrı bir alanda duruyor; arayüz onları gösterir, memur
+    isterse talep yazısına çevirir. Modelden "eksikleri metne yaz"
+    istemek, deterministik olarak bilinen bir şeyi üretime devretmek
+    olurdu.
+    """
+    icerik = getattr(dosya, "icerik", None)
+    alanlar = getattr(icerik, "eksik_alanlar", None) or []
+    istenecek = [e for e in alanlar
+                 if getattr(e, "talep_edilebilir", False)
+                 and not getattr(e, "giderildi", False)
+                 and getattr(e, "soru", None)]
+    if not istenecek:
+        dosya.eksik_bilgi_talebi = None
+        return
+
+    from veri_yapisi import EksikBilgiTalebi, MuhatapTuru
+
+    g = getattr(dosya.ustveri, "gonderen", None)
+    talep = EksikBilgiTalebi(
+        muhatap_ad=(isk.muhatap or "").replace("\n", " ") or None,
+        muhatap_turu=getattr(g, "tur", None) or MuhatapTuru.BILINMIYOR,
+        sorular=[e.soru for e in istenecek][:10],
+        yazi=dosya.cikti_yazi,
+    )
+    # Dayanak Denetçi'den taşınır, üretilmez. `sure_gun`, `son_tarih` ve
+    # `kanal` BOŞ BIRAKILIYOR: süre mevzuattan gelir ve onu buradan yazmak
+    # mevzuat uydurmak olur. Boş alan görünür, memur tamamlar.
+    dayanaklar = [e.dayanak for e in istenecek if getattr(e, "dayanak", None)]
+    if dayanaklar:
+        talep.dayanak = dayanaklar[0][:500]
+
+    dosya.eksik_bilgi_talebi = talep
+    uyarilar.extend(
+        f"Gönderenden istenecek [{e.kural_id or 'çıkarım'}]: {e.soru}"
+        for e in istenecek[:5]
+    )
 
 def _kirp(deger: object, sinir: int) -> str | None:
     """Şemanın uzunluk sınırına kırpar — ikinci savunma hattı.
@@ -889,6 +957,14 @@ class YazarSonucu:
     duzeltildi: bool = False
     pes_edildi: bool = False
     insan_onayi_gerek: bool = False
+    # Kuralın kapsamı ile taslağın doğru hâli çelişiyor; döngüye
+    # sokulmadı. Ölçüm bunu SAYIYOR — uyarı metnine bakarak değil.
+    #
+    # NEDEN AYRI ALAN: ilk sürümde ölçüm betiği uyarı dizesini arıyordu.
+    # Uyarı metnini değiştirdiğimde ölçüm sessizce sıfır saymaya başladı
+    # ve 12 çakışma raporda hiç görünmedi. Ölçümü serbest metne bağlamak,
+    # denetimi yorumla bağlamak gibidir.
+    cakisanlar: list = field(default_factory=list)
     uyarilar: list[str] = field(default_factory=list)
     iskelet: Iskelet | None = None
 
@@ -903,9 +979,56 @@ class YazarSonucu:
         return f"İlk turda temiz ({self.tur_sayisi} tur)"
 
 
-def _duzeltilecekler(rapor) -> list:
+# Yazar'ın DÜZELTEMEYECEĞİ bulgular: kuralın kendisi ile Yazar'ın
+# deterministik kararı çelişiyor.
+#
+# ME-02 · GERÇEK KİŞİ — ÖLÇÜLDÜ 2026-08-24, 40 belgelik tabakalı örneklem
+# ----------------------------------------------------------------------
+# ME-02'nin deseni metnin şununla BİTMESİNİ şart koşuyor:
+#
+#     (?i)(arz ederim|rica ederim|arz ve rica ederim|arz/rica ederim)\.?\s*$
+#
+# Muhatabı gerçek kişi olan yazının kapanışı ise Y 16/12-e gereği
+# "Bilgilerinize sunulur." / "Saygılarımla." — desen bunu tanımıyor.
+#
+# Sonuç kazanılamayan bir döngüydü: Yazar doğru kapanışı yazıyor, ME-02
+# ihlal sayıyor, ikinci tur da düzeltemiyor, pes ediliyor. Ölçüm:
+#
+#     pes edilen 14 belge  ->  14'ü de gercek_kisi_yazari   (istisnasız)
+#     diğer 26 belgede     ->  hiç gercek_kisi yok
+#
+# Bu bir taslak kusuru DEĞİL, iki Yönetmelik maddesi arasındaki kapsam
+# boşluğu: ME-02 genel kuralı (16/12-a), gerçek kişi ise özel kuralı
+# (16/12-e) izler ve özel kural geneli daraltır. ME-05 o özel kuralı
+# kodluyor ama `uygulanir=false` — özel fonksiyonu henüz yazılmamış.
+#
+# GİZLEMİYORUZ, DÖNGÜYE SOKMUYORUZ. Bulgu uyarı olarak kaydediliyor ve
+# evrak insan onayına düşüyor; yalnızca ikinci LLM çağrısı yapılmıyor.
+# Olmayacak bir düzeltmeyi denemek belge başına bir çağrı boşa yakıyordu.
+#
+# KALICI ÇÖZÜM ERDEM'DE: ME-02'nin `giden` deseni Y 16/12-e kapanışlarını
+# da kabul etmeli. Bu sözlük o düzeltmeden sonra boşalır.
+CAKISAN_KURALLAR = {
+    HiyerarsiYonu.GERCEK_KISI: {"ME-02"},
+}
+
+
+def _cakisma_mi(bulgu, yon) -> bool:
+    return getattr(bulgu, "kural_id", None) in CAKISAN_KURALLAR.get(yon, ())
+
+
+def _duzeltilecekler(rapor, yon=None) -> list:
+    """Düzeltme turunu tetikleyecek bulgular.
+
+    Çakışan kurallar ayıklanır — bkz. CAKISAN_KURALLAR.
+    """
     return [b for b in (rapor.bulgular or [])
-            if str(getattr(b, "onem", "")).lower() in DUZELTILECEK_ONEMLER]
+            if str(getattr(b, "onem", "")).lower() in DUZELTILECEK_ONEMLER
+            and not _cakisma_mi(b, yon)]
+
+
+def _cakisanlar(rapor, yon) -> list:
+    return [b for b in (rapor.bulgular or []) if _cakisma_mi(b, yon)]
 
 
 def yaz(dosya, istemci, motor=None, azami_tur: int = AZAMI_TUR) -> YazarSonucu:
@@ -948,7 +1071,30 @@ def yaz(dosya, istemci, motor=None, azami_tur: int = AZAMI_TUR) -> YazarSonucu:
         # göstermek raporu güvenilmez kılar. İç bulgular döngüyü tetikler
         # ve YazarSonucu'na yazılır — görünür ama karışmaz.
         dosya.cikti_yazi.linter_raporu = sonuc.rapor
-        bulgular = _duzeltilecekler(sonuc.rapor) + ic_denetim(dosya)
+        yon = s.iskelet.yon.yon if s.iskelet else None
+        bulgular = _duzeltilecekler(sonuc.rapor, yon) + ic_denetim(dosya)
+
+        # ÇAKIŞMA İNSAN ONAYINI TETİKLEMEZ — ölçüldü 2026-08-24
+        # -----------------------------------------------------
+        # İlk sürüm bunları insan onayına düşürüyordu ve 35 belgenin
+        # 12'si (%34) sebepsiz yere memura gidiyordu. Oysa taslak DOĞRU:
+        # kapanış Y 16/12-e'nin açık hükmü, ME-02 ise genel kuralı
+        # (16/12-a) kodluyor ve özel hüküm geneli daraltır.
+        #
+        # Doğru bir taslağı onaya göndermek YANLIŞ ALARMDIR ve bu projede
+        # yanlış alarm kaçırılan hatadan tehlikeli sayılıyor: 153 kusursuz
+        # belgede sıfırda tutuluyor ve Yazar onu bozamaz.
+        #
+        # Bulgu GİZLENMİYOR: uyarıya yazılıyor, ölçüm ayrı bir bölümde
+        # sayıyor. Yalnızca döngü ve onay tetiklenmiyor.
+        cak = _cakisanlar(sonuc.rapor, yon)
+        s.cakisanlar = list(cak)
+        for b in cak:
+            s.uyarilar.append(
+                f"[{getattr(b, 'kural_id', '?')}] kuralı bu yazının kapanışını "
+                f"ihlal sayıyor, ancak kapanış Y 16/12-e gereği doğrudur "
+                f"(muhatap gerçek kişi). Kural kapsamı eksik; taslak doğru."
+            )
         if tur == 1:
             s.ilk_bulgular = list(bulgular)
         s.son_bulgular = list(bulgular)
