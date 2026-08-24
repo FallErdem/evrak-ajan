@@ -432,3 +432,544 @@ def _muhatap_yaz(dosya, biz: Kimlik) -> str | None:
     if len(parcalar) == 1:
         return parcalar[0]
     return f"{parcalar[0]}\n({parcalar[1]})"
+
+
+# =============================================================================
+# 2b · TÜR KARARI VE TASLAK ÜRETİMİ — LLM
+# =============================================================================
+#
+# Modelin karar verdiği ÜÇ şey: yazının TÜRÜ, KONUSU, METNİ.
+# Modelin karar VERMEDİĞİ şey: muhatap, başlık, imza unvanı, arz/rica.
+# Onlar 2a'da tablodan hesaplandı ve isteme HAZIR CEVAP olarak giriyor.
+#
+# İSTEMDEKİ AD İLE ŞEMADAKİ AD AYNI OLMAK ZORUNDA
+# -----------------------------------------------
+# Anlama'da pahalıya öğrenildi: istem "dilekce" derken şema
+# "vatandas_dilekcesi" bekliyordu ve üç sınıf birden kayboldu (F1 0.00).
+# Burada o risk YOK, çünkü `UretilecekTur` değerleri zaten şema adları;
+# taksonomi köprüsü giden tarafta gerekmiyor. Yine de tür açıklamaları
+# ENUM DEĞERİYLE anahtarlanıyor, ayrı bir sözlükle değil.
+
+import json  # noqa: E402
+import re  # noqa: E402
+
+from veri_yapisi import UretilecekTur  # noqa: E402
+
+# Şemaya KONMAYACAK tür. Model seçemezse yanlış seçemez.
+#
+# Gerekçe (devir promptu §5.2): sistem "buna cevap gerekmez" der ve
+# yanılırsa vatandaşın dilekçesi cevapsız kalır. Gereksiz taslak üretirse
+# memur siler. Hata simetrik değil.
+YASAK_TUR = UretilecekTur.TASLAK_GEREKMEZ
+
+TUR_TANIMLARI = {
+    UretilecekTur.CEVAP_YAZISI.value:
+        "Gelen bir talebe, soruya ya da başvuruya doğrudan cevap verir. "
+        "Gelen evrak bir şey İSTİYORSA ve cevaplayabiliyorsak bu seçilir.",
+    UretilecekTur.BILGILENDIRME_YAZISI.value:
+        "Cevap beklemeyen, karşı tarafı bilgilendiren yazı. Gelen evrak "
+        "bilgi vermişse ya da yapılan bir işlem bildiriliyorsa.",
+    UretilecekTur.UST_YAZI.value:
+        "Bir eki, belgeyi ya da dosyayı iletmek için yazılan kapak yazısı. "
+        "Asıl içerik EKTEDİR, yazının kendisi kısadır.",
+    UretilecekTur.OLUR_YAZISI.value:
+        "Bir işlem için yetkili makamdan onay (olur) alınmasını sağlayan "
+        "yazı. Karar verecek makama sunulur.",
+    UretilecekTur.TEKIT_YAZISI.value:
+        "Daha önce yazılmış ve cevaplanmamış bir yazıyı hatırlatır. "
+        "Yalnızca cevapsız kalmış bir ilgi varsa.",
+    UretilecekTur.EKSIK_BILGI_TALEBI.value:
+        "Gelen evrakta işlem için gereken bilgi ya da belge eksikse, "
+        "eksiği tamamlaması istenir. Şartname 6.4.2 son madde.",
+}
+
+SISTEM_ISTEMI_YAZAR = (
+    "Türk kamu kurumlarında resmî yazı kaleme alan bir uzmansın. "
+    "Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik'e "
+    "uygun, sade ve açık Türkçe yazarsın. "
+    "Sana verilmeyen hiçbir bilgiyi UYDURMAZSIN: sayı, tarih, kişi adı, "
+    "mevzuat maddesi ya da rakam ekleme. "
+    "Yalnızca gelen belgede yazan ve sana verilen bilgiyi kullan."
+)
+
+
+def sema_kur() -> dict:
+    """response_format şeması. `taslak_gerekmez` ENUM'A KONMAZ.
+
+    Sayısal kısıt yok — Anlama'da ölçüldü, çağrıyı yavaşlatıyor ve aralık
+    dışı değer üretiyor. Uzunluk sınırları VAR: model uzun yazınca Pydantic
+    doğrulaması patlıyor ve cevabın tamamı çöpe gidiyordu.
+    """
+    turler = [t.value for t in UretilecekTur if t is not YASAK_TUR]
+    return {
+        "type": "json_schema",
+        "json_schema": {
+            "name": "resmi_yazi_taslagi",
+            "strict": True,
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "tur": {"type": "string", "enum": turler},
+                    "tur_gerekcesi": {
+                        "type": "string", "maxLength": 300,
+                        "description": "Bu türü neden seçtin, TEK CÜMLE.",
+                    },
+                    "konu": {
+                        "type": "string", "maxLength": 120,
+                        "description": "Yazının konusu. Sonuna NOKTA, "
+                                       "'Hk.' ya da başka noktalama KOYMA.",
+                    },
+                    "metin": {
+                        "type": "string", "maxLength": 2000,
+                        "description": "Yazının gövdesi. Paragraflar arasında "
+                                       "boş satır bırak. Başlık, sayı, tarih, "
+                                       "muhatap ve imza YAZMA — onlar ayrıca "
+                                       "ekleniyor. Kapanış cümlesini sana "
+                                       "verilen hâliyle en sona yaz.",
+                    },
+                    "eksik_bilgiler": {
+                        "type": "array",
+                        "description": "Taslağın tamamlanabilmesi için "
+                                       "GEREKEN ama sana verilmeyen bilgiler. "
+                                       "Metinde [doldurulacak: ...] olarak "
+                                       "bıraktığın her şey buraya da yazılır. "
+                                       "Yoksa boş dizi.",
+                        "items": {"type": "string", "maxLength": 200},
+                    },
+                },
+                "required": ["tur", "tur_gerekcesi", "konu", "metin",
+                             "eksik_bilgiler"],
+                "additionalProperties": False,
+            },
+        },
+    }
+
+
+def istem_kur(dosya, isk: Iskelet, bulgular: list | None = None) -> str:
+    """İstemi kurar. Deterministik alanlar HAZIR CEVAP olarak verilir.
+
+    `bulgular` doluysa bu bir DÜZELTME turudur (2c). Model kendi önceki
+    taslağını ve kural motorunun bulgularını görür, yeniden yazar.
+    """
+    u = dosya.ustveri
+    s = dosya.siniflandirma
+    ic = dosya.icerik
+
+    ilgi = "yok"
+    if u.ilgi:
+        i0 = u.ilgi[0]
+        ilgi = f"{i0.tarih or '—'} tarihli ve {i0.sayi or '—'} sayılı yazı"
+
+    satirlar = [
+        "GELEN EVRAK",
+        "-" * 60,
+        f"Gönderen        : {isk.muhatap or '—'}",
+        f"Belge türü      : {s.belge_turu.value if s.belge_turu else '—'}",
+        f"Konu            : {u.konu or '—'}",
+        f"İlgi            : {ilgi}",
+        f"Ek              : {len(u.ekler)} adet" if u.ekler else "Ek              : yok",
+        f"Talep           : {ic.talep or '—'}",
+        f"Özet            : {ic.ozet or '—'}",
+        "",
+        "Gövde:",
+        (dosya.metin or "")[:3000],
+        "",
+        "CEVABI YAZAN",
+        "-" * 60,
+        f"Birim           : {isk.kimlik.birim['ad'] if isk.kimlik.birim else '—'}",
+        f"İmza unvanı     : {isk.kimlik.imza_unvan or '—'}",
+        "",
+        "SANA VERİLEN KARARLAR — bunları DEĞİŞTİRME",
+        "-" * 60,
+        f"Muhatap         : {(isk.muhatap or '—').replace(chr(10), ' ')}",
+        f"Hiyerarşi       : {isk.yon.aciklama or '—'}",
+        f"KAPANIŞ CÜMLESİ : {isk.yon.kapanis}",
+    ]
+
+    # Mevzuat atıfları Denetçi'den geliyor ve DOĞRULANMIŞ. Yazar TAŞIR,
+    # üretmez — uydurma madde numarası resmî yazıdaki hata türlerinin en
+    # kötüsüdür, çünkü okuyan memur ona güvenip işlem yapar.
+    if dosya.mevzuat:
+        satirlar += ["", "KULLANABİLECEĞİN MEVZUAT ATIFLARI", "-" * 60]
+        for m in dosya.mevzuat:
+            parca = getattr(m, "madde", None)
+            satirlar.append(f"  {getattr(m, 'ad', '—')}"
+                            + (f" {parca}" if parca else ""))
+        satirlar.append("  Bu listenin DIŞINDA mevzuat atfı yapma.")
+    else:
+        satirlar += ["", "Sana mevzuat atfı verilmedi; yazıda mevzuat "
+                     "maddesi ANMA."]
+
+    satirlar += [
+        "",
+        "KURALLAR",
+        "-" * 60,
+        "1  KONU: yalın bir isim tamlaması yaz. Sonuna nokta, iki nokta ya "
+        "da başka noktalama KOYMA. 'Hk.', 'Hk', 'Hakkında' ile de BİTİRME — "
+        "kısaltmanın noktasını silmek yetmez, kısaltmanın kendisi konu "
+        "alanına yazılmaz. "
+        "Doğru: 'Staj Süresinin Uzatılması Talebi' · 'Atama Onayı' · "
+        "'Halk Eğitim Kursu Açılması'. "
+        "Yanlış: 'Atama Onayı Hk.' · 'Atama Onayı Hk' · 'Atama Onayı.'",
+        "2  Kapanış cümlesini sana verildiği gibi, metnin EN SONUNA yaz.",
+        f"3  Sayı, tarih ve imzalayan kişinin adını YAZMA — EBYS atar.",
+        "4  Gelen evrakta bir ilgi varsa metnin ilk paragrafında ona AÇIKÇA "
+        "atıf yap ('İlgide kayıtlı yazı ile...').",
+        "5  Verilmeyen hiçbir bilgiyi uydurma. Emin olmadığın rakam, ad ya "
+        "da madde numarası yazma.",
+        "6  SONUÇ DA UYDURMA. Gelen evrak SOMUT bir veri istiyorsa (sayı, "
+        "liste, süre, tutar) ve o veri sana verilmediyse, uydurma ve "
+        "olumsuz cevap da verme; yerine [doldurulacak: ...] yaz, memur "
+        "doldurur. 'Bilgiye ulaşılamamıştır', 'talebiniz uygun "
+        "görülmemiştir' gibi cümleler BİRER KARARDIR, onları vermeye "
+        "yetkin yok. "
+        "AMA yer tutucuyu GEREKSİZ YERE KULLANMA: gelen evrak somut veri "
+        "istemiyorsa yazı yer tutucusuz tamamlanır.",
+        "7  Kısa ve resmî yaz; iki ile dört paragraf yeterlidir.",
+    ]
+
+    if bulgular:
+        satirlar += [
+            "",
+            "=" * 60,
+            "ÖNCEKİ TASLAĞIN KURAL İHLALİ İÇERİYOR — DÜZELT",
+            "=" * 60,
+            f"Önceki konu : {dosya.cikti_yazi.konu or '—'}",
+            "Önceki metin:",
+            dosya.cikti_yazi.metin or "—",
+            "",
+            "Denetim bulguları:",
+        ]
+        # LinterBulgusu alanları: kural_id · baslik · onem · aciklama ·
+        # dayanak · alan · alinti · duzeltme_onerisi.
+        #
+        # DÜZELTME ÖNERİSİ VE ALINTI DA VERİLİYOR — ölçüldü 2026-08-24:
+        # yalnızca kural kimliği verildiğinde istemde "[?]" görünüyordu ve
+        # model neyi düzelteceğini bilemiyordu. Kuralın DAYANAĞI da konuyor
+        # ki model kuralı ezberlemek yerine gerekçesini görsün.
+        for b in bulgular:
+            satir = f"  [{getattr(b, 'kural_id', '?')}] " \
+                    f"{getattr(b, 'baslik', '') or ''}"
+            aciklama = getattr(b, "aciklama", None)
+            if aciklama:
+                satir += f" — {aciklama}"
+            dayanak = getattr(b, "dayanak", None)
+            if dayanak:
+                satir += f"  (dayanak: {dayanak})"
+            satirlar.append(satir)
+            alinti = getattr(b, "alinti", None)
+            if alinti:
+                satirlar.append(f"        sorunlu kısım: {alinti}")
+            oneri = getattr(b, "duzeltme_onerisi", None)
+            if oneri:
+                satirlar.append(f"        öneri: {oneri}")
+        satirlar.append("")
+        satirlar.append("Bu ihlalleri gideren YENİ bir taslak yaz. "
+                        "İhlalle ilgisi olmayan kısımları KORU.")
+
+    return "\n".join(satirlar)
+
+
+def taslak_uret(dosya, istemci, isk: Iskelet | None = None,
+                bulgular: list | None = None) -> list[str]:
+    """Tek LLM çağrısı. `dosya.cikti_yazi`'nın tur/konu/metin alanlarını yazar.
+
+    Döner: uyarı listesi (boşsa çağrı temiz geçti).
+
+    Çağrı başarısız olursa alanlar ELLENMEZ. Yarım JSON ayrıştırılmaz:
+    Anlama'da ölçüldü, kesilmiş çıktıyı kabul etmek eksik veriyi sessizce
+    şemaya sokuyor.
+    """
+    uyarilar: list[str] = []
+    if isk is None:
+        isk = iskelet_kur(dosya)
+
+    try:
+        cevap = istemci.metin_uret(
+            istem=istem_kur(dosya, isk, bulgular),
+            sistem_istemi=SISTEM_ISTEMI_YAZAR,
+            ek={"response_format": sema_kur()},
+        )
+    except Exception as e:  # noqa: BLE001
+        return [f"LLM çağrısı başarısız: {type(e).__name__}: {e}"]
+
+    if cevap.kesildi_mi:
+        return ["Model çıktısı token sınırında kesildi; taslak yazılmadı"]
+
+    try:
+        veri = json.loads(cevap.metin)
+    except json.JSONDecodeError as e:
+        return [f"Model çıktısı JSON değil: {e}"]
+
+    c = dosya.cikti_yazi
+    ham_tur = (veri.get("tur") or "").strip()
+    try:
+        tur = UretilecekTur(ham_tur)
+    except ValueError:
+        uyarilar.append(f"Model tanınmayan tür verdi: {ham_tur!r}")
+        tur = None
+    if tur is YASAK_TUR:
+        # Şemada yok; buraya düşerse sağlayıcı enum'u uygulamamış demektir.
+        uyarilar.append("Model 'taslak_gerekmez' verdi; şemada olmamalıydı")
+        tur = None
+    if tur is not None:
+        c.tur = tur
+
+    c.tur_gerekcesi = _kirp(veri.get("tur_gerekcesi"), 300)
+    c.konu = _kirp(veri.get("konu"), 120)
+    c.metin = _kirp(veri.get("metin"), 2000)
+
+    eksikler = [s for s in (veri.get("eksik_bilgiler") or []) if str(s).strip()]
+    if eksikler:
+        # Şartname 6.4.2 son madde: "gerekli durumlarda eksik bilgi talep
+        # edebilmesi". Talep nesnesini KURMUYORUZ — muhatap kanalı, süre ve
+        # dayanak burada bilinmiyor. Sorular kaydediliyor, gerisi akış
+        # katmanının işi.
+        dosya.eksik_bilgi_talebi = dosya.eksik_bilgi_talebi or None
+        uyarilar.extend(f"Eksik bilgi: {s}" for s in eksikler[:5])
+
+    return uyarilar
+
+
+def _kirp(deger: object, sinir: int) -> str | None:
+    """Şemanın uzunluk sınırına kırpar — ikinci savunma hattı.
+
+    Anlama'da ölçüldü: model sınırı aşınca Pydantic ValidationError
+    fırlatıyor ve çağrının TAMAMI çöpe gidiyor. Sağlayıcı maxLength'i
+    uygulamayabilir.
+    """
+    if deger is None:
+        return None
+    metin = str(deger).strip()
+    if not metin:
+        return None
+    return metin if len(metin) <= sinir else metin[: sinir - 1].rstrip() + "…"
+
+
+# =============================================================================
+# 2c · ÜSLUP DÖNGÜSÜ — YAZAR'I AJAN YAPAN YER
+# =============================================================================
+#
+# LLM ÇAĞIRMAK AJAN OLMAK DEĞİLDİR
+# --------------------------------
+#     ARAÇ          LLM yok, karar yok
+#     LLM ÇAĞRISI   LLM var, karar yok, döngü yok
+#     AJAN          LLM var, KARAR verir, KENDİ ÇIKTISINI denetler, DÖNGÜYE girer
+#
+# Fark davranışta görünür:
+#     workflow   yaz -> denetle -> çıktıyı ver        (ihlal varsa da verir)
+#     ajan       yaz -> denetle -> GÖR -> DÜZELT -> tekrar denetle
+#                                        -> olmazsa PES ET, insana ver
+#
+# Yazar kendi ürettiğini beğenmeyip değiştiriyor ve ne zaman pes edeceğine
+# kendi karar veriyor. Bir workflow bunu yapmaz.
+#
+# GERÇEK ÖRNEK — ölçüldü 2026-08-24, qwen3.8-27b, üç belgenin ÜÇÜNDE de:
+#
+#     Tur 1  konu: "Staj Süresinin Uzatılması Talebi Hk."
+#            motor: K-02 İHLAL — konu sonunda noktalama (Y 13)
+#     Tur 2  konu: "Staj Süresinin Uzatılması Talebi"
+#            motor: temiz -> insana sunulur
+#
+# İstemde "sonuna noktalama KOYMA" AÇIKÇA yazılı olmasına rağmen model üç
+# belgede de "Hk." yazdı. Yani döngü süs değil: tek atışlık bir Yazar bu
+# üç belgede de Yönetmeliğe aykırı konu üretirdi.
+#
+# DÖNGÜ SINIRI 2 TUR
+# ------------------
+# Sınırsız döngü hem kredi yakar hem sonsuza gidebilir. İki tur sonunda
+# ihlal kalırsa Yazar PES EDER ve evrağı insana tırmandırır. Pes etmek
+# başarısızlık değil, tasarımın parçası: memura "şunu düzeltemedim"
+# demek, sessizce hatalı taslak vermekten iyidir.
+
+from veri_yapisi import EvrakDurumu  # noqa: E402
+
+AZAMI_TUR = 2
+
+# -----------------------------------------------------------------------------
+# Yazar'ın kendi iç denetimi — kural motorundan AYRI
+# -----------------------------------------------------------------------------
+#
+# İŞ BÖLÜMÜ
+#     kural motoru   taslak YÖNETMELİĞE uygun mu     (K-02, ME-01, ME-02...)
+#     iç denetim     taslak KENDİNE VERİLENE uygun mu
+#
+# İkincisini kural motoruna eklemek yanlış olurdu: denetlenen şey mevzuat
+# değil, Yazar'ın kendi girdisiyle tutarlılığı. Ayrıca `kural_ekleri.json`
+# ve `kural_ozel.py` bu çalışmada başka bir geliştiricinin dosyası.
+#
+# NEDEN GEREKLİ — ÖLÇÜLDÜ 2026-08-24, üç ayrı istem ayarından sonra
+# ------------------------------------------------------------------
+# Model her kapatılan kapıda yenisini buluyor:
+#
+#   ayar 1  konu "Staj ... Talebi Hk."          -> K-02 yakaladı
+#   ayar 2  konu "Staj ... Talebi Hk"            -> noktayı sildi, kural sustu
+#   ayar 3  konu temiz, ama metin:
+#           "...bilgileri EKTE yer almaktadır."  -> OLMAYAN EK uydurdu
+#
+# Üçüncüsü en tehlikelisi: 4982 sayılı Kanun başvurusuna "bilgiler ektedir"
+# demek, başvurucunun olmayan bir eki aramasına ve yasal sürenin boşa
+# geçmesine yol açar. İstem ayarı bunu engelleyemedi çünkü sorun üslup
+# değil, DOĞRULANABİLİR BİR OLGU İDDİASI.
+#
+# Deterministik denetim istem ayarından üstün: model ne kadar yaratıcı
+# olursa olsun, "ek var" demek elimizdeki ek sayısıyla çelişir ve çelişki
+# ölçülebilir.
+
+# Taslakta ek iddiası. "ekle-", "ekip", "ekonomi" gibi kelimeleri
+# yakalamamak için sınır konuyor.
+_EK_IDDIASI = re.compile(
+    r"\b(ek(?:te|ler|inde|imizde)?|ilişikte|ilişik)\b"
+    r"(?=[^.]{0,80}?(yer al|sunul|gönderil|iletil|bulun|takdim|ilet))",
+    re.IGNORECASE,
+)
+
+
+@dataclass
+class IcBulgu:
+    """Kural motorunun bulgusuyla aynı şekli taşır ki istem tek yol kullansın."""
+
+    kural_id: str
+    baslik: str
+    aciklama: str | None = None
+    dayanak: str | None = None
+    alinti: str | None = None
+    duzeltme_onerisi: str | None = None
+    onem: str = "hata"
+
+
+def ic_denetim(dosya) -> list[IcBulgu]:
+    """Taslak, kendisine VERİLMEYEN bir şeyi iddia ediyor mu.
+
+    Şu an tek denetim var; liste büyüyebilir ama her yenisi ölçümle
+    gerekçelendirilmeli — istem ayarıyla çözülebilen şeyi buraya koymak
+    kodu şişirir.
+    """
+    bulgular: list[IcBulgu] = []
+    metin = dosya.cikti_yazi.metin or ""
+
+    # Yazar EK ÜRETMİYOR: `cikti_yazi` şemasında ek alanı yok ve taslağa
+    # dosya iliştirilmiyor. Dolayısıyla taslaktaki HER ek iddiası
+    # dayanaksızdır — gelen evrakta ek olması da bunu değiştirmez, çünkü
+    # gelen evrağın eki bizim yazımızın eki değildir.
+    m = _EK_IDDIASI.search(metin)
+    if m:
+        bulgular.append(IcBulgu(
+            kural_id="YZ-01",
+            baslik="Taslak, var olmayan bir eke atıf yapıyor",
+            aciklama="Bu yazının eki yok. Ek iddiası, okuyanın olmayan bir "
+                     "belgeyi aramasına yol açar.",
+            dayanak="Yazar iç denetimi",
+            alinti=metin[max(0, m.start() - 40):m.end() + 40].strip(),
+            duzeltme_onerisi="Ek atfını kaldır. Bilgi elinde yoksa "
+                             "[doldurulacak: ...] yer tutucusu kullan.",
+        ))
+    return bulgular
+
+
+
+# Bu önemdeki bulgular düzeltme turunu tetikler. Bilgi düzeyindekiler
+# rapora yazılır ama yeniden yazdırmaz — her uyarı için kredi yakmayız.
+DUZELTILECEK_ONEMLER = ("hata", "uyari")
+
+
+@dataclass
+class YazarSonucu:
+    """Döngünün kaydı. `linter_raporu` boş kalırsa döngü koşmamış demektir."""
+
+    tur_sayisi: int = 0
+    ilk_bulgular: list = field(default_factory=list)
+    son_bulgular: list = field(default_factory=list)
+    duzeltildi: bool = False
+    pes_edildi: bool = False
+    insan_onayi_gerek: bool = False
+    uyarilar: list[str] = field(default_factory=list)
+    iskelet: Iskelet | None = None
+
+    @property
+    def ozet(self) -> str:
+        if self.pes_edildi:
+            return (f"{self.tur_sayisi} turda düzeltilemedi, "
+                    f"{len(self.son_bulgular)} ihlal kaldı; insana tırmandırıldı")
+        if self.duzeltildi:
+            return (f"{len(self.ilk_bulgular)} ihlal {self.tur_sayisi}. turda "
+                    f"düzeltildi")
+        return f"İlk turda temiz ({self.tur_sayisi} tur)"
+
+
+def _duzeltilecekler(rapor) -> list:
+    return [b for b in (rapor.bulgular or [])
+            if str(getattr(b, "onem", "")).lower() in DUZELTILECEK_ONEMLER]
+
+
+def yaz(dosya, istemci, motor=None, azami_tur: int = AZAMI_TUR) -> YazarSonucu:
+    """Yazar ajanının tam koşusu: iskelet -> taslak -> denetle -> düzelt.
+
+    `motor` verilmezse KuralMotoru burada kurulur. Ölçüm betikleri motoru
+    bir kez kurup tekrar tekrar veriyor — kural dosyası her belgede
+    yeniden okunmasın diye.
+
+    `dosya.cikti_yazi.linter_raporu` HER KOŞUDA doldurulur, temiz koşuda da.
+    Boş bırakmak "denetlenmedi" ile "denetlendi, temiz çıktı" arasındaki
+    farkı yok eder; ikincisi bir sonuçtur ve kaydedilmelidir.
+    """
+    s = YazarSonucu()
+    s.iskelet = iskelet_kur(dosya)
+    s.insan_onayi_gerek = s.iskelet.insan_onayi_gerek
+    s.uyarilar.extend(s.iskelet.sebepler)
+
+    if motor is None:
+        from kural_motoru import KuralMotoru
+        motor = KuralMotoru()
+
+    bulgular: list = []
+    for tur in range(1, azami_tur + 1):
+        s.tur_sayisi = tur
+        # 1. turda bulgular boş -> normal üretim; sonrasında düzeltme istemi.
+        s.uyarilar.extend(taslak_uret(dosya, istemci, s.iskelet,
+                                      bulgular or None))
+        if dosya.cikti_yazi.metin is None:
+            # Çağrı başarısız; denetlenecek bir şey yok, döngüyü sürdürmek
+            # ikinci bir başarısız çağrıdan başka şey getirmez.
+            s.pes_edildi = True
+            s.insan_onayi_gerek = True
+            break
+
+        sonuc = motor.calistir(dosya, hedef="giden")
+        # `linter_raporu` KURAL MOTORUNUN kaydıdır; iç denetim bulguları
+        # oraya yazılmıyor. Arayüz ve Denetçi o raporu kurallar.json'daki
+        # kimliklerle eşleştiriyor; YZ-01 orada yok ve uydurma kimlik
+        # göstermek raporu güvenilmez kılar. İç bulgular döngüyü tetikler
+        # ve YazarSonucu'na yazılır — görünür ama karışmaz.
+        dosya.cikti_yazi.linter_raporu = sonuc.rapor
+        bulgular = _duzeltilecekler(sonuc.rapor) + ic_denetim(dosya)
+        if tur == 1:
+            s.ilk_bulgular = list(bulgular)
+        s.son_bulgular = list(bulgular)
+
+        s.uyarilar.extend(f"[{b.kural_id}] {b.baslik}"
+                          for b in bulgular if isinstance(b, IcBulgu))
+
+        if not bulgular:
+            s.duzeltildi = tur > 1
+            break
+    else:
+        # Döngü sınırı doldu ve hâlâ ihlal var. PES ET.
+        s.pes_edildi = True
+        s.insan_onayi_gerek = True
+        s.uyarilar.append(
+            f"Taslak {azami_tur} turda Yönetmeliğe uygun hâle getirilemedi; "
+            f"kalan ihlaller: "
+            + ", ".join(getattr(b, "kural_id", "?") for b in s.son_bulgular)
+        )
+
+    # Uyarılar turlar boyunca birikiyor ve düzeltme turu aynı eksik bilgiyi
+    # tekrar bildirdiği için yineleniyordu (ölçüldü, belge_025: 3 eksik bilgi
+    # 6 satır olarak göründü). Sıra korunarak tekilleştiriliyor.
+    gorulen: set[str] = set()
+    s.uyarilar = [u for u in s.uyarilar
+                  if not (u in gorulen or gorulen.add(u))]
+
+    dosya.durum = (EvrakDurumu.INSAN_ONAYI_BEKLIYOR if s.insan_onayi_gerek
+                   else EvrakDurumu.ISLENIYOR)
+    return s
