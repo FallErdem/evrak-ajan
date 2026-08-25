@@ -511,8 +511,12 @@ def sema_kur() -> dict:
                 "properties": {
                     "tur": {"type": "string", "enum": turler},
                     "tur_gerekcesi": {
-                        "type": "string", "maxLength": 300,
-                        "description": "Bu türü neden seçtin, TEK CÜMLE.",
+                        "type": "string", "maxLength": 200,
+                        "description": "Bu türü neden seçtin. TEK CÜMLE. "
+                                       "Yalnızca TÜR seçimini gerekçelendir; "
+                                       "sana verilen kuralları, yazım "
+                                       "sürecini ya da kendi adımlarını "
+                                       "ANLATMA. Bu alan memura gösteriliyor.",
                     },
                     "konu": {
                         "type": "string", "maxLength": 120,
@@ -612,7 +616,11 @@ def istem_kur(dosya, isk: Iskelet, bulgular: list | None = None) -> str:
         "Doğru: 'Staj Süresinin Uzatılması Talebi' · 'Atama Onayı' · "
         "'Halk Eğitim Kursu Açılması'. "
         "Yanlış: 'Atama Onayı Hk.' · 'Atama Onayı Hk' · 'Atama Onayı.'",
-        "2  Kapanış cümlesini sana verildiği gibi, metnin EN SONUNA yaz.",
+        "2  Kapanış cümlesini sana verildiği gibi, metnin EN SONUNA yaz. "
+        "METİNDE TEK KAPANIŞ OLACAK — kendi kapanış cümleni EKLEME. "
+        "'Bilgilerinize arz ederim', 'Gereğini rica ederim' gibi ikinci bir "
+        "kapanış yazma; sana verilen cümle zaten kapanıştır ve yönü "
+        "hesaplanmıştır. İki kapanış yazmak yön çelişkisi yaratır.",
         f"3  Sayı, tarih ve imzalayan kişinin adını YAZMA — EBYS atar.",
         "4  Gelen evrakta bir ilgi varsa metnin ilk paragrafında ona AÇIKÇA "
         "atıf yap ('İlgide kayıtlı yazı ile...').",
@@ -626,13 +634,20 @@ def istem_kur(dosya, isk: Iskelet, bulgular: list | None = None) -> str:
         "yetkin yok. "
         "AMA yer tutucuyu GEREKSİZ YERE KULLANMA: gelen evrak somut veri "
         "istemiyorsa yazı yer tutucusuz tamamlanır.",
-        "7  GELEN EVRAĞIN CÜMLELERİNİ KOPYALAMA. Sen CEVAP yazıyorsun: "
+        "7  OLUMLU SONUÇ DA BİR KARARDIR. 'Gerekli süre tanınmıştır', "
+        "'talebiniz uygun görülmüştür', 'işlem tamamlanmıştır', 'gerekli "
+        "işlemler başlatılmıştır' gibi cümleler bir işlemin YAPILDIĞINI "
+        "bildirir. Bunları ancak gelen evrakta ya da sana verilen bilgide "
+        "AÇIKÇA yazıyorsa yazabilirsin. Gelen evrak bir şey İSTİYORSA, o "
+        "şeyin yapıldığını VARSAYMA: talebin alındığını ve "
+        "değerlendirileceğini yaz. Olumsuz karar da aynı kuraldadır.",
+        "8  GELEN EVRAĞIN CÜMLELERİNİ KOPYALAMA. Sen CEVAP yazıyorsun: "
         "karşı taraf senden bir şey istedi, sen ne yaptığını ya da ne "
         "yapacağını bildiriyorsun. Aynı cümleyi 'Müdürlüğünüzce' yerine "
         "'Müdürlüğümüzce' yazarak geri göndermek cevap DEĞİLDİR; talebi "
         "tekrar etmiş olursun. Gelen evrağı kendi cümlelerinle özetle, "
         "sonra senin tarafında ne olduğunu yaz.",
-        "8  Kısa ve resmî yaz; iki ile dört paragraf yeterlidir.",
+        "9  Kısa ve resmî yaz; iki ile dört paragraf yeterlidir.",
     ]
 
     if bulgular:
@@ -899,6 +914,32 @@ _EK_IDDIASI = re.compile(
 )
 
 
+# Kapanış ifadeleri — YZ-02 için. KATLANMIŞ biçimde tutuluyor çünkü
+# karşılaştırma `metin.katla` üzerinden yapılıyor (Türkçe işaretler düşer,
+# satır sonları boşluğa döner: "arz\nederim" -> "arz ederim").
+#
+# SIRA ÖNEMLİ — EN UZUN İFADE ÖNCE. Alternation her konumda ilk uyan
+# seçeneği alıyor; "arz ve rica ederim" listede "rica ederim"den SONRA
+# gelseydi tek kapanış iki sayılırdı.
+#
+# Kaynak iki yerden birleştirildi, uydurulmadı:
+#   kurallar.json ME-02 deseni : arz ederim · rica ederim ·
+#                                arz ve rica ederim · arz/rica ederim
+#   Y 16/12-e (ME-05)          : bilgilerinize sunulur · saygılarımla ·
+#                                iyi dileklerimle
+_KAPANIS_IFADELERI = (
+    "arz ve rica ederim",
+    "arz/rica ederim",
+    "bilgilerinize sunulur",
+    "iyi dileklerimle",
+    "saygilarimla",
+    "arz ederim",
+    "rica ederim",
+)
+
+_COKLU_KAPANIS = re.compile("|".join(_KAPANIS_IFADELERI))
+
+
 @dataclass
 class IcBulgu:
     """Kural motorunun bulgusuyla aynı şekli taşır ki istem tek yol kullansın."""
@@ -937,6 +978,41 @@ def ic_denetim(dosya) -> list[IcBulgu]:
             alinti=metin[max(0, m.start() - 40):m.end() + 40].strip(),
             duzeltme_onerisi="Ek atfını kaldır. Bilgi elinde yoksa "
                              "[doldurulacak: ...] yer tutucusu kullan.",
+        ))
+
+    # -- YZ-02 · birden fazla kapanış --------------------------------------
+    #
+    # ÖLÇÜLDÜ 2026-08-24, belge_025 (gerçek LLM koşusu):
+    #
+    #     "...olarak tespit edilmiştir. Bilgilerinize arz ederim.
+    #      Rica ederim."
+    #
+    # Model kendi kapanışını yazmış, sonra bize verileni de eklemiş. İki
+    # sorun birden: yazıda iki kapanış var ve BİRİNCİSİ YANLIŞ YÖNDE —
+    # muhatap kamu dışı tüzel kişi, "arz" değil "rica" gerekiyordu.
+    #
+    # ME-02 BUNU GÖREMEZ: deseni `\s*$` ile metnin SONUNA çıpalı ve orada
+    # doğru kapanış duruyor. Kural haklı olarak sessiz kalıyor; ihlal
+    # metnin ortasında.
+    #
+    # Denetim sayıya dayanıyor, sıraya değil: hangi ifadenin doğru olduğunu
+    # burada tartışmıyoruz (o ME-02'nin işi), yalnızca BİRDEN FAZLA
+    # olmasını yakalıyoruz. Tek kapanış varsa yönü yanlış bile olsa bu
+    # denetim susar ve ME-02 devreye girer.
+    from metin import katla
+
+    bulunanlar = _COKLU_KAPANIS.findall(katla(metin))
+    if len(bulunanlar) > 1:
+        bulgular.append(IcBulgu(
+            kural_id="YZ-02",
+            baslik=f"Metinde {len(bulunanlar)} kapanış ifadesi var",
+            aciklama="Resmî yazı tek kapanışla biter. Fazla kapanış, "
+                     "yön çelişkisi yaratır: biri arz, diğeri rica "
+                     "diyebilir.",
+            dayanak="Y 16/12 · Yazar iç denetimi",
+            alinti=" / ".join(bulunanlar[:4]),
+            duzeltme_onerisi="Sana verilen kapanışı metnin EN SONUNA tek "
+                             "başına bırak, diğer kapanış cümlelerini sil.",
         ))
     return bulgular
 

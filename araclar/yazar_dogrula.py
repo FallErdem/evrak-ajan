@@ -148,12 +148,9 @@ def kopya_orani(taslak: str, govde: str) -> float:
 
 def main() -> int:
     from anlama import anla
-    from ayristirici import ayristir, govde_kur
+    from boru_hatti import isle
     from kural_motoru import KuralMotoru
     from llm_istemci import istemci_olustur
-    from okuyucu import oku
-    from veri_yapisi import Dosya
-    from yazar import yaz
 
     sayilar = [a for a in sys.argv[1:] if not a.startswith("--")]
     n = int(sayilar[0]) if sayilar else 20
@@ -194,6 +191,13 @@ def main() -> int:
         cikti.append(s)
 
     dongu = Counter()
+    anlama_sonuc = Counter()
+    bicim_sayaci = Counter()
+    sureler: list[float] = []
+    yon_sonuc = Counter()
+    kapi_sonuc = Counter()
+    kapi_sebep = Counter()
+    sizan: list[str] = []
     cakisma = Counter()
     pes_sebebi = Counter()
     pes_liste: list[str] = []
@@ -219,43 +223,51 @@ def main() -> int:
             continue
         e = json.loads(ey.read_text(encoding="utf-8"))
 
-        r = oku(pdf)
-        if r.hata or not r.satirlar:
-            hatalar.append(f"{no}: okunamadi ({r.hata})")
+        # GERÇEK BORU HATTI. Sırayı burada KURMUYORUZ — `boru_hatti.isle`
+        # kuruyor ve o tek uygulama. Bu betik daha önce kendi sırasını
+        # kuruyordu ve gövdeyi yanlış kurup 300 belgede yanlış alarm
+        # üretmişti; dördüncü bir kopya tutmuyoruz.
+        sonuc = isle(pdf, istemci, motor, denetci)
+        d = sonuc.dosya
+        cagri += sonuc.llm_cagrisi
+        hatalar.extend(f"{no}: {h}" for h in sonuc.hatalar)
+        if sonuc.okuma is None or not sonuc.ayristirma:
             continue
-        a = ayristir(r.satirlar,
-                     r.ayrilmis.dipnot_bulundu if r.ayrilmis else None)
-        d = Dosya()
-        d.ustveri = a.ustveri
-        d.kanit = dict(a.kanit)
-        d.metin = govde_kur(r.ayrilmis.govde_satirlari, a)
-
-        if not anlamasiz:
-            try:
-                an = anla(r.govde, a, istemci)
-                cagri += 1
-                d.siniflandirma = an.siniflandirma
-                d.icerik = an.icerik
-            except Exception as exc:  # noqa: BLE001
-                hatalar.append(f"{no}: Anlama {type(exc).__name__}")
-
-        # DENETÇİ — Anlama'dan SONRA. `kapsama_girer_mi` belge türüne
-        # bakıyor; tür `bilinmiyor` kalırsa kapsamlı kurallar atlanır ve
-        # eksik bulunmaz. Sıra: Okuyucu -> Ayrıştırıcı -> Anlama ->
-        # DENETÇİ -> Yazar.
-        if denetci is not None:
-            try:
-                denetci.calistir(d)
-            except Exception as exc:  # noqa: BLE001
-                hatalar.append(f"{no}: Denetci {type(exc).__name__}: {exc}")
-
-        try:
-            s = yaz(d, istemci, motor)
-        except Exception as exc:  # noqa: BLE001
-            hatalar.append(f"{no}: Yazar {type(exc).__name__}: {exc}")
+        s = sonuc.yazar
+        if s is None:
+            hatalar.append(f"{no}: Yazar sonucu yok")
             continue
-        cagri += s.tur_sayisi
         islenen += 1
+
+        # -- yonlendirme ve kapi (boru hattinin tamami olculuyor) -----------
+        bek_birim = e["alici"]["birim_kodu"]
+        yon_sonuc[
+            "dogru" if d.yonlendirme.hedef_birim == bek_birim
+            else ("YANLIS" if d.yonlendirme.hedef_birim else "cozulemedi")
+        ] += 1
+        kapi_sonuc["otomatik" if d.karar.otomatik_onay else "insan"] += 1
+        if d.karar.otomatik_onay and d.yonlendirme.hedef_birim != bek_birim:
+            sizan.append(f"  {no}  otomatik onay ama hedef yanlış: "
+                         f"{d.yonlendirme.hedef_birim} (beklenen {bek_birim})")
+        for sb in d.karar.sebepler:
+            kapi_sebep[sb[:60]] += 1
+
+        # -- Anlama isabeti — `taksonomi.eslesir_mi` ile ------------------
+        # İki sözlük var: etiketler "dilekce" der, şema
+        # "vatandas_dilekcesi". Karşılaştırmayı elle yapmak o üç sınıfı
+        # sessizce yanlış saydırırdı; köprü modülü kullanılıyor.
+        from taksonomi import eslesir_mi
+
+        bulunan_tur = getattr(d.siniflandirma, "belge_turu", None)
+        anlama_sonuc[
+            "dogru" if eslesir_mi(
+                getattr(bulunan_tur, "value", bulunan_tur), e.get("belge_turu"))
+            else ("YANLIS" if bulunan_tur and str(bulunan_tur) != "bilinmiyor"
+                  else "bilinmiyor")
+        ] += 1
+        bicim_sayaci[e.get("pdf_bicimi", "?")] += 1
+        if sonuc.sure_ms:
+            sureler.append(sonuc.sure_ms)
 
         # -- dongu ----------------------------------------------------------
         if s.pes_edildi:
@@ -295,7 +307,11 @@ def main() -> int:
                 else "METINDE YOK"] += 1
 
         # -- kopya ----------------------------------------------------------
-        oran = kopya_orani(c.metin or "", r.govde)
+        # Karşılaştırma `d.metin` ile: `govde_kur`ün kurduğu GÖVDE.
+        # Eskiden `r.govde` kullanılıyordu — o, imza bloğunu ve dipnotu da
+        # içeriyor ve kopya oranını yapay olarak DÜŞÜRÜYORDU (payda
+        # şişiyor). Ölçülmesi gereken şey taslağın gövdeyle örtüşmesi.
+        oran = kopya_orani(c.metin or "", d.metin or "")
         if oran >= 0.50:
             bant = ">=0.50 agir kopya"
         elif oran >= 0.30:
@@ -331,6 +347,40 @@ def main() -> int:
         yaz_("  -> icerik.eksik_alanlar boş kalır, eksik bilgi talebi ölçülemez")
     else:
         yaz_("Denetçi: koştu (LLM'siz kip)")
+    yaz_()
+
+    yaz_("0a  ANLAMA — belge türü isabeti")
+    yaz_("-" * 72)
+    for k in ("dogru", "YANLIS", "bilinmiyor"):
+        v = anlama_sonuc[k]
+        yaz_(f"  {k:12s} {v:4d}   %{100 * v / islenen:.1f}" if islenen
+             else f"  {k} {v}")
+    yaz_("  (karşılaştırma taksonomi.eslesir_mi ile — iki sözlük arasındaki")
+    yaz_("   ad farkı sessizce yanlış saydırmasın diye)")
+    yaz_()
+    yaz_(f"  belge biçimi: {dict(bicim_sayaci)}")
+    if sureler:
+        sureler_s = sorted(sureler)
+        yaz_(f"  uçtan uca süre: ortanca {sureler_s[len(sureler_s)//2]/1000:.1f} sn"
+             f" · en yavaş {max(sureler)/1000:.1f} sn")
+    yaz_()
+
+    yaz_("0  BORU HATTI — yönlendirme ve karar")
+    yaz_("-" * 72)
+    for k in ("dogru", "YANLIS", "cozulemedi"):
+        yaz_(f"  yönlendirme {k:12s} {yon_sonuc[k]:4d}")
+    for k in ("otomatik", "insan"):
+        v = kapi_sonuc[k]
+        yaz_(f"  karar {k:18s} {v:4d}   "
+             f"%{100 * v / islenen:.1f}" if islenen else f"  karar {k} {v}")
+    yaz_(f"  SIZAN HATA (otomatik onaylandı ama yanlış hedef): {len(sizan)}")
+    for x in sizan[:10]:
+        yaz_(x)
+    if kapi_sebep:
+        yaz_()
+        yaz_("  insana düşme sebepleri:")
+        for k, v in kapi_sebep.most_common(8):
+            yaz_(f"      {v:4d}  {k}")
     yaz_()
 
     yaz_("1  ÜSLUP DÖNGÜSÜ  —  ajanlığın kanıtı")
