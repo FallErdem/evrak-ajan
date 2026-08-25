@@ -18,10 +18,17 @@ const EKRANLAR: { kod: Ekran; ad: string; yetkiGerekli?: boolean }[] = [
 const VARSAYILAN_BIRIM = "ortaogretim_sb"
 
 /**
- * Arayüzün beklediği sunucu sürümü. sahte_sunucu.py içindeki SURUM ile aynı olmalı.
- * Uyuşmazsa ekranın üstünde uyarı çıkar — eski sunucuyla saatlerce hata aramayalım.
+ * Arayüzün konuşabildiği sunucu sürümleri. İKİ SUNUCU VAR ve ikisi de geçerli:
+ *
+ *   2026-08-18-h   sahte_sunucu.py  — çevrimdışı demo yedeği, kayıttan oynatır
+ *   2026-08-25-g   gercek_sunucu.py — boru_hatti.isle() çağırır
+ *
+ * Tek sürüm dayatılsaydı yedeğe dönüldüğü an ekranın tepesinde kırmızı
+ * "sunucu eski" bandı çıkardı; demo günü en son isteyeceğimiz şey bu.
+ * Listede olmayan bir sürüm hâlâ uyarı üretiyor — asıl amaç korunuyor.
  */
-const BEKLENEN_SURUM = "2026-08-18-h"
+const BEKLENEN_SURUMLER = ["2026-08-25-g", "2026-08-18-h"]
+const BEKLENEN_SURUM = BEKLENEN_SURUMLER[0]
 
 type SurumDurumu =
   | { hal: "kontrol" }
@@ -41,16 +48,19 @@ function SurumUyarisi({ durum }: { durum: SurumDurumu }) {
         <p className="font-govde text-[13.5px] text-kase leading-relaxed">
           {durum.hal === "eski" ? (
             <>
-              Çalışan <code className="font-veri text-[12px]">sahte_sunucu.py</code> sürümü{" "}
+              Çalışan sunucunun sürümü{" "}
               <strong className="font-semibold">{durum.bulunan}</strong>, arayüz{" "}
-              <strong className="font-semibold">{BEKLENEN_SURUM}</strong> bekliyor. Yeni dosyayı{" "}
-              <code className="font-veri text-[12px]">ui\</code> klasörüne kopyalayıp uvicorn'u
-              yeniden başlatın; aksi hâlde bazı işlemler "bilinmeyen işlem" hatası verir.
+              <strong className="font-semibold">{BEKLENEN_SURUM}</strong> bekliyor.{" "}
+              <code className="font-veri text-[12px]">ui\</code> klasöründen{" "}
+              <code className="font-veri text-[12px]">gercek_sunucu</code> (ya da yedek olarak{" "}
+              <code className="font-veri text-[12px]">sahte_sunucu</code>) ile uvicorn'u yeniden
+              başlatın; aksi hâlde bazı işlemler "bilinmeyen işlem" hatası verir.
             </>
           ) : (
             <>
               Sunucuya ulaşılamıyor. <code className="font-veri text-[12px]">uvicorn
-              sahte_sunucu:app --reload --port 8000</code> çalışıyor mu?
+              gercek_sunucu:app --port 8000</code> çalışıyor mu? (Çevrimdışı yedek:{" "}
+              <code className="font-veri text-[12px]">uvicorn sahte_sunucu:app --port 8000</code>)
             </>
           )}
         </p>
@@ -67,6 +77,9 @@ export default function App() {
   // Akış durumu kabukta tutulur: kuyruktan bir evrağın koşusu açılabilsin ve
   // sekme değişince kaybolmasın diye.
   const akis = useAkis()
+  // Akış ekranından kuyruğa geçerken hangi evrağın açılacağı. Tek yönlü:
+  // kuyruk okuyup tüketir, sonra null'a düşer.
+  const [kuyruktaAcilacak, setKuyruktaAcilacak] = useState<string | null>(null)
   const [surum, setSurum] = useState<SurumDurumu>({ hal: "kontrol" })
 
   useEffect(() => {
@@ -77,7 +90,7 @@ export default function App() {
     getir<{ surum?: string }>("/api/surum")
       .then((v) =>
         setSurum(
-          v.surum === BEKLENEN_SURUM
+          BEKLENEN_SURUMLER.includes(v.surum ?? "")
             ? { hal: "uygun" }
             : { hal: "eski", bulunan: v.surum ?? "bilinmiyor" },
         ),
@@ -222,11 +235,19 @@ export default function App() {
         dönünce koşu sıfırlanmış görünür. Gizleyerek arka planda devam eder.
       */}
       <div className={ekran === "akis" ? "" : "hidden"}>
-        <AkisEkrani akis={akis} />
+        <AkisEkrani
+          akis={akis}
+          onOnayaGit={(id) => {
+            setKuyruktaAcilacak(id)
+            setEkran("kuyruk")
+          }}
+        />
       </div>
       <div className={ekran === "kuyruk" ? "" : "hidden"}>
         <KuyrukEkrani
           oturum={oturum}
+          acilacakId={kuyruktaAcilacak}
+          onAcildi={() => setKuyruktaAcilacak(null)}
           onAkisiGor={(id, ad) => {
             akis.izle(id, ad)
             setEkran("akis")

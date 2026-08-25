@@ -189,6 +189,44 @@ export type GuvenKapisi = {
 
 export type GunlukSatiri = { ts: number; aktor: string; olay: string }
 
+/**
+ * Evrağın şu an hangi birimde olduğu. Yönlendirmeden AYRI tutuluyor:
+ * `yonlendirme` sistemin kararı ve yönlendirme başarımı ölçümünü besliyor,
+ * `sevk` ise evrağın fiilî yeri. Onay evrağı taşırken sistemin kararını
+ * yeniden yazsaydı metrik bozulurdu.
+ */
+export type Sevk = {
+  bulundugu_birim: string | null
+  gonderen_birim: string | null
+  gelis_ts: number
+  /** Gelen defterine yazıldı mı — "Deftere kaydet" düğmesi buna bakar. */
+  kaydedildi: boolean
+  /** Başka bir birimden mi geldi (yoksa doğrudan yönlendirilmiş). */
+  gelen_mi: boolean
+}
+
+/**
+ * Evrak kayıt defteri satırı. Sıra numarası KURUM başına 1'den artar —
+ * defter kurumun defteridir, birimler ona yazar. `birim` hangi birimin
+ * işlediğini söyler ve sayacın anahtarı değildir.
+ */
+export type DefterSatiri = {
+  yon: "gelen" | "giden"
+  kurum: string
+  kurum_adi: string | null
+  birim: string | null
+  birim_adi: string | null
+  sira_no: number
+  evrak_id: string
+  sayi: string | null
+  tarih: string | null
+  konu: string | null
+  muhatap: string | null
+  belge_turu: string | null
+  durum: string | null
+  ts: number
+}
+
 export type Duzeltme = {
   tur: "taslak" | "birim" | "red" | "geri_alma"
   rol: string
@@ -272,6 +310,17 @@ export type Evrak = {
   duzeltmeler: Duzeltme[]
   eksik_bilgi_talebi: EksikBilgiTalebi | null
   eksik_bilgi_cevabi: EksikBilgiCevabi | null
+
+  /**
+   * Sözleşmeye EKLEME (2026-08-25). Sahte sunucu göndermiyor; isteğe bağlı
+   * olduğu için eski sunucuyla da çalışır — alan yoksa defter ve sevk
+   * bölümleri çizilmez.
+   */
+  sevk?: Sevk | null
+  defter_kaydi?: {
+    gelen: DefterSatiri | null
+    giden: DefterSatiri | null
+  } | null
 }
 
 /** GET /api/evrak — liste özeti. */
@@ -442,6 +491,8 @@ export type Aksiyon =
   | "eksik_bilgi_iste"
   | "eksik_bilgi_cevabi"
   | "karari_geri_al"
+  /** Gelen defterine kaydeder ve işi kapatır. Yalnızca gerçek sunucuda var. */
+  | "deftere_kaydet"
 
 export type KararGovdesi = {
   aksiyon: Aksiyon

@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from "react"
-import type { EksikBilgiCevabi, EksikBilgiTalebi, EvrakOzeti } from "./tipler"
+import type { DefterSatiri, EksikBilgiCevabi, EksikBilgiTalebi, EvrakOzeti } from "./tipler"
 import type { Oturum } from "./roller"
 import { useEvraklar } from "./useEvraklar"
+import { useDefter } from "./useDefter"
 import GelenEvrak from "./GelenEvrak"
 import OnayPaneli from "./OnayPaneli"
 import ResmiYazi from "./ResmiYazi"
@@ -12,6 +13,7 @@ import {
   DurumRozeti,
   GuvenCubugu,
   KATMAN_ETIKET,
+  Katlanir,
   OnemRozeti,
   bekleme,
   guvenYaz,
@@ -21,7 +23,76 @@ import {
   tarihGoster,
 } from "./ortak"
 
-type Sekme = "bekleyen" | "tumu"
+// Dört sekme: ikisi onay kuyruğu, ikisi evrak kayıt defteri. Aynı panelde
+// duruyorlar çünkü ikisi de "hangi evraklar bende" sorusunu cevaplıyor —
+// biri bekleyenleri, diğeri kapananları.
+type Sekme = "bekleyen" | "tumu" | "gelen" | "giden"
+
+const SEKME_ETIKET: Record<Sekme, string> = {
+  bekleyen: "Bekleyen",
+  tumu: "Tümü",
+  gelen: "Gelen",
+  giden: "Giden",
+}
+
+/** Defter satırı. Solda sıra numarası; defterin kimliği odur. */
+function DefterSatiriKarti({
+  s,
+  secili,
+  onSec,
+}: {
+  s: DefterSatiri
+  secili: boolean
+  onSec: () => void
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onSec}
+      aria-pressed={secili}
+      className={
+        "relative w-full text-left pl-4 pr-3 py-3 border-b border-tel transition-colors " +
+        "focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-murekkep " +
+        (secili ? "bg-yaprak" : "hover:bg-yaprak/60")
+      }
+    >
+      <span
+        aria-hidden
+        className={
+          "absolute left-0 top-0 bottom-0 w-[3px] " +
+          (s.yon === "giden" ? "bg-muhur" : "bg-havale")
+        }
+      />
+      <div className="flex items-baseline gap-2">
+        <span className="font-veri text-[13px] tabular-nums text-murekkep shrink-0">
+          {s.sira_no}
+        </span>
+        <span className="font-veri text-[10px] text-karbon truncate">
+          {s.sayi ?? "sayısız"}
+        </span>
+        <span className="ml-auto font-veri text-[9px] text-karbon tabular-nums shrink-0">
+          {tarihGoster(s.tarih)}
+        </span>
+      </div>
+      <p className="mt-1 font-govde text-[14px] leading-snug">{s.konu ?? "—"}</p>
+      <div className="mt-1.5 flex items-center gap-2 flex-wrap">
+        <span className="font-veri text-[9px] tracking-[0.1em] uppercase text-karbon border border-tel-koyu rounded-xs px-1 py-px">
+          {BELGE_TURU_ETIKET[s.belge_turu ?? ""] ?? s.belge_turu ?? "—"}
+        </span>
+        {s.durum && <DurumRozeti durum={s.durum} />}
+      </div>
+      <p className="mt-2 font-veri text-[10px] text-murekkep-orta truncate">
+        {s.yon === "giden" ? "→ " : "← "}
+        {s.muhatap ?? "—"}
+      </p>
+      {s.birim_adi && (
+        <p className="mt-0.5 font-veri text-[9px] text-karbon truncate">
+          işleyen birim · {s.birim_adi}
+        </p>
+      )}
+    </button>
+  )
+}
 
 function KuyrukSatiri({
   e,
@@ -284,10 +355,15 @@ function TalepKarti({
 export default function KuyrukEkrani({
   oturum,
   onAkisiGor,
+  acilacakId,
+  onAcildi,
 }: {
   oturum: Oturum
   /** Evrağın koşusunu akış ekranında açar. Geçmiş koşu detaydan yeniden çizilir. */
   onAkisiGor: (evrakId: string, dosyaAdi: string) => void
+  /** Akış ekranı buraya yönlendirdiyse açılacak evrak. Tüketilince null'lanır. */
+  acilacakId?: string | null
+  onAcildi?: () => void
 }) {
   const rolAnahtari = `${oturum.rol.kod}:${oturum.birimKodu ?? ""}`
   const { evraklar, birimler, ilkYukleme, hata, detay, sec, kararVer, eksikBilgiOnizle, hamVarlik } =
@@ -309,6 +385,9 @@ export default function KuyrukEkrani({
     setGelenAcik(false)
   }, [seciliId])
 
+  const defterKipi = sekme === "gelen" || sekme === "giden"
+  const defter = useDefter(defterKipi ? sekme : null, rolAnahtari)
+
   const gorunur = useMemo(
     () =>
       sekme === "bekleyen"
@@ -324,6 +403,17 @@ export default function KuyrukEkrani({
     sec(id)
   }
 
+  // Akış ekranındaki "Onay paneline gönder" düğmesi buraya düşürüyor.
+  // Künye doğrudan kimlikten çekiliyor, dolayısıyla evrak soldaki listede
+  // görünmese bile (rol süzmesi) açılıyor.
+  useEffect(() => {
+    if (!acilacakId) return
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    secildi(acilacakId)
+    onAcildi?.()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [acilacakId])
+
   const duzenlemeBaslat = () => {
     const t = detay?.taslak
     setDuzenlenen({
@@ -336,6 +426,12 @@ export default function KuyrukEkrani({
   }
 
   const dogrulanmisMevzuat = (detay?.mevzuat ?? []).filter((m) => m.dogrulandi)
+
+  // Kritik eksik varsa "Eksik bilgiler" bölümü açık gelir — memurun onay
+  // vermeden önce görmesi gereken tek zorunlu bölüm bu.
+  const kritikEksik = (detay?.eksikler ?? []).filter(
+    (x) => x.onem === "hata" && !x.giderildi,
+  ).length
 
   // SDP tablosu kodların %64'ünde tek bir birimi işaret ediyor, kalanında
   // yalnızca aday kümesini daraltıyor. "Deterministik" demeden önce sayıyoruz.
@@ -363,14 +459,25 @@ export default function KuyrukEkrani({
             <BolumBasligi
               sag={
                 <span className="font-veri text-[9px] text-karbon tabular-nums">
-                  {gorunur.length} evrak{kritikSayisi > 0 && ` · ${kritikSayisi} kritik`}
+                  {defterKipi
+                    ? `${defter.satirlar.length} kayıt`
+                    : `${gorunur.length} evrak${kritikSayisi > 0 ? ` · ${kritikSayisi} kritik` : ""}`}
                 </span>
               }
             >
-              {oturum.rol.yetkiler.tumBirimleriGorur ? "Tüm birimler" : "Birimime düşenler"}
+              {defterKipi
+                ? `${SEKME_ETIKET[sekme]} evrak defteri · kurum`
+                : oturum.rol.yetkiler.tumBirimleriGorur
+                  ? "Tüm birimler"
+                  : "Birimime düşenler"}
             </BolumBasligi>
 
-            <div className="mt-3 flex gap-1">
+            {/*
+              Dört düğme iki öbek: onay kuyruğu | evrak defteri. Ayraç ikisinin
+              ayrı şeyler olduğunu söylüyor — solda bekleyen iş, sağda kapanmış
+              kayıt.
+            */}
+            <div className="mt-3 flex gap-1 items-center flex-wrap">
               {(["bekleyen", "tumu"] as Sekme[]).map((s) => (
                 <button
                   key={s}
@@ -383,13 +490,61 @@ export default function KuyrukEkrani({
                       : "border-tel-koyu text-karbon hover:border-murekkep-orta")
                   }
                 >
-                  {s === "bekleyen" ? "Bekleyen" : "Tümü"}
+                  {SEKME_ETIKET[s]}
+                </button>
+              ))}
+              <span aria-hidden className="w-px h-4 bg-tel-koyu mx-1" />
+              {(["gelen", "giden"] as Sekme[]).map((s) => (
+                <button
+                  key={s}
+                  type="button"
+                  onClick={() => setSekme(s)}
+                  className={
+                    "font-veri text-[10px] tracking-[0.08em] uppercase px-2.5 py-1 rounded-xs border transition-colors " +
+                    (sekme === s
+                      ? "border-murekkep bg-murekkep text-yaprak"
+                      : "border-tel-koyu text-karbon hover:border-murekkep-orta")
+                  }
+                >
+                  {SEKME_ETIKET[s]}
                 </button>
               ))}
             </div>
           </div>
 
           <div className="max-h-[calc(100vh-220px)] overflow-y-auto">
+            {defterKipi ? (
+              <>
+                {defter.ilkYukleme && (
+                  <p className="px-4 py-6 font-veri text-[11px] text-karbon">Yükleniyor…</p>
+                )}
+                {!defter.ilkYukleme && defter.satirlar.length === 0 && (
+                  <div className="px-4 py-10 text-center">
+                    <p className="font-govde text-[14px] text-murekkep-orta leading-relaxed">
+                      {defter.hata
+                        ? "Bu sunucu evrak defterini desteklemiyor."
+                        : `${SEKME_ETIKET[sekme]} evrak defteri boş.`}
+                    </p>
+                    <p className="mt-2 font-veri text-[10px] text-karbon leading-relaxed">
+                      {defter.hata
+                        ? "Çevrimdışı yedek (sahte sunucu) çalışıyor olabilir; defter yalnızca gerçek sunucuda var."
+                        : sekme === "gelen"
+                          ? "Bir evrak biriminize ulaşıp “Deftere kaydet” denince buraya düşer."
+                          : "Onayladığınız her yazı buraya sıra numarasıyla yazılır."}
+                    </p>
+                  </div>
+                )}
+                {defter.satirlar.map((s) => (
+                  <DefterSatiriKarti
+                    key={`${s.yon}-${s.birim}-${s.sira_no}`}
+                    s={s}
+                    secili={seciliId === s.evrak_id}
+                    onSec={() => secildi(s.evrak_id)}
+                  />
+                ))}
+              </>
+            ) : (
+              <>
             {ilkYukleme && (
               <p className="px-4 py-6 font-veri text-[11px] text-karbon">Yükleniyor…</p>
             )}
@@ -413,6 +568,8 @@ export default function KuyrukEkrani({
                 onSec={() => secildi(e.evrak_id)}
               />
             ))}
+              </>
+            )}
           </div>
         </section>
 
@@ -430,6 +587,51 @@ export default function KuyrukEkrani({
             </div>
           ) : (
             <div className="flex flex-col gap-4">
+              {/* sevk ve defter — evrak nereden geldi, deftere yazıldı mı */}
+              {(detay.sevk || detay.defter_kaydi) && (
+                <div className="border border-tel-koyu rounded-sm bg-yaprak px-5 py-3 flex items-center gap-x-6 gap-y-2 flex-wrap">
+                  {detay.sevk?.bulundugu_birim && (
+                    <span className="font-veri text-[10px] text-murekkep-orta">
+                      <span className="text-karbon tracking-[0.12em] uppercase text-[9px] mr-2">
+                        Bulunduğu birim
+                      </span>
+                      {birimler.find((b) => b.kod === detay.sevk!.bulundugu_birim)?.ad ??
+                        detay.sevk.bulundugu_birim}
+                    </span>
+                  )}
+                  {detay.sevk?.gonderen_birim && (
+                    <span className="font-veri text-[10px] text-havale">
+                      ←{" "}
+                      {birimler.find((b) => b.kod === detay.sevk!.gonderen_birim)?.ad ??
+                        detay.sevk.gonderen_birim}{" "}
+                      biriminden geldi
+                    </span>
+                  )}
+                  {detay.defter_kaydi?.gelen && (
+                    <span className="font-veri text-[10px] text-muhur">
+                      <span className="text-karbon tracking-[0.12em] uppercase text-[9px] mr-2">
+                        Gelen defteri
+                      </span>
+                      sıra {detay.defter_kaydi.gelen.sira_no}
+                    </span>
+                  )}
+                  {detay.defter_kaydi?.giden && (
+                    <span className="font-veri text-[10px] text-muhur">
+                      <span className="text-karbon tracking-[0.12em] uppercase text-[9px] mr-2">
+                        Giden defteri
+                      </span>
+                      sıra {detay.defter_kaydi.giden.sira_no}
+                      {detay.defter_kaydi.giden.sayi && ` · ${detay.defter_kaydi.giden.sayi}`}
+                    </span>
+                  )}
+                  {detay.sevk && !detay.sevk.kaydedildi && (
+                    <span className="ml-auto font-veri text-[9px] tracking-[0.1em] uppercase text-havale border border-havale bg-havale-soluk rounded-xs px-1.5 py-px">
+                      deftere kaydedilmedi
+                    </span>
+                  )}
+                </div>
+              )}
+
               {/* neden onaya düştü */}
               {detay.guven_kapisi && (
                 <div
@@ -516,16 +718,35 @@ export default function KuyrukEkrani({
                 </dl>
 
                 {detay.ozet && (
-                  <div className="px-5 py-4 border-b border-tel">
-                    <BolumBasligi>Özet</BolumBasligi>
-                    <p className="mt-2 font-govde text-[15px] leading-relaxed">{detay.ozet}</p>
-                  </div>
+                  <Katlanir
+                    baslik="Özet"
+                    acikBaslangic
+                    ozet={detay.ozet}
+                    className="border-b border-tel"
+                  >
+                    <p className="font-govde text-[15px] leading-relaxed">{detay.ozet}</p>
+                  </Katlanir>
                 )}
 
                 {detay.eksikler && detay.eksikler.length > 0 && (
-                  <div className="px-5 py-4 border-b border-tel">
-                    <BolumBasligi>Eksik bilgiler</BolumBasligi>
-                    <ul className="mt-3 flex flex-col gap-3">
+                  <Katlanir
+                    baslik="Eksik bilgiler"
+                    acikBaslangic={kritikEksik > 0}
+                    className="border-b border-tel"
+                    sag={
+                      <span
+                        className={
+                          "font-veri text-[9px] tracking-[0.1em] uppercase " +
+                          (kritikEksik > 0 ? "text-kase" : "text-karbon")
+                        }
+                      >
+                        {kritikEksik > 0
+                          ? `${kritikEksik} kritik · ${detay.eksikler.length} bulgu`
+                          : `${detay.eksikler.length} bulgu`}
+                      </span>
+                    }
+                  >
+                    <ul className="flex flex-col gap-3">
                       {detay.eksikler.map((x) => (
                         <li key={x.alan} className="flex gap-3">
                           <span className="pt-0.5 shrink-0">
@@ -552,21 +773,19 @@ export default function KuyrukEkrani({
                         </li>
                       ))}
                     </ul>
-                  </div>
+                  </Katlanir>
                 )}
 
                 {dogrulanmisMevzuat.length > 0 && (
-                  <div className="px-5 py-4">
-                    <BolumBasligi
-                      sag={
-                        <span className="font-veri text-[9px] text-karbon">
-                          yalnızca doğrulananlar
-                        </span>
-                      }
-                    >
-                      Dayanak mevzuat
-                    </BolumBasligi>
-                    <ul className="mt-3 flex flex-col gap-3">
+                  <Katlanir
+                    baslik="Dayanak mevzuat"
+                    sag={
+                      <span className="font-veri text-[9px] text-karbon">
+                        {dogrulanmisMevzuat.length} madde · yalnızca doğrulananlar
+                      </span>
+                    }
+                  >
+                    <ul className="flex flex-col gap-3">
                       {dogrulanmisMevzuat.map((m) => (
                         <li key={m.madde + m.mevzuat_adi} className="border-l-2 border-tel-koyu pl-3">
                           <p className="font-veri text-[11px]">
@@ -586,7 +805,7 @@ export default function KuyrukEkrani({
                         </li>
                       ))}
                     </ul>
-                  </div>
+                  </Katlanir>
                 )}
               </div>
 
@@ -603,6 +822,7 @@ export default function KuyrukEkrani({
                   bulgular={detay.uslup_bulgulari ?? []}
                   linterTuru={detay.linter_tur_sayisi}
                   kararTuru={detay.karar?.uretilecek_tur}
+                  katlanabilir
                   duzenleniyor={duzenleniyor}
                   govde={duzenleniyor ? duzenlenen.govde : detay.taslak.govde}
                   konu={duzenleniyor ? duzenlenen.konu : detay.taslak.konu}
@@ -632,9 +852,11 @@ export default function KuyrukEkrani({
               )}
 
               {detay.yonlendirme && (
-                <div className="border border-tel rounded-sm bg-yaprak px-5 py-4">
-                  <BolumBasligi
-                    sag={
+                <Katlanir
+                  baslik="Yönlendirme önerisi"
+                  className="border border-tel rounded-sm bg-yaprak overflow-hidden"
+                  ozet={`${detay.yonlendirme.birim_adi} · ${guvenYaz(detay.yonlendirme.skor)}`}
+                  sag={
                       <span
                         title={
                           detay.yonlendirme.kaynak === "sdp_tablosu" && sdpAdaySayisi != null
@@ -656,11 +878,9 @@ export default function KuyrukEkrani({
                             ? "SDP tablosu · tek aday"
                             : `SDP tablosu · ${sdpAdaySayisi} aday`}
                       </span>
-                    }
-                  >
-                    Yönlendirme önerisi
-                  </BolumBasligi>
-                  <div className="mt-3 flex items-baseline gap-3 flex-wrap">
+                  }
+                >
+                  <div className="flex items-baseline gap-3 flex-wrap">
                     <p className="font-display font-bold text-[15px]">
                       {detay.yonlendirme.birim_adi}
                     </p>
@@ -705,7 +925,7 @@ export default function KuyrukEkrani({
                       </ul>
                     </div>
                   )}
-                </div>
+                </Katlanir>
               )}
 
               <OnayPaneli
@@ -722,11 +942,17 @@ export default function KuyrukEkrani({
               />
 
               {detay.gunluk.length > 0 && (
-                <div className="border border-tel rounded-sm bg-yaprak">
-                  <div className="px-4 py-2 border-b border-tel">
-                    <BolumBasligi>İşlem günlüğü</BolumBasligi>
-                  </div>
-                  <ul className="px-4 py-2 font-veri text-[10.5px] leading-[1.7] max-h-48 overflow-y-auto overscroll-contain">
+                <Katlanir
+                  baslik="İşlem günlüğü"
+                  className="border border-tel rounded-sm bg-yaprak overflow-hidden"
+                  govdeSinifi=""
+                  sag={
+                    <span className="font-veri text-[9px] text-karbon tabular-nums">
+                      {detay.gunluk.length} kayıt
+                    </span>
+                  }
+                >
+                  <ul className="px-5 pb-3 font-veri text-[10.5px] leading-[1.7] max-h-48 overflow-y-auto overscroll-contain">
                     {[...detay.gunluk].reverse().map((g, i) => (
                       <li key={i} className="flex gap-3">
                         <span className="text-tel-koyu tabular-nums shrink-0">{saat(g.ts)}</span>
@@ -742,7 +968,7 @@ export default function KuyrukEkrani({
                       </li>
                     ))}
                   </ul>
-                </div>
+                </Katlanir>
               )}
             </div>
           )}

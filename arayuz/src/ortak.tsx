@@ -1,3 +1,4 @@
+import { useState } from "react"
 import type {
   Durum,
   EksikKatman,
@@ -131,22 +132,47 @@ export const DURUM_ETIKET: Record<string, string> = {
   HATA: "Hata",
 }
 
+/**
+ * `veri_yapisi.GelenTur`in on dört değeri artı sahte sunucunun kısa adları.
+ * İkisi de tutuluyor: sahte sunucu çevrimdışı demo yedeği olarak duruyor ve
+ * onun sözcükleri (`dilekce`, `resmi_yazi`) gerçek şemadakilerden farklı.
+ * Eksik anahtarda çağıran ham değere düşüyor, boş göstermiyor.
+ */
 export const BELGE_TURU_ETIKET: Record<string, string> = {
+  // veri_yapisi.GelenTur
+  ust_yazi: "Üst yazı",
+  cevap_yazisi: "Cevap yazısı",
+  bilgilendirme_yazisi: "Bilgilendirme yazısı",
+  talep_yazisi: "Talep yazısı",
+  tekit_yazisi: "Tekit yazısı",
+  olur_yazisi: "Olur yazısı",
+  duyuru: "Duyuru",
+  genelge: "Genelge",
+  vatandas_dilekcesi: "Vatandaş dilekçesi",
+  bilgi_edinme_basvurusu: "Bilgi edinme başvurusu",
+  sikayet: "Şikâyet",
+  itiraz: "İtiraz",
+  gorus_talebi: "Görüş talebi",
+  bilinmiyor: "Bilinmiyor",
+  // sahte sunucunun kısa adları
   dilekce: "Dilekçe",
   resmi_yazi: "Resmî yazı",
-  sikayet: "Şikâyet",
   basvuru: "Başvuru",
-  itiraz: "İtiraz",
-  bilinmiyor: "Bilinmiyor",
 }
 
+/** `veri_yapisi.UretilecekTur`un yedi değeri artı sahte sunucunun kısaları. */
 export const KARAR_TURU_ETIKET: Record<string, string> = {
-  cevap_yazisi: "Cevap yazısı",
   ust_yazi: "Üst yazı",
+  cevap_yazisi: "Cevap yazısı",
+  bilgilendirme_yazisi: "Bilgilendirme yazısı",
+  olur_yazisi: "Olur yazısı",
+  tekit_yazisi: "Tekit yazısı",
+  eksik_bilgi_talebi: "Eksik bilgi talebi",
+  taslak_gerekmez: "Taslak gerekmez",
+  // sahte sunucunun kısa adları
   bilgilendirme: "Bilgilendirme metni",
   olur: "Olur",
   tekit: "Tekit",
-  eksik_bilgi_talebi: "Eksik bilgi talebi",
 }
 
 /** `hata` düzeyi "kritik eksik" sayılır (sözleşme 5.6.5). */
@@ -335,6 +361,64 @@ export function BolumBasligi({
         {children}
       </h3>
       {sag}
+    </div>
+  )
+}
+
+/**
+ * Katlanabilir bölüm — `BolumBasligi`nin tıklanabilir hâli.
+ *
+ * Onay künyesi sekiz bölümle çok kalabalıktı; memur karar verirken hepsine
+ * aynı anda bakmıyor. Bölümler kapatılabilir oldu, ama karar için gereken
+ * dördü (neden onaya düştü · künye · üretilen yazı · eylemler) katlanmıyor.
+ *
+ * `ozet` kapalıyken başlığın yanında görünür: bölümü açmadan içinde ne
+ * olduğu bilinsin, tek tek açıp kapatmak gerekmesin.
+ */
+export function Katlanir({
+  baslik,
+  sag,
+  ozet,
+  acikBaslangic = false,
+  className = "",
+  govdeSinifi = "px-5 pb-4",
+  children,
+}: {
+  baslik: React.ReactNode
+  sag?: React.ReactNode
+  ozet?: React.ReactNode
+  acikBaslangic?: boolean
+  className?: string
+  govdeSinifi?: string
+  children: React.ReactNode
+}) {
+  const [acik, setAcik] = useState(acikBaslangic)
+
+  return (
+    <div className={className}>
+      <button
+        type="button"
+        onClick={() => setAcik((v) => !v)}
+        aria-expanded={acik}
+        className="w-full px-5 py-3.5 flex items-baseline gap-3 text-left transition-colors
+                   hover:bg-kagit/70
+                   focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-murekkep"
+      >
+        <span
+          aria-hidden
+          className="font-veri text-[11px] leading-none text-karbon w-2.5 shrink-0"
+        >
+          {acik ? "−" : "+"}
+        </span>
+        <h3 className="font-veri text-[9px] tracking-[0.14em] uppercase text-karbon shrink-0">
+          {baslik}
+        </h3>
+        {!acik && ozet && (
+          <span className="min-w-0 truncate font-govde text-[12.5px] text-karbon">{ozet}</span>
+        )}
+        <span className="ml-auto shrink-0">{sag}</span>
+      </button>
+      {acik && <div className={govdeSinifi}>{children}</div>}
     </div>
   )
 }

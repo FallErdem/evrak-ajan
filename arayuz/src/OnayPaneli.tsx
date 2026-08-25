@@ -258,6 +258,11 @@ export default function OnayPaneli({
   const yetkili = oturum.rol.yetkiler.onaylayabilir
   const acik = ACIK_DURUMLAR.includes(detay.durum)
 
+  // "Deftere kaydet" yalnızca evrak bir birimde duruyor ve o birimin gelen
+  // defterine henüz yazılmamışsa görünür. `sevk` alanını sahte sunucu hiç
+  // göndermiyor; orada düğme çıkmaz ve bu doğru — sahte sunucuda defter yok.
+  const deftereYazilabilir = !!detay.sevk && !detay.sevk.kaydedildi
+
   const sifirla = () => {
     setEylem(null)
     setGerekce("")
@@ -276,6 +281,10 @@ export default function OnayPaneli({
       onDuzenlemeIptal()
       let metin: string
       switch (govde.aksiyon) {
+        case "deftere_kaydet":
+          metin =
+            "Evrak gelen defterine kaydedildi. Defter sekmesinden sıra numarasıyla açılabilir."
+          break
         case "taslak_kaydet":
           metin =
             "Değişiklik kaydedildi. Evrak hâlâ onayınızı bekliyor — hazır olduğunuzda “Onayla” deyin."
@@ -351,6 +360,24 @@ export default function OnayPaneli({
             {detay.duzeltmeler.length > 0 &&
               " Süreçte insan düzeltmesi yapılmış; işlem günlüğünde görünür."}
           </p>
+
+          {deftereYazilabilir && (
+            <div className="mt-4">
+              <Dugme
+                etkin={yetkili}
+                yukleniyor={gonderiliyor}
+                onClick={() =>
+                  void gonder({ aksiyon: "deftere_kaydet", rol: oturum.rol.kod })
+                }
+              >
+                Deftere kaydet
+              </Dugme>
+              <p className="mt-2 font-veri text-[10px] text-karbon leading-relaxed">
+                Evrak biriminize ulaştı ama gelen defterine yazılmadı. Kaydetmek
+                sıra numarası verir ve işi kapatır.
+              </p>
+            </div>
+          )}
 
           {geriAlinabilir ? (
             eylem === "geri_al" ? (
@@ -468,6 +495,17 @@ export default function OnayPaneli({
             >
               Başka birime yönlendir
             </Dugme>
+            {deftereYazilabilir && (
+              <Dugme
+                etkin={yetkili}
+                yukleniyor={gonderiliyor}
+                onClick={() =>
+                  void gonder({ aksiyon: "deftere_kaydet", rol: oturum.rol.kod })
+                }
+              >
+                Deftere kaydet
+              </Dugme>
+            )}
             <Dugme
               etkin={yetkili}
               onClick={() => setEylem(eylem === "eksik_bilgi_iste" ? null : "eksik_bilgi_iste")}

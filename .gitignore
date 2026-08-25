@@ -51,3 +51,8 @@ tani_sonuc.txt
 ayristirici_dogrula_sonuc.txt
 sonda_llm_sonuc.txt
 tani_sonuc.txt
+
+# Gerçek sunucunun çalışma zamanı verisi — koşu çıktısı, depoya girmez.
+ui/evraklar_gercek.json
+ui/defter.db
+ui/yuklenen/

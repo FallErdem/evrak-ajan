@@ -15,7 +15,14 @@ import {
 // Düğüm tablosu buradan gelmiyor, /api/dugumler'den geliyor. Bileşen çerçevesi
 // ve ajan etiketi de veriden türer; arayüz kendi eşleme tablosunu tutmaz.
 
-function DugumKarti({
+/**
+ * Bir adım = bir daire. Kart yerleşiminden daireye geçildi (mentör isteği,
+ * 2026-08-25): akış tek bakışta görünsün, ayrıntı yan panelde kalsın.
+ *
+ * Renk sözlüğü kart sürümünden BİREBİR taşındı — çalışan kırmızı yanıp söner,
+ * biten yeşil, bekleyen gri. Bu üç renk demoda anlatılan şeyin kendisi.
+ */
+function DugumDairesi({
   dugum,
   durum,
   sure,
@@ -33,117 +40,135 @@ function DugumKarti({
   onSec: () => void
 }) {
   const d = durum ?? "bekliyor"
-  const kenar =
+
+  const halka =
     d === "calisiyor"
-      ? "border-kase bg-yaprak"
+      ? "border-kase bg-kase-soluk"
       : d === "tamam"
-        ? "border-tel-koyu bg-yaprak"
+        ? "border-muhur bg-muhur-soluk"
         : d === "duraklatildi"
           ? "border-karbon border-dashed bg-kagit"
           : d === "hata"
             ? "border-kase bg-kase-soluk"
             : "border-tel bg-transparent"
 
-  const cubuk =
+  const yazi =
     d === "calisiyor"
-      ? "bg-kase"
+      ? "text-kase"
       : d === "tamam"
-        ? "bg-muhur"
-        : d === "duraklatildi"
-          ? "bg-karbon"
-          : d === "hata"
-            ? "bg-kase"
-            : "bg-tel"
+        ? "text-muhur"
+        : d === "hata"
+          ? "text-kase"
+          : "text-karbon"
+
+  const sureMetni =
+    d === "calisiyor" && aktifSure !== null
+      ? ms(aktifSure)
+      : d === "duraklatildi"
+        ? "bekliyor"
+        : sure
+          ? ms(sure)
+          : "—"
 
   return (
-    <button
-      type="button"
-      onClick={onSec}
-      aria-pressed={secili}
-      className={
-        "relative w-full text-left border rounded-sm pl-4 pr-3 py-2.5 transition-colors " +
-        "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-murekkep " +
-        kenar +
-        (secili ? " ring-1 ring-murekkep ring-offset-2 ring-offset-kagit" : "") +
-        (d === "bekliyor" ? " opacity-55" : "")
-      }
-    >
-      <span
-        aria-hidden
-        className={"absolute left-0 top-0 bottom-0 w-[3px] rounded-l-sm " + cubuk}
-        style={d === "calisiyor" ? { animation: "nabiz 1.1s ease-in-out infinite" } : undefined}
-      />
-
-      <div className="flex items-baseline gap-2">
-        <span className="font-veri text-[11px] text-karbon tabular-nums">
+    <div className={"w-[92px] flex flex-col items-center " + (d === "bekliyor" ? "opacity-55" : "")}>
+      <button
+        type="button"
+        onClick={onSec}
+        aria-pressed={secili}
+        title={dugum.aciklama}
+        className={
+          "relative w-14 h-14 rounded-full flex items-center justify-center transition-colors " +
+          "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-murekkep " +
+          (secili ? "ring-1 ring-murekkep ring-offset-2 ring-offset-kagit rounded-full" : "")
+        }
+      >
+        {/*
+          Halka ayrı bir katman: nabız yalnızca kenarlığı söndürsün, içindeki
+          numarayı değil. Düğmenin kendisine animasyon verilseydi rakam da
+          kaybolurdu.
+        */}
+        <span
+          aria-hidden
+          className={"absolute inset-0 rounded-full border-2 " + halka}
+          style={d === "calisiyor" ? { animation: "nabiz 1.1s ease-in-out infinite" } : undefined}
+        />
+        <span className={"relative font-veri text-[15px] tabular-nums " + yazi}>
           {String(dugum.no).padStart(2, "0")}
         </span>
-        <span className="font-display font-semibold text-[13px] tracking-tight leading-tight">
-          {dugum.baslik}
-        </span>
-        <span className="ml-auto flex items-center gap-1.5">
-          {turNo && turNo > 1 && (
-            <span className="font-veri text-[9px] px-1 py-px rounded-xs bg-havale-soluk text-havale tracking-[0.08em]">
-              {turNo}. TUR
-            </span>
-          )}
-          <MotorRozeti motor={dugum.motor} />
-        </span>
-      </div>
 
-      <p className="mt-0.5 text-[11px] leading-snug text-murekkep-orta">{dugum.aciklama}</p>
+        {turNo && turNo > 1 && (
+          <span
+            title={`${turNo}. tur`}
+            className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-havale text-yaprak
+                       font-veri text-[9px] leading-4 text-center tabular-nums"
+          >
+            {turNo}
+          </span>
+        )}
+      </button>
 
-      <div className="mt-2 pt-1.5 border-t border-tel flex items-center justify-between font-veri text-[10px] tabular-nums">
-        <span className={d === "calisiyor" ? "text-kase" : "text-karbon"}>
-          {d === "calisiyor" && aktifSure !== null
-            ? ms(aktifSure)
-            : d === "duraklatildi"
-              ? "bekliyor"
-              : sure
-                ? ms(sure)
-                : "—"}
-        </span>
-        <span className="text-karbon">
-          {d === "tamam" ? "tamam" : d === "hata" ? "hata" : ""}
-        </span>
-      </div>
-    </button>
-  )
-}
-
-/** Bileşen çerçevesi. Ajan etiketi doluysa köşeli parantezle basılır. */
-function Cerceve({ kusak, children }: { kusak: BilesenKusagi; children: React.ReactNode }) {
-  const tekAdim = kusak.satirlar.flat().length === 1
-  // Tek adımlık bileşene çerçeve çizmiyoruz; kutu zaten bileşenin kendisi.
-  if (tekAdim && !kusak.ajan) return <>{children}</>
-
-  const etiket = kusak.ajan ?? `${kusak.bilesen} · ${kusak.bilesen_adi}`
-  return (
-    <div className="relative my-6 -ml-5 pl-5">
-      <span aria-hidden className="absolute left-0 top-0 bottom-0 w-px bg-tel-koyu" />
-      <span aria-hidden className="absolute left-0 top-0 w-2.5 h-px bg-tel-koyu" />
-      <span aria-hidden className="absolute left-0 bottom-0 w-2.5 h-px bg-tel-koyu" />
-      <div className="pb-3">
-        <span
-          className={
-            "font-veri text-[9px] tracking-[0.14em] uppercase " +
-            (kusak.ajan ? "text-kase" : "text-karbon")
-          }
-        >
-          {etiket}
-        </span>
-      </div>
-      {children}
+      <span className="mt-1.5 font-display font-semibold text-[10.5px] leading-tight tracking-tight text-center">
+        {dugum.baslik}
+      </span>
+      <span className="mt-0.5 flex items-center gap-1">
+        <MotorRozeti motor={dugum.motor} />
+      </span>
+      <span
+        className={
+          "mt-0.5 font-veri text-[9px] tabular-nums " +
+          (d === "calisiyor" ? "text-kase" : "text-karbon")
+        }
+      >
+        {sureMetni}
+      </span>
     </div>
   )
 }
 
+/**
+ * Ajan çerçevesi. Daireler yatay aktığı için ayraç ALTA alındı: aynı ajana
+ * ait daireleri bir çizgi bağlar, etiket çizginin altında durur.
+ * Ajanı olmayan bileşen çerçevesiz çizilir — çerçeve ancak özerklik varsa
+ * bir şey anlatıyor.
+ */
+function Cerceve({ kusak, children }: { kusak: BilesenKusagi; children: React.ReactNode }) {
+  if (!kusak.ajan) return <>{children}</>
+
+  return (
+    <div className="relative pb-5">
+      {children}
+      <span aria-hidden className="absolute left-1 right-1 bottom-3.5 h-px bg-kase/40" />
+      <span aria-hidden className="absolute left-1 bottom-3.5 w-px h-1.5 bg-kase/40" />
+      <span aria-hidden className="absolute right-1 bottom-3.5 w-px h-1.5 bg-kase/40" />
+      <span className="absolute inset-x-0 bottom-0 text-center font-veri text-[8.5px] tracking-[0.14em] uppercase text-kase">
+        {kusak.ajan}
+      </span>
+    </div>
+  )
+}
+
+/** Daireler arası yatay ok. Dairelerin merkez hizasında durur. */
 function Ok() {
   return (
-    <div aria-hidden className="flex justify-center py-1">
-      <svg width="9" height="16" viewBox="0 0 9 16" className="text-tel-koyu">
-        <path d="M4.5 0v12M0.5 9l4 5 4-5" stroke="currentColor" strokeWidth="1" fill="none" />
+    <div aria-hidden className="w-4 shrink-0 flex justify-center" style={{ paddingTop: 24 }}>
+      <svg width="14" height="9" viewBox="0 0 14 9" className="text-tel-koyu">
+        <path d="M0 4.5h11M8 0.5l4.5 4-4.5 4" stroke="currentColor" strokeWidth="1" fill="none" />
       </svg>
+    </div>
+  )
+}
+
+/** Eş zamanlı koşan iki adım arasına ok değil, paralellik işareti girer. */
+function Paralel() {
+  return (
+    <div
+      aria-hidden
+      title="Eş zamanlı koşuyor"
+      className="w-4 shrink-0 flex justify-center font-veri text-[13px] text-tel-koyu"
+      style={{ paddingTop: 18 }}
+    >
+      ∥
     </div>
   )
 }
@@ -340,10 +365,22 @@ function Gunluk({ olaylar }: { olaylar: Olay[] }) {
   )
 }
 
+/** İki adım aynı paralel grupta mı — aralarına ok değil, ∥ girer. */
+function esZamanli(gruplar: number[][], a: number, b: number): boolean {
+  return gruplar.some((g) => g.includes(a) && g.includes(b))
+}
+
 // ---------------------------------------------------------------------------
 
-export default function AkisEkrani({ akis }: { akis: ReturnType<typeof useAkis> }) {
-  const { kusaklar, harita, hazir, hata: dugumHatasi } = useDugumler()
+export default function AkisEkrani({
+  akis,
+  onOnayaGit,
+}: {
+  akis: ReturnType<typeof useAkis>
+  /** Akış bitip insan onayına düştüğünde evrağı onay panelinde açar. */
+  onOnayaGit?: (evrakId: string) => void
+}) {
+  const { kusaklar, harita, hazir, paralelGruplar, hata: dugumHatasi } = useDugumler()
   const [seciliNo, setSeciliNo] = useState<number | null>(null)
   const [surukleniyor, setSurukleniyor] = useState(false)
   const dosyaRef = useRef<HTMLInputElement>(null)
@@ -361,6 +398,13 @@ export default function AkisEkrani({ akis }: { akis: ReturnType<typeof useAkis> 
 
   const bitti = akis.durum != null && !["ALINDI", "ISLENIYOR"].includes(akis.durum)
   const adimSayisi = Object.keys(harita).length
+
+  // Karar alınabilir durumdaysa onay paneline geçiş düğmesi çıkar.
+  // Sonuçlanmış evrakta çıkmaz — onay panelinde yapacak bir şey yok.
+  const onayaGider =
+    !!onOnayaGit &&
+    !!akis.evrakId &&
+    (akis.durum === "INSAN_ONAYI_BEKLIYOR" || akis.durum === "EKSIK_BILGI_BEKLIYOR")
 
   const dosyaSec = (f: File | undefined) => {
     if (!f) return
@@ -477,38 +521,68 @@ export default function AkisEkrani({ akis }: { akis: ReturnType<typeof useAkis> 
           </div>
         ) : (
           <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_380px] gap-6 items-start">
-            <section aria-label="Akış çizelgesi">
-              {kusaklar.map((kusak, gi) => (
-                <div key={kusak.bilesen}>
-                  {gi > 0 && <Ok />}
-                  <Cerceve kusak={kusak}>
-                    {kusak.satirlar.map((satir, si) => (
-                      <div key={si}>
-                        {si > 0 && <Ok />}
-                        <div
-                          className="grid gap-3"
-                          style={{
-                            gridTemplateColumns: `repeat(${satir.length}, minmax(0, 1fr))`,
-                          }}
-                        >
-                          {satir.map((d) => (
-                            <DugumKarti
-                              key={d.no}
-                              dugum={d}
-                              durum={akis.kutuDurumlari[d.no]}
-                              sure={akis.sureler[d.no]}
-                              turNo={akis.turSayilari[d.no]}
-                              aktifSure={akis.aktifSureler[d.no] ?? null}
-                              secili={seciliNo === d.no}
-                              onSec={() => setSeciliNo(seciliNo === d.no ? null : d.no)}
-                            />
+            <section
+              aria-label="Akış çizelgesi"
+              className="border border-tel rounded-sm bg-yaprak px-5 py-6"
+            >
+              {/*
+                Kuşaklar yatay akar ve sığmayınca alt satıra sarar. Bir kuşak
+                kendi içinde bölünmez (`flex-nowrap`) — ajan çerçevesi ortadan
+                ikiye ayrılmasın diye.
+              */}
+              <div className="flex flex-wrap items-start gap-x-1 gap-y-7">
+                {kusaklar.map((kusak, gi) => {
+                  const adimlar = kusak.satirlar.flat()
+                  return (
+                    <div key={kusak.bilesen} className="flex items-start">
+                      <Cerceve kusak={kusak}>
+                        <div className="flex items-start flex-nowrap">
+                          {adimlar.map((d, i) => (
+                            <div key={d.no} className="flex items-start">
+                              {i > 0 &&
+                                (esZamanli(paralelGruplar, adimlar[i - 1].no, d.no) ? (
+                                  <Paralel />
+                                ) : (
+                                  <Ok />
+                                ))}
+                              <DugumDairesi
+                                dugum={d}
+                                durum={akis.kutuDurumlari[d.no]}
+                                sure={akis.sureler[d.no]}
+                                turNo={akis.turSayilari[d.no]}
+                                aktifSure={akis.aktifSureler[d.no] ?? null}
+                                secili={seciliNo === d.no}
+                                onSec={() => setSeciliNo(seciliNo === d.no ? null : d.no)}
+                              />
+                            </div>
                           ))}
                         </div>
-                      </div>
-                    ))}
-                  </Cerceve>
+                      </Cerceve>
+                      {gi < kusaklar.length - 1 && <Ok />}
+                    </div>
+                  )
+                })}
+              </div>
+
+              {/* ---- onaya gönder ---- */}
+              {onayaGider && (
+                <div className="mt-8 pt-5 border-t border-tel flex items-center gap-4 flex-wrap">
+                  <button
+                    type="button"
+                    onClick={() => akis.evrakId && onOnayaGit?.(akis.evrakId)}
+                    className="font-display font-semibold text-[13px] px-4 py-2 rounded-sm bg-murekkep text-yaprak
+                               hover:bg-murekkep-orta transition-colors
+                               focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-murekkep"
+                  >
+                    Onay paneline gönder
+                  </button>
+                  <p className="font-veri text-[10px] text-karbon leading-relaxed max-w-md">
+                    {akis.durum === "EKSIK_BILGI_BEKLIYOR"
+                      ? "Evrak eksik bilgi bekliyor; künyesi ve tamamlama yazısı onay panelinde."
+                      : "Boru hattı bitti, güven kapısı insan onayı istedi. Üretilen yazı ve gerekçesi onay panelinde."}
+                  </p>
                 </div>
-              ))}
+              )}
             </section>
 
             <aside className="lg:sticky lg:top-6 flex flex-col gap-4">

@@ -25,9 +25,24 @@ DÜĞÜM SIRASI
     2  Ayrıştırıcı    satırlar -> alanlar, gövde
     3  Anlama         belge türü, SDP, talep, özet        LLM
     4  Denetçi        gelen evrakta ne eksik              LLM'siz kipte
+    7  Özetleyici     kısa ve öz özet                     LLM
    11  Yönlendirici   hangi birime gider                  gerekirse LLM
     9  Yazar          taslak + üslup döngüsü              LLM
    12  Güven Kapısı   otomatik mı, insana mı              LLM yok
+
+ÖZETLEYİCİ DENETÇİ'DEN **SONRA** — 2026-08-25'te eklendi
+--------------------------------------------------------
+Modül yazıldığında `ozetleyici` boru hattına hiç bağlanmamıştı; tek
+başına ölçülmüş ama `isle()` onu çağırmıyordu. Şartname 6.4.1 beşinci
+yeteneği ("evraka ilişkin kısa ve öz bir özet oluşturabilme") ayrıca
+sayıyor ve madde 9 "tek görevin eksik olması durumunda sistem
+tamamlanmış kabul edilmez" diyor.
+
+Konumu Denetçi'den sonra: özet, belgenin ne dediğini değil NE
+DURUMDA OLDUĞUNU anlatmalı ve eksik bilgi tespiti o an elde olmalı.
+Anlama'nın `icerik.ozet`i yerinde kalıyor; Özetleyici üstüne yazıyor
+ve farkı sayısal doğrulamadan geçirmiş olması (`dogrulanmayan`
+listesi uydurma sayıları yakalıyor).
 
 YÖNLENDİRİCİ, YAZAR'DAN **ÖNCE** KOŞUYOR — diyagramdan sapma
 ------------------------------------------------------------
@@ -93,6 +108,7 @@ class BoruHattiSonucu:
     okuma: object | None = None
     ayristirma: object | None = None
     anlama: object | None = None
+    ozetleme: object | None = None
     yonlendirme: object | None = None
     yazar: object | None = None
     kapi: object | None = None
@@ -236,6 +252,35 @@ def isle(pdf_yolu: str | Path, istemci=None, motor=None,
         except Exception as e:  # noqa: BLE001
             _iz(d, "denetci", 4, t, basarili=False, hata=f"{type(e).__name__}: {e}")
             s.hatalar.append(f"Denetçi: {type(e).__name__}: {e}")
+
+    # -- 7 · Özetleyici ----------------------------------------------------
+    # Denetçi'den SONRA: özet, belgenin eksikleri bilinerek yazılmalı.
+    if istemci is None:
+        s.atlanan.append("ozetleyici (istemci yok)")
+    else:
+        t = time.perf_counter()
+        try:
+            from ozetleyici import Ozetleyici
+
+            oz = Ozetleyici(istemci).calistir(d)
+            s.ozetleme = oz
+            s.llm_cagrisi += 1
+            s.uyarilar.extend(f"Özetleyici: {u}" for u in (oz.uyarilar or []))
+            # Uydurma sayı SESSİZ GEÇİLMİYOR. `sayisal_dogrula` özetteki her
+            # sayısal değeri belgede arıyor; bulunmayan varsa özet yine
+            # yazılıyor (geri kalanı kullanışlı) ama uyarı listesinde kalıyor.
+            if oz.dogrulanmayan:
+                s.uyarilar.append(
+                    "Özetleyici: özette belgede geçmeyen sayısal değer(ler) var: "
+                    + ", ".join(oz.dogrulanmayan[:5])
+                )
+            _iz(d, "ozetleyici", 7, t,
+                ozet=f"{len(d.icerik.ozet or '')} karakter, "
+                     f"{len(oz.dogrulanmayan)} doğrulanmayan sayı")
+        except Exception as e:  # noqa: BLE001
+            _iz(d, "ozetleyici", 7, t, basarili=False,
+                hata=f"{type(e).__name__}: {e}")
+            s.hatalar.append(f"Özetleyici: {type(e).__name__}: {e}")
 
     # -- 11 · Yönlendirici — VARSAYILAN OLARAK YAZAR'DAN ÖNCE -------------
     def _yonlendirici_adimi() -> None:

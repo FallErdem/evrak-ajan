@@ -49,6 +49,46 @@ from veri_yapisi import (
 # `aciklama` şemada 300 karakterle sınırlı (veri_yapisi.EksikAlan).
 ACIKLAMA_SINIRI = 300
 
+# =============================================================================
+# GELEN TARAFTA BLOKE ETMEYEN KURALLAR
+# =============================================================================
+#
+# Ayrım şu: bulgu gelen belgeyi İŞLENEMEZ mi kılıyor, yoksa yalnızca o
+# belgenin kendi kusurunu mu bildiriyor?
+#
+#   T-01  tarih yok        -> cevabın "ilgi"si tarih ister      HATA kalır
+#   IM-01 imza yok         -> imzasız belge hukuken geçersiz    HATA kalır
+#   M-01  muhatap belirsiz -> bize mi geldiği bilinmiyor        HATA kalır
+#
+#   I-09  gelen belgenin ilgi atfı kopuk
+#   ME-02 gelen belgenin kapanışı yanlış (arz/rica)
+#
+# Son ikisi BİZİM ÇIKTIMIZI ETKİLEMİYOR. Bizim ilgimiz gelen belgenin
+# sayı/tarihini kullanıyor, onun kendi ilgi satırını değil; bizim
+# kapanışımızı `yazar.yonu_belirle` kendi hiyerarşi hesabıyla kuruyor.
+# Gönderen "rica" yerine "arz" yazmışsa bu ONUN kusuru — bizim cevabımızı
+# üretmeye engel değil ve memuru meşgul etmesi için sebep yok.
+#
+# ÖNEMİ KURAL DOSYASINDA DEĞİL BURADA DÜŞÜRÜYORUZ
+# -----------------------------------------------
+# `kural_ekleri.json`da `onem` alanını global değiştirmek ME-02'yi GİDEN
+# tarafta da susturur ve Yazar'ın üslup döngüsünü tetikleyen kurallardan
+# birini öldürür (30 belgede 1 kez tetikliyor). Denetçi motoru yalnızca
+# `hedef="gelen"` ile koşturuyor, Yazar `hedef="giden"` ile ayrı çağırıyor;
+# düşürmeyi buraya koymak yapı gereği hedefe özgü oluyor.
+#
+# KATMAN 3'TE KARŞILIĞI VAR VE DÜŞÜRÜLMEDİ
+# -----------------------------------------
+# `denetci_araclar.KATEGORILER["kapanis_yonu_yanlis"]` aynı kusuru bir
+# katman yukarıdan, `onem: "hata"` olarak bildiriyor. Katman 3 şu an
+# varsayılan olarak KAPALI (`Denetci(istemci=None)`), bu yüzden çakışma
+# bugün yaşanmıyor. Katman 3 açılırsa aşağıdaki düşürme etkisiz kalır ve
+# aynı belge yine bloke olur — o kategori de uyarıya çekilmelidir.
+#
+# DEĞİŞİKLİKTEN SONRA ZORUNLU: `python araclar\guven_kapisi_dogrula.py`
+# (bedava, LLM yok). SIZAN HATA 0 KALMALI.
+GELEN_BLOKE_ETMEYEN: frozenset[str] = frozenset({"I-09", "ME-02"})
+
 # ReAct döngüsünün tur sınırı. Model en fazla 3 araç çağırıp 4. turda
 # sonuç bildirebilir. Sınırsız döngü hem krediyi yakar hem sonsuza gider;
 # Yazar'ın üslup döngüsü de aynı gerekçeyle 2 turla sınırlı.
@@ -182,10 +222,14 @@ class Denetci:
         if len(aciklama) > ACIKLAMA_SINIRI:
             aciklama = aciklama[: ACIKLAMA_SINIRI - 1].rstrip() + "…"
 
+        onem = bulgu.onem
+        if bulgu.kural_id in GELEN_BLOKE_ETMEYEN and onem == Onem.HATA:
+            onem = Onem.UYARI
+
         return EksikAlan(
             alan=bulgu.alan or bulgu.kural_id,
             aciklama=aciklama,
-            onem=bulgu.onem,
+            onem=onem,
             kural_id=bulgu.kural_id,
             dayanak=bulgu.dayanak,
             talep_edilebilir=bool(kural.get("talep_edilebilir")),

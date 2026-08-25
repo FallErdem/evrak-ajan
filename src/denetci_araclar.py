@@ -575,8 +575,19 @@ KATEGORILER: dict[str, dict] = {
         ),
     },
     "kapanis_yonu_yanlis": {
+        # UYARI, HATA DEĞİL — `denetci.GELEN_BLOKE_ETMEYEN` ile aynı karar.
+        #
+        # Bu kategori ME-02'nin katman 3 karşılığı ve aynı şeyi bildiriyor:
+        # GELEN belgenin kapanışı yanlış. Bizim kapanışımızı `yazar.yonu_belirle`
+        # kendi hiyerarşi hesabıyla kuruyor, dolayısıyla bu bulgu çıktımızı
+        # etkilemiyor ve otomatik onayı bloke etmesi için sebep yok.
+        #
+        # HATA kalsaydı katman 3 açıldığı anda ME-02 düşürmesi etkisiz olurdu:
+        # aynı belge bir katman yukarıdan yine bloke edilirdi. Ölçüldü
+        # 2026-08-25: düşürme otomatik onayı %71,7 -> %80,7 çıkardı, sızan
+        # hata 0 kaldı.
         "alan": "metin",
-        "onem": "hata",
+        "onem": "uyari",
         "aciklama": "Kapanış ifadesi gönderenin hiyerarşik konumuna uymuyor.",
         "modele": (
             "Kapanış ifadesi gönderenin hiyerarşik konumuna uymuyor. Bunu "

@@ -1,3 +1,4 @@
+import { useState } from "react"
 import type { Taslak, UslupBulgusu } from "./tipler"
 import { BolumBasligi, KARAR_TURU_ETIKET } from "./ortak"
 
@@ -56,6 +57,8 @@ export default function ResmiYazi({
   kararTuru,
   baslik = "Onaylanacak yazı",
   kenarGoster = true,
+  katlanabilir = false,
+  acikBaslangic = true,
   duzenleniyor = false,
   govde,
   konu,
@@ -72,6 +75,9 @@ export default function ResmiYazi({
   kararTuru?: string
   baslik?: string
   kenarGoster?: boolean
+  /** Başlık şeridi tıklanınca yazı katlanır. Künyeyi sadeleştirmek için. */
+  katlanabilir?: boolean
+  acikBaslangic?: boolean
   duzenleniyor?: boolean
   govde: string
   konu?: string
@@ -82,6 +88,10 @@ export default function ResmiYazi({
   onMuhatapDegisti?: (v: string) => void
   onBaslikDegisti?: (v: string) => void
 }) {
+  const [acik, setAcik] = useState(acikBaslangic)
+  // Düzenleme açıkken katlanmaz: yazdığı metni göremeyen kullanıcı kalmasın.
+  const gorunur = !katlanabilir || acik || duzenleniyor
+
   const bulgu = bulgular ?? []
   const gosterKonu = konu ?? taslak.konu
   const gosterMuhatap = muhatap ?? taslak.muhatap
@@ -96,7 +106,29 @@ export default function ResmiYazi({
 
   return (
     <div className="border border-tel rounded-sm bg-kagit overflow-hidden">
-      <div className="px-5 py-3 border-b border-tel bg-yaprak">
+      <div
+        className={
+          "px-5 py-3 bg-yaprak " + (gorunur ? "border-b border-tel" : "")
+        }
+        {...(katlanabilir && !duzenleniyor
+          ? {
+              role: "button" as const,
+              tabIndex: 0,
+              "aria-expanded": acik,
+              onClick: () => setAcik((v) => !v),
+              onKeyDown: (e: React.KeyboardEvent) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault()
+                  setAcik((v) => !v)
+                }
+              },
+              className:
+                "px-5 py-3 bg-yaprak cursor-pointer transition-colors hover:bg-kagit/70 " +
+                "focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-murekkep " +
+                (gorunur ? "border-b border-tel" : ""),
+            }
+          : {})}
+      >
         <BolumBasligi
           sag={
             <div className="flex items-center gap-2">
@@ -120,13 +152,19 @@ export default function ResmiYazi({
             </div>
           }
         >
+          {katlanabilir && !duzenleniyor && (
+            <span aria-hidden className="mr-2 text-karbon">
+              {acik ? "−" : "+"}
+            </span>
+          )}
           {baslik}
         </BolumBasligi>
       </div>
 
       <div
         className={
-          kenarGoster ? "grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_200px]" : "grid grid-cols-1"
+          (gorunur ? "" : "hidden ") +
+          (kenarGoster ? "grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_200px]" : "grid grid-cols-1")
         }
       >
         {/* ---------------- kâğıt ---------------- */}
