@@ -122,68 +122,13 @@ def etiket_klasoru(pdf_klasoru: Path) -> Path:
 # -----------------------------------------------------------------------------
 
 
-def govde_kur(satirlar, a) -> str | None:
-    """Gövde metnini muhatap ile kapanış satırı arasindan kurar.
-
-    Iki sinir da ayristiricidan gelir; burada YENIDEN HESAPLANMAZ. Sinirlar
-    bulunamazsa None doner ve motor degismezi geregi ME kurallari atlanir —
-    yanlis bir govde uydurup kurala vermekten iyidir.
-
-    MUHATAP PARANTEZI GOVDEYE GIRMEZ
-    --------------------------------
-    Muhatap satirinin hemen altinda muhatabin BIRIMI parantez icinde
-    yazilir:
-
-        YENIMAHALLE BELEDIYE BASKANLIGINA
-        (Kultur, Sanat ve Sosyal Isler Mudurlugu)     <- govde DEGIL
-
-    `muhatap_satiri + 1`'den baslamak bu satiri govdeye katiyordu.
-    OLCULDU 2026-08-23: 8 belgenin 5'inde govde parantezle basliyordu ve
-    Ozetleyici bunu govdenin parcasi sanip birimi GONDEREN yapiyordu
-    (belge_016: "Muhendislik Fakultesi Dekanligi, ... Gazi Universitesi
-    Dekanligindan onay talep etmektedir" — alici uydurulmus).
-
-    Tamami parantez icinde olan bir satir hicbir zaman govde degildir;
-    atlaniyor. Yalnizca GOVDENIN BASINDAKI satir denetleniyor — metnin
-    icindeki parantezli aciklamalara dokunulmuyor.
-
-    SATIRLAR BOSLUKLA BIRLESTIRILIR, '\\n' ILE DEGIL
-    ------------------------------------------------
-    PDF'teki satir sonu cumlenin parcasi degil, sayfa yerlesiminin
-    artefaktidir. '\\n' ile birlestirildiginde OLCULDU (2026-08-23,
-    153 kusursuz belge): ME-02 16 belgede yanlis alarm verdi, cunku
-    satir sarmasi kapanis ifadesini ikiye boluyordu:
-
-        'hususunda gereğini arz\\nederim.'      <- 'arz ederim' YOK
-        'bilgileri ve gereğini arz/rica\\nederim.'
-
-    Desen literal bosluk ariyor, satir sonu bulamıyor. Duzeltme desende
-    degil BURADA yapildi: desen dogru, govde yanlis kurulmustu. Cok
-    kelimeli her ifade ayni tuzaga duserdi, yalnizca ME-02 degil.
-
-    SINIR — durust kayit
-    --------------------
-    Bu birlestirme paragraf sinirlarini da yok eder. Paragraf tespiti
-    ilk satirin girintisine (x koordinati) bakmayi gerektirir; dipnot.Satir
-    yalnizca y tasiyor, x tasimiyor. Paragraf yapisina bakan bir kural
-    yazilacaksa once Satir'a x eklenmelidir. Asama A kurallarinin hicbiri
-    paragraf sinirina bakmiyor.
-    """
-    if a.kapanis_satiri is None:
-        return None
-    bas = (a.muhatap_satiri + 1) if a.muhatap_satiri is not None else 0
-    son = a.kapanis_satiri + 1
-    if bas >= son:
-        return None
-
-    # Muhatap parantezi: govdenin ilk satiri tamamen parantez icindeyse
-    # o satir muhatabin birimidir, atlanir.
-    if bas < son and _SADECE_PARANTEZ.match(satirlar[bas].metin.strip()):
-        bas += 1
-    if bas >= son:
-        return None
-
-    return " ".join(s.metin.strip() for s in satirlar[bas:son]).strip() or None
+# `govde_kur` 1.1.0'da src/ayristirici.py'ye TAŞINDI.
+#
+# Üretim mantığıydı ve ölçüm betiğinde yaşıyordu; boru hattı onu içe
+# aktaramadığı için üç ölçüm betiği gövdeyi kendi kurdu ve üçü de yanlış
+# kurdu (300 belgede ME-02 yanlış alarmı). Ad burada KORUNUYOR ki bu
+# betiğin geri kalanı ve dışarıdan içe aktaranlar kırılmasın.
+from ayristirici import govde_kur  # noqa: E402,F401
 
 
 def dosya_kur(r, a, etiket: dict) -> Dosya:

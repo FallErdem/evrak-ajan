@@ -1,12 +1,13 @@
 ========================================================================
 YAZAR AJANI — ÖLÇÜM
 ========================================================================
-belge: 40   LLM çağrısı: 90   süre: 968 sn   Anlama: kostu
+belge: 40   LLM çağrısı: 89   süre: 1105 sn   Anlama: kostu
+Denetçi: koştu (LLM'siz kip)
 
 1  ÜSLUP DÖNGÜSÜ  —  ajanlığın kanıtı
 ------------------------------------------------------------------------
-  ilk turda temiz      30   %75.0
-  duzeltildi            9   %22.5
+  ilk turda temiz      31   %77.5
+  duzeltildi            8   %20.0
   pes edildi            1   %2.5
 
   'duzeltildi' = tek atışlık bir Yazar'ın HATALI çıktı vereceği belge.
@@ -14,16 +15,16 @@ belge: 40   LLM çağrısı: 90   süre: 968 sn   Anlama: kostu
 
   pes sebebi — 2 tur sonunda kalan ihlal:
          1  YZ-01
-      belge_288  kalan: ['YZ-01']
+      belge_153  kalan: ['YZ-01']
 
 2  İLK TURDA TETİKLENEN KURALLAR
 ------------------------------------------------------------------------
-     6  ME-02
-     5  YZ-01
+     7  YZ-01
+     3  ME-02
 
 2b  KURAL ÇAKIŞMASI  —  Yazar'ın düzeltemeyeceği bulgular
 ------------------------------------------------------------------------
-    13  ME-02
+    14  ME-02
 
   Kuralın kapsamı ile taslağın doğru hâli çelişiyor. Döngüye
   sokulmuyor, insan onayına düşüyor. Kural düzeltilince biter.
@@ -42,39 +43,39 @@ belge: 40   LLM çağrısı: 90   süre: 968 sn   Anlama: kostu
 ------------------------------------------------------------------------
     36  cevap_yazisi
      2  olur_yazisi
-     1  bilgilendirme_yazisi
-     1  ust_yazi
+     2  ust_yazi
 
 5  KOPYA ORANI  —  taslak gelen gövdeyi tekrarlıyor mu
 ------------------------------------------------------------------------
-  0.15-0.29               6
+  0.30-0.49               1
+  0.15-0.29               5
   <0.15                  34
 
   En yüksek 10 belge:
-      belge_170  0.29
-      belge_271  0.28
-      belge_025  0.22
-      belge_054  0.19
-      belge_003  0.17
-      belge_053  0.16
-      belge_236  0.14
-      belge_261  0.13
-      belge_263  0.11
-      belge_209  0.07
+      belge_177  0.37
+      belge_068  0.21
+      belge_209  0.20
+      belge_025  0.20
+      belge_236  0.16
+      belge_054  0.16
+      belge_266  0.12
+      belge_261  0.09
+      belge_263  0.09
+      belge_024  0.08
 
   Resmî yazıda kalıp ifadeler ortaktır; bir miktar örtüşme NORMAL.
   Eşik tek başına hüküm vermez — yüksek çıkanlara gözle bakılmalı.
 
 6  EKSİK BİLGİ TALEBİ  —  şartname 6.4.2 son madde
 ------------------------------------------------------------------------
-  talep kurulan taslak : 0
-  toplam soru          : 0
-  tür tutarsızlığı     : 0
+  talep kurulan taslak : 6
+  toplam soru          : 6
+  Denetçi'nin bulduğu eksik alan: 48
 
   'talep kurulan' = gelen evrakta EKSİK bilgi görülüp karşı tarafa
   sorulmak üzere dosya.eksik_bilgi_talebi nesnesi dolduruldu.
 
-7  YER TUTUCU KALAN TASLAK: 7
+7  YER TUTUCU KALAN TASLAK: 9
 ------------------------------------------------------------------------
   Bunlar hata değil; memurun dolduracağı alanlar. Sayının yüksek
   olması modelin veri uydurmak yerine boş bıraktığını gösterir.

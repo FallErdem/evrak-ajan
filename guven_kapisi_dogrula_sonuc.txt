@@ -1,0 +1,48 @@
+========================================================================
+GÜVEN KAPISI — ÖLÇÜM
+========================================================================
+belge: 300   kip: SAHTE İSTEMCİ (LLM yok)   LLM çağrısı: 0   süre: 502 sn
+Denetçi: koştu
+Sahte istemci hep geçerli taslak üretiyor; taslak kalitesi
+ölçülmüyor, kapının MANTIĞI ölçülüyor.
+
+1  EŞİĞE GÖRE OTOMATİK ONAY
+------------------------------------------------------------------------
+  eşik    otomatik    oran  SIZAN HATA  insana düşen
+  0.85         215   %71.7           0            85
+  0.95         106   %35.3           0           194
+
+  SIZAN HATA = otomatik onaylandı ama yanlış birime yönlendirildi.
+  Bu sayı SIFIR olmak zorunda; değilse eşik yükseltilmeli.
+
+2  İNSANA DÜŞENLER GEREKLİ MİYDİ
+------------------------------------------------------------------------
+  eşik 0.85 · insana düşen  85 — 16 tanesinde yönlendirme gerçekten yanlıştı, 69 tanesi doğruydu
+  eşik 0.95 · insana düşen 194 — 16 tanesinde yönlendirme gerçekten yanlıştı, 178 tanesi doğruydu
+
+  'doğruydu' olanlar yanlış alarm DEĞİL: kapı yönlendirmeden başka
+  şeye de bakıyor (kritik eksik, taslak, kimlik). Ama sayı çok
+  yüksekse kapı fazla temkinli demektir ve memur zamanı maliyeti var.
+
+3  HANGİ BİLEŞEN ENGELLEDİ  (eşik 0.85)
+------------------------------------------------------------------------
+    70  eksik
+    30  yonlendirme
+    15  kimlik
+    13  celiski
+
+4  EN SIK SEBEPLER
+------------------------------------------------------------------------
+    15  Hedef birim belirlenemedi
+    14  Gelen evrakta 1 kritik eksik: ME-02
+    14  Gelen evrakta 1 kritik eksik: I-09
+    13  Yönlendirme güveni 0.40, eşik 0.85 — altında
+    13  İki bağımsız kaynak farklı birim gösteriyor; hangisinin bozulduğu beli
+    12  Gelen evrakta 1 kritik eksik: T-01
+    12  Muhatap hiçbir birime bağlanamadı
+    11  Gelen evrakta 1 kritik eksik: IM-01
+     7  Gelen evrakta 1 kritik eksik: M-01
+     3  Muhatap yazılmamış; taslağı kimin yazdığı bilinmiyor
+     3  Gelen evrakta 4 kritik eksik: IM-01, M-01, ME-01, T-01
+     2  Yönlendirme güveni 0.80, eşik 0.85 — altında
+

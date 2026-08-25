@@ -1501,9 +1501,15 @@ class YonlendirmeKaynagi(StrEnum):
 
     Ayrımı tutmak Parça 6'da ablasyon satırı üretiyor: iki yolun isabeti
     ayrı ölçülebilir.
+
+    İkinci deterministik hat MUHATAP'tır: SDP kodu taşımayan belgelerde
+    (dilekçe, şirket yazısı — 132/300) hedef birim muhatap satırında
+    yazılıdır. Ayrı değer tutuluyor ki ablasyon ölçümünde SDP hattıyla
+    karışmasın.
     """
 
     SDP_TABLOSU = "sdp_tablosu"   # deterministik
+    MUHATAP = "muhatap"           # deterministik — muhatap satırında birim yazılı
     LLM = "llm"                   # tahmin
     INSAN = "insan"               # kullanıcı birimi değiştirdi
     BILINMIYOR = "bilinmiyor"

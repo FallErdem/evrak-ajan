@@ -1,0 +1,85 @@
+========================================================================
+YÖNLENDİRİCİ — ÖLÇÜM
+========================================================================
+belge: 300   kip: DETERMINISTIK (LLM yok)   LLM çağrısı: 0   süre: 507 sn
+
+1  GENEL
+------------------------------------------------------------------------
+  dogru         284   %94.7
+  YANLIS          1   %0.3
+  cozulemedi     15   %5.0
+
+  YANLIS kritik sayıdır: evrak yanlış birime havale edilir ve o birim
+  geri gönderene kadar süre işler. 'cozulemedi' görünür — memur seçer.
+
+2  HAT BAZINDA — ablasyon
+------------------------------------------------------------------------
+  hat                             dogru  YANLIS  cozulemedi
+  Y-B muhatap satırı                133       0           0
+  Y-A+B mutabık                      80       0           0
+  Y-B (SDP adayları içinde)          45       0           0
+  llm_yok                             0       0          15
+  Y-A SDP tek birim                  12       0           0
+  ÇELİŞKİ (A≠B)                      11       1           0
+  Y-E konudan SDP                     2       0           0
+  ÇELİŞKİ (sayı≠konu)                 1       0           0
+
+  Y-A ve Y-B deterministik, LLM yok. Y-C ve Y-D model kullanıyor.
+
+3  KAYNAK ALANI  (arayüzdeki rozet)
+------------------------------------------------------------------------
+   190  muhatap
+    95  sdp_tablosu
+    15  bilinmiyor
+
+4  SKOR KALİBRASYONU  —  yüksek skor gerçekten doğru mu
+------------------------------------------------------------------------
+  bant            dogru  YANLIS  cozulemedi
+  1.00              125       0           0
+  0.90-0.99         145       0           0
+  0.70-0.89           2       0           0
+  0.40-0.69          12       1           0
+  <0.40 / yok         0       0          15
+
+  Yüksek bantta YANLIŞ varsa skor yalan söylüyor demektir; arayüz
+  o skora bakarak otomatik onay verecek.
+
+5  YAPISAL DENETİMLER
+------------------------------------------------------------------------
+  seviye 1 birime havale (olmamalı) : 0
+  çelişki (Y-A ≠ Y-B)               : 13
+  kanıt cümlesi dolu                : 178
+
+  010  Çelişki: SDP 209 kodu ['Personel Dairesi Başkanlığı'] diyor, muhatap satırı 'Öğrenci İşleri Daire Başkanlığı' diyor. İnsan onayı gerekiyor.
+  012  Çelişki: SDP 755.02 kodu ['Fen İşleri Müdürlüğü'] diyor, muhatap satırı 'Strateji Geliştirme Şube Müdürlüğü' diyor. İnsan onayı gerekiyor.
+  045  Çelişki: SDP 858 kodu ['Gelirler Müdürlüğü', 'Yapı Kontrol Müdürlüğü', 'Ruhsat ve Denetim Müdürlüğü', 'Zabıta Müdürlüğü', 'Hukuk İşleri Müdürlüğü'] diyor, muhatap satırı 'Ankara İl Millî Eğitim Müdürlüğü' diyor. İnsan onayı gerekiyor.
+  082  Sayıdaki SDP kodu 045.02, konu ise 155.01 kodunu işaret ediyor. Muhatap satırı okunamadığı için sayıyı doğrulayacak başka kaynak yok; konudan türetilen kod esas alındı.
+  085  Çelişki: SDP 170.01 kodu ['Ruhsat ve Denetim Müdürlüğü', 'Zabıta Müdürlüğü'] diyor, muhatap satırı 'Yenimahalle Belediye Başkanlığı' diyor. İnsan onayı gerekiyor.
+  096  Çelişki: SDP 903.02 kodu ['Personel Dairesi Başkanlığı'] diyor, muhatap satırı 'Gazi Eğitim Fakültesi Dekanlığı' diyor. İnsan onayı gerekiyor.
+  169  Çelişki: SDP 855 kodu ['Mali Hizmetler Müdürlüğü', 'Gelirler Müdürlüğü'] diyor, muhatap satırı 'Özel Eğitim ve Rehberlik Şube Müdürlüğü' diyor. İnsan onayı gerekiyor.
+  187  Çelişki: SDP 752.01 kodu ['Emlak ve İstimlak Müdürlüğü'] diyor, muhatap satırı 'Temel Eğitim Şube Müdürlüğü' diyor. İnsan onayı gerekiyor.
+  195  Çelişki: SDP 934.01 kodu ['Mali Hizmetler Müdürlüğü', 'Fen İşleri Müdürlüğü', 'Temizlik İşleri Müdürlüğü', 'Makine İkmal Bakım ve Onarım Müdürlüğü', 'Strateji Geliştirme Şube Müdürlüğü'] diyor, muhatap satırı 'Mühendislik Fakültesi Dekanlığı' diyor. İnsan onayı gerekiyor.
+  208  Çelişki: SDP 120.02 kodu ['Kültür, Sanat ve Sosyal İşler Müdürlüğü'] diyor, muhatap satırı 'Yenimahalle Belediye Başkanlığı' diyor. İnsan onayı gerekiyor.
+
+6  YANLIŞ YÖNLENDİRİLENLER  (1)
+------------------------------------------------------------------------
+  208  beklenen kultur_sanat_sosyal, bulunan yenimahalle_belediyesi (skor 0.4) [ÇELİŞKİ (A≠B)]
+
+7  ÇÖZÜLEMEYENLER  (15)
+------------------------------------------------------------------------
+  028  beklenen zabita  [llm_yok]
+  043  beklenen ortaogretim_sb  [llm_yok]
+  054  beklenen imar_sehircilik  [llm_yok]
+  060  beklenen strateji_gelistirme_sb  [llm_yok]
+  102  beklenen ruhsat_denetim  [llm_yok]
+  119  beklenen muhendislik_fak  [llm_yok]
+  123  beklenen imar_sehircilik  [llm_yok]
+  162  beklenen hukuk_isleri  [llm_yok]
+  181  beklenen strateji_gelistirme_sb  [llm_yok]
+  214  beklenen ogrenci_isleri_db  [llm_yok]
+  225  beklenen temel_egitim_sb  [llm_yok]
+  231  beklenen ozel_egitim_rehberlik_sb  [llm_yok]
+  234  beklenen temel_egitim_sb  [llm_yok]
+  235  beklenen ogrenci_isleri_db  [llm_yok]
+  237  beklenen yenimahalle_ilce_mem  [llm_yok]
+

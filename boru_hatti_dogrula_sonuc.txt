@@ -1,0 +1,52 @@
+========================================================================
+BORU HATTI — ÖLÇÜM
+========================================================================
+belge: 300   kip: SAHTE İSTEMCİ (bedava)   LLM çağrısı: 1230   süre: 1024 sn
+Denetçi: koştu
+Her belge İKİ SIRAYLA da koşturuldu.
+
+1  DÜĞÜM SIRASI — asıl soru
+------------------------------------------------------------------------
+  sıra                  kimlik✓  kimlik✗  kimlik yok  otomatik
+  yonlendirici once         285       15           0       105
+  yazar once                269        4          27        91
+
+  'kimlik' = taslağı hangi birimin imzalayacağı. Yanlış birim adına
+  imzalanmış yazı, yanlış yönlendirilmiş yazıdan daha kötüdür:
+  karşı taraf onu meşru sayar ve işlem yapar.
+
+2  SIRA DEĞİŞİKLİĞİNİN ETKİSİ  (+16 / -0)
+------------------------------------------------------------------------
+  008  yazar-önce: None -> yön-önce: ozel_egitim_rehberlik_sb
+  009  yazar-önce: yenimahalle_ilce_mem -> yön-önce: ankara_il_mem
+  033  yazar-önce: None -> yön-önce: yazi_isleri
+  047  yazar-önce: None -> yön-önce: personel_db
+  050  yazar-önce: None -> yön-önce: sks_db
+  082  yazar-önce: None -> yön-önce: temizlik_isleri
+  119  yazar-önce: None -> yön-önce: muhendislik_fak
+  130  yazar-önce: None -> yön-önce: ozel_ogretim_sb
+  135  yazar-önce: None -> yön-önce: fen_isleri
+  173  yazar-önce: None -> yön-önce: ankara_il_mem
+  194  yazar-önce: None -> yön-önce: fen_isleri
+  199  yazar-önce: None -> yön-önce: makine_ikmal
+  203  yazar-önce: None -> yön-önce: yenimahalle_ilce_mem
+  212  yazar-önce: yenimahalle_ilce_mem -> yön-önce: ankara_il_mem
+  257  yazar-önce: None -> yön-önce: sks_db
+  300  yazar-önce: yenimahalle_ilce_mem -> yön-önce: ankara_il_mem
+
+3  İMZA UNVANI
+------------------------------------------------------------------------
+  yonlendirici once    doğru  287  yanlış  13  yok   0
+  yazar once           doğru  269  yanlış   4  yok  27
+
+4  DÜĞÜM SÜRELERİ  (yönlendirici önce kolundan)
+------------------------------------------------------------------------
+  düğüm              ortalama   en yavaş   hata
+  okuyucu               1649ms     23881ms      0
+  anlama                  62ms       299ms      0
+  yonlendirici            10ms       123ms      0
+  denetci                  8ms       128ms      0
+  ayristirici              2ms         9ms      0
+  yazar                    0ms         4ms      0
+  guven_kapisi             0ms         0ms      0
+

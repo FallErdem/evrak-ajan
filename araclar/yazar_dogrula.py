@@ -53,6 +53,10 @@ from pathlib import Path
 
 KOK = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(KOK / "src"))
+# `govde_kur` src/ayristirici.py'de. Kendi kopyamı ÇIKARMIYORUM: gövdeyi
+# yanlış kurmak ME kurallarında yanlış alarm üretiyor ve bu iki kez
+# ölçülmüş, iki kez düzeltilmiş bir hata. İkinci bir uygulama o
+# düzeltmeyi kaybeder.
 
 TOHUM = 20260824          # tekrarlanabilir örneklem
 PENCERE = 5               # kopya ölçümünde kelime penceresi
@@ -144,7 +148,7 @@ def kopya_orani(taslak: str, govde: str) -> float:
 
 def main() -> int:
     from anlama import anla
-    from ayristirici import ayristir
+    from ayristirici import ayristir, govde_kur
     from kural_motoru import KuralMotoru
     from llm_istemci import istemci_olustur
     from okuyucu import oku
@@ -162,6 +166,26 @@ def main() -> int:
 
     istemci = istemci_olustur(yapilandirma_bul())
     motor = KuralMotoru()
+
+    # DENETÇİ — döngü DIŞINDA bir kez kuruluyor.
+    #
+    # `Denetci()` istemci ALMADAN kuruluyor: Katman 3 (LLM ile belirsizlik
+    # denetimi) kapalı kalıyor ve belge başına sıfır ek çağrı yapılıyor.
+    # Ölçümün maliyeti değişmiyor — Anlama 1 + Yazar en çok 2.
+    #
+    # NEDEN GEREKLİ: Yazar'ın eksik bilgi talebi `icerik.eksik_alanlar`
+    # listesini okuyor ve o listeyi Denetçi dolduruyor. Denetçi
+    # çağrılmazsa liste boş kalır, Yazar hiçbir şey talep edemez ve
+    # ölçüm "0 talep" der — ama bu Yazar'ın değil, boru hattının eksiği
+    # olur. Bu ayrımı görünür tutmak için Denetçi'nin bulduğu eksik alan
+    # sayısı ayrıca raporlanıyor.
+    denetci = None
+    denetci_hatasi = None
+    try:
+        from denetci import Denetci
+        denetci = Denetci()
+    except Exception as exc:  # noqa: BLE001
+        denetci_hatasi = f"{type(exc).__name__}: {exc}"
 
     cikti: list[str] = []
 
@@ -203,7 +227,8 @@ def main() -> int:
                      r.ayrilmis.dipnot_bulundu if r.ayrilmis else None)
         d = Dosya()
         d.ustveri = a.ustveri
-        d.metin = r.govde
+        d.kanit = dict(a.kanit)
+        d.metin = govde_kur(r.ayrilmis.govde_satirlari, a)
 
         if not anlamasiz:
             try:
@@ -213,6 +238,16 @@ def main() -> int:
                 d.icerik = an.icerik
             except Exception as exc:  # noqa: BLE001
                 hatalar.append(f"{no}: Anlama {type(exc).__name__}")
+
+        # DENETÇİ — Anlama'dan SONRA. `kapsama_girer_mi` belge türüne
+        # bakıyor; tür `bilinmiyor` kalırsa kapsamlı kurallar atlanır ve
+        # eksik bulunmaz. Sıra: Okuyucu -> Ayrıştırıcı -> Anlama ->
+        # DENETÇİ -> Yazar.
+        if denetci is not None:
+            try:
+                denetci.calistir(d)
+            except Exception as exc:  # noqa: BLE001
+                hatalar.append(f"{no}: Denetci {type(exc).__name__}: {exc}")
 
         try:
             s = yaz(d, istemci, motor)
@@ -291,6 +326,11 @@ def main() -> int:
     yaz_("=" * 72)
     yaz_(f"belge: {islenen}   LLM çağrısı: {cagri}   süre: {sure:.0f} sn"
          f"   Anlama: {'ATLANDI' if anlamasiz else 'kostu'}")
+    if denetci_hatasi:
+        yaz_(f"DENETÇİ KOŞMADI: {denetci_hatasi}")
+        yaz_("  -> icerik.eksik_alanlar boş kalır, eksik bilgi talebi ölçülemez")
+    else:
+        yaz_("Denetçi: koştu (LLM'siz kip)")
     yaz_()
 
     yaz_("1  ÜSLUP DÖNGÜSÜ  —  ajanlığın kanıtı")
