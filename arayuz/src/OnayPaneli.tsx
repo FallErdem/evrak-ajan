@@ -316,11 +316,13 @@ export default function OnayPaneli({
       const t = await eksikBilgiOnizle(secilenSorular)
       setOnizleme(t)
       setOnizlemeDuzen(false)
+      // Sunucu yazıyı şablondan kuruyor; boş dönmesi beklenmiyor ama
+      // dönerse düzenleme alanları boş açılsın, ekran patlamasın.
       setOnizlemeYazi({
-        baslik: t.yazi.baslik,
-        konu: t.yazi.konu,
-        muhatap: t.yazi.muhatap,
-        govde: t.yazi.govde,
+        baslik: t.yazi?.baslik ?? "",
+        konu: t.yazi?.konu ?? "",
+        muhatap: t.yazi?.muhatap ?? "",
+        govde: t.yazi?.govde ?? "",
       })
     } catch (e) {
       setMesaj({ tur: "hata", metin: e instanceof Error ? e.message : "Yazı üretilemedi." })
@@ -665,9 +667,9 @@ export default function OnayPaneli({
             <div className="mt-5 border-t border-havale pt-5">
               <dl className="grid grid-cols-2 sm:grid-cols-4 gap-y-3 gap-x-4">
                 {[
-                  ["Kime", onizleme.muhatap_ad],
-                  ["Kanal", onizleme.kanal],
-                  ["Süre", `${onizleme.sure_gun} gün`],
+                  ["Kime", onizleme.muhatap_ad || "—"],
+                  ["Kanal", onizleme.kanal || "—"],
+                  ["Süre", onizleme.sure_gun ? `${onizleme.sure_gun} gün` : "—"],
                   ["Son tarih", tarihGoster(onizleme.son_tarih)],
                 ].map(([b, d]) => (
                   <div key={b}>
@@ -682,26 +684,28 @@ export default function OnayPaneli({
                 Dayanak: {onizleme.dayanak}
               </p>
 
-              <div className="mt-4">
-                <ResmiYazi
-                  taslak={onizleme.yazi}
-                  baslik={
-                    onizlemeDuzen
-                      ? "Gönderilecek yazı — düzenleniyor"
-                      : "Gönderilecek yazı — önizleme"
-                  }
-                  kenarGoster={false}
-                  duzenleniyor={onizlemeDuzen}
-                  govde={onizlemeYazi.govde ?? onizleme.yazi.govde}
-                  konu={onizlemeYazi.konu ?? onizleme.yazi.konu}
-                  muhatap={onizlemeYazi.muhatap ?? onizleme.yazi.muhatap}
-                  yaziBasligi={onizlemeYazi.baslik ?? onizleme.yazi.baslik}
-                  onGovdeDegisti={(v) => setOnizlemeYazi((y) => ({ ...y, govde: v }))}
-                  onKonuDegisti={(v) => setOnizlemeYazi((y) => ({ ...y, konu: v }))}
-                  onMuhatapDegisti={(v) => setOnizlemeYazi((y) => ({ ...y, muhatap: v }))}
-                  onBaslikDegisti={(v) => setOnizlemeYazi((y) => ({ ...y, baslik: v }))}
-                />
-              </div>
+              {onizleme.yazi && (
+                <div className="mt-4">
+                  <ResmiYazi
+                    taslak={onizleme.yazi}
+                    baslik={
+                      onizlemeDuzen
+                        ? "Gönderilecek yazı — düzenleniyor"
+                        : "Gönderilecek yazı — önizleme"
+                    }
+                    kenarGoster={false}
+                    duzenleniyor={onizlemeDuzen}
+                    govde={onizlemeYazi.govde ?? onizleme.yazi.govde}
+                    konu={onizlemeYazi.konu ?? onizleme.yazi.konu}
+                    muhatap={onizlemeYazi.muhatap ?? onizleme.yazi.muhatap}
+                    yaziBasligi={onizlemeYazi.baslik ?? onizleme.yazi.baslik}
+                    onGovdeDegisti={(v) => setOnizlemeYazi((y) => ({ ...y, govde: v }))}
+                    onKonuDegisti={(v) => setOnizlemeYazi((y) => ({ ...y, konu: v }))}
+                    onMuhatapDegisti={(v) => setOnizlemeYazi((y) => ({ ...y, muhatap: v }))}
+                    onBaslikDegisti={(v) => setOnizlemeYazi((y) => ({ ...y, baslik: v }))}
+                  />
+                </div>
+              )}
 
               <div className="mt-4 flex gap-2 flex-wrap items-center">
                 <Dugme

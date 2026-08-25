@@ -764,27 +764,58 @@ def _defter_kaydini_topla(evrak_id: str) -> dict:
 # =============================================================================
 
 
+def _talep_yazisi(dosya, sorular: list[str]):
+    """Seçilen sorularla talep yazısını üretir. `dosya`ya dokunmaz.
+
+    Deterministik şablon, model çağrısı yok — `eksik_bilgi_yazisi` modülü
+    gerekçesini yazıyor. Her çağrıda YENİ bir `CiktiYazi` dönüyor; asıl
+    cevap taslağıyla nesne paylaşmıyor.
+    """
+    from eksik_bilgi_yazisi import kur
+
+    return kur(dosya, sorular)
+
+
+def _secilen_sorular(talep, istenen: list[str]) -> list[str]:
+    """Memurun seçtikleri, Denetçi'nin bulduklarıyla sınırlı.
+
+    Sıra memurun seçim sırası değil, Denetçi'nin bulgu sırası: aynı
+    evrakta iki kez "hazırla" denince madde sırası oynamasın.
+    """
+    secili = set(istenen)
+    kalan = [s for s in (talep.sorular or []) if s in secili]
+    # Talepte olmayan bir soru gönderildiyse yok sayılıyor: sorular
+    # `kurallar.json`da yazılı ve arayüzden serbest metin gelmemeli.
+    return kalan
+
+
 @app.post("/api/evrak/{evrak_id}/eksik_bilgi_onizleme")
 async def eksik_bilgi_onizleme(evrak_id: str, govde: dict):
-    """Yazıyı gösterir, hiçbir durumu değiştirmez.
+    """Yazıyı üretir ve gösterir, hiçbir durumu değiştirmez.
 
-    Talebi Yazar zaten koşu sırasında kurdu (`yazar._talep_kur`); burada
-    yalnızca SEÇİLEN sorulara göre süzülüyor. Yeniden üretilmiyor:
-    sorular `kurallar.json`da yazılı ve mevzuat diliyle kurulmuş,
-    yeniden üretmek onları modele yazdırmak olurdu.
+    Sorular `kurallar.json`da yazılı ve mevzuat diliyle kurulmuş; burada
+    yalnızca memurun seçtikleriyle süzülüp şablona yerleştiriliyor.
     """
     kayit = _evrak_bul(evrak_id)
-    sorular = govde.get("sorular") or []
-    if not sorular:
+    dosya = kayit["dosya"]
+    istenen = govde.get("sorular") or []
+    if not istenen:
         raise HTTPException(400, "En az bir soru seçilmeli")
 
-    talep = kayit["dosya"].eksik_bilgi_talebi
+    talep = dosya.eksik_bilgi_talebi
     if talep is None:
         raise HTTPException(409, "Bu evrakta karşı taraftan istenebilir eksik yok")
 
-    sunulan = sunum.talep_sun(talep)
-    sunulan["sorular"] = [s for s in sunulan["sorular"] if s in sorular] or sorular
-    return sunulan
+    sorular = _secilen_sorular(talep, istenen)
+    if not sorular:
+        raise HTTPException(400, "Seçilen sorular bu evrakta tespit edilmemiş")
+
+    # Önizleme için talebin KOPYASI kuruluyor; `dosya.eksik_bilgi_talebi`
+    # gönderilene kadar değişmiyor.
+    onizleme = talep.model_copy(deep=True)
+    onizleme.sorular = sorular
+    onizleme.yazi = _talep_yazisi(dosya, sorular)
+    return sunum.talep_sun(onizleme)
 
 
 @app.post("/api/evrak/{evrak_id}/karar")
@@ -901,24 +932,38 @@ async def karar_ver(evrak_id: str, govde: dict):
 
     # -- eksik_bilgi_iste ----------------------------------------------------
     elif aksiyon == "eksik_bilgi_iste":
-        sorular = govde.get("sorular") or []
-        if not sorular:
+        istenen = govde.get("sorular") or []
+        if not istenen:
             raise HTTPException(400, "En az bir soru seçilmeli")
         talep = dosya.eksik_bilgi_talebi
         if talep is None:
             raise HTTPException(409, "Bu evrakta karşı taraftan istenebilir eksik yok")
-        talep.sorular = [s for s in talep.sorular if s in sorular] or list(sorular)
+
+        sorular = _secilen_sorular(talep, istenen)
+        if not sorular:
+            raise HTTPException(400, "Seçilen sorular bu evrakta tespit edilmemiş")
+
+        talep.sorular = sorular
+        # Yazı HER ZAMAN şablondan yeniden kuruluyor. Önizlemede ne
+        # gördüyse gönderilen o oluyor; arayüzün gönderdiği gövdeye
+        # güvenip taslağı ondan kurmuyoruz.
+        talep.yazi = _talep_yazisi(dosya, sorular)
+
+        # Elle düzenleme YALNIZCA talebin kendi yazısına uygulanıyor.
+        # `talep.yazi` artık `dosya.cikti_yazi`dan ayrı bir nesne;
+        # buradaki setattr asıl cevap taslağına DOKUNMUYOR.
         elle = govde.get("yazi")
-        if isinstance(elle, dict) and talep.yazi is not None:
+        if isinstance(elle, dict):
             esleme = {"baslik": "baslik", "konu": "konu",
                       "muhatap": "muhatap", "govde": "metin"}
             degisti = False
             for sozlesme_ad, sema_ad in esleme.items():
                 deger = elle.get(sozlesme_ad)
-                if deger and deger.strip():
+                if deger and deger.strip() and deger.strip() != getattr(talep.yazi, sema_ad):
                     setattr(talep.yazi, sema_ad, deger.strip())
                     degisti = True
             talep.elle_duzenlendi = degisti
+
         dosya.durum = EvrakDurumu.EKSIK_BILGI_BEKLIYOR
         _karari_isle(InsanKarari.EKSIK_BILGI_ISTENDI)
         _gunluge_yaz(kayit, rol,
@@ -959,13 +1004,28 @@ async def karar_ver(evrak_id: str, govde: dict):
             degerlendir(dosya)
         except Exception as e:  # noqa: BLE001
             _gunluge_yaz(kayit, "sistem", f"Güven kapısı yeniden koşamadı: {e}")
-        if str(dosya.durum) not in sunum.SONUCLANMIS:
-            dosya.durum = EvrakDurumu.INSAN_ONAYI_BEKLIYOR
+
+        # SKOR YENİLENİR, KARAR YENİLENMEZ — evrak insana geri döner.
+        #
+        # `degerlendir` engel kalmadığını görünce durumu OTOMATİK_ONAYLANDI
+        # yapıyor. Burada bu YANLIŞ olurdu: bu belgeye bir memur zaten elini
+        # sürdü, eksik bilgi istedi ve cevabı kendisi işledi. Otomatik onaya
+        # düşürmek evrağı onun kuyruğundan sessizce çıkarır; üstelik gönderim
+        # (giden defteri + sevk) bu yolda koşmadığı için evrak "onaylandı ama
+        # hiç gönderilmedi" durumunda kalırdı.
+        #
+        # Yeni skor `dosya.karar.toplam_guven`de duruyor ve arayüzde görünüyor;
+        # kazanç ölçülebilir kalıyor. Kararı memur veriyor.
+        dosya.durum = EvrakDurumu.INSAN_ONAYI_BEKLIYOR
+        dosya.karar.otomatik_onay = False
+        dosya.karar.insan_onayi_gerekli = True
+
         _gunluge_yaz(kayit, talep.muhatap_ad or "karşı taraf",
                      f"Eksik bilgi cevabı alındı ({len(dolu)} soru)")
         _gunluge_yaz(kayit, "sistem",
                      f"Güven kapısı yeniden değerlendirdi · güven "
-                     f"{dosya.karar.toplam_guven:.2f} · kalan kritik eksik {kalan_kritik}")
+                     f"{dosya.karar.toplam_guven:.2f} · kalan kritik eksik "
+                     f"{kalan_kritik} · karar memurda")
 
     # -- karari_geri_al ------------------------------------------------------
     elif aksiyon == "karari_geri_al":

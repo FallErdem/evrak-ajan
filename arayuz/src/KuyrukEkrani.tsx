@@ -175,7 +175,9 @@ function TalepKarti({
   const [hataMesaji, setHataMesaji] = useState<string | null>(null)
 
   const dolu = talep.sorular.filter((q) => (girilen[q] ?? "").trim())
-  const kalan = kalanGun(talep.son_tarih)
+  // Süre ve son tarih boş gelebilir — mevzuattan gelmeyen süreyi sistem
+  // uydurmuyor. Boş bırakmak "null gün" yazdırmaktan iyidir.
+  const kalan = talep.son_tarih ? kalanGun(talep.son_tarih) : null
 
   const gonder = async () => {
     setGonderiliyor(true)
@@ -208,9 +210,9 @@ function TalepKarti({
 
         <dl className="mt-3 grid grid-cols-2 sm:grid-cols-4 gap-y-3 gap-x-4">
           {[
-            ["Kime", talep.muhatap_ad],
-            ["Kanal", talep.kanal],
-            ["Süre", `${talep.sure_gun} gün`],
+            ["Kime", talep.muhatap_ad || "—"],
+            ["Kanal", talep.kanal || "—"],
+            ["Süre", talep.sure_gun ? `${talep.sure_gun} gün` : "—"],
             ["Son tarih", tarihGoster(talep.son_tarih)],
           ].map(([b, d]) => (
             <div key={b}>
@@ -324,19 +326,21 @@ function TalepKarti({
           </div>
         )}
 
-        <button
-          type="button"
-          onClick={() => setYaziAcik((v) => !v)}
-          aria-expanded={yaziAcik}
-          className="mt-5 font-display font-semibold text-[12.5px] px-3 py-1.5 rounded-sm border border-havale text-havale
-                     hover:bg-havale-soluk transition-colors
-                     focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-murekkep"
-        >
-          {yaziAcik ? "Tamamlama yazısını gizle" : "Gönderilen tamamlama yazısını gör"}
-        </button>
+        {talep.yazi && (
+          <button
+            type="button"
+            onClick={() => setYaziAcik((v) => !v)}
+            aria-expanded={yaziAcik}
+            className="mt-5 font-display font-semibold text-[12.5px] px-3 py-1.5 rounded-sm border border-havale text-havale
+                       hover:bg-havale-soluk transition-colors
+                       focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-murekkep"
+          >
+            {yaziAcik ? "Tamamlama yazısını gizle" : "Gönderilen tamamlama yazısını gör"}
+          </button>
+        )}
       </div>
 
-      {yaziAcik && (
+      {yaziAcik && talep.yazi && (
         <div className="border-t border-havale">
           <ResmiYazi
             taslak={talep.yazi}
@@ -835,7 +839,17 @@ export default function KuyrukEkrani({
                 />
               )}
 
-              {detay.eksik_bilgi_talebi && (
+              {/*
+                Kart YALNIZCA talep gönderildikten sonra çıkıyor. Yazar
+                koşu sırasında talebin ham malzemesini (kime, hangi sorular)
+                hazırlıyor ama o bir gönderim değil; kartın memur "Eksik
+                bilgi iste" demeden görünmesi "biz bunu göndermiş miyiz?"
+                sorusunu doğuruyordu.
+
+                `yazi` doluysa gönderilmiştir: sunucu onu yalnızca gönderme
+                anında şablondan kuruyor.
+              */}
+              {detay.eksik_bilgi_talebi?.yazi && (
                 <TalepKarti
                   talep={detay.eksik_bilgi_talebi}
                   cevap={detay.eksik_bilgi_cevabi}

@@ -1,7 +1,7 @@
 ========================================================================
 GÜVEN KAPISI — ÖLÇÜM
 ========================================================================
-belge: 300   kip: SAHTE İSTEMCİ (LLM yok)   LLM çağrısı: 0   süre: 516 sn
+belge: 300   kip: SAHTE İSTEMCİ (LLM yok)   LLM çağrısı: 0   süre: 541 sn
 Denetçi: koştu
 Sahte istemci hep geçerli taslak üretiyor; taslak kalitesi
 ölçülmüyor, kapının MANTIĞI ölçülüyor.

@@ -253,17 +253,28 @@ export type DugumKaydi = {
 // Eksik bilgi döngüsü
 // ---------------------------------------------------------------------------
 
+/**
+ * Karşı taraftan eksik bilgi isteme talebi.
+ *
+ * `kanal`, `sure_gun` ve `son_tarih` BOŞ GELEBİLİR ve bu kasıtlı: süreyi
+ * mevzuat verir, sistem uydurmuyor (`yazar._talep_kur`). Arayüz null'a
+ * dayanıklı olmak zorunda — "null gün" yazdırmak boş bırakmaktan kötüdür.
+ *
+ * `yazi` talep gönderilene kadar null. Gönderildiğinde sunucu onu
+ * `eksik_bilgi_yazisi` şablonundan kuruyor; asıl cevap taslağıyla
+ * nesne paylaşmıyor.
+ */
 export type EksikBilgiTalebi = {
   ts: number
   muhatap_ad: string
   muhatap_turu: "gercek_kisi" | "kurum"
-  kanal: string
-  sure_gun: number
+  kanal: string | null
+  sure_gun: number | null
   /** ISO YYYY-MM-DD. Biçimlendirme arayüzün işi. */
-  son_tarih: string
+  son_tarih: string | null
   dayanak: string
   sorular: string[]
-  yazi: Taslak
+  yazi: Taslak | null
   elle_duzenlendi: boolean
 }
 

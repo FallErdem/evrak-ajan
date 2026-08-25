@@ -801,11 +801,25 @@ def _talep_kur(dosya, isk: Iskelet, uyarilar: list[str]) -> None:
     from veri_yapisi import EksikBilgiTalebi, MuhatapTuru
 
     g = getattr(dosya.ustveri, "gonderen", None)
+    # `yazi` BOŞ BIRAKILIYOR — 2026-08-26'da düzeltilen hata.
+    #
+    # Eskiden `yazi=dosya.cikti_yazi` yazıyordu. Pydantic model alanına
+    # verilen model örneğini KOPYALAMIYOR, referansla tutuyor
+    # (`revalidate_instances="never"`), dolayısıyla talebin yazısı ile asıl
+    # cevap taslağı AYNI NESNEYDİ. İki sonucu oldu:
+    #
+    #   1  Arayüz "eksik tamamlama yazısı" diye asıl cevap taslağını
+    #      gösteriyordu; içerik talep yazısına hiç benzemiyordu.
+    #   2  Memur talep yazısını düzenlediğinde asıl taslak da değişiyordu.
+    #
+    # Yazının kendisi artık `eksik_bilgi_yazisi.kur()` ile, memur hangi
+    # soruları seçtiyse ONLARLA üretiliyor. Yazar burada yalnızca ham
+    # malzemeyi topluyor: kime, hangi sorular, hangi dayanak.
     talep = EksikBilgiTalebi(
         muhatap_ad=(isk.muhatap or "").replace("\n", " ") or None,
         muhatap_turu=getattr(g, "tur", None) or MuhatapTuru.BILINMIYOR,
         sorular=[e.soru for e in istenecek][:10],
-        yazi=dosya.cikti_yazi,
+        yazi=None,
     )
     # Dayanak Denetçi'den taşınır, üretilmez. `sure_gun`, `son_tarih` ve
     # `kanal` BOŞ BIRAKILIYOR: süre mevzuattan gelir ve onu buradan yazmak
