@@ -127,8 +127,6 @@ Uygulamaya `http://localhost:5173` adresinden erişebilirsiniz. Backend ise `htt
 <a id="sinirlar"></a>
 ## Bilinen Sınırlar
 
-Açıkça yazılmış zayıflık puan kaybettirmez ilkesiyle sistemin sınırları aşağıda listelenmiştir:
-
 
 * **Kural Kapsamı:** Mevcut kural motoru 21 maddeyi kapsar. Dış mevzuat ve dış veri tabanı doğrulaması gerektirmeyen, doğrudan belge üzerinden kusur tespiti yapılabilen tüm kurallar işlenmiştir.
 
