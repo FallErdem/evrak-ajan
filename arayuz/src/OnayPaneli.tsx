@@ -21,6 +21,7 @@ function Dugme({
   tehlike,
   etkin = true,
   yukleniyor,
+  baslik,
 }: {
   children: React.ReactNode
   onClick: () => void
@@ -28,6 +29,10 @@ function Dugme({
   tehlike?: boolean
   etkin?: boolean
   yukleniyor?: boolean
+  /** Devre dışıysa SEBEBİNİ söyler. Sebepsiz pasif düğme kullanıcıyı
+      "bozuk mu?" diye düşündürüyor; yetki kuralımız gizlemek değil,
+      görünür ama çalışmaz bırakmak. */
+  baslik?: string
 }) {
   const stil = birincil
     ? "bg-murekkep text-yaprak border-murekkep hover:bg-murekkep-orta"
@@ -39,6 +44,7 @@ function Dugme({
       type="button"
       onClick={onClick}
       disabled={!etkin || yukleniyor}
+      title={baslik}
       className={
         "font-display font-semibold text-[12.5px] px-3.5 py-2 rounded-sm border transition-colors " +
         "disabled:opacity-40 disabled:cursor-not-allowed " +
@@ -262,6 +268,23 @@ export default function OnayPaneli({
   // defterine henüz yazılmamışsa görünür. `sevk` alanını sahte sunucu hiç
   // göndermiyor; orada düğme çıkmaz ve bu doğru — sahte sunucuda defter yok.
   const deftereYazilabilir = !!detay.sevk && !detay.sevk.kaydedildi
+
+  // KARŞI TARAFTAN İSTENEBİLİR EKSİK VAR MI
+  //
+  // 21 kuralın yalnızca üçü istenebilir: S-01 (sayı yok), T-01 (tarih yok),
+  // IM-01 (imza yok). Kalanlar — S-07 SDP tutarsız, K-01 konu eksik, M-01
+  // muhatap belirsiz, I-09 ilgi kopuk — karşı taraftan İSTENECEK bir bilgi
+  // değil, onun belgesindeki kusur. "Sayınızın SDP kodunu düzeltir misiniz"
+  // diye yazı yazılmaz.
+  //
+  // Bu ayrım `veri/kurallar.json`daki `talep_edilebilir` alanında yazılı ve
+  // doğru. Yanlış olan arayüzdü: düğme açılıyor, içinde pasif bir onay kutusu
+  // ve ölü bir "0 soruyla hazırla" düğmesi çıkıyor, sebebi hiçbir yerde
+  // yazmıyordu.
+  const istenebilirEksikler = (detay.eksikler ?? []).filter(
+    (x) => x.karsi_taraftan_istenebilir && !x.giderildi,
+  )
+  const eksikBilgiIstenebilir = istenebilirEksikler.length > 0
 
   const sifirla = () => {
     setEylem(null)
@@ -509,7 +532,16 @@ export default function OnayPaneli({
               </Dugme>
             )}
             <Dugme
-              etkin={yetkili}
+              etkin={yetkili && eksikBilgiIstenebilir}
+              baslik={
+                !eksikBilgiIstenebilir
+                  ? (detay.eksikler ?? []).length === 0
+                    ? "Bu evrakta tespit edilmiş eksik yok."
+                    : "Bu evraktaki bulgular karşı taraftan istenebilecek türden değil " +
+                      "— gelen belgenin kendi kusurları. Yalnızca sayı, tarih ve imza " +
+                      "eksikliği talep edilebilir."
+                  : undefined
+              }
               onClick={() => setEylem(eylem === "eksik_bilgi_iste" ? null : "eksik_bilgi_iste")}
             >
               Eksik bilgi iste
@@ -602,6 +634,37 @@ export default function OnayPaneli({
             <p className="mt-2 font-govde text-[13.5px] text-murekkep-orta">
               Bu evrakta tespit edilmiş eksik bilgi yok.
             </p>
+          ) : !eksikBilgiIstenebilir ? (
+            <div className="mt-2">
+              <p className="font-govde text-[13.5px] text-murekkep-orta leading-relaxed">
+                Bu evraktaki bulguların hiçbiri karşı taraftan
+                <strong> istenebilecek türden değil.</strong> Aşağıdakiler gelen
+                belgenin kendi kusurları; düzeltilmesi için bilgi talep edilmez.
+              </p>
+              <ul className="mt-3 flex flex-col gap-2">
+                {(detay.eksikler ?? []).map((x) => (
+                  <li key={x.alan} className="flex gap-2.5 items-start">
+                    <span className="pt-0.5 shrink-0">
+                      <OnemRozeti onem={x.onem} />
+                    </span>
+                    <span className="min-w-0">
+                      <span className="block font-govde text-[13.5px] leading-snug">
+                        {x.aciklama || x.soru}
+                      </span>
+                      <span className="block mt-0.5 font-veri text-[10px] text-karbon">
+                        {x.dayanak}
+                      </span>
+                    </span>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-3 font-veri text-[10px] text-karbon leading-relaxed">
+                Yalnızca <strong>sayı</strong>, <strong>tarih</strong> ve
+                <strong> imza</strong> eksikliği talep edilebilir; bunlar karşı
+                tarafın gönderebileceği bilgilerdir. Kalan bulgular için doğru
+                eylem yazıyı düzenlemek, başka birime yönlendirmek ya da reddetmektir.
+              </p>
+            </div>
           ) : (
             <ul className="mt-3 flex flex-col gap-2.5">
               {(detay.eksikler ?? []).map((x) => {
@@ -644,20 +707,32 @@ export default function OnayPaneli({
           )}
 
           <div className="mt-4 flex gap-2 flex-wrap">
-            <Dugme
-              birincil
-              etkin={yetkili && secilenSorular.length > 0}
-              yukleniyor={gonderiliyor}
-              onClick={() => void onizlemeHazirla()}
-            >
-              {onizleme
-                ? "Yazıyı yeniden üret"
-                : `${secilenSorular.length} soruyla yazıyı hazırla`}
+            {/* İstenebilir eksik yoksa "hazırla" düğmesi hiç çizilmiyor.
+                Ölü bir düğme göstermek, kullanıcıyı çalışmayan bir şeye
+                tıklamaya davet etmek demek. */}
+            {eksikBilgiIstenebilir && (
+              <Dugme
+                birincil
+                etkin={yetkili && secilenSorular.length > 0}
+                yukleniyor={gonderiliyor}
+                baslik={
+                  secilenSorular.length === 0
+                    ? "Önce en az bir soru seçin."
+                    : undefined
+                }
+                onClick={() => void onizlemeHazirla()}
+              >
+                {onizleme
+                  ? "Yazıyı yeniden üret"
+                  : `${secilenSorular.length} soruyla yazıyı hazırla`}
+              </Dugme>
+            )}
+            <Dugme onClick={sifirla}>
+              {eksikBilgiIstenebilir ? "Vazgeç" : "Kapat"}
             </Dugme>
-            <Dugme onClick={sifirla}>Vazgeç</Dugme>
           </div>
 
-          {!onizleme && (
+          {!onizleme && eksikBilgiIstenebilir && (
             <p className="mt-2 font-veri text-[10px] text-karbon leading-relaxed">
               Yazı şablondan üretilir, gösterilir; onaylamadan gönderilmez.
             </p>

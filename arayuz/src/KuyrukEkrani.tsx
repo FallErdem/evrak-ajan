@@ -825,6 +825,7 @@ export default function KuyrukEkrani({
                   taslak={detay.taslak}
                   bulgular={detay.uslup_bulgulari ?? []}
                   linterTuru={detay.linter_tur_sayisi}
+                  pesEdildi={detay.linter_pes_edildi}
                   kararTuru={detay.karar?.uretilecek_tur}
                   katlanabilir
                   duzenleniyor={duzenleniyor}

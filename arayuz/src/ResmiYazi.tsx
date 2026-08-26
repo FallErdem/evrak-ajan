@@ -45,6 +45,18 @@ function KenarNotu({ bulgu }: { bulgu: UslupBulgusu }) {
       >
         {bulgu.mesaj}
       </p>
+      {/* Alıntı bulgunun taslakta NEREDE olduğunu gösteriyor; onsuz memur
+          "ekte" kelimesini metinde aramak zorunda kalıyor. */}
+      {bulgu.alinti && (
+        <p className="mt-1 font-govde text-[11.5px] italic text-karbon leading-snug border-l border-tel-koyu pl-2">
+          “{bulgu.alinti}”
+        </p>
+      )}
+      {bulgu.oneri && (
+        <p className="mt-1 font-veri text-[10px] text-havale leading-snug">
+          → {bulgu.oneri}
+        </p>
+      )}
       <p className="mt-0.5 font-veri text-[9.5px] text-karbon leading-snug">{bulgu.mevzuat}</p>
     </li>
   )
@@ -54,6 +66,7 @@ export default function ResmiYazi({
   taslak,
   bulgular,
   linterTuru,
+  pesEdildi = false,
   kararTuru,
   baslik = "Onaylanacak yazı",
   kenarGoster = true,
@@ -72,6 +85,8 @@ export default function ResmiYazi({
   taslak: Taslak
   bulgular?: UslupBulgusu[]
   linterTuru?: number | null
+  /** Döngü ihlalleri düzeltemeden pes ettiyse rozet ve kenar notu değişir. */
+  pesEdildi?: boolean
   kararTuru?: string
   baslik?: string
   kenarGoster?: boolean
@@ -137,16 +152,28 @@ export default function ResmiYazi({
                   {KARAR_TURU_ETIKET[kararTuru] ?? kararTuru}
                 </span>
               )}
+              {/*
+                PES ETME AYRI ROZET. Önceden yalnızca tur sayısına bakılıyordu
+                ve "2 tur" iki farklı sonucun ikisini birden anlatıyordu:
+                ikinci turda geçmek ile iki turda düzeltememek. Ölçüldü
+                belge_035: döngü pes etti, ekranda "2. turda geçti" yazdı.
+              */}
               {linterTuru != null && (
                 <span
                   className={
                     "font-veri text-[9px] tracking-[0.1em] uppercase rounded-xs px-1.5 py-px border " +
-                    (linterTuru > 1
-                      ? "text-havale border-havale bg-havale-soluk"
-                      : "text-muhur border-muhur bg-muhur-soluk")
+                    (pesEdildi
+                      ? "text-kase border-kase bg-kase-soluk"
+                      : linterTuru > 1
+                        ? "text-havale border-havale bg-havale-soluk"
+                        : "text-muhur border-muhur bg-muhur-soluk")
                   }
                 >
-                  {linterTuru > 1 ? `${linterTuru}. turda geçti` : "ilk turda geçti"}
+                  {pesEdildi
+                    ? `${linterTuru} turda geçemedi`
+                    : linterTuru > 1
+                      ? `${linterTuru}. turda geçti`
+                      : "ilk turda geçti"}
                 </span>
               )}
             </div>
@@ -301,9 +328,20 @@ export default function ResmiYazi({
               40 kural · deterministik · model yok
             </p>
 
+            {pesEdildi && (
+              <p className="mt-3 border border-kase bg-kase-soluk text-kase rounded-sm px-2.5 py-2 font-govde text-[12.5px] leading-snug">
+                Üslup döngüsü {linterTuru ?? 2} turda düzeltemedi ve taslağı
+                onayınıza bıraktı. Aşağıdaki bulgu açık.
+              </p>
+            )}
+
             {bulgu.length === 0 ? (
               <p className="mt-4 font-govde text-[12.5px] text-muhur leading-snug">
-                Bulgu yok. Taslak kuralların tamamını ilk turda geçti.
+                {pesEdildi
+                  ? "Kural motoru temiz; kalan bulgu Yazar'ın iç denetiminden."
+                  : linterTuru && linterTuru > 1
+                    ? `Bulgu kalmadı. Taslak ${linterTuru}. turda temizlendi.`
+                    : "Bulgu yok. Taslak kuralların tamamını ilk turda geçti."}
               </p>
             ) : (
               <ul className="mt-4 flex flex-col gap-4">

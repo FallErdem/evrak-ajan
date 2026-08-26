@@ -338,26 +338,36 @@ def taslak_sun(yazi) -> dict | None:
     }
 
 
-def uslup_sun(yazi) -> list[dict]:
-    """Üslup bulguları. `cozuldu` son raporda kalmayan bulgular için True.
+def uslup_sun(yazi, ic_bulgular: list[dict] | None = None) -> list[dict]:
+    """Üslup bulguları — kural motoru raporu ARTI Yazar'ın iç denetimi.
 
     Yazar'ın üslup döngüsü bulguları düzeltip yeniden koşuyor; `linter_raporu`
-    SON turun raporu. Dolayısıyla burada duran her bulgu ÇÖZÜLEMEYENDİR.
-    Çözülenler `YazarSonucu.ilk_bulgular`da yaşıyor ve o nesne `Dosya`ya
-    yazılmıyor — sunucu koşu sırasında ayrıca saklıyor (bkz. gercek_sunucu).
+    SON turun raporu. Dolayısıyla orada duran her bulgu ÇÖZÜLEMEYENDİR.
+
+    İÇ DENETİM BULGULARI RAPORDA YOK — bilerek
+    ------------------------------------------
+    `yaz()` YZ-01/YZ-02'yi `linter_raporu`na yazmıyor; o rapor
+    `kurallar.json` kimlikleriyle eşleşiyor ve uydurma kimlik onu
+    güvenilmez kılardı. Ama bu bulgular döngüyü tetikleyip belgeyi insana
+    tırmandırabiliyor. Yalnızca raporu göstermek, eskalasyonun SEBEBİNİ
+    gizlemek olurdu — sunucu onları ayrıca taşıyor.
     """
     if yazi is None:
-        return []
-    return [
+        return list(ic_bulgular or [])
+    rapordan = [
         {
             "kural_no": b.kural_id,
             "duzey": ONEM.get(_d(b.onem) or "uyari", "uyari"),
             "mesaj": b.baslik,
             "mevzuat": b.dayanak or "",
+            "aciklama": b.aciklama,
+            "alinti": b.alinti,
+            "oneri": b.duzeltme_onerisi,
             "cozuldu": False,
         }
         for b in (yazi.linter_raporu.bulgular or [])
     ]
+    return rapordan + list(ic_bulgular or [])
 
 
 def yonlendirme_sun(dosya: Dosya, birim_adi) -> dict | None:
@@ -569,8 +579,12 @@ def evrak_sun(kayit: dict, birim_adi) -> dict:
                    "taslak_gerekli": _d(d.cikti_yazi.tur) != "taslak_gerekmez"}
                   if d.cikti_yazi.tur else None),
         "taslak": taslak_sun(d.cikti_yazi),
-        "uslup_bulgulari": uslup_sun(d.cikti_yazi),
+        "uslup_bulgulari": uslup_sun(d.cikti_yazi, kayit.get("ic_bulgular")),
         "linter_tur_sayisi": kayit.get("linter_tur"),
+        # Döngü pes etti mi. `linter_tur_sayisi` tek başına yanıltıyor:
+        # 2 tur "ikinci turda geçti" de olabilir, "iki turda düzeltemedi"
+        # de. İkisi arayüzde aynı rozeti üretiyordu.
+        "linter_pes_edildi": bool(kayit.get("linter_pes")),
         "yonlendirme": yonlendirme_sun(d, birim_adi),
         "guven_kapisi": kapi_sun(d),
 

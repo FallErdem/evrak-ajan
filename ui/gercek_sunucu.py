@@ -287,6 +287,46 @@ boru_hatti._iz = _iz_sarmalayici
 # =============================================================================
 
 
+def _ic_bulgulari(dosya, yazar_sonucu) -> list[dict]:
+    """Üslup döngüsünün ÇÖZEMEDİĞİ iç denetim bulguları.
+
+    NEDEN AYRICA TOPLANIYOR
+    -----------------------
+    `yaz()` iç denetim bulgularını (YZ-01, YZ-02) bilerek
+    `cikti_yazi.linter_raporu`na YAZMIYOR: o rapor kural motorunun kaydı
+    ve `kurallar.json`daki kimliklerle eşleşiyor; YZ-01 orada yok, uydurma
+    kimlik raporu güvenilmez kılardı. Bulgular `YazarSonucu.son_bulgular`da
+    yaşıyor ve `Dosya`ya hiç yazılmıyor.
+
+    Sonucu: arayüz yalnızca `linter_raporu`na baktığı için taslak
+    "insana tırmandırıldı" diye eskalasyona uğrarken ekranda "Bulgu yok"
+    yazıyordu. Ölçüldü belge_035, 2026-08-26: Yazar 2 turda düzeltemedi,
+    1 ihlal kaldı, arayüz "kuralların tamamını ilk turda geçti" dedi.
+
+    Rapordakiler tekrarlanmıyor — `son_bulgular` iki tipi birden taşıyor.
+    """
+    if yazar_sonucu is None:
+        return []
+    raporda = {b.kural_id for b in
+               (dosya.cikti_yazi.linter_raporu.bulgular or [])}
+    cikti = []
+    for b in (getattr(yazar_sonucu, "son_bulgular", None) or []):
+        kural_id = getattr(b, "kural_id", None)
+        if not kural_id or kural_id in raporda:
+            continue
+        cikti.append({
+            "kural_no": kural_id,
+            "duzey": str(getattr(b, "onem", "hata")),
+            "mesaj": getattr(b, "baslik", "") or kural_id,
+            "mevzuat": getattr(b, "dayanak", None) or "Yazar iç denetimi",
+            "aciklama": getattr(b, "aciklama", None),
+            "alinti": getattr(b, "alinti", None),
+            "oneri": getattr(b, "duzeltme_onerisi", None),
+            "cozuldu": False,
+        })
+    return cikti
+
+
 def _sonraki_adim(no: int) -> int | None:
     sira = sunum.KOSMA_SIRASI
     try:
@@ -384,6 +424,8 @@ async def _kosuyu_baslat(evrak_id: str) -> None:
         kayit["dosya"] = dosya
         kayit["toplam_ms"] = round((time.perf_counter() - t_bas) * 1000)
         kayit["linter_tur"] = getattr(sonuc.yazar, "tur_sayisi", 1) or 1
+        kayit["linter_pes"] = bool(getattr(sonuc.yazar, "pes_edildi", False))
+        kayit["ic_bulgular"] = _ic_bulgulari(dosya, sonuc.yazar)
         kayit["hatalar"] = list(sonuc.hatalar)
         kayit["uyarilar"] = list(sonuc.uyarilar)
         kayit["atlanan"] = list(sonuc.atlanan)

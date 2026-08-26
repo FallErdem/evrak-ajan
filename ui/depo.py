@@ -47,8 +47,12 @@ DEFTER_DOSYASI = BURASI / "defter.db"
 # Sarmalayıcıda saklanan, `Dosya` şemasına girmeyen alanlar.
 SARMAL_ALANLAR = (
     "calisma_id", "dosya_adi", "yuklenme_ts", "toplam_ms", "linter_tur",
+    # `linter_pes` ve `ic_bulgular` YazarSonucu'ndan geliyor ve `Dosya`ya
+    # yazılmıyor; burada saklanmazlarsa sunucu yeniden başladığında üslup
+    # döngüsünün pes ettiği bilgisi kayboluyor.
+    "linter_pes", "ic_bulgular",
     "gunluk", "sevk", "defter_kaydi", "hatalar", "uyarilar", "atlanan",
-    "llm_cagrisi",
+    "llm_cagrisi", "yol",
 )
 
 

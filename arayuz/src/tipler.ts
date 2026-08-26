@@ -161,6 +161,12 @@ export type UslupBulgusu = {
   mesaj: string
   mevzuat: string
   cozuldu: boolean
+  /** Kuralın ne dediği; iç denetim bulgularında dolu gelir. */
+  aciklama?: string | null
+  /** Taslaktan birebir alıntı — bulgunun nerede olduğu. */
+  alinti?: string | null
+  /** Yazar'ın kendi düzeltme önerisi. Memura ne yapacağını söyler. */
+  oneri?: string | null
 }
 
 export type BirimAdayi = { birim: string; birim_adi: string; skor: number }
@@ -314,6 +320,12 @@ export type Evrak = {
   taslak: Taslak | null
   uslup_bulgulari: UslupBulgusu[] | null
   linter_tur_sayisi: number | null
+  /**
+   * Üslup döngüsü ihlalleri düzeltemeden pes etti mi. `linter_tur_sayisi`
+   * tek başına yanıltıcı: 2 tur hem "ikinci turda geçti" hem "iki turda
+   * düzeltemedi" olabilir. Sahte sunucu göndermiyor, o yüzden isteğe bağlı.
+   */
+  linter_pes_edildi?: boolean
   yonlendirme: Yonlendirme | null
   guven_kapisi: GuvenKapisi | null
 
