@@ -58,3 +58,10 @@ ui/defter.db
 ui/yuklenen/
 
 .gitignore:NN:/*_sonuc*.txt
+# --- Yedek klasorleri ----------------------------------------------------
+# Kokteki yedek_govdeler, deneyler/adim4/govdeler_yedek_* klasorunun
+# ilk 120 dosyasinin bayt bayt kopyasiydi.
+# govdeler_yedek_* ise dilekce_ayristir.py'nin tarih damgasiyla
+# kendi urettigi yedek (satir 97) - her kosumda yenisi olusur.
+/yedek_govdeler/
+deneyler/adim4/govdeler_yedek_*/
