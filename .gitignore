@@ -56,3 +56,5 @@ tani_sonuc.txt
 ui/evraklar_gercek.json
 ui/defter.db
 ui/yuklenen/
+
+.gitignore:NN:/*_sonuc*.txt
