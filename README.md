@@ -24,8 +24,7 @@ Sistem mimarisi; özerkliğin gerektiği yerlerde ajanların, mümkün olan yerl
 
 Aşağıda sistemin genel akış şeması yer almaktadır:
 
-<img width="4620" height="8192" alt="Image" src="https://github.com/user-attachments/assets/7bae5147-1df8-43e7-a612-844f486a5eb2" />
-
+<img width="4620" height="8192" alt="Image" src="https://github.com/user-attachments/assets/b865e980-d4b8-46c6-a102-1c075b673f1c" />
 
 > **Mimari Notu:** Yukarıdaki akış şeması kavramsal olarak 12 adımı gösterse de, sistem entegrasyonu aşamasında bileşenler optimize edilerek **8 ana bileşene** indirilmiştir (Örn: Sınıflandırıcı ve Bilgi Çıkarıcı tek bir *Anlama* modülünde birleşmiştir).
 > 
